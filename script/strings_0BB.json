@@ -6,8 +6,8 @@
   ],
   "slot": 44,
   "jp": "おおきいほうの　プレイヤーが　せんこうです",
-  "en": "",
-  "status": "todo"
+  "en": "the bigger number goes first.",
+  "status": "done"
  },
  {
   "id": "t0BB03C",
@@ -16,8 +16,8 @@
   ],
   "slot": 24,
   "jp": "１Ｐが　せんこう　です",
-  "en": "",
-  "status": "todo"
+  "en": "P1 goes first.",
+  "status": "done"
  },
  {
   "id": "t0BB054",
@@ -26,8 +26,8 @@
   ],
   "slot": 24,
   "jp": "２Ｐが　こうこう　です",
-  "en": "",
-  "status": "todo"
+  "en": "P2 goes second.",
+  "status": "done"
  },
  {
   "id": "t0BB06C",
@@ -36,8 +36,8 @@
   ],
   "slot": 24,
   "jp": "１Ｐが　こうこう　です",
-  "en": "",
-  "status": "todo"
+  "en": "P1 goes second.",
+  "status": "done"
  },
  {
   "id": "t0BB084",
@@ -46,8 +46,8 @@
   ],
   "slot": 24,
   "jp": "２Ｐが　せんこう　です",
-  "en": "",
-  "status": "todo"
+  "en": "P2 goes first.",
+  "status": "done"
  },
  {
   "id": "t0BB09C",
@@ -100,8 +100,8 @@
   ],
   "slot": 16,
   "jp": "　　（＾＾）",
-  "en": "",
-  "status": "todo"
+  "en": "(^^)",
+  "status": "done"
  },
  {
   "id": "t0BB0D8",
@@ -110,8 +110,8 @@
   ],
   "slot": 20,
   "jp": "しょうねんアシベ",
-  "en": "",
-  "status": "todo"
+  "en": "Ashibe Boy",
+  "status": "done"
  },
  {
   "id": "t0BB0EC",
@@ -120,8 +120,8 @@
   ],
   "slot": 20,
   "jp": "アイスカフェラテ",
-  "en": "",
-  "status": "todo"
+  "en": "Iced Latte",
+  "status": "done"
  },
  {
   "id": "t0BB100",
@@ -130,8 +130,8 @@
   ],
   "slot": 20,
   "jp": "あやしいバイヤー",
-  "en": "",
-  "status": "todo"
+  "en": "Shady Buyer",
+  "status": "done"
  },
  {
   "id": "t0BB114",
@@ -140,8 +140,8 @@
   ],
   "slot": 16,
   "jp": "かちポイント／",
-  "en": "",
-  "status": "todo"
+  "en": "Win points:",
+  "status": "done"
  },
  {
   "id": "t0BB124",
@@ -150,8 +150,8 @@
   ],
   "slot": 8,
   "jp": "のこり",
-  "en": "",
-  "status": "todo"
+  "en": "Left:",
+  "status": "done"
  },
  {
   "id": "t0BB12C",
@@ -160,8 +160,8 @@
   ],
   "slot": 8,
   "jp": "たい",
-  "en": "",
-  "status": "todo"
+  "en": "Dyna",
+  "status": "done"
  },
  {
   "id": "t0BB134",
@@ -170,8 +170,8 @@
   ],
   "slot": 16,
   "jp": "まけポイント／",
-  "en": "",
-  "status": "todo"
+  "en": "Loss points:",
+  "status": "done"
  },
  {
   "id": "t0BB144",
@@ -235,8 +235,8 @@
   ],
   "slot": 16,
   "jp": "　　（＾＾）",
-  "en": "",
-  "status": "todo"
+  "en": "(^^)",
+  "status": "done"
  },
  {
   "id": "t0BB190",
@@ -245,8 +245,8 @@
   ],
   "slot": 20,
   "jp": "しょうねんアシベ",
-  "en": "",
-  "status": "todo"
+  "en": "Ashibe Boy",
+  "status": "done"
  },
  {
   "id": "t0BB1A4",
@@ -255,8 +255,8 @@
   ],
   "slot": 20,
   "jp": "アイスカフェラテ",
-  "en": "",
-  "status": "todo"
+  "en": "Iced Latte",
+  "status": "done"
  },
  {
   "id": "t0BB1B8",
@@ -265,8 +265,8 @@
   ],
   "slot": 20,
   "jp": "あやしいバイヤー",
-  "en": "",
-  "status": "todo"
+  "en": "Shady Buyer",
+  "status": "done"
  },
  {
   "id": "t0BB1CC",
@@ -275,8 +275,8 @@
   ],
   "slot": 4,
   "jp": "む",
-  "en": "",
-  "status": "todo"
+  "en": "none",
+  "status": "done"
  },
  {
   "id": "t0BB1D0",
@@ -285,8 +285,8 @@
   ],
   "slot": 24,
   "jp": "{C2}ダイナデータベース",
-  "en": "",
-  "status": "todo"
+  "en": "{C2}Dyna Database",
+  "status": "done"
  },
  {
   "id": "t0BB1E8",
@@ -313,8 +313,8 @@
   ],
   "slot": 20,
   "jp": "ーーーーーーーー",
-  "en": "",
-  "status": "todo"
+  "en": "--------",
+  "status": "done"
  },
  {
   "id": "t0BB204",
@@ -323,8 +323,8 @@
   ],
   "slot": 16,
   "jp": "{C2}{%sR0}タイプ",
-  "en": "",
-  "status": "todo"
+  "en": "{C2}{%sR0} type",
+  "status": "done"
  },
  {
   "id": "t0BB214",
@@ -333,8 +333,8 @@
   ],
   "slot": 16,
   "jp": "{C2}{%sR0}スタイル",
-  "en": "",
-  "status": "todo"
+  "en": "{C2}{%sR0} style",
+  "status": "done"
  },
  {
   "id": "t0BB224",
@@ -343,8 +343,8 @@
   ],
   "slot": 16,
   "jp": "{C2}{%sR0}ぞくせい",
-  "en": "",
-  "status": "todo"
+  "en": "{C2}Elem. {%sR0}",
+  "status": "done"
  },
  {
   "id": "t0BB234",
@@ -354,8 +354,8 @@
   ],
   "slot": 12,
   "jp": "{C2}＋{%02dR1}",
-  "en": "",
-  "status": "todo"
+  "en": "{C2}+{%02dR1}",
+  "status": "done"
  },
  {
   "id": "t0BB240",
@@ -388,8 +388,8 @@
   ],
   "slot": 12,
   "jp": "{C2}＋{%02dR0}",
-  "en": "",
-  "status": "todo"
+  "en": "{C2}+{%02dR0}",
+  "status": "done"
  },
  {
   "id": "t0BB260",
@@ -400,8 +400,8 @@
   ],
   "slot": 12,
   "jp": "{C2}ーーー",
-  "en": "",
-  "status": "todo"
+  "en": "{C2}---",
+  "status": "done"
  },
  {
   "id": "t0BB26C",
@@ -410,8 +410,8 @@
   ],
   "slot": 20,
   "jp": "なにを　しますか？",
-  "en": "",
-  "status": "todo"
+  "en": "What to do?",
+  "status": "done"
  },
  {
   "id": "t0BB280",
@@ -420,8 +420,8 @@
   ],
   "slot": 44,
   "jp": "　　つれていく　　　ステータス　　　にがす",
-  "en": "",
-  "status": "todo"
+  "en": "    Take           Status         Free",
+  "status": "done"
  },
  {
   "id": "t0BB2AC",
@@ -430,8 +430,8 @@
   ],
   "slot": 44,
   "jp": "ほんとうに　にがしても　よろしいですか？",
-  "en": "",
-  "status": "todo"
+  "en": "Really release it?",
+  "status": "done"
  },
  {
   "id": "t0BB2D8",
@@ -440,8 +440,8 @@
   ],
   "slot": 32,
   "jp": "　　　　　はい　　　　いいえ",
-  "en": "",
-  "status": "todo"
+  "en": "          Yes         No",
+  "status": "done"
  },
  {
   "id": "t0BB2F8",
@@ -450,8 +450,8 @@
   ],
   "slot": 40,
   "jp": "すでに　３たい　つれあるいているため",
-  "en": "",
-  "status": "todo"
+  "en": "You have 3 Dyna with you,",
+  "status": "done"
  },
  {
   "id": "t0BB320",
@@ -460,8 +460,8 @@
   ],
   "slot": 32,
   "jp": "これいじょう　つれていけません",
-  "en": "",
-  "status": "todo"
+  "en": "so you can't take any more.",
+  "status": "done"
  },
  {
   "id": "t0BB340",
@@ -470,8 +470,8 @@
   ],
   "slot": 32,
   "jp": "ダイナを　せんたくしてください",
-  "en": "",
-  "status": "todo"
+  "en": "Please choose a Dyna.",
+  "status": "done"
  },
  {
   "id": "t0BB360",
@@ -480,8 +480,8 @@
   ],
   "slot": 36,
   "jp": "つれていくを　えらんでください！",
-  "en": "",
-  "status": "todo"
+  "en": "Please choose Take!",
+  "status": "done"
  },
  {
   "id": "t0BB384",
@@ -490,8 +490,8 @@
   ],
   "slot": 24,
   "jp": "{%02dR0}／{%02dR1}ページ",
-  "en": "",
-  "status": "todo"
+  "en": "Page {%02dR0}/{%02dR1}",
+  "status": "done"
  },
  {
   "id": "t0BB39C",
@@ -500,8 +500,8 @@
   ],
   "slot": 4,
   "jp": "／",
-  "en": "",
-  "status": "todo"
+  "en": "/",
+  "status": "done"
  },
  {
   "id": "t0BB3A0",
@@ -533,8 +533,8 @@
   ],
   "slot": 20,
   "jp": "ーーーーーーーー",
-  "en": "",
-  "status": "todo"
+  "en": "--------",
+  "status": "done"
  },
  {
   "id": "t0BB3C4",
@@ -558,8 +558,8 @@
   ],
   "slot": 12,
   "jp": "{C3}＋{%02dR1}",
-  "en": "",
-  "status": "todo"
+  "en": "{C3}+{%02dR1}",
+  "status": "done"
  },
  {
   "id": "t0BB3D8",
@@ -569,8 +569,8 @@
   ],
   "slot": 20,
   "jp": "ウエポンデバイス１",
-  "en": "",
-  "status": "todo"
+  "en": "Weapon Device 1",
+  "status": "done"
  },
  {
   "id": "t0BB3EC",
@@ -580,8 +580,8 @@
   ],
   "slot": 20,
   "jp": "ウエポンデバイス２",
-  "en": "",
-  "status": "todo"
+  "en": "Weapon Device 2",
+  "status": "done"
  },
  {
   "id": "t0BB400",
@@ -591,8 +591,8 @@
   ],
   "slot": 20,
   "jp": "ウエポンデバイス３",
-  "en": "",
-  "status": "todo"
+  "en": "Weapon Device 3",
+  "status": "done"
  },
  {
   "id": "t0BB414",
@@ -602,8 +602,8 @@
   ],
   "slot": 20,
   "jp": "アーマーデバイス　",
-  "en": "",
-  "status": "todo"
+  "en": "Armor Device",
+  "status": "done"
  },
  {
   "id": "t0BB428",
@@ -624,8 +624,8 @@
   ],
   "slot": 12,
   "jp": "＋{%02dR1}",
-  "en": "",
-  "status": "todo"
+  "en": "+{%02dR1}",
+  "status": "done"
  },
  {
   "id": "t0BB43C",
@@ -634,8 +634,8 @@
   ],
   "slot": 16,
   "jp": "デバイスなし",
-  "en": "",
-  "status": "todo"
+  "en": "No Device",
+  "status": "done"
  },
  {
   "id": "t0BB44C",
@@ -710,8 +710,8 @@
   ],
   "slot": 20,
   "jp": "〒{%02dR0}ー{%02dR1}",
-  "en": "",
-  "status": "todo"
+  "en": "{%02dR0}-{%02dR1}",
+  "status": "done"
  },
  {
   "id": "t0BB498",
@@ -720,8 +720,8 @@
   ],
   "slot": 16,
   "jp": "セクタタイプ／",
-  "en": "",
-  "status": "todo"
+  "en": "Sector type:",
+  "status": "done"
  },
  {
   "id": "t0BB4A8",
@@ -730,8 +730,8 @@
   ],
   "slot": 20,
   "jp": "セクタバリュー／",
-  "en": "",
-  "status": "todo"
+  "en": "Sector value:",
+  "status": "done"
  },
  {
   "id": "t0BB4BC",
@@ -751,8 +751,8 @@
   ],
   "slot": 24,
   "jp": "マイキャラ　のいどう",
-  "en": "",
-  "status": "todo"
+  "en": "Move character",
+  "status": "done"
  },
  {
   "id": "t0BB4DC",
@@ -761,8 +761,8 @@
   ],
   "slot": 12,
   "jp": "ショット",
-  "en": "",
-  "status": "todo"
+  "en": "Shoot",
+  "status": "done"
  },
  {
   "id": "t0BB4E8",
@@ -771,8 +771,8 @@
   ],
   "slot": 20,
   "jp": "ポーズ・ギブアップ",
-  "en": "",
-  "status": "todo"
+  "en": "Pause/Give up",
+  "status": "done"
  },
  {
   "id": "t0BB4FC",
@@ -781,8 +781,8 @@
   ],
   "slot": 32,
   "jp": "（タイマーは　とまりません）",
-  "en": "",
-  "status": "todo"
+  "en": "(The timer keeps running.)",
+  "status": "done"
  },
  {
   "id": "t0BB51C",
@@ -791,8 +791,8 @@
   ],
   "slot": 20,
   "jp": "２ふんの　あいだに",
-  "en": "",
-  "status": "todo"
+  "en": "A game where you",
+  "status": "done"
  },
  {
   "id": "t0BB530",
@@ -801,8 +801,8 @@
   ],
   "slot": 24,
   "jp": "できるだけ　おおくの",
-  "en": "",
-  "status": "todo"
+  "en": "try to score as",
+  "status": "done"
  },
  {
   "id": "t0BB548",
@@ -811,8 +811,8 @@
   ],
   "slot": 24,
   "jp": "とくてんを　とることを",
-  "en": "",
-  "status": "todo"
+  "en": "many points as you",
+  "status": "done"
  },
  {
   "id": "t0BB560",
@@ -821,8 +821,8 @@
   ],
   "slot": 20,
   "jp": "めざす　ゲームです",
-  "en": "",
-  "status": "todo"
+  "en": "can in 2 minutes.",
+  "status": "done"
  },
  {
   "id": "t0BB574",
@@ -831,8 +831,8 @@
   ],
   "slot": 32,
   "jp": "さまざまな　かくしボーナスを",
-  "en": "",
-  "status": "todo"
+  "en": "Find all kinds of",
+  "status": "done"
  },
  {
   "id": "t0BB594",
@@ -841,8 +841,8 @@
   ],
   "slot": 32,
   "jp": "みつけだして　こうとくてんを",
-  "en": "",
-  "status": "todo"
+  "en": "hidden bonuses for",
+  "status": "done"
  },
  {
   "id": "t0BB5B4",
@@ -851,8 +851,8 @@
   ],
   "slot": 20,
   "jp": "ゲットしてください",
-  "en": "",
-  "status": "todo"
+  "en": "a high score!",
+  "status": "done"
  },
  {
   "id": "t0BB5C8",
@@ -861,8 +861,8 @@
   ],
   "slot": 20,
   "jp": "カーソルの　いどう",
-  "en": "",
-  "status": "todo"
+  "en": "Move the cursor",
+  "status": "done"
  },
  {
   "id": "t0BB5DC",
@@ -871,8 +871,8 @@
   ],
   "slot": 16,
   "jp": "ボタンを　おす",
-  "en": "",
-  "status": "todo"
+  "en": "Press a switch",
+  "status": "done"
  },
  {
   "id": "t0BB5EC",
@@ -881,8 +881,8 @@
   ],
   "slot": 20,
   "jp": "めじるしを　つける",
-  "en": "",
-  "status": "todo"
+  "en": "Mark a switch",
+  "status": "done"
  },
  {
   "id": "t0BB600",
@@ -891,8 +891,8 @@
   ],
   "slot": 20,
   "jp": "ポーズ・ギブアップ",
-  "en": "",
-  "status": "todo"
+  "en": "Pause/Give up",
+  "status": "done"
  },
  {
   "id": "t0BB614",
@@ -901,8 +901,8 @@
   ],
   "slot": 24,
   "jp": "スイッチに　ついている",
-  "en": "",
-  "status": "todo"
+  "en": "Some switches give",
+  "status": "done"
  },
  {
   "id": "t0BB62C",
@@ -911,8 +911,8 @@
   ],
   "slot": 28,
   "jp": "すうじの　かずだけ　その",
-  "en": "",
-  "status": "todo"
+  "en": "a shock as many",
+  "status": "done"
  },
  {
   "id": "t0BB648",
@@ -921,8 +921,8 @@
   ],
   "slot": 28,
   "jp": "ほうこうに　かんでんする",
-  "en": "",
-  "status": "todo"
+  "en": "squares as their",
+  "status": "done"
  },
  {
   "id": "t0BB664",
@@ -931,8 +931,8 @@
   ],
   "slot": 24,
   "jp": "スイッチが　あります",
-  "en": "",
-  "status": "todo"
+  "en": "number, that way.",
+  "status": "done"
  },
  {
   "id": "t0BB67C",
@@ -941,8 +941,8 @@
   ],
   "slot": 28,
   "jp": "よけながら　それいがいの",
-  "en": "",
-  "status": "todo"
+  "en": "Dodge those, and",
+  "status": "done"
  },
  {
   "id": "t0BB698",
@@ -951,8 +951,8 @@
   ],
   "slot": 20,
   "jp": "スイッチを　すべて",
-  "en": "",
-  "status": "todo"
+  "en": "press all of the",
+  "status": "done"
  },
  {
   "id": "t0BB6AC",
@@ -961,8 +961,8 @@
   ],
   "slot": 16,
   "jp": "おしてください",
-  "en": "",
-  "status": "todo"
+  "en": "other switches.",
+  "status": "done"
  },
  {
   "id": "t0BB6BC",
@@ -971,8 +971,8 @@
   ],
   "slot": 24,
   "jp": "マイキャラ　のいどう",
-  "en": "",
-  "status": "todo"
+  "en": "Move character",
+  "status": "done"
  },
  {
   "id": "t0BB6D4",
@@ -981,8 +981,8 @@
   ],
   "slot": 24,
   "jp": "みぎてで　エサをもつ",
-  "en": "",
-  "status": "todo"
+  "en": "Food in right hand",
+  "status": "done"
  },
  {
   "id": "t0BB6EC",
@@ -991,8 +991,8 @@
   ],
   "slot": 24,
   "jp": "ひだりてで　エサをもつ",
-  "en": "",
-  "status": "todo"
+  "en": "Food in left hand",
+  "status": "done"
  },
  {
   "id": "t0BB704",
@@ -1001,8 +1001,8 @@
   ],
   "slot": 20,
   "jp": "ポーズ・ギブアップ",
-  "en": "",
-  "status": "todo"
+  "en": "Pause/Give up",
+  "status": "done"
  },
  {
   "id": "t0BB718",
@@ -1011,8 +1011,8 @@
   ],
   "slot": 20,
   "jp": "４たいの　ダイナが",
-  "en": "",
-  "status": "todo"
+  "en": "4 Dyna will keep",
+  "status": "done"
  },
  {
   "id": "t0BB72C",
@@ -1021,8 +1021,8 @@
   ],
   "slot": 28,
   "jp": "つぎつぎと　ほしがるエサを",
-  "en": "",
-  "status": "todo"
+  "en": "asking for food:",
+  "status": "done"
  },
  {
   "id": "t0BB748",
@@ -1031,8 +1031,8 @@
   ],
   "slot": 28,
   "jp": "ホンキで　おこりだすまえに",
-  "en": "",
-  "status": "todo"
+  "en": "feed them before",
+  "status": "done"
  },
  {
   "id": "t0BB764",
@@ -1041,8 +1041,8 @@
   ],
   "slot": 24,
   "jp": "あたえていくゲームです",
-  "en": "",
-  "status": "todo"
+  "en": "they really get mad!",
+  "status": "done"
  },
  {
   "id": "t0BB77C",
@@ -1051,8 +1051,8 @@
   ],
   "slot": 24,
   "jp": "おこりはじめたときに",
-  "en": "",
-  "status": "todo"
+  "en": "Just as one starts",
+  "status": "done"
  },
  {
   "id": "t0BB794",
@@ -1061,8 +1061,8 @@
   ],
   "slot": 20,
   "jp": "エサを　あたえると",
-  "en": "",
-  "status": "todo"
+  "en": "to get mad, food",
+  "status": "done"
  },
  {
   "id": "t0BB7A8",
@@ -1071,7 +1071,7 @@
   ],
   "slot": 24,
   "jp": "こうとくてんに　なります",
-  "en": "",
-  "status": "todo"
+  "en": "gets a high score!",
+  "status": "done"
  }
 ]

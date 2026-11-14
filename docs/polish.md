@@ -22,3 +22,12 @@ Minor issues to revisit before release (phase 9 needs every line ticked). `[ ]` 
 - [ ] t0B9944 date prompt: fields padded to JP cols 6/10 so the cursor should sit over them; check.
 - [ ] Panel lines end in spaces to col 10 so a shorter line still covers the 11 cells the JP redrew.
 - [ ] Kept JP (code slices them): calendar digit rows t0B8F78/t0B9124, digits t0B967C, "／" t0B9694.
+
+## b044-b045 (phase 6)
+- [ ] t0BB224 "{C2}Elem. {%sR0}" (Dyna Database): abbreviated because lint counts the register as 64 px; it only
+  holds element words (longest "thunder"), so "Element {%sR0}" probably fits: check in game, then raise the budget.
+- [ ] t0BB280 "<@2>Take<@10>Status<@18>Free": "Release" (as in t0BA7C4 / t0BB2AC) overruns 168 px at col 18.
+- [ ] t0BAF6C "Linking...<@10>" + kept blank t0BAF84 (11 cells): check the link status line clears.
+- [ ] t0BAF9C/t0BB0C8/t0BB180 "(^^)", "Ashibe Boy", "Iced Latte", "Shady Buyer": default names in the link
+  battle / minigame screens (unsure where they show; しょうねんアシベ is a manga title parody).
+- [ ] Minigame help pages t0BB4C4-t0BB7A8 (3 games): line order assumed by pointer order, 4 lines a page.

@@ -1356,8 +1356,8 @@
   ],
   "slot": 12,
   "jp": "アースライ",
-  "en": "",
-  "status": "todo"
+  "en": "Earth Rai",
+  "status": "done"
  },
  {
   "id": "t0BA908",
@@ -1366,8 +1366,8 @@
   ],
   "slot": 12,
   "jp": "ボムミスト",
-  "en": "",
-  "status": "todo"
+  "en": "Bomb Mist",
+  "status": "done"
  },
  {
   "id": "t0BA914",
@@ -1376,8 +1376,8 @@
   ],
   "slot": 16,
   "jp": "フレアミスト",
-  "en": "",
-  "status": "todo"
+  "en": "Flare Mist",
+  "status": "done"
  },
  {
   "id": "t0BA924",
@@ -1386,8 +1386,8 @@
   ],
   "slot": 12,
   "jp": "ボムアクア",
-  "en": "",
-  "status": "todo"
+  "en": "Bomb Aqua",
+  "status": "done"
  },
  {
   "id": "t0BA930",
@@ -1396,8 +1396,8 @@
   ],
   "slot": 16,
   "jp": "フレアアクア",
-  "en": "",
-  "status": "todo"
+  "en": "Flare Aqua",
+  "status": "done"
  },
  {
   "id": "t0BA940",
@@ -1406,8 +1406,8 @@
   ],
   "slot": 16,
   "jp": "グランミスト",
-  "en": "",
-  "status": "todo"
+  "en": "Gran Mist",
+  "status": "done"
  },
  {
   "id": "t0BA950",
@@ -1416,8 +1416,8 @@
   ],
   "slot": 16,
   "jp": "アースミスト",
-  "en": "",
-  "status": "todo"
+  "en": "Earth Mist",
+  "status": "done"
  },
  {
   "id": "t0BA960",
@@ -1426,8 +1426,8 @@
   ],
   "slot": 16,
   "jp": "グランアクア",
-  "en": "",
-  "status": "todo"
+  "en": "Gran Aqua",
+  "status": "done"
  },
  {
   "id": "t0BA970",
@@ -1436,8 +1436,8 @@
   ],
   "slot": 16,
   "jp": "アースアクア",
-  "en": "",
-  "status": "todo"
+  "en": "Earth Aqua",
+  "status": "done"
  },
  {
   "id": "t0BA980",
@@ -1446,8 +1446,8 @@
   ],
   "slot": 12,
   "jp": "エレキボム",
-  "en": "",
-  "status": "todo"
+  "en": "Elec Bomb",
+  "status": "done"
  },
  {
   "id": "t0BA98C",
@@ -1456,8 +1456,8 @@
   ],
   "slot": 16,
   "jp": "エレキフレア",
-  "en": "",
-  "status": "todo"
+  "en": "Elec Flare",
+  "status": "done"
  },
  {
   "id": "t0BA99C",
@@ -1466,8 +1466,8 @@
   ],
   "slot": 12,
   "jp": "ライボム",
-  "en": "",
-  "status": "todo"
+  "en": "Rai Bomb",
+  "status": "done"
  },
  {
   "id": "t0BA9A8",
@@ -1476,8 +1476,8 @@
   ],
   "slot": 12,
   "jp": "ライフレア",
-  "en": "",
-  "status": "todo"
+  "en": "Rai Flare",
+  "status": "done"
  },
  {
   "id": "t0BA9B4",
@@ -1486,8 +1486,8 @@
   ],
   "slot": 16,
   "jp": "エレキアース",
-  "en": "",
-  "status": "todo"
+  "en": "Elec Earth",
+  "status": "done"
  },
  {
   "id": "t0BA9C4",
@@ -1496,8 +1496,8 @@
   ],
   "slot": 12,
   "jp": "フレアボム",
-  "en": "",
-  "status": "todo"
+  "en": "Flare Bomb",
+  "status": "done"
  },
  {
   "id": "t0BA9D0",
@@ -1506,8 +1506,8 @@
   ],
   "slot": 12,
   "jp": "グランボム",
-  "en": "",
-  "status": "todo"
+  "en": "Gran Bomb",
+  "status": "done"
  },
  {
   "id": "t0BA9DC",
@@ -1516,8 +1516,8 @@
   ],
   "slot": 12,
   "jp": "アイスボム",
-  "en": "",
-  "status": "todo"
+  "en": "Ice Bomb",
+  "status": "done"
  },
  {
   "id": "t0BA9E8",
@@ -1526,8 +1526,8 @@
   ],
   "slot": 16,
   "jp": "ミストサンド",
-  "en": "",
-  "status": "todo"
+  "en": "Mist Sand",
+  "status": "done"
  },
  {
   "id": "t0BA9F8",
@@ -1536,8 +1536,8 @@
   ],
   "slot": 16,
   "jp": "アクアボルト",
-  "en": "",
-  "status": "todo"
+  "en": "Aqua Bolt",
+  "status": "done"
  },
  {
   "id": "t0BAA08",
@@ -1546,8 +1546,8 @@
   ],
   "slot": 16,
   "jp": "アクアアイス",
-  "en": "",
-  "status": "todo"
+  "en": "Aqua Ice",
+  "status": "done"
  },
  {
   "id": "t0BAA18",
@@ -1556,8 +1556,8 @@
   ],
   "slot": 16,
   "jp": "フレアヒート",
-  "en": "",
-  "status": "todo"
+  "en": "Flare Heat",
+  "status": "done"
  },
  {
   "id": "t0BAA28",
@@ -1566,8 +1566,8 @@
   ],
   "slot": 8,
   "jp": "きぜつ",
-  "en": "",
-  "status": "todo"
+  "en": "Knocked out",
+  "status": "done"
  },
  {
   "id": "t0BAA30",
@@ -1576,8 +1576,8 @@
   ],
   "slot": 12,
   "jp": "めつぶし",
-  "en": "",
-  "status": "todo"
+  "en": "Blinded",
+  "status": "done"
  },
  {
   "id": "t0BAA3C",
@@ -1586,8 +1586,8 @@
   ],
   "slot": 12,
   "jp": "かんでん",
-  "en": "",
-  "status": "todo"
+  "en": "Shocked",
+  "status": "done"
  },
  {
   "id": "t0BAA48",
@@ -1596,8 +1596,8 @@
   ],
   "slot": 8,
   "jp": "こおり",
-  "en": "",
-  "status": "todo"
+  "en": "Frozen",
+  "status": "done"
  },
  {
   "id": "t0BAA50",
@@ -1606,8 +1606,8 @@
   ],
   "slot": 8,
   "jp": "ヤケド",
-  "en": "",
-  "status": "todo"
+  "en": "Burned",
+  "status": "done"
  },
  {
   "id": "t0BAA58",
@@ -1616,8 +1616,8 @@
   ],
   "slot": 12,
   "jp": "こんらん",
-  "en": "",
-  "status": "todo"
+  "en": "Confused",
+  "status": "done"
  },
  {
   "id": "t0BAA64",
@@ -1626,8 +1626,8 @@
   ],
   "slot": 8,
   "jp": "マヒ",
-  "en": "",
-  "status": "todo"
+  "en": "Paralyzed",
+  "status": "done"
  },
  {
   "id": "t0BAA6C",
@@ -1636,8 +1636,8 @@
   ],
   "slot": 8,
   "jp": "ねむり",
-  "en": "",
-  "status": "todo"
+  "en": "Asleep",
+  "status": "done"
  },
  {
   "id": "t0BAA74",
@@ -1646,8 +1646,8 @@
   ],
   "slot": 8,
   "jp": "ドク",
-  "en": "",
-  "status": "todo"
+  "en": "Poisoned",
+  "status": "done"
  },
  {
   "id": "t0BAA7C",
@@ -1656,8 +1656,8 @@
   ],
   "slot": 20,
   "jp": "{C1}{%3dR0}{C0}／{C1}{%3dR1}",
-  "en": "",
-  "status": "todo"
+  "en": "{C1}{%3dR0}{C0}/{C1}{%3dR1}",
+  "status": "done"
  },
  {
   "id": "t0BAA90",
@@ -1666,8 +1666,8 @@
   ],
   "slot": 16,
   "jp": "{%3dR0}／{%3dR1}",
-  "en": "",
-  "status": "todo"
+  "en": "{%3dR0}/{%3dR1}",
+  "status": "done"
  },
  {
   "id": "t0BAAA0",
@@ -1700,7 +1700,8 @@
   "slot": 20,
   "jp": "　　　　　　　　",
   "en": "",
-  "status": "todo"
+  "status": "keep",
+  "notes": "JP blank: clears a field"
  },
  {
   "id": "t0BAAC4",
@@ -1710,8 +1711,8 @@
   ],
   "slot": 12,
   "jp": "ていさつ",
-  "en": "",
-  "status": "todo"
+  "en": "Scout",
+  "status": "done"
  },
  {
   "id": "t0BAAD0",
@@ -1721,8 +1722,8 @@
   ],
   "slot": 12,
   "jp": "ちりょう",
-  "en": "",
-  "status": "todo"
+  "en": "Cure",
+  "status": "done"
  },
  {
   "id": "t0BAADC",
@@ -1732,8 +1733,8 @@
   ],
   "slot": 8,
   "jp": "いどう",
-  "en": "",
-  "status": "todo"
+  "en": "Move",
+  "status": "done"
  },
  {
   "id": "t0BAAE4",
@@ -1743,8 +1744,8 @@
   ],
   "slot": 12,
   "jp": "とくしゅ",
-  "en": "",
-  "status": "todo"
+  "en": "Special",
+  "status": "done"
  },
  {
   "id": "t0BAAF0",
@@ -1764,8 +1765,8 @@
   ],
   "slot": 4,
   "jp": "む",
-  "en": "",
-  "status": "todo"
+  "en": "none",
+  "status": "done"
  },
  {
   "id": "t0BAAFC",
@@ -1829,8 +1830,8 @@
   ],
   "slot": 44,
   "jp": "あなたは　４Ｐとして　せつぞくされました",
-  "en": "",
-  "status": "todo"
+  "en": "You are linked as P4.",
+  "status": "done"
  },
  {
   "id": "t0BAB54",
@@ -1839,8 +1840,8 @@
   ],
   "slot": 44,
   "jp": "あなたは　３Ｐとして　せつぞくされました",
-  "en": "",
-  "status": "todo"
+  "en": "You are linked as P3.",
+  "status": "done"
  },
  {
   "id": "t0BAB80",
@@ -1849,8 +1850,8 @@
   ],
   "slot": 44,
   "jp": "あなたは　２Ｐとして　せつぞくされました",
-  "en": "",
-  "status": "todo"
+  "en": "You are linked as P2.",
+  "status": "done"
  },
  {
   "id": "t0BABAC",
@@ -1859,8 +1860,8 @@
   ],
   "slot": 44,
   "jp": "あなたは　１Ｐとして　せつぞくされました",
-  "en": "",
-  "status": "todo"
+  "en": "You are linked as P1.",
+  "status": "done"
  },
  {
   "id": "t0BABD8",
@@ -1869,8 +1870,8 @@
   ],
   "slot": 44,
   "jp": "バトルスタートまで　しばらくおまちください",
-  "en": "",
-  "status": "todo"
+  "en": "Please wait for the battle to start.",
+  "status": "done"
  },
  {
   "id": "t0BAC04",
@@ -1879,8 +1880,8 @@
   ],
   "slot": 40,
   "jp": "きほんてきなようそのみで　バトルする",
-  "en": "",
-  "status": "todo"
+  "en": "Battles with the basics only:",
+  "status": "done"
  },
  {
   "id": "t0BAC2C",
@@ -1889,8 +1890,8 @@
   ],
   "slot": 24,
   "jp": "しょしんしゃむけルール",
-  "en": "",
-  "status": "todo"
+  "en": "rules for beginners.",
+  "status": "done"
  },
  {
   "id": "t0BAC44",
@@ -1899,8 +1900,8 @@
   ],
   "slot": 44,
   "jp": "ダイナの　タイプべつ　とくしゅのうりょくを",
-  "en": "",
-  "status": "todo"
+  "en": "Adds each Dyna type's special ability:",
+  "status": "done"
  },
  {
   "id": "t0BAC70",
@@ -1909,8 +1910,8 @@
   ],
   "slot": 40,
   "jp": "プラスした　じょうきゅうしゃむけルール",
-  "en": "",
-  "status": "todo"
+  "en": "rules for experienced players.",
+  "status": "done"
  },
  {
   "id": "t0BAC98",
@@ -1919,8 +1920,8 @@
   ],
   "slot": 36,
   "jp": "ていさつで　ダイナと　トラップを",
-  "en": "",
-  "status": "todo"
+  "en": "Scout sees Dyna, traps alike:",
+  "status": "done"
  },
  {
   "id": "t0BACBC",
@@ -1929,8 +1930,8 @@
   ],
   "slot": 40,
   "jp": "みわけられなくした　たつじんむけルール",
-  "en": "",
-  "status": "todo"
+  "en": "rules for masters.",
+  "status": "done"
  },
  {
   "id": "t0BACE4",
@@ -1939,8 +1940,8 @@
   ],
   "slot": 48,
   "jp": "バトルの　アニメーションを　ひょうじさせるか",
-  "en": "",
-  "status": "todo"
+  "en": "Choose whether to show",
+  "status": "done"
  },
  {
   "id": "t0BAD14",
@@ -1949,8 +1950,8 @@
   ],
   "slot": 20,
   "jp": "えらんでください",
-  "en": "",
-  "status": "todo"
+  "en": "battle animations.",
+  "status": "done"
  },
  {
   "id": "t0BAD28",
@@ -1959,8 +1960,8 @@
   ],
   "slot": 40,
   "jp": "参加人数が決定したらＡボタンを押して",
-  "en": "",
-  "status": "todo"
+  "en": "When all have joined, press A",
+  "status": "done"
  },
  {
   "id": "t0BAD50",
@@ -1969,8 +1970,8 @@
   ],
   "slot": 16,
   "jp": "お待ちください",
-  "en": "",
-  "status": "todo"
+  "en": "and please wait.",
+  "status": "done"
  },
  {
   "id": "t0BAD60",
@@ -1979,8 +1980,8 @@
   ],
   "slot": 32,
   "jp": "せつぞく　たいきちゅう・・・",
-  "en": "",
-  "status": "todo"
+  "en": "Waiting for link...",
+  "status": "done"
  },
  {
   "id": "t0BAD80",
@@ -1989,8 +1990,8 @@
   ],
   "slot": 44,
   "jp": "Ｂボタンで　まえの　がめんに　もどります",
-  "en": "",
-  "status": "todo"
+  "en": "B Button: back to the last screen",
+  "status": "done"
  },
  {
   "id": "t0BADAC",
@@ -1999,8 +2000,8 @@
   ],
   "slot": 36,
   "jp": "つうしんあいてが　あなたとちがう",
-  "en": "",
-  "status": "todo"
+  "en": "Your link partner chose",
+  "status": "done"
  },
  {
   "id": "t0BADD0",
@@ -2009,8 +2010,8 @@
   ],
   "slot": 28,
   "jp": "こうもくを　えらんでいます",
-  "en": "",
-  "status": "todo"
+  "en": "a different option.",
+  "status": "done"
  },
  {
   "id": "t0BADEC",
@@ -2053,8 +2054,8 @@
   ],
   "slot": 16,
   "jp": "{%03dR0}／{%03dR1}",
-  "en": "",
-  "status": "todo"
+  "en": "{%03dR0}/{%03dR1}",
+  "status": "done"
  },
  {
   "id": "t0BAE14",
@@ -2063,8 +2064,8 @@
   ],
   "slot": 12,
   "jp": "びょうき",
-  "en": "",
-  "status": "todo"
+  "en": "Sick",
+  "status": "done"
  },
  {
   "id": "t0BAE20",
@@ -2073,8 +2074,8 @@
   ],
   "slot": 12,
   "jp": "くうふく",
-  "en": "",
-  "status": "todo"
+  "en": "Hungry",
+  "status": "done"
  },
  {
   "id": "t0BAE2C",
@@ -2083,8 +2084,8 @@
   ],
   "slot": 12,
   "jp": "けんこう",
-  "en": "",
-  "status": "todo"
+  "en": "Healthy",
+  "status": "done"
  },
  {
   "id": "t0BAE38",
@@ -2093,8 +2094,8 @@
   ],
   "slot": 20,
   "jp": "{%dR0}／{%dR1}ページ",
-  "en": "",
-  "status": "todo"
+  "en": "Page {%dR0}/{%dR1}",
+  "status": "done"
  },
  {
   "id": "t0BAE4C",
@@ -2103,8 +2104,8 @@
   ],
   "slot": 16,
   "jp": "〒ｘｘーｘｘ",
-  "en": "",
-  "status": "todo"
+  "en": "xx-xx",
+  "status": "done"
  },
  {
   "id": "t0BAE5C",
@@ -2113,8 +2114,8 @@
   ],
   "slot": 20,
   "jp": "〒{%02dR0}ー{%02dR1}",
-  "en": "",
-  "status": "todo"
+  "en": "{%02dR0}-{%02dR1}",
+  "status": "done"
  },
  {
   "id": "t0BAE70",
@@ -2123,8 +2124,8 @@
   ],
   "slot": 12,
   "jp": "Ｒボタンで",
-  "en": "",
-  "status": "todo"
+  "en": "R Button: shows",
+  "status": "done"
  },
  {
   "id": "t0BAE7C",
@@ -2133,8 +2134,8 @@
   ],
   "slot": 24,
   "jp": "カーソルがあっている",
-  "en": "",
-  "status": "todo"
+  "en": "the data of the",
+  "status": "done"
  },
  {
   "id": "t0BAE94",
@@ -2143,8 +2144,8 @@
   ],
   "slot": 20,
   "jp": "ダイナの　データを",
-  "en": "",
-  "status": "todo"
+  "en": "Dyna the cursor",
+  "status": "done"
  },
  {
   "id": "t0BAEA8",
@@ -2153,8 +2154,8 @@
   ],
   "slot": 16,
   "jp": "ひょうじします",
-  "en": "",
-  "status": "todo"
+  "en": "is on.",
+  "status": "done"
  },
  {
   "id": "t0BAEB8",
@@ -2163,8 +2164,8 @@
   ],
   "slot": 12,
   "jp": "ダイナが",
-  "en": "",
-  "status": "todo"
+  "en": "Without 3 Dyna",
+  "status": "done"
  },
  {
   "id": "t0BAEC4",
@@ -2173,8 +2174,8 @@
   ],
   "slot": 16,
   "jp": "３たいいないと",
-  "en": "",
-  "status": "todo"
+  "en": "with you, you",
+  "status": "done"
  },
  {
   "id": "t0BAED4",
@@ -2183,8 +2184,8 @@
   ],
   "slot": 20,
   "jp": "さんかできません",
-  "en": "",
-  "status": "todo"
+  "en": "can't take part.",
+  "status": "done"
  },
  {
   "id": "t0BAEE8",
@@ -2193,8 +2194,8 @@
   ],
   "slot": 24,
   "jp": "でんどう入りしている",
-  "en": "",
-  "status": "todo"
+  "en": "Hall of Fame",
+  "status": "done"
  },
  {
   "id": "t0BAF00",
@@ -2203,8 +2204,8 @@
   ],
   "slot": 12,
   "jp": "ダイナを",
-  "en": "",
-  "status": "todo"
+  "en": "Dyna can't enter:",
+  "status": "done"
  },
  {
   "id": "t0BAF0C",
@@ -2213,8 +2214,8 @@
   ],
   "slot": 20,
   "jp": "はずしてください",
-  "en": "",
-  "status": "todo"
+  "en": "take them out.",
+  "status": "done"
  },
  {
   "id": "t0BAF20",
@@ -2223,8 +2224,8 @@
   ],
   "slot": 20,
   "jp": "３たい　つかっての",
-  "en": "",
-  "status": "todo"
+  "en": "I want a battle",
+  "status": "done"
  },
  {
   "id": "t0BAF34",
@@ -2233,8 +2234,8 @@
   ],
   "slot": 24,
   "jp": "バトルを　したいから",
-  "en": "",
-  "status": "todo"
+  "en": "with 3 Dyna each,",
+  "status": "done"
  },
  {
   "id": "t0BAF4C",
@@ -2243,8 +2244,8 @@
   ],
   "slot": 20,
   "jp": "３たいで　チームを",
-  "en": "",
-  "status": "todo"
+  "en": "so make a team",
+  "status": "done"
  },
  {
   "id": "t0BAF60",
@@ -2253,8 +2254,8 @@
   ],
   "slot": 12,
   "jp": "くんでね",
-  "en": "",
-  "status": "todo"
+  "en": "of 3, okay?",
+  "status": "done"
  },
  {
   "id": "t0BAF6C",
@@ -2263,8 +2264,8 @@
   ],
   "slot": 24,
   "jp": "つうしんちゅうです　　",
-  "en": "",
-  "status": "todo"
+  "en": "Linking...            ",
+  "status": "done"
  },
  {
   "id": "t0BAF84",
@@ -2274,7 +2275,8 @@
   "slot": 24,
   "jp": "　　　　　　　　　　　",
   "en": "",
-  "status": "todo"
+  "status": "keep",
+  "notes": "JP blank: clears the Linking... field"
  },
  {
   "id": "t0BAF9C",
@@ -2283,8 +2285,8 @@
   ],
   "slot": 16,
   "jp": "　　（＾＾）",
-  "en": "",
-  "status": "todo"
+  "en": "(^^)",
+  "status": "done"
  },
  {
   "id": "t0BAFAC",
@@ -2293,8 +2295,8 @@
   ],
   "slot": 20,
   "jp": "しょうねんアシベ",
-  "en": "",
-  "status": "todo"
+  "en": "Ashibe Boy",
+  "status": "done"
  },
  {
   "id": "t0BAFC0",
@@ -2303,8 +2305,8 @@
   ],
   "slot": 20,
   "jp": "アイスカフェラテ",
-  "en": "",
-  "status": "todo"
+  "en": "Iced Latte",
+  "status": "done"
  },
  {
   "id": "t0BAFD4",
@@ -2313,8 +2315,8 @@
   ],
   "slot": 20,
   "jp": "あやしいバイヤー",
-  "en": "",
-  "status": "todo"
+  "en": "Shady Buyer",
+  "status": "done"
  },
  {
   "id": "t0BAFE8",
@@ -2323,7 +2325,7 @@
   ],
   "slot": 40,
   "jp": "えらんだ　やじるしが　さした　すうじが",
-  "en": "",
-  "status": "todo"
+  "en": "The player whose arrow lands on",
+  "status": "done"
  }
 ]
