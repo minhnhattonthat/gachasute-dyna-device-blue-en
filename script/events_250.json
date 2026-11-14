@@ -4,472 +4,472 @@
   "flag": 0,
   "speaker": -1,
   "jp": "このポイントに　いる　ダイナの\nデータを　よみとった！",
-  "en": "",
-  "status": "todo"
+  "en": "Read the data of the Dyna at this point!",
+  "status": "done"
  },
  {
   "id": "s250.01",
   "flag": 0,
   "speaker": -1,
   "jp": "{%sR0}タイプ　{%sR1}スタイル\n{%sR2}ぞくせい",
-  "en": "",
-  "status": "todo"
+  "en": "{%sR0} type, {%sR1} style\n{%sR2} element",
+  "status": "done"
  },
  {
   "id": "s250.02",
   "flag": 0,
   "speaker": -1,
   "jp": "{%sR4}を　そうびしている{KN}",
-  "en": "",
-  "status": "todo"
+  "en": "It has {%sR4} equipped.{KN}",
+  "status": "done"
  },
  {
   "id": "s251.00",
   "flag": 0,
   "speaker": -1,
   "jp": "このポイントに　いる　ダイナの\nデータを　よみとった！",
-  "en": "",
-  "status": "todo"
+  "en": "Read the data of the Dyna at this point!",
+  "status": "done"
  },
  {
   "id": "s251.01",
   "flag": 0,
   "speaker": -1,
   "jp": "{%sR0}タイプ　{%sR1}スタイル\n{%sR2}ぞくせい",
-  "en": "",
-  "status": "todo"
+  "en": "{%sR0} type, {%sR1} style\n{%sR2} element",
+  "status": "done"
  },
  {
   "id": "s251.02",
   "flag": 0,
   "speaker": -1,
   "jp": "{%sR4}　{%sR5}を\nそうびしている{KN}",
-  "en": "",
-  "status": "todo"
+  "en": "It has {%sR4} and {%sR5}\nequipped.{KN}",
+  "status": "done"
  },
  {
   "id": "s252.00",
   "flag": 0,
   "speaker": -1,
   "jp": "このポイントに　いる　ダイナの\nデータを　よみとった！",
-  "en": "",
-  "status": "todo"
+  "en": "Read the data of the Dyna at this point!",
+  "status": "done"
  },
  {
   "id": "s252.01",
   "flag": 0,
   "speaker": -1,
   "jp": "{%sR0}タイプ　{%sR1}スタイル\n{%sR2}ぞくせい",
-  "en": "",
-  "status": "todo"
+  "en": "{%sR0} type, {%sR1} style\n{%sR2} element",
+  "status": "done"
  },
  {
   "id": "s252.02",
   "flag": 0,
   "speaker": -1,
   "jp": "{%sR4}　{%sR5}\n{%sR6}を　そうびしている{KN}",
-  "en": "",
-  "status": "todo"
+  "en": "It has {%sR4}, {%sR5},\nand {%sR6} equipped.{KN}",
+  "status": "done"
  },
  {
   "id": "s253.00",
   "flag": 0,
   "speaker": -1,
   "jp": "ダイナ　または　トラップが\nそんざいする　ポイントを　みぬいた！{KN}",
-  "en": "",
-  "status": "todo"
+  "en": "Found the points where a Dyna or trap\nis!{KN}",
+  "status": "done"
  },
  {
   "id": "s254.00",
   "flag": 0,
   "speaker": -1,
   "jp": "もういちど　ていさつできます{KN}",
-  "en": "",
-  "status": "todo"
+  "en": "You can scout one more time.{KN}",
+  "status": "done"
  },
  {
   "id": "s255.00",
   "flag": 0,
   "speaker": -1,
   "jp": "{%sR4}は\nとくしゅコマンドはつかえません{KN}",
-  "en": "",
-  "status": "todo"
+  "en": "{%sR4} can't use the Special\ncommand.{KN}",
+  "status": "done"
  },
  {
   "id": "s256.00",
   "flag": 0,
   "speaker": -1,
   "jp": "ステータスを　みたい　ダイナを\nせんたくしてください{KN}",
-  "en": "",
-  "status": "todo"
+  "en": "Please choose the Dyna whose status you\nwant to see.{KN}",
+  "status": "done"
  },
  {
   "id": "s257.00",
   "flag": 0,
   "speaker": -1,
   "jp": "ギブアップしますか？\n　　　　　はい　　　　いいえ{KN}",
-  "en": "",
-  "status": "todo"
+  "en": "Give up?\n          Yes         No{KN}",
+  "status": "done"
  },
  {
   "id": "s258.00",
   "flag": 0,
   "speaker": -1,
   "jp": "２０ターンが　けいかしたので\nバトルを　しゅうりょうします{KN}",
-  "en": "",
-  "status": "todo"
+  "en": "20 turns have passed,\nso the battle is over.{KN}",
+  "status": "done"
  },
  {
   "id": "s259.00",
   "flag": 0,
   "speaker": -1,
   "jp": "バトルしゅうりょうまで\nのこり　５ターンです{KN}",
-  "en": "",
-  "status": "todo"
+  "en": "5 turns left until the battle ends.{KN}",
+  "status": "done"
  },
  {
   "id": "s260.00",
   "flag": 0,
   "speaker": -1,
   "jp": "バトルしゅうりょうまで\nのこり　４ターンです{KN}",
-  "en": "",
-  "status": "todo"
+  "en": "4 turns left until the battle ends.{KN}",
+  "status": "done"
  },
  {
   "id": "s261.00",
   "flag": 0,
   "speaker": -1,
   "jp": "バトルしゅうりょうまで\nのこり　３ターンです{KN}",
-  "en": "",
-  "status": "todo"
+  "en": "3 turns left until the battle ends.{KN}",
+  "status": "done"
  },
  {
   "id": "s262.00",
   "flag": 0,
   "speaker": -1,
   "jp": "バトルしゅうりょうまで\nのこり　２ターンです{KN}",
-  "en": "",
-  "status": "todo"
+  "en": "2 turns left until the battle ends.{KN}",
+  "status": "done"
  },
  {
   "id": "s263.00",
   "flag": 0,
   "speaker": -1,
   "jp": "この　ターンで　バトルは\nしゅうりょうと　なります{KN}",
-  "en": "",
-  "status": "todo"
+  "en": "The battle ends this turn.{KN}",
+  "status": "done"
  },
  {
   "id": "s264.00",
   "flag": 0,
   "speaker": -1,
   "jp": "てきと　みかたが　ぜんめつしました{KN}",
-  "en": "",
-  "status": "todo"
+  "en": "Both sides have been wiped out.{KN}",
+  "status": "done"
  },
  {
   "id": "s265.00",
   "flag": 0,
   "speaker": -1,
   "jp": "みかたは　ぜんめつしました{KN}",
-  "en": "",
-  "status": "todo"
+  "en": "Your side has been wiped out.{KN}",
+  "status": "done"
  },
  {
   "id": "s266.00",
   "flag": 0,
   "speaker": 2,
   "jp": "がははは！　やはり　このあいだの　けっかは\nなにかの　まちがいだったようだな！",
-  "en": "",
-  "status": "todo"
+  "en": "Gahahaha! Looks like last time's result was\nsome kind of mistake after all!",
+  "status": "done"
  },
  {
   "id": "s266.01",
   "flag": 0,
   "speaker": 2,
   "jp": "もうちょい　マシな　デバイスつけて\nでなおしてこい！{KN}",
-  "en": "",
-  "status": "todo"
+  "en": "Go put on some better Devices and come\nback!{KN}",
+  "status": "done"
  },
  {
   "id": "s267.00",
   "flag": 0,
   "speaker": 6,
   "jp": "フヒヒヒヒヒ！　ビビッて　ソンしたデス！\nアンタ　ヨワい！　ヨワすぎデス！",
-  "en": "",
-  "status": "todo"
+  "en": "Fuhihihihihi! I got scared for nothing,\ndesu!{KP}\nYou're weak! Way too weak, desu!",
+  "status": "done"
  },
  {
   "id": "s267.01",
   "flag": 0,
   "speaker": 6,
   "jp": "ワタシは　いそがしいのデス\nヨワっちいガキは　あっちへ　いった　いった！{KN}",
-  "en": "",
-  "status": "todo"
+  "en": "I am busy, desu.{KP}\nWeakling brats, shoo, shoo!{KN}",
+  "status": "done"
  },
  {
   "id": "s268.00",
   "flag": 0,
   "speaker": 9,
   "jp": "{%sR4}せんしゅ\nおしくも　やぶれました！",
-  "en": "",
-  "status": "todo"
+  "en": "{%sR4} has been defeated,{KP}\nso close!",
+  "status": "done"
  },
  {
   "id": "s268.01",
   "flag": 0,
   "speaker": 9,
   "jp": "また　さらに　ダイナを　そだてて\nリベンジに　くることを　きたいしましょう！{KN}",
-  "en": "",
-  "status": "todo"
+  "en": "Let's hope to see this player raise their\nDyna even more{KP}\nand come back for revenge!{KN}",
+  "status": "done"
  },
  {
   "id": "s269.00",
   "flag": 0,
   "speaker": 7,
   "jp": "えへへへぇ・・・\nまぁ　ざっと　こんなもんですぅー",
-  "en": "",
-  "status": "todo"
+  "en": "Ehehehe...{KP}\nWeeell, that's how it goooes.",
+  "status": "done"
  },
  {
   "id": "s269.01",
   "flag": 0,
   "speaker": 7,
   "jp": "なんどやっても　おなじだと　おもうけどぉ\n・・・・・・まだ　やるぅ？{KN}",
-  "en": "",
-  "status": "todo"
+  "en": "I think it'll be the same no matter how\nmany times you try, but...{KP}\n......still want to gooo?{KN}",
+  "status": "done"
  },
  {
   "id": "s270.00",
   "flag": 0,
   "speaker": 3,
   "jp": "やった・・・やったぞ！\n{%sR4}に　かった！",
-  "en": "",
-  "status": "todo"
+  "en": "I did it... I did it!{KP}\nI beat {%sR4}!",
+  "status": "done"
  },
  {
   "id": "s270.01",
   "flag": 0,
   "speaker": 3,
   "jp": "やはり　ダイナは　そだてかたと\nカスタマイズが　だいじだって　ことだね{KN}",
-  "en": "",
-  "status": "todo"
+  "en": "So it really is all about how you raise{KP}\nand customize your Dyna, huh.{KN}",
+  "status": "done"
  },
  {
   "id": "s271.00",
   "flag": 0,
   "speaker": 8,
   "jp": "どうした？　おまえの　ちからは\nこのていどか？",
-  "en": "",
-  "status": "todo"
+  "en": "What's wrong? Is this all you've got?",
+  "status": "done"
  },
  {
   "id": "s271.01",
   "flag": 0,
   "speaker": 8,
   "jp": "おじょうちゃんの　シティが\nかえしてほしけりゃ　しぬきで　きな！{KN}",
-  "en": "",
-  "status": "todo"
+  "en": "If you want the little lady's City back,{KP}\ncome at me like your life depends on it!{KN}",
+  "status": "done"
  },
  {
   "id": "s272.00",
   "flag": 0,
   "speaker": 6,
   "jp": "フヒヒヒヒヒヒヒ！　ワタシが　ちょっと\nホンキだしたら　こんなもんデス！",
-  "en": "",
-  "status": "todo"
+  "en": "Fuhihihihihihihi! This is what happens{KP}\nwhen I get a little serious, desu!",
+  "status": "done"
  },
  {
   "id": "s272.01",
   "flag": 0,
   "speaker": 6,
   "jp": "アンタの　ホンキは　しょせん\nそんなものなのデスかァー？{KN}",
-  "en": "",
-  "status": "todo"
+  "en": "Is that all your \"serious\" amounts to,\ndesuuu?{KN}",
+  "status": "done"
  },
  {
   "id": "s273.00",
   "flag": 0,
   "speaker": 14,
   "jp": "{%sR4}くん・・・\nわたし・・・わたし・・・",
-  "en": "",
-  "status": "todo"
+  "en": "{%sR4}-kun...{KP}\nI... I...",
+  "status": "done"
  },
  {
   "id": "s273.01",
   "flag": 0,
   "speaker": 14,
   "jp": "こんな　かちかた・・・いやだよ・・・\nおねがい・・・わたしを　たおしてよ{KN}",
-  "en": "",
-  "status": "todo"
+  "en": "I don't want to win like this...{KP}\nPlease... beat me...{KN}",
+  "status": "done"
  },
  {
   "id": "s274.00",
   "flag": 0,
   "speaker": 8,
   "jp": "・・・チッ　てこずらせやがって・・・\nこれで　ちからの　さが　わかっただろう",
-  "en": "",
-  "status": "todo"
+  "en": "...Tch. You gave me some trouble...{KP}\nNow you know the difference in our\nstrength.",
+  "status": "done"
  },
  {
   "id": "s274.01",
   "flag": 0,
   "speaker": 8,
   "jp": "おまえに　この　ちからの　さが\nこえられるか？　ふはははははは！{KN}",
-  "en": "",
-  "status": "todo"
+  "en": "Can you ever close that gap?{KP}\nFuhahahahaha!{KN}",
+  "status": "done"
  },
  {
   "id": "s275.00",
   "flag": 0,
   "speaker": 17,
   "jp": "ゲームオーバー・・・おわったね\nこのゲーム　ボクの　かちだ",
-  "en": "",
-  "status": "todo"
+  "en": "Game over... It's done.{KP}\nThis game is my win.",
+  "status": "done"
  },
  {
   "id": "s275.01",
   "flag": 0,
   "speaker": 17,
   "jp": "それとも　まだ　あきらめずに\nちょうせんしてくる？{KN}",
-  "en": "",
-  "status": "todo"
+  "en": "Or are you going to keep trying,{KP}\nnot giving up?{KN}",
+  "status": "done"
  },
  {
   "id": "s277.00",
   "flag": 0,
   "speaker": -1,
   "jp": "{%sR4}は　こんらんして\nちがうポイントに　せめこんでしまった！{KN}",
-  "en": "",
-  "status": "todo"
+  "en": "{%sR4} got confused\nand attacked the wrong point!{KN}",
+  "status": "done"
  },
  {
   "id": "s278.00",
   "flag": 0,
   "speaker": -1,
   "jp": "{%sR4}は　えんごこうげきの\nかまえを　ときました！{KN}",
-  "en": "",
-  "status": "todo"
+  "en": "{%sR4} dropped its Support Attack\nstance!{KN}",
+  "status": "done"
  },
  {
   "id": "s279.00",
   "flag": 0,
   "speaker": -1,
   "jp": "{%sR4}の　{%sR5}！{KN}",
-  "en": "",
-  "status": "todo"
+  "en": "{%sR4} used {%sR5}!{KN}",
+  "status": "done"
  },
  {
   "id": "s280.00",
   "flag": 0,
   "speaker": -1,
   "jp": "{%sR4}に\nダメージを　あたえた！{KN}",
-  "en": "",
-  "status": "todo"
+  "en": "Dealt damage to {%sR4}!{KN}",
+  "status": "done"
  },
  {
   "id": "s281.00",
   "flag": 0,
   "speaker": -1,
   "jp": "{%sR4}には\nかなり　きいているようだ！{KN}",
-  "en": "",
-  "status": "todo"
+  "en": "It seems very effective on\n{%sR4}!{KN}",
+  "status": "done"
  },
  {
   "id": "s282.00",
   "flag": 0,
   "speaker": -1,
   "jp": "{%sR4}には\nこうかが　イマイチのようだ・・・{KN}",
-  "en": "",
-  "status": "todo"
+  "en": "It doesn't seem very effective on\n{%sR4}...{KN}",
+  "status": "done"
  },
  {
   "id": "s283.00",
   "flag": 0,
   "speaker": -1,
   "jp": "{%sR4}には\nまったく　きいていないようだ・・・{KN}",
-  "en": "",
-  "status": "todo"
+  "en": "It seems to have no effect on\n{%sR4}...{KN}",
+  "status": "done"
  },
  {
   "id": "s284.00",
   "flag": 0,
   "speaker": -1,
   "jp": "{%sR4}は\nこうげきを　かわした！{KN}",
-  "en": "",
-  "status": "todo"
+  "en": "{%sR4} dodged the attack!{KN}",
+  "status": "done"
  },
  {
   "id": "s285.00",
   "flag": 0,
   "speaker": -1,
   "jp": "{%sR4}は\nこうげきを　ふせいだ！{KN}",
-  "en": "",
-  "status": "todo"
+  "en": "{%sR4} blocked the attack!{KN}",
+  "status": "done"
  },
  {
   "id": "s286.00",
   "flag": 0,
   "speaker": -1,
   "jp": "{%sR4}は\nドクを　うけた！{KN}",
-  "en": "",
-  "status": "todo"
+  "en": "{%sR4} was poisoned!{KN}",
+  "status": "done"
  },
  {
   "id": "s287.00",
   "flag": 0,
   "speaker": -1,
   "jp": "{%sR4}に\nドクが　まわってゆく・・・{KN}",
-  "en": "",
-  "status": "todo"
+  "en": "The poison is spreading through\n{%sR4}...{KN}",
+  "status": "done"
  },
  {
   "id": "s288.00",
   "flag": 0,
   "speaker": -1,
   "jp": "{%sR4}は\nねむってしまった！{KN}",
-  "en": "",
-  "status": "todo"
+  "en": "{%sR4} fell asleep!{KN}",
+  "status": "done"
  },
  {
   "id": "s289.00",
   "flag": 0,
   "speaker": -1,
   "jp": "{%sR4}は\nねむっている・・・{KN}",
-  "en": "",
-  "status": "todo"
+  "en": "{%sR4} is asleep...{KN}",
+  "status": "done"
  },
  {
   "id": "s290.00",
   "flag": 0,
   "speaker": -1,
   "jp": "{%sR4}は\nマヒした！{KN}",
-  "en": "",
-  "status": "todo"
+  "en": "{%sR4} was paralyzed!{KN}",
+  "status": "done"
  },
  {
   "id": "s291.00",
   "flag": 0,
   "speaker": -1,
   "jp": "{%sR4}は\nからだが　しびれて　うごけない・・・{KN}",
-  "en": "",
-  "status": "todo"
+  "en": "{%sR4} is numb\nand can't move...{KN}",
+  "status": "done"
  },
  {
   "id": "s292.00",
   "flag": 0,
   "speaker": -1,
   "jp": "{%sR4}は\nこんらんした！{KN}",
-  "en": "",
-  "status": "todo"
+  "en": "{%sR4} got confused!{KN}",
+  "status": "done"
  },
  {
   "id": "s293.00",
   "flag": 0,
   "speaker": -1,
   "jp": "{%sR4}は\nこんらんして　じぶんを　こうげきした！{KN}",
-  "en": "",
-  "status": "todo"
+  "en": "{%sR4} is confused\nand attacked itself!{KN}",
+  "status": "done"
  },
  {
   "id": "s294.00",

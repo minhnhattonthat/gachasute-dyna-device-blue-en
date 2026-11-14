@@ -1228,303 +1228,303 @@
   "flag": 0,
   "speaker": -1,
   "jp": "てきの　{%sR4}は\nトラップに　ひっかかって　ダウンした！{KN}",
-  "en": "",
-  "status": "todo"
+  "en": "The enemy {%sR4} was caught\nin a trap and went down!{KN}",
+  "status": "done"
  },
  {
   "id": "s165.00",
   "flag": 0,
   "speaker": -1,
   "jp": "てきの　{%sR4}の\nトラップ！{KN}",
-  "en": "",
-  "status": "todo"
+  "en": "A trap from the enemy {%sR4}!{KN}",
+  "status": "done"
  },
  {
   "id": "s165.01",
   "flag": 0,
   "speaker": -1,
   "jp": "しかし　こちらの　{%sR5}は\nとっさに　かわした！！{KN}",
-  "en": "",
-  "status": "todo"
+  "en": "But our {%sR5}\ndodged it just in time!!{KN}",
+  "status": "done"
  },
  {
   "id": "s166.00",
   "flag": 0,
   "speaker": -1,
   "jp": "こちらの　{%sR5}の\nトラップ！{KN}",
-  "en": "",
-  "status": "todo"
+  "en": "A trap from our {%sR5}!{KN}",
+  "status": "done"
  },
  {
   "id": "s166.01",
   "flag": 0,
   "speaker": -1,
   "jp": "しかし　てきの　{%sR4}は\nとっさに　かわした！{KN}",
-  "en": "",
-  "status": "todo"
+  "en": "But the enemy {%sR4}\ndodged it just in time!{KN}",
+  "status": "done"
  },
  {
   "id": "s167.00",
   "flag": 0,
   "speaker": -1,
   "jp": "{%sR4}は\nねむっている・・・{KN}",
-  "en": "",
-  "status": "todo"
+  "en": "{%sR4} is asleep...{KN}",
+  "status": "done"
  },
  {
   "id": "s168.00",
   "flag": 0,
   "speaker": -1,
   "jp": "{%sR4}は\nこおってしまって　うごけない・・・{KN}",
-  "en": "",
-  "status": "todo"
+  "en": "{%sR4} is frozen\nand can't move...{KN}",
+  "status": "done"
  },
  {
   "id": "s169.00",
   "flag": 0,
   "speaker": -1,
   "jp": "{%sR4}は\nきを　うしなっている・・・{KN}",
-  "en": "",
-  "status": "todo"
+  "en": "{%sR4} is knocked out...{KN}",
+  "status": "done"
  },
  {
   "id": "s170.00",
   "flag": 0,
   "speaker": -1,
   "jp": "{%sR4}に\nワクチンプログラムを　おくります{KN}",
-  "en": "",
-  "status": "todo"
+  "en": "Sending a vaccine program to\n{%sR4}.{KN}",
+  "status": "done"
  },
  {
   "id": "s171.00",
   "flag": 0,
   "speaker": -1,
   "jp": "{%sR4}の　からだから\nどくが　ぬけた！{KN}",
-  "en": "",
-  "status": "todo"
+  "en": "The poison has left {%sR4}'s\nbody!{KN}",
+  "status": "done"
  },
  {
   "id": "s172.00",
   "flag": 0,
   "speaker": -1,
   "jp": "{%sR4}は\nめを　さました！{KN}",
-  "en": "",
-  "status": "todo"
+  "en": "{%sR4} woke up!{KN}",
+  "status": "done"
  },
  {
   "id": "s173.00",
   "flag": 0,
   "speaker": -1,
   "jp": "{%sR4}の\nマヒが　なおった！{KN}",
-  "en": "",
-  "status": "todo"
+  "en": "{%sR4}'s paralysis was cured!{KN}",
+  "status": "done"
  },
  {
   "id": "s174.00",
   "flag": 0,
   "speaker": -1,
   "jp": "{%sR4}は\nわれに　かえった！{KN}",
-  "en": "",
-  "status": "todo"
+  "en": "{%sR4} came to its senses!{KN}",
+  "status": "done"
  },
  {
   "id": "s175.00",
   "flag": 0,
   "speaker": -1,
   "jp": "{%sR4}の\nヤケドが　なおった！{KN}",
-  "en": "",
-  "status": "todo"
+  "en": "{%sR4}'s burn was healed!{KN}",
+  "status": "done"
  },
  {
   "id": "s176.00",
   "flag": 0,
   "speaker": -1,
   "jp": "{%sR4}を　おおっていた\nこおりが　とけた！{KN}",
-  "en": "",
-  "status": "todo"
+  "en": "The ice covering {%sR4}\nmelted!{KN}",
+  "status": "done"
  },
  {
   "id": "s177.00",
   "flag": 0,
   "speaker": -1,
   "jp": "{%sR4}の　からだの\nしびれが　とれた！{KN}",
-  "en": "",
-  "status": "todo"
+  "en": "The numbness left {%sR4}'s\nbody!{KN}",
+  "status": "done"
  },
  {
   "id": "s178.00",
   "flag": 0,
   "speaker": -1,
   "jp": "{%sR4}は　めに　はいった\nすなを　ふりはらった！{KN}",
-  "en": "",
-  "status": "todo"
+  "en": "{%sR4} shook the sand\nout of its eyes!{KN}",
+  "status": "done"
  },
  {
   "id": "s179.00",
   "flag": 0,
   "speaker": -1,
   "jp": "{%sR4}は\nいしきを　とりもどした！{KN}",
-  "en": "",
-  "status": "todo"
+  "en": "{%sR4} regained consciousness!{KN}",
+  "status": "done"
  },
  {
   "id": "s180.00",
   "flag": 0,
   "speaker": -1,
   "jp": "{%sR4}は\nダウンした！{KN}",
-  "en": "",
-  "status": "todo"
+  "en": "{%sR4} went down!{KN}",
+  "status": "done"
  },
  {
   "id": "s181.00",
   "flag": 0,
   "speaker": -1,
   "jp": "{%dR4}ばんの　ダイナを\nセットしてください{KN}",
-  "en": "",
-  "status": "todo"
+  "en": "Please set Dyna No. {%dR4}.{KN}",
+  "status": "done"
  },
  {
   "id": "s182.00",
   "flag": 0,
   "speaker": -1,
   "jp": "{%dR4}ばんの　ダイナの\nトラップを　セットしてください{KN}",
-  "en": "",
-  "status": "todo"
+  "en": "Please set the trap for Dyna No.\n{%dR4}.{KN}",
+  "status": "done"
  },
  {
   "id": "s183.00",
   "flag": 0,
   "speaker": -1,
   "jp": "{%dR4}ばんの　ダイナの\n{%dR5}こめのトラップを　セットしてください{KN}",
-  "en": "",
-  "status": "todo"
+  "en": "For Dyna No. {%dR4}, please set trap No.\n{%dR5}.{KN}",
+  "status": "done"
  },
  {
   "id": "s184.00",
   "flag": 0,
   "speaker": -1,
   "jp": "これで　いいですか？\n　　　　　はい　　　　いいえ{KN}",
-  "en": "",
-  "status": "todo"
+  "en": "Is this all right?\n          Yes         No{KN}",
+  "status": "done"
  },
  {
   "id": "s185.00",
   "flag": 0,
   "speaker": -1,
   "jp": "このターンに　じっこうする　コマンドを\nせんたくしてください{KN}",
-  "en": "",
-  "status": "todo"
+  "en": "Please choose the command to carry out\nthis turn.{KN}",
+  "status": "done"
  },
  {
   "id": "s186.00",
   "flag": 0,
   "speaker": -1,
   "jp": "ていさつしたい　ポイントを　\nえらんでください{KN}",
-  "en": "",
-  "status": "todo"
+  "en": "Please choose the point you want to\nscout.{KN}",
+  "status": "done"
  },
  {
   "id": "s187.00",
   "flag": 0,
   "speaker": -1,
   "jp": "このエリアには　ダイナ　{%dR4}たい\nトラップ　{%dR5}こが　そんざいするようです{KN}",
-  "en": "",
-  "status": "todo"
+  "en": "There seem to be {%dR4} Dyna and\n{%dR5} traps in this area.{KN}",
+  "status": "done"
  },
  {
   "id": "s188.00",
   "flag": 0,
   "speaker": -1,
   "jp": "このエリアには　なにも　ないようです{KN}",
-  "en": "",
-  "status": "todo"
+  "en": "There seems to be nothing in this area.{KN}",
+  "status": "done"
  },
  {
   "id": "s189.00",
   "flag": 0,
   "speaker": -1,
   "jp": "ていさつしていない　ポイントは\nのこっていません{KN}",
-  "en": "",
-  "status": "todo"
+  "en": "There are no unscouted points left.{KN}",
+  "status": "done"
  },
  {
   "id": "s190.00",
   "flag": 0,
   "speaker": -1,
   "jp": "このポイントは　すでに　ていさつしています{KN}",
-  "en": "",
-  "status": "todo"
+  "en": "This point has already been scouted.{KN}",
+  "status": "done"
  },
  {
   "id": "s191.00",
   "flag": 0,
   "speaker": -1,
   "jp": "ていさつちゅう・・・{KN}",
-  "en": "",
-  "status": "todo"
+  "en": "Scouting...{KN}",
+  "status": "done"
  },
  {
   "id": "s192.00",
   "flag": 0,
   "speaker": -1,
   "jp": "いどうさせる　ダイナを\nえらんでください{KN}",
-  "en": "",
-  "status": "todo"
+  "en": "Please choose the Dyna to move.{KN}",
+  "status": "done"
  },
  {
   "id": "s193.00",
   "flag": 0,
   "speaker": -1,
   "jp": "いどうを　おわりますか？\n　　　　　はい　　　　いいえ{KN}",
-  "en": "",
-  "status": "todo"
+  "en": "Finish moving?\n          Yes         No{KN}",
+  "status": "done"
  },
  {
   "id": "s194.00",
   "flag": 0,
   "speaker": -1,
   "jp": "ここには　なにも　ありません{KN}",
-  "en": "",
-  "status": "todo"
+  "en": "There is nothing here.{KN}",
+  "status": "done"
  },
  {
   "id": "s195.00",
   "flag": 0,
   "speaker": -1,
   "jp": "これは　トラップです{KN}",
-  "en": "",
-  "status": "todo"
+  "en": "This is a trap.{KN}",
+  "status": "done"
  },
  {
   "id": "s196.00",
   "flag": 0,
   "speaker": -1,
   "jp": "{%sR4}を　いどうさせます{KN}",
-  "en": "",
-  "status": "todo"
+  "en": "Moving {%sR4}.{KN}",
+  "status": "done"
  },
  {
   "id": "s197.00",
   "flag": 0,
   "speaker": -1,
   "jp": "{%sR4}は　いどうできません{KN}",
-  "en": "",
-  "status": "todo"
+  "en": "{%sR4} can't move.{KN}",
+  "status": "done"
  },
  {
   "id": "s198.00",
   "flag": 0,
   "speaker": -1,
   "jp": "このダイナは　もういちど\nいどうさせることが　できます{KN}",
-  "en": "",
-  "status": "todo"
+  "en": "This Dyna can move one more time.{KN}",
+  "status": "done"
  },
  {
   "id": "s199.00",
   "flag": 0,
   "speaker": -1,
   "jp": "こうげきさせる　ダイナを\nえらんでください{KN}",
-  "en": "",
-  "status": "todo"
+  "en": "Please choose the Dyna to attack with.{KN}",
+  "status": "done"
  }
 ]
