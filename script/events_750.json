@@ -4,112 +4,112 @@
   "flag": 0,
   "speaker": 4,
   "jp": "{%sR4}さん\nだいじょうぶですか？",
-  "en": "",
-  "status": "todo"
+  "en": "{%sR4}-san, are you all right?",
+  "status": "done"
  },
  {
   "id": "s750.01",
   "flag": 0,
   "speaker": 4,
   "jp": "ウォータータイプの　セクタどうしは\nとなりあうと　つながってしまうので",
-  "en": "",
-  "status": "todo"
+  "en": "Water sectors join up when they are next\nto each other,",
+  "status": "done"
  },
  {
   "id": "s750.02",
   "flag": 0,
   "speaker": 4,
   "jp": "なかに　とじこめられてしまうことが\nあるんです",
-  "en": "",
-  "status": "todo"
+  "en": "so you can end up shut inside them.",
+  "status": "done"
  },
  {
   "id": "s750.03",
   "flag": 0,
   "speaker": 4,
   "jp": "また　バーディスや　シェルブックタイプの\nダイナに　のって",
-  "en": "",
-  "status": "todo"
+  "en": "Also, when you are riding a Dyna of the\nBirdis type or Shellbook type",
+  "status": "done"
  },
  {
   "id": "s750.04",
   "flag": 0,
   "speaker": 4,
   "jp": "ウォータータイプの　セクタの　うえを\nいどうしているときも",
-  "en": "",
-  "status": "todo"
+  "en": "and moving over a Water sector,",
+  "status": "done"
  },
  {
   "id": "s750.05",
   "flag": 0,
   "speaker": 4,
   "jp": "なんらかの　りゆうで\nダイナが　いなくなると",
-  "en": "",
-  "status": "todo"
+  "en": "if the Dyna goes away for some reason,",
+  "status": "done"
  },
  {
   "id": "s750.06",
   "flag": 0,
   "speaker": 4,
   "jp": "ウォーターの　セクタの　なかに\nとじこめられてしまいます",
-  "en": "",
-  "status": "todo"
+  "en": "you will be shut inside the Water sector.",
+  "status": "done"
  },
  {
   "id": "s750.07",
   "flag": 0,
   "speaker": 4,
   "jp": "そうすると　いまのように\nここに　てんそうされてしまって",
-  "en": "",
-  "status": "todo"
+  "en": "When that happens, you get sent back\nhere, like just now,",
+  "status": "done"
  },
  {
   "id": "s750.08",
   "flag": 0,
   "speaker": 4,
   "jp": "つれている　ダイナの\nきげんが　わるくなってしまいます{KP}\nこんごは　きをつけてくださいね",
-  "en": "",
-  "status": "todo"
+  "en": "and the Dyna you have with you get\ngrumpy.{KP}\nPlease be careful from now on.",
+  "status": "done"
  },
  {
   "id": "s751.00",
   "flag": 0,
   "speaker": -1,
   "jp": "{%sR0}は　ちからつきて\nダイナセンターに　てんそうされました",
-  "en": "",
-  "status": "todo"
+  "en": "{%sR0} collapsed and was sent to\nthe Dyna Center.",
+  "status": "done"
  },
  {
   "id": "s752.00",
   "flag": 0,
   "speaker": -1,
   "jp": "{%sR0}は　ちからつきて\nダイナセンターに　てんそうされました",
-  "en": "",
-  "status": "todo"
+  "en": "{%sR0} collapsed and was sent to\nthe Dyna Center.",
+  "status": "done"
  },
  {
   "id": "s752.01",
   "flag": 0,
   "speaker": -1,
   "jp": "これにより　〒{%02dR1}－{%02dR2}　ハウスは\nあきやに　なりました",
-  "en": "",
-  "status": "todo"
+  "en": "Because of this, the House at {%02dR1}-{%02dR2} is\nnow empty.",
+  "status": "done"
  },
  {
   "id": "s753.00",
   "flag": 0,
   "speaker": 4,
   "jp": "{%sR4}さん\nだいじょうぶですか？",
-  "en": "",
-  "status": "todo"
+  "en": "{%sR4}-san, are you all right?",
+  "status": "done"
  },
  {
   "id": "s753.01",
   "flag": 0,
   "speaker": 4,
   "jp": "ダイナシティを　ダイナなしで\nあるくのは　たいへん　キケンなので",
-  "en": "",
-  "status": "todo"
+  "en": "Walking around Dyna City without a Dyna is\nvery dangerous,",
+  "status": "done"
  },
  {
   "id": "s753.02",

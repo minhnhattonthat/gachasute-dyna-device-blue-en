@@ -564,871 +564,871 @@
   "flag": 0,
   "speaker": 13,
   "jp": "かいはつしきんが　ふそくしています{KP}\nかいはつをつづけるには{%dR4}ビット\nひつようです",
-  "en": "",
-  "status": "todo"
+  "en": "We're short on development funds.{KP}\nTo keep developing, we need {%dR4}\nbits.",
+  "status": "done"
  },
  {
   "id": "s727.00",
   "flag": 0,
   "speaker": 13,
   "jp": "ぶきのざいりょうが　ふそくしています{KP}\nかいはつをつづけるには\n{%sR4}がひつようです",
-  "en": "",
-  "status": "todo"
+  "en": "We're short on weapon materials.{KP}\nTo keep developing, we need\n{%sR4}.",
+  "status": "done"
  },
  {
   "id": "s727.01",
   "flag": 0,
   "speaker": 13,
   "jp": "{%sR4}を　わたしますか？\n　　　　　はい　　　　いいえ{KN}",
-  "en": "",
-  "status": "todo"
+  "en": "Hand over {%sR4}?\n          Yes         No{KN}",
+  "status": "done"
  },
  {
   "id": "s728.00",
   "flag": 0,
   "speaker": 13,
   "jp": "ぶきのざいりょうが　ふそくしています{KP}\nかいはつをつづけるには\n{%sR4}がひつようです",
-  "en": "",
-  "status": "todo"
+  "en": "We're short on weapon materials.{KP}\nTo keep developing, we need\n{%sR4}.",
+  "status": "done"
  },
  {
   "id": "s729.00",
   "flag": 0,
   "speaker": 13,
   "jp": "このプロジェクトは　げんざい　じゅんちょうに\nしんこうしています",
-  "en": "",
-  "status": "todo"
+  "en": "This project is currently going smoothly.",
+  "status": "done"
  },
  {
   "id": "s730.00",
   "flag": 0,
   "speaker": 13,
   "jp": "げんざい　あいている　かいはつラインが\nありません",
-  "en": "",
-  "status": "todo"
+  "en": "There are no free development lines right\nnow.",
+  "status": "done"
  },
  {
   "id": "s731.00",
   "flag": 0,
   "speaker": 13,
   "jp": "ほかに　なにか　ようは\nありませんか？",
-  "en": "",
-  "status": "todo"
+  "en": "Is there anything else you need?",
+  "status": "done"
  },
  {
   "id": "s731.01",
   "flag": 0,
   "speaker": 13,
   "jp": "　　かいはついらい　　　　かいはつじょうきょう\n　　かいはつちゅうし　　　なんでもない{KN}",
-  "en": "",
-  "status": "todo"
+  "en": "    New Request         Check Status\n    Cancel Request       Never mind{KN}",
+  "status": "done"
  },
  {
   "id": "s732.00",
   "flag": 0,
   "speaker": 13,
   "jp": "かいはつに　なんビットかけますか？{KP}\n　　１００ビット　　　　　１０００ビット\n　　１００００ビット　　　やめる{KN}",
-  "en": "",
-  "status": "todo"
+  "en": "How many bits will you invest?{KP}\n    100 bits              1000 bits\n    10000 bits            Quit{KN}",
+  "status": "done"
  },
  {
   "id": "s732.01",
   "flag": 0,
   "speaker": 4,
   "jp": "ダイナを　えらんだら\nしょきとうしとして　わたす　きんがくを",
-  "en": "",
-  "status": "todo"
+  "en": "Once you choose a Dyna, you decide how\nmuch to hand over as the starting{KP}\ninvestment:",
+  "status": "done"
  },
  {
   "id": "s732.02",
   "flag": 0,
   "speaker": 4,
   "jp": "１００ビット　１０００ビット\n１００００ビットの　なかから　きめます",
-  "en": "",
-  "status": "todo"
+  "en": "100 bits, 1000 bits or 10000 bits.",
+  "status": "done"
  },
  {
   "id": "s732.03",
   "flag": 0,
   "speaker": 4,
   "jp": "ここは　れんしゅうですので　わたしが\n１００ビット　わたしておきますね",
-  "en": "",
-  "status": "todo"
+  "en": "This is just practice, so I will hand over\n100 bits for you.",
+  "status": "done"
  },
  {
   "id": "s733.00",
   "flag": 0,
   "speaker": 13,
   "jp": "おかねが　たりません！",
-  "en": "",
-  "status": "todo"
+  "en": "You don't have enough money!",
+  "status": "done"
  },
  {
   "id": "s734.00",
   "flag": 0,
   "speaker": 13,
   "jp": "どのプロジェクトを　ちゅうししますか？{KN}",
-  "en": "",
-  "status": "todo"
+  "en": "Which project do you want to cancel?{KN}",
+  "status": "done"
  },
  {
   "id": "s735.00",
   "flag": 0,
   "speaker": 13,
   "jp": "このプロジェクトを　ちゅうししてよいですか？\n　　　　　はい　　　　いいえ{KN}",
-  "en": "",
-  "status": "todo"
+  "en": "Cancel this project?\n          Yes         No{KN}",
+  "status": "done"
  },
  {
   "id": "s736.00",
   "flag": 0,
   "speaker": 13,
   "jp": "このプロジェクトは　ちゅうしされました",
-  "en": "",
-  "status": "todo"
+  "en": "This project has been cancelled.",
+  "status": "done"
  },
  {
   "id": "s736.01",
   "flag": 0,
   "speaker": 13,
   "jp": "どのプロジェクトを　ちゅうししますか？{KN}",
-  "en": "",
-  "status": "todo"
+  "en": "Which project do you want to cancel?{KN}",
+  "status": "done"
  },
  {
   "id": "s737.00",
   "flag": 0,
   "speaker": 13,
   "jp": "このプロジェクトは　すでに\nしゅうりょうしています",
-  "en": "",
-  "status": "todo"
+  "en": "This project is already finished.",
+  "status": "done"
  },
  {
   "id": "s737.01",
   "flag": 0,
   "speaker": 13,
   "jp": "かいはつじょうきょうを　えらんで\nデバイスを　うけとってください",
-  "en": "",
-  "status": "todo"
+  "en": "Please choose Check Status and collect\nyour Device.",
+  "status": "done"
  },
  {
   "id": "s737.02",
   "flag": 0,
   "speaker": 13,
   "jp": "どのプロジェクトを　ちゅうししますか？{KN}",
-  "en": "",
-  "status": "todo"
+  "en": "Which project do you want to cancel?{KN}",
+  "status": "done"
  },
  {
   "id": "s738.00",
   "flag": 0,
   "speaker": 13,
   "jp": "このラインは　げんざいしようされていません",
-  "en": "",
-  "status": "todo"
+  "en": "This line isn't in use right now.",
+  "status": "done"
  },
  {
   "id": "s738.01",
   "flag": 0,
   "speaker": 13,
   "jp": "どのプロジェクトを　かくにんしますか？{KN}",
-  "en": "",
-  "status": "todo"
+  "en": "Which project would you like to check?{KN}",
+  "status": "done"
  },
  {
   "id": "s739.00",
   "flag": 0,
   "speaker": 13,
   "jp": "このラインは　げんざいしようされていません",
-  "en": "",
-  "status": "todo"
+  "en": "This line isn't in use right now.",
+  "status": "done"
  },
  {
   "id": "s739.01",
   "flag": 0,
   "speaker": 13,
   "jp": "どのプロジェクトを　ちゅうししますか？{KN}",
-  "en": "",
-  "status": "todo"
+  "en": "Which project do you want to cancel?{KN}",
+  "status": "done"
  },
  {
   "id": "s740.00",
   "flag": 0,
   "speaker": 13,
   "jp": "{%sR4}の　かいはつが\nしゅうりょうしたので　おわたしします",
-  "en": "",
-  "status": "todo"
+  "en": "Development of {%sR4} is finished,\nso here you go.",
+  "status": "done"
  },
  {
   "id": "s740.01",
   "flag": 0,
   "speaker": -1,
   "jp": "{%sR4}　をうけとった！{KN}",
-  "en": "",
-  "status": "todo"
+  "en": "Received {%sR4}!{KN}",
+  "status": "done"
  },
  {
   "id": "s741.00",
   "flag": 0,
   "speaker": 13,
   "jp": "{%sR4}の　かいはつが\nしゅうりょうしましたが",
-  "en": "",
-  "status": "todo"
+  "en": "Development of {%sR4} is finished,\nbut",
+  "status": "done"
  },
  {
   "id": "s741.01",
   "flag": 0,
   "speaker": 13,
   "jp": "もちものが　いっぱいなので　どこかで\nうるか　すてるかしてきてください",
-  "en": "",
-  "status": "todo"
+  "en": "your bag is full, so please go sell or throw\nsomething away.",
+  "status": "done"
  },
  {
   "id": "s742.00",
   "flag": 0,
   "speaker": 13,
   "jp": "では　こちらへ　どうぞ",
-  "en": "",
-  "status": "todo"
+  "en": "This way, please.",
+  "status": "done"
  },
  {
   "id": "s742.01",
   "flag": 0,
   "speaker": 4,
   "jp": "では　ダイナのデータを\nとりおわるまで　すこし　まちましょう",
-  "en": "",
-  "status": "todo"
+  "en": "Now, let us wait a little while they finish\ntaking the Dyna's data.",
+  "status": "done"
  },
  {
   "id": "s742.02",
   "flag": 0,
   "speaker": 13,
   "jp": "データが　とれましたので　けんきゅうを\nかいしします",
-  "en": "",
-  "status": "todo"
+  "en": "We've got the data, so we'll begin our\nresearch.",
+  "status": "done"
  },
  {
   "id": "s743.00",
   "flag": 0,
   "speaker": 13,
   "jp": "では　こちらへ　どうぞ",
-  "en": "",
-  "status": "todo"
+  "en": "This way, please.",
+  "status": "done"
  },
  {
   "id": "s743.01",
   "flag": 0,
   "speaker": 4,
   "jp": "では　ダイナのデータを\nとりおわるまで　すこし　まちましょう",
-  "en": "",
-  "status": "todo"
+  "en": "Now, let us wait a little while they finish\ntaking the Dyna's data.",
+  "status": "done"
  },
  {
   "id": "s743.02",
   "flag": 0,
   "speaker": 13,
   "jp": "データが　とれましたので　けんきゅうを\nかいしします",
-  "en": "",
-  "status": "todo"
+  "en": "We've got the data, so we'll begin our\nresearch.",
+  "status": "done"
  },
  {
   "id": "s744.00",
   "flag": 0,
   "speaker": 13,
   "jp": "では　こちらへ　どうぞ",
-  "en": "",
-  "status": "todo"
+  "en": "This way, please.",
+  "status": "done"
  },
  {
   "id": "s744.01",
   "flag": 0,
   "speaker": 4,
   "jp": "では　ダイナのデータを\nとりおわるまで　すこし　まちましょう",
-  "en": "",
-  "status": "todo"
+  "en": "Now, let us wait a little while they finish\ntaking the Dyna's data.",
+  "status": "done"
  },
  {
   "id": "s744.02",
   "flag": 0,
   "speaker": 13,
   "jp": "データが　とれましたので　けんきゅうを\nかいしします",
-  "en": "",
-  "status": "todo"
+  "en": "We've got the data, so we'll begin our\nresearch.",
+  "status": "done"
  },
  {
   "id": "s745.00",
   "flag": 0,
   "speaker": 4,
   "jp": "{%sR4}さん　きこえますか？\nわたしです　ナビュウです",
-  "en": "",
-  "status": "todo"
+  "en": "{%sR4}-san, can you hear me? It is\nme, Navyu.",
+  "status": "done"
  },
  {
   "id": "s745.01",
   "flag": 0,
   "speaker": 4,
   "jp": "〒{%02dR0}―{%02dR1}の　ファクトリーから\n{%sR4}さんに　むけて",
-  "en": "",
-  "status": "todo"
+  "en": "The Factory at {%02dR0}-{%02dR1} has sent you,\n{%sR4}-san,",
+  "status": "done"
  },
  {
   "id": "s745.02",
   "flag": 0,
   "speaker": 4,
   "jp": "きんきゅうれんらくが　はいりましたので\nおつたえします",
-  "en": "",
-  "status": "todo"
+  "en": "an urgent message, so I will pass it on.",
+  "status": "done"
  },
  {
   "id": "s745.03",
   "flag": 0,
   "speaker": 4,
   "jp": "げんざい　かいはつが　とまっている\nかいはつライン{%dR2}なのですが",
-  "en": "",
-  "status": "todo"
+  "en": "It concerns development line {%dR2},\nwhere development is currently stalled.",
+  "status": "done"
  },
  {
   "id": "s745.04",
   "flag": 0,
   "speaker": 4,
   "jp": "げんじょういじのために　かいはつようの\nマシンに　ムリを　させてしまっています",
-  "en": "",
-  "status": "todo"
+  "en": "Just to keep things as they are, the\ndevelopment machines are being pushed{KP}\ntoo hard.",
+  "status": "done"
  },
  {
   "id": "s745.05",
   "flag": 0,
   "speaker": 4,
   "jp": "このままでは　あんぜんが　たもてず\nじこが　おこってしまうかもしれません",
-  "en": "",
-  "status": "todo"
+  "en": "If this goes on, they cannot keep it safe,\nand there may be an accident.",
+  "status": "done"
  },
  {
   "id": "s745.06",
   "flag": 0,
   "speaker": 4,
   "jp": "できましたら　かいはつちゅうしの\nきょかを　いただきたくおもいます",
-  "en": "",
-  "status": "todo"
+  "en": "If possible, they would like your permission\nto cancel the development.",
+  "status": "done"
  },
  {
   "id": "s745.07",
   "flag": 0,
   "speaker": 4,
   "jp": "・・・きんきゅうれんらくの　ないようは\nいじょうです",
-  "en": "",
-  "status": "todo"
+  "en": "...That is the end of the urgent message.",
+  "status": "done"
  },
  {
   "id": "s745.08",
   "flag": 0,
   "speaker": 4,
   "jp": "かいはつちゅうしを　きょかしますか？\n　　　　　はい　　　　いいえ{KN}",
-  "en": "",
-  "status": "todo"
+  "en": "Allow them to cancel the development?\n          Yes         No{KN}",
+  "status": "done"
  },
  {
   "id": "s745.09",
   "flag": 0,
   "speaker": 4,
   "jp": "わかりました　そのように　ファクトリーへは\nれんらくしておきます{KP}\nそれでは",
-  "en": "",
-  "status": "todo"
+  "en": "Understood. I will let the Factory know.{KP}\nWell then.",
+  "status": "done"
  },
  {
   "id": "s745.10",
   "flag": 0,
   "speaker": 4,
   "jp": "わかりました　そのように　ファクトリーへは\nれんらくしておきます",
-  "en": "",
-  "status": "todo"
+  "en": "Understood. I will let the Factory know.",
+  "status": "done"
  },
  {
   "id": "s745.11",
   "flag": 0,
   "speaker": 4,
   "jp": "もしも　あとから　かいはつを\nちゅうしさせたくなったばあいは",
-  "en": "",
-  "status": "todo"
+  "en": "If you decide later that you want the\ndevelopment cancelled,",
+  "status": "done"
  },
  {
   "id": "s745.12",
   "flag": 0,
   "speaker": 4,
   "jp": "ファクトリーまで　いって\nそのように　しじしてください{KP}\nそれでは",
-  "en": "",
-  "status": "todo"
+  "en": "please go to the Factory and tell them\nso.{KP}\nWell then.",
+  "status": "done"
  },
  {
   "id": "s746.00",
   "flag": 0,
   "speaker": 4,
   "jp": "ファクトリーで　ばくはつじこが\nはっせいしました！{KP}\nしゅういの　セクタが\nはかいされてしまったようです！",
-  "en": "",
-  "status": "todo"
+  "en": "There has been an explosion at the\nFactory!{KP}\nIt seems the surrounding sectors were\ndestroyed!",
+  "status": "done"
  },
  {
   "id": "s747.00",
   "flag": 0,
   "speaker": 4,
   "jp": "{%sR4}さん　きこえますか？\nわたしです　ナビュウです{KP}\nダイナシティの　ていきほうこくの　じかんが\nきましたので　ほうこくします",
-  "en": "",
-  "status": "todo"
+  "en": "{%sR4}-san, can you hear me? It is\nme, Navyu.{KP}\nIt is time for Dyna City's regular report, so\nhere it is.",
+  "status": "done"
  },
  {
   "id": "s747.01",
   "flag": 0,
   "speaker": 4,
   "jp": "げんざい　ダイナシティに　くらしている\nダイナの　かずは　{%dR0}たい",
-  "en": "",
-  "status": "todo"
+  "en": "Number of Dyna now living in Dyna City:\n{%dR0}.",
+  "status": "done"
  },
  {
   "id": "s747.02",
   "flag": 0,
   "speaker": 4,
   "jp": "これによって　はっせいする　プラスが\n{%dR1}ビット",
-  "en": "",
-  "status": "todo"
+  "en": "Income from them: {%dR1} bits.",
+  "status": "done"
  },
  {
   "id": "s747.03",
   "flag": 0,
   "speaker": 4,
   "jp": "げんざい　ダイナシティの　なかに\nそんざいしている　いえのかずは　{%dR2}けん",
-  "en": "",
-  "status": "todo"
+  "en": "Number of houses now standing in Dyna\nCity: {%dR2}.",
+  "status": "done"
  },
  {
   "id": "s747.04",
   "flag": 0,
   "speaker": 4,
   "jp": "これによって　はっせいする　マイナスが\n{%dR3}ビット",
-  "en": "",
-  "status": "todo"
+  "en": "Costs from them: {%dR3} bits.",
+  "status": "done"
  },
  {
   "id": "s747.05",
   "flag": 0,
   "speaker": 4,
   "jp": "よって　こんかいの　ボーナスビットは\n{%dR5}ビットと　なりました！",
-  "en": "",
-  "status": "todo"
+  "en": "So this time, your bonus comes to\n{%dR5} bits!",
+  "status": "done"
  },
  {
   "id": "s748.00",
   "flag": 0,
   "speaker": 4,
   "jp": "このダイナシティの　げんざいの\nひょうかポイントは・・・",
-  "en": "",
-  "status": "todo"
+  "en": "This Dyna City's current rating points\nare...",
+  "status": "done"
  },
  {
   "id": "s748.01",
   "flag": 0,
   "speaker": 4,
   "jp": "{%dR1}ポイントで\nランクは　でんどういりです！",
-  "en": "",
-  "status": "todo"
+  "en": "{%dR1} points, and its rank is Hall of\nFame!",
+  "status": "done"
  },
  {
   "id": "s748.02",
   "flag": 0,
   "speaker": 4,
   "jp": "ついに　でんどういりですね\nおめでとうございます",
-  "en": "",
-  "status": "todo"
+  "en": "You have finally made the Hall of Fame.\nCongratulations!",
+  "status": "done"
  },
  {
   "id": "s748.03",
   "flag": 0,
   "speaker": 4,
   "jp": "でんどういりの　あいだは　ていきほうこくの\nたびに　ギガダイヤモンドを　さしあげます",
-  "en": "",
-  "status": "todo"
+  "en": "While you are in the Hall of Fame, I will\ngive you a Giga Diamond with every{KP}\nregular report.",
+  "status": "done"
  },
  {
   "id": "s748.04",
   "flag": 0,
   "speaker": 4,
   "jp": "ぜひ　この　じょうたいを\nキープしつづけてください",
-  "en": "",
-  "status": "todo"
+  "en": "Please do keep it up!",
+  "status": "done"
  },
  {
   "id": "s748.05",
   "flag": 0,
   "speaker": 4,
   "jp": "それでは　また　つぎの\nていきほうこくまで　がんばってくださいね",
-  "en": "",
-  "status": "todo"
+  "en": "Well then, please keep up the good work\nuntil the next regular report.",
+  "status": "done"
  },
  {
   "id": "s748.06",
   "flag": 0,
   "speaker": 4,
   "jp": "このダイナシティの　げんざいの\nひょうかポイントは・・・",
-  "en": "",
-  "status": "todo"
+  "en": "This Dyna City's current rating points\nare...",
+  "status": "done"
  },
  {
   "id": "s748.07",
   "flag": 0,
   "speaker": 4,
   "jp": "{%dR1}ポイントで\nランクは　Ｓランクです！",
-  "en": "",
-  "status": "todo"
+  "en": "{%dR1} points, and its rank is S!",
+  "status": "done"
  },
  {
   "id": "s748.08",
   "flag": 0,
   "speaker": 4,
   "jp": "すごいですね　いうことなしです{KP}\nこれは　Ｓランクの　かたに\nたまに　でる　ボーナスです",
-  "en": "",
-  "status": "todo"
+  "en": "Amazing. There is nothing more to ask\nfor!{KP}\nThis is a bonus that S-rank cities get once\nin a while.",
+  "status": "done"
  },
  {
   "id": "s748.09",
   "flag": 0,
   "speaker": 4,
   "jp": "あとは　すべての　スタイルの\nすべての　ぞくせい・・・",
-  "en": "",
-  "status": "todo"
+  "en": "All that is left is every element of every\nstyle...",
+  "status": "done"
  },
  {
   "id": "s748.10",
   "flag": 0,
   "speaker": 4,
   "jp": "１５０しゅるいの　ダイナが\nすんでいれば　いよいよ　でんどういりです",
-  "en": "",
-  "status": "todo"
+  "en": "Once all 150 kinds of Dyna live here, you\nwill finally make the Hall of Fame.",
+  "status": "done"
  },
  {
   "id": "s748.11",
   "flag": 0,
   "speaker": 4,
   "jp": "みちのりは　こんなんですが\nあなたなら　きっとできますよ",
-  "en": "",
-  "status": "todo"
+  "en": "The road is a hard one, but I am sure you\ncan do it.",
+  "status": "done"
  },
  {
   "id": "s748.12",
   "flag": 0,
   "speaker": 4,
   "jp": "それでは　また　つぎの\nていきほうこくまで　がんばってくださいね",
-  "en": "",
-  "status": "todo"
+  "en": "Well then, please keep up the good work\nuntil the next regular report.",
+  "status": "done"
  },
  {
   "id": "s748.13",
   "flag": 0,
   "speaker": 4,
   "jp": "このダイナシティの　げんざいの\nひょうかポイントは・・・",
-  "en": "",
-  "status": "todo"
+  "en": "This Dyna City's current rating points\nare...",
+  "status": "done"
  },
  {
   "id": "s748.14",
   "flag": 0,
   "speaker": 4,
   "jp": "{%dR1}ポイントで\nランクは　Ｓランクです！",
-  "en": "",
-  "status": "todo"
+  "en": "{%dR1} points, and its rank is S!",
+  "status": "done"
  },
  {
   "id": "s748.15",
   "flag": 0,
   "speaker": 4,
   "jp": "すごいですね　いうことなしです{KP}\nあとは　すべての　スタイルの\nすべての　ぞくせい・・・",
-  "en": "",
-  "status": "todo"
+  "en": "Amazing. There is nothing more to ask\nfor!{KP}\nAll that is left is every element of every\nstyle...",
+  "status": "done"
  },
  {
   "id": "s748.16",
   "flag": 0,
   "speaker": 4,
   "jp": "１５０しゅるいの　ダイナが\nすんでいれば　いよいよ　でんどういりです",
-  "en": "",
-  "status": "todo"
+  "en": "Once all 150 kinds of Dyna live here, you\nwill finally make the Hall of Fame.",
+  "status": "done"
  },
  {
   "id": "s748.17",
   "flag": 0,
   "speaker": 4,
   "jp": "みちのりは　こんなんですが\nあなたなら　きっとできますよ",
-  "en": "",
-  "status": "todo"
+  "en": "The road is a hard one, but I am sure you\ncan do it.",
+  "status": "done"
  },
  {
   "id": "s748.18",
   "flag": 0,
   "speaker": 4,
   "jp": "それでは　また　つぎの\nていきほうこくまで　がんばってくださいね",
-  "en": "",
-  "status": "todo"
+  "en": "Well then, please keep up the good work\nuntil the next regular report.",
+  "status": "done"
  },
  {
   "id": "s748.19",
   "flag": 0,
   "speaker": 4,
   "jp": "このダイナシティの　げんざいの\nひょうかポイントは・・・",
-  "en": "",
-  "status": "todo"
+  "en": "This Dyna City's current rating points\nare...",
+  "status": "done"
  },
  {
   "id": "s748.20",
   "flag": 0,
   "speaker": 4,
   "jp": "{%dR1}ポイントで\nランクは　Ａランクです！",
-  "en": "",
-  "status": "todo"
+  "en": "{%dR1} points, and its rank is A!",
+  "status": "done"
  },
  {
   "id": "s748.21",
   "flag": 0,
   "speaker": 4,
   "jp": "かなり　かいてきで　すみよいシティだと\nいえるとおもいます",
-  "en": "",
-  "status": "todo"
+  "en": "I would say it is a very comfortable,\npleasant city to live in.",
+  "status": "done"
  },
  {
   "id": "s748.22",
   "flag": 0,
   "speaker": 4,
   "jp": "あとは　３０しゅるい　すべての\nスタイルの　ダイナが",
-  "en": "",
-  "status": "todo"
+  "en": "If Dyna of all 30 styles",
+  "status": "done"
  },
  {
   "id": "s748.23",
   "flag": 0,
   "speaker": 4,
   "jp": "シティに　すんでいれば　さらに　うえの\nＳランクと　なることができます",
-  "en": "",
-  "status": "todo"
+  "en": "live in the city, you can reach the even\nhigher rank of S.",
+  "status": "done"
  },
  {
   "id": "s748.24",
   "flag": 0,
   "speaker": 4,
   "jp": "それでは　また　つぎの\nていきほうこくまで　がんばってくださいね",
-  "en": "",
-  "status": "todo"
+  "en": "Well then, please keep up the good work\nuntil the next regular report.",
+  "status": "done"
  },
  {
   "id": "s748.25",
   "flag": 0,
   "speaker": 4,
   "jp": "このダイナシティの　げんざいの\nひょうかポイントは・・・",
-  "en": "",
-  "status": "todo"
+  "en": "This Dyna City's current rating points\nare...",
+  "status": "done"
  },
  {
   "id": "s748.26",
   "flag": 0,
   "speaker": 4,
   "jp": "{%dR1}ポイントで\nランクは　Ｂランクです！",
-  "en": "",
-  "status": "todo"
+  "en": "{%dR1} points, and its rank is B!",
+  "status": "done"
  },
  {
   "id": "s748.27",
   "flag": 0,
   "speaker": 4,
   "jp": "そこそこ　すみよいシティだと　おもいますが\nまだまだ　なおすべきところも　おおいです",
-  "en": "",
-  "status": "todo"
+  "en": "It is a fairly pleasant city, I think, but\nthere is still a lot to fix.",
+  "status": "done"
  },
  {
   "id": "s748.28",
   "flag": 0,
   "speaker": 4,
   "jp": "それでは　また　つぎの\nていきほうこくまで　がんばってくださいね",
-  "en": "",
-  "status": "todo"
+  "en": "Well then, please keep up the good work\nuntil the next regular report.",
+  "status": "done"
  },
  {
   "id": "s748.29",
   "flag": 0,
   "speaker": 4,
   "jp": "このダイナシティの　げんざいの\nひょうかポイントは・・・",
-  "en": "",
-  "status": "todo"
+  "en": "This Dyna City's current rating points\nare...",
+  "status": "done"
  },
  {
   "id": "s748.30",
   "flag": 0,
   "speaker": 4,
   "jp": "{%dR1}ポイントで\nランクは　Ｃランクです！",
-  "en": "",
-  "status": "todo"
+  "en": "{%dR1} points, and its rank is C!",
+  "status": "done"
  },
  {
   "id": "s748.31",
   "flag": 0,
   "speaker": 4,
   "jp": "あまり　よくない　じょうたいです{KP}\nもうすこし　シティのなかを\nよくみてまわってみてください",
-  "en": "",
-  "status": "todo"
+  "en": "Things are not going very well.{KP}\nPlease take a closer look around the\ncity.",
+  "status": "done"
  },
  {
   "id": "s748.32",
   "flag": 0,
   "speaker": 4,
   "jp": "それでは　また　つぎの\nていきほうこくまで　がんばってくださいね",
-  "en": "",
-  "status": "todo"
+  "en": "Well then, please keep up the good work\nuntil the next regular report.",
+  "status": "done"
  },
  {
   "id": "s748.33",
   "flag": 0,
   "speaker": 4,
   "jp": "このダイナシティの　げんざいの\nひょうかポイントは・・・",
-  "en": "",
-  "status": "todo"
+  "en": "This Dyna City's current rating points\nare...",
+  "status": "done"
  },
  {
   "id": "s748.34",
   "flag": 0,
   "speaker": 4,
   "jp": "{%dR1}ポイントで\nランクは　Ｄランクです！",
-  "en": "",
-  "status": "todo"
+  "en": "{%dR1} points, and its rank is D!",
+  "status": "done"
  },
  {
   "id": "s748.35",
   "flag": 0,
   "speaker": 4,
   "jp": "ダイナたちが　くらしていくには\nもんだいが　おおい　シティです",
-  "en": "",
-  "status": "todo"
+  "en": "This city has a lot of problems for the\nDyna living in it.",
+  "status": "done"
  },
  {
   "id": "s748.36",
   "flag": 0,
   "speaker": 4,
   "jp": "いますぐ　なんとかしないと\nたいへんなことに　なるかもしれません",
-  "en": "",
-  "status": "todo"
+  "en": "If you do not do something right away,\nthings may get very bad.",
+  "status": "done"
  },
  {
   "id": "s748.37",
   "flag": 0,
   "speaker": 4,
   "jp": "それでは　また　つぎの\nていきほうこくまで　がんばってくださいね",
-  "en": "",
-  "status": "todo"
+  "en": "Well then, please keep up the good work\nuntil the next regular report.",
+  "status": "done"
  },
  {
   "id": "s748.38",
   "flag": 0,
   "speaker": 4,
   "jp": "ダイナネットに　シティを\nひょうかしてもらうには",
-  "en": "",
-  "status": "todo"
+  "en": "For the Dyna Net to rate your city,",
+  "status": "done"
  },
  {
   "id": "s748.39",
   "flag": 0,
   "speaker": 4,
   "jp": "ダイナが　３０たいいじょう\nすんでいなければなりません",
-  "en": "",
-  "status": "todo"
+  "en": "at least 30 Dyna must be living in it.",
+  "status": "done"
  },
  {
   "id": "s748.40",
   "flag": 0,
   "speaker": 4,
   "jp": "ダイナパッドの　アドレスちょうに\nどんどん　データを　インプットして",
-  "en": "",
-  "status": "todo"
+  "en": "Please keep entering data into your Dyna\nPad's address book,",
+  "status": "done"
  },
  {
   "id": "s748.41",
   "flag": 0,
   "speaker": 4,
   "jp": "ガチャステから　ダイナを\nもっと　たくさん　ゲットしてください",
-  "en": "",
-  "status": "todo"
+  "en": "and get lots more Dyna from the\nGachasute.",
+  "status": "done"
  },
  {
   "id": "s748.42",
   "flag": 0,
   "speaker": 4,
   "jp": "それでは　また　つぎの\nていきほうこくまで　がんばってくださいね",
-  "en": "",
-  "status": "todo"
+  "en": "Well then, please keep up the good work\nuntil the next regular report.",
+  "status": "done"
  },
  {
   "id": "s749.00",
   "flag": 0,
   "speaker": 4,
   "jp": "{%sR4}さん\nだいじょうぶですか？",
-  "en": "",
-  "status": "todo"
+  "en": "{%sR4}-san, are you all right?",
+  "status": "done"
  },
  {
   "id": "s749.01",
   "flag": 0,
   "speaker": 4,
   "jp": "マウンテンタイプの　セクタどうしは\nとなりあうと　つながってしまうので",
-  "en": "",
-  "status": "todo"
+  "en": "Mountain sectors join up when they are\nnext to each other,",
+  "status": "done"
  },
  {
   "id": "s749.02",
   "flag": 0,
   "speaker": 4,
   "jp": "なかに　とじこめられてしまうことが\nあるんです",
-  "en": "",
-  "status": "todo"
+  "en": "so you can end up shut inside them.",
+  "status": "done"
  },
  {
   "id": "s749.03",
   "flag": 0,
   "speaker": 4,
   "jp": "また　バーディスタイプの\nダイナに　のって",
-  "en": "",
-  "status": "todo"
+  "en": "Also, when you are riding a Dyna of the\nBirdis type",
+  "status": "done"
  },
  {
   "id": "s749.04",
   "flag": 0,
   "speaker": 4,
   "jp": "マウンテンタイプの　セクタの　うえを\nいどうしているときも",
-  "en": "",
-  "status": "todo"
+  "en": "and moving over a Mountain sector,",
+  "status": "done"
  },
  {
   "id": "s749.05",
   "flag": 0,
   "speaker": 4,
   "jp": "なんらかの　りゆうで\nダイナが　いなくなると",
-  "en": "",
-  "status": "todo"
+  "en": "if the Dyna goes away for some reason,",
+  "status": "done"
  },
  {
   "id": "s749.06",
   "flag": 0,
   "speaker": 4,
   "jp": "マウンテンの　セクタの　なかに\nとじこめられてしまいます",
-  "en": "",
-  "status": "todo"
+  "en": "you will be shut inside the Mountain\nsector.",
+  "status": "done"
  },
  {
   "id": "s749.07",
   "flag": 0,
   "speaker": 4,
   "jp": "そうすると　いまのように\nここに　てんそうされてしまって",
-  "en": "",
-  "status": "todo"
+  "en": "When that happens, you get sent back\nhere, like just now,",
+  "status": "done"
  },
  {
   "id": "s749.08",
   "flag": 0,
   "speaker": 4,
   "jp": "つれている　ダイナの\nきげんが　わるくなってしまいます{KP}\nこんごは　きをつけてくださいね",
-  "en": "",
-  "status": "todo"
+  "en": "and the Dyna you have with you get\ngrumpy.{KP}\nPlease be careful from now on.",
+  "status": "done"
  }
 ]
