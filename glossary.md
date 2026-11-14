@@ -162,3 +162,9 @@ Binding for every translator and reviewer. Agents propose additions in reports; 
   Mercurie, Plutario, Parmoon, Jornaturn, Bisaios, Capuchipean, Sigmazon, Terioranus. Styles in registers:
   bare Latin (Eridanus, Lyra, Virgo, Cetus, Corvus, Hercules, Pegasus...). Element words in registers:
   earth, thunder, water, fire, none. Plug-in A1-A3/W1-W3. Skills: Tackle, Hypnosis, Sleep Spores, etc.
+- b035-b036: gems Giga Diamond, Earth Emerald, Bolt Topaz, Aqua Sapphire, Flare Ruby, Pure Crystal (64 px);
+  materials Titanium, B-Tooth, IrDA, C-Flash, Stylus...; food Moon Shroom, Rich Fertilizer, Chirpy Hopper...
+  Armor list names: "<description name> E/O/S/R". Gossip word lists: relations "my cousin", "my old friend";
+  places "the arcade", "the minimart", "school", "my house"; activities/events as bare plural/mass nouns
+  ("homework", "soccer", "school fairs"). Nicknames: meaningful words translated (Pest, Tangerine, Polka
+  Dot, Ditzy Sis, Ace Battler), Japanese names in Hepburn (Kurosuke, Murasame).

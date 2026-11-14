@@ -996,8 +996,8 @@
   ],
   "slot": 20,
   "jp": "バグズシールドＯ",
-  "en": "",
-  "status": "todo"
+  "en": "Bugs Shield O",
+  "status": "done"
  },
  {
   "id": "t0B47E0",
@@ -1006,8 +1006,8 @@
   ],
   "slot": 20,
   "jp": "バグズシールドＳ",
-  "en": "",
-  "status": "todo"
+  "en": "Bugs Shield S",
+  "status": "done"
  },
  {
   "id": "t0B47F4",
@@ -1016,8 +1016,8 @@
   ],
   "slot": 20,
   "jp": "バグズシールドＲ",
-  "en": "",
-  "status": "todo"
+  "en": "Bugs Shield R",
+  "status": "done"
  },
  {
   "id": "t0B4808",
@@ -1026,8 +1026,8 @@
   ],
   "slot": 20,
   "jp": "シェルシールドＥ",
-  "en": "",
-  "status": "todo"
+  "en": "Shell Shield E",
+  "status": "done"
  },
  {
   "id": "t0B481C",
@@ -1036,8 +1036,8 @@
   ],
   "slot": 20,
   "jp": "シェルシールドＯ",
-  "en": "",
-  "status": "todo"
+  "en": "Shell Shield O",
+  "status": "done"
  },
  {
   "id": "t0B4830",
@@ -1046,8 +1046,8 @@
   ],
   "slot": 20,
   "jp": "シェルシールドＳ",
-  "en": "",
-  "status": "todo"
+  "en": "Shell Shield S",
+  "status": "done"
  },
  {
   "id": "t0B4844",
@@ -1056,8 +1056,8 @@
   ],
   "slot": 20,
   "jp": "シェルシールドＲ",
-  "en": "",
-  "status": "todo"
+  "en": "Shell Shield R",
+  "status": "done"
  },
  {
   "id": "t0B4858",
@@ -1066,8 +1066,8 @@
   ],
   "slot": 20,
   "jp": "バディシールドＥ",
-  "en": "",
-  "status": "todo"
+  "en": "Buddy Shield E",
+  "status": "done"
  },
  {
   "id": "t0B486C",
@@ -1076,8 +1076,8 @@
   ],
   "slot": 20,
   "jp": "バディシールドＯ",
-  "en": "",
-  "status": "todo"
+  "en": "Buddy Shield O",
+  "status": "done"
  },
  {
   "id": "t0B4880",
@@ -1086,8 +1086,8 @@
   ],
   "slot": 20,
   "jp": "バディシールドＳ",
-  "en": "",
-  "status": "todo"
+  "en": "Buddy Shield S",
+  "status": "done"
  },
  {
   "id": "t0B4894",
@@ -1096,8 +1096,8 @@
   ],
   "slot": 20,
   "jp": "バディシールドＲ",
-  "en": "",
-  "status": "todo"
+  "en": "Buddy Shield R",
+  "status": "done"
  },
  {
   "id": "t0B48A8",
@@ -1106,8 +1106,8 @@
   ],
   "slot": 20,
   "jp": "テトラシールドＥ",
-  "en": "",
-  "status": "todo"
+  "en": "Tetra Shield E",
+  "status": "done"
  },
  {
   "id": "t0B48BC",
@@ -1116,8 +1116,8 @@
   ],
   "slot": 20,
   "jp": "テトラシールドＯ",
-  "en": "",
-  "status": "todo"
+  "en": "Tetra Shield O",
+  "status": "done"
  },
  {
   "id": "t0B48D0",
@@ -1126,8 +1126,8 @@
   ],
   "slot": 20,
   "jp": "テトラシールドＳ",
-  "en": "",
-  "status": "todo"
+  "en": "Tetra Shield S",
+  "status": "done"
  },
  {
   "id": "t0B48E4",
@@ -1136,8 +1136,8 @@
   ],
   "slot": 20,
   "jp": "テトラシールドＲ",
-  "en": "",
-  "status": "todo"
+  "en": "Tetra Shield R",
+  "status": "done"
  },
  {
   "id": "t0B48F8",
@@ -1146,8 +1146,8 @@
   ],
   "slot": 20,
   "jp": "イグナシールドＥ",
-  "en": "",
-  "status": "todo"
+  "en": "Igna Shield E",
+  "status": "done"
  },
  {
   "id": "t0B490C",
@@ -1156,8 +1156,8 @@
   ],
   "slot": 20,
   "jp": "イグナシールドＯ",
-  "en": "",
-  "status": "todo"
+  "en": "Igna Shield O",
+  "status": "done"
  },
  {
   "id": "t0B4920",
@@ -1166,8 +1166,8 @@
   ],
   "slot": 20,
   "jp": "イグナシールドＳ",
-  "en": "",
-  "status": "todo"
+  "en": "Igna Shield S",
+  "status": "done"
  },
  {
   "id": "t0B4934",
@@ -1176,8 +1176,8 @@
   ],
   "slot": 20,
   "jp": "イグナシールドＲ",
-  "en": "",
-  "status": "todo"
+  "en": "Igna Shield R",
+  "status": "done"
  },
  {
   "id": "t0B4948",
@@ -1186,8 +1186,8 @@
   ],
   "slot": 16,
   "jp": "おさななじみ",
-  "en": "",
-  "status": "todo"
+  "en": "my old friend",
+  "status": "done"
  },
  {
   "id": "t0B4958",
@@ -1196,8 +1196,8 @@
   ],
   "slot": 16,
   "jp": "クラスメイト",
-  "en": "",
-  "status": "todo"
+  "en": "my classmate",
+  "status": "done"
  },
  {
   "id": "t0B4968",
@@ -1206,8 +1206,8 @@
   ],
   "slot": 12,
   "jp": "こうはい",
-  "en": "",
-  "status": "todo"
+  "en": "my junior",
+  "status": "done"
  },
  {
   "id": "t0B4974",
@@ -1216,8 +1216,8 @@
   ],
   "slot": 12,
   "jp": "せんぱい",
-  "en": "",
-  "status": "todo"
+  "en": "my senior",
+  "status": "done"
  },
  {
   "id": "t0B4980",
@@ -1226,8 +1226,8 @@
   ],
   "slot": 8,
   "jp": "友だち",
-  "en": "",
-  "status": "todo"
+  "en": "my friend",
+  "status": "done"
  },
  {
   "id": "t0B4988",
@@ -1236,8 +1236,8 @@
   ],
   "slot": 8,
   "jp": "先生",
-  "en": "",
-  "status": "todo"
+  "en": "my teacher",
+  "status": "done"
  },
  {
   "id": "t0B4990",
@@ -1246,8 +1246,8 @@
   ],
   "slot": 12,
   "jp": "しんせき",
-  "en": "",
-  "status": "todo"
+  "en": "my relative",
+  "status": "done"
  },
  {
   "id": "t0B499C",
@@ -1256,8 +1256,8 @@
   ],
   "slot": 8,
   "jp": "いとこ",
-  "en": "",
-  "status": "todo"
+  "en": "my cousin",
+  "status": "done"
  },
  {
   "id": "t0B49A4",
@@ -1266,8 +1266,8 @@
   ],
   "slot": 12,
   "jp": "おばあさん",
-  "en": "",
-  "status": "todo"
+  "en": "my grandma",
+  "status": "done"
  },
  {
   "id": "t0B49B0",
@@ -1276,8 +1276,8 @@
   ],
   "slot": 12,
   "jp": "おじいさん",
-  "en": "",
-  "status": "todo"
+  "en": "my grandpa",
+  "status": "done"
  },
  {
   "id": "t0B49BC",
@@ -1286,8 +1286,8 @@
   ],
   "slot": 12,
   "jp": "おばさん",
-  "en": "",
-  "status": "todo"
+  "en": "my aunt",
+  "status": "done"
  },
  {
   "id": "t0B49C8",
@@ -1296,8 +1296,8 @@
   ],
   "slot": 12,
   "jp": "おじさん",
-  "en": "",
-  "status": "todo"
+  "en": "my uncle",
+  "status": "done"
  },
  {
   "id": "t0B49D4",
@@ -1306,8 +1306,8 @@
   ],
   "slot": 4,
   "jp": "妹",
-  "en": "",
-  "status": "todo"
+  "en": "my little sis",
+  "status": "done"
  },
  {
   "id": "t0B49D8",
@@ -1316,8 +1316,8 @@
   ],
   "slot": 4,
   "jp": "弟",
-  "en": "",
-  "status": "todo"
+  "en": "my little bro",
+  "status": "done"
  },
  {
   "id": "t0B49DC",
@@ -1326,8 +1326,8 @@
   ],
   "slot": 12,
   "jp": "お姉さん",
-  "en": "",
-  "status": "todo"
+  "en": "my big sis",
+  "status": "done"
  },
  {
   "id": "t0B49E8",
@@ -1336,8 +1336,8 @@
   ],
   "slot": 12,
   "jp": "お兄さん",
-  "en": "",
-  "status": "todo"
+  "en": "my big bro",
+  "status": "done"
  },
  {
   "id": "t0B49F4",
@@ -1346,8 +1346,8 @@
   ],
   "slot": 12,
   "jp": "お母さん",
-  "en": "",
-  "status": "todo"
+  "en": "my mom",
+  "status": "done"
  },
  {
   "id": "t0B4A00",
@@ -1356,8 +1356,8 @@
   ],
   "slot": 12,
   "jp": "お父さん",
-  "en": "",
-  "status": "todo"
+  "en": "my dad",
+  "status": "done"
  },
  {
   "id": "t0B4A0C",
@@ -1366,8 +1366,8 @@
   ],
   "slot": 16,
   "jp": "ゲームセンター",
-  "en": "",
-  "status": "todo"
+  "en": "the arcade",
+  "status": "done"
  },
  {
   "id": "t0B4A1C",
@@ -1376,8 +1376,8 @@
   ],
   "slot": 12,
   "jp": "スーパー",
-  "en": "",
-  "status": "todo"
+  "en": "the market",
+  "status": "done"
  },
  {
   "id": "t0B4A28",
@@ -1386,8 +1386,8 @@
   ],
   "slot": 12,
   "jp": "コンビニ",
-  "en": "",
-  "status": "todo"
+  "en": "the minimart",
+  "status": "done"
  },
  {
   "id": "t0B4A34",
@@ -1396,8 +1396,8 @@
   ],
   "slot": 12,
   "jp": "デパート",
-  "en": "",
-  "status": "todo"
+  "en": "the mall",
+  "status": "done"
  },
  {
   "id": "t0B4A40",
@@ -1406,8 +1406,8 @@
   ],
   "slot": 8,
   "jp": "本屋",
-  "en": "",
-  "status": "todo"
+  "en": "the bookstore",
+  "status": "done"
  },
  {
   "id": "t0B4A48",
@@ -1416,8 +1416,8 @@
   ],
   "slot": 8,
   "jp": "水族館",
-  "en": "",
-  "status": "todo"
+  "en": "the aquarium",
+  "status": "done"
  },
  {
   "id": "t0B4A50",
@@ -1426,8 +1426,8 @@
   ],
   "slot": 8,
   "jp": "動物園",
-  "en": "",
-  "status": "todo"
+  "en": "the zoo",
+  "status": "done"
  },
  {
   "id": "t0B4A58",
@@ -1436,8 +1436,8 @@
   ],
   "slot": 8,
   "jp": "映画館",
-  "en": "",
-  "status": "todo"
+  "en": "the movies",
+  "status": "done"
  },
  {
   "id": "t0B4A60",
@@ -1446,8 +1446,8 @@
   ],
   "slot": 8,
   "jp": "遊園地",
-  "en": "",
-  "status": "todo"
+  "en": "the fun park",
+  "status": "done"
  },
  {
   "id": "t0B4A68",
@@ -1456,8 +1456,8 @@
   ],
   "slot": 8,
   "jp": "病院",
-  "en": "",
-  "status": "todo"
+  "en": "the hospital",
+  "status": "done"
  },
  {
   "id": "t0B4A70",
@@ -1466,8 +1466,8 @@
   ],
   "slot": 4,
   "jp": "駅",
-  "en": "",
-  "status": "todo"
+  "en": "the station",
+  "status": "done"
  },
  {
   "id": "t0B4A74",
@@ -1476,8 +1476,8 @@
   ],
   "slot": 8,
   "jp": "図書館",
-  "en": "",
-  "status": "todo"
+  "en": "the library",
+  "status": "done"
  },
  {
   "id": "t0B4A7C",
@@ -1486,8 +1486,8 @@
   ],
   "slot": 8,
   "jp": "郵便局",
-  "en": "",
-  "status": "todo"
+  "en": "the post office",
+  "status": "done"
  },
  {
   "id": "t0B4A84",
@@ -1496,8 +1496,8 @@
   ],
   "slot": 8,
   "jp": "銀行",
-  "en": "",
-  "status": "todo"
+  "en": "the bank",
+  "status": "done"
  },
  {
   "id": "t0B4A8C",
@@ -1506,8 +1506,8 @@
   ],
   "slot": 4,
   "jp": "塾",
-  "en": "",
-  "status": "todo"
+  "en": "cram school",
+  "status": "done"
  },
  {
   "id": "t0B4A90",
@@ -1516,8 +1516,8 @@
   ],
   "slot": 8,
   "jp": "会社",
-  "en": "",
-  "status": "todo"
+  "en": "the office",
+  "status": "done"
  },
  {
   "id": "t0B4A98",
@@ -1526,8 +1526,8 @@
   ],
   "slot": 8,
   "jp": "学校",
-  "en": "",
-  "status": "todo"
+  "en": "school",
+  "status": "done"
  },
  {
   "id": "t0B4AA0",
@@ -1536,8 +1536,8 @@
   ],
   "slot": 8,
   "jp": "自宅",
-  "en": "",
-  "status": "todo"
+  "en": "my house",
+  "status": "done"
  },
  {
   "id": "t0B4AA8",
@@ -1546,8 +1546,8 @@
   ],
   "slot": 8,
   "jp": "宿題",
-  "en": "",
-  "status": "todo"
+  "en": "homework",
+  "status": "done"
  },
  {
   "id": "t0B4AB0",
@@ -1556,8 +1556,8 @@
   ],
   "slot": 8,
   "jp": "電話",
-  "en": "",
-  "status": "todo"
+  "en": "phone calls",
+  "status": "done"
  },
  {
   "id": "t0B4AB8",
@@ -1566,8 +1566,8 @@
   ],
   "slot": 8,
   "jp": "メール",
-  "en": "",
-  "status": "todo"
+  "en": "email",
+  "status": "done"
  },
  {
   "id": "t0B4AC0",
@@ -1576,8 +1576,8 @@
   ],
   "slot": 16,
   "jp": "インターネット",
-  "en": "",
-  "status": "todo"
+  "en": "the Internet",
+  "status": "done"
  },
  {
   "id": "t0B4AD0",
@@ -1586,8 +1586,8 @@
   ],
   "slot": 8,
   "jp": "ゲーム",
-  "en": "",
-  "status": "todo"
+  "en": "games",
+  "status": "done"
  },
  {
   "id": "t0B4AD8",
@@ -1596,8 +1596,8 @@
   ],
   "slot": 8,
   "jp": "食事",
-  "en": "",
-  "status": "todo"
+  "en": "eating out",
+  "status": "done"
  },
  {
   "id": "t0B4AE0",
@@ -1606,8 +1606,8 @@
   ],
   "slot": 8,
   "jp": "旅行",
-  "en": "",
-  "status": "todo"
+  "en": "travel",
+  "status": "done"
  },
  {
   "id": "t0B4AE8",
@@ -1616,8 +1616,8 @@
   ],
   "slot": 8,
   "jp": "バスケ",
-  "en": "",
-  "status": "todo"
+  "en": "basketball",
+  "status": "done"
  },
  {
   "id": "t0B4AF0",
@@ -1626,8 +1626,8 @@
   ],
   "slot": 12,
   "jp": "サッカー",
-  "en": "",
-  "status": "todo"
+  "en": "soccer",
+  "status": "done"
  },
  {
   "id": "t0B4AFC",
@@ -1636,8 +1636,8 @@
   ],
   "slot": 8,
   "jp": "野球",
-  "en": "",
-  "status": "todo"
+  "en": "baseball",
+  "status": "done"
  },
  {
   "id": "t0B4B04",
@@ -1646,8 +1646,8 @@
   ],
   "slot": 12,
   "jp": "クラブ活動",
-  "en": "",
-  "status": "todo"
+  "en": "club activities",
+  "status": "done"
  },
  {
   "id": "t0B4B10",
@@ -1656,8 +1656,8 @@
   ],
   "slot": 8,
   "jp": "読書",
-  "en": "",
-  "status": "todo"
+  "en": "reading",
+  "status": "done"
  },
  {
   "id": "t0B4B18",
@@ -1666,8 +1666,8 @@
   ],
   "slot": 8,
   "jp": "体操",
-  "en": "",
-  "status": "todo"
+  "en": "gymnastics",
+  "status": "done"
  },
  {
   "id": "t0B4B20",
@@ -1676,8 +1676,8 @@
   ],
   "slot": 12,
   "jp": "お出かけ",
-  "en": "",
-  "status": "todo"
+  "en": "going out",
+  "status": "done"
  },
  {
   "id": "t0B4B2C",
@@ -1686,8 +1686,8 @@
   ],
   "slot": 8,
   "jp": "手伝い",
-  "en": "",
-  "status": "todo"
+  "en": "chores",
+  "status": "done"
  },
  {
   "id": "t0B4B34",
@@ -1696,8 +1696,8 @@
   ],
   "slot": 8,
   "jp": "買い物",
-  "en": "",
-  "status": "todo"
+  "en": "shopping",
+  "status": "done"
  },
  {
   "id": "t0B4B3C",
@@ -1706,8 +1706,8 @@
   ],
   "slot": 8,
   "jp": "勉強",
-  "en": "",
-  "status": "todo"
+  "en": "studying",
+  "status": "done"
  },
  {
   "id": "t0B4B44",
@@ -1716,8 +1716,8 @@
   ],
   "slot": 8,
   "jp": "遊び",
-  "en": "",
-  "status": "todo"
+  "en": "playing",
+  "status": "done"
  },
  {
   "id": "t0B4B4C",
@@ -1726,8 +1726,8 @@
   ],
   "slot": 12,
   "jp": "大そうじ",
-  "en": "",
-  "status": "todo"
+  "en": "big cleanups",
+  "status": "done"
  },
  {
   "id": "t0B4B58",
@@ -1736,8 +1736,8 @@
   ],
   "slot": 12,
   "jp": "バーゲン",
-  "en": "",
-  "status": "todo"
+  "en": "bargain sales",
+  "status": "done"
  },
  {
   "id": "t0B4B64",
@@ -1746,8 +1746,8 @@
   ],
   "slot": 8,
   "jp": "大会",
-  "en": "",
-  "status": "todo"
+  "en": "tournaments",
+  "status": "done"
  },
  {
   "id": "t0B4B6C",
@@ -1756,8 +1756,8 @@
   ],
   "slot": 12,
   "jp": "パーティー",
-  "en": "",
-  "status": "todo"
+  "en": "parties",
+  "status": "done"
  },
  {
   "id": "t0B4B78",
@@ -1766,8 +1766,8 @@
   ],
   "slot": 8,
   "jp": "誕生日",
-  "en": "",
-  "status": "todo"
+  "en": "birthdays",
+  "status": "done"
  },
  {
   "id": "t0B4B80",
@@ -1776,8 +1776,8 @@
   ],
   "slot": 8,
   "jp": "お祭り",
-  "en": "",
-  "status": "todo"
+  "en": "festivals",
+  "status": "done"
  },
  {
   "id": "t0B4B88",
@@ -1786,8 +1786,8 @@
   ],
   "slot": 8,
   "jp": "春休み",
-  "en": "",
-  "status": "todo"
+  "en": "spring break",
+  "status": "done"
  },
  {
   "id": "t0B4B90",
@@ -1796,8 +1796,8 @@
   ],
   "slot": 8,
   "jp": "冬休み",
-  "en": "",
-  "status": "todo"
+  "en": "winter break",
+  "status": "done"
  },
  {
   "id": "t0B4B98",
@@ -1806,8 +1806,8 @@
   ],
   "slot": 8,
   "jp": "夏休み",
-  "en": "",
-  "status": "todo"
+  "en": "summer break",
+  "status": "done"
  },
  {
   "id": "t0B4BA0",
@@ -1816,8 +1816,8 @@
   ],
   "slot": 8,
   "jp": "終業式",
-  "en": "",
-  "status": "todo"
+  "en": "end of term",
+  "status": "done"
  },
  {
   "id": "t0B4BA8",
@@ -1826,8 +1826,8 @@
   ],
   "slot": 8,
   "jp": "始業式",
-  "en": "",
-  "status": "todo"
+  "en": "start of term",
+  "status": "done"
  },
  {
   "id": "t0B4BB0",
@@ -1836,8 +1836,8 @@
   ],
   "slot": 8,
   "jp": "テスト",
-  "en": "",
-  "status": "todo"
+  "en": "tests",
+  "status": "done"
  },
  {
   "id": "t0B4BB8",
@@ -1846,8 +1846,8 @@
   ],
   "slot": 8,
   "jp": "記念日",
-  "en": "",
-  "status": "todo"
+  "en": "anniversaries",
+  "status": "done"
  },
  {
   "id": "t0B4BC0",
@@ -1856,8 +1856,8 @@
   ],
   "slot": 8,
   "jp": "発表会",
-  "en": "",
-  "status": "todo"
+  "en": "recitals",
+  "status": "done"
  },
  {
   "id": "t0B4BC8",
@@ -1866,8 +1866,8 @@
   ],
   "slot": 8,
   "jp": "遠足",
-  "en": "",
-  "status": "todo"
+  "en": "field trips",
+  "status": "done"
  },
  {
   "id": "t0B4BD0",
@@ -1876,8 +1876,8 @@
   ],
   "slot": 8,
   "jp": "学芸会",
-  "en": "",
-  "status": "todo"
+  "en": "school plays",
+  "status": "done"
  },
  {
   "id": "t0B4BD8",
@@ -1886,8 +1886,8 @@
   ],
   "slot": 8,
   "jp": "文化祭",
-  "en": "",
-  "status": "todo"
+  "en": "school fairs",
+  "status": "done"
  },
  {
   "id": "t0B4BE0",
@@ -1896,8 +1896,8 @@
   ],
   "slot": 8,
   "jp": "運動会",
-  "en": "",
-  "status": "todo"
+  "en": "sports day",
+  "status": "done"
  },
  {
   "id": "t0B4BE8",
@@ -1906,8 +1906,8 @@
   ],
   "slot": 12,
   "jp": "ポセイドン",
-  "en": "",
-  "status": "todo"
+  "en": "Poseidon",
+  "status": "done"
  },
  {
   "id": "t0B4BF4",
@@ -1916,8 +1916,8 @@
   ],
   "slot": 12,
   "jp": "ロプロス",
-  "en": "",
-  "status": "todo"
+  "en": "Ropross",
+  "status": "done"
  },
  {
   "id": "t0B4C00",
@@ -1926,8 +1926,8 @@
   ],
   "slot": 8,
   "jp": "ロデム",
-  "en": "",
-  "status": "todo"
+  "en": "Rodem",
+  "status": "done"
  },
  {
   "id": "t0B4C08",
@@ -1936,8 +1936,8 @@
   ],
   "slot": 16,
   "jp": "おじゃまむし",
-  "en": "",
-  "status": "todo"
+  "en": "Pest",
+  "status": "done"
  },
  {
   "id": "t0B4C18",
@@ -1946,8 +1946,8 @@
   ],
   "slot": 12,
   "jp": "サンセット",
-  "en": "",
-  "status": "todo"
+  "en": "Sunset",
+  "status": "done"
  },
  {
   "id": "t0B4C24",
@@ -1956,8 +1956,8 @@
   ],
   "slot": 12,
   "jp": "スカイハイ",
-  "en": "",
-  "status": "todo"
+  "en": "Sky High",
+  "status": "done"
  },
  {
   "id": "t0B4C30",
@@ -1966,8 +1966,8 @@
   ],
   "slot": 8,
   "jp": "デニム",
-  "en": "",
-  "status": "todo"
+  "en": "Denim",
+  "status": "done"
  },
  {
   "id": "t0B4C38",
@@ -1976,8 +1976,8 @@
   ],
   "slot": 12,
   "jp": "ペルシャ",
-  "en": "",
-  "status": "todo"
+  "en": "Persia",
+  "status": "done"
  },
  {
   "id": "t0B4C44",
@@ -1986,8 +1986,8 @@
   ],
   "slot": 20,
   "jp": "はなまるバトラー",
-  "en": "",
-  "status": "todo"
+  "en": "Ace Battler",
+  "status": "done"
  },
  {
   "id": "t0B4C58",
@@ -1996,8 +1996,8 @@
   ],
   "slot": 12,
   "jp": "くろすけ",
-  "en": "",
-  "status": "todo"
+  "en": "Kurosuke",
+  "status": "done"
  },
  {
   "id": "t0B4C64",
@@ -2006,8 +2006,8 @@
   ],
   "slot": 8,
   "jp": "みかん",
-  "en": "",
-  "status": "todo"
+  "en": "Tangerine",
+  "status": "done"
  },
  {
   "id": "t0B4C6C",
@@ -2016,8 +2016,8 @@
   ],
   "slot": 12,
   "jp": "みずたま",
-  "en": "",
-  "status": "todo"
+  "en": "Polka Dot",
+  "status": "done"
  },
  {
   "id": "t0B4C78",
@@ -2026,8 +2026,8 @@
   ],
   "slot": 20,
   "jp": "インディー・リン",
-  "en": "",
-  "status": "todo"
+  "en": "Indy Lin",
+  "status": "done"
  },
  {
   "id": "t0B4C8C",
@@ -2036,8 +2036,8 @@
   ],
   "slot": 16,
   "jp": "たんきけっせん",
-  "en": "",
-  "status": "todo"
+  "en": "Blitz",
+  "status": "done"
  },
  {
   "id": "t0B4C9C",
@@ -2046,8 +2046,8 @@
   ],
   "slot": 12,
   "jp": "クルーザー",
-  "en": "",
-  "status": "todo"
+  "en": "Cruiser",
+  "status": "done"
  },
  {
   "id": "t0B4CA8",
@@ -2056,8 +2056,8 @@
   ],
   "slot": 8,
   "jp": "エラン",
-  "en": "",
-  "status": "todo"
+  "en": "Elan",
+  "status": "done"
  },
  {
   "id": "t0B4CB0",
@@ -2066,8 +2066,8 @@
   ],
   "slot": 8,
   "jp": "イワン",
-  "en": "",
-  "status": "todo"
+  "en": "Ivan",
+  "status": "done"
  },
  {
   "id": "t0B4CB8",
@@ -2076,8 +2076,8 @@
   ],
   "slot": 8,
   "jp": "ザウス",
-  "en": "",
-  "status": "todo"
+  "en": "Zaus",
+  "status": "done"
  },
  {
   "id": "t0B4CC0",
@@ -2086,8 +2086,8 @@
   ],
   "slot": 20,
   "jp": "タウルスのとりこ",
-  "en": "",
-  "status": "todo"
+  "en": "Taurus Lover",
+  "status": "done"
  },
  {
   "id": "t0B4CD4",
@@ -2096,8 +2096,8 @@
   ],
   "slot": 8,
   "jp": "ヤスー",
-  "en": "",
-  "status": "todo"
+  "en": "Yasu",
+  "status": "done"
  },
  {
   "id": "t0B4CDC",
@@ -2106,8 +2106,8 @@
   ],
   "slot": 12,
   "jp": "ドウカン",
-  "en": "",
-  "status": "todo"
+  "en": "Dokan",
+  "status": "done"
  },
  {
   "id": "t0B4CE8",
@@ -2116,8 +2116,8 @@
   ],
   "slot": 12,
   "jp": "シマータ",
-  "en": "",
-  "status": "todo"
+  "en": "Shimata",
+  "status": "done"
  },
  {
   "id": "t0B4CF4",
@@ -2126,8 +2126,8 @@
   ],
   "slot": 12,
   "jp": "フィーナ",
-  "en": "",
-  "status": "todo"
+  "en": "Fina",
+  "status": "done"
  },
  {
   "id": "t0B4D00",
@@ -2136,8 +2136,8 @@
   ],
   "slot": 20,
   "jp": "うっかりねぇさん",
-  "en": "",
-  "status": "todo"
+  "en": "Ditzy Sis",
+  "status": "done"
  },
  {
   "id": "t0B4D14",
@@ -2146,8 +2146,8 @@
   ],
   "slot": 12,
   "jp": "フラッシュ",
-  "en": "",
-  "status": "todo"
+  "en": "Flash",
+  "status": "done"
  },
  {
   "id": "t0B4D20",
@@ -2156,8 +2156,8 @@
   ],
   "slot": 12,
   "jp": "シリアル",
-  "en": "",
-  "status": "todo"
+  "en": "Serial",
+  "status": "done"
  },
  {
   "id": "t0B4D2C",
@@ -2166,8 +2166,8 @@
   ],
   "slot": 12,
   "jp": "パラレル",
-  "en": "",
-  "status": "todo"
+  "en": "Parallel",
+  "status": "done"
  },
  {
   "id": "t0B4D38",
@@ -2176,8 +2176,8 @@
   ],
   "slot": 12,
   "jp": "ファイブ",
-  "en": "",
-  "status": "todo"
+  "en": "Five",
+  "status": "done"
  },
  {
   "id": "t0B4D44",
@@ -2186,8 +2186,8 @@
   ],
   "slot": 16,
   "jp": "カスタマイザー",
-  "en": "",
-  "status": "todo"
+  "en": "Customizer",
+  "status": "done"
  },
  {
   "id": "t0B4D54",
@@ -2196,8 +2196,8 @@
   ],
   "slot": 12,
   "jp": "キーウィ",
-  "en": "",
-  "status": "todo"
+  "en": "Kiwi",
+  "status": "done"
  },
  {
   "id": "t0B4D60",
@@ -2206,8 +2206,8 @@
   ],
   "slot": 12,
   "jp": "タイガー",
-  "en": "",
-  "status": "todo"
+  "en": "Tiger",
+  "status": "done"
  },
  {
   "id": "t0B4D6C",
@@ -2216,8 +2216,8 @@
   ],
   "slot": 16,
   "jp": "ストロベリー",
-  "en": "",
-  "status": "todo"
+  "en": "Strawberry",
+  "status": "done"
  },
  {
   "id": "t0B4D7C",
@@ -2226,8 +2226,8 @@
   ],
   "slot": 8,
   "jp": "レツ",
-  "en": "",
-  "status": "todo"
+  "en": "Retsu",
+  "status": "done"
  },
  {
   "id": "t0B4D84",
@@ -2236,8 +2236,8 @@
   ],
   "slot": 20,
   "jp": "ボールはともだち",
-  "en": "",
-  "status": "todo"
+  "en": "Ball Buddy",
+  "status": "done"
  },
  {
   "id": "t0B4D98",
@@ -2246,8 +2246,8 @@
   ],
   "slot": 12,
   "jp": "インディゴ",
-  "en": "",
-  "status": "todo"
+  "en": "Indigo",
+  "status": "done"
  },
  {
   "id": "t0B4DA4",
@@ -2256,8 +2256,8 @@
   ],
   "slot": 8,
   "jp": "エイジ",
-  "en": "",
-  "status": "todo"
+  "en": "Eiji",
+  "status": "done"
  },
  {
   "id": "t0B4DAC",
@@ -2266,8 +2266,8 @@
   ],
   "slot": 12,
   "jp": "エアリアル",
-  "en": "",
-  "status": "todo"
+  "en": "Aerial",
+  "status": "done"
  },
  {
   "id": "t0B4DB8",
@@ -2276,8 +2276,8 @@
   ],
   "slot": 8,
   "jp": "ルーク",
-  "en": "",
-  "status": "todo"
+  "en": "Luke",
+  "status": "done"
  },
  {
   "id": "t0B4DC0",
@@ -2286,8 +2286,8 @@
   ],
   "slot": 20,
   "jp": "ときのしはいしゃ",
-  "en": "",
-  "status": "todo"
+  "en": "Time Ruler",
+  "status": "done"
  },
  {
   "id": "t0B4DD4",
@@ -2296,8 +2296,8 @@
   ],
   "slot": 12,
   "jp": "ラーメン",
-  "en": "",
-  "status": "todo"
+  "en": "Ramen",
+  "status": "done"
  },
  {
   "id": "t0B4DE0",
@@ -2306,8 +2306,8 @@
   ],
   "slot": 8,
   "jp": "ポップ",
-  "en": "",
-  "status": "todo"
+  "en": "Pop",
+  "status": "done"
  },
  {
   "id": "t0B4DE8",
@@ -2316,8 +2316,8 @@
   ],
   "slot": 12,
   "jp": "ブラッキー",
-  "en": "",
-  "status": "todo"
+  "en": "Blackie",
+  "status": "done"
  },
  {
   "id": "t0B4DF4",
@@ -2326,8 +2326,8 @@
   ],
   "slot": 12,
   "jp": "ムラサメ",
-  "en": "",
-  "status": "todo"
+  "en": "Murasame",
+  "status": "done"
  },
  {
   "id": "t0B4E00",
@@ -2336,8 +2336,8 @@
   ],
   "slot": 20,
   "jp": "のろわれしカタナ",
-  "en": "",
-  "status": "todo"
+  "en": "Cursed Katana",
+  "status": "done"
  },
  {
   "id": "t0B4E14",
@@ -2346,8 +2346,8 @@
   ],
   "slot": 12,
   "jp": "ラーサー",
-  "en": "",
-  "status": "todo"
+  "en": "Larsa",
+  "status": "done"
  },
  {
   "id": "t0B4E20",
@@ -2356,8 +2356,8 @@
   ],
   "slot": 12,
   "jp": "エリザベス",
-  "en": "",
-  "status": "todo"
+  "en": "Elizabeth",
+  "status": "done"
  },
  {
   "id": "t0B4E2C",
@@ -2366,8 +2366,8 @@
   ],
   "slot": 16,
   "jp": "シャルロット",
-  "en": "",
-  "status": "todo"
+  "en": "Charlotte",
+  "status": "done"
  },
  {
   "id": "t0B4E3C",
@@ -2376,8 +2376,8 @@
   ],
   "slot": 20,
   "jp": "アルストロメリア",
-  "en": "",
-  "status": "todo"
+  "en": "Alstroemeria",
+  "status": "done"
  },
  {
   "id": "t0B4E50",
@@ -2386,8 +2386,8 @@
   ],
   "slot": 16,
   "jp": "キラキラむすめ",
-  "en": "",
-  "status": "todo"
+  "en": "Sparkle Girl",
+  "status": "done"
  },
  {
   "id": "t0B4E60",
@@ -2396,8 +2396,8 @@
   ],
   "slot": 16,
   "jp": "グランチュラ",
-  "en": "",
-  "status": "todo"
+  "en": "Granchula",
+  "status": "done"
  },
  {
   "id": "t0B4E70",
@@ -2406,8 +2406,8 @@
   ],
   "slot": 12,
   "jp": "ブースター",
-  "en": "",
-  "status": "todo"
+  "en": "Booster",
+  "status": "done"
  },
  {
   "id": "t0B4E7C",
@@ -2416,8 +2416,8 @@
   ],
   "slot": 12,
   "jp": "マッシュ",
-  "en": "",
-  "status": "todo"
+  "en": "Mash",
+  "status": "done"
  },
  {
   "id": "t0B4E88",
@@ -2426,8 +2426,8 @@
   ],
   "slot": 8,
   "jp": "リヴン",
-  "en": "",
-  "status": "todo"
+  "en": "Riven",
+  "status": "done"
  },
  {
   "id": "t0B4E90",
@@ -2436,8 +2436,8 @@
   ],
   "slot": 20,
   "jp": "ゴッドテクニック",
-  "en": "",
-  "status": "todo"
+  "en": "God Technique",
+  "status": "done"
  },
  {
   "id": "t0B4EA4",
@@ -2446,8 +2446,8 @@
   ],
   "slot": 12,
   "jp": "ティリアル",
-  "en": "",
-  "status": "todo"
+  "en": "Tirial",
+  "status": "done"
  },
  {
   "id": "t0B4EB0",
@@ -2456,8 +2456,8 @@
   ],
   "slot": 12,
   "jp": "スピナーズ",
-  "en": "",
-  "status": "todo"
+  "en": "Spinners",
+  "status": "done"
  },
  {
   "id": "t0B4EBC",
@@ -2466,8 +2466,8 @@
   ],
   "slot": 12,
   "jp": "シーニャン",
-  "en": "",
-  "status": "todo"
+  "en": "Shinyan",
+  "status": "done"
  },
  {
   "id": "t0B4EC8",
@@ -2476,8 +2476,8 @@
   ],
   "slot": 12,
   "jp": "エイジャ",
-  "en": "",
-  "status": "todo"
+  "en": "Aja",
+  "status": "done"
  },
  {
   "id": "t0B4ED4",
@@ -2486,8 +2486,8 @@
   ],
   "slot": 16,
   "jp": "レッドストーン",
-  "en": "",
-  "status": "todo"
+  "en": "Redstone",
+  "status": "done"
  },
  {
   "id": "t0B4EE4",
