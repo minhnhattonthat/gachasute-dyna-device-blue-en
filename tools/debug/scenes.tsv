@@ -5,6 +5,32 @@ keyboard	boot	keyboard	120	name-entry keyboard (profile name)
 title	boot	title	60	title screen after the form
 intro	newgame		600	new game: script 1 (ようこそ ダイナシティへ), tutorial start
 battle_place	field	30 -	60	tutorial skipped, out into the city: a visiting challenger starts a battle, Dyna placement screen (script 181)
+menu	menu	6 b;60 -	60	tutorial played out (tools/debug/tutorial_route.txt), city road, B: field menu bar (じゅうみん データベース システム もちもの パーティ)
+menu_db_dyna	menu	6 b;60 -;6 a;40 -;6 a;90 -	60	menu: database > Dyna (list of 4 pages)
+menu_db_device	menu	6 b;60 -;6 a;40 -;6 down;20 -;6 a;90 -	60	menu: database > device (list)
+menu_db_keyword	menu	6 b;60 -;6 a;40 -;6 down;20 -;6 down;20 -;6 a;90 -	60	menu: database > keyword (list)
+menu_db_keyword_help	menu	6 b;60 -;6 a;40 -;6 down;20 -;6 down;20 -;6 a;60 -;6 down;20 -;6 a;120 -	60	menu: database > keyword > entry 2 (explanation box)
+menu_save	menu	6 b;60 -;6 right;30 -;6 a;40 -;6 a;90 -	60	menu: system > data save (yes/no prompt)
+menu_saving	menu	6 b;60 -;6 right;30 -;6 a;40 -;6 a;60 -;6 a;20 -	20	menu: system > data save > yes (セーブちゅうです)
+menu_battle_anim	menu	6 b;60 -;6 right;30 -;6 a;40 -;6 down;20 -;6 a;90 -	60	menu: system > battle animation on/off
+menu_quit	menu	6 b;60 -;6 right;30 -;6 a;40 -;6 down;20 -;6 down;20 -;6 a;90 -	60	menu: system > quit
+menu_items	menu	6 b;60 -;6 right;30 -;6 right;30 -;6 a;40 -;6 a;90 -	60	menu: items > use (Shop Kit help)
+menu_items_sort	menu	6 b;60 -;6 right;30 -;6 right;30 -;6 a;40 -;6 down;20 -;6 a;90 -	60	menu: items > sort
+menu_items_discard	menu	6 b;60 -;6 right;30 -;6 right;30 -;6 a;40 -;6 down;20 -;6 down;20 -;6 a;90 -	60	menu: items > discard
+menu_party	menu	6 b;60 -;6 right;30 -;6 right;30 -;6 right;30 -;6 a;90 -	60	menu: party (list with the help box)
+menu_party_status	menu	6 b;60 -;6 right;30 -;6 right;30 -;6 right;30 -;6 a;40 -;6 a;40 -;6 a;120 -	60	menu: party > status (Dyna status page)
+menu_party_equip	menu	6 b;60 -;6 right;30 -;6 right;30 -;6 right;30 -;6 a;40 -;6 down;20 -;6 a;40 -;6 a;240 -	60	menu: party > equip (device screen)
+menu_party_return	menu	6 b;60 -;6 right;30 -;6 right;30 -;6 right;30 -;6 a;40 -;6 down;20 -;6 down;20 -;6 a;40 -;6 a;120 -	60	menu: party > send home
+menu_party_release	menu	6 b;60 -;6 right;30 -;6 right;30 -;6 right;30 -;6 a;40 -;6 down;20 -;6 down;20 -;6 down;20 -;6 a;40 -;6 a;120 -	60	menu: party > release
+menu_residents	menu	6 b;60 -;6 left;30 -;6 a;40 -;6 a;40 -;6 a;120 -	60	menu: residents > status (help box)
+menu_resident_map	menu	6 b;60 -;6 left;30 -;6 a;40 -;6 down;20 -;6 down;20 -;6 down;20 -;6 a;300 -	60	menu: residents > map (city map with sector info)
+pause	menu	6 start;60 -	30	Start in the field: pause (ポーズ graphic)
+shop_item_greet	fscript	690	150	after the tutorial, the receptionist's talk script becomes 690: item shop greeting text only (the buy UI is native code, not reached yet)
+shop_merchant_greet	fscript	762	150	receptionist talk -> script 762: travelling merchant greeting (buy/sell UI not reached yet)
+colosseum_greet	fscript	705	150	receptionist talk -> script 705: colosseum reception text
+device_dev_greet	fscript	723	150	receptionist talk -> script 723: device development text (factory UI not reached yet)
+gameover	fscript	275	150	receptionist talk -> script 275: game over text (ゲームオーバー・・・おわったね)
+reception_keeper	fscript	633 6 a;60 -;6 a;60 -	60	receptionist talk (script 633 kept), A: Dyna Keeper message (こちらで あずかっている ダイナは いません)
 e7	event	7	900	story event 7: script 33, Mii's colosseum tutorial (city)
 e13	event	13	900	story event 13: script 74, device development tutorial (reception)
 e19	event	19	900	story event 19: script 92, rival shows up (city)

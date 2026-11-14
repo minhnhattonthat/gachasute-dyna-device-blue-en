@@ -4,3 +4,5 @@
 - references/graphics.md static sweep: `codex exec -s read-only -i sheet.png ...` works as the independent reviewer in Orca runs (no nested workers); it reads images and returns TSV rows.
 - references/emulator-qa.md (Hooks): Mesen GBA `L.on_read` on ROM (0x08xxxxxx) works and `watch.lua` needs `--var "WATCH_MODE='read'"` to log reads (default logs writes only); `emu.setState({["cpu.r1"]=n})` in an on_exec at a function entry changes its argument (used to hijack start_script).
 - context-mode plugin: Read/Bash output over ~4 KB is replaced by an index stub; read files with ctx_execute (cat) or smaller ranges.
+- references/emulator-qa.md (Debug tool): a long input route recorded with play.py from a mid-run state replays exactly from a cold boot in Mesen GBA (26k frames, tutorial), so a warp can replay a whole tutorial instead of poking a party struct.
+- references/emulator-qa.md (emu.py): 8 parallel Mesen GBA runs of ~26k frames: 3 exited 1 mid-route with no error; 4 parallel are fine (tools/debug/regen.py retries failures once).

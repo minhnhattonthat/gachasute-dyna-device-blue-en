@@ -7,6 +7,7 @@ Skill: translate-retro-game (Claude Code: plugin, enabled in .claude/settings.js
 - Check:    `python -X utf8 tools/check.py` (tests + lint; the pre-commit hook runs this)
 - Smoke:    `python -X utf8 $SKILL/scripts/emu.py build/dynadevice_blue_en.gba --out work/qa/smoke --route tools/routes/boot.txt --smoke`
 - Warp:     `python -X utf8 $SKILL/scripts/emu.py build/dynadevice_blue_en.gba --out work/qa/warp --script tools/debug/warp.lua --var "SCENE='<name>'" --frames 900 --sheet` (scenes: `tools/debug/scenes.tsv`; never ask the user to play to a scene) [from phase 2]
+- Regen:    `python -X utf8 tools/debug/regen.py [SCENE..] --jobs 4` (all scenes from cold boot: shots in work/qa/warp/, states in work/states/; exit 1 if any fails)
 - Release:  `python -X utf8 tools/release.py` (patch + verify; never publish without the user) [phase 9]
 - Clean:    `python -X utf8 tools/clean.py` (published projects: lists rebuildable/downloadable files; `--yes` deletes)
 - Hooks: `git config core.hooksPath tools/hooks` once per clone.

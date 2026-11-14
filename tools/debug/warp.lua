@@ -6,6 +6,8 @@
 --   HOLD    frames to keep running after the scene is reached (default: the scene's hold column, else 300)
 --   MASHA   1 = press A every 40 frames after arrival (click through dialogue)
 --   GOD     reserved (battles): not wired yet
+--   FINISH  1 = stop the run once the hold shot is taken; WARP_STATE = path: save a state there, then stop
+--   (tools/debug/regen.py sets both)
 -- Log lines: "WARP <stage>" at each stage, "ARRIVED <scene> f<frame>" when the scene is up, "SCRIPT <n>" whenever
 -- the game starts an event script (with the caller's PC).
 
@@ -49,6 +51,10 @@ local scene = scenes[SCENE or ""]
 if not scene then L.fail("unknown SCENE " .. tostring(SCENE)) return end
 local hold = tonumber(HOLD) or scene.hold or 300
 
+local TUT_ROUTE = (SCENES and SCENES:gsub("[^/\\]+$", "") or "../debug/") .. "tutorial_route.txt"
+local TUT_MASH = 2997  -- frames of A-mashing from script 1's start before the recorded tutorial route begins
+local tutStart = 0
+local arriveAfterRoute = false  -- arrive when the queued input route has played out
 local stage, stageFrame = "boot", 0
 local arrived = nil
 local function set_stage(s)
@@ -134,7 +140,10 @@ L.on_exec(SCRIPT_START, SCRIPT_START, function()
     return
   end
   if scene.kind == "script" and scriptCount == 1 then
-    local want = tonumber(scene.arg)
+    -- arg: "N[ route]": script N, then (optional) an input route played from the script's start
+    local want = tonumber(scene.arg:match("^%s*(%d+)"))
+    local route = scene.arg:match("^%s*%d+%s+(.+)$")
+    if route then play(parse_route("1 -;" .. route)); arriveAfterRoute = true end
     emu.setState({ ["cpu.r1"] = want })
     L.log(string.format("SCRIPT %d -> %d (hijacked) lr=%08X f%d", idx, want, s["cpu.r14"] or 0, L.frame))
     idx = want
@@ -142,9 +151,27 @@ L.on_exec(SCRIPT_START, SCRIPT_START, function()
     L.log(string.format("SCRIPT %d lr=%08X room=%d f%d", idx, s["cpu.r14"] or 0, r16(ROOM), L.frame))
   end
   local eventScript = scene.kind == "event" and emu.read16(EVENT_SCRIPTS + 2 * tonumber(scene.arg), MEM) or -1
+  if scene.kind == "fscript" and stage == "fwalk" and r16(ROOM) == 15 then
+    -- the reception's room-load script (331, fades the room in) runs; then up to the counter and talk
+    set_stage("ftalk")
+    play(parse_route("90 -;60 up;6 a;60 -"))
+  elseif scene.kind == "fscript" and stage == "ftalk" then
+    -- arg "N[ route]": the receptionist's talk script becomes script N, then the route plays
+    local want = tonumber(scene.arg:match("^%s*(%d+)"))
+    local route = scene.arg:match("^%s*%d+%s+(.+)$")
+    emu.setState({ ["cpu.r1"] = want })
+    L.log(string.format("SCRIPT %d -> %d (hijacked in room %d) f%d", idx, want, r16(ROOM), L.frame))
+    set_stage("done")
+    if route then play(parse_route("1 -;" .. route)); arriveAfterRoute = true else arrive() end
+    return
+  end
+  if (scene.kind == "menu" or scene.kind == "fscript") and stage == "title" and idx == 1 then
+    tutStart = L.frame
+    set_stage("tutorial")
+  end
   if stage ~= "done" and (scene.kind == "script" or scene.kind == "newgame" or (stage == "walk" and idx == eventScript)) then
     set_stage("done")
-    arrive()
+    if not arriveAfterRoute then arrive() end
   end
 end)
 
@@ -154,9 +181,36 @@ L.on_exec(TEXT_DRAW, TEXT_DRAW, function()
   L.log(string.format("TEXT %08X f%d", p, L.frame))
 end)
 
-local cityFrame, arriveAfterRoute = nil, false
+local cityFrame = nil
 L.on_frame(function(n)
-  if stage == "boot" then
+  if stage == "tutorial" then
+    -- kind "menu": play the whole tutorial (script 1) as recorded: A every 40 frames for TUT_MASH frames, then the
+    -- recorded route (Gachasute walk, Dyna names, house, sector build with an item shop), ending on the city road.
+    local t = n - tutStart
+    if t < TUT_MASH and t > 0 and t % 40 == 0 then L.press("a", 6) end
+    if t == TUT_MASH then
+      local f = assert(io.open(TUT_ROUTE, "r"))
+      local str = f:read("a"); f:close()
+      play(parse_route(str:gsub("%s+$", "")))
+    end
+    if t > TUT_MASH and L.route_done() then
+      if r16(ROOM) ~= 0 or r16(SCR + 0x10) ~= 0 then
+        L.log(string.format("WARP tutorial route ended off the city road room=%d op=%d f%d", r16(ROOM),
+          r16(SCR + 0x10), n))
+      end
+      if scene.kind == "fscript" then
+        -- walk into the reception (room 15), whose load starts script 331 (lr 0x0805003B)
+        set_stage("fwalk")
+        play(parse_route("90 up;50 right;60 up;60 -"))
+      else
+        set_stage("done")
+        play(parse_route("1 -;" .. scene.arg))
+        arriveAfterRoute = true
+      end
+    end
+  elseif stage == "fwalk" or stage == "ftalk" then
+    if L.route_done() and n - stageFrame > 600 then L.fail("fscript: no script started at stage " .. stage) end
+  elseif stage == "boot" then
     -- logos and the date prompt: A every 60 frames until the profile form handler runs
     if n % 60 == 0 and n > 300 then L.press("a", 6) end
   elseif stage == "form" and L.route_done() then
@@ -190,6 +244,8 @@ L.on_frame(function(n)
   if arrived and n - arrived == hold then
     L.shot("hold.png")
     L.log(string.format("HOLD done f%d", n))
+    if WARP_STATE then L.save_state(WARP_STATE, function() L.finish(0) end)
+    elseif FINISH then L.finish(0) end
   end
   if arrived and n > arrived and (MASHA or 0) > 0 and (n - arrived) % 40 == 0 then L.press("a", 6) end
 end)

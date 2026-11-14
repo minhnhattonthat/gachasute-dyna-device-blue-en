@@ -35,7 +35,23 @@ string the message drawer gets (text-coverage source for phase 8).
   70 needs previous room != 15 (the e70 warp did not fire: not in the scene list yet). Events 72-87 (scripts
   147-153, 796-817) are picked after the switch (0x0801EDFE on), not decoded yet.
 
-## Field and menus (open)
+## Tutorial replay, menus, reception (verified 2026-11-14, `tools/debug/regen.py`)
+- Kind `menu`: new game, A every 40 frames for 2997 frames from script 1, then the recorded route
+  `tools/debug/tutorial_route.txt` (made with play.py from a state at f6000; emulation is deterministic, so it replays
+  from a cold boot): Gachasute walk (script 10 "press A in front of the Gachasute": the machine is top right of the
+  reception), address-book pick, naming two Dynas (アララフ, トリマン: START confirms), Dyna Keeper, the house (talk to
+  the Dyna, pick つれていく), the sector-build menu (Item Shop 300 picked; it does not show on the map yet), ending on
+  the city road south of the reception at f25866 with 4300 bits. Then the scene's arg route plays.
+- Field controls: B = menu bar (cyclic tabs; opens on データベース): じゅうみん (ステータス そうび にがす マップ),
+  データベース (ダイナ デバイス キーワード), システム (データセーブ バトルアニメ おわる), もちもの (つかう ならびかえ すてる),
+  パーティ (ステータス そうび かえらせる にがす). START = pause (ポーズ, a graphic).
+- Reception from the road: `90 up;50 right;60 up`. Its load runs script 331 (fades the room in, lr 0x0805003B).
+  Talking to the receptionist (`60 up;a`) runs 633, then a native menu runs 635/638 (Dyna Keeper). Kind `fscript`
+  swaps 633 for any script: the script's text shows in the reception, but shop/colosseum/factory UIs are native code
+  entered from their buildings, so those scripts give greeting text only.
+- Shop texts: 690 item shop, 705 colosseum, 723-741 device development, 762-772 travelling merchant, 275 game over.
+
+## Field and menus (open, older notes)
 - After the tutorial skip the player has no Dynas, and a visiting challenger (script 791, from 0x080654A2 when
   0x08018FBC returns 0) walks up in the city and starts a battle (Dyna placement, script 181) even when its script
   is replaced: the field kind lands in that battle. Start/Select/L/R in the reception during the tutorial open
