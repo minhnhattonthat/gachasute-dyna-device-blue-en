@@ -2,7 +2,7 @@
 
 Updated at the end of every session. Keep it to what the next session needs; history is in git.
 
-- **Phase:** 6. Translate in progress: b001-b028 of 45 merged (all scripts 0-833; strings to t0B00C8).
+- **Phase:** 6. Translate in progress: b001-b037 of 45 merged (all scripts 0-833; strings to t0B5724).
   Last build: `build/dynadevice_blue_en.gba` 2026-11-15 (b001 only), sha1 8b8b8bd1...; pilot seen in game
   (`work/qa/p6_pilot2`, warp `intro` + `MASHA=1`, 6000 frames): English wraps cleanly, ▼ clears the last line.
 - **How phase 6 runs (D11):** one agent translates batches in order, itself (Orca: no helpers).
@@ -24,15 +24,23 @@ Updated at the end of every session. Keep it to what the next session needs; his
   `work/qa/p6_choice6`). Fix idea: replace timed waits with event-driven segments (wait for SCRIPT n / room), or
   finish the tutorial on the original ROM, save in game, and start these scenes from that .sav (text-independent).
 - **Next:**
-  1. Continue at b029 (t0B00E0-, description-line fragments), in order to b045 (Dyna species = constellation names
-     per D10, armor/weapon parts, menus: menu verbs must match glossary "Decisions from earlier batches"; the gossip
-     word lists t0B4948-t0B4BE0 per the translator brief's b018-b023 note). For fragment batches first run
-     `python -X utf8 tools/desc_view.py bNNN` (records that use the batch's lines, done lines as «English»; b029
-     prints 159 records, read it via ctx_execute in chunks) and follow the brief's "Description lines" note.
+  1. Continue at b038 (t0B573C-, Database keyword/style help lines, 96 px), in order to b045 (then UI strings,
+     menus: menu verbs must match glossary "Decisions from earlier batches"). Help lines are 4-line pages:
+     `python -X utf8 tools/desc_view.py bNNN` now also shows the help pages (table 0x0D0300-0x0D1250; run with
+     `--dump` once if work/tl/desc_records.txt predates 2026-11-15 evening). Keyword names double as help lines:
+     "Style" (t0B5588, pattern "<Type> type" / "includes this" / "Style" / "Rarity: low."), "Element", "Sector",
+     "Type" end their pages as a bare label; b038+ must fit those patterns (t0B6770 ぶんるいされる -> "includes
+     this"; the type lines t0B6780 etc. -> "Kickbug type"; rarity lines "Rarity: low/normal/high.").
      A JP-blank fragment ("　") is set to status keep in script/ and its line deleted from work/tl/bNNN.tsv.
   3. After all batches: review pass (fresh read-only, per file group, `assets/reviewer-brief.md`), Minors to
      `docs/polish.md`; `tools/lint.py` 0 errors; `batches.py check` 0 problems. Then phase 7.
-- **Done (phase 6, latest session):** b024-b028 (shops, Colosseum/Ranking Battle prizes, Factory, regular
+- **Done (phase 6, latest session):** b029-b037: armor/weapon/food/material descriptions (parts pattern reworked
+  in b028: "Igarm types and" / "Zero-E types'" / "dedicated Devices" / "need this part."), device names, star
+  and constellation names, Extra weapon names, skills, items, gossip word lists, nicknames, keyword names.
+  Glossary sections b029-b036 hold every name decision. 64 px cuts and unsure names listed in new
+  `docs/polish.md`. Keyword list names t0B539C-t0B5618 re-budgeted 64 -> 96 px (`tools/budgets.py`: their only
+  pointers are the keyword table 0x0D0008 and help pages). `desc_view.py` covers the help pages.
+- **Done (phase 6, session before):** b024-b028 (shops, Colosseum/Ranking Battle prizes, Factory, regular
   reports and city ranks, tournament, travelling merchant, challengers, G-Force, link messages, sector types,
   first description fragments). New terms in glossary (Hall of Fame, Hero's Crown, Draco style, the 10 body
   types). Sector-type field header: the code right-aligns it at col 13 (0x0804E4E6), budget raised 32 -> 56 px;

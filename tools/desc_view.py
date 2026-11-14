@@ -14,6 +14,8 @@ from pathlib import Path
 
 ROOT = Path(__file__).resolve().parent.parent
 REC_START, REC_END = 0x0BDB2C, 0x0BFAEC
+# Database keyword/style help pages (0x0B56C8-0x0B802C, 96 px lines): 4 line pointers a page, read in order.
+HELP_START, HELP_END = 0x0D0300, 0x0D1250
 DUMP = ROOT / "work" / "tl" / "desc_records.txt"
 
 
@@ -23,8 +25,9 @@ def dump():
     def s(q):
         return rom[q:rom.index(b"\0", q)].decode("cp932", "replace")
 
-    out = ["# description records 0x0BDB2C-0x0BFAEC (4 line pointers each, read as one phrase in JP order)"]
-    for o in range(REC_START, REC_END, 16):
+    out = ["# description records 0x0BDB2C-0x0BFAEC and keyword help pages 0x0D0300-0x0D1250"
+           " (4 line pointers each, read as one phrase in JP order)"]
+    for o in [*range(REC_START, REC_END, 16), *range(HELP_START, HELP_END, 16)]:
         ps = [struct.unpack_from("<I", rom, o + 4 * k)[0] - 0x8000000 for k in range(4)]
         out.append(f"{o:06X}\t" + "\t".join(f"t{p:06X}={s(p)}" for p in ps))
     DUMP.write_text("\n".join(out) + "\n", encoding="utf8")

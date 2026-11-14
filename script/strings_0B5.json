@@ -6,8 +6,8 @@
   ],
   "slot": 12,
   "jp": "メカニカル",
-  "en": "",
-  "status": "todo"
+  "en": "Mechanical",
+  "status": "done"
  },
  {
   "id": "t0B500C",
@@ -16,8 +16,8 @@
   ],
   "slot": 8,
   "jp": "バイス",
-  "en": "",
-  "status": "todo"
+  "en": "Vise",
+  "status": "done"
  },
  {
   "id": "t0B5014",
@@ -26,8 +26,8 @@
   ],
   "slot": 16,
   "jp": "ソニックタイム",
-  "en": "",
-  "status": "todo"
+  "en": "Sonic Time",
+  "status": "done"
  },
  {
   "id": "t0B5024",
@@ -36,8 +36,8 @@
   ],
   "slot": 8,
   "jp": "トラ",
-  "en": "",
-  "status": "todo"
+  "en": "Stripes",
+  "status": "done"
  },
  {
   "id": "t0B502C",
@@ -46,8 +46,8 @@
   ],
   "slot": 8,
   "jp": "ミケ",
-  "en": "",
-  "status": "todo"
+  "en": "Calico",
+  "status": "done"
  },
  {
   "id": "t0B5034",
@@ -56,8 +56,8 @@
   ],
   "slot": 8,
   "jp": "タマ",
-  "en": "",
-  "status": "todo"
+  "en": "Tama",
+  "status": "done"
  },
  {
   "id": "t0B503C",
@@ -66,8 +66,8 @@
   ],
   "slot": 12,
   "jp": "チャッピー",
-  "en": "",
-  "status": "todo"
+  "en": "Chappy",
+  "status": "done"
  },
  {
   "id": "t0B5048",
@@ -76,8 +76,8 @@
   ],
   "slot": 16,
   "jp": "ねこまっしぐら",
-  "en": "",
-  "status": "todo"
+  "en": "Cat Dash",
+  "status": "done"
  },
  {
   "id": "t0B5058",
@@ -86,8 +86,8 @@
   ],
   "slot": 12,
   "jp": "はかいしん",
-  "en": "",
-  "status": "todo"
+  "en": "God of Ruin",
+  "status": "done"
  },
  {
   "id": "t0B5064",
@@ -96,8 +96,8 @@
   ],
   "slot": 16,
   "jp": "むてきこうてい",
-  "en": "",
-  "status": "todo"
+  "en": "Invincible",
+  "status": "done"
  },
  {
   "id": "t0B5074",
@@ -106,8 +106,8 @@
   ],
   "slot": 16,
   "jp": "とっしんおう",
-  "en": "",
-  "status": "todo"
+  "en": "Charge King",
+  "status": "done"
  },
  {
   "id": "t0B5084",
@@ -116,8 +116,8 @@
   ],
   "slot": 20,
   "jp": "むてきのオレさま",
-  "en": "",
-  "status": "todo"
+  "en": "Unbeatable Me",
+  "status": "done"
  },
  {
   "id": "t0B5098",
@@ -126,8 +126,8 @@
   ],
   "slot": 12,
   "jp": "カニカニ",
-  "en": "",
-  "status": "todo"
+  "en": "Crab-Crab",
+  "status": "done"
  },
  {
   "id": "t0B50A4",
@@ -136,8 +136,8 @@
   ],
   "slot": 12,
   "jp": "ピチピチ",
-  "en": "",
-  "status": "todo"
+  "en": "Fresh Fish",
+  "status": "done"
  },
  {
   "id": "t0B50B0",
@@ -146,8 +146,8 @@
   ],
   "slot": 12,
   "jp": "トレトレ",
-  "en": "",
-  "status": "todo"
+  "en": "Fresh Catch",
+  "status": "done"
  },
  {
   "id": "t0B50BC",
@@ -156,8 +156,8 @@
   ],
   "slot": 16,
   "jp": "ドコサ＝ヘキサ",
-  "en": "",
-  "status": "todo"
+  "en": "Docosa-Hexa",
+  "status": "done"
  },
  {
   "id": "t0B50CC",
@@ -166,8 +166,8 @@
   ],
   "slot": 16,
   "jp": "うみのおうじゃ",
-  "en": "",
-  "status": "todo"
+  "en": "Sea King",
+  "status": "done"
  },
  {
   "id": "t0B50DC",
@@ -176,8 +176,8 @@
   ],
   "slot": 20,
   "jp": "フレイムバレット",
-  "en": "",
-  "status": "todo"
+  "en": "Flame Bullet",
+  "status": "done"
  },
  {
   "id": "t0B50F0",
@@ -186,8 +186,8 @@
   ],
   "slot": 12,
   "jp": "エスカルゴ",
-  "en": "",
-  "status": "todo"
+  "en": "Escargot",
+  "status": "done"
  },
  {
   "id": "t0B50FC",
@@ -196,8 +196,8 @@
   ],
   "slot": 16,
   "jp": "サンダーローズ",
-  "en": "",
-  "status": "todo"
+  "en": "Thunder Rose",
+  "status": "done"
  },
  {
   "id": "t0B510C",
@@ -206,8 +206,8 @@
   ],
   "slot": 20,
   "jp": "ロジックマスター",
-  "en": "",
-  "status": "todo"
+  "en": "Logic Master",
+  "status": "done"
  },
  {
   "id": "t0B5120",
@@ -216,8 +216,8 @@
   ],
   "slot": 8,
   "jp": "バアル",
-  "en": "",
-  "status": "todo"
+  "en": "Baal",
+  "status": "done"
  },
  {
   "id": "t0B5128",
@@ -226,8 +226,8 @@
   ],
   "slot": 12,
   "jp": "ベリアル",
-  "en": "",
-  "status": "todo"
+  "en": "Belial",
+  "status": "done"
  },
  {
   "id": "t0B5134",
@@ -236,8 +236,8 @@
   ],
   "slot": 12,
   "jp": "デュリエル",
-  "en": "",
-  "status": "todo"
+  "en": "Duriel",
+  "status": "done"
  },
  {
   "id": "t0B5140",
@@ -246,8 +246,8 @@
   ],
   "slot": 8,
   "jp": "さとみ",
-  "en": "",
-  "status": "todo"
+  "en": "Satomi",
+  "status": "done"
  },
  {
   "id": "t0B5148",
@@ -256,8 +256,8 @@
   ],
   "slot": 16,
   "jp": "マッドマスター",
-  "en": "",
-  "status": "todo"
+  "en": "Mad Master",
+  "status": "done"
  },
  {
   "id": "t0B5158",
@@ -266,8 +266,8 @@
   ],
   "slot": 8,
   "jp": "ブルー",
-  "en": "",
-  "status": "todo"
+  "en": "Blue",
+  "status": "done"
  },
  {
   "id": "t0B5160",
@@ -276,8 +276,8 @@
   ],
   "slot": 8,
   "jp": "シルバ",
-  "en": "",
-  "status": "todo"
+  "en": "Silva",
+  "status": "done"
  },
  {
   "id": "t0B5168",
@@ -286,8 +286,8 @@
   ],
   "slot": 16,
   "jp": "ぜったいれいど",
-  "en": "",
-  "status": "todo"
+  "en": "Absolute Zero",
+  "status": "done"
  },
  {
   "id": "t0B5178",
@@ -296,8 +296,8 @@
   ],
   "slot": 12,
   "jp": "きよもり",
-  "en": "",
-  "status": "todo"
+  "en": "Kiyomori",
+  "status": "done"
  },
  {
   "id": "t0B5184",
@@ -306,8 +306,8 @@
   ],
   "slot": 12,
   "jp": "よしつね",
-  "en": "",
-  "status": "todo"
+  "en": "Yoshitsune",
+  "status": "done"
  },
  {
   "id": "t0B5190",
@@ -316,8 +316,8 @@
   ],
   "slot": 12,
   "jp": "たかうじ",
-  "en": "",
-  "status": "todo"
+  "en": "Takauji",
+  "status": "done"
  },
  {
   "id": "t0B519C",
@@ -326,8 +326,8 @@
   ],
   "slot": 8,
   "jp": "かずま",
-  "en": "",
-  "status": "todo"
+  "en": "Kazuma",
+  "status": "done"
  },
  {
   "id": "t0B51A4",
@@ -336,8 +336,8 @@
   ],
   "slot": 16,
   "jp": "かみなりこぞう",
-  "en": "",
-  "status": "todo"
+  "en": "Thunder Kid",
+  "status": "done"
  },
  {
   "id": "t0B51B4",
@@ -346,8 +346,8 @@
   ],
   "slot": 12,
   "jp": "フリージア",
-  "en": "",
-  "status": "todo"
+  "en": "Freesia",
+  "status": "done"
  },
  {
   "id": "t0B51C0",
@@ -356,8 +356,8 @@
   ],
   "slot": 8,
   "jp": "クラン",
-  "en": "",
-  "status": "todo"
+  "en": "Clan",
+  "status": "done"
  },
  {
   "id": "t0B51C8",
@@ -366,8 +366,8 @@
   ],
   "slot": 12,
   "jp": "シルビア",
-  "en": "",
-  "status": "todo"
+  "en": "Sylvia",
+  "status": "done"
  },
  {
   "id": "t0B51D4",
@@ -376,8 +376,8 @@
   ],
   "slot": 16,
   "jp": "ラッキーガール",
-  "en": "",
-  "status": "todo"
+  "en": "Lucky Girl",
+  "status": "done"
  },
  {
   "id": "t0B51E4",
@@ -386,8 +386,8 @@
   ],
   "slot": 8,
   "jp": "マル",
-  "en": "",
-  "status": "todo"
+  "en": "Maru",
+  "status": "done"
  },
  {
   "id": "t0B51EC",
@@ -396,8 +396,8 @@
   ],
   "slot": 12,
   "jp": "ポッポラ",
-  "en": "",
-  "status": "todo"
+  "en": "Poppora",
+  "status": "done"
  },
  {
   "id": "t0B51F8",
@@ -406,8 +406,8 @@
   ],
   "slot": 12,
   "jp": "エドモンド",
-  "en": "",
-  "status": "todo"
+  "en": "Edmond",
+  "status": "done"
  },
  {
   "id": "t0B5204",
@@ -416,8 +416,8 @@
   ],
   "slot": 8,
   "jp": "カンタ",
-  "en": "",
-  "status": "todo"
+  "en": "Kanta",
+  "status": "done"
  },
  {
   "id": "t0B520C",
@@ -426,8 +426,8 @@
   ],
   "slot": 20,
   "jp": "たいようのししゃ",
-  "en": "",
-  "status": "todo"
+  "en": "Sun Envoy",
+  "status": "done"
  },
  {
   "id": "t0B5220",
@@ -436,8 +436,8 @@
   ],
   "slot": 16,
   "jp": "ヴァルしゃーく",
-  "en": "",
-  "status": "todo"
+  "en": "Valshark",
+  "status": "done"
  },
  {
   "id": "t0B5230",
@@ -446,8 +446,8 @@
   ],
   "slot": 12,
   "jp": "ネコぱんち",
-  "en": "",
-  "status": "todo"
+  "en": "Cat Punch",
+  "status": "done"
  },
  {
   "id": "t0B523C",
@@ -456,8 +456,8 @@
   ],
   "slot": 16,
   "jp": "オフィーちゃん",
-  "en": "",
-  "status": "todo"
+  "en": "Ophie-chan",
+  "status": "done"
  },
  {
   "id": "t0B524C",
@@ -466,8 +466,8 @@
   ],
   "slot": 20,
   "jp": "プリティーデビル",
-  "en": "",
-  "status": "todo"
+  "en": "Pretty Devil",
+  "status": "done"
  },
  {
   "id": "t0B5260",
@@ -476,8 +476,8 @@
   ],
   "slot": 12,
   "jp": "クライシス",
-  "en": "",
-  "status": "todo"
+  "en": "Crisis",
+  "status": "done"
  },
  {
   "id": "t0B526C",
@@ -486,8 +486,8 @@
   ],
   "slot": 12,
   "jp": "ボンバー",
-  "en": "",
-  "status": "todo"
+  "en": "Bomber",
+  "status": "done"
  },
  {
   "id": "t0B5278",
@@ -496,8 +496,8 @@
   ],
   "slot": 12,
   "jp": "サンダー",
-  "en": "",
-  "status": "todo"
+  "en": "Thunder",
+  "status": "done"
  },
  {
   "id": "t0B5284",
@@ -506,8 +506,8 @@
   ],
   "slot": 12,
   "jp": "えちおぴ",
-  "en": "",
-  "status": "todo"
+  "en": "Echiopi",
+  "status": "done"
  },
  {
   "id": "t0B5290",
@@ -516,8 +516,8 @@
   ],
   "slot": 20,
   "jp": "あくのじゅうじか",
-  "en": "",
-  "status": "todo"
+  "en": "Evil Cross",
+  "status": "done"
  },
  {
   "id": "t0B52A4",
@@ -526,8 +526,8 @@
   ],
   "slot": 12,
   "jp": "バトラー",
-  "en": "",
-  "status": "todo"
+  "en": "Battler",
+  "status": "done"
  },
  {
   "id": "t0B52B0",
@@ -536,8 +536,8 @@
   ],
   "slot": 16,
   "jp": "ウォーリアー",
-  "en": "",
-  "status": "todo"
+  "en": "Warrior",
+  "status": "done"
  },
  {
   "id": "t0B52C0",
@@ -546,8 +546,8 @@
   ],
   "slot": 8,
   "jp": "ナイト",
-  "en": "",
-  "status": "todo"
+  "en": "Knight",
+  "status": "done"
  },
  {
   "id": "t0B52C8",
@@ -556,8 +556,8 @@
   ],
   "slot": 20,
   "jp": "ザ・パーフェクト",
-  "en": "",
-  "status": "todo"
+  "en": "The Perfect",
+  "status": "done"
  },
  {
   "id": "t0B52DC",
@@ -566,8 +566,8 @@
   ],
   "slot": 8,
   "jp": "ベア",
-  "en": "",
-  "status": "todo"
+  "en": "Bear",
+  "status": "done"
  },
  {
   "id": "t0B52E4",
@@ -576,8 +576,8 @@
   ],
   "slot": 8,
   "jp": "ジャガ",
-  "en": "",
-  "status": "todo"
+  "en": "Jaga",
+  "status": "done"
  },
  {
   "id": "t0B52EC",
@@ -586,8 +586,8 @@
   ],
   "slot": 8,
   "jp": "イグル",
-  "en": "",
-  "status": "todo"
+  "en": "Igle",
+  "status": "done"
  },
  {
   "id": "t0B52F4",
@@ -596,8 +596,8 @@
   ],
   "slot": 12,
   "jp": "コウちん",
-  "en": "",
-  "status": "todo"
+  "en": "Kou-chin",
+  "status": "done"
  },
  {
   "id": "t0B5300",
@@ -606,8 +606,8 @@
   ],
   "slot": 20,
   "jp": "デバイスマスター",
-  "en": "",
-  "status": "todo"
+  "en": "Device Master",
+  "status": "done"
  },
  {
   "id": "t0B5314",
@@ -616,8 +616,8 @@
   ],
   "slot": 8,
   "jp": "ヤマダ",
-  "en": "",
-  "status": "todo"
+  "en": "Yamada",
+  "status": "done"
  },
  {
   "id": "t0B531C",
@@ -626,8 +626,8 @@
   ],
   "slot": 20,
   "jp": "敵ダイナデバイス",
-  "en": "",
-  "status": "todo"
+  "en": "Enemy Device",
+  "status": "done"
  },
  {
   "id": "t0B5330",
@@ -638,8 +638,8 @@
   ],
   "slot": 8,
   "jp": "テリー",
-  "en": "",
-  "status": "todo"
+  "en": "Terry",
+  "status": "done"
  },
  {
   "id": "t0B5338",
@@ -648,8 +648,8 @@
   ],
   "slot": 24,
   "jp": "謎の少女（ジョルナ）",
-  "en": "",
-  "status": "todo"
+  "en": "Girl? (Jorna)",
+  "status": "done"
  },
  {
   "id": "t0B5350",
@@ -658,8 +658,8 @@
   ],
   "slot": 8,
   "jp": "少年Ｂ",
-  "en": "",
-  "status": "todo"
+  "en": "Boy B",
+  "status": "done"
  },
  {
   "id": "t0B5358",
@@ -668,8 +668,8 @@
   ],
   "slot": 8,
   "jp": "少女Ａ",
-  "en": "",
-  "status": "todo"
+  "en": "Girl A",
+  "status": "done"
  },
  {
   "id": "t0B5360",
@@ -679,8 +679,8 @@
   ],
   "slot": 12,
   "jp": "ジョルナ",
-  "en": "",
-  "status": "todo"
+  "en": "Jorna",
+  "status": "done"
  },
  {
   "id": "t0B536C",
@@ -691,8 +691,8 @@
   ],
   "slot": 8,
   "jp": "ユリエ",
-  "en": "",
-  "status": "todo"
+  "en": "Yurie",
+  "status": "done"
  },
  {
   "id": "t0B5374",
@@ -703,8 +703,8 @@
   ],
   "slot": 8,
   "jp": "イッパ",
-  "en": "",
-  "status": "todo"
+  "en": "Ippa",
+  "status": "done"
  },
  {
   "id": "t0B537C",
@@ -713,8 +713,8 @@
   ],
   "slot": 8,
   "jp": "少年Ａ",
-  "en": "",
-  "status": "todo"
+  "en": "Boy A",
+  "status": "done"
  },
  {
   "id": "t0B5384",
@@ -725,8 +725,8 @@
   ],
   "slot": 8,
   "jp": "シグマ",
-  "en": "",
-  "status": "todo"
+  "en": "Sigma",
+  "status": "done"
  },
  {
   "id": "t0B538C",
@@ -740,8 +740,8 @@
   ],
   "slot": 8,
   "jp": "ゲニオ",
-  "en": "",
-  "status": "todo"
+  "en": "Genio",
+  "status": "done"
  },
  {
   "id": "t0B5394",
@@ -768,8 +768,8 @@
   ],
   "slot": 8,
   "jp": "無し",
-  "en": "",
-  "status": "todo"
+  "en": "None",
+  "status": "done"
  },
  {
   "id": "t0B539C",
@@ -778,8 +778,8 @@
   ],
   "slot": 20,
   "jp": "ワンサイドアタック",
-  "en": "",
-  "status": "todo"
+  "en": "One-Sided Attack",
+  "status": "done"
  },
  {
   "id": "t0B53B0",
@@ -788,8 +788,8 @@
   ],
   "slot": 16,
   "jp": "リーラスタイル",
-  "en": "",
-  "status": "todo"
+  "en": "Lyra style",
+  "status": "done"
  },
  {
   "id": "t0B53C0",
@@ -798,8 +798,8 @@
   ],
   "slot": 16,
   "jp": "ライエクストラ",
-  "en": "",
-  "status": "todo"
+  "en": "Rai Extra",
+  "status": "done"
  },
  {
   "id": "t0B53D0",
@@ -808,8 +808,8 @@
   ],
   "slot": 16,
   "jp": "みずぞくせい",
-  "en": "",
-  "status": "todo"
+  "en": "Water Element",
+  "status": "done"
  },
  {
   "id": "t0B53E0",
@@ -818,8 +818,8 @@
   ],
   "slot": 20,
   "jp": "ミストエクストラ",
-  "en": "",
-  "status": "todo"
+  "en": "Mist Extra",
+  "status": "done"
  },
  {
   "id": "t0B53F4",
@@ -828,8 +828,8 @@
   ],
   "slot": 12,
   "jp": "マスター",
-  "en": "",
-  "status": "todo"
+  "en": "Master",
+  "status": "done"
  },
  {
   "id": "t0B5400",
@@ -838,8 +838,8 @@
   ],
   "slot": 20,
   "jp": "ボルトエクストラ",
-  "en": "",
-  "status": "todo"
+  "en": "Bolt Extra",
+  "status": "done"
  },
  {
   "id": "t0B5414",
@@ -848,8 +848,8 @@
   ],
   "slot": 16,
   "jp": "ボムエクストラ",
-  "en": "",
-  "status": "todo"
+  "en": "Bomb Extra",
+  "status": "done"
  },
  {
   "id": "t0B5424",
@@ -858,8 +858,8 @@
   ],
   "slot": 16,
   "jp": "ほのおぞくせい",
-  "en": "",
-  "status": "todo"
+  "en": "Fire Element",
+  "status": "done"
  },
  {
   "id": "t0B5434",
@@ -868,8 +868,8 @@
   ],
   "slot": 20,
   "jp": "ペルセウススタイル",
-  "en": "",
-  "status": "todo"
+  "en": "Perseus style",
+  "status": "done"
  },
  {
   "id": "t0B5448",
@@ -878,8 +878,8 @@
   ],
   "slot": 20,
   "jp": "ヘルクレススタイル",
-  "en": "",
-  "status": "todo"
+  "en": "Hercules style",
+  "status": "done"
  },
  {
   "id": "t0B545C",
@@ -888,8 +888,8 @@
   ],
   "slot": 20,
   "jp": "ペガスススタイル",
-  "en": "",
-  "status": "todo"
+  "en": "Pegasus style",
+  "status": "done"
  },
  {
   "id": "t0B5470",
@@ -898,8 +898,8 @@
   ],
   "slot": 20,
   "jp": "フレアエクストラ",
-  "en": "",
-  "status": "todo"
+  "en": "Flare Extra",
+  "status": "done"
  },
  {
   "id": "t0B5484",
@@ -908,8 +908,8 @@
   ],
   "slot": 16,
   "jp": "プラネットＯＳ",
-  "en": "",
-  "status": "todo"
+  "en": "Planet OS",
+  "status": "done"
  },
  {
   "id": "t0B5494",
@@ -918,8 +918,8 @@
   ],
   "slot": 8,
   "jp": "ビット",
-  "en": "",
-  "status": "todo"
+  "en": "Bit",
+  "status": "done"
  },
  {
   "id": "t0B549C",
@@ -928,8 +928,8 @@
   ],
   "slot": 20,
   "jp": "ヒートエクストラ",
-  "en": "",
-  "status": "todo"
+  "en": "Heat Extra",
+  "status": "done"
  },
  {
   "id": "t0B54B0",
@@ -938,8 +938,8 @@
   ],
   "slot": 16,
   "jp": "バイラーシティ",
-  "en": "",
-  "status": "todo"
+  "en": "Byler City",
+  "status": "done"
  },
  {
   "id": "t0B54C0",
@@ -948,8 +948,8 @@
   ],
   "slot": 12,
   "jp": "バイラー",
-  "en": "",
-  "status": "todo"
+  "en": "Byler",
+  "status": "done"
  },
  {
   "id": "t0B54CC",
@@ -958,8 +958,8 @@
   ],
   "slot": 12,
   "jp": "ナビュウ",
-  "en": "",
-  "status": "todo"
+  "en": "Navyu",
+  "status": "done"
  },
  {
   "id": "t0B54D8",
@@ -968,8 +968,8 @@
   ],
   "slot": 12,
   "jp": "デバイス",
-  "en": "",
-  "status": "todo"
+  "en": "Device",
+  "status": "done"
  },
  {
   "id": "t0B54E4",
@@ -978,8 +978,8 @@
   ],
   "slot": 16,
   "jp": "ダブルアタック",
-  "en": "",
-  "status": "todo"
+  "en": "Double Attack",
+  "status": "done"
  },
  {
   "id": "t0B54F4",
@@ -989,8 +989,8 @@
   ],
   "slot": 8,
   "jp": "タイプ",
-  "en": "",
-  "status": "todo"
+  "en": "Type",
+  "status": "done"
  },
  {
   "id": "t0B54FC",
@@ -999,8 +999,8 @@
   ],
   "slot": 16,
   "jp": "ダイナパッド",
-  "en": "",
-  "status": "todo"
+  "en": "Dyna Pad",
+  "status": "done"
  },
  {
   "id": "t0B550C",
@@ -1009,8 +1009,8 @@
   ],
   "slot": 16,
   "jp": "ダイナネット",
-  "en": "",
-  "status": "todo"
+  "en": "Dyna Net",
+  "status": "done"
  },
  {
   "id": "t0B551C",
@@ -1019,8 +1019,8 @@
   ],
   "slot": 16,
   "jp": "ダイナデバイス",
-  "en": "",
-  "status": "todo"
+  "en": "Dyna Device",
+  "status": "done"
  },
  {
   "id": "t0B552C",
@@ -1029,8 +1029,8 @@
   ],
   "slot": 16,
   "jp": "ダイナセンター",
-  "en": "",
-  "status": "todo"
+  "en": "Dyna Center",
+  "status": "done"
  },
  {
   "id": "t0B553C",
@@ -1039,8 +1039,8 @@
   ],
   "slot": 16,
   "jp": "ダイナシティ",
-  "en": "",
-  "status": "todo"
+  "en": "Dyna City",
+  "status": "done"
  },
  {
   "id": "t0B554C",
@@ -1049,8 +1049,8 @@
   ],
   "slot": 16,
   "jp": "ダイナサーバー",
-  "en": "",
-  "status": "todo"
+  "en": "Dyna Server",
+  "status": "done"
  },
  {
   "id": "t0B555C",
@@ -1059,8 +1059,8 @@
   ],
   "slot": 8,
   "jp": "ダイナ",
-  "en": "",
-  "status": "todo"
+  "en": "Dyna",
+  "status": "done"
  },
  {
   "id": "t0B5564",
@@ -1069,8 +1069,8 @@
   ],
   "slot": 16,
   "jp": "だいちぞくせい",
-  "en": "",
-  "status": "todo"
+  "en": "Earth Element",
+  "status": "done"
  },
  {
   "id": "t0B5574",
@@ -1085,8 +1085,8 @@
   ],
   "slot": 12,
   "jp": "ぞくせい",
-  "en": "",
-  "status": "todo"
+  "en": "Element",
+  "status": "done"
  },
  {
   "id": "t0B5580",
@@ -1097,8 +1097,8 @@
   ],
   "slot": 8,
   "jp": "セクタ",
-  "en": "",
-  "status": "todo"
+  "en": "Sector",
+  "status": "done"
  },
  {
   "id": "t0B5588",
@@ -1134,8 +1134,8 @@
   ],
   "slot": 12,
   "jp": "スタイル",
-  "en": "",
-  "status": "todo"
+  "en": "Style",
+  "status": "done"
  },
  {
   "id": "t0B5594",
@@ -1144,8 +1144,8 @@
   ],
   "slot": 12,
   "jp": "Ｇフォース",
-  "en": "",
-  "status": "todo"
+  "en": "G-Force",
+  "status": "done"
  },
  {
   "id": "t0B55A0",
@@ -1154,8 +1154,8 @@
   ],
   "slot": 20,
   "jp": "サンドエクストラ",
-  "en": "",
-  "status": "todo"
+  "en": "Sand Extra",
+  "status": "done"
  },
  {
   "id": "t0B55B4",
@@ -1164,8 +1164,8 @@
   ],
   "slot": 20,
   "jp": "コルウススタイル",
-  "en": "",
-  "status": "todo"
+  "en": "Corvus style",
+  "status": "done"
  },
  {
   "id": "t0B55C8",
@@ -1174,8 +1174,8 @@
   ],
   "slot": 20,
   "jp": "ケフェウススタイル",
-  "en": "",
-  "status": "todo"
+  "en": "Cepheus style",
+  "status": "done"
  },
  {
   "id": "t0B55DC",
@@ -1184,8 +1184,8 @@
   ],
   "slot": 20,
   "jp": "ケートススタイル",
-  "en": "",
-  "status": "todo"
+  "en": "Cetus style",
+  "status": "done"
  },
  {
   "id": "t0B55F0",
@@ -1194,8 +1194,8 @@
   ],
   "slot": 20,
   "jp": "グランエクストラ",
-  "en": "",
-  "status": "todo"
+  "en": "Gran Extra",
+  "status": "done"
  },
  {
   "id": "t0B5604",
@@ -1204,8 +1204,8 @@
   ],
   "slot": 20,
   "jp": "かみなりぞくせい",
-  "en": "",
-  "status": "todo"
+  "en": "Thunder Element",
+  "status": "done"
  },
  {
   "id": "t0B5618",
@@ -1214,8 +1214,8 @@
   ],
   "slot": 20,
   "jp": "エレキエクストラ",
-  "en": "",
-  "status": "todo"
+  "en": "Elec Extra",
+  "status": "done"
  },
  {
   "id": "t0B562C",
@@ -1224,8 +1224,8 @@
   ],
   "slot": 20,
   "jp": "エリダヌススタイル",
-  "en": "",
-  "status": "todo"
+  "en": "Eridanus style",
+  "status": "done"
  },
  {
   "id": "t0B5640",
@@ -1234,8 +1234,8 @@
   ],
   "slot": 20,
   "jp": "エクストラコンボ",
-  "en": "",
-  "status": "todo"
+  "en": "Extra Combo",
+  "status": "done"
  },
  {
   "id": "t0B5654",
@@ -1244,8 +1244,8 @@
   ],
   "slot": 12,
   "jp": "エクストラ",
-  "en": "",
-  "status": "todo"
+  "en": "Extra",
+  "status": "done"
  },
  {
   "id": "t0B5660",
@@ -1254,8 +1254,8 @@
   ],
   "slot": 20,
   "jp": "ウィルゴースタイル",
-  "en": "",
-  "status": "todo"
+  "en": "Virgo style",
+  "status": "done"
  },
  {
   "id": "t0B5674",
@@ -1264,8 +1264,8 @@
   ],
   "slot": 24,
   "jp": "アクアリウススタイル",
-  "en": "",
-  "status": "todo"
+  "en": "Aquarius style",
+  "status": "done"
  },
  {
   "id": "t0B568C",
@@ -1274,8 +1274,8 @@
   ],
   "slot": 20,
   "jp": "アクアエクストラ",
-  "en": "",
-  "status": "todo"
+  "en": "Aqua Extra",
+  "status": "done"
  },
  {
   "id": "t0B56A0",
@@ -1284,8 +1284,8 @@
   ],
   "slot": 20,
   "jp": "アイスエクストラ",
-  "en": "",
-  "status": "todo"
+  "en": "Ice Extra",
+  "status": "done"
  },
  {
   "id": "t0B56B4",
@@ -1294,8 +1294,8 @@
   ],
   "slot": 20,
   "jp": "アースエクストラ",
-  "en": "",
-  "status": "todo"
+  "en": "Earth Extra",
+  "status": "done"
  },
  {
   "id": "t0B56C8",
@@ -1304,8 +1304,8 @@
   ],
   "slot": 20,
   "jp": "１かい　こうげき",
-  "en": "",
-  "status": "todo"
+  "en": "single attack.",
+  "status": "done"
  },
  {
   "id": "t0B56DC",
@@ -1314,8 +1314,8 @@
   ],
   "slot": 24,
   "jp": "はんげきを　うけない",
-  "en": "",
-  "status": "todo"
+  "en": "a counter-free",
+  "status": "done"
  },
  {
   "id": "t0B56F4",
@@ -1324,8 +1324,8 @@
   ],
   "slot": 24,
   "jp": "などに　はっせいする",
-  "en": "",
-  "status": "todo"
+  "en": "surround foes, etc.:",
+  "status": "done"
  },
  {
   "id": "t0B570C",
@@ -1334,8 +1334,8 @@
   ],
   "slot": 24,
   "jp": "てきを　かこんだとき",
-  "en": "",
-  "status": "todo"
+  "en": "Triggered when you",
+  "status": "done"
  },
  {
   "id": "t0B5724",
@@ -1344,8 +1344,8 @@
   ],
   "slot": 24,
   "jp": "もっとも　きほんてきな",
-  "en": "",
-  "status": "todo"
+  "en": "most basic kind of",
+  "status": "done"
  },
  {
   "id": "t0B573C",

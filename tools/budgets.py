@@ -63,7 +63,9 @@ CLASSES = [
     (0x0B3AA8, 0x0B3DE4, 64, "Dyna types, attributes, kits", "measured"),
     (0x0B3DF4, 0x0B4A68, 64, "item and equipment names, relations", "measured"),
     (0x0B4A70, 0x0B4CA8, 64, "PDA places and events", "guess"),
-    (0x0B4CB0, 0x0B5618, 64, "people and Dyna names, styles (name lists; %sRn = 64)", "measured"),
+    (0x0B4CB0, 0x0B5394, 64, "people and Dyna names, styles (name lists; %sRn = 64)", "measured"),
+    (0x0B539C, 0x0B5618, 96, "keyword list names (pointed to only by the keyword table 0x0D0008 and help pages "
+     "0x0D0300: col 18 to the screen edge)", "measured"),
     (0x0B562C, 0x0B802C, 96, "keyword / style names (keyword list: col 18 to the screen edge) and help lines "
      "(help box inner x 111)", "measured"),
     (0x0B8044, 0x0BB7A8, 88, "UI strings (menus, prompts, formats)", "guess"),

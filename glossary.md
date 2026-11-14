@@ -46,7 +46,7 @@ Binding for every translator and reviewer. Agents propose additions in reports; 
 ## Items / skills / terms
 | JP | EN | max | notes | Avoid |
 |---|---|---|---|---|
-| ダイナデバイス | Dyna Device | | the game in the game | |
+| ダイナデバイス | Dyna Device / Enemy Device | | the game in the game; "Enemy Device" only for 敵ダイナデバイス t0B531C (64 px) | |
 | ダイナパッド | Dyna Pad | | handheld | Dynapad |
 | ダイナネット | Dyna Net | | | |
 | ダイナサーバー | Dyna Server | | | |
