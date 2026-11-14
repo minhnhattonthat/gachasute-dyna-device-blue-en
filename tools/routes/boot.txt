@@ -1,0 +1,8 @@
+# Cold boot to the title screen, then press Start into the file menu.
+600 -
+6 start
+120 -
+6 start
+120 -
+6 a
+300 -

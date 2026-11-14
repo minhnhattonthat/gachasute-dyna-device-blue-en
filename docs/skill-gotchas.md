@@ -1,0 +1,2 @@
+- references/setup.md / scripts/fetch_emu.py: `fetch_emu.py gba-bios` 404s (retrobios renamed the file to `GBA_bios.rom`, same SHA-1 300c20df...). Copied from a sibling repo.
+- SKILL.md Step 0: the plugin guard hook did not fire in an Orca worker session; adding the hooks block to .claude/settings.json mid-session made it fire immediately (no restart needed).
