@@ -26,8 +26,8 @@
   ],
   "slot": 20,
   "jp": "イグアームタイプ",
-  "en": "",
-  "status": "todo"
+  "en": "Igarm type",
+  "status": "done"
  },
  {
   "id": "t0B2014",
@@ -36,8 +36,8 @@
   ],
   "slot": 12,
   "jp": "シトゥラ",
-  "en": "",
-  "status": "todo"
+  "en": "Situla",
+  "status": "done"
  },
  {
   "id": "t0B2020",
@@ -47,8 +47,8 @@
   ],
   "slot": 8,
   "jp": "クルサ",
-  "en": "",
-  "status": "todo"
+  "en": "Cursa",
+  "status": "done"
  },
  {
   "id": "t0B2028",
@@ -58,8 +58,8 @@
   ],
   "slot": 8,
   "jp": "ラナ",
-  "en": "",
-  "status": "todo"
+  "en": "Rana",
+  "status": "done"
  },
  {
   "id": "t0B2030",
@@ -68,8 +68,8 @@
   ],
   "slot": 12,
   "jp": "アカマル",
-  "en": "",
-  "status": "todo"
+  "en": "Acamar",
+  "status": "done"
  },
  {
   "id": "t0B203C",
@@ -78,8 +78,8 @@
   ],
   "slot": 12,
   "jp": "アケルナル",
-  "en": "",
-  "status": "todo"
+  "en": "Achernar",
+  "status": "done"
  },
  {
   "id": "t0B2048",
@@ -88,8 +88,8 @@
   ],
   "slot": 8,
   "jp": "ワズン",
-  "en": "",
-  "status": "todo"
+  "en": "Wazn",
+  "status": "done"
  },
  {
   "id": "t0B2050",
@@ -98,8 +98,8 @@
   ],
   "slot": 8,
   "jp": "ハダル",
-  "en": "",
-  "status": "todo"
+  "en": "Hadar",
+  "status": "done"
  },
  {
   "id": "t0B2058",
@@ -108,8 +108,8 @@
   ],
   "slot": 12,
   "jp": "トリマン",
-  "en": "",
-  "status": "todo"
+  "en": "Toliman",
+  "status": "done"
  },
  {
   "id": "t0B2064",
@@ -119,8 +119,8 @@
   ],
   "slot": 8,
   "jp": "アゲナ",
-  "en": "",
-  "status": "todo"
+  "en": "Agena",
+  "status": "done"
  },
  {
   "id": "t0B206C",
@@ -130,8 +130,8 @@
   ],
   "slot": 8,
   "jp": "リギル",
-  "en": "",
-  "status": "todo"
+  "en": "Rigil",
+  "status": "done"
  },
  {
   "id": "t0B2074",
@@ -140,8 +140,8 @@
   ],
   "slot": 12,
   "jp": "ラスタバン",
-  "en": "",
-  "status": "todo"
+  "en": "Rastaban",
+  "status": "done"
  },
  {
   "id": "t0B2080",
@@ -150,8 +150,8 @@
   ],
   "slot": 12,
   "jp": "ギアンサル",
-  "en": "",
-  "status": "todo"
+  "en": "Giansar",
+  "status": "done"
  },
  {
   "id": "t0B208C",
@@ -160,8 +160,8 @@
   ],
   "slot": 12,
   "jp": "グルミウム",
-  "en": "",
-  "status": "todo"
+  "en": "Grumium",
+  "status": "done"
  },
  {
   "id": "t0B2098",
@@ -171,8 +171,8 @@
   ],
   "slot": 12,
   "jp": "アルワイド",
-  "en": "",
-  "status": "todo"
+  "en": "Alwaid",
+  "status": "done"
  },
  {
   "id": "t0B20A4",
@@ -181,8 +181,8 @@
   ],
   "slot": 12,
   "jp": "トウバン",
-  "en": "",
-  "status": "todo"
+  "en": "Thuban",
+  "status": "done"
  },
  {
   "id": "t0B20B0",
@@ -191,8 +191,8 @@
   ],
   "slot": 12,
   "jp": "スラファト",
-  "en": "",
-  "status": "todo"
+  "en": "Sulafat",
+  "status": "done"
  },
  {
   "id": "t0B20BC",
@@ -201,8 +201,8 @@
   ],
   "slot": 16,
   "jp": "ダブルスター",
-  "en": "",
-  "status": "todo"
+  "en": "Double Star",
+  "status": "done"
  },
  {
   "id": "t0B20CC",
@@ -212,8 +212,8 @@
   ],
   "slot": 12,
   "jp": "シェリアク",
-  "en": "",
-  "status": "todo"
+  "en": "Sheliak",
+  "status": "done"
  },
  {
   "id": "t0B20D8",
@@ -222,8 +222,8 @@
   ],
   "slot": 16,
   "jp": "アラドファル",
-  "en": "",
-  "status": "todo"
+  "en": "Aladfar",
+  "status": "done"
  },
  {
   "id": "t0B20E8",
@@ -233,8 +233,8 @@
   ],
   "slot": 8,
   "jp": "ベガ",
-  "en": "",
-  "status": "todo"
+  "en": "Vega",
+  "status": "done"
  },
  {
   "id": "t0B20F0",
@@ -243,8 +243,8 @@
   ],
   "slot": 8,
   "jp": "ナシュ",
-  "en": "",
-  "status": "todo"
+  "en": "Nash",
+  "status": "done"
  },
  {
   "id": "t0B20F8",
@@ -254,8 +254,8 @@
   ],
   "slot": 12,
   "jp": "サディラ",
-  "en": "",
-  "status": "todo"
+  "en": "Sadira",
+  "status": "done"
  },
  {
   "id": "t0B2104",
@@ -265,8 +265,8 @@
   ],
   "slot": 12,
   "jp": "メディア",
-  "en": "",
-  "status": "todo"
+  "en": "Media",
+  "status": "done"
  },
  {
   "id": "t0B2110",
@@ -275,8 +275,8 @@
   ],
   "slot": 12,
   "jp": "アスケラ",
-  "en": "",
-  "status": "todo"
+  "en": "Ascella",
+  "status": "done"
  },
  {
   "id": "t0B211C",
@@ -285,8 +285,8 @@
   ],
   "slot": 12,
   "jp": "ルクバト",
-  "en": "",
-  "status": "todo"
+  "en": "Rukbat",
+  "status": "done"
  },
  {
   "id": "t0B2128",
@@ -295,8 +295,8 @@
   ],
   "slot": 12,
   "jp": "ハクラビ",
-  "en": "",
-  "status": "todo"
+  "en": "Hakrabi",
+  "status": "done"
  },
  {
   "id": "t0B2134",
@@ -305,8 +305,8 @@
   ],
   "slot": 12,
   "jp": "エルゲヌビ",
-  "en": "",
-  "status": "todo"
+  "en": "Elgenubi",
+  "status": "done"
  },
  {
   "id": "t0B2140",
@@ -316,8 +316,8 @@
   ],
   "slot": 12,
   "jp": "エラクリビ",
-  "en": "",
-  "status": "todo"
+  "en": "Elakribi",
+  "status": "done"
  },
  {
   "id": "t0B214C",
@@ -326,8 +326,8 @@
   ],
   "slot": 12,
   "jp": "ボレアリス",
-  "en": "",
-  "status": "todo"
+  "en": "Borealis",
+  "status": "done"
  },
  {
   "id": "t0B2158",
@@ -336,8 +336,8 @@
   ],
   "slot": 16,
   "jp": "アウストラリス",
-  "en": "",
-  "status": "todo"
+  "en": "Australis",
+  "status": "done"
  },
  {
   "id": "t0B2168",
@@ -347,8 +347,8 @@
   ],
   "slot": 12,
   "jp": "ゴルゴン",
-  "en": "",
-  "status": "todo"
+  "en": "Gorgon",
+  "status": "done"
  },
  {
   "id": "t0B2174",
@@ -357,8 +357,8 @@
   ],
   "slot": 8,
   "jp": "サイド",
-  "en": "",
-  "status": "todo"
+  "en": "Said",
+  "status": "done"
  },
  {
   "id": "t0B217C",
@@ -367,8 +367,8 @@
   ],
   "slot": 12,
   "jp": "プレアデス",
-  "en": "",
-  "status": "todo"
+  "en": "Pleiades",
+  "status": "done"
  },
  {
   "id": "t0B2188",
@@ -377,8 +377,8 @@
   ],
   "slot": 16,
   "jp": "アルトゥラヤー",
-  "en": "",
-  "status": "todo"
+  "en": "Althurayya",
+  "status": "done"
  },
  {
   "id": "t0B2198",
@@ -387,8 +387,8 @@
   ],
   "slot": 12,
   "jp": "ミルファク",
-  "en": "",
-  "status": "todo"
+  "en": "Mirfak",
+  "status": "done"
  },
  {
   "id": "t0B21A4",
@@ -397,8 +397,8 @@
   ],
   "slot": 8,
   "jp": "ワサト",
-  "en": "",
-  "status": "todo"
+  "en": "Wasat",
+  "status": "done"
  },
  {
   "id": "t0B21AC",
@@ -408,8 +408,8 @@
   ],
   "slot": 12,
   "jp": "ボルックス",
-  "en": "",
-  "status": "todo"
+  "en": "Pollux",
+  "status": "done"
  },
  {
   "id": "t0B21B8",
@@ -419,8 +419,8 @@
   ],
   "slot": 12,
   "jp": "メクブタ",
-  "en": "",
-  "status": "todo"
+  "en": "Mekbuda",
+  "status": "done"
  },
  {
   "id": "t0B21C4",
@@ -429,8 +429,8 @@
   ],
   "slot": 12,
   "jp": "プロプス",
-  "en": "",
-  "status": "todo"
+  "en": "Propus",
+  "status": "done"
  },
  {
   "id": "t0B21D0",
@@ -439,8 +439,8 @@
   ],
   "slot": 12,
   "jp": "カストル",
-  "en": "",
-  "status": "todo"
+  "en": "Castor",
+  "status": "done"
  },
  {
   "id": "t0B21DC",
@@ -449,8 +449,8 @@
   ],
   "slot": 12,
   "jp": "ムリフェン",
-  "en": "",
-  "status": "todo"
+  "en": "Muliphen",
+  "status": "done"
  },
  {
   "id": "t0B21E8",
@@ -459,8 +459,8 @@
   ],
   "slot": 16,
   "jp": "ケルプアルライ",
-  "en": "",
-  "status": "todo"
+  "en": "Kelb Alrai",
+  "status": "done"
  },
  {
   "id": "t0B21F8",
@@ -470,8 +470,8 @@
   ],
   "slot": 16,
   "jp": "ポステリオル",
-  "en": "",
-  "status": "todo"
+  "en": "Posterior",
+  "status": "done"
  },
  {
   "id": "t0B2208",
@@ -481,8 +481,8 @@
   ],
   "slot": 12,
   "jp": "プリオル",
-  "en": "",
-  "status": "todo"
+  "en": "Prior",
+  "status": "done"
  },
  {
   "id": "t0B2214",
@@ -492,8 +492,8 @@
   ],
   "slot": 12,
   "jp": "ラサラグエ",
-  "en": "",
-  "status": "todo"
+  "en": "Rasalhague",
+  "status": "done"
  },
  {
   "id": "t0B2220",
@@ -502,8 +502,8 @@
   ],
   "slot": 12,
   "jp": "アララフ",
-  "en": "",
-  "status": "todo"
+  "en": "Alaraph",
+  "status": "done"
  },
  {
   "id": "t0B222C",
@@ -513,8 +513,8 @@
   ],
   "slot": 12,
   "jp": "ザニアー",
-  "en": "",
-  "status": "todo"
+  "en": "Zaniah",
+  "status": "done"
  },
  {
   "id": "t0B2238",
@@ -523,8 +523,8 @@
   ],
   "slot": 8,
   "jp": "シルマ",
-  "en": "",
-  "status": "todo"
+  "en": "Syrma",
+  "status": "done"
  },
  {
   "id": "t0B2240",
@@ -533,8 +533,8 @@
   ],
   "slot": 12,
   "jp": "ミネルバ",
-  "en": "",
-  "status": "todo"
+  "en": "Minerva",
+  "status": "done"
  },
  {
   "id": "t0B224C",
@@ -544,8 +544,8 @@
   ],
   "slot": 8,
   "jp": "スピカ",
-  "en": "",
-  "status": "todo"
+  "en": "Spica",
+  "status": "done"
  },
  {
   "id": "t0B2254",
@@ -555,8 +555,8 @@
   ],
   "slot": 12,
   "jp": "ミザール",
-  "en": "",
-  "status": "todo"
+  "en": "Mizar",
+  "status": "done"
  },
  {
   "id": "t0B2260",
@@ -565,8 +565,8 @@
   ],
   "slot": 12,
   "jp": "フェクダ",
-  "en": "",
-  "status": "todo"
+  "en": "Phecda",
+  "status": "done"
  },
  {
   "id": "t0B226C",
@@ -575,8 +575,8 @@
   ],
   "slot": 16,
   "jp": "ベネトナシュ",
-  "en": "",
-  "status": "todo"
+  "en": "Benetnash",
+  "status": "done"
  },
  {
   "id": "t0B227C",
@@ -586,8 +586,8 @@
   ],
   "slot": 8,
   "jp": "メラク",
-  "en": "",
-  "status": "todo"
+  "en": "Merak",
+  "status": "done"
  },
  {
   "id": "t0B2284",
@@ -597,8 +597,8 @@
   ],
   "slot": 12,
   "jp": "ドゥーベ",
-  "en": "",
-  "status": "todo"
+  "en": "Dubhe",
+  "status": "done"
  },
  {
   "id": "t0B2290",
@@ -607,8 +607,8 @@
   ],
   "slot": 8,
   "jp": "ニハル",
-  "en": "",
-  "status": "todo"
+  "en": "Nihal",
+  "status": "done"
  },
  {
   "id": "t0B2298",
@@ -618,8 +618,8 @@
   ],
   "slot": 12,
   "jp": "ジャバル",
-  "en": "",
-  "status": "todo"
+  "en": "Jabal",
+  "status": "done"
  },
  {
   "id": "t0B22A4",
@@ -628,8 +628,8 @@
   ],
   "slot": 12,
   "jp": "アルネブ",
-  "en": "",
-  "status": "todo"
+  "en": "Arneb",
+  "status": "done"
  },
  {
   "id": "t0B22B0",
@@ -639,8 +639,8 @@
   ],
   "slot": 12,
   "jp": "クリムゾン",
-  "en": "",
-  "status": "todo"
+  "en": "Crimson",
+  "status": "done"
  },
  {
   "id": "t0B22BC",
@@ -650,8 +650,8 @@
   ],
   "slot": 12,
   "jp": "アルシュ",
-  "en": "",
-  "status": "todo"
+  "en": "Arsh",
+  "status": "done"
  },
  {
   "id": "t0B22C8",
@@ -660,8 +660,8 @@
   ],
   "slot": 16,
   "jp": "アルクルハー",
-  "en": "",
-  "status": "todo"
+  "en": "Alkurhah",
+  "status": "done"
  },
  {
   "id": "t0B22D8",
@@ -670,8 +670,8 @@
   ],
   "slot": 12,
   "jp": "エラキス",
-  "en": "",
-  "status": "todo"
+  "en": "Erakis",
+  "status": "done"
  },
  {
   "id": "t0B22E4",
@@ -680,8 +680,8 @@
   ],
   "slot": 12,
   "jp": "ガーネット",
-  "en": "",
-  "status": "todo"
+  "en": "Garnet",
+  "status": "done"
  },
  {
   "id": "t0B22F0",
@@ -690,8 +690,8 @@
   ],
   "slot": 16,
   "jp": "アルフィルク",
-  "en": "",
-  "status": "todo"
+  "en": "Alfirk",
+  "status": "done"
  },
  {
   "id": "t0B2300",
@@ -701,8 +701,8 @@
   ],
   "slot": 16,
   "jp": "アルデラミン",
-  "en": "",
-  "status": "todo"
+  "en": "Alderamin",
+  "status": "done"
  },
  {
   "id": "t0B2310",
@@ -711,8 +711,8 @@
   ],
   "slot": 12,
   "jp": "ムフリッド",
-  "en": "",
-  "status": "todo"
+  "en": "Muphrid",
+  "status": "done"
  },
  {
   "id": "t0B231C",
@@ -721,8 +721,8 @@
   ],
   "slot": 8,
   "jp": "イザル",
-  "en": "",
-  "status": "todo"
+  "en": "Izar",
+  "status": "done"
  },
  {
   "id": "t0B2324",
@@ -731,8 +731,8 @@
   ],
   "slot": 12,
   "jp": "プリケリマ",
-  "en": "",
-  "status": "todo"
+  "en": "Pulcherrima",
+  "status": "done"
  },
  {
   "id": "t0B2330",

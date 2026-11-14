@@ -149,3 +149,10 @@ Binding for every translator and reviewer. Agents propose additions in reports; 
   Blast. Styles: "<Latin constellation> style" (Centaurus, Draco, Libra, Gemini, Ophiuchus, Lepus, Bootes,
   Cassiopeia, Auriga, Orion, Cancer, Scorpius, Cygnus, Aquila, Capricornus, Leo, Carina). Elements in
   descriptions: Fire-/Water-/Thunder-/Earth-element.
+- b031: weapon effect lines end in ":" before a bare name ("Freezes foes:" / "Leo Wasp"): Blinds foes, Makes a
+  mist, Drops lightning, Shocks foes, Freezes foes, Explodes on hit, Causes quakes, Burns foes, Drops rocks on
+  foes, Zaps all around, Water pillars rise, Flames burst out. General weapons: Double Bazooka, Twin Rocket,
+  Powered Nail, Wisp, Auto Cutter, Punish, Chainsaw, Laser Gun, Cannon, Excalibur, Power Arm, Necromancer,
+  Launcher, Beam Gun, Battery, Drill Arm, Stun Gun, Double Ring, Trickster. Star names (t0B2014-t0B2324) use
+  the real star's English name (D10): Situla, Cursa, Achernar, Thuban, Vega, Pollux (ボルックス), Kelb Alrai,
+  Rasalhague, Benetnash, Pulcherrima...; unsure: サイド -> Said, ジャバル -> Jabal.

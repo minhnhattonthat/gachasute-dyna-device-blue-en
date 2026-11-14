@@ -1020,7 +1020,7 @@
   ],
   "slot": 24,
   "jp": "ぜんぶで　１２はつもの",
-  "en": "12 rounds in all:",
+  "en": "Fires 12 rounds of",
   "status": "done"
  },
  {
@@ -1606,8 +1606,8 @@
   ],
   "slot": 24,
   "jp": "あつめて　うつ　ガン",
-  "en": "",
-  "status": "todo"
+  "en": "the air and fires.",
+  "status": "done"
  },
  {
   "id": "t0B1994",
@@ -1616,8 +1616,8 @@
   ],
   "slot": 24,
   "jp": "たいきの　エネルギーを",
-  "en": "",
-  "status": "todo"
+  "en": "Gathers energy from",
+  "status": "done"
  },
  {
   "id": "t0B19AC",
@@ -1631,8 +1631,8 @@
   ],
   "slot": 16,
   "jp": "ダブルバズーカ",
-  "en": "",
-  "status": "todo"
+  "en": "Double Bazooka",
+  "status": "done"
  },
  {
   "id": "t0B19BC",
@@ -1641,8 +1641,8 @@
   ],
   "slot": 24,
   "jp": "あたりやすい　バズーカ",
-  "en": "",
-  "status": "todo"
+  "en": "bazooka hits easily.",
+  "status": "done"
  },
  {
   "id": "t0B19D4",
@@ -1651,8 +1651,8 @@
   ],
   "slot": 24,
   "jp": "いりょくは　よわいが",
-  "en": "",
-  "status": "todo"
+  "en": "Weak, but this",
+  "status": "done"
  },
  {
   "id": "t0B19EC",
@@ -1666,8 +1666,8 @@
   ],
   "slot": 16,
   "jp": "ツインロケット",
-  "en": "",
-  "status": "todo"
+  "en": "Twin Rocket",
+  "status": "done"
  },
  {
   "id": "t0B19FC",
@@ -1677,8 +1677,8 @@
   ],
   "slot": 24,
   "jp": "ミサイルを　うちだす",
-  "en": "",
-  "status": "todo"
+  "en": "missiles.",
+  "status": "done"
  },
  {
   "id": "t0B1A14",
@@ -1687,8 +1687,8 @@
   ],
   "slot": 24,
   "jp": "きょだいな　２ほんの",
-  "en": "",
-  "status": "todo"
+  "en": "Fires two huge",
+  "status": "done"
  },
  {
   "id": "t0B1A2C",
@@ -1702,8 +1702,8 @@
   ],
   "slot": 16,
   "jp": "パワードネイル",
-  "en": "",
-  "status": "todo"
+  "en": "Powered Nail",
+  "status": "done"
  },
  {
   "id": "t0B1A3C",
@@ -1712,8 +1712,8 @@
   ],
   "slot": 24,
   "jp": "なぎはらう　てつのツメ",
-  "en": "",
-  "status": "todo"
+  "en": "foes with raw force.",
+  "status": "done"
  },
  {
   "id": "t0B1A54",
@@ -1722,8 +1722,8 @@
   ],
   "slot": 24,
   "jp": "てきを　ちからまかせに",
-  "en": "",
-  "status": "todo"
+  "en": "Iron claws swipe",
+  "status": "done"
  },
  {
   "id": "t0B1A6C",
@@ -1737,8 +1737,8 @@
   ],
   "slot": 12,
   "jp": "ウィスプ",
-  "en": "",
-  "status": "todo"
+  "en": "Wisp",
+  "status": "done"
  },
  {
   "id": "t0B1A78",
@@ -1747,8 +1747,8 @@
   ],
   "slot": 20,
   "jp": "こがたの　ピストル",
-  "en": "",
-  "status": "todo"
+  "en": "small pistol.",
+  "status": "done"
  },
  {
   "id": "t0B1A8C",
@@ -1757,8 +1757,8 @@
   ],
   "slot": 24,
   "jp": "かるくて　つかいやすい",
-  "en": "",
-  "status": "todo"
+  "en": "A light, easy-to-use",
+  "status": "done"
  },
  {
   "id": "t0B1AA4",
@@ -1772,8 +1772,8 @@
   ],
   "slot": 16,
   "jp": "オートカッター",
-  "en": "",
-  "status": "todo"
+  "en": "Auto Cutter",
+  "status": "done"
  },
  {
   "id": "t0B1AB4",
@@ -1782,8 +1782,8 @@
   ],
   "slot": 20,
   "jp": "こがた　ノコギリ",
-  "en": "",
-  "status": "todo"
+  "en": "spins at high speed.",
+  "status": "done"
  },
  {
   "id": "t0B1AC8",
@@ -1792,8 +1792,8 @@
   ],
   "slot": 24,
   "jp": "こうそくかいてんする",
-  "en": "",
-  "status": "todo"
+  "en": "A small saw that",
+  "status": "done"
  },
  {
   "id": "t0B1AE0",
@@ -1807,8 +1807,8 @@
   ],
   "slot": 12,
   "jp": "パニッシュ",
-  "en": "",
-  "status": "todo"
+  "en": "Punish",
+  "status": "done"
  },
  {
   "id": "t0B1AEC",
@@ -1817,8 +1817,8 @@
   ],
   "slot": 24,
   "jp": "いかずちを　ふらせる",
-  "en": "",
-  "status": "todo"
+  "en": "judgment on foes.",
+  "status": "done"
  },
  {
   "id": "t0B1B04",
@@ -1827,8 +1827,8 @@
   ],
   "slot": 20,
   "jp": "てきに　さばきの",
-  "en": "",
-  "status": "todo"
+  "en": "Rains bolts of",
+  "status": "done"
  },
  {
   "id": "t0B1B18",
@@ -1857,8 +1857,8 @@
   ],
   "slot": 24,
   "jp": "てきの　めを　くらます",
-  "en": "",
-  "status": "todo"
+  "en": "Blinds foes:",
+  "status": "done"
  },
  {
   "id": "t0B1B30",
@@ -1886,8 +1886,8 @@
   ],
   "slot": 24,
   "jp": "きりを　はっせいさせる",
-  "en": "",
-  "status": "todo"
+  "en": "Makes a mist:",
+  "status": "done"
  },
  {
   "id": "t0B1B48",
@@ -1901,8 +1901,8 @@
   ],
   "slot": 16,
   "jp": "チェインソー",
-  "en": "",
-  "status": "todo"
+  "en": "Chainsaw",
+  "status": "done"
  },
  {
   "id": "t0B1B58",
@@ -1911,8 +1911,8 @@
   ],
   "slot": 24,
   "jp": "かいぞうした　ノコギリ",
-  "en": "",
-  "status": "todo"
+  "en": "for battle.",
+  "status": "done"
  },
  {
   "id": "t0B1B70",
@@ -1921,8 +1921,8 @@
   ],
   "slot": 20,
   "jp": "バトルに　あわせて",
-  "en": "",
-  "status": "todo"
+  "en": "A saw modified",
+  "status": "done"
  },
  {
   "id": "t0B1B84",
@@ -1936,8 +1936,8 @@
   ],
   "slot": 16,
   "jp": "レーザーガン",
-  "en": "",
-  "status": "todo"
+  "en": "Laser Gun",
+  "status": "done"
  },
  {
   "id": "t0B1B94",
@@ -1946,8 +1946,8 @@
   ],
   "slot": 24,
   "jp": "かんつうする　レーザー",
-  "en": "",
-  "status": "todo"
+  "en": "any matter at all.",
+  "status": "done"
  },
  {
   "id": "t0B1BAC",
@@ -1956,8 +1956,8 @@
   ],
   "slot": 24,
   "jp": "あらゆる　ぶっしつを",
-  "en": "",
-  "status": "todo"
+  "en": "A laser that pierces",
+  "status": "done"
  },
  {
   "id": "t0B1BC4",
@@ -1971,8 +1971,8 @@
   ],
   "slot": 12,
   "jp": "キャノン",
-  "en": "",
-  "status": "todo"
+  "en": "Cannon",
+  "status": "done"
  },
  {
   "id": "t0B1BD0",
@@ -1981,8 +1981,8 @@
   ],
   "slot": 20,
   "jp": "ビームキャノンほう",
-  "en": "",
-  "status": "todo"
+  "en": "a beam cannon.",
+  "status": "done"
  },
  {
   "id": "t0B1BE4",
@@ -1991,8 +1991,8 @@
   ],
   "slot": 24,
   "jp": "はんどうが　おおきい",
-  "en": "",
-  "status": "todo"
+  "en": "Big recoil:",
+  "status": "done"
  },
  {
   "id": "t0B1BFC",
@@ -2006,8 +2006,8 @@
   ],
   "slot": 16,
   "jp": "エクスカリバー",
-  "en": "",
-  "status": "todo"
+  "en": "Excalibur",
+  "status": "done"
  },
  {
   "id": "t0B1C0C",
@@ -2016,8 +2016,8 @@
   ],
   "slot": 20,
   "jp": "つかえる　せいけん",
-  "en": "",
-  "status": "todo"
+  "en": "the chosen can use.",
+  "status": "done"
  },
  {
   "id": "t0B1C20",
@@ -2026,8 +2026,8 @@
   ],
   "slot": 24,
   "jp": "えらばれた　ものだけが",
-  "en": "",
-  "status": "todo"
+  "en": "A holy sword only",
+  "status": "done"
  },
  {
   "id": "t0B1C38",
@@ -2056,8 +2056,8 @@
   ],
   "slot": 16,
   "jp": "ゼロイータイプ",
-  "en": "",
-  "status": "todo"
+  "en": "Zero-E type",
+  "status": "done"
  },
  {
   "id": "t0B1C48",
@@ -2071,8 +2071,8 @@
   ],
   "slot": 16,
   "jp": "パワーアーム",
-  "en": "",
-  "status": "todo"
+  "en": "Power Arm",
+  "status": "done"
  },
  {
   "id": "t0B1C58",
@@ -2081,8 +2081,8 @@
   ],
   "slot": 24,
   "jp": "こうげきする　アーム",
-  "en": "",
-  "status": "todo"
+  "en": "its power to attack.",
+  "status": "done"
  },
  {
   "id": "t0B1C70",
@@ -2091,8 +2091,8 @@
   ],
   "slot": 24,
   "jp": "ちからを　ぞうふくして",
-  "en": "",
-  "status": "todo"
+  "en": "An arm that boosts",
+  "status": "done"
  },
  {
   "id": "t0B1C88",
@@ -2121,8 +2121,8 @@
   ],
   "slot": 20,
   "jp": "メタボールタイプ",
-  "en": "",
-  "status": "todo"
+  "en": "Metaball type",
+  "status": "done"
  },
  {
   "id": "t0B1C9C",
@@ -2136,8 +2136,8 @@
   ],
   "slot": 16,
   "jp": "ネクロマンサー",
-  "en": "",
-  "status": "todo"
+  "en": "Necromancer",
+  "status": "done"
  },
  {
   "id": "t0B1CAC",
@@ -2146,8 +2146,8 @@
   ],
   "slot": 20,
   "jp": "いわれる　まけん",
-  "en": "",
-  "status": "todo"
+  "en": "to slash souls.",
+  "status": "done"
  },
  {
   "id": "t0B1CC0",
@@ -2156,8 +2156,8 @@
   ],
   "slot": 24,
   "jp": "たましいを　きりさくと",
-  "en": "",
-  "status": "todo"
+  "en": "A cursed sword said",
+  "status": "done"
  },
  {
   "id": "t0B1CD8",
@@ -2181,8 +2181,8 @@
   ],
   "slot": 20,
   "jp": "ゴストフリータイプ",
-  "en": "",
-  "status": "todo"
+  "en": "Ghostfree type",
+  "status": "done"
  },
  {
   "id": "t0B1CEC",
@@ -2196,8 +2196,8 @@
   ],
   "slot": 12,
   "jp": "ランチャー",
-  "en": "",
-  "status": "todo"
+  "en": "Launcher",
+  "status": "done"
  },
  {
   "id": "t0B1CF8",
@@ -2206,8 +2206,8 @@
   ],
   "slot": 24,
   "jp": "つぎつぎと　うちだす",
-  "en": "",
-  "status": "todo"
+  "en": "one after another.",
+  "status": "done"
  },
  {
   "id": "t0B1D10",
@@ -2216,8 +2216,8 @@
   ],
   "slot": 24,
   "jp": "６はつの　ミサイルを",
-  "en": "",
-  "status": "todo"
+  "en": "Fires 6 missiles",
+  "status": "done"
  },
  {
   "id": "t0B1D28",
@@ -2246,8 +2246,8 @@
   ],
   "slot": 20,
   "jp": "デュアロンタイプ",
-  "en": "",
-  "status": "todo"
+  "en": "Dualon type",
+  "status": "done"
  },
  {
   "id": "t0B1D3C",
@@ -2261,8 +2261,8 @@
   ],
   "slot": 12,
   "jp": "ビームガン",
-  "en": "",
-  "status": "todo"
+  "en": "Beam Gun",
+  "status": "done"
  },
  {
   "id": "t0B1D48",
@@ -2271,8 +2271,8 @@
   ],
   "slot": 24,
   "jp": "かんたんな　ビームガン",
-  "en": "",
-  "status": "todo"
+  "en": "that's easy to use.",
+  "status": "done"
  },
  {
   "id": "t0B1D60",
@@ -2281,8 +2281,8 @@
   ],
   "slot": 24,
   "jp": "シンプルで　あつかいが",
-  "en": "",
-  "status": "todo"
+  "en": "A simple beam gun",
+  "status": "done"
  },
  {
   "id": "t0B1D78",
@@ -2306,8 +2306,8 @@
   ],
   "slot": 20,
   "jp": "エコロードタイプ",
-  "en": "",
-  "status": "todo"
+  "en": "Ecoroad type",
+  "status": "done"
  },
  {
   "id": "t0B1D8C",
@@ -2333,8 +2333,8 @@
   ],
   "slot": 20,
   "jp": "かみなりを　おとす",
-  "en": "",
-  "status": "todo"
+  "en": "Drops lightning:",
+  "status": "done"
  },
  {
   "id": "t0B1DA0",
@@ -2348,8 +2348,8 @@
   ],
   "slot": 12,
   "jp": "バッテリー",
-  "en": "",
-  "status": "todo"
+  "en": "Battery",
+  "status": "done"
  },
  {
   "id": "t0B1DAC",
@@ -2358,8 +2358,8 @@
   ],
   "slot": 20,
   "jp": "おおきい　ほうだい",
-  "en": "",
-  "status": "todo"
+  "en": "a large cannon.",
+  "status": "done"
  },
  {
   "id": "t0B1DC0",
@@ -2368,8 +2368,8 @@
   ],
   "slot": 24,
   "jp": "そこそこ　かりょくが",
-  "en": "",
-  "status": "todo"
+  "en": "Decent firepower:",
+  "status": "done"
  },
  {
   "id": "t0B1DD8",
@@ -2398,8 +2398,8 @@
   ],
   "slot": 20,
   "jp": "キックバグタイプ",
-  "en": "",
-  "status": "todo"
+  "en": "Kickbug type",
+  "status": "done"
  },
  {
   "id": "t0B1DEC",
@@ -2429,8 +2429,8 @@
   ],
   "slot": 24,
   "jp": "てきを　かんでんさせる",
-  "en": "",
-  "status": "todo"
+  "en": "Shocks foes:",
+  "status": "done"
  },
  {
   "id": "t0B1E04",
@@ -2444,8 +2444,8 @@
   ],
   "slot": 16,
   "jp": "ドリルアーム",
-  "en": "",
-  "status": "todo"
+  "en": "Drill Arm",
+  "status": "done"
  },
  {
   "id": "t0B1E14",
@@ -2454,8 +2454,8 @@
   ],
   "slot": 20,
   "jp": "てきを　つらぬく",
-  "en": "",
-  "status": "todo"
+  "en": "to pierce foes.",
+  "status": "done"
  },
  {
   "id": "t0B1E28",
@@ -2464,8 +2464,8 @@
   ],
   "slot": 24,
   "jp": "こうそくかいてんして",
-  "en": "",
-  "status": "todo"
+  "en": "Spins at high speed",
+  "status": "done"
  },
  {
   "id": "t0B1E40",
@@ -2489,8 +2489,8 @@
   ],
   "slot": 20,
   "jp": "シェルブックタイプ",
-  "en": "",
-  "status": "todo"
+  "en": "Shellbook type",
+  "status": "done"
  },
  {
   "id": "t0B1E54",
@@ -2521,8 +2521,8 @@
   ],
   "slot": 20,
   "jp": "てきを　こおらせる",
-  "en": "",
-  "status": "todo"
+  "en": "Freezes foes:",
+  "status": "done"
  },
  {
   "id": "t0B1E68",
@@ -2536,8 +2536,8 @@
   ],
   "slot": 12,
   "jp": "スタンガン",
-  "en": "",
-  "status": "todo"
+  "en": "Stun Gun",
+  "status": "done"
  },
  {
   "id": "t0B1E74",
@@ -2564,8 +2564,8 @@
   ],
   "slot": 24,
   "jp": "あたると　ばくはつする",
-  "en": "",
-  "status": "todo"
+  "en": "Explodes on hit:",
+  "status": "done"
  },
  {
   "id": "t0B1E8C",
@@ -2574,8 +2574,8 @@
   ],
   "slot": 24,
   "jp": "ショックを　あたえる",
-  "en": "",
-  "status": "todo"
+  "en": "delivers a shock.",
+  "status": "done"
  },
  {
   "id": "t0B1EA4",
@@ -2584,8 +2584,8 @@
   ],
   "slot": 24,
   "jp": "こうあつ　でんりゅうで",
-  "en": "",
-  "status": "todo"
+  "en": "High-voltage current",
+  "status": "done"
  },
  {
   "id": "t0B1EBC",
@@ -2614,8 +2614,8 @@
   ],
   "slot": 20,
   "jp": "バーディスタイプ",
-  "en": "",
-  "status": "todo"
+  "en": "Birdis type",
+  "status": "done"
  },
  {
   "id": "t0B1ED0",
@@ -2646,8 +2646,8 @@
   ],
   "slot": 24,
   "jp": "じしんを　ひきおこす",
-  "en": "",
-  "status": "todo"
+  "en": "Causes quakes:",
+  "status": "done"
  },
  {
   "id": "t0B1EE8",
@@ -2661,8 +2661,8 @@
   ],
   "slot": 16,
   "jp": "ダブルリング",
-  "en": "",
-  "status": "todo"
+  "en": "Double Ring",
+  "status": "done"
  },
  {
   "id": "t0B1EF8",
@@ -2687,8 +2687,8 @@
   ],
   "slot": 24,
   "jp": "てきを　ヤケドさせる",
-  "en": "",
-  "status": "todo"
+  "en": "Burns foes:",
+  "status": "done"
  },
  {
   "id": "t0B1F10",
@@ -2697,8 +2697,8 @@
   ],
   "slot": 20,
   "jp": "ビームを　うちだす",
-  "en": "",
-  "status": "todo"
+  "en": "fire beams.",
+  "status": "done"
  },
  {
   "id": "t0B1F24",
@@ -2707,8 +2707,8 @@
   ],
   "slot": 24,
   "jp": "アンテナが　かいてんし",
-  "en": "",
-  "status": "todo"
+  "en": "Antennas spin and",
+  "status": "done"
  },
  {
   "id": "t0B1F3C",
@@ -2737,8 +2737,8 @@
   ],
   "slot": 20,
   "jp": "テトロトップタイプ",
-  "en": "",
-  "status": "todo"
+  "en": "Tetrotop type",
+  "status": "done"
  },
  {
   "id": "t0B1F50",
@@ -2762,8 +2762,8 @@
   ],
   "slot": 24,
   "jp": "てきに　いわを　おとす",
-  "en": "",
-  "status": "todo"
+  "en": "Drops rocks on foes:",
+  "status": "done"
  },
  {
   "id": "t0B1F68",
@@ -2791,8 +2791,8 @@
   ],
   "slot": 24,
   "jp": "まわりに　ほうでんする",
-  "en": "",
-  "status": "todo"
+  "en": "Zaps all around:",
+  "status": "done"
  },
  {
   "id": "t0B1F80",
@@ -2817,8 +2817,8 @@
   ],
   "slot": 24,
   "jp": "みずばしらが　あがる",
-  "en": "",
-  "status": "todo"
+  "en": "Water pillars rise:",
+  "status": "done"
  },
  {
   "id": "t0B1F98",
@@ -2832,8 +2832,8 @@
   ],
   "slot": 16,
   "jp": "トリックスター",
-  "en": "",
-  "status": "todo"
+  "en": "Trickster",
+  "status": "done"
  },
  {
   "id": "t0B1FA8",
@@ -2865,8 +2865,8 @@
   ],
   "slot": 20,
   "jp": "ほのおが　ふきだす",
-  "en": "",
-  "status": "todo"
+  "en": "Flames burst out:",
+  "status": "done"
  },
  {
   "id": "t0B1FBC",
@@ -2875,8 +2875,8 @@
   ],
   "slot": 24,
   "jp": "とびだす　しこみがたな",
-  "en": "",
-  "status": "todo"
+  "en": "springs out fast.",
+  "status": "done"
  },
  {
   "id": "t0B1FD4",
@@ -2885,8 +2885,8 @@
   ],
   "slot": 24,
   "jp": "こうそくで　やいばが",
-  "en": "",
-  "status": "todo"
+  "en": "A hidden blade that",
+  "status": "done"
  },
  {
   "id": "t0B1FEC",
@@ -3195,7 +3195,7 @@
   ],
   "slot": 20,
   "jp": "ウェポンデバイス",
-  "en": "",
-  "status": "todo"
+  "en": "Weapon Device",
+  "status": "done"
  }
 ]
