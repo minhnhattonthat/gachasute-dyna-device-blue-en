@@ -4,216 +4,216 @@
   "flag": 0,
   "speaker": 4,
   "jp": "にゅうさつかいしかかくを　きめてください{KN}",
-  "en": "",
-  "status": "todo"
+  "en": "Please decide your opening bid.{KN}",
+  "status": "done"
  },
  {
   "id": "s651.00",
   "flag": 0,
   "speaker": 4,
   "jp": "Ａボタンを　おすと　１００ビットずつ\nにゅうさつかかくに　うわのせできます{KN}",
-  "en": "",
-  "status": "todo"
+  "en": "Press the A Button to raise your bid by\n100 bits.{KN}",
+  "status": "done"
  },
  {
   "id": "s652.00",
   "flag": 0,
   "speaker": 4,
   "jp": "せいげんじかん　しゅうりょう！\nけっかを　はっぴょうします{KN}",
-  "en": "",
-  "status": "todo"
+  "en": "Time's up! Here are the results!{KN}",
+  "status": "done"
  },
  {
   "id": "s653.00",
   "flag": 0,
   "speaker": 4,
   "jp": "{%sR4}さん\n{%dR5}ビット！",
-  "en": "",
-  "status": "todo"
+  "en": "{%sR4}-san:\n{%dR5} bits!",
+  "status": "done"
  },
  {
   "id": "s654.00",
   "flag": 0,
   "speaker": 4,
   "jp": "こんかいの　アイテム　{%sR5}は\n{%sR4}さんが　らくさつしました！{KN}",
-  "en": "",
-  "status": "todo"
+  "en": "This round's item, {%sR5},{KP}\ngoes to {%sR4}-san!{KN}",
+  "status": "done"
  },
  {
   "id": "s655.00",
   "flag": 0,
   "speaker": 4,
   "jp": "おかねが　たりません！{KN}",
-  "en": "",
-  "status": "todo"
+  "en": "Not enough money!{KN}",
+  "status": "done"
  },
  {
   "id": "s656.00",
   "flag": 0,
   "speaker": 4,
   "jp": "アイテムが　いっぱいです！{KN}",
-  "en": "",
-  "status": "todo"
+  "en": "Your items are full!{KN}",
+  "status": "done"
  },
  {
   "id": "s657.00",
   "flag": 0,
   "speaker": 4,
   "jp": "ひきだしたい　けんちくキットを\nえらんでください{KN}",
-  "en": "",
-  "status": "todo"
+  "en": "Choose the building kit you want to\nwithdraw.{KN}",
+  "status": "done"
  },
  {
   "id": "s658.00",
   "flag": 0,
   "speaker": 4,
   "jp": "{%sR0}を　ひきだしました",
-  "en": "",
-  "status": "todo"
+  "en": "Withdrew {%sR0}.",
+  "status": "done"
  },
  {
   "id": "s659.00",
   "flag": 0,
   "speaker": 4,
   "jp": "アイテムが　いっぱいで　もちきれません",
-  "en": "",
-  "status": "todo"
+  "en": "Your items are full. You cannot carry any\nmore.",
+  "status": "done"
  },
  {
   "id": "s660.00",
   "flag": 0,
   "speaker": 4,
   "jp": "その　けんちくキットは\nげんざい　あずかっておりません",
-  "en": "",
-  "status": "todo"
+  "en": "We are not holding that building kit for you\nat the moment.",
+  "status": "done"
  },
  {
   "id": "s661.00",
   "flag": 0,
   "speaker": -1,
   "jp": "「{%sR0}」の　データから{KP}\n{%sR1}スタイルの\nダイナが　たんじょうした！",
-  "en": "",
-  "status": "todo"
+  "en": "From the data for \"{%sR0}\",{KP}\na Dyna of the {%sR1} style was\nborn!",
+  "status": "done"
  },
  {
   "id": "s662.00",
   "flag": 0,
   "speaker": -1,
   "jp": "「{%sR0}」の　データから{KP}\n{%sR1}スタイルの\nダイナが　たんじょうした！{KP}\nいまの　アドレスデータを　けしますか？\n　　　　　はい　　　　いいえ{KN}",
-  "en": "",
-  "status": "todo"
+  "en": "From the data for\n\"{%sR0}\",{KP}\na Dyna of the {%sR1} style\nwas born!{KP}\nErase this address data?\n          Yes         No{KN}",
+  "status": "done"
  },
  {
   "id": "s663.00",
   "flag": 0,
   "speaker": 4,
   "jp": "いま　たんじょうした　{%sR0}は\nこちらで　あずかっておきます{KP}\nなるべくはやめに　ひきとりに\nきてくださいね",
-  "en": "",
-  "status": "todo"
+  "en": "We will hold the newborn {%sR0}\nfor you here.{KP}\nPlease come and pick it up as soon as you\ncan.",
+  "status": "done"
  },
  {
   "id": "s664.00",
   "flag": 0,
   "speaker": -1,
   "jp": "セーブちゅうです\nでんげんを　きらないでください{KN}",
-  "en": "",
-  "status": "todo"
+  "en": "Saving.\nDo not turn off the power.{KN}",
+  "status": "done"
  },
  {
   "id": "s665.00",
   "flag": 0,
   "speaker": 4,
   "jp": "もっともっと　じゅうみんを　ふやして\nにぎやかなシティに　してくださいね",
-  "en": "",
-  "status": "todo"
+  "en": "Please bring in more and more residents\nand make it a lively city.",
+  "status": "done"
  },
  {
   "id": "s666.00",
   "flag": 0,
   "speaker": 4,
   "jp": "おひまでしたら　ダイナたちと\nおはなしでも　してきては　いかがですか？",
-  "en": "",
-  "status": "todo"
+  "en": "If you have time, why not go and chat\nwith the Dyna?",
+  "status": "done"
  },
  {
   "id": "s667.00",
   "flag": 0,
   "speaker": 4,
   "jp": "そういえば　コロシアムに　だれか\nまたせているのではないですか？{KP}\nわすれずに　いってあげてくださいね",
-  "en": "",
-  "status": "todo"
+  "en": "By the way, is someone not waiting for you\nat the Colosseum?{KP}\nPlease do not forget to go.",
+  "status": "done"
  },
  {
   "id": "s668.00",
   "flag": 0,
   "speaker": 4,
   "jp": "どうやら　このシティに　ふしんな\nじんぶつが　しんにゅうしているようです",
-  "en": "",
-  "status": "todo"
+  "en": "It seems a suspicious person has slipped\ninto this city.",
+  "status": "done"
  },
  {
   "id": "s668.01",
   "flag": 0,
   "speaker": 4,
   "jp": "もうしわけありませんが　ちょっと\nようすをみてきて　もらえませんか？",
-  "en": "",
-  "status": "todo"
+  "en": "I am sorry, but could you go and take a\nlook?",
+  "status": "done"
  },
  {
   "id": "s669.00",
   "flag": 0,
   "speaker": 4,
   "jp": "そういえば　ユリエさんに　たいかいに\nさそわれたそうですね",
-  "en": "",
-  "status": "todo"
+  "en": "By the way, I hear Yurie-san invited you\nto a tournament.",
+  "status": "done"
  },
  {
   "id": "s669.01",
   "flag": 0,
   "speaker": 4,
   "jp": "シティの　みんなで　おうえんしています\nがんばってきてくださいね",
-  "en": "",
-  "status": "todo"
+  "en": "Everyone in the city is cheering for you.\nPlease do your best!",
+  "status": "done"
  },
  {
   "id": "s670.00",
   "flag": 0,
   "speaker": 4,
   "jp": "そういえば　コロシアムに　だれか\nまたせているのではないですか？{KP}\nわすれずに　いってあげてくださいね",
-  "en": "",
-  "status": "todo"
+  "en": "By the way, is someone not waiting for you\nat the Colosseum?{KP}\nPlease do not forget to go.",
+  "status": "done"
  },
  {
   "id": "s671.00",
   "flag": 0,
   "speaker": 4,
   "jp": "まだ　かのじょ　なにか\nぶつぶついってますね・・・",
-  "en": "",
-  "status": "todo"
+  "en": "She is still muttering something...",
+  "status": "done"
  },
  {
   "id": "s671.01",
   "flag": 0,
   "speaker": 4,
   "jp": "バトルの　じゅんびが　できたところで\nこえを　かけてみては　どうでしょうか？",
-  "en": "",
-  "status": "todo"
+  "en": "Why not talk to her once you are ready\nfor battle?",
+  "status": "done"
  },
  {
   "id": "s672.00",
   "flag": 0,
   "speaker": 4,
   "jp": "そういえば　ユリエさんに　たいかいに\nさそわれたそうですね",
-  "en": "",
-  "status": "todo"
+  "en": "By the way, I hear Yurie-san invited you\nto a tournament.",
+  "status": "done"
  },
  {
   "id": "s672.01",
   "flag": 0,
   "speaker": 4,
   "jp": "シティの　みんなで　おうえんしています\nがんばってきてくださいね",
-  "en": "",
-  "status": "todo"
+  "en": "Everyone in the city is cheering for you.\nPlease do your best!",
+  "status": "done"
  },
  {
   "id": "s673.00",

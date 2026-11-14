@@ -964,687 +964,687 @@
   "flag": 0,
   "speaker": -1,
   "jp": "やったー！　ありがとう！{KP}\nほしかったのよ　これ！\nはい！　これ　もっていってね",
-  "en": "",
-  "status": "todo"
+  "en": "Yaaay! Thank you!{KP}\nI wanted this! Here, take this, okay?",
+  "status": "done"
  },
  {
   "id": "s620.03",
   "flag": 0,
   "speaker": -1,
   "jp": "えー・・・ざんねんだなぁ{KP}\nもしも　きが　かわったら\nまた　きてね",
-  "en": "",
-  "status": "todo"
+  "en": "Awww... That's too bad.{KP}\nIf you change your mind, come back,\nokay?",
+  "status": "done"
  },
  {
   "id": "s621.00",
   "flag": 0,
   "speaker": -1,
   "jp": "もうしわけありませんが　いまは\nだれとも　はなしを　したくありません",
-  "en": "",
-  "status": "todo"
+  "en": "I am sorry, but I do not wish to talk to\nanyone right now.",
+  "status": "done"
  },
  {
   "id": "s621.01",
   "flag": 0,
   "speaker": -1,
   "jp": "これは　わたしと\n{%sR0}の　もんだいですから・・・",
-  "en": "",
-  "status": "todo"
+  "en": "This is between me and {%sR0}...",
+  "status": "done"
  },
  {
   "id": "s621.02",
   "flag": 0,
   "speaker": -1,
   "jp": "え？　なかなおりしてほしくて　わざわざ\nきてくださったのですか？",
-  "en": "",
-  "status": "todo"
+  "en": "Huh? You came all this way because you\nwant us to make up?",
+  "status": "done"
  },
  {
   "id": "s621.03",
   "flag": 0,
   "speaker": -1,
   "jp": "そうですか・・・すみません\nごめいわくを　おかけしました",
-  "en": "",
-  "status": "todo"
+  "en": "I see... I am sorry. I have caused you\ntrouble.",
+  "status": "done"
  },
  {
   "id": "s621.04",
   "flag": 0,
   "speaker": -1,
   "jp": "{%sR0}に　わたしが\nあやまっていたと　つたえてください",
-  "en": "",
-  "status": "todo"
+  "en": "Please tell {%sR0} that I said I am\nsorry.",
+  "status": "done"
  },
  {
   "id": "s621.05",
   "flag": 0,
   "speaker": -1,
   "jp": "ちょくせつ　はなしづらいので\nよろしくおねがいします",
-  "en": "",
-  "status": "todo"
+  "en": "It is hard to say it face to face, so I am\ncounting on you.",
+  "status": "done"
  },
  {
   "id": "s621.06",
   "flag": 0,
   "speaker": -1,
   "jp": "そうですか・・・{%sR0}が\nそんなことを・・・",
-  "en": "",
-  "status": "todo"
+  "en": "I see... {%sR0} said that...",
+  "status": "done"
  },
  {
   "id": "s621.07",
   "flag": 0,
   "speaker": -1,
   "jp": "わかりました　わたしも　あやまって\nなかなおりすることにします",
-  "en": "",
-  "status": "todo"
+  "en": "All right. I will apologize too, and we will\nmake up.",
+  "status": "done"
  },
  {
   "id": "s621.08",
   "flag": 0,
   "speaker": -1,
   "jp": "ほんとうに　ごめいわくを　おかけして\nもうしわけありませんでした",
-  "en": "",
-  "status": "todo"
+  "en": "I am truly sorry for all the trouble I\ncaused you.",
+  "status": "done"
  },
  {
   "id": "s622.00",
   "flag": 0,
   "speaker": -1,
   "jp": "すまねぇが　いまは　だれとも\nくちを　ききたくねぇんだ",
-  "en": "",
-  "status": "todo"
+  "en": "Sorry, but I don't wanna talk to anybody\nright now.",
+  "status": "done"
  },
  {
   "id": "s622.01",
   "flag": 0,
   "speaker": -1,
   "jp": "これは　オレと\n{%sR0}の　もんだいだからな・・・",
-  "en": "",
-  "status": "todo"
+  "en": "This is between me and {%sR0}...",
+  "status": "done"
  },
  {
   "id": "s622.02",
   "flag": 0,
   "speaker": -1,
   "jp": "なに？　なかなおりしてほしくて\nわざわざ　きたってのか？",
-  "en": "",
-  "status": "todo"
+  "en": "What? You came all this way 'cause you\nwant us to make up?",
+  "status": "done"
  },
  {
   "id": "s622.03",
   "flag": 0,
   "speaker": -1,
   "jp": "そうか・・・すまねぇな\nめいわく　かけちまったぜ",
-  "en": "",
-  "status": "todo"
+  "en": "I see... Sorry. I put you to a lot of\ntrouble.",
+  "status": "done"
  },
  {
   "id": "s622.04",
   "flag": 0,
   "speaker": -1,
   "jp": "{%sR0}に　オレが\nあやまってたと　つたえてくれ",
-  "en": "",
-  "status": "todo"
+  "en": "Tell {%sR0} I said I'm sorry.",
+  "status": "done"
  },
  {
   "id": "s622.05",
   "flag": 0,
   "speaker": -1,
   "jp": "ちょくせつ　はなしづれぇから\nよろしくたのむぜ",
-  "en": "",
-  "status": "todo"
+  "en": "It's hard to say it to their face, so I'm\ncountin' on you.",
+  "status": "done"
  },
  {
   "id": "s622.06",
   "flag": 0,
   "speaker": -1,
   "jp": "そうか・・・{%sR0}が\nそんなことを・・・",
-  "en": "",
-  "status": "todo"
+  "en": "I see... {%sR0} said that...",
+  "status": "done"
  },
  {
   "id": "s622.07",
   "flag": 0,
   "speaker": -1,
   "jp": "わかった　オレも　あやまって\nなかなおりすることにするぜ",
-  "en": "",
-  "status": "todo"
+  "en": "Okay. I'll say sorry too, and we'll make\nup.",
+  "status": "done"
  },
  {
   "id": "s622.08",
   "flag": 0,
   "speaker": -1,
   "jp": "ほんとうに　めいわく　かけちまって\nすまなかったな",
-  "en": "",
-  "status": "todo"
+  "en": "Sorry for all the trouble, really.",
+  "status": "done"
  },
  {
   "id": "s623.00",
   "flag": 0,
   "speaker": -1,
   "jp": "すまないが　いまは　だれとも\nはなしを　するきはない",
-  "en": "",
-  "status": "todo"
+  "en": "Forgive me, but I have no wish to speak\nwith anyone now.",
+  "status": "done"
  },
  {
   "id": "s623.01",
   "flag": 0,
   "speaker": -1,
   "jp": "これは　わたしと\n{%sR0}の　もんだいなのだ・・・",
-  "en": "",
-  "status": "todo"
+  "en": "This is a matter between me and\n{%sR0}...",
+  "status": "done"
  },
  {
   "id": "s623.02",
   "flag": 0,
   "speaker": -1,
   "jp": "・・・なかなおりしてほしくて　わざわざ\nきただと？",
-  "en": "",
-  "status": "todo"
+  "en": "...You came all this way to have us\nreconcile?",
+  "status": "done"
  },
  {
   "id": "s623.03",
   "flag": 0,
   "speaker": -1,
   "jp": "そうか・・・すまん　めいわくを　かけたな",
-  "en": "",
-  "status": "todo"
+  "en": "I see... Forgive me for the trouble.",
+  "status": "done"
  },
  {
   "id": "s623.04",
   "flag": 0,
   "speaker": -1,
   "jp": "{%sR0}に　わたしが\nあやまっていたと　つたえてほしい",
-  "en": "",
-  "status": "todo"
+  "en": "Tell {%sR0} that I apologize.",
+  "status": "done"
  },
  {
   "id": "s623.05",
   "flag": 0,
   "speaker": -1,
   "jp": "ちょくせつ　はなしづらいのでな\nよろしくたのむ",
-  "en": "",
-  "status": "todo"
+  "en": "It is difficult to say directly. I am counting\non you.",
+  "status": "done"
  },
  {
   "id": "s623.06",
   "flag": 0,
   "speaker": -1,
   "jp": "そうか・・・{%sR0}が\nそんなことを・・・",
-  "en": "",
-  "status": "todo"
+  "en": "I see... {%sR0} said such a\nthing...",
+  "status": "done"
  },
  {
   "id": "s623.07",
   "flag": 0,
   "speaker": -1,
   "jp": "わかった　わたしも　あやまって\nなかなおりすることにする",
-  "en": "",
-  "status": "todo"
+  "en": "Very well. I too shall apologize and\nreconcile.",
+  "status": "done"
  },
  {
   "id": "s623.08",
   "flag": 0,
   "speaker": -1,
   "jp": "ほんとうに　めいわくを　かけて\nすまなかったな",
-  "en": "",
-  "status": "todo"
+  "en": "I am truly sorry for the trouble I\ncaused.",
+  "status": "done"
  },
  {
   "id": "s624.00",
   "flag": 0,
   "speaker": -1,
   "jp": "わるいけど　いまは　だれとも\nはなしを　したくない　きぶんなのよね",
-  "en": "",
-  "status": "todo"
+  "en": "Sorry, but I'm just not in the mood to talk\nto anyone right now.",
+  "status": "done"
  },
  {
   "id": "s624.01",
   "flag": 0,
   "speaker": -1,
   "jp": "これは　わたしと\n{%sR0}の　もんだいなんだから・・・",
-  "en": "",
-  "status": "todo"
+  "en": "This is between me and {%sR0},\nokay...?",
+  "status": "done"
  },
  {
   "id": "s624.02",
   "flag": 0,
   "speaker": -1,
   "jp": "え？　なかなおりしてほしくて　わざわざ\nきてくれたの？",
-  "en": "",
-  "status": "todo"
+  "en": "Huh? You came all this way because you\nwant us to make up?",
+  "status": "done"
  },
  {
   "id": "s624.03",
   "flag": 0,
   "speaker": -1,
   "jp": "そうなんだ・・・ごめんね\nめいわく　かけちゃって",
-  "en": "",
-  "status": "todo"
+  "en": "Really... Sorry for causing you trouble.",
+  "status": "done"
  },
  {
   "id": "s624.04",
   "flag": 0,
   "speaker": -1,
   "jp": "{%sR0}に　わたしが\nあやまってたって　つたえてくれないかな？",
-  "en": "",
-  "status": "todo"
+  "en": "Could you tell {%sR0} I said I'm\nsorry?",
+  "status": "done"
  },
  {
   "id": "s624.05",
   "flag": 0,
   "speaker": -1,
   "jp": "ちょくせつ　はなしづらいから・・・",
-  "en": "",
-  "status": "todo"
+  "en": "It's hard to say it face to face...",
+  "status": "done"
  },
  {
   "id": "s624.06",
   "flag": 0,
   "speaker": -1,
   "jp": "そうなんだ・・・{%sR0}が\nそんなことを・・・",
-  "en": "",
-  "status": "todo"
+  "en": "Really... {%sR0} said that...",
+  "status": "done"
  },
  {
   "id": "s624.07",
   "flag": 0,
   "speaker": -1,
   "jp": "わかった　わたしも　あやまって\nなかなおりすることにするよ",
-  "en": "",
-  "status": "todo"
+  "en": "Okay. I'll say sorry too, and we'll make\nup.",
+  "status": "done"
  },
  {
   "id": "s624.08",
   "flag": 0,
   "speaker": -1,
   "jp": "ほんとうに　めいわく　かけて\nごめんね",
-  "en": "",
-  "status": "todo"
+  "en": "Sorry for all the trouble, really.",
+  "status": "done"
  },
  {
   "id": "s625.00",
   "flag": 0,
   "speaker": -1,
   "jp": "{%sR4}さんの　かぞくや\nおともだちを　ぜひ　ダイナパッドの",
-  "en": "",
-  "status": "todo"
+  "en": "{%sR4}-san, please do use your\nDyna Pad",
+  "status": "done"
  },
  {
   "id": "s625.01",
   "flag": 0,
   "speaker": -1,
   "jp": "アドレスちょうに　ニックネームつきで\nとうろくしてください",
-  "en": "",
-  "status": "todo"
+  "en": "to enter your family and friends in its\naddress book, with nicknames.",
+  "status": "done"
  },
  {
   "id": "s625.02",
   "flag": 0,
   "speaker": -1,
   "jp": "すぐには　へんかが\nみえないかも　しれませんが",
-  "en": "",
-  "status": "todo"
+  "en": "You may not see a change right away,",
+  "status": "done"
  },
  {
   "id": "s625.03",
   "flag": 0,
   "speaker": -1,
   "jp": "きっと　このシティが　もっと\nおもしろくなると　おもいますよ",
-  "en": "",
-  "status": "todo"
+  "en": "but I am sure this city will become even\nmore fun.",
+  "status": "done"
  },
  {
   "id": "s626.00",
   "flag": 0,
   "speaker": -1,
   "jp": "{%sR4}の　かぞくや\nともだちを　ダイナパッドの",
-  "en": "",
-  "status": "todo"
+  "en": "{%sR4}, try usin' your Dyna Pad",
+  "status": "done"
  },
  {
   "id": "s626.01",
   "flag": 0,
   "speaker": -1,
   "jp": "アドレスちょうに　ニックネームつきで\nとうろくしてみてくれ",
-  "en": "",
-  "status": "todo"
+  "en": "to put your family and friends in its\naddress book, with nicknames.",
+  "status": "done"
  },
  {
   "id": "s626.02",
   "flag": 0,
   "speaker": -1,
   "jp": "すぐに　なにかが　かわっては\nみえないかも　しれないけどよ",
-  "en": "",
-  "status": "todo"
+  "en": "You might not see anything change right\naway,",
+  "status": "done"
  },
  {
   "id": "s626.03",
   "flag": 0,
   "speaker": -1,
   "jp": "きっと　このシティが　もっと\nおもしろくなると　おもうぜ",
-  "en": "",
-  "status": "todo"
+  "en": "but I bet this city'll get way more fun!",
+  "status": "done"
  },
  {
   "id": "s627.00",
   "flag": 0,
   "speaker": -1,
   "jp": "{%sR4}の　かぞくや\nともだちを　ダイナパッドの",
-  "en": "",
-  "status": "todo"
+  "en": "{%sR4}, you would do well to use\nyour Dyna Pad",
+  "status": "done"
  },
  {
   "id": "s627.01",
   "flag": 0,
   "speaker": -1,
   "jp": "アドレスちょうに　ニックネームつきで\nとうろくしてみると　いい",
-  "en": "",
-  "status": "todo"
+  "en": "to enter your family and friends in its\naddress book, with nicknames.",
+  "status": "done"
  },
  {
   "id": "s627.02",
   "flag": 0,
   "speaker": -1,
   "jp": "すぐには　へんかが\nみえないかも　しれんが",
-  "en": "",
-  "status": "todo"
+  "en": "You may not see a change at once,",
+  "status": "done"
  },
  {
   "id": "s627.03",
   "flag": 0,
   "speaker": -1,
   "jp": "きっと　このシティが　もっと\nおもしろくなることだろう",
-  "en": "",
-  "status": "todo"
+  "en": "but this city will surely become more\ninteresting.",
+  "status": "done"
  },
  {
   "id": "s628.00",
   "flag": 0,
   "speaker": -1,
   "jp": "{%sR4}さんの　かぞくや\nおともだちを　ぜひ　ダイナパッドの",
-  "en": "",
-  "status": "todo"
+  "en": "{%sR4}-san, you should totally use\nyour Dyna Pad",
+  "status": "done"
  },
  {
   "id": "s628.01",
   "flag": 0,
   "speaker": -1,
   "jp": "アドレスちょうに　ニックネームつきで\nとうろくしてみて！",
-  "en": "",
-  "status": "todo"
+  "en": "to put your family and friends in its\naddress book, with nicknames!",
+  "status": "done"
  },
  {
   "id": "s628.02",
   "flag": 0,
   "speaker": -1,
   "jp": "すぐには　かわったことが\nわからないかも　しれないけど",
-  "en": "",
-  "status": "todo"
+  "en": "You might not notice any change right\naway,",
+  "status": "done"
  },
  {
   "id": "s628.03",
   "flag": 0,
   "speaker": -1,
   "jp": "きっと　このシティが　もっと\nおもしろくなると　おもうよ！",
-  "en": "",
-  "status": "todo"
+  "en": "but I'm sure this city will get even more\nfun!",
+  "status": "done"
  },
  {
   "id": "s629.00",
   "flag": 0,
   "speaker": -1,
   "jp": "なんだか　いえのなかに　いるのにも\nあきてきてしまいました・・・",
-  "en": "",
-  "status": "todo"
+  "en": "I am getting rather tired of staying in the\nhouse...",
+  "status": "done"
  },
  {
   "id": "s629.01",
   "flag": 0,
   "speaker": -1,
   "jp": "わたしも　たまには　そとに\nつれていっていただきたいものです",
-  "en": "",
-  "status": "todo"
+  "en": "I would love to be taken outside once in a\nwhile.",
+  "status": "done"
  },
  {
   "id": "s630.00",
   "flag": 0,
   "speaker": -1,
   "jp": "なんか　いえのなかに　いるのにも\nあきてきちまったんだよなぁ・・・",
-  "en": "",
-  "status": "todo"
+  "en": "Man, I'm gettin' sick of bein' stuck in the\nhouse...",
+  "status": "done"
  },
  {
   "id": "s630.01",
   "flag": 0,
   "speaker": -1,
   "jp": "オレも　たまには　そとに\nつれていってもらいてぇぜ",
-  "en": "",
-  "status": "todo"
+  "en": "I wanna get taken outside once in a while\ntoo!",
+  "status": "done"
  },
  {
   "id": "s631.00",
   "flag": 0,
   "speaker": -1,
   "jp": "いえのなかに　じっとしているのも\nたいくつなものだ・・・",
-  "en": "",
-  "status": "todo"
+  "en": "Sitting still in the house is tedious...",
+  "status": "done"
  },
  {
   "id": "s631.01",
   "flag": 0,
   "speaker": -1,
   "jp": "わたしも　たまには　そとに\nつれていってほしいものだな",
-  "en": "",
-  "status": "todo"
+  "en": "I too would like to be taken outside now\nand then.",
+  "status": "done"
  },
  {
   "id": "s632.00",
   "flag": 0,
   "speaker": -1,
   "jp": "なんか　いえのなかに　いるのも\nあきてきちゃったなー・・・",
-  "en": "",
-  "status": "todo"
+  "en": "I'm getting kind of bored of being in the\nhouse...",
+  "status": "done"
  },
  {
   "id": "s632.01",
   "flag": 0,
   "speaker": -1,
   "jp": "わたしも　たまには　そとに\nつれていってほしいよ",
-  "en": "",
-  "status": "todo"
+  "en": "I want to go outside once in a while too!",
+  "status": "done"
  },
  {
   "id": "s633.00",
   "flag": 0,
   "speaker": 4,
   "jp": "すみません　まだ　あたらしく\nわかったことは　ないんです{KP}\nかのじょを　たすける　ほうほうも\nまだ　みつかっていません",
-  "en": "",
-  "status": "todo"
+  "en": "I am sorry, but I have not found out\nanything new yet.{KP}\nI have not found a way to save her yet,\neither.",
+  "status": "done"
  },
  {
   "id": "s633.01",
   "flag": 0,
   "speaker": 4,
   "jp": "ええと・・・では　なにをしますか？{KP}\n　　ひきだす　　　　　　　ちりょう\n　　オークション　　　　　やめる{KN}",
-  "en": "",
-  "status": "todo"
+  "en": "Um... what would you like to do, then?{KP}\n    Withdraw             Treat\n    Auction               Quit{KN}",
+  "status": "done"
  },
  {
   "id": "s633.02",
   "flag": 0,
   "speaker": 4,
   "jp": "どうですか　なれてきましたか？",
-  "en": "",
-  "status": "todo"
+  "en": "How is it going? Are you getting used to\nthings?",
+  "status": "done"
  },
  {
   "id": "s633.03",
   "flag": 0,
   "speaker": 4,
   "jp": "まだまだ　ダイナシティと　よぶには\nダイナが　すくないですよね",
-  "en": "",
-  "status": "todo"
+  "en": "There are still too few Dyna to call this a\nDyna City, are there not?",
+  "status": "done"
  },
  {
   "id": "s633.04",
   "flag": 0,
   "speaker": 4,
   "jp": "アドレスちょうに　かぞくや\nおともだちの　データを　いれてみたり",
-  "en": "",
-  "status": "todo"
+  "en": "Try entering your family's and friends' data\nin the address book,",
+  "status": "done"
  },
  {
   "id": "s633.05",
   "flag": 0,
   "speaker": 4,
   "jp": "めいしこうかんをしたりして\nダイナをふやして{KP}\nここから　どんどん　ダイナシティに\nつれだしてあげてください",
-  "en": "",
-  "status": "todo"
+  "en": "or trade cards to increase your Dyna,{KP}\nand bring lots of them out from here into\nyour Dyna City.",
+  "status": "done"
  },
  {
   "id": "s633.06",
   "flag": 0,
   "speaker": 4,
   "jp": "　　ひきだす　　　　　　　ちりょう\n　　オークション　　　　　やめる{KN}",
-  "en": "",
-  "status": "todo"
+  "en": "    Withdraw             Treat\n    Auction               Quit{KN}",
+  "status": "done"
  },
  {
   "id": "s633.07",
   "flag": 0,
   "speaker": 4,
   "jp": "こちらは　ダイナセンターです\nなにか　ごようが　おありですか？{KP}\n　　ひきだす　　　　　　　ちりょう\n　　オークション　　　　　やめる{KN}",
-  "en": "",
-  "status": "todo"
+  "en": "This is the Dyna Center.\nHow may I help you?{KP}\n    Withdraw             Treat\n    Auction               Quit{KN}",
+  "status": "done"
  },
  {
   "id": "s634.00",
   "flag": 0,
   "speaker": 4,
   "jp": "ほかに　なにか　ごようが　おありですか？{KP}\n　　ひきだす　　　　　　　ちりょう\n　　オークション　　　　　やめる{KN}",
-  "en": "",
-  "status": "todo"
+  "en": "Is there anything else I can do for you?{KP}\n    Withdraw             Treat\n    Auction               Quit{KN}",
+  "status": "done"
  },
  {
   "id": "s635.00",
   "flag": 0,
   "speaker": 4,
   "jp": "なにを　ひきだしますか？\n　　　ダイナ　　　キット　　　やめる{KN}",
-  "en": "",
-  "status": "todo"
+  "en": "What would you like to withdraw?\n      Dyna       Kits         Quit{KN}",
+  "status": "done"
  },
  {
   "id": "s636.00",
   "flag": 0,
   "speaker": 4,
   "jp": "げんざい　こちらで　あずかっている\nけんちくキットは　ありません",
-  "en": "",
-  "status": "todo"
+  "en": "We are not holding any building kits for\nyou at the moment.",
+  "status": "done"
  },
  {
   "id": "s637.00",
   "flag": 0,
   "speaker": 4,
   "jp": "では　げんざい　こちらで　あずかっている\nダイナを　ひょうじします",
-  "en": "",
-  "status": "todo"
+  "en": "Then I will show you the Dyna we are\nholding for you.",
+  "status": "done"
  },
  {
   "id": "s638.00",
   "flag": 0,
   "speaker": 4,
   "jp": "げんざい　こちらで　あずかっている\nダイナは　いません",
-  "en": "",
-  "status": "todo"
+  "en": "We are not holding any Dyna for you at\nthe moment.",
+  "status": "done"
  },
  {
   "id": "s639.00",
   "flag": 0,
   "speaker": 4,
   "jp": "どの　ダイナを　ちりょうしますか？{KN}",
-  "en": "",
-  "status": "todo"
+  "en": "Which Dyna would you like treated?{KN}",
+  "status": "done"
  },
  {
   "id": "s640.00",
   "flag": 0,
   "speaker": 4,
   "jp": "では　ちりょうひとして\n{%dR4}ビット　いただきます{KP}\n{%dR4}ビット　はらいますか？\n　　　　　はい　　　　いいえ{KN}",
-  "en": "",
-  "status": "todo"
+  "en": "The fee for treatment\nwill be {%dR4} bits.{KP}\nPay {%dR4} bits?\n          Yes         No{KN}",
+  "status": "done"
  },
  {
   "id": "s641.00",
   "flag": 0,
   "speaker": 4,
   "jp": "どうやら　おかねが　たりないようです\nおかねを　よういしてから　きてください",
-  "en": "",
-  "status": "todo"
+  "en": "It seems you do not have enough money.\nPlease come back once you have it.",
+  "status": "done"
  },
  {
   "id": "s642.00",
   "flag": 0,
   "speaker": 4,
   "jp": "{%sR4}は\nげんきに　なりました！{KP}\nほかの　ダイナも\nちりょうしますか？{KP}\n　\n　　　　　はい　　　　いいえ{KN}",
-  "en": "",
-  "status": "todo"
+  "en": "{%sR4} is healthy again!{KP}\nTreat another Dyna?\n          Yes         No{KN}",
+  "status": "done"
  },
  {
   "id": "s643.00",
   "flag": 0,
   "speaker": 4,
   "jp": "この　ダイナは　けんこうなので\nちりょうする　ひつようが　ありません",
-  "en": "",
-  "status": "todo"
+  "en": "This Dyna is healthy, so it does not need\ntreatment.",
+  "status": "done"
  },
  {
   "id": "s644.00",
   "flag": 0,
   "speaker": 4,
   "jp": "オークションに　しゅっぴんされている\nアイテムは　こちらになっております{KN}",
-  "en": "",
-  "status": "todo"
+  "en": "Here are the items up for auction.{KN}",
+  "status": "done"
  },
  {
   "id": "s645.00",
   "flag": 0,
   "speaker": 4,
   "jp": "こちらの　しょうひんは{KP}\nダイナの　{%sR4}を\nせいちょうさせる　アイテムです{KP}\nオークションに　さんかしますか？\n　　　　　はい　　　　いいえ{KN}",
-  "en": "",
-  "status": "todo"
+  "en": "This item raises\na Dyna's {%sR4}.{KP}\nJoin the auction?\n          Yes         No{KN}",
+  "status": "done"
  },
  {
   "id": "s646.00",
   "flag": 0,
   "speaker": 4,
   "jp": "こちらの　しょうひんは{KP}\n{%sR4}タイプの\nはんよう{%sR5}デバイスです{KP}\nオークションに　さんかしますか？\n　　　　　はい　　　　いいえ{KN}",
-  "en": "",
-  "status": "todo"
+  "en": "For {%sR4} types:\na general {%sR5} Device.{KP}\nJoin the auction?\n          Yes         No{KN}",
+  "status": "done"
  },
  {
   "id": "s647.00",
   "flag": 0,
   "speaker": 4,
   "jp": "こちらの　しょうひんは{KP}\n{%sR4}スタイルの\nせんよう{%sR5}デバイスです{KP}\nオークションに　さんかしますか？\n　　　　　はい　　　　いいえ{KN}",
-  "en": "",
-  "status": "todo"
+  "en": "For the {%sR4} style:\na dedicated {%sR5} Device.{KP}\nJoin the auction?\n          Yes         No{KN}",
+  "status": "done"
  },
  {
   "id": "s648.00",
   "flag": 0,
   "speaker": 4,
   "jp": "こちらの　しょうひんは\nウェポンや　アーマーの　ざいりょうです{KP}\nオークションに　さんかしますか？\n　　　　　はい　　　　いいえ{KN}",
-  "en": "",
-  "status": "todo"
+  "en": "This item is a material\nfor weapons and armor.{KP}\nJoin the auction?\n          Yes         No{KN}",
+  "status": "done"
  },
  {
   "id": "s649.00",
   "flag": 0,
   "speaker": 4,
   "jp": "こちらの　しょうひんは{KP}\n{%sR4}デバイスを\nきょうかする　アイテムです{KP}\nオークションに　さんかしますか？\n　　　　　はい　　　　いいえ{KN}",
-  "en": "",
-  "status": "todo"
+  "en": "This item strengthens\n{%sR4} Devices.{KP}\nJoin the auction?\n          Yes         No{KN}",
+  "status": "done"
  }
 ]
