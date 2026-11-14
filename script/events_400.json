@@ -4,600 +4,600 @@
   "flag": 0,
   "speaker": -1,
   "jp": "あら　{%sR4}\nえっと・・・なにか　わたしに　ごよう？",
-  "en": "",
-  "status": "todo"
+  "en": "Oh, {%sR4}.{KP}\nUmm... did you want something from me?",
+  "status": "done"
  },
  {
   "id": "s401.00",
   "flag": 0,
   "speaker": -1,
   "jp": "よく　いらっしゃいました　{%sR4}\nなにか　ちからになれることは　ありますか？",
-  "en": "",
-  "status": "todo"
+  "en": "Welcome, {%sR4}.{KP}\nIs there anything I can help you with?",
+  "status": "done"
  },
  {
   "id": "s402.00",
   "flag": 0,
   "speaker": -1,
   "jp": "おう！　よくきたな　{%sR4}！\nこまってるなら　ちからをかすぜ！",
-  "en": "",
-  "status": "todo"
+  "en": "Hey! Good to see you, {%sR4}!{KP}\nIf you're in a jam, I'll lend a hand!",
+  "status": "done"
  },
  {
   "id": "s403.00",
   "flag": 0,
   "speaker": -1,
   "jp": "これは　{%sR4}\nわたしで　よければ　ちからになろう",
-  "en": "",
-  "status": "todo"
+  "en": "Ah, {%sR4}.{KP}\nIf I can be of use, I will help you.",
+  "status": "done"
  },
  {
   "id": "s404.00",
   "flag": 0,
   "speaker": -1,
   "jp": "あっ　{%sR4}！　げんき？\nおてつだいできることあったら　いってね！",
-  "en": "",
-  "status": "todo"
+  "en": "Oh, {%sR4}! How are you?{KP}\nIf there's anything I can help with, just\nsay so!",
+  "status": "done"
  },
  {
   "id": "s405.00",
   "flag": 0,
   "speaker": -1,
   "jp": "・・・あ　{%sR4}さん・・・\n・・・いえ　なんでもないです",
-  "en": "",
-  "status": "todo"
+  "en": "...Oh, {%sR4}-san...{KP}\n...No, it's nothing.",
+  "status": "done"
  },
  {
   "id": "s406.00",
   "flag": 0,
   "speaker": -1,
   "jp": "・・・なんでぇ　{%sR4}かよ\n・・・わりぃけど　またにしてくんねぇかな",
-  "en": "",
-  "status": "todo"
+  "en": "...Whaddaya want, {%sR4}?{KP}\n...Sorry, but can it wait till later?",
+  "status": "done"
  },
  {
   "id": "s407.00",
   "flag": 0,
   "speaker": -1,
   "jp": "・・・{%sR4}\n・・・いったい　なにしにきた？",
-  "en": "",
-  "status": "todo"
+  "en": "...{%sR4}.{KP}\n...What exactly are you here for?",
+  "status": "done"
  },
  {
   "id": "s408.00",
   "flag": 0,
   "speaker": -1,
   "jp": "・・・げ　{%sR4}だぁ・・・\n・・・で　なに？　なんの　よう？",
-  "en": "",
-  "status": "todo"
+  "en": "...Ugh, it's {%sR4}...{KP}\n...So what? What do you want?",
+  "status": "done"
  },
  {
   "id": "s409.00",
   "flag": 0,
   "speaker": -1,
   "jp": "ダイナは　おおきくわけて\n１０の　タイプに　わけられます{KP}\nタイプというのは　トリや　ムシのような\nひじょうに　おおざっぱな　ぶんるいです",
-  "en": "",
-  "status": "todo"
+  "en": "Dyna are broadly divided into 10 types.{KP}\nA type is a very rough grouping, like birds\nor bugs.",
+  "status": "done"
  },
  {
   "id": "s409.01",
   "flag": 0,
   "speaker": -1,
   "jp": "さらに　タイプの　したには\nスタイルという　わけかたが　あります{KP}\nスタイルというのは　みための　ちがいです\nたとえば　わたしの　ばあいは・・・",
-  "en": "",
-  "status": "todo"
+  "en": "Under each type, there is another grouping\ncalled style.{KP}\nA style is a difference in looks. For\nexample, in my case...",
+  "status": "done"
  },
  {
   "id": "s409.02",
   "flag": 0,
   "speaker": -1,
   "jp": "{%sR4}タイプ\n{%sR5}スタイルと　なるわけです",
-  "en": "",
-  "status": "todo"
+  "en": "I am {%sR4} type, {%sR5}\nstyle.",
+  "status": "done"
  },
  {
   "id": "s410.00",
   "flag": 0,
   "speaker": -1,
   "jp": "ダイナは　おおきくわけて\n１０の　タイプに　わけられる{KP}\nタイプってのは　トリとか　ムシとか\nすごく　てきとうな　ぶんるいだ",
-  "en": "",
-  "status": "todo"
+  "en": "Dyna are split up into 10 rough types.{KP}\nA type's just a real loose grouping, like\nbirds or bugs.",
+  "status": "done"
  },
  {
   "id": "s410.01",
   "flag": 0,
   "speaker": -1,
   "jp": "さらに　タイプの　したには\nスタイルって　わけかたも　ある{KP}\nスタイルってのは　みための　ちがいだ\nたとえば　オレの　ばあいは・・・",
-  "en": "",
-  "status": "todo"
+  "en": "Under the types there's also stuff called\nstyles.{KP}\nA style's how you look. Like, take me...",
+  "status": "done"
  },
  {
   "id": "s410.02",
   "flag": 0,
   "speaker": -1,
   "jp": "{%sR4}タイプ\n{%sR5}スタイルってわけだ",
-  "en": "",
-  "status": "todo"
+  "en": "I'm {%sR4} type, {%sR5}\nstyle. Got it?",
+  "status": "done"
  },
  {
   "id": "s411.00",
   "flag": 0,
   "speaker": -1,
   "jp": "ダイナには　おおきくわけて\n１０の　タイプが　ある{KP}\nタイプというのは　トリや　ムシのような\nひじょうに　おおきな　ぶんるいだ",
-  "en": "",
-  "status": "todo"
+  "en": "Dyna come in 10 broad types.{KP}\nA type is a very large grouping, like birds\nor bugs.",
+  "status": "done"
  },
  {
   "id": "s411.01",
   "flag": 0,
   "speaker": -1,
   "jp": "さらに　タイプの　したには\nスタイルという　わけかたも　ある{KP}\nスタイルというのは　みための　ちがいだ\nたとえば　わたしの　ばあい・・・",
-  "en": "",
-  "status": "todo"
+  "en": "Beneath type, there is also a grouping\ncalled style.{KP}\nA style is a difference in appearance. In my\ncase, for example...",
+  "status": "done"
  },
  {
   "id": "s411.02",
   "flag": 0,
   "speaker": -1,
   "jp": "{%sR4}タイプ\n{%sR5}スタイルと　なるわけだ",
-  "en": "",
-  "status": "todo"
+  "en": "I am {%sR4} type, {%sR5}\nstyle.",
+  "status": "done"
  },
  {
   "id": "s412.00",
   "flag": 0,
   "speaker": -1,
   "jp": "ダイナは　おおきくわけて\n１０の　タイプに　わけられるのよ{KP}\nタイプっていうのは　トリや　ムシみたいな\nすごく　おおざっぱな　ぶんるいのことなの",
-  "en": "",
-  "status": "todo"
+  "en": "Dyna are divided into 10 big types, you\nknow.{KP}\nA type is a really rough grouping, like birds\nor bugs.",
+  "status": "done"
  },
  {
   "id": "s412.01",
   "flag": 0,
   "speaker": -1,
   "jp": "さらに　タイプの　したには\nスタイルという　わけかたも　あるのよ{KP}\nスタイルっていうのは　みための　ちがいよ\nたとえば　わたしの　ばあいはね・・・",
-  "en": "",
-  "status": "todo"
+  "en": "And under the types, there's another\ngrouping called style.{KP}\nA style is how you look. For example,\nme...",
+  "status": "done"
  },
  {
   "id": "s412.02",
   "flag": 0,
   "speaker": -1,
   "jp": "{%sR4}タイプ\n{%sR5}スタイルとなるワケ",
-  "en": "",
-  "status": "todo"
+  "en": "I'm {%sR4} type, {%sR5}\nstyle, see?",
+  "status": "done"
  },
  {
   "id": "s413.00",
   "flag": 0,
   "speaker": -1,
   "jp": "{%sR4}さんは　メガハウスという\nセクタを　ごぞんじですか？",
-  "en": "",
-  "status": "todo"
+  "en": "{%sR4}-san, do you know about\nthe sector called a Mega House?",
+  "status": "done"
  },
  {
   "id": "s413.01",
   "flag": 0,
   "speaker": -1,
   "jp": "ハウスの　セクタを　たて２けん\nよこ２けんの　ごうけい　４けん　ならべて",
-  "en": "",
-  "status": "todo"
+  "en": "Put 4 House sectors together, 2 across and\n2 down,",
+  "status": "done"
  },
  {
   "id": "s413.02",
   "flag": 0,
   "speaker": -1,
   "jp": "ひだりうえの　ハウスに　むかって\nＡボタンを　おすと　つくれるんです",
-  "en": "",
-  "status": "todo"
+  "en": "then face the top-left House and press the\nA Button to build one.",
+  "status": "done"
  },
  {
   "id": "s413.03",
   "flag": 0,
   "speaker": -1,
   "jp": "４けんの　ハウスが　あきやでないと\nつくれないので　ちゅういしてくださいね",
-  "en": "",
-  "status": "todo"
+  "en": "All 4 Houses have to be empty, so please\nbe careful.",
+  "status": "done"
  },
  {
   "id": "s413.04",
   "flag": 0,
   "speaker": -1,
   "jp": "それと　メガハウスには　さいこうで\nダイナが　３たい　すめるんです",
-  "en": "",
-  "status": "todo"
+  "en": "Also, up to 3 Dyna can live in a Mega\nHouse.",
+  "status": "done"
  },
  {
   "id": "s413.05",
   "flag": 0,
   "speaker": -1,
   "jp": "しかも　そこを　あえて　２たいだけ\nすまわせると・・・",
-  "en": "",
-  "status": "todo"
+  "en": "And if you deliberately let only 2 live\nthere...",
+  "status": "done"
  },
  {
   "id": "s413.06",
   "flag": 0,
   "speaker": -1,
   "jp": "いや！　なんでもありません\nこれは　じぶんで　たしかめてみてください",
-  "en": "",
-  "status": "todo"
+  "en": "No! Never mind.{KP}\nPlease find that out for yourself.",
+  "status": "done"
  },
  {
   "id": "s414.00",
   "flag": 0,
   "speaker": -1,
   "jp": "{%sR4}は　メガハウスっていう\nセクタを　しってるか？",
-  "en": "",
-  "status": "todo"
+  "en": "{%sR4}, you know about the sector\ncalled a Mega House?",
+  "status": "done"
  },
  {
   "id": "s414.01",
   "flag": 0,
   "speaker": -1,
   "jp": "ハウスの　セクタを　たて２けん\nよこ２けんの　ごうけい　４けん　ならべて",
-  "en": "",
-  "status": "todo"
+  "en": "Put 4 House sectors together, 2 across and\n2 down,",
+  "status": "done"
  },
  {
   "id": "s414.02",
   "flag": 0,
   "speaker": -1,
   "jp": "ひだりうえの　ハウスに　むかって\nＡボタンを　おすと　つくれるんだよ",
-  "en": "",
-  "status": "todo"
+  "en": "then face the top-left House and press the\nA Button to build one.",
+  "status": "done"
  },
  {
   "id": "s414.03",
   "flag": 0,
   "speaker": -1,
   "jp": "４けんの　ハウスが　あきやでないと\nつくれねぇから　きをつけろよ",
-  "en": "",
-  "status": "todo"
+  "en": "All 4 Houses gotta be empty, so watch it.",
+  "status": "done"
  },
  {
   "id": "s414.04",
   "flag": 0,
   "speaker": -1,
   "jp": "それと　メガハウスには　さいこうで\nダイナが　３たい　すめるんだぜ",
-  "en": "",
-  "status": "todo"
+  "en": "Also, up to 3 Dyna can live in a Mega\nHouse.",
+  "status": "done"
  },
  {
   "id": "s414.05",
   "flag": 0,
   "speaker": -1,
   "jp": "しかも　そこを　あえて　２たいだけ\nすまわせるとだな・・・",
-  "en": "",
-  "status": "todo"
+  "en": "And if you go and let only 2 live there...",
+  "status": "done"
  },
  {
   "id": "s414.06",
   "flag": 0,
   "speaker": -1,
   "jp": "おっと！　あぶねぇ　あぶねぇ・・・\nこいつは　じぶんで　たしかめてみてくんな",
-  "en": "",
-  "status": "todo"
+  "en": "Whoa! Close one, close one...{KP}\nYou'll have to see that one for yourself.",
+  "status": "done"
  },
  {
   "id": "s415.00",
   "flag": 0,
   "speaker": -1,
   "jp": "{%sR4}は　メガハウスという\nセクタを　しっているか？",
-  "en": "",
-  "status": "todo"
+  "en": "{%sR4}, do you know of the sector\ncalled a Mega House?",
+  "status": "done"
  },
  {
   "id": "s415.01",
   "flag": 0,
   "speaker": -1,
   "jp": "ハウスの　セクタを　たて２けん\nよこ２けんの　ごうけい　４けん　ならべて",
-  "en": "",
-  "status": "todo"
+  "en": "Put 4 House sectors together, 2 across and\n2 down,",
+  "status": "done"
  },
  {
   "id": "s415.02",
   "flag": 0,
   "speaker": -1,
   "jp": "ひだりうえの　ハウスに　むかって\nＡボタンを　おすと　つくれるのだ",
-  "en": "",
-  "status": "todo"
+  "en": "then face the top-left House and press the\nA Button to build one.",
+  "status": "done"
  },
  {
   "id": "s415.03",
   "flag": 0,
   "speaker": -1,
   "jp": "４けんの　ハウスが　あきやでないと\nつくれないから　きをつけろ",
-  "en": "",
-  "status": "todo"
+  "en": "All 4 Houses must be empty, so take\ncare.",
+  "status": "done"
  },
  {
   "id": "s415.04",
   "flag": 0,
   "speaker": -1,
   "jp": "それと　メガハウスには　さいこうで\nダイナが　３たい　すめるのだ",
-  "en": "",
-  "status": "todo"
+  "en": "Also, up to 3 Dyna can live in a Mega\nHouse.",
+  "status": "done"
  },
  {
   "id": "s415.05",
   "flag": 0,
   "speaker": -1,
   "jp": "しかも　そこを　あえて　２たいだけ\nすまわせると・・・",
-  "en": "",
-  "status": "todo"
+  "en": "And if you deliberately let only 2 live\nthere...",
+  "status": "done"
  },
  {
   "id": "s415.06",
   "flag": 0,
   "speaker": -1,
   "jp": "・・・なんでもない\nこれは　じぶんで　たしかめてみろ",
-  "en": "",
-  "status": "todo"
+  "en": "...It is nothing.{KP}\nSee for yourself.",
+  "status": "done"
  },
  {
   "id": "s416.00",
   "flag": 0,
   "speaker": -1,
   "jp": "{%sR4}さんは　メガハウスっていう\nセクタを　しってる？",
-  "en": "",
-  "status": "todo"
+  "en": "{%sR4}-san, do you know about\nthe sector called a Mega House?",
+  "status": "done"
  },
  {
   "id": "s416.01",
   "flag": 0,
   "speaker": -1,
   "jp": "ハウスの　セクタを　たて２けん\nよこ２けんの　ごうけい　４けん　ならべて",
-  "en": "",
-  "status": "todo"
+  "en": "Put 4 House sectors together, 2 across and\n2 down,",
+  "status": "done"
  },
  {
   "id": "s416.02",
   "flag": 0,
   "speaker": -1,
   "jp": "ひだりうえの　ハウスに　むかって\nＡボタンを　おすと　つくれるんだよ",
-  "en": "",
-  "status": "todo"
+  "en": "then face the top-left House and press the\nA Button to build one!",
+  "status": "done"
  },
  {
   "id": "s416.03",
   "flag": 0,
   "speaker": -1,
   "jp": "４けんの　ハウスが　あきやでないと\nつくれないから　ちゅういしてね",
-  "en": "",
-  "status": "todo"
+  "en": "All 4 Houses have to be empty, so be\ncareful, okay?",
+  "status": "done"
  },
  {
   "id": "s416.04",
   "flag": 0,
   "speaker": -1,
   "jp": "それと　メガハウスには　さいこうで\nダイナが　３たい　すめるんだよ",
-  "en": "",
-  "status": "todo"
+  "en": "Also, up to 3 Dyna can live in a Mega\nHouse!",
+  "status": "done"
  },
  {
   "id": "s416.05",
   "flag": 0,
   "speaker": -1,
   "jp": "しかも　そこを　あえて　２たいだけ\nすまわせるとね・・・",
-  "en": "",
-  "status": "todo"
+  "en": "And if you deliberately let only 2 live\nthere...",
+  "status": "done"
  },
  {
   "id": "s416.06",
   "flag": 0,
   "speaker": -1,
   "jp": "な　なんでもありません！\nこれは　じぶんで　たしかめてみてね",
-  "en": "",
-  "status": "todo"
+  "en": "N-never mind!{KP}\nGo see for yourself, okay?",
+  "status": "done"
  },
  {
   "id": "s417.00",
   "flag": 0,
   "speaker": -1,
   "jp": "{%sR4}さんは　あなを　ほって\nホールの　セクタを　つくっていますか？",
-  "en": "",
-  "status": "todo"
+  "en": "{%sR4}-san, are you digging holes\nto make Hole sectors?",
+  "status": "done"
  },
  {
   "id": "s417.01",
   "flag": 0,
   "speaker": -1,
   "jp": "ホールの　セクタの　となりに\nウォーターの　セクタが　あると",
-  "en": "",
-  "status": "todo"
+  "en": "If there is a Water sector next to a Hole\nsector,",
+  "status": "done"
  },
  {
   "id": "s417.02",
   "flag": 0,
   "speaker": -1,
   "jp": "みずが　ながれこんで　ウォーターの\nセクタに　なるんです",
-  "en": "",
-  "status": "todo"
+  "en": "water flows in and it becomes a Water\nsector.",
+  "status": "done"
  },
  {
   "id": "s417.03",
   "flag": 0,
   "speaker": -1,
   "jp": "これを　りようして　ウォーターの\nセクタを　いどうさせたりも　できるんですよ",
-  "en": "",
-  "status": "todo"
+  "en": "You can even use this to move Water\nsectors around.",
+  "status": "done"
  },
  {
   "id": "s418.00",
   "flag": 0,
   "speaker": -1,
   "jp": "{%sR4}は　あなを　ほって\nホールの　セクタを　つくってるか？",
-  "en": "",
-  "status": "todo"
+  "en": "{%sR4}, you diggin' holes to make\nHole sectors?",
+  "status": "done"
  },
  {
   "id": "s418.01",
   "flag": 0,
   "speaker": -1,
   "jp": "ホールの　セクタの　となりに\nウォーターの　セクタが　あると",
-  "en": "",
-  "status": "todo"
+  "en": "If there's a Water sector next to a Hole\nsector,",
+  "status": "done"
  },
  {
   "id": "s418.02",
   "flag": 0,
   "speaker": -1,
   "jp": "みずが　ながれこんで　ウォーターの\nセクタに　なるぞ",
-  "en": "",
-  "status": "todo"
+  "en": "water flows in and it turns into a Water\nsector.",
+  "status": "done"
  },
  {
   "id": "s418.03",
   "flag": 0,
   "speaker": -1,
   "jp": "これを　りようすりゃ　ウォーターの\nセクタを　いどうさせることも　できるんだぜ",
-  "en": "",
-  "status": "todo"
+  "en": "Use that, and you can even move Water\nsectors around!",
+  "status": "done"
  },
  {
   "id": "s419.00",
   "flag": 0,
   "speaker": -1,
   "jp": "{%sR4}は　あなを　ほって\nホールの　セクタを　つくっているか？",
-  "en": "",
-  "status": "todo"
+  "en": "{%sR4}, are you digging holes to\nmake Hole sectors?",
+  "status": "done"
  },
  {
   "id": "s419.01",
   "flag": 0,
   "speaker": -1,
   "jp": "ホールの　セクタの　となりに\nウォーターの　セクタが　あると",
-  "en": "",
-  "status": "todo"
+  "en": "If there is a Water sector next to a Hole\nsector,",
+  "status": "done"
  },
  {
   "id": "s419.02",
   "flag": 0,
   "speaker": -1,
   "jp": "みずが　ながれこんで　ウォーターの\nセクタに　なる",
-  "en": "",
-  "status": "todo"
+  "en": "water flows in and it becomes a Water\nsector.",
+  "status": "done"
  },
  {
   "id": "s419.03",
   "flag": 0,
   "speaker": -1,
   "jp": "これを　りようすれば　ウォーターの\nセクタを　いどうさせることも　できるのだ",
-  "en": "",
-  "status": "todo"
+  "en": "Use this, and you can even move Water\nsectors.",
+  "status": "done"
  },
  {
   "id": "s420.00",
   "flag": 0,
   "speaker": -1,
   "jp": "{%sR4}さんは　あなを　ほって\nホールの　セクタを　つくってる？",
-  "en": "",
-  "status": "todo"
+  "en": "{%sR4}-san, are you digging holes\nto make Hole sectors?",
+  "status": "done"
  },
  {
   "id": "s420.01",
   "flag": 0,
   "speaker": -1,
   "jp": "ホールの　セクタの　となりに\nウォーターの　セクタが　あると",
-  "en": "",
-  "status": "todo"
+  "en": "If there's a Water sector next to a Hole\nsector,",
+  "status": "done"
  },
  {
   "id": "s420.02",
   "flag": 0,
   "speaker": -1,
   "jp": "みずが　ながれこんで　ウォーターの\nセクタに　なるわ",
-  "en": "",
-  "status": "todo"
+  "en": "water flows in and it becomes a Water\nsector.",
+  "status": "done"
  },
  {
   "id": "s420.03",
   "flag": 0,
   "speaker": -1,
   "jp": "これを　りようすれば　ウォーターの\nセクタを　いどうさせたりも　できるのよ",
-  "en": "",
-  "status": "todo"
+  "en": "You can even use that to move Water\nsectors around, you know.",
+  "status": "done"
  },
  {
   "id": "s421.00",
   "flag": 0,
   "speaker": -1,
   "jp": "ぞくせいが　むぞくせいいがいの\nデバイスには　それぞれ{KP}\nエクストラと　よばれる　ちからが\nついています",
-  "en": "",
-  "status": "todo"
+  "en": "Every Device whose element is not\n\"none\"{KP}\nhas a power called an Extra.",
+  "status": "done"
  },
  {
   "id": "s421.01",
   "flag": 0,
   "speaker": -1,
   "jp": "エクストラの　なかには　こうげきに\nついかこうかが　つくものも　あります",
-  "en": "",
-  "status": "todo"
+  "en": "Some Extras add an extra effect to\nattacks.",
+  "status": "done"
  },
  {
   "id": "s421.02",
   "flag": 0,
   "speaker": -1,
   "jp": "たとえば　デバイスの　なまえに\nヒートと　ついているばあい{KP}\nこうげきのあとに　あいてを　ヤケドさせる\nついかこうかが　つきます",
-  "en": "",
-  "status": "todo"
+  "en": "For example, if a Device's name has \"Heat\"\nin it,{KP}\nits attacks have the extra effect of\nburning the opponent.",
+  "status": "done"
  },
  {
   "id": "s421.03",
   "flag": 0,
   "speaker": -1,
   "jp": "たとえば　デバイスの　なまえに\nアイスと　ついているばあい{KP}\nこうげきのあとに　あいてを　こおらせる\nついかこうかが　つきます",
-  "en": "",
-  "status": "todo"
+  "en": "For example, if a Device's name has \"Ice\"\nin it,{KP}\nits attacks have the extra effect of\nfreezing the opponent.",
+  "status": "done"
  },
  {
   "id": "s421.04",
   "flag": 0,
   "speaker": -1,
   "jp": "たとえば　デバイスの　なまえに\nボルトと　ついているばあい{KP}\nこうげきのあとに　あいてを　かんでんさせる\nついかこうかが　つきます",
-  "en": "",
-  "status": "todo"
+  "en": "For example, if a Device's name has \"Bolt\"\nin it,{KP}\nits attacks have the extra effect of\nshocking the opponent.",
+  "status": "done"
  },
  {
   "id": "s421.05",
   "flag": 0,
   "speaker": -1,
   "jp": "たとえば　デバイスの　なまえに\nサンドと　ついているばあい{KP}\nこうげきのあとに　あいての　めをくらませる\nついかこうかが　つきます",
-  "en": "",
-  "status": "todo"
+  "en": "For example, if a Device's name has \"Sand\"\nin it,{KP}\nits attacks have the extra effect of\nblinding the opponent.",
+  "status": "done"
  },
  {
   "id": "s422.00",
   "flag": 0,
   "speaker": -1,
   "jp": "ぞくせいが　むぞくせいいがいの\nデバイスには　それぞれ{KP}\nエクストラっていう　すげぇ　ちからが\nついてるんだぜ",
-  "en": "",
-  "status": "todo"
+  "en": "Every Device whose element ain't \"none\"{KP}\nhas an awesome power called an Extra!",
+  "status": "done"
  },
  {
   "id": "s422.01",
   "flag": 0,
   "speaker": -1,
   "jp": "エクストラの　なかには　こうげきに\nついかこうかが　つくものも　あるぞ",
-  "en": "",
-  "status": "todo"
+  "en": "Some Extras add an extra effect to\nattacks.",
+  "status": "done"
  },
  {
   "id": "s422.02",
   "flag": 0,
   "speaker": -1,
   "jp": "たとえば　デバイスの　なまえに\nヒートと　ついているばあい{KP}\nこうげきのあとに　あいてを　ヤケドさせる\nついかこうかが　つくんだぜ",
-  "en": "",
-  "status": "todo"
+  "en": "Like, if a Device's name has \"Heat\" in it,{KP}\nits attacks get the extra effect of burning\nthe other guy!",
+  "status": "done"
  },
  {
   "id": "s422.03",
   "flag": 0,
   "speaker": -1,
   "jp": "たとえば　デバイスの　なまえに\nアイスと　ついているばあい{KP}\nこうげきのあとに　あいてを　こおらせる\nついかこうかが　つくんだぜ",
-  "en": "",
-  "status": "todo"
+  "en": "Like, if a Device's name has \"Ice\" in it,{KP}\nits attacks get the extra effect of\nfreezing the other guy!",
+  "status": "done"
  },
  {
   "id": "s422.04",
