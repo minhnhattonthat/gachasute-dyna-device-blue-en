@@ -156,3 +156,9 @@ Binding for every translator and reviewer. Agents propose additions in reports; 
   Launcher, Beam Gun, Battery, Drill Arm, Stun Gun, Double Ring, Trickster. Star names (t0B2014-t0B2324) use
   the real star's English name (D10): Situla, Cursa, Achernar, Thuban, Vega, Pollux (ボルックス), Kelb Alrai,
   Rasalhague, Benetnash, Pulcherrima...; unsure: サイド -> Said, ジャバル -> Jabal.
+- b032-b034 item-list names (64 px): Extra + base ("Sand Pile", "Flare Wing"); ライ -> Rai, ライズ -> Rise,
+  エレクトリック -> Electrick (pun kept), ネクロボンバー -> Necro Bomber. Over 64 px: アース swapped to Gran
+  (Gran Launcher, Gran Stun Gun), Bomb Beamgun, マシンガン -> Rapid Gun. Byler Dyna (planet puns): Byjupiter,
+  Mercurie, Plutario, Parmoon, Jornaturn, Bisaios, Capuchipean, Sigmazon, Terioranus. Styles in registers:
+  bare Latin (Eridanus, Lyra, Virgo, Cetus, Corvus, Hercules, Pegasus...). Element words in registers:
+  earth, thunder, water, fire, none. Plug-in A1-A3/W1-W3. Skills: Tackle, Hypnosis, Sleep Spores, etc.
