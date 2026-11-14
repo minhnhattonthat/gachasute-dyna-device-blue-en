@@ -92,656 +92,656 @@
   "flag": 0,
   "speaker": -1,
   "jp": "もう　{%sR5}は\nそつぎょうする　と　いっていたな{KP}\nそうやって　ひとは\nおとなに　なっていくのだろう・・・",
-  "en": "",
-  "status": "todo"
+  "en": "said they are graduating from\n{%sR5} now.{KP}\nThat is how people grow up, I suppose...",
+  "status": "done"
  },
  {
   "id": "s556.00",
   "flag": 0,
   "speaker": -1,
   "jp": "こんげつは　３月\nだんだんと　あったかくなってきたね{KP}\n３月といえば　そつぎょうの　きせつ\nそういえば　{%sR4}は",
-  "en": "",
-  "status": "todo"
+  "en": "This month's March.{KP}\nIt's getting warmer little by little!{KP}\nMarch means graduation season. Speaking\nof which, {%sR4}",
+  "status": "done"
  },
  {
   "id": "s556.01",
   "flag": 0,
   "speaker": -1,
   "jp": "もう　{%sR5}は\nそつぎょうする　と　いってたわ{KP}\nそうやって　ひとは\nおとなに　なっていくのね・・・",
-  "en": "",
-  "status": "todo"
+  "en": "said they're graduating from\n{%sR5} now.{KP}\nThat's how people grow up, I guess...",
+  "status": "done"
  },
  {
   "id": "s557.00",
   "flag": 0,
   "speaker": -1,
   "jp": "こんげつは　４月\nすっかり　あたたかくなりましたね{KP}\nそういえば　ウワサに　きいたんですが\nこの　はるから　{%sR4}は",
-  "en": "",
-  "status": "todo"
+  "en": "This month is April.{KP}\nIt has gotten nice and warm.{KP}\nBy the way, I heard a rumor that this\nspring, {%sR4}",
+  "status": "done"
  },
  {
   "id": "s557.01",
   "flag": 0,
   "speaker": -1,
   "jp": "{%sR5}の　がっこうに　いくことに\nなったそうですね{KP}\nがんばって　{%sR5}の　プロを\nめざしてほしいものですね",
-  "en": "",
-  "status": "todo"
+  "en": "is going to school to study\n{%sR5}.{KP}\nI hope they work hard and go pro at\n{%sR5}.",
+  "status": "done"
  },
  {
   "id": "s558.00",
   "flag": 0,
   "speaker": -1,
   "jp": "こんげつは　４月\nすっかり　あったかくなったぜ{KP}\nそういえば　ウワサに　きいたんだけどよ\nこの　はるから　{%sR4}は",
-  "en": "",
-  "status": "todo"
+  "en": "This month's April.{KP}\nIt's real warm now!{KP}\nHey, I heard a rumor that this spring,\n{%sR4}",
+  "status": "done"
  },
  {
   "id": "s558.01",
   "flag": 0,
   "speaker": -1,
   "jp": "{%sR5}の　がっこうに　いくことに\nなったんだってな{KP}\nがんばって　{%sR5}の　プロを\nめざしてほしいもんだな",
-  "en": "",
-  "status": "todo"
+  "en": "is goin' to school to study\n{%sR5}!{KP}\nHope they work hard and go pro at\n{%sR5}!",
+  "status": "done"
  },
  {
   "id": "s559.00",
   "flag": 0,
   "speaker": -1,
   "jp": "こんげつは　４月\nすっかり　あたたかくなったな{KP}\nそういえば　ウワサに　きいたのだが\nこの　はるから　{%sR4}が",
-  "en": "",
-  "status": "todo"
+  "en": "This month is April.{KP}\nIt has grown quite warm.{KP}\nIncidentally, I heard a rumor that this\nspring, {%sR4}",
+  "status": "done"
  },
  {
   "id": "s559.01",
   "flag": 0,
   "speaker": -1,
   "jp": "{%sR5}の　がっこうに　いくことに\nなったそうだ{KP}\nがんばって　{%sR5}の　プロを\nめざしてほしいものだな",
-  "en": "",
-  "status": "todo"
+  "en": "is to attend school to study\n{%sR5}.{KP}\nI hope they strive to become a\nprofessional at {%sR5}.",
+  "status": "done"
  },
  {
   "id": "s560.00",
   "flag": 0,
   "speaker": -1,
   "jp": "こんげつは　４月\nすっかり　あったかくなったね{KP}\nそういえば　ウワサに　きいたんだけど\nこの　はるから　{%sR4}って",
-  "en": "",
-  "status": "todo"
+  "en": "This month's April.{KP}\nIt's gotten all warm!{KP}\nBy the way, I heard a rumor that this\nspring, {%sR4}",
+  "status": "done"
  },
  {
   "id": "s560.01",
   "flag": 0,
   "speaker": -1,
   "jp": "{%sR5}の　がっこうに　いくことに\nなったんですって{KP}\nがんばって　{%sR5}の　プロを\nめざしてほしいものね",
-  "en": "",
-  "status": "todo"
+  "en": "is going to school to study\n{%sR5}!{KP}\nI hope they work hard and go pro at\n{%sR5}.",
+  "status": "done"
  },
  {
   "id": "s561.00",
   "flag": 0,
   "speaker": -1,
   "jp": "こんげつは　５月\n５月びょうって　しってますか？{KP}\n{%sR4}を　やるきが　まったく\nなくなってしまう　びょうきなんだそうです",
-  "en": "",
-  "status": "todo"
+  "en": "This month is May.{KP}\nHave you heard of the May blues?{KP}\nThey say it is an illness that takes away all\nyour will to do {%sR4}.",
+  "status": "done"
  },
  {
   "id": "s561.01",
   "flag": 0,
   "speaker": -1,
   "jp": "かんがえただけで　ゾッとしますね・・・",
-  "en": "",
-  "status": "todo"
+  "en": "Just thinking about it gives me the\nshivers...",
+  "status": "done"
  },
  {
   "id": "s562.00",
   "flag": 0,
   "speaker": -1,
   "jp": "こんげつは　５月\n５月びょうって　しってるか？{KP}\n{%sR4}を　やるきが　まったく\nなくなっちまう　びょうきなんだってよ",
-  "en": "",
-  "status": "todo"
+  "en": "This month's May.{KP}\nYou heard of the May blues?{KP}\nIt's a sickness that makes you lose all will\nto do {%sR4}!",
+  "status": "done"
  },
  {
   "id": "s562.01",
   "flag": 0,
   "speaker": -1,
   "jp": "かんがえただけで　ゾッとするな・・・",
-  "en": "",
-  "status": "todo"
+  "en": "Just thinkin' about it gives me the\ncreeps...",
+  "status": "done"
  },
  {
   "id": "s563.00",
   "flag": 0,
   "speaker": -1,
   "jp": "こんげつは　５月\n５月びょうを　しっているか？{KP}\n{%sR4}を　やるきが　まったく\nなくなってしまう　びょうきなのだそうだ",
-  "en": "",
-  "status": "todo"
+  "en": "This month is May.{KP}\nDo you know of the May blues?{KP}\nIt is said to be an illness that robs one of\nall will to do {%sR4}.",
+  "status": "done"
  },
  {
   "id": "s563.01",
   "flag": 0,
   "speaker": -1,
   "jp": "かんがえるのも　おぞましい・・・",
-  "en": "",
-  "status": "todo"
+  "en": "A dreadful thought...",
+  "status": "done"
  },
  {
   "id": "s564.00",
   "flag": 0,
   "speaker": -1,
   "jp": "こんげつは　５月\n５月びょうって　しってます？{KP}\n{%sR4}を　やるきが　まったく\nなくなってしまう　びょうきなんだって",
-  "en": "",
-  "status": "todo"
+  "en": "This month's May.{KP}\nHave you heard of the May blues?{KP}\nIt's an illness that makes you lose all your\nwill to do {%sR4}!",
+  "status": "done"
  },
  {
   "id": "s564.01",
   "flag": 0,
   "speaker": -1,
   "jp": "かんがえただけで　ゾッとするよね・・・",
-  "en": "",
-  "status": "todo"
+  "en": "Just thinking about it gives me the\nshivers...",
+  "status": "done"
  },
  {
   "id": "s565.00",
   "flag": 0,
   "speaker": -1,
   "jp": "こんげつは　６月\nつゆ　まっただなかですね{KP}\nそういえば　{%sR4}に\nきいたのですが",
-  "en": "",
-  "status": "todo"
+  "en": "This month is June.{KP}\nWe are right in the middle of the rainy\nseason.{KP}\nBy the way, I heard from\n{%sR4}...",
+  "status": "done"
  },
  {
   "id": "s565.01",
   "flag": 0,
   "speaker": -1,
   "jp": "この　つゆは　あめの　ふる　なかを{KP}\n{%sR5}するのが　はやっていると\nいうのは　ほんとうなのでしょうか？",
-  "en": "",
-  "status": "todo"
+  "en": "that doing {%sR5} in the pouring\nrain{KP}\nis all the rage this rainy season. Is that\ntrue?",
+  "status": "done"
  },
  {
   "id": "s566.00",
   "flag": 0,
   "speaker": -1,
   "jp": "こんげつは　６月\nつゆ　まっただなかだな{KP}\nそういえば　{%sR4}が\nいってたが",
-  "en": "",
-  "status": "todo"
+  "en": "This month's June.{KP}\nRainy season's in full swing.{KP}\nHey, {%sR4} was sayin'...",
+  "status": "done"
  },
  {
   "id": "s566.01",
   "flag": 0,
   "speaker": -1,
   "jp": "この　つゆは　あきの　ふる　なかを{KP}\n{%sR5}するのが\nはやってるってぇのは　ほんとうか？",
-  "en": "",
-  "status": "todo"
+  "en": "that doin' {%sR5} in the pourin'\nrain{KP}\nis all the rage this rainy season. That\ntrue?",
+  "status": "done"
  },
  {
   "id": "s567.00",
   "flag": 0,
   "speaker": -1,
   "jp": "こんげつは　６月\nつゆ　まっただなかか・・・{KP}\nそういえば　{%sR4}に\nきいたのだが",
-  "en": "",
-  "status": "todo"
+  "en": "This month is June.{KP}\nThe middle of the rainy season, then...{KP}\nIncidentally, I heard from\n{%sR4}...",
+  "status": "done"
  },
  {
   "id": "s567.01",
   "flag": 0,
   "speaker": -1,
   "jp": "この　つゆは　あめの　ふる　なかを{KP}\n{%sR5}するのが　はやっていると\nいうのは　ほんとうなのか？",
-  "en": "",
-  "status": "todo"
+  "en": "that doing {%sR5} in the pouring\nrain{KP}\nis in fashion this rainy season. Is that\nso?",
+  "status": "done"
  },
  {
   "id": "s568.00",
   "flag": 0,
   "speaker": -1,
   "jp": "こんげつは　６月\nまさに　つゆ　まっただなかね{KP}\nそういえば　{%sR4}に\nきいたんだけど",
-  "en": "",
-  "status": "todo"
+  "en": "This month's June.{KP}\nThe rainy season's in full swing, huh?{KP}\nBy the way, I heard from\n{%sR4}...",
+  "status": "done"
  },
  {
   "id": "s568.01",
   "flag": 0,
   "speaker": -1,
   "jp": "この　つゆは　あめの　ふる　なかを{KP}\n{%sR5}するのが　はやっていると\nいうのは　ほんとうなの？",
-  "en": "",
-  "status": "todo"
+  "en": "that doing {%sR5} in the pouring\nrain{KP}\nis all the rage this rainy season. Is that\ntrue?",
+  "status": "done"
  },
  {
   "id": "s569.00",
   "flag": 0,
   "speaker": -1,
   "jp": "こんげつは　７月\n７月と　いえば　たなばたですね{KP}\nたんざくに　かく　ねがいごとは\nもう　きまりましたか？",
-  "en": "",
-  "status": "todo"
+  "en": "This month is July.{KP}\nJuly means the Star Festival.{KP}\nHave you decided what wish to write on\nyour paper strip?",
+  "status": "done"
  },
  {
   "id": "s569.01",
   "flag": 0,
   "speaker": -1,
   "jp": "なんでも　{%sR4}は\nいちどでいいから{KP}\n{%sR5}に　かこまれて\nくらしたいと　かいたらしいですよ",
-  "en": "",
-  "status": "todo"
+  "en": "Apparently {%sR4} wrote that, just\nonce,{KP}\nthey would like to live surrounded by\n{%sR5}.",
+  "status": "done"
  },
  {
   "id": "s569.02",
   "flag": 0,
   "speaker": -1,
   "jp": "ゆめが　あって　いいですよね",
-  "en": "",
-  "status": "todo"
+  "en": "It is nice to have dreams, is it not?",
+  "status": "done"
  },
  {
   "id": "s570.00",
   "flag": 0,
   "speaker": -1,
   "jp": "こんげつは　７月\n７月と　いえば　たなばただな{KP}\nそういや　たんざくに　かく\nねがいごとは　もう　きまったか？",
-  "en": "",
-  "status": "todo"
+  "en": "This month's July.{KP}\nJuly means the Star Festival!{KP}\nYou decided what wish to write on your\npaper strip yet?",
+  "status": "done"
  },
  {
   "id": "s570.01",
   "flag": 0,
   "speaker": -1,
   "jp": "なんでも　{%sR4}は\nいちどでいいから{KP}\n{%sR5}に　かこまれて\nくらしたいとか　かいたらしいぞ",
-  "en": "",
-  "status": "todo"
+  "en": "Get this: {%sR4} wrote that, just\nonce,{KP}\nthey wanna live surrounded by\n{%sR5}!",
+  "status": "done"
  },
  {
   "id": "s570.02",
   "flag": 0,
   "speaker": -1,
   "jp": "ゆめは　でっかいほうが　いいよなぁ",
-  "en": "",
-  "status": "todo"
+  "en": "Dreams oughta be big, right?",
+  "status": "done"
  },
  {
   "id": "s571.00",
   "flag": 0,
   "speaker": -1,
   "jp": "こんげつは　７月\n７月と　いえば　たなばただな{KP}\nおまえも　たんざくに　ねがいごとを\nかいたりするのか？",
-  "en": "",
-  "status": "todo"
+  "en": "This month is July.{KP}\nJuly means the Star Festival.{KP}\nDo you write wishes on paper strips too?",
+  "status": "done"
  },
  {
   "id": "s571.01",
   "flag": 0,
   "speaker": -1,
   "jp": "なんでも　{%sR4}は\nいちどでいいから{KP}\n{%sR5}に　かこまれて\nくらしたいと　かいたらしいな",
-  "en": "",
-  "status": "todo"
+  "en": "Apparently {%sR4} wrote that, just\nonce,{KP}\nthey wish to live surrounded by\n{%sR5}.",
+  "status": "done"
  },
  {
   "id": "s571.02",
   "flag": 0,
   "speaker": -1,
   "jp": "いまひとつ　りかいできんな",
-  "en": "",
-  "status": "todo"
+  "en": "I cannot quite understand it.",
+  "status": "done"
  },
  {
   "id": "s572.00",
   "flag": 0,
   "speaker": -1,
   "jp": "こんげつは　７月\n７月と　いえば　たなばたよね{KP}\nたんざくに　かく　ねがいごとは\nもう　きまった？",
-  "en": "",
-  "status": "todo"
+  "en": "This month's July.{KP}\nJuly means the Star Festival!{KP}\nHave you decided what wish to write on\nyour paper strip?",
+  "status": "done"
  },
  {
   "id": "s572.01",
   "flag": 0,
   "speaker": -1,
   "jp": "なんでも　{%sR4}は\nいちどでいいから{KP}\n{%sR5}に　かこまれて\nくらしたいって　かいたんですって！",
-  "en": "",
-  "status": "todo"
+  "en": "Guess what? {%sR4} wrote that,\njust once,{KP}\nthey want to live surrounded by\n{%sR5}!",
+  "status": "done"
  },
  {
   "id": "s572.02",
   "flag": 0,
   "speaker": -1,
   "jp": "ロマンチックだなぁー・・・",
-  "en": "",
-  "status": "todo"
+  "en": "How romantic...",
+  "status": "done"
  },
  {
   "id": "s573.00",
   "flag": 0,
   "speaker": -1,
   "jp": "こんげつは　８月\nまさに　なつ　ほんばんですね{KP}\nなつといえば　うみ\nうみといえば　{%sR4}",
-  "en": "",
-  "status": "todo"
+  "en": "This month is August.{KP}\nSummer is in full swing.{KP}\nSummer means the sea, and the sea means\n{%sR4}.",
+  "status": "done"
  },
  {
   "id": "s573.01",
   "flag": 0,
   "speaker": -1,
   "jp": "うみで　する　{%sR4}は\nさぞかし　きもちいいでしょうね",
-  "en": "",
-  "status": "todo"
+  "en": "{%sR4} at the seaside must feel\nwonderful.",
+  "status": "done"
  },
  {
   "id": "s574.00",
   "flag": 0,
   "speaker": -1,
   "jp": "こんげつは　８月\nまさに　なつ　ほんばんだな！{KP}\nなつといえば　うみ！\nうみといえば　{%sR4}！",
-  "en": "",
-  "status": "todo"
+  "en": "This month's August!{KP}\nSummer's in full swing!{KP}\nSummer means the sea! And the sea means\n{%sR4}!",
+  "status": "done"
  },
  {
   "id": "s574.01",
   "flag": 0,
   "speaker": -1,
   "jp": "うみで　する　{%sR4}は\nさぞや　きもちいいだろうな！",
-  "en": "",
-  "status": "todo"
+  "en": "{%sR4} at the seaside must feel\nawesome!",
+  "status": "done"
  },
  {
   "id": "s575.00",
   "flag": 0,
   "speaker": -1,
   "jp": "こんげつは　８月\nまさに　なつ　ほんばんか・・・{KP}\nなつといえば　うみ\nうみといえば　{%sR4}",
-  "en": "",
-  "status": "todo"
+  "en": "This month is August.{KP}\nSummer is in full swing, then...{KP}\nSummer means the sea, and the sea means\n{%sR4}.",
+  "status": "done"
  },
  {
   "id": "s575.01",
   "flag": 0,
   "speaker": -1,
   "jp": "うみで　する　{%sR4}は\nさぞかし　きもちいいことだろう・・・",
-  "en": "",
-  "status": "todo"
+  "en": "{%sR4} at the seaside must be\nmost pleasant...",
+  "status": "done"
  },
  {
   "id": "s576.00",
   "flag": 0,
   "speaker": -1,
   "jp": "こんげつは　８月\nまさに　なつ　ほんばんだね！{KP}\nなつといえば　うみ！\nうみといえば　{%sR4}！",
-  "en": "",
-  "status": "todo"
+  "en": "This month's August!{KP}\nSummer's in full swing!{KP}\nSummer means the sea! And the sea means\n{%sR4}!",
+  "status": "done"
  },
  {
   "id": "s576.01",
   "flag": 0,
   "speaker": -1,
   "jp": "うみで　する　{%sR4}は\nきっと　きもちいいよね！",
-  "en": "",
-  "status": "todo"
+  "en": "{%sR4} at the seaside must feel\ngreat!",
+  "status": "done"
  },
  {
   "id": "s577.00",
   "flag": 0,
   "speaker": -1,
   "jp": "こんげつは　９月\nおつきみの　きせつですね{KP}\nそういえば　{%sR4}に\nきいたのですが",
-  "en": "",
-  "status": "todo"
+  "en": "This month is September.{KP}\nIt is the season for moon viewing.{KP}\nBy the way, I heard from\n{%sR4}...",
+  "status": "done"
  },
  {
   "id": "s577.01",
   "flag": 0,
   "speaker": -1,
   "jp": "ことしは　{%sR5}を　しながら{KP}\nおつきみするのが　はやっていると\nいうのは　ほんとうなのでしょうか？",
-  "en": "",
-  "status": "todo"
+  "en": "that doing {%sR5} while moon\nviewing{KP}\nis all the rage this year. Is that true?",
+  "status": "done"
  },
  {
   "id": "s578.00",
   "flag": 0,
   "speaker": -1,
   "jp": "こんげつは　９月\nつきみの　きせつだな{KP}\nそういや　{%sR4}に\nきいたんだけどよ",
-  "en": "",
-  "status": "todo"
+  "en": "This month's September.{KP}\nMoon-viewin' season!{KP}\nHey, I heard from {%sR4}...",
+  "status": "done"
  },
  {
   "id": "s578.01",
   "flag": 0,
   "speaker": -1,
   "jp": "ことしは　{%sR5}を　しながら{KP}\nつきみを　するのが　はやっているって\nいうのは　ほんとうなのか？",
-  "en": "",
-  "status": "todo"
+  "en": "that doin' {%sR5} while moon\nviewin'{KP}\nis all the rage this year. That true?",
+  "status": "done"
  },
  {
   "id": "s579.00",
   "flag": 0,
   "speaker": -1,
   "jp": "こんげつは　９月\nつきみの　きせつだな{KP}\nそういえば　{%sR4}に\nきいたんだが",
-  "en": "",
-  "status": "todo"
+  "en": "This month is September.{KP}\nThe season for moon viewing.{KP}\nIncidentally, I heard from\n{%sR4}...",
+  "status": "done"
  },
  {
   "id": "s579.01",
   "flag": 0,
   "speaker": -1,
   "jp": "ことしは　{%sR5}を　しながら{KP}\nつきみを　するのが　はやっていると\nいうのは　ほんとうなのか？",
-  "en": "",
-  "status": "todo"
+  "en": "that doing {%sR5} while moon\nviewing{KP}\nis in fashion this year. Is that so?",
+  "status": "done"
  },
  {
   "id": "s580.00",
   "flag": 0,
   "speaker": -1,
   "jp": "こんげつは　９月\nおつきみの　きせつだね{KP}\nそういえば　{%sR4}に\nきいたんだけど",
-  "en": "",
-  "status": "todo"
+  "en": "This month's September.{KP}\nIt's moon-viewing season!{KP}\nBy the way, I heard from\n{%sR4}...",
+  "status": "done"
  },
  {
   "id": "s580.01",
   "flag": 0,
   "speaker": -1,
   "jp": "ことしは　{%sR5}を　しながら{KP}\nおつきみするのが　はやっているって\nほんと？",
-  "en": "",
-  "status": "todo"
+  "en": "that doing {%sR5} while moon\nviewing{KP}\nis all the rage this year. Really?",
+  "status": "done"
  },
  {
   "id": "s581.00",
   "flag": 0,
   "speaker": -1,
   "jp": "こんげつは　１０月\nすっかり　あきですね{KP}\nところで　{%sR5}のあき\n・・・という　ことばを　ごぞんじですか？",
-  "en": "",
-  "status": "todo"
+  "en": "This month is October.{KP}\nIt is truly autumn now.{KP}\nBy the way, have you heard the saying\n\"Autumn is for {%sR5}\"?",
+  "status": "done"
  },
  {
   "id": "s581.01",
   "flag": 0,
   "speaker": -1,
   "jp": "{%sR5}から　きいたのですが\nそういう　ことばが　あるらしいんです{KP}\n{%sR5}と　あき・・・\nいがいと　あうのかも　しれませんね",
-  "en": "",
-  "status": "todo"
+  "en": "Apparently there really is such a saying\nabout {%sR5}.{KP}\n{%sR5} and autumn... Perhaps they\ngo together after all.",
+  "status": "done"
  },
  {
   "id": "s582.00",
   "flag": 0,
   "speaker": -1,
   "jp": "こんげつは　１０月\nすっかり　あきだな{KP}\nところで　{%sR5}のあき\n・・・って　ことばを　しってるか？",
-  "en": "",
-  "status": "todo"
+  "en": "This month's October.{KP}\nIt's fall for real now.{KP}\nHey, you heard the sayin' \"Fall is for\n{%sR5}\"?",
+  "status": "done"
  },
  {
   "id": "s582.01",
   "flag": 0,
   "speaker": -1,
   "jp": "{%sR4}から　きいたんだけどよ\nそういう　ことばが　あるらしいぞ{KP}\n{%sR5}と　あき・・・\nいがいと　あうのかも　しれねえな",
-  "en": "",
-  "status": "todo"
+  "en": "I heard from {%sR4} that it's a\nreal sayin'.{KP}\n{%sR5} and fall... Maybe they go\ntogether after all!",
+  "status": "done"
  },
  {
   "id": "s583.00",
   "flag": 0,
   "speaker": -1,
   "jp": "こんげつは　１０月\nすっかり　あきか・・・{KP}\nところで　{%sR5}のあき\n・・・という　ことばを　しっているか？",
-  "en": "",
-  "status": "todo"
+  "en": "This month is October.{KP}\nAutumn is truly here...{KP}\nIncidentally, do you know the saying\n\"Autumn is for {%sR5}\"?",
+  "status": "done"
  },
  {
   "id": "s583.01",
   "flag": 0,
   "speaker": -1,
   "jp": "{%sR4}から　きいたのだが\nそういう　ことばが　あるらしいのだ{KP}\n{%sR5}と　あき・・・\nいがいと　あうのかも　しれんな",
-  "en": "",
-  "status": "todo"
+  "en": "I heard from {%sR4} that such a\nsaying exists.{KP}\n{%sR5} and autumn... Perhaps they\nsuit each other after all.",
+  "status": "done"
  },
  {
   "id": "s584.00",
   "flag": 0,
   "speaker": -1,
   "jp": "こんげつは　１０月\nすっかり　あきだね{KP}\nところで　{%sR5}のあき\n・・・という　ことばを　しってる？",
-  "en": "",
-  "status": "todo"
+  "en": "This month's October.{KP}\nIt's totally fall now.{KP}\nBy the way, have you heard the saying\n\"Fall is for {%sR5}\"?",
+  "status": "done"
  },
  {
   "id": "s584.01",
   "flag": 0,
   "speaker": -1,
   "jp": "{%sR4}から　きいたんだけど\nそういう　ことばが　あるらしいの{KP}\n{%sR5}と　あき・・・\nいがいと　あうのかも　しれないね",
-  "en": "",
-  "status": "todo"
+  "en": "I heard from {%sR4} that it's a\nreal saying.{KP}\n{%sR5} and fall... Maybe they go\ntogether after all!",
+  "status": "done"
  },
  {
   "id": "s585.00",
   "flag": 0,
   "speaker": -1,
   "jp": "こんげつは　１１月\nそろそろ　さむくなってきましたね{KP}\nそういえば　{%sR4}は\nさむいひになると・・・",
-  "en": "",
-  "status": "todo"
+  "en": "This month is November.{KP}\nIt is starting to get cold.{KP}\nBy the way, on cold days,\n{%sR4}...",
+  "status": "done"
  },
  {
   "id": "s585.01",
   "flag": 0,
   "speaker": -1,
   "jp": "{%sR5}をして　からだを\nあたためるそうですよ{KP}\nいちど　ためしてみては　いかがですか？",
-  "en": "",
-  "status": "todo"
+  "en": "does {%sR5} to warm up, I hear.{KP}\nWhy not try it yourself sometime?",
+  "status": "done"
  },
  {
   "id": "s586.00",
   "flag": 0,
   "speaker": -1,
   "jp": "こんげつは　１１月\nそろそろ　さむくなってきたな{KP}\nそういえば　{%sR4}は\nさむいひになると・・・",
-  "en": "",
-  "status": "todo"
+  "en": "This month's November.{KP}\nIt's startin' to get cold.{KP}\nHey, on cold days, {%sR4}...",
+  "status": "done"
  },
  {
   "id": "s586.01",
   "flag": 0,
   "speaker": -1,
   "jp": "{%sR5}をして　からだを\nあたためるんだとよ{KP}\nいっぺん　ためしてみっか？",
-  "en": "",
-  "status": "todo"
+  "en": "does {%sR5} to warm up, they\nsay.{KP}\nWanna give it a shot?",
+  "status": "done"
  },
  {
   "id": "s587.00",
   "flag": 0,
   "speaker": -1,
   "jp": "こんげつは　１１月\nそろそろ　さむくなってきたか・・・{KP}\nそういえば　{%sR4}は\nさむいひになると・・・",
-  "en": "",
-  "status": "todo"
+  "en": "This month is November.{KP}\nIt is beginning to get cold...{KP}\nIncidentally, on cold days,\n{%sR4}...",
+  "status": "done"
  },
  {
   "id": "s587.01",
   "flag": 0,
   "speaker": -1,
   "jp": "{%sR5}をして　からだを\nあたためるそうだ{KP}\nいちど　ためしてみたら　どうだ？",
-  "en": "",
-  "status": "todo"
+  "en": "does {%sR5} to warm up, it\nseems.{KP}\nWhy not try it once?",
+  "status": "done"
  },
  {
   "id": "s588.00",
   "flag": 0,
   "speaker": -1,
   "jp": "こんげつは　１１月\nそろそろ　さむくなってきたね{KP}\nそういえば　{%sR4}は\nさむいひになると・・・",
-  "en": "",
-  "status": "todo"
+  "en": "This month's November.{KP}\nIt's starting to get cold.{KP}\nBy the way, on cold days,\n{%sR4}...",
+  "status": "done"
  },
  {
   "id": "s588.01",
   "flag": 0,
   "speaker": -1,
   "jp": "{%sR5}をして　からだを\nあたためるんだってさ{KP}\nいっかい　ためしてみる？",
-  "en": "",
-  "status": "todo"
+  "en": "does {%sR5} to warm up,\napparently.{KP}\nWant to try it?",
+  "status": "done"
  },
  {
   "id": "s589.00",
   "flag": 0,
   "speaker": -1,
   "jp": "こんげつは　１２月\nもうすぐ　ことしも　おわりですね{KP}\nそういえば　{%sR4}に\nきいたんですが　らいねんの　もくひょうは",
-  "en": "",
-  "status": "todo"
+  "en": "This month is December.{KP}\nThe year is almost over.{KP}\nBy the way, {%sR4} told me their\ngoal for next year",
+  "status": "done"
  },
  {
   "id": "s589.01",
   "flag": 0,
   "speaker": -1,
   "jp": "{%sR5}で　だれにも\nまけないように　なることなのだそうですよ{KP}\n{%sR3}も　もくひょうを\nたかく　もって　がんばってくださいね",
-  "en": "",
-  "status": "todo"
+  "en": "is to be second to none at\n{%sR5}.{KP}\n{%sR3}, please aim high and do\nyour best too.",
+  "status": "done"
  },
  {
   "id": "s590.00",
   "flag": 0,
   "speaker": -1,
   "jp": "こんげつは　１２月\nもうすぐ　ことしも　おわりだな{KP}\nそういえば　{%sR4}に\nきいたんだけどよ　らいねんの　もくひょうは",
-  "en": "",
-  "status": "todo"
+  "en": "This month's December.{KP}\nThis year's almost over!{KP}\nHey, {%sR4} told me their goal for\nnext year",
+  "status": "done"
  },
  {
   "id": "s590.01",
   "flag": 0,
   "speaker": -1,
   "jp": "{%sR5}で　だれにも\nまけねえように　なることなんだとよ{KP}\n{%sR3}も　でっかい　もくひょうを\nもって　がんばれよ！",
-  "en": "",
-  "status": "todo"
+  "en": "is to be second to none at\n{%sR5}!{KP}\n{%sR3}, you get yourself a big goal\nand go for it too!",
+  "status": "done"
  },
  {
   "id": "s591.00",
   "flag": 0,
   "speaker": -1,
   "jp": "こんげつは　１２月\nもうすぐ　ことしも　おわりか・・・{KP}\nそういえば　{%sR4}に\nきいたんだが　らいねんの　もくひょうは",
-  "en": "",
-  "status": "todo"
+  "en": "This month is December.{KP}\nThe year is almost over...{KP}\nIncidentally, {%sR4} told me their\ngoal for next year",
+  "status": "done"
  },
  {
   "id": "s591.01",
   "flag": 0,
   "speaker": -1,
   "jp": "{%sR5}で　だれにも\nまけないように　なることなのだそうだ{KP}\n{%sR3}も　なにか　もくひょうを\nもって　がんばると　いいぞ",
-  "en": "",
-  "status": "todo"
+  "en": "is to be second to none at\n{%sR5}.{KP}\n{%sR3}, you would do well to set a\ngoal and strive for it too.",
+  "status": "done"
  },
  {
   "id": "s592.00",
   "flag": 0,
   "speaker": -1,
   "jp": "こんげつは　１２月\nもうすぐ　ことしも　おわりだね{KP}\nそういえば　{%sR4}に\nきいたんだけど　らいねんの　もくひょうは",
-  "en": "",
-  "status": "todo"
+  "en": "This month's December.{KP}\nThis year's almost over!{KP}\nBy the way, {%sR4} told me their\ngoal for next year",
+  "status": "done"
  },
  {
   "id": "s592.01",
   "flag": 0,
   "speaker": -1,
   "jp": "{%sR5}で　だれにも\nまけないように　なることなんだって！{KP}\n{%sR3}には　なにか　そういった\nもくひょうって　ある？",
-  "en": "",
-  "status": "todo"
+  "en": "is to be second to none at\n{%sR5}!{KP}\n{%sR3}, do you have a goal like\nthat?",
+  "status": "done"
  },
  {
   "id": "s593.00",
   "flag": 0,
   "speaker": -1,
   "jp": "きょうは　あなたの　たんじょうびですね\nおめでとうございます{KP}\nたいしたものではないですが\nプレゼントです　うけとってください",
-  "en": "",
-  "status": "todo"
+  "en": "Today is your birthday, is it not? Happy\nbirthday!{KP}\nIt is nothing much, but here is a present.\nPlease accept it.",
+  "status": "done"
  },
  {
   "id": "s594.00",
   "flag": 0,
   "speaker": -1,
   "jp": "きょうは　おまえの　たんじょうびだな\nおめでとう！{KP}\nたいしたもんじゃないが\nプレゼントだ　もらってやってくれ！",
-  "en": "",
-  "status": "todo"
+  "en": "Today's your birthday, ain't it? Happy\nbirthday!{KP}\nIt ain't much, but here's a present. Take\nit!",
+  "status": "done"
  },
  {
   "id": "s595.00",
   "flag": 0,
   "speaker": -1,
   "jp": "きょうは　キミの　たんじょうびか\nおめでとう{KP}\nたいしたものではないが\nプレゼントだ　うけとってくれ",
-  "en": "",
-  "status": "todo"
+  "en": "So today is your birthday.\nCongratulations.{KP}\nIt is nothing much, but here is a present.\nTake it.",
+  "status": "done"
  },
  {
   "id": "s596.00",
