@@ -2,9 +2,18 @@
 
 Updated at the end of every session. Keep it to what the next session needs; history is in git.
 
-- **Phase:** 4. Extract next (phase 3 identity build done 2026-11-15). Last build: `tools/build.py` 2026-11-15,
-  build/dynadevice_blue_en.gba sha1 eac296b5... = the original (identity), smoke ok.
+- **Phase:** 5. Engine spike and marker build next (phase 4 extract done 2026-11-15). Last build: `tools/build.py`
+  2026-11-15, build/dynadevice_blue_en.gba sha1 eac296b5... = the original (identity), smoke ok.
 - **Done:**
+  - Phase 4 (`docs/re/text.md`): `tools/extract.py dump|verify` -> `script/` (30 files, 5536 entries):
+    `events_NNN.json` = the 2824 messages (id `sSSS.KK`, flag, speaker), `strings_XXX.json` = the 2712 strings
+    of 0x0AF6D0-0x0BB7C0 (id `tOOOOOO`, `ptrs` = every u32 pointer word, `slot` = bytes free in place).
+    Status: 5305 todo, 159 keep (debug menu, ASCII formats), 72 data (name-entry keyboard rows / layout).
+    Codec `tools/text.py` (KG = newline, `{KP}`, `{KN}`, `{%sR4}`, `{C1}`, `[XX]`); `tools/strtab.py` (pieces,
+    pointers: code literal pools + data tables 0x0BDAE8-0x0E4674 only); `tools/addrdb.py` (address DB parse and
+    identity repack: 120701 towns, 48 prefectures, 3356 municipalities). `tests/test_extract.py`: roundtrip of
+    every string, JSON = ROM, no id missing, kana-run coverage scan (proven to catch injected text), every string
+    has a pointer, address DB repack.
   - Step 0 and phase 1 recon (see `docs/re/`: text.md, compression.md, graphics.md).
   - Phase 3 (`docs/re/script.md`, `compression.md`):
     - `tools/script.py`: all 59 opcode lengths, jumps (ops 7-13 and 57, relative to the op), parse of all 834
@@ -35,13 +44,19 @@ Updated at the end of every session. Keep it to what the next session needs; his
     (other projects' emulators were using ~7 GB) after `battle_place` passed; the new code is guarded by kind, and the
     resume/dmode runs go through the shared boot, form, title and tutorial paths. First thing next session: run
     `tools/debug/regen.py --jobs 2` over all rows when memory allows.
-- **Next (phase 4):** extract to `script/` JSON (one file per block): the 2824 script messages via
-  `script.unpack` (keep flag, speaker, control codes KG/KP/KN/%sRn as tags), plus the menu/item/name strings at
-  0x0AF6D0-0x0BB7A8 (map their pointer tables first); roundtrip test re-encoding every string to the original
-  bytes, and text-range coverage (`references/pipeline.md` §Extract). The phase-2 full regen
-  (`tools/debug/regen.py --jobs 2`) is still owed when memory allows (host had ~0.4 GB free this session).
-- **Later phases need:** the runtime font (check 0x21C414/0x224B44/0x225EC4 first); the pad byte for odd-length
-  English text (phase 5). Graphics text: ポーズ, the opening movie's
+- **Next (phase 5, `references/pipeline.md` §Marker, `platform-gba.md`):**
+  - Find the runtime font by hooking the message drawer 0x08013488 (check 0x21C414/0x224B44/0x225EC4 first) and
+    how it handles ASCII bytes (the parser already reads ASCII codes KG/KP/KN/C0-C4/%); decide half-width / VWF;
+    the pad byte for odd-length English text (`script.message_bytes` refuses odd text). English must never
+    contain the byte pairs the engine reads as codes (KG, KP, KN, C0-C9, %): plan an encoding or a lint.
+  - Marker build: every todo entry -> `[id]` marker (messages through `script.pack`; strings relocated to free
+    space 0x747DA0+ with every `ptrs` word rewritten, or in place when they fit `slot`), boot, tour with the warps.
+  - Width gate: measure each box/menu variant in-game. Confirm C0-C4 = colour.
+  - Name entry: the keyboard rows (`data` entries, table 0x0D21F0) and the address DB reader (record sizes fixed
+    at 16/10/20 bytes) need English layouts.
+  - The phase-2 full regen (`tools/debug/regen.py --jobs 2`) is still owed when memory allows (0.9 GB free this
+    session, six other projects' emulators running).
+- **Later phases need:** graphics text: ポーズ, the opening movie's
   green spec panels, debug menu (romaji, debug build only: leave), and the **staff roll** (mode 22): its kana are
   not SJIS in the ROM, find their encoding or tiles (add to the graphics-text survey).
 - **Known debug-tool gaps (non-blocking):** the field battle placement has no known "done" input (A places Dyna and

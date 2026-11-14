@@ -1,0 +1,1456 @@
+[
+ {
+  "id": "t0B8014",
+  "ptrs": [
+   "0D1EC0"
+  ],
+  "slot": 24,
+  "jp": "ａｅｒｉｓ＆→￥△♪",
+  "en": "",
+  "status": "todo"
+ },
+ {
+  "id": "t0B802C",
+  "ptrs": [
+   "0D1EB4"
+  ],
+  "slot": 24,
+  "jp": "ｒｎｉｏｏ↑＊？＠＃",
+  "en": "",
+  "status": "todo"
+ },
+ {
+  "id": "t0B8044",
+  "ptrs": [
+   "0D1EA8"
+  ],
+  "slot": 24,
+  "jp": "ｓｅｒｕｓｐｅ▽＞％",
+  "en": "",
+  "status": "todo"
+ },
+ {
+  "id": "t0B805C",
+  "ptrs": [
+   "01B3C8",
+   "01B3E8",
+   "01B428",
+   "01CCD4",
+   "01D0D4"
+  ],
+  "slot": 4,
+  "jp": "　",
+  "en": "",
+  "status": "todo"
+ },
+ {
+  "id": "t0B8060",
+  "ptrs": [
+   "0D1F44"
+  ],
+  "slot": 16,
+  "jp": "ひょうじします",
+  "en": "",
+  "status": "todo"
+ },
+ {
+  "id": "t0B8070",
+  "ptrs": [
+   "0D1F40"
+  ],
+  "slot": 24,
+  "jp": "アイテムの　せつめいを",
+  "en": "",
+  "status": "todo"
+ },
+ {
+  "id": "t0B8088",
+  "ptrs": [
+   "0D1F3C"
+  ],
+  "slot": 24,
+  "jp": "カーソルが　あっている",
+  "en": "",
+  "status": "todo"
+ },
+ {
+  "id": "t0B80A0",
+  "ptrs": [
+   "01C7E0"
+  ],
+  "slot": 20,
+  "jp": "{%2dR0}／{%2dR1}ページ",
+  "en": "",
+  "status": "todo"
+ },
+ {
+  "id": "t0B80B4",
+  "ptrs": [
+   "01C904"
+  ],
+  "slot": 12,
+  "jp": "＋{%02dR0}",
+  "en": "",
+  "status": "todo"
+ },
+ {
+  "id": "t0B80C0",
+  "ptrs": [
+   "01CCCC",
+   "01CECC",
+   "01D0CC",
+   "01D2BC",
+   "01D444",
+   "01DAF0"
+  ],
+  "slot": 8,
+  "jp": "{%sR0}を",
+  "en": "",
+  "status": "todo"
+ },
+ {
+  "id": "t0B80C8",
+  "ptrs": [
+   "01CCD0"
+  ],
+  "slot": 20,
+  "jp": "あきらめますか？",
+  "en": "",
+  "status": "todo"
+ },
+ {
+  "id": "t0B80DC",
+  "ptrs": [
+   "01CCD8",
+   "01CED8",
+   "01D0D8"
+  ],
+  "slot": 24,
+  "jp": "　　はい　　　いいえ",
+  "en": "",
+  "status": "todo"
+ },
+ {
+  "id": "t0B80F4",
+  "ptrs": [
+   "01CED0",
+   "01D448"
+  ],
+  "slot": 20,
+  "jp": "ダイナセンターに",
+  "en": "",
+  "status": "todo"
+ },
+ {
+  "id": "t0B8108",
+  "ptrs": [
+   "01CED4"
+  ],
+  "slot": 20,
+  "jp": "てんそうしますか？",
+  "en": "",
+  "status": "todo"
+ },
+ {
+  "id": "t0B811C",
+  "ptrs": [
+   "01D0D0"
+  ],
+  "slot": 24,
+  "jp": "すてても　いいですか？",
+  "en": "",
+  "status": "todo"
+ },
+ {
+  "id": "t0B8134",
+  "ptrs": [
+   "01D2C0"
+  ],
+  "slot": 8,
+  "jp": "すてた",
+  "en": "",
+  "status": "todo"
+ },
+ {
+  "id": "t0B813C",
+  "ptrs": [
+   "01D44C"
+  ],
+  "slot": 20,
+  "jp": "てんそうしました",
+  "en": "",
+  "status": "todo"
+ },
+ {
+  "id": "t0B8150",
+  "ptrs": [
+   "01D940"
+  ],
+  "slot": 8,
+  "jp": "{%sR0}は",
+  "en": "",
+  "status": "todo"
+ },
+ {
+  "id": "t0B8158",
+  "ptrs": [
+   "01D948"
+  ],
+  "slot": 24,
+  "jp": "{%sR1}を　てにいれた！",
+  "en": "",
+  "status": "todo"
+ },
+ {
+  "id": "t0B8170",
+  "ptrs": [
+   "01D9F0"
+  ],
+  "slot": 20,
+  "jp": "しかし　もちものが",
+  "en": "",
+  "status": "todo"
+ },
+ {
+  "id": "t0B8184",
+  "ptrs": [
+   "01D9F4"
+  ],
+  "slot": 20,
+  "jp": "いっぱいだった！",
+  "en": "",
+  "status": "todo"
+ },
+ {
+  "id": "t0B8198",
+  "ptrs": [
+   "01DAF4"
+  ],
+  "slot": 36,
+  "jp": "ダイナセンターに　てんそうした！",
+  "en": "",
+  "status": "todo"
+ },
+ {
+  "id": "t0B81BC",
+  "ptrs": [
+   "01DB84"
+  ],
+  "slot": 20,
+  "jp": "なにかすてますか？",
+  "en": "",
+  "status": "todo"
+ },
+ {
+  "id": "t0B81D0",
+  "ptrs": [
+   "01DB88"
+  ],
+  "slot": 32,
+  "jp": "　　　　　はい　　　　いいえ",
+  "en": "",
+  "status": "todo"
+ },
+ {
+  "id": "t0B81F0",
+  "ptrs": [
+   "01DC5C"
+  ],
+  "slot": 20,
+  "jp": "{%sR0}を　あきらめた",
+  "en": "",
+  "status": "todo"
+ },
+ {
+  "id": "t0B8204",
+  "ptrs": [
+   "0D2120"
+  ],
+  "slot": 12,
+  "jp": "遊びに行く",
+  "en": "",
+  "status": "todo"
+ },
+ {
+  "id": "t0B8210",
+  "ptrs": [
+   "0D2124",
+   "0D2128"
+  ],
+  "slot": 12,
+  "jp": "勉強する",
+  "en": "",
+  "status": "todo"
+ },
+ {
+  "id": "t0B821C",
+  "ptrs": [
+   "0D212C"
+  ],
+  "slot": 28,
+  "jp": "冬休みの宿題を終わらせる",
+  "en": "",
+  "status": "todo"
+ },
+ {
+  "id": "t0B8238",
+  "ptrs": [
+   "0D218C"
+  ],
+  "slot": 12,
+  "jp": "２０－－年",
+  "en": "",
+  "status": "todo"
+ },
+ {
+  "id": "t0B8244",
+  "ptrs": [
+   "0D2190"
+  ],
+  "slot": 16,
+  "jp": "－－月－－日",
+  "en": "",
+  "status": "todo"
+ },
+ {
+  "id": "t0B8254",
+  "ptrs": [
+   "0D2194"
+  ],
+  "slot": 44,
+  "jp": "（日）（月）（火）（水）（木）（金）（土）",
+  "en": "",
+  "status": "todo"
+ },
+ {
+  "id": "t0B8280",
+  "ptrs": [
+   "0D2198"
+  ],
+  "slot": 24,
+  "jp": "－－：－－～－－：－－",
+  "en": "",
+  "status": "todo"
+ },
+ {
+  "id": "t0B8298",
+  "ptrs": [
+   "0D219C"
+  ],
+  "slot": 16,
+  "jp": "～－－／－－",
+  "en": "",
+  "status": "todo"
+ },
+ {
+  "id": "t0B82A8",
+  "ptrs": [
+   "01FD48",
+   "01FF24"
+  ],
+  "slot": 4,
+  "jp": "　",
+  "en": "",
+  "status": "todo"
+ },
+ {
+  "id": "t0B82AC",
+  "ptrs": [
+   "0D2278"
+  ],
+  "slot": 12,
+  "jp": "－　　　　",
+  "en": "",
+  "status": "data",
+  "notes": "name-entry keyboard grid row (pointer table 0x0D21F0)"
+ },
+ {
+  "id": "t0B82B8",
+  "ptrs": [
+   "0D2274"
+  ],
+  "slot": 12,
+  "jp": "＊　０　＃",
+  "en": "",
+  "status": "data",
+  "notes": "name-entry keyboard grid row (pointer table 0x0D21F0)"
+ },
+ {
+  "id": "t0B82C4",
+  "ptrs": [
+   "0D2270"
+  ],
+  "slot": 12,
+  "jp": "７　８　９",
+  "en": "",
+  "status": "data",
+  "notes": "name-entry keyboard grid row (pointer table 0x0D21F0)"
+ },
+ {
+  "id": "t0B82D0",
+  "ptrs": [
+   "0D226C"
+  ],
+  "slot": 12,
+  "jp": "４　５　６",
+  "en": "",
+  "status": "data",
+  "notes": "name-entry keyboard grid row (pointer table 0x0D21F0)"
+ },
+ {
+  "id": "t0B82DC",
+  "ptrs": [
+   "0D2268"
+  ],
+  "slot": 12,
+  "jp": "１　２　３",
+  "en": "",
+  "status": "data",
+  "notes": "name-entry keyboard grid row (pointer table 0x0D21F0)"
+ },
+ {
+  "id": "t0B82E8",
+  "ptrs": [
+   "0D2264"
+  ],
+  "slot": 40,
+  "jp": "何　回　本　作　名　友　人　男　女　子",
+  "en": "",
+  "status": "data",
+  "notes": "name-entry keyboard grid row (pointer table 0x0D21F0)"
+ },
+ {
+  "id": "t0B8310",
+  "ptrs": [
+   "0D2260"
+  ],
+  "slot": 40,
+  "jp": "家　外　内　旅　休　祭　会　式　上　下",
+  "en": "",
+  "status": "data",
+  "notes": "name-entry keyboard grid row (pointer table 0x0D21F0)"
+ },
+ {
+  "id": "t0B8338",
+  "ptrs": [
+   "0D225C"
+  ],
+  "slot": 40,
+  "jp": "行　帰　未　予　定　明　昨　午　前　後",
+  "en": "",
+  "status": "data",
+  "notes": "name-entry keyboard grid row (pointer table 0x0D21F0)"
+ },
+ {
+  "id": "t0B8360",
+  "ptrs": [
+   "0D2258"
+  ],
+  "slot": 40,
+  "jp": "丁　番　号　第　小　中　高　大　学　校",
+  "en": "",
+  "status": "data",
+  "notes": "name-entry keyboard grid row (pointer table 0x0D21F0)"
+ },
+ {
+  "id": "t0B8388",
+  "ptrs": [
+   "0D2254"
+  ],
+  "slot": 40,
+  "jp": "月　火　水　木　金　土　日　年　時　分",
+  "en": "",
+  "status": "data",
+  "notes": "name-entry keyboard grid row (pointer table 0x0D21F0)"
+ },
+ {
+  "id": "t0B83B0",
+  "ptrs": [
+   "0D2250"
+  ],
+  "slot": 40,
+  "jp": "↑　→　↓　←　○　×　△　▽　〒　　",
+  "en": "",
+  "status": "data",
+  "notes": "name-entry keyboard grid row (pointer table 0x0D21F0)"
+ },
+ {
+  "id": "t0B83D8",
+  "ptrs": [
+   "0D224C"
+  ],
+  "slot": 40,
+  "jp": "｛　｝　「　」　、　。　・　♪　☆　　",
+  "en": "",
+  "status": "data",
+  "notes": "name-entry keyboard grid row (pointer table 0x0D21F0)"
+ },
+ {
+  "id": "t0B8400",
+  "ptrs": [
+   "0D2248"
+  ],
+  "slot": 40,
+  "jp": "”　’　＾　‘　（　）　＜　＞　［　］",
+  "en": "",
+  "status": "data",
+  "notes": "name-entry keyboard grid row (pointer table 0x0D21F0)"
+ },
+ {
+  "id": "t0B8428",
+  "ptrs": [
+   "0D2244"
+  ],
+  "slot": 40,
+  "jp": "！　？　＆　＃　＋　＊　＝　／　～　　",
+  "en": "",
+  "status": "data",
+  "notes": "name-entry keyboard grid row (pointer table 0x0D21F0)"
+ },
+ {
+  "id": "t0B8450",
+  "ptrs": [
+   "0D2240"
+  ],
+  "slot": 40,
+  "jp": "＠　．　，　：　；　＿　－　￥　＄　％",
+  "en": "",
+  "status": "data",
+  "notes": "name-entry keyboard grid row (pointer table 0x0D21F0)"
+ },
+ {
+  "id": "t0B8478",
+  "ptrs": [
+   "0D223C"
+  ],
+  "slot": 20,
+  "jp": "（　）　＜　＞　　",
+  "en": "",
+  "status": "data",
+  "notes": "name-entry keyboard grid row (pointer table 0x0D21F0)"
+ },
+ {
+  "id": "t0B848C",
+  "ptrs": [
+   "0D2238"
+  ],
+  "slot": 20,
+  "jp": "７　８　９　÷　＝",
+  "en": "",
+  "status": "data",
+  "notes": "name-entry keyboard grid row (pointer table 0x0D21F0)"
+ },
+ {
+  "id": "t0B84A0",
+  "ptrs": [
+   "0D2234"
+  ],
+  "slot": 20,
+  "jp": "４　５　６　×　％",
+  "en": "",
+  "status": "data",
+  "notes": "name-entry keyboard grid row (pointer table 0x0D21F0)"
+ },
+ {
+  "id": "t0B84B4",
+  "ptrs": [
+   "0D2230"
+  ],
+  "slot": 20,
+  "jp": "１　２　３　－　￥",
+  "en": "",
+  "status": "data",
+  "notes": "name-entry keyboard grid row (pointer table 0x0D21F0)"
+ },
+ {
+  "id": "t0B84C8",
+  "ptrs": [
+   "0D222C"
+  ],
+  "slot": 20,
+  "jp": "０　．　／　＋　～",
+  "en": "",
+  "status": "data",
+  "notes": "name-entry keyboard grid row (pointer table 0x0D21F0)"
+ },
+ {
+  "id": "t0B84DC",
+  "ptrs": [
+   "0D2228"
+  ],
+  "slot": 28,
+  "jp": "ｙ　ｚ　’　－　：　／　　",
+  "en": "",
+  "status": "data",
+  "notes": "name-entry keyboard grid row (pointer table 0x0D21F0)"
+ },
+ {
+  "id": "t0B84F8",
+  "ptrs": [
+   "0D2224"
+  ],
+  "slot": 28,
+  "jp": "ｓ　ｔ　ｕ　ｖ　ｗ　ｘ　　",
+  "en": "",
+  "status": "data",
+  "notes": "name-entry keyboard grid row (pointer table 0x0D21F0)"
+ },
+ {
+  "id": "t0B8514",
+  "ptrs": [
+   "0D2220"
+  ],
+  "slot": 28,
+  "jp": "ｍ　ｎ　ｏ　ｐ　ｑ　ｒ　＠",
+  "en": "",
+  "status": "data",
+  "notes": "name-entry keyboard grid row (pointer table 0x0D21F0)"
+ },
+ {
+  "id": "t0B8530",
+  "ptrs": [
+   "0D221C"
+  ],
+  "slot": 28,
+  "jp": "ｇ　ｈ　ｉ　ｊ　ｋ　ｌ　，",
+  "en": "",
+  "status": "data",
+  "notes": "name-entry keyboard grid row (pointer table 0x0D21F0)"
+ },
+ {
+  "id": "t0B854C",
+  "ptrs": [
+   "0D2218"
+  ],
+  "slot": 28,
+  "jp": "ａ　ｂ　ｃ　ｄ　ｅ　ｆ　．",
+  "en": "",
+  "status": "data",
+  "notes": "name-entry keyboard grid row (pointer table 0x0D21F0)"
+ },
+ {
+  "id": "t0B8568",
+  "ptrs": [
+   "0D2214"
+  ],
+  "slot": 40,
+  "jp": "オ　コ　ソ　ト　ノ　ホ　モ　ヨ　ロ　ン",
+  "en": "",
+  "status": "data",
+  "notes": "name-entry keyboard grid row (pointer table 0x0D21F0)"
+ },
+ {
+  "id": "t0B8590",
+  "ptrs": [
+   "0D2210"
+  ],
+  "slot": 40,
+  "jp": "エ　ケ　セ　テ　ネ　ヘ　メ　。　レ　　",
+  "en": "",
+  "status": "data",
+  "notes": "name-entry keyboard grid row (pointer table 0x0D21F0)"
+ },
+ {
+  "id": "t0B85B8",
+  "ptrs": [
+   "0D220C"
+  ],
+  "slot": 40,
+  "jp": "ウ　ク　ス　ツ　ヌ　フ　ム　ユ　ル　ヲ",
+  "en": "",
+  "status": "data",
+  "notes": "name-entry keyboard grid row (pointer table 0x0D21F0)"
+ },
+ {
+  "id": "t0B85E0",
+  "ptrs": [
+   "0D2208"
+  ],
+  "slot": 40,
+  "jp": "イ　キ　シ　チ　ニ　ヒ　ミ　、　リ　ー",
+  "en": "",
+  "status": "data",
+  "notes": "name-entry keyboard grid row (pointer table 0x0D21F0)"
+ },
+ {
+  "id": "t0B8608",
+  "ptrs": [
+   "0D2204"
+  ],
+  "slot": 40,
+  "jp": "ア　カ　サ　タ　ナ　ハ　マ　ヤ　ラ　ワ",
+  "en": "",
+  "status": "data",
+  "notes": "name-entry keyboard grid row (pointer table 0x0D21F0)"
+ },
+ {
+  "id": "t0B8630",
+  "ptrs": [
+   "0D2200"
+  ],
+  "slot": 40,
+  "jp": "お　こ　そ　と　の　ほ　も　よ　ろ　ん",
+  "en": "",
+  "status": "data",
+  "notes": "name-entry keyboard grid row (pointer table 0x0D21F0)"
+ },
+ {
+  "id": "t0B8658",
+  "ptrs": [
+   "0D21FC"
+  ],
+  "slot": 40,
+  "jp": "え　け　せ　て　ね　へ　め　。　れ　　",
+  "en": "",
+  "status": "data",
+  "notes": "name-entry keyboard grid row (pointer table 0x0D21F0)"
+ },
+ {
+  "id": "t0B8680",
+  "ptrs": [
+   "0D21F8"
+  ],
+  "slot": 40,
+  "jp": "う　く　す　つ　ぬ　ふ　む　ゆ　る　を",
+  "en": "",
+  "status": "data",
+  "notes": "name-entry keyboard grid row (pointer table 0x0D21F0)"
+ },
+ {
+  "id": "t0B86A8",
+  "ptrs": [
+   "0D21F4"
+  ],
+  "slot": 40,
+  "jp": "い　き　し　ち　に　ひ　み　、　り　ー",
+  "en": "",
+  "status": "data",
+  "notes": "name-entry keyboard grid row (pointer table 0x0D21F0)"
+ },
+ {
+  "id": "t0B86D0",
+  "ptrs": [
+   "0D21F0"
+  ],
+  "slot": 40,
+  "jp": "あ　か　さ　た　な　は　ま　や　ら　わ",
+  "en": "",
+  "status": "data",
+  "notes": "name-entry keyboard grid row (pointer table 0x0D21F0)"
+ },
+ {
+  "id": "t0B86F8",
+  "ptrs": [
+   "0D22B4"
+  ],
+  "slot": 28,
+  "jp": "Ｙ　Ｚ　　　　　　　　　　",
+  "en": "",
+  "status": "data",
+  "notes": "name-entry keyboard grid row (pointer table 0x0D21F0)"
+ },
+ {
+  "id": "t0B8714",
+  "ptrs": [
+   "0D22B0"
+  ],
+  "slot": 28,
+  "jp": "Ｓ　Ｔ　Ｕ　Ｖ　Ｗ　Ｘ　　",
+  "en": "",
+  "status": "data",
+  "notes": "name-entry keyboard grid row (pointer table 0x0D21F0)"
+ },
+ {
+  "id": "t0B8730",
+  "ptrs": [
+   "0D22AC"
+  ],
+  "slot": 28,
+  "jp": "Ｍ　Ｎ　Ｏ　Ｐ　Ｑ　Ｒ　　",
+  "en": "",
+  "status": "data",
+  "notes": "name-entry keyboard grid row (pointer table 0x0D21F0)"
+ },
+ {
+  "id": "t0B874C",
+  "ptrs": [
+   "0D22A8"
+  ],
+  "slot": 28,
+  "jp": "Ｇ　Ｈ　Ｉ　Ｊ　Ｋ　Ｌ　　",
+  "en": "",
+  "status": "data",
+  "notes": "name-entry keyboard grid row (pointer table 0x0D21F0)"
+ },
+ {
+  "id": "t0B8768",
+  "ptrs": [
+   "0D22A4"
+  ],
+  "slot": 28,
+  "jp": "Ａ　Ｂ　Ｃ　Ｄ　Ｅ　Ｆ　　",
+  "en": "",
+  "status": "data",
+  "notes": "name-entry keyboard grid row (pointer table 0x0D21F0)"
+ },
+ {
+  "id": "t0B8784",
+  "ptrs": [
+   "0D22A0"
+  ],
+  "slot": 40,
+  "jp": "ォ　ゴ　ゾ　ド　　　ボ　　　ョ　　　　",
+  "en": "",
+  "status": "data",
+  "notes": "name-entry keyboard grid row (pointer table 0x0D21F0)"
+ },
+ {
+  "id": "t0B87AC",
+  "ptrs": [
+   "0D229C"
+  ],
+  "slot": 40,
+  "jp": "ェ　ゲ　ゼ　デ　　　ベ　　　　　　　　",
+  "en": "",
+  "status": "data",
+  "notes": "name-entry keyboard grid row (pointer table 0x0D21F0)"
+ },
+ {
+  "id": "t0B87D4",
+  "ptrs": [
+   "0D2298"
+  ],
+  "slot": 40,
+  "jp": "ゥ　グ　ズ　ヅ　　　ブ　　　ュ　　　　",
+  "en": "",
+  "status": "data",
+  "notes": "name-entry keyboard grid row (pointer table 0x0D21F0)"
+ },
+ {
+  "id": "t0B87FC",
+  "ptrs": [
+   "0D2294"
+  ],
+  "slot": 40,
+  "jp": "ィ　ギ　ジ　ヂ　　　ビ　　　　　　　　",
+  "en": "",
+  "status": "data",
+  "notes": "name-entry keyboard grid row (pointer table 0x0D21F0)"
+ },
+ {
+  "id": "t0B8824",
+  "ptrs": [
+   "0D2290"
+  ],
+  "slot": 40,
+  "jp": "ァ　ガ　ザ　ダ　　　バ　　　ャ　　　　",
+  "en": "",
+  "status": "data",
+  "notes": "name-entry keyboard grid row (pointer table 0x0D21F0)"
+ },
+ {
+  "id": "t0B884C",
+  "ptrs": [
+   "0D228C"
+  ],
+  "slot": 40,
+  "jp": "ぉ　ご　ぞ　ど　　　ぼ　　　ょ　　　　",
+  "en": "",
+  "status": "data",
+  "notes": "name-entry keyboard grid row (pointer table 0x0D21F0)"
+ },
+ {
+  "id": "t0B8874",
+  "ptrs": [
+   "0D2288"
+  ],
+  "slot": 40,
+  "jp": "ぇ　げ　ぜ　で　　　べ　　　　　　　　",
+  "en": "",
+  "status": "data",
+  "notes": "name-entry keyboard grid row (pointer table 0x0D21F0)"
+ },
+ {
+  "id": "t0B889C",
+  "ptrs": [
+   "0D2284"
+  ],
+  "slot": 40,
+  "jp": "ぅ　ぐ　ず　づ　　　ぶ　　　ゅ　　　　",
+  "en": "",
+  "status": "data",
+  "notes": "name-entry keyboard grid row (pointer table 0x0D21F0)"
+ },
+ {
+  "id": "t0B88C4",
+  "ptrs": [
+   "0D2280"
+  ],
+  "slot": 40,
+  "jp": "ぃ　ぎ　じ　ぢ　　　び　　　　　　　　",
+  "en": "",
+  "status": "data",
+  "notes": "name-entry keyboard grid row (pointer table 0x0D21F0)"
+ },
+ {
+  "id": "t0B88EC",
+  "ptrs": [
+   "0D227C"
+  ],
+  "slot": 40,
+  "jp": "ぁ　が　ざ　だ　　　ば　　　ゃ　　　　",
+  "en": "",
+  "status": "data",
+  "notes": "name-entry keyboard grid row (pointer table 0x0D21F0)"
+ },
+ {
+  "id": "t0B8914",
+  "ptrs": [
+   "0D22E0",
+   "0D22E4",
+   "0D22E8",
+   "0D22EC",
+   "0D22F0"
+  ],
+  "slot": 28,
+  "jp": "　　　　　　　　　　　　　",
+  "en": "",
+  "status": "data",
+  "notes": "name-entry keyboard grid row (pointer table 0x0D21F0)"
+ },
+ {
+  "id": "t0B8930",
+  "ptrs": [
+   "0D22DC"
+  ],
+  "slot": 40,
+  "jp": "　　　　　　　　　　ポ　　　　　　　　",
+  "en": "",
+  "status": "data",
+  "notes": "name-entry keyboard grid row (pointer table 0x0D21F0)"
+ },
+ {
+  "id": "t0B8958",
+  "ptrs": [
+   "0D22D8"
+  ],
+  "slot": 40,
+  "jp": "　　　　　　　　　　ペ　　　　　　　　",
+  "en": "",
+  "status": "data",
+  "notes": "name-entry keyboard grid row (pointer table 0x0D21F0)"
+ },
+ {
+  "id": "t0B8980",
+  "ptrs": [
+   "0D22D4"
+  ],
+  "slot": 40,
+  "jp": "ヴ　　　　　ッ　　　プ　　　　　　　　",
+  "en": "",
+  "status": "data",
+  "notes": "name-entry keyboard grid row (pointer table 0x0D21F0)"
+ },
+ {
+  "id": "t0B89A8",
+  "ptrs": [
+   "0D22D0"
+  ],
+  "slot": 40,
+  "jp": "　　　　　　　　　　ピ　　　　　　　　",
+  "en": "",
+  "status": "data",
+  "notes": "name-entry keyboard grid row (pointer table 0x0D21F0)"
+ },
+ {
+  "id": "t0B89D0",
+  "ptrs": [
+   "0D22CC"
+  ],
+  "slot": 40,
+  "jp": "　　　　　　　　　　パ　　　　　　　　",
+  "en": "",
+  "status": "data",
+  "notes": "name-entry keyboard grid row (pointer table 0x0D21F0)"
+ },
+ {
+  "id": "t0B89F8",
+  "ptrs": [
+   "0D22C8"
+  ],
+  "slot": 40,
+  "jp": "　　　　　　　　　　ぽ　　　　　　　　",
+  "en": "",
+  "status": "data",
+  "notes": "name-entry keyboard grid row (pointer table 0x0D21F0)"
+ },
+ {
+  "id": "t0B8A20",
+  "ptrs": [
+   "0D22C4"
+  ],
+  "slot": 40,
+  "jp": "　　　　　　　　　　ぺ　　　　　　　　",
+  "en": "",
+  "status": "data",
+  "notes": "name-entry keyboard grid row (pointer table 0x0D21F0)"
+ },
+ {
+  "id": "t0B8A48",
+  "ptrs": [
+   "0D22C0"
+  ],
+  "slot": 40,
+  "jp": "ヴ　　　　　っ　　　ぷ　　　　　　　　",
+  "en": "",
+  "status": "data",
+  "notes": "name-entry keyboard grid row (pointer table 0x0D21F0)"
+ },
+ {
+  "id": "t0B8A70",
+  "ptrs": [
+   "0D22BC"
+  ],
+  "slot": 40,
+  "jp": "　　　　　　　　　　ぴ　　　　　　　　",
+  "en": "",
+  "status": "data",
+  "notes": "name-entry keyboard grid row (pointer table 0x0D21F0)"
+ },
+ {
+  "id": "t0B8A98",
+  "ptrs": [
+   "0D22B8"
+  ],
+  "slot": 40,
+  "jp": "　　　　　　　　　　ぱ　　　　　　　　",
+  "en": "",
+  "status": "data",
+  "notes": "name-entry keyboard grid row (pointer table 0x0D21F0)"
+ },
+ {
+  "id": "t0B8AC0",
+  "ptrs": [
+   "0D22F4"
+  ],
+  "slot": 56,
+  "jp": "０１２３４５６７８９＋－×÷＝（）＜＞．￥％／～　＊＃",
+  "en": "",
+  "status": "data",
+  "notes": "name-entry keyboard grid row (pointer table 0x0D21F0)"
+ },
+ {
+  "id": "t0B8AF8",
+  "ptrs": [
+   "0D238C"
+  ],
+  "slot": 8,
+  "jp": "{C3}３",
+  "en": "",
+  "status": "todo"
+ },
+ {
+  "id": "t0B8B00",
+  "ptrs": [
+   "0D2388"
+  ],
+  "slot": 8,
+  "jp": "{C3}２",
+  "en": "",
+  "status": "todo"
+ },
+ {
+  "id": "t0B8B08",
+  "ptrs": [
+   "0D2384"
+  ],
+  "slot": 8,
+  "jp": "{C3}１",
+  "en": "",
+  "status": "todo"
+ },
+ {
+  "id": "t0B8B10",
+  "ptrs": [
+   "021804"
+  ],
+  "slot": 8,
+  "jp": "{C2}{%sR0}",
+  "en": "",
+  "status": "keep",
+  "notes": "ASCII: number format or debug label"
+ },
+ {
+  "id": "t0B8B18",
+  "ptrs": [
+   "0219BC"
+  ],
+  "slot": 4,
+  "jp": "－",
+  "en": "",
+  "status": "todo"
+ },
+ {
+  "id": "t0B8B1C",
+  "ptrs": [
+   "021B9C",
+   "021C6C"
+  ],
+  "slot": 4,
+  "jp": "　",
+  "en": "",
+  "status": "todo"
+ },
+ {
+  "id": "t0B8B20",
+  "ptrs": [
+   "021DC8"
+  ],
+  "slot": 4,
+  "jp": "→",
+  "en": "",
+  "status": "todo"
+ },
+ {
+  "id": "t0B8B24",
+  "ptrs": [
+   "02387C"
+  ],
+  "slot": 28,
+  "jp": "とうろくしたい　たんごを",
+  "en": "",
+  "status": "todo"
+ },
+ {
+  "id": "t0B8B40",
+  "ptrs": [
+   "023880"
+  ],
+  "slot": 28,
+  "jp": "にゅうりょくしてください",
+  "en": "",
+  "status": "todo"
+ },
+ {
+  "id": "t0B8B5C",
+  "ptrs": [
+   "023A48"
+  ],
+  "slot": 28,
+  "jp": "　　　　つかう＝Ａボタン",
+  "en": "",
+  "status": "todo"
+ },
+ {
+  "id": "t0B8B78",
+  "ptrs": [
+   "023A4C"
+  ],
+  "slot": 28,
+  "jp": "しゅうせいする＝Ｒボタン",
+  "en": "",
+  "status": "todo"
+ },
+ {
+  "id": "t0B8B94",
+  "ptrs": [
+   "023A50"
+  ],
+  "slot": 28,
+  "jp": "　　　　やめる＝Ｂボタン",
+  "en": "",
+  "status": "todo"
+ },
+ {
+  "id": "t0B8BB0",
+  "ptrs": [
+   "023B38"
+  ],
+  "slot": 24,
+  "jp": "とうろくする＝Ｒボタン",
+  "en": "",
+  "status": "todo"
+ },
+ {
+  "id": "t0B8BC8",
+  "ptrs": [
+   "023B3C"
+  ],
+  "slot": 24,
+  "jp": "　　　やめる＝Ｂボタン",
+  "en": "",
+  "status": "todo"
+ },
+ {
+  "id": "t0B8BE0",
+  "ptrs": [
+   "023B44"
+  ],
+  "slot": 8,
+  "jp": "{C2}{%dR2}",
+  "en": "",
+  "status": "keep",
+  "notes": "ASCII: number format or debug label"
+ },
+ {
+  "id": "t0B8BE8",
+  "ptrs": [
+   "023B48"
+  ],
+  "slot": 8,
+  "jp": "{C2}３",
+  "en": "",
+  "status": "todo"
+ },
+ {
+  "id": "t0B8BF0",
+  "ptrs": [
+   "0D2390"
+  ],
+  "slot": 52,
+  "jp": "このばんごうは　げんざい　つかわれて　おりません",
+  "en": "",
+  "status": "todo"
+ },
+ {
+  "id": "t0B8C24",
+  "ptrs": [
+   "0D2394"
+  ],
+  "slot": 636,
+  "jp": "tbあアぁァsoいイぃィsoうウヴぅゥsoえエぇェsoおオぉォsotbかカがガsoきキぎギsoくクぐグsoけケげゲsoこコごゴsotbさサざザsoしシじジsoすスずズsoせセぜゼsoそソぞゾsotbたタだダsoちチぢヂsoつツづヅっッsoてテでデsoとトどドsotbなナsoにニsoぬヌsoねネsoのノsotbはハばバぱパsoひヒびビぴピsoふフぶブぷプsoへヘべベぺペsoほホぼボぽポsotbまマsoみミsoむムsoめメsoもモsotbやヤゃャsoゆユゅュsoよヨょョsotbらラsoりリsoるルsoれレsoろロsotbわワsoをヲsoんンsoＡａsoＢｂsoＣｃsoＤｄsoＥｅsoＦｆsoＧｇsoＨｈsoＩｉsoＪｊsoＫｋsoＬｌsoＭｍsoＮｎsoＯｏsoＰｐsoＱｑsoＲｒsoＳｓsoＴｔsoＵｕsoＶｖsoＷｗsoＸｘsoＹｙsoＺｚso０so１so２so３so４so５so６so７so８so９soED",
+  "en": "",
+  "status": "data",
+  "notes": "name-entry keyboard layout (tb = row, so = key, ED = end)"
+ },
+ {
+  "id": "t0B8EA0",
+  "ptrs": [
+   "0D23B8"
+  ],
+  "slot": 16,
+  "jp": "ＡＢ型　ＲＨ－",
+  "en": "",
+  "status": "todo"
+ },
+ {
+  "id": "t0B8EB0",
+  "ptrs": [
+   "0D23B4"
+  ],
+  "slot": 16,
+  "jp": "Ｏ型　ＲＨ－　",
+  "en": "",
+  "status": "todo"
+ },
+ {
+  "id": "t0B8EC0",
+  "ptrs": [
+   "0D23B0"
+  ],
+  "slot": 16,
+  "jp": "Ｂ型　ＲＨ－　",
+  "en": "",
+  "status": "todo"
+ },
+ {
+  "id": "t0B8ED0",
+  "ptrs": [
+   "0D23AC"
+  ],
+  "slot": 16,
+  "jp": "Ａ型　ＲＨ－　",
+  "en": "",
+  "status": "todo"
+ },
+ {
+  "id": "t0B8EE0",
+  "ptrs": [
+   "0D23A8"
+  ],
+  "slot": 16,
+  "jp": "ＡＢ型　　　　",
+  "en": "",
+  "status": "todo"
+ },
+ {
+  "id": "t0B8EF0",
+  "ptrs": [
+   "0D23A4"
+  ],
+  "slot": 16,
+  "jp": "Ｏ型　　　　　",
+  "en": "",
+  "status": "todo"
+ },
+ {
+  "id": "t0B8F00",
+  "ptrs": [
+   "0D23A0"
+  ],
+  "slot": 16,
+  "jp": "Ｂ型　　　　　",
+  "en": "",
+  "status": "todo"
+ },
+ {
+  "id": "t0B8F10",
+  "ptrs": [
+   "0D239C"
+  ],
+  "slot": 16,
+  "jp": "Ａ型　　　　　",
+  "en": "",
+  "status": "todo"
+ },
+ {
+  "id": "t0B8F20",
+  "ptrs": [
+   "0D2398"
+  ],
+  "slot": 16,
+  "jp": "わからない　　",
+  "en": "",
+  "status": "todo"
+ },
+ {
+  "id": "t0B8F30",
+  "ptrs": [
+   "0D23C0"
+  ],
+  "slot": 8,
+  "jp": "おんな",
+  "en": "",
+  "status": "todo"
+ },
+ {
+  "id": "t0B8F38",
+  "ptrs": [
+   "0D23BC"
+  ],
+  "slot": 8,
+  "jp": "おとこ",
+  "en": "",
+  "status": "todo"
+ },
+ {
+  "id": "t0B8F40",
+  "ptrs": [
+   "024EBC",
+   "0250C8",
+   "025EA4",
+   "025F70"
+  ],
+  "slot": 4,
+  "jp": "tb",
+  "en": "",
+  "status": "data",
+  "notes": "name-entry keyboard layout (tb = row, so = key, ED = end)"
+ },
+ {
+  "id": "t0B8F44",
+  "ptrs": [
+   "024EC0",
+   "0250CC",
+   "025E9C"
+  ],
+  "slot": 4,
+  "jp": "ED",
+  "en": "",
+  "status": "data",
+  "notes": "name-entry keyboard layout (tb = row, so = key, ED = end)"
+ },
+ {
+  "id": "t0B8F48",
+  "ptrs": [
+   "024EB8",
+   "0250DC",
+   "025EA0"
+  ],
+  "slot": 4,
+  "jp": "so",
+  "en": "",
+  "status": "data",
+  "notes": "name-entry keyboard layout (tb = row, so = key, ED = end)"
+ },
+ {
+  "id": "t0B8F4C",
+  "ptrs": [
+   "025230",
+   "0252D8",
+   "025394"
+  ],
+  "slot": 4,
+  "jp": "…",
+  "en": "",
+  "status": "todo"
+ },
+ {
+  "id": "t0B8F50",
+  "ptrs": [
+   "025D48",
+   "0272CC",
+   "0273CC"
+  ],
+  "slot": 20,
+  "jp": "{%04dR2}年{%02dR3}月",
+  "en": "",
+  "status": "todo"
+ },
+ {
+  "id": "t0B8F64",
+  "ptrs": [
+   "025D4C",
+   "0272D0",
+   "0273D0"
+  ],
+  "slot": 12,
+  "jp": "{%02dR4}日",
+  "en": "",
+  "status": "todo"
+ },
+ {
+  "id": "t0B8F70",
+  "ptrs": [
+   "025D54",
+   "0274EC",
+   "027558",
+   "02765C"
+  ],
+  "slot": 8,
+  "jp": "{%sR0}",
+  "en": "",
+  "status": "keep",
+  "notes": "ASCII: number format or debug label"
+ },
+ {
+  "id": "t0B8F78",
+  "ptrs": [
+   "0D2448"
+  ],
+  "slot": 128,
+  "jp": "　１　２　３　４　５　６　７　８　９１０１１１２１３１４１５１６１７１８１９２０２１２２２３２４２５２６２７２８２９３０３１",
+  "en": "",
+  "status": "todo"
+ },
+ {
+  "id": "t0B8FF8",
+  "ptrs": [
+   "0D2500"
+  ],
+  "slot": 4,
+  "jp": "土",
+  "en": "",
+  "status": "todo"
+ },
+ {
+  "id": "t0B8FFC",
+  "ptrs": [
+   "0D24FC"
+  ],
+  "slot": 4,
+  "jp": "金",
+  "en": "",
+  "status": "todo"
+ }
+]

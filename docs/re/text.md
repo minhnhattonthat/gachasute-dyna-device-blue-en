@@ -39,16 +39,47 @@ ROM: 8 MiB (0x800000), header title `DINODEVICE B`, code `ABIJ`. No prior fan pa
 | `KN` | 395 | end of message without the usual wait / continue (often at the end) |
 | `%sR<n>` | ~650 | insert string register n (names: player, Dyna, item) |
 | `%dR<n>`, `%02dR<n>`, `%04dR<n>` | ~80 | insert number register n (postal-code style `〒%02dR0－%02dR1`) |
-| `%` alone | 4 | check in phase 4 |
-| `\x02` | 43 hits | false matches from the regex (operands), not text |
+| `%` alone | 1 | script 341: `%02dR5%の` — a typo in the original; the expander reads it as `%dR?` (4 bytes) |
+
+**Expander - verified (disassembly)**: 0x0801328C copies the text to a buffer, expanding `%sRn` (4 bytes,
+recursive: string register n at 0x02002BD4 + 8n), `%0WdRn` (6), `%WdRn` (5) and anything else after `%` as
+`%dRn` (4). KG/KP/KN are handled later by the drawer (0x08013488). Count over messages (phase 4): only KG, KP,
+KN and the % forms occur; no other ASCII.
+
+### Menu-string codes (string region, phase 4 tally)
+| Code | Meaning |
+|---|---|
+| `%sRn`, `%WdRn`, `%0WdRn`, `%dRn` | registers, as above |
+| `C0`-`C4` | colour (guess: `C1%3dR0C0／C1%3dR1` switches and returns to C0); confirm in phase 5 |
+| `tb` `so` `ED` | name-entry keyboard layout string at 0x0B8C24 (row, key, end): data |
+| `%d`, `%02X`, `%03d` ... | printf formats in debug / number labels |
+
+Text form in `script/` JSON (`tools/text.py`): KG = newline, `{KP}` + newline, `{KN}`, `{%sR4}`, `{C1}`,
+`[XX]` for any other byte; printable ASCII as itself.
 
 ## Other string regions
 | Range | What | Format |
 |---|---|---|
-| 0x0AF6D0, 0x0AFCA0 - 0x0BB7A8 | menus, sector types, item / weapon / Dyna names, help and descriptions, name-entry keyboard (full-width Latin at 0xB7FE0) | NUL-terminated SJIS, 4-byte aligned, reached by pointer tables in code/data (not yet mapped) |
-| 0x44C754 - 0x702BB4 | address database: municipality and town names keyed by postal code (e.g. 0x700008 富山市, 20-byte records there; other record shapes earlier) | fixed-size records, SJIS kanji/kana, not NUL-run text |
+| 0x0AF6D0 - 0x0BB7C0 | 2712 strings: ヨロシク仮面 (0xAF6D0), the AGB debug menu (0xAF6E0-0xAFCA0, romaji, kept), menus, sector types, item / weapon / Dyna names, help and descriptions, name-entry keyboard | NUL-terminated SJIS, 4-aligned, zero-padded. **verified**: every string has a direct u32 pointer, 4-aligned, in code literal pools (0x008980-0x0A3254) or the data tables after the region (0x0BDAE8-0x0E4674); 5647 pointers (`tools/strtab.py`). Words elsewhere that equal a string start are coincidences in graphics. `FLASH_V126` (save-type signature) follows at 0x0BB7C4: never touch |
+| 0x0D21F0 - 0x0D22F8 | pointer table of the name-entry keyboard pages: one 5- or 10-key row string per entry (kana, full-width Latin, digits, symbols, kanji for addresses 丁番号 etc.) | the rows are `data` in script/ (reworked with the font, phase 5) |
+| 0x44C754 - 0x702BB4 | address database: postal codes with prefecture, municipality, town names | **verified** layout below (`tools/addrdb.py`, identity repack) |
 | 0x747B44 - ? | data file read by the message system (pointers from 0x0A81A4..) | no text |
-| 0x3BEB94 - 0x3BED4C, 0x16EB51, 0x22FAB4 | candidates from the run scan; 0x3BEB94 looks like a short label table (ロク, 物青, 地物); the others are graphics noise | check in phase 4 |
+| 0x0E7FA4 | resource file 0: offset table; its first entry is the first ECD block (0x0EFF34), i.e. the graphics archive | no text (ECD blocks are IMG/PLT/SCR only) |
+| 0x0E6A58 | the one BIOS-LZ77 block: ARM code | no text |
+
+**Coverage (phase 4, `tools/extract.py verify`)**: a ROM-wide scan for runs of 3+ kana finds nothing outside the
+three ranges above except tile-map bytes at 0x3BE700-0x3BED60 (looked like ロク / 地物 labels; they are BG map
+data) and graphics noise at 0x3D97B7. A wider SJIS-run scan's other hits are random kanji in graphics.
+Strings built in code (immediates) can only show up in the marker build (phase 5).
+
+## Address database (resource file 2) - verified
+Header: 4 u32 LE offsets from 0x44C754: towns 0x10, prefectures 0x2A5C50, municipalities 0x2A5E30, end 0x2B6460.
+- Towns: 120701 records x 23 bytes: u32 **BE** postal code (e.g. 0x0009C7AD = 064-0941 旭ケ丘), u8 prefecture
+  index (0-46), u16 BE municipality index (0-3355), 16-byte SJIS town name NUL-padded (empty = the code's
+  catch-all), then 5 zero bytes. 69240 distinct town names.
+- Prefectures: 48 x 10 bytes (北海道, 青森県...). Municipalities: 3356 x 20 bytes (札幌市中央区...).
+- English: names are fixed-width (16 / 10 / 20 bytes); Hepburn often runs longer, so the reader's record size may
+  need changing (find the reader in phase 5).
 
 ## Open questions (non-blocking)
 - The address database: tens of thousands of real place names. Plan: romanize with Hepburn from Japan Post's

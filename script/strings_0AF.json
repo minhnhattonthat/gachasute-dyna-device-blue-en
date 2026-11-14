@@ -1,0 +1,1737 @@
+[
+ {
+  "id": "t0AF6D0",
+  "ptrs": [
+   "008980",
+   "008AA0"
+  ],
+  "slot": 16,
+  "jp": "ヨロシク仮面",
+  "en": "",
+  "status": "todo"
+ },
+ {
+  "id": "t0AF6E0",
+  "ptrs": [
+   "008C78"
+  ],
+  "slot": 32,
+  "jp": "--- AGB SYSTEM  DEBUG MENU ---",
+  "en": "",
+  "status": "keep",
+  "notes": "AGB debug menu (romaji, debug build only)"
+ },
+ {
+  "id": "t0AF700",
+  "ptrs": [
+   "008C7C"
+  ],
+  "slot": 16,
+  "jp": "GAME START {%s}",
+  "en": "",
+  "status": "keep",
+  "notes": "AGB debug menu (romaji, debug build only)"
+ },
+ {
+  "id": "t0AF710",
+  "ptrs": [
+   "008C84"
+  ],
+  "slot": 12,
+  "jp": "PDA SYSTEM",
+  "en": "",
+  "status": "keep",
+  "notes": "AGB debug menu (romaji, debug build only)"
+ },
+ {
+  "id": "t0AF71C",
+  "ptrs": [
+   "008C8C"
+  ],
+  "slot": 28,
+  "jp": "MONSTER CITY VER A BLADE",
+  "en": "",
+  "status": "keep",
+  "notes": "AGB debug menu (romaji, debug build only)"
+ },
+ {
+  "id": "t0AF738",
+  "ptrs": [
+   "008DD0"
+  ],
+  "slot": 28,
+  "jp": "MONSTER CITY VER B BLASTER",
+  "en": "",
+  "status": "keep",
+  "notes": "AGB debug menu (romaji, debug build only)"
+ },
+ {
+  "id": "t0AF754",
+  "ptrs": [
+   "008DD8"
+  ],
+  "slot": 16,
+  "jp": "BATTLE SYSTEM",
+  "en": "",
+  "status": "keep",
+  "notes": "AGB debug menu (romaji, debug build only)"
+ },
+ {
+  "id": "t0AF764",
+  "ptrs": [
+   "008DDC"
+  ],
+  "slot": 16,
+  "jp": "TACTICS SYSTEM",
+  "en": "",
+  "status": "keep",
+  "notes": "AGB debug menu (romaji, debug build only)"
+ },
+ {
+  "id": "t0AF774",
+  "ptrs": [
+   "008DE0"
+  ],
+  "slot": 16,
+  "jp": "TSUUSIN SELECT",
+  "en": "",
+  "status": "keep",
+  "notes": "AGB debug menu (romaji, debug build only)"
+ },
+ {
+  "id": "t0AF784",
+  "ptrs": [
+   "008DE4"
+  ],
+  "slot": 16,
+  "jp": "RASTER TUSIN",
+  "en": "",
+  "status": "keep",
+  "notes": "AGB debug menu (romaji, debug build only)"
+ },
+ {
+  "id": "t0AF794",
+  "ptrs": [
+   "008DE8"
+  ],
+  "slot": 4,
+  "jp": "ETC",
+  "en": "",
+  "status": "keep",
+  "notes": "AGB debug menu (romaji, debug build only)"
+ },
+ {
+  "id": "t0AF798",
+  "ptrs": [
+   "008DEC"
+  ],
+  "slot": 12,
+  "jp": "WORLD MAP",
+  "en": "",
+  "status": "keep",
+  "notes": "AGB debug menu (romaji, debug build only)"
+ },
+ {
+  "id": "t0AF7A4",
+  "ptrs": [
+   "008DF0"
+  ],
+  "slot": 12,
+  "jp": "SUBWAY DEMO",
+  "en": "",
+  "status": "keep",
+  "notes": "AGB debug menu (romaji, debug build only)"
+ },
+ {
+  "id": "t0AF7B0",
+  "ptrs": [
+   "008DF4"
+  ],
+  "slot": 16,
+  "jp": "COLO EVENT DEMO",
+  "en": "",
+  "status": "keep",
+  "notes": "AGB debug menu (romaji, debug build only)"
+ },
+ {
+  "id": "t0AF7C0",
+  "ptrs": [
+   "008DF8"
+  ],
+  "slot": 16,
+  "jp": "MINI GAME = {%d}",
+  "en": "",
+  "status": "keep",
+  "notes": "AGB debug menu (romaji, debug build only)"
+ },
+ {
+  "id": "t0AF7D0",
+  "ptrs": [
+   "008E00"
+  ],
+  "slot": 8,
+  "jp": "TEST2",
+  "en": "",
+  "status": "keep",
+  "notes": "AGB debug menu (romaji, debug build only)"
+ },
+ {
+  "id": "t0AF7D8",
+  "ptrs": [
+   "008E04"
+  ],
+  "slot": 8,
+  "jp": "TEST1",
+  "en": "",
+  "status": "keep",
+  "notes": "AGB debug menu (romaji, debug build only)"
+ },
+ {
+  "id": "t0AF7E0",
+  "ptrs": [
+   "008E08"
+  ],
+  "slot": 12,
+  "jp": "SOUND MENU",
+  "en": "",
+  "status": "keep",
+  "notes": "AGB debug menu (romaji, debug build only)"
+ },
+ {
+  "id": "t0AF7EC",
+  "ptrs": [
+   "008E0C"
+  ],
+  "slot": 12,
+  "jp": "DATA VIEW",
+  "en": "",
+  "status": "keep",
+  "notes": "AGB debug menu (romaji, debug build only)"
+ },
+ {
+  "id": "t0AF7F8",
+  "ptrs": [
+   "008E14",
+   "0091E0",
+   "009708",
+   "00A05C",
+   "00A5A0",
+   "00A7D0",
+   "00AB90"
+  ],
+  "slot": 4,
+  "jp": " ",
+  "en": "",
+  "status": "keep",
+  "notes": "AGB debug menu (romaji, debug build only)"
+ },
+ {
+  "id": "t0AF7FC",
+  "ptrs": [
+   "008E18",
+   "0091E4",
+   "00970C",
+   "00A060",
+   "00A5A4",
+   "00A7D4",
+   "00AB94"
+  ],
+  "slot": 4,
+  "jp": "=",
+  "en": "",
+  "status": "keep",
+  "notes": "AGB debug menu (romaji, debug build only)"
+ },
+ {
+  "id": "t0AF800",
+  "ptrs": [
+   "009198"
+  ],
+  "slot": 20,
+  "jp": "SOUND MUSIC = {%03d}",
+  "en": "",
+  "status": "keep",
+  "notes": "AGB debug menu (romaji, debug build only)"
+ },
+ {
+  "id": "t0AF814",
+  "ptrs": [
+   "0091A0"
+  ],
+  "slot": 20,
+  "jp": "SOUND EFFECT = {%03d}",
+  "en": "",
+  "status": "keep",
+  "notes": "AGB debug menu (romaji, debug build only)"
+ },
+ {
+  "id": "t0AF828",
+  "ptrs": [
+   "0091A8"
+  ],
+  "slot": 28,
+  "jp": "CH SOUND1 = {%d}   ALL={%02X}",
+  "en": "",
+  "status": "keep",
+  "notes": "AGB debug menu (romaji, debug build only)"
+ },
+ {
+  "id": "t0AF844",
+  "ptrs": [
+   "0091B0"
+  ],
+  "slot": 16,
+  "jp": "CH SOUND2 = {%d}",
+  "en": "",
+  "status": "keep",
+  "notes": "AGB debug menu (romaji, debug build only)"
+ },
+ {
+  "id": "t0AF854",
+  "ptrs": [
+   "0091B4"
+  ],
+  "slot": 16,
+  "jp": "CH SOUND3 = {%d}",
+  "en": "",
+  "status": "keep",
+  "notes": "AGB debug menu (romaji, debug build only)"
+ },
+ {
+  "id": "t0AF864",
+  "ptrs": [
+   "0091B8"
+  ],
+  "slot": 16,
+  "jp": "CH SOUND4 = {%d}",
+  "en": "",
+  "status": "keep",
+  "notes": "AGB debug menu (romaji, debug build only)"
+ },
+ {
+  "id": "t0AF874",
+  "ptrs": [
+   "0091BC"
+  ],
+  "slot": 16,
+  "jp": "CH PCMA   = {%d}",
+  "en": "",
+  "status": "keep",
+  "notes": "AGB debug menu (romaji, debug build only)"
+ },
+ {
+  "id": "t0AF884",
+  "ptrs": [
+   "0091C0"
+  ],
+  "slot": 16,
+  "jp": "CH PCMB   = {%d}",
+  "en": "",
+  "status": "keep",
+  "notes": "AGB debug menu (romaji, debug build only)"
+ },
+ {
+  "id": "t0AF894",
+  "ptrs": [
+   "0091C4"
+  ],
+  "slot": 16,
+  "jp": "VOLUME    = {%d}",
+  "en": "",
+  "status": "keep",
+  "notes": "AGB debug menu (romaji, debug build only)"
+ },
+ {
+  "id": "t0AF8A4",
+  "ptrs": [
+   "0091CC"
+  ],
+  "slot": 20,
+  "jp": "STOP MUSIC AND SE",
+  "en": "",
+  "status": "keep",
+  "notes": "AGB debug menu (romaji, debug build only)"
+ },
+ {
+  "id": "t0AF8B8",
+  "ptrs": [
+   "0091D0"
+  ],
+  "slot": 16,
+  "jp": "MUSIC RUN = {%d}",
+  "en": "",
+  "status": "keep",
+  "notes": "AGB debug menu (romaji, debug build only)"
+ },
+ {
+  "id": "t0AF8C8",
+  "ptrs": [
+   "0091D4"
+  ],
+  "slot": 16,
+  "jp": "SE    RUN = {%d}",
+  "en": "",
+  "status": "keep",
+  "notes": "AGB debug menu (romaji, debug build only)"
+ },
+ {
+  "id": "t0AF8D8",
+  "ptrs": [
+   "0091D8",
+   "009700",
+   "00A050",
+   "00A594",
+   "00AB84"
+  ],
+  "slot": 4,
+  "jp": ":",
+  "en": "",
+  "status": "keep",
+  "notes": "AGB debug menu (romaji, debug build only)"
+ },
+ {
+  "id": "t0AF8DC",
+  "ptrs": [
+   "0096D8"
+  ],
+  "slot": 16,
+  "jp": "CITY SETUP MENU",
+  "en": "",
+  "status": "keep",
+  "notes": "AGB debug menu (romaji, debug build only)"
+ },
+ {
+  "id": "t0AF8EC",
+  "ptrs": [
+   "0096DC"
+  ],
+  "slot": 8,
+  "jp": "START",
+  "en": "",
+  "status": "keep",
+  "notes": "AGB debug menu (romaji, debug build only)"
+ },
+ {
+  "id": "t0AF8F4",
+  "ptrs": [
+   "0096E0"
+  ],
+  "slot": 20,
+  "jp": "MAPNUMBER = {%02d}",
+  "en": "",
+  "status": "keep",
+  "notes": "AGB debug menu (romaji, debug build only)"
+ },
+ {
+  "id": "t0AF908",
+  "ptrs": [
+   "0096E8"
+  ],
+  "slot": 16,
+  "jp": "MONEY = {%05d}",
+  "en": "",
+  "status": "keep",
+  "notes": "AGB debug menu (romaji, debug build only)"
+ },
+ {
+  "id": "t0AF918",
+  "ptrs": [
+   "0096EC"
+  ],
+  "slot": 20,
+  "jp": "MONSTER NUM = {%03d}",
+  "en": "",
+  "status": "keep",
+  "notes": "AGB debug menu (romaji, debug build only)"
+ },
+ {
+  "id": "t0AF92C",
+  "ptrs": [
+   "0096F4"
+  ],
+  "slot": 16,
+  "jp": "COUNT = {%03d}:",
+  "en": "",
+  "status": "keep",
+  "notes": "AGB debug menu (romaji, debug build only)"
+ },
+ {
+  "id": "t0AF93C",
+  "ptrs": [
+   "0096FC"
+  ],
+  "slot": 20,
+  "jp": "SCENARIO = {%03d}:",
+  "en": "",
+  "status": "keep",
+  "notes": "AGB debug menu (romaji, debug build only)"
+ },
+ {
+  "id": "t0AF950",
+  "ptrs": [
+   "009D64"
+  ],
+  "slot": 20,
+  "jp": "BATTLE SETUP MENU",
+  "en": "",
+  "status": "keep",
+  "notes": "AGB debug menu (romaji, debug build only)"
+ },
+ {
+  "id": "t0AF964",
+  "ptrs": [
+   "009D70"
+  ],
+  "slot": 28,
+  "jp": "MONSTER SIDE = 0 TEMAE     ",
+  "en": "",
+  "status": "keep",
+  "notes": "AGB debug menu (romaji, debug build only)"
+ },
+ {
+  "id": "t0AF980",
+  "ptrs": [
+   "009D80"
+  ],
+  "slot": 28,
+  "jp": "MONSTER SIDE = 1 OKU       ",
+  "en": "",
+  "status": "keep",
+  "notes": "AGB debug menu (romaji, debug build only)"
+ },
+ {
+  "id": "t0AF99C",
+  "ptrs": [
+   "009D68"
+  ],
+  "slot": 32,
+  "jp": "MONSTER SIDE = {%d} ENGO{%d} ON ",
+  "en": "",
+  "status": "keep",
+  "notes": "AGB debug menu (romaji, debug build only)"
+ },
+ {
+  "id": "t0AF9BC",
+  "ptrs": [
+   "009E10"
+  ],
+  "slot": 32,
+  "jp": "MONSTER SIDE = {%d} ENGO{%d} OFF",
+  "en": "",
+  "status": "keep",
+  "notes": "AGB debug menu (romaji, debug build only)"
+ },
+ {
+  "id": "t0AF9DC",
+  "ptrs": [
+   "009E18"
+  ],
+  "slot": 24,
+  "jp": "MONSTER = {%02d}-{%d}  {%03d}",
+  "en": "",
+  "status": "keep",
+  "notes": "AGB debug menu (romaji, debug build only)"
+ },
+ {
+  "id": "t0AF9F4",
+  "ptrs": [
+   "009E1C"
+  ],
+  "slot": 12,
+  "jp": "ARM  = {%03d}",
+  "en": "",
+  "status": "keep",
+  "notes": "AGB debug menu (romaji, debug build only)"
+ },
+ {
+  "id": "t0AFA00",
+  "ptrs": [
+   "009E54"
+  ],
+  "slot": 12,
+  "jp": "ARM  =  OK",
+  "en": "",
+  "status": "keep",
+  "notes": "AGB debug menu (romaji, debug build only)"
+ },
+ {
+  "id": "t0AFA0C",
+  "ptrs": [
+   "009E5C"
+  ],
+  "slot": 16,
+  "jp": "WEP{%d} = {%03d}",
+  "en": "",
+  "status": "keep",
+  "notes": "AGB debug menu (romaji, debug build only)"
+ },
+ {
+  "id": "t0AFA1C",
+  "ptrs": [
+   "009E78"
+  ],
+  "slot": 12,
+  "jp": "WEP{%d} =  OK",
+  "en": "",
+  "status": "keep",
+  "notes": "AGB debug menu (romaji, debug build only)"
+ },
+ {
+  "id": "t0AFA28",
+  "ptrs": [
+   "009EC0"
+  ],
+  "slot": 12,
+  "jp": "WEP{%d} =  NG",
+  "en": "",
+  "status": "keep",
+  "notes": "AGB debug menu (romaji, debug build only)"
+ },
+ {
+  "id": "t0AFA34",
+  "ptrs": [
+   "009EC4"
+  ],
+  "slot": 12,
+  "jp": "WAZA{%d}={%03d}",
+  "en": "",
+  "status": "keep",
+  "notes": "AGB debug menu (romaji, debug build only)"
+ },
+ {
+  "id": "t0AFA40",
+  "ptrs": [
+   "009F00"
+  ],
+  "slot": 12,
+  "jp": "WAZA{%d}=NO ",
+  "en": "",
+  "status": "keep",
+  "notes": "AGB debug menu (romaji, debug build only)"
+ },
+ {
+  "id": "t0AFA4C",
+  "ptrs": [
+   "009F1C",
+   "00A364",
+   "00A974"
+  ],
+  "slot": 32,
+  "jp": "GAME MODE=1P VS COM           ",
+  "en": "",
+  "status": "keep",
+  "notes": "AGB debug menu (romaji, debug build only)"
+ },
+ {
+  "id": "t0AFA6C",
+  "ptrs": [
+   "009F30",
+   "00A36C",
+   "00A97C"
+  ],
+  "slot": 32,
+  "jp": "GAME MODE=1P VS 2P            ",
+  "en": "",
+  "status": "keep",
+  "notes": "AGB debug menu (romaji, debug build only)"
+ },
+ {
+  "id": "t0AFA8C",
+  "ptrs": [
+   "009F44",
+   "00A37C",
+   "00A98C"
+  ],
+  "slot": 32,
+  "jp": "GAME MODE=1P VS 2P VS 3P      ",
+  "en": "",
+  "status": "keep",
+  "notes": "AGB debug menu (romaji, debug build only)"
+ },
+ {
+  "id": "t0AFAAC",
+  "ptrs": [
+   "009F74",
+   "00A3A8",
+   "00A9B8"
+  ],
+  "slot": 32,
+  "jp": "GAME MODE=1P VS 2P VS 3P VS 4P",
+  "en": "",
+  "status": "keep",
+  "notes": "AGB debug menu (romaji, debug build only)"
+ },
+ {
+  "id": "t0AFACC",
+  "ptrs": [
+   "009F88",
+   "00A3C0",
+   "00A9D0"
+  ],
+  "slot": 12,
+  "jp": "PLAYER=1P",
+  "en": "",
+  "status": "keep",
+  "notes": "AGB debug menu (romaji, debug build only)"
+ },
+ {
+  "id": "t0AFAD8",
+  "ptrs": [
+   "009F90",
+   "00A3C8",
+   "00A9D8"
+  ],
+  "slot": 12,
+  "jp": "PLAYER=2P",
+  "en": "",
+  "status": "keep",
+  "notes": "AGB debug menu (romaji, debug build only)"
+ },
+ {
+  "id": "t0AFAE4",
+  "ptrs": [
+   "009FA0",
+   "00A3D8",
+   "00A9E8"
+  ],
+  "slot": 12,
+  "jp": "PLAYER=3P",
+  "en": "",
+  "status": "keep",
+  "notes": "AGB debug menu (romaji, debug build only)"
+ },
+ {
+  "id": "t0AFAF0",
+  "ptrs": [
+   "00A048",
+   "00A404",
+   "00AA14"
+  ],
+  "slot": 12,
+  "jp": "PLAYER=4P",
+  "en": "",
+  "status": "keep",
+  "notes": "AGB debug menu (romaji, debug build only)"
+ },
+ {
+  "id": "t0AFAFC",
+  "ptrs": [
+   "00A054"
+  ],
+  "slot": 16,
+  "jp": "BATTLE START",
+  "en": "",
+  "status": "keep",
+  "notes": "AGB debug menu (romaji, debug build only)"
+ },
+ {
+  "id": "t0AFB0C",
+  "ptrs": [
+   "00A350"
+  ],
+  "slot": 20,
+  "jp": "MONSTER SET MENU",
+  "en": "",
+  "status": "keep",
+  "notes": "AGB debug menu (romaji, debug build only)"
+ },
+ {
+  "id": "t0AFB20",
+  "ptrs": [
+   "00A40C",
+   "00AA1C"
+  ],
+  "slot": 20,
+  "jp": "SPECIAL RULE=ON ",
+  "en": "",
+  "status": "keep",
+  "notes": "AGB debug menu (romaji, debug build only)"
+ },
+ {
+  "id": "t0AFB34",
+  "ptrs": [
+   "00A468",
+   "00AB6C"
+  ],
+  "slot": 20,
+  "jp": "SPECIAL RULE=OFF",
+  "en": "",
+  "status": "keep",
+  "notes": "AGB debug menu (romaji, debug build only)"
+ },
+ {
+  "id": "t0AFB48",
+  "ptrs": [
+   "00A470",
+   "00AB74"
+  ],
+  "slot": 20,
+  "jp": "MONSTER NUMBER={%03d}",
+  "en": "",
+  "status": "keep",
+  "notes": "AGB debug menu (romaji, debug build only)"
+ },
+ {
+  "id": "t0AFB5C",
+  "ptrs": [
+   "00A478",
+   "00AB7C"
+  ],
+  "slot": 12,
+  "jp": "TOTAL={%03d}",
+  "en": "",
+  "status": "keep",
+  "notes": "AGB debug menu (romaji, debug build only)"
+ },
+ {
+  "id": "t0AFB68",
+  "ptrs": [
+   "00A480"
+  ],
+  "slot": 12,
+  "jp": "TUTRIAL ON ",
+  "en": "",
+  "status": "keep",
+  "notes": "AGB debug menu (romaji, debug build only)"
+ },
+ {
+  "id": "t0AFB74",
+  "ptrs": [
+   "00A58C"
+  ],
+  "slot": 12,
+  "jp": "TUTRIAL OFF",
+  "en": "",
+  "status": "keep",
+  "notes": "AGB debug menu (romaji, debug build only)"
+ },
+ {
+  "id": "t0AFB80",
+  "ptrs": [
+   "00A598",
+   "00AB88"
+  ],
+  "slot": 12,
+  "jp": "TACT START",
+  "en": "",
+  "status": "keep",
+  "notes": "AGB debug menu (romaji, debug build only)"
+ },
+ {
+  "id": "t0AFB8C",
+  "ptrs": [
+   "00A7AC"
+  ],
+  "slot": 8,
+  "jp": "AUCTION",
+  "en": "",
+  "status": "keep",
+  "notes": "AGB debug menu (romaji, debug build only)"
+ },
+ {
+  "id": "t0AFB94",
+  "ptrs": [
+   "00A7B0"
+  ],
+  "slot": 8,
+  "jp": "FACTORY",
+  "en": "",
+  "status": "keep",
+  "notes": "AGB debug menu (romaji, debug build only)"
+ },
+ {
+  "id": "t0AFB9C",
+  "ptrs": [
+   "00A7B4"
+  ],
+  "slot": 12,
+  "jp": "COLOSIAM",
+  "en": "",
+  "status": "keep",
+  "notes": "AGB debug menu (romaji, debug build only)"
+ },
+ {
+  "id": "t0AFBA8",
+  "ptrs": [
+   "00A7B8"
+  ],
+  "slot": 8,
+  "jp": "PDABOOT",
+  "en": "",
+  "status": "keep",
+  "notes": "AGB debug menu (romaji, debug build only)"
+ },
+ {
+  "id": "t0AFBB0",
+  "ptrs": [
+   "00A7BC"
+  ],
+  "slot": 12,
+  "jp": "PDAENTRY",
+  "en": "",
+  "status": "keep",
+  "notes": "AGB debug menu (romaji, debug build only)"
+ },
+ {
+  "id": "t0AFBBC",
+  "ptrs": [
+   "00A7C0"
+  ],
+  "slot": 12,
+  "jp": "PDADEVICE",
+  "en": "",
+  "status": "keep",
+  "notes": "AGB debug menu (romaji, debug build only)"
+ },
+ {
+  "id": "t0AFBC8",
+  "ptrs": [
+   "00A7C4"
+  ],
+  "slot": 8,
+  "jp": "OPENING",
+  "en": "",
+  "status": "keep",
+  "notes": "AGB debug menu (romaji, debug build only)"
+ },
+ {
+  "id": "t0AFBD0",
+  "ptrs": [
+   "00A7C8"
+  ],
+  "slot": 8,
+  "jp": "ENDING",
+  "en": "",
+  "status": "keep",
+  "notes": "AGB debug menu (romaji, debug build only)"
+ },
+ {
+  "id": "t0AFBD8",
+  "ptrs": [
+   "00A960"
+  ],
+  "slot": 24,
+  "jp": "TSBTL MONSTER SET MENU",
+  "en": "",
+  "status": "keep",
+  "notes": "AGB debug menu (romaji, debug build only)"
+ },
+ {
+  "id": "t0AFBF0",
+  "ptrs": [
+   "00AD98"
+  ],
+  "slot": 8,
+  "jp": "{%05d}",
+  "en": "",
+  "status": "keep",
+  "notes": "AGB debug menu (romaji, debug build only)"
+ },
+ {
+  "id": "t0AFBF8",
+  "ptrs": [
+   "00B0F8"
+  ],
+  "slot": 4,
+  "jp": " ",
+  "en": "",
+  "status": "keep",
+  "notes": "AGB debug menu (romaji, debug build only)"
+ },
+ {
+  "id": "t0AFBFC",
+  "ptrs": [
+   "00B328"
+  ],
+  "slot": 12,
+  "jp": "MOVEX={%04X}",
+  "en": "",
+  "status": "keep",
+  "notes": "AGB debug menu (romaji, debug build only)"
+ },
+ {
+  "id": "t0AFC08",
+  "ptrs": [
+   "00B32C"
+  ],
+  "slot": 12,
+  "jp": "MOVEY={%04X}",
+  "en": "",
+  "status": "keep",
+  "notes": "AGB debug menu (romaji, debug build only)"
+ },
+ {
+  "id": "t0AFC14",
+  "ptrs": [
+   "00B330"
+  ],
+  "slot": 12,
+  "jp": "SCALE={%04X}",
+  "en": "",
+  "status": "keep",
+  "notes": "AGB debug menu (romaji, debug build only)"
+ },
+ {
+  "id": "t0AFC20",
+  "ptrs": [
+   "00B334"
+  ],
+  "slot": 12,
+  "jp": "ANGLE={%04X}",
+  "en": "",
+  "status": "keep",
+  "notes": "AGB debug menu (romaji, debug build only)"
+ },
+ {
+  "id": "t0AFC2C",
+  "ptrs": [
+   "00B338"
+  ],
+  "slot": 12,
+  "jp": "FLIPX={%X}",
+  "en": "",
+  "status": "keep",
+  "notes": "AGB debug menu (romaji, debug build only)"
+ },
+ {
+  "id": "t0AFC38",
+  "ptrs": [
+   "00B340"
+  ],
+  "slot": 12,
+  "jp": "FLIPY={%X}",
+  "en": "",
+  "status": "keep",
+  "notes": "AGB debug menu (romaji, debug build only)"
+ },
+ {
+  "id": "t0AFC44",
+  "ptrs": [
+   "00B344"
+  ],
+  "slot": 4,
+  "jp": "=",
+  "en": "",
+  "status": "keep",
+  "notes": "AGB debug menu (romaji, debug build only)"
+ },
+ {
+  "id": "t0AFC48",
+  "ptrs": [
+   "00B384"
+  ],
+  "slot": 16,
+  "jp": "DATACNT={%02d}",
+  "en": "",
+  "status": "keep",
+  "notes": "AGB debug menu (romaji, debug build only)"
+ },
+ {
+  "id": "t0AFC58",
+  "ptrs": [
+   "00B604"
+  ],
+  "slot": 12,
+  "jp": "DATA={%04d}",
+  "en": "",
+  "status": "keep",
+  "notes": "AGB debug menu (romaji, debug build only)"
+ },
+ {
+  "id": "t0AFC64",
+  "ptrs": [
+   "00B8B4"
+  ],
+  "slot": 8,
+  "jp": "{%08d}",
+  "en": "",
+  "status": "keep",
+  "notes": "AGB debug menu (romaji, debug build only)"
+ },
+ {
+  "id": "t0AFC6C",
+  "ptrs": [
+   "00CACC"
+  ],
+  "slot": 8,
+  "jp": "ERROR",
+  "en": "",
+  "status": "keep",
+  "notes": "AGB debug menu (romaji, debug build only)"
+ },
+ {
+  "id": "t0AFC74",
+  "ptrs": [
+   "00CAD4"
+  ],
+  "slot": 8,
+  "jp": "     ",
+  "en": "",
+  "status": "keep",
+  "notes": "AGB debug menu (romaji, debug build only)"
+ },
+ {
+  "id": "t0AFC7C",
+  "ptrs": [
+   "00CD58"
+  ],
+  "slot": 12,
+  "jp": "CASE={%03d}",
+  "en": "",
+  "status": "keep",
+  "notes": "AGB debug menu (romaji, debug build only)"
+ },
+ {
+  "id": "t0AFC88",
+  "ptrs": [
+   "00CD60"
+  ],
+  "slot": 8,
+  "jp": "{%04X}",
+  "en": "",
+  "status": "keep",
+  "notes": "AGB debug menu (romaji, debug build only)"
+ },
+ {
+  "id": "t0AFC90",
+  "ptrs": [
+   "00CD78"
+  ],
+  "slot": 8,
+  "jp": "{%08d}",
+  "en": "",
+  "status": "keep",
+  "notes": "AGB debug menu (romaji, debug build only)"
+ },
+ {
+  "id": "t0AFC98",
+  "ptrs": [
+   "0170F0"
+  ],
+  "slot": 8,
+  "jp": "{%04X}",
+  "en": "",
+  "status": "keep",
+  "notes": "AGB debug menu (romaji, debug build only)"
+ },
+ {
+  "id": "t0AFCA0",
+  "ptrs": [
+   "0BDB28"
+  ],
+  "slot": 12,
+  "jp": "センター",
+  "en": "",
+  "status": "todo"
+ },
+ {
+  "id": "t0AFCAC",
+  "ptrs": [
+   "0BDB24",
+   "0D0268"
+  ],
+  "slot": 8,
+  "jp": "ホーム",
+  "en": "",
+  "status": "todo"
+ },
+ {
+  "id": "t0AFCB4",
+  "ptrs": [
+   "0BDB1C",
+   "0D01C8"
+  ],
+  "slot": 8,
+  "jp": "ダスト",
+  "en": "",
+  "status": "todo"
+ },
+ {
+  "id": "t0AFCBC",
+  "ptrs": [
+   "0BDB18",
+   "0D0230"
+  ],
+  "slot": 16,
+  "jp": "ファクトリー",
+  "en": "",
+  "status": "todo"
+ },
+ {
+  "id": "t0AFCCC",
+  "ptrs": [
+   "0BDB14",
+   "0D0128"
+  ],
+  "slot": 12,
+  "jp": "サブウェイ",
+  "en": "",
+  "status": "todo"
+ },
+ {
+  "id": "t0AFCD8",
+  "ptrs": [
+   "0BDB10",
+   "0D0118"
+  ],
+  "slot": 12,
+  "jp": "コロシアム",
+  "en": "",
+  "status": "todo"
+ },
+ {
+  "id": "t0AFCE4",
+  "ptrs": [
+   "0BDB0C",
+   "0D0148"
+  ],
+  "slot": 12,
+  "jp": "ショップ",
+  "en": "",
+  "status": "todo"
+ },
+ {
+  "id": "t0AFCF0",
+  "ptrs": [
+   "0BDB08",
+   "0BDB20",
+   "0D0218"
+  ],
+  "slot": 8,
+  "jp": "ハウス",
+  "en": "",
+  "status": "todo"
+ },
+ {
+  "id": "t0AFCF8",
+  "ptrs": [
+   "0BDB04",
+   "0D02B8"
+  ],
+  "slot": 12,
+  "jp": "メガハウス",
+  "en": "",
+  "status": "todo"
+ },
+ {
+  "id": "t0AFD04",
+  "ptrs": [
+   "0BDB00",
+   "0D0290",
+   "0D10B4",
+   "0D1104",
+   "0D1154"
+  ],
+  "slot": 12,
+  "jp": "マウンテン",
+  "en": "",
+  "status": "todo"
+ },
+ {
+  "id": "t0AFD10",
+  "ptrs": [
+   "0BDAFC",
+   "0D0058"
+  ],
+  "slot": 12,
+  "jp": "ウォーター",
+  "en": "",
+  "status": "todo"
+ },
+ {
+  "id": "t0AFD1C",
+  "ptrs": [
+   "0BDAF8",
+   "0D0270"
+  ],
+  "slot": 8,
+  "jp": "ホール",
+  "en": "",
+  "status": "todo"
+ },
+ {
+  "id": "t0AFD24",
+  "ptrs": [
+   "0BDAF4",
+   "0D02D0"
+  ],
+  "slot": 8,
+  "jp": "ランド",
+  "en": "",
+  "status": "todo"
+ },
+ {
+  "id": "t0AFD2C",
+  "ptrs": [
+   "0BDAF0",
+   "0D00D8"
+  ],
+  "slot": 12,
+  "jp": "グラウンド",
+  "en": "",
+  "status": "todo"
+ },
+ {
+  "id": "t0AFD38",
+  "ptrs": [
+   "0BDAEC"
+  ],
+  "slot": 8,
+  "jp": "ダミー",
+  "en": "",
+  "status": "todo"
+ },
+ {
+  "id": "t0AFD40",
+  "ptrs": [
+   "0BDAE8"
+  ],
+  "slot": 28,
+  "jp": "げんざいの　セクタタイプ",
+  "en": "",
+  "status": "todo"
+ },
+ {
+  "id": "t0AFD5C",
+  "ptrs": [
+   "0BFADC"
+  ],
+  "slot": 16,
+  "jp": "サブウェイを",
+  "en": "",
+  "status": "todo"
+ },
+ {
+  "id": "t0AFD6C",
+  "ptrs": [
+   "0BFACC"
+  ],
+  "slot": 16,
+  "jp": "ファクトリーを",
+  "en": "",
+  "status": "todo"
+ },
+ {
+  "id": "t0AFD7C",
+  "ptrs": [
+   "0BFABC"
+  ],
+  "slot": 16,
+  "jp": "コロシアムを",
+  "en": "",
+  "status": "todo"
+ },
+ {
+  "id": "t0AFD8C",
+  "ptrs": [
+   "0BFAB4",
+   "0BFAC4",
+   "0BFAD4",
+   "0BFAE4"
+  ],
+  "slot": 24,
+  "jp": "ひつようになる　キット",
+  "en": "",
+  "status": "todo"
+ },
+ {
+  "id": "t0AFDA4",
+  "ptrs": [
+   "0BFAB0",
+   "0BFAC0",
+   "0BFAD0",
+   "0BFAE0"
+  ],
+  "slot": 16,
+  "jp": "たてるときに",
+  "en": "",
+  "status": "todo"
+ },
+ {
+  "id": "t0AFDB4",
+  "ptrs": [
+   "0BFAAC"
+  ],
+  "slot": 12,
+  "jp": "ショップを",
+  "en": "",
+  "status": "todo"
+ },
+ {
+  "id": "t0AFDC0",
+  "ptrs": [
+   "0BFA7C",
+   "0BFA8C",
+   "0BFA9C"
+  ],
+  "slot": 20,
+  "jp": "アーマーデバイスの",
+  "en": "",
+  "status": "todo"
+ },
+ {
+  "id": "t0AFDD4",
+  "ptrs": [
+   "0BFA74",
+   "0BFAA4"
+  ],
+  "slot": 12,
+  "jp": "３ポイント",
+  "en": "",
+  "status": "todo"
+ },
+ {
+  "id": "t0AFDE0",
+  "ptrs": [
+   "0BFA64",
+   "0BFA94"
+  ],
+  "slot": 12,
+  "jp": "２ポイント",
+  "en": "",
+  "status": "todo"
+ },
+ {
+  "id": "t0AFDEC",
+  "ptrs": [
+   "0BFA58",
+   "0BFA68",
+   "0BFA78",
+   "0BFA88",
+   "0BFA98",
+   "0BFAA8"
+  ],
+  "slot": 24,
+  "jp": "ふやすことが　できる",
+  "en": "",
+  "status": "todo"
+ },
+ {
+  "id": "t0AFE04",
+  "ptrs": [
+   "0BFA54",
+   "0BFA84"
+  ],
+  "slot": 12,
+  "jp": "１ポイント",
+  "en": "",
+  "status": "todo"
+ },
+ {
+  "id": "t0AFE10",
+  "ptrs": [
+   "0BFA50",
+   "0BFA60",
+   "0BFA70",
+   "0BFA80",
+   "0BFA90",
+   "0BFAA0"
+  ],
+  "slot": 20,
+  "jp": "プラスポイントを",
+  "en": "",
+  "status": "todo"
+ },
+ {
+  "id": "t0AFE24",
+  "ptrs": [
+   "0BFA4C",
+   "0BFA5C",
+   "0BFA6C"
+  ],
+  "slot": 20,
+  "jp": "ウェポンデバイスの",
+  "en": "",
+  "status": "todo"
+ },
+ {
+  "id": "t0AFE38",
+  "ptrs": [
+   "0BFA40"
+  ],
+  "slot": 12,
+  "jp": "すばやさを",
+  "en": "",
+  "status": "todo"
+ },
+ {
+  "id": "t0AFE44",
+  "ptrs": [
+   "0BFA30"
+  ],
+  "slot": 20,
+  "jp": "ぼうぎょりょくを",
+  "en": "",
+  "status": "todo"
+ },
+ {
+  "id": "t0AFE58",
+  "ptrs": [
+   "0BFA20"
+  ],
+  "slot": 20,
+  "jp": "こうげきりょくを",
+  "en": "",
+  "status": "todo"
+ },
+ {
+  "id": "t0AFE6C",
+  "ptrs": [
+   "0BFA14",
+   "0BFA24",
+   "0BFA34",
+   "0BFA44"
+  ],
+  "slot": 20,
+  "jp": "１ポイント　あげる",
+  "en": "",
+  "status": "todo"
+ },
+ {
+  "id": "t0AFE80",
+  "ptrs": [
+   "0BFA10"
+  ],
+  "slot": 16,
+  "jp": "さいだいＨＰを",
+  "en": "",
+  "status": "todo"
+ },
+ {
+  "id": "t0AFE90",
+  "ptrs": [
+   "0BFA0C",
+   "0BFA1C",
+   "0BFA2C",
+   "0BFA3C",
+   "0D0720"
+  ],
+  "slot": 12,
+  "jp": "ダイナの",
+  "en": "",
+  "status": "todo"
+ },
+ {
+  "id": "t0AFE9C",
+  "ptrs": [
+   "0BFA00"
+  ],
+  "slot": 20,
+  "jp": "けんこうに　する",
+  "en": "",
+  "status": "todo"
+ },
+ {
+  "id": "t0AFEB0",
+  "ptrs": [
+   "0BF9FC"
+  ],
+  "slot": 24,
+  "jp": "ダイナの　じょうたいを",
+  "en": "",
+  "status": "todo"
+ },
+ {
+  "id": "t0AFEC8",
+  "ptrs": [
+   "0BF9F0"
+  ],
+  "slot": 12,
+  "jp": "かんぜんに",
+  "en": "",
+  "status": "todo"
+ },
+ {
+  "id": "t0AFED4",
+  "ptrs": [
+   "0BF9E0"
+  ],
+  "slot": 16,
+  "jp": "１００ポイント",
+  "en": "",
+  "status": "todo"
+ },
+ {
+  "id": "t0AFEE4",
+  "ptrs": [
+   "0BF9D8",
+   "0BF9E8",
+   "0BF9F8",
+   "0BFA04",
+   "0BFA08",
+   "0BFA18",
+   "0BFA28",
+   "0BFA38",
+   "0BFA48",
+   "0BFAB8",
+   "0BFAC8",
+   "0BFAD8",
+   "0BFAE8"
+  ],
+  "slot": 4,
+  "jp": "　",
+  "en": "",
+  "status": "todo"
+ },
+ {
+  "id": "t0AFEE8",
+  "ptrs": [
+   "0BF9D4",
+   "0BF9E4",
+   "0BF9F4"
+  ],
+  "slot": 16,
+  "jp": "かいふくする",
+  "en": "",
+  "status": "todo"
+ },
+ {
+  "id": "t0AFEF8",
+  "ptrs": [
+   "0BF9D0"
+  ],
+  "slot": 16,
+  "jp": "３０ポイント",
+  "en": "",
+  "status": "todo"
+ },
+ {
+  "id": "t0AFF08",
+  "ptrs": [
+   "0BF9CC",
+   "0BF9DC",
+   "0BF9EC"
+  ],
+  "slot": 20,
+  "jp": "ダイナの　ＨＰを",
+  "en": "",
+  "status": "todo"
+ },
+ {
+  "id": "t0AFF1C",
+  "ptrs": [
+   "0BF9C8"
+  ],
+  "slot": 24,
+  "jp": "でんせつの　ほうせき",
+  "en": "",
+  "status": "todo"
+ },
+ {
+  "id": "t0AFF34",
+  "ptrs": [
+   "0BF9C4"
+  ],
+  "slot": 20,
+  "jp": "なぞに　つつまれた",
+  "en": "",
+  "status": "todo"
+ },
+ {
+  "id": "t0AFF48",
+  "ptrs": [
+   "0BF9C0"
+  ],
+  "slot": 20,
+  "jp": "ふれたことがない",
+  "en": "",
+  "status": "todo"
+ },
+ {
+  "id": "t0AFF5C",
+  "ptrs": [
+   "0BF9BC"
+  ],
+  "slot": 24,
+  "jp": "ほとんど　ひとの　めに",
+  "en": "",
+  "status": "todo"
+ },
+ {
+  "id": "t0AFF74",
+  "ptrs": [
+   "0BF9B8"
+  ],
+  "slot": 20,
+  "jp": "みどりの　ほうせき",
+  "en": "",
+  "status": "todo"
+ },
+ {
+  "id": "t0AFF88",
+  "ptrs": [
+   "0BF9A8"
+  ],
+  "slot": 20,
+  "jp": "きいろい　ほうせき",
+  "en": "",
+  "status": "todo"
+ },
+ {
+  "id": "t0AFF9C",
+  "ptrs": [
+   "0BF998"
+  ],
+  "slot": 20,
+  "jp": "あおい　ほうせき",
+  "en": "",
+  "status": "todo"
+ },
+ {
+  "id": "t0AFFB0",
+  "ptrs": [
+   "0BF988"
+  ],
+  "slot": 20,
+  "jp": "あかい　ほうせき",
+  "en": "",
+  "status": "todo"
+ },
+ {
+  "id": "t0AFFC4",
+  "ptrs": [
+   "0BF984",
+   "0BF994",
+   "0BF9A4",
+   "0BF9B4"
+  ],
+  "slot": 12,
+  "jp": "うみだす",
+  "en": "",
+  "status": "todo"
+ },
+ {
+  "id": "t0AFFD0",
+  "ptrs": [
+   "0BF978"
+  ],
+  "slot": 24,
+  "jp": "とうめいの　ほうせき",
+  "en": "",
+  "status": "todo"
+ },
+ {
+  "id": "t0AFFE8",
+  "ptrs": [
+   "0BF974"
+  ],
+  "slot": 20,
+  "jp": "うみだす　むしょく",
+  "en": "",
+  "status": "todo"
+ },
+ {
+  "id": "t0AFFFC",
+  "ptrs": [
+   "0BF970",
+   "0BF980",
+   "0BF990",
+   "0BF9A0",
+   "0BF9B0"
+  ],
+  "slot": 24,
+  "jp": "おおきな　エネルギーを",
+  "en": "",
+  "status": "todo"
+ }
+]

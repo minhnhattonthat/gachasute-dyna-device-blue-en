@@ -1,0 +1,2846 @@
+[
+ {
+  "id": "t0B3004",
+  "ptrs": [
+   "0C3188",
+   "0C4F80"
+  ],
+  "slot": 16,
+  "jp": "エレキピストル",
+  "en": "",
+  "status": "todo"
+ },
+ {
+  "id": "t0B3014",
+  "ptrs": [
+   "0C317C",
+   "0C4F6C"
+  ],
+  "slot": 16,
+  "jp": "アクアピストル",
+  "en": "",
+  "status": "todo"
+ },
+ {
+  "id": "t0B3024",
+  "ptrs": [
+   "0C3170",
+   "0C4F58"
+  ],
+  "slot": 16,
+  "jp": "フレアピストル",
+  "en": "",
+  "status": "todo"
+ },
+ {
+  "id": "t0B3034",
+  "ptrs": [
+   "0C3158",
+   "0C4F30"
+  ],
+  "slot": 20,
+  "jp": "サンドガトリング",
+  "en": "",
+  "status": "todo"
+ },
+ {
+  "id": "t0B3048",
+  "ptrs": [
+   "0C314C",
+   "0C4F1C"
+  ],
+  "slot": 20,
+  "jp": "エレキガトリング",
+  "en": "",
+  "status": "todo"
+ },
+ {
+  "id": "t0B305C",
+  "ptrs": [
+   "0C3140",
+   "0C4F08"
+  ],
+  "slot": 20,
+  "jp": "ミストガトリング",
+  "en": "",
+  "status": "todo"
+ },
+ {
+  "id": "t0B3070",
+  "ptrs": [
+   "0C3134",
+   "0C4EF4"
+  ],
+  "slot": 20,
+  "jp": "ヒートガトリング",
+  "en": "",
+  "status": "todo"
+ },
+ {
+  "id": "t0B3084",
+  "ptrs": [
+   "0C311C",
+   "0C4ECC"
+  ],
+  "slot": 16,
+  "jp": "アースハット",
+  "en": "",
+  "status": "todo"
+ },
+ {
+  "id": "t0B3094",
+  "ptrs": [
+   "0C3110",
+   "0C4EB8"
+  ],
+  "slot": 12,
+  "jp": "ライハット",
+  "en": "",
+  "status": "todo"
+ },
+ {
+  "id": "t0B30A0",
+  "ptrs": [
+   "0C3104",
+   "0C4EA4"
+  ],
+  "slot": 16,
+  "jp": "ミストハット",
+  "en": "",
+  "status": "todo"
+ },
+ {
+  "id": "t0B30B0",
+  "ptrs": [
+   "0C30F8",
+   "0C4E90"
+  ],
+  "slot": 12,
+  "jp": "ボムハット",
+  "en": "",
+  "status": "todo"
+ },
+ {
+  "id": "t0B30BC",
+  "ptrs": [
+   "0C30E0",
+   "0C4E68"
+  ],
+  "slot": 16,
+  "jp": "サンドポッド",
+  "en": "",
+  "status": "todo"
+ },
+ {
+  "id": "t0B30CC",
+  "ptrs": [
+   "0C30D4",
+   "0C4E54"
+  ],
+  "slot": 16,
+  "jp": "ボルトポッド",
+  "en": "",
+  "status": "todo"
+ },
+ {
+  "id": "t0B30DC",
+  "ptrs": [
+   "0C30C8",
+   "0C4E40"
+  ],
+  "slot": 16,
+  "jp": "ミストポッド",
+  "en": "",
+  "status": "todo"
+ },
+ {
+  "id": "t0B30EC",
+  "ptrs": [
+   "0C30BC",
+   "0C4E2C"
+  ],
+  "slot": 16,
+  "jp": "フレアポッド",
+  "en": "",
+  "status": "todo"
+ },
+ {
+  "id": "t0B30FC",
+  "ptrs": [
+   "0C30A4",
+   "0C4E04"
+  ],
+  "slot": 20,
+  "jp": "アースショルダー",
+  "en": "",
+  "status": "todo"
+ },
+ {
+  "id": "t0B3110",
+  "ptrs": [
+   "0C3098",
+   "0C4DF0"
+  ],
+  "slot": 20,
+  "jp": "ボルトショルダー",
+  "en": "",
+  "status": "todo"
+ },
+ {
+  "id": "t0B3124",
+  "ptrs": [
+   "0C308C",
+   "0C4DDC"
+  ],
+  "slot": 20,
+  "jp": "ミストショルダー",
+  "en": "",
+  "status": "todo"
+ },
+ {
+  "id": "t0B3138",
+  "ptrs": [
+   "0C3080",
+   "0C4DC8"
+  ],
+  "slot": 20,
+  "jp": "ヒートショルダー",
+  "en": "",
+  "status": "todo"
+ },
+ {
+  "id": "t0B314C",
+  "ptrs": [
+   "0C3068",
+   "0C4DA0"
+  ],
+  "slot": 16,
+  "jp": "アースシザー",
+  "en": "",
+  "status": "todo"
+ },
+ {
+  "id": "t0B315C",
+  "ptrs": [
+   "0C305C",
+   "0C4D8C"
+  ],
+  "slot": 16,
+  "jp": "ボルトシザー",
+  "en": "",
+  "status": "todo"
+ },
+ {
+  "id": "t0B316C",
+  "ptrs": [
+   "0C3050",
+   "0C4D78"
+  ],
+  "slot": 16,
+  "jp": "アイスシザー",
+  "en": "",
+  "status": "todo"
+ },
+ {
+  "id": "t0B317C",
+  "ptrs": [
+   "0C3044",
+   "0C4D64"
+  ],
+  "slot": 12,
+  "jp": "ボムシザー",
+  "en": "",
+  "status": "todo"
+ },
+ {
+  "id": "t0B3188",
+  "ptrs": [
+   "0C302C",
+   "0C4D3C"
+  ],
+  "slot": 16,
+  "jp": "サンドボウル",
+  "en": "",
+  "status": "todo"
+ },
+ {
+  "id": "t0B3198",
+  "ptrs": [
+   "0C3020",
+   "0C4D28"
+  ],
+  "slot": 16,
+  "jp": "エレキボウル",
+  "en": "",
+  "status": "todo"
+ },
+ {
+  "id": "t0B31A8",
+  "ptrs": [
+   "0C3014",
+   "0C4D14"
+  ],
+  "slot": 16,
+  "jp": "アクアボウル",
+  "en": "",
+  "status": "todo"
+ },
+ {
+  "id": "t0B31B8",
+  "ptrs": [
+   "0C3008",
+   "0C4D00"
+  ],
+  "slot": 16,
+  "jp": "フレアボウル",
+  "en": "",
+  "status": "todo"
+ },
+ {
+  "id": "t0B31C8",
+  "ptrs": [
+   "0C2FF0",
+   "0C4CD8"
+  ],
+  "slot": 20,
+  "jp": "グランマシンガン",
+  "en": "",
+  "status": "todo"
+ },
+ {
+  "id": "t0B31DC",
+  "ptrs": [
+   "0C2FE4",
+   "0C4CC4"
+  ],
+  "slot": 16,
+  "jp": "ライマシンガン",
+  "en": "",
+  "status": "todo"
+ },
+ {
+  "id": "t0B31EC",
+  "ptrs": [
+   "0C2FD8",
+   "0C4CB0"
+  ],
+  "slot": 20,
+  "jp": "アイスマシンガン",
+  "en": "",
+  "status": "todo"
+ },
+ {
+  "id": "t0B3200",
+  "ptrs": [
+   "0C2FCC",
+   "0C4C9C"
+  ],
+  "slot": 20,
+  "jp": "ヒートマシンガン",
+  "en": "",
+  "status": "todo"
+ },
+ {
+  "id": "t0B3214",
+  "ptrs": [
+   "0C2FB4",
+   "0C4C74"
+  ],
+  "slot": 16,
+  "jp": "フォトンサンド",
+  "en": "",
+  "status": "todo"
+ },
+ {
+  "id": "t0B3224",
+  "ptrs": [
+   "0C2FA8",
+   "0C4C60"
+  ],
+  "slot": 16,
+  "jp": "フォトンボルト",
+  "en": "",
+  "status": "todo"
+ },
+ {
+  "id": "t0B3234",
+  "ptrs": [
+   "0C2F9C",
+   "0C4C4C"
+  ],
+  "slot": 16,
+  "jp": "フォトンミスト",
+  "en": "",
+  "status": "todo"
+ },
+ {
+  "id": "t0B3244",
+  "ptrs": [
+   "0C2F90",
+   "0C4C38"
+  ],
+  "slot": 16,
+  "jp": "フォトンボム",
+  "en": "",
+  "status": "todo"
+ },
+ {
+  "id": "t0B3254",
+  "ptrs": [
+   "0C2F78",
+   "0C4C10"
+  ],
+  "slot": 16,
+  "jp": "サンドバズーカ",
+  "en": "",
+  "status": "todo"
+ },
+ {
+  "id": "t0B3264",
+  "ptrs": [
+   "0C2F6C",
+   "0C4BFC"
+  ],
+  "slot": 16,
+  "jp": "ボルトバズーカ",
+  "en": "",
+  "status": "todo"
+ },
+ {
+  "id": "t0B3274",
+  "ptrs": [
+   "0C2F60",
+   "0C4BE8"
+  ],
+  "slot": 16,
+  "jp": "ミストバズーカ",
+  "en": "",
+  "status": "todo"
+ },
+ {
+  "id": "t0B3284",
+  "ptrs": [
+   "0C2F54",
+   "0C4BD4"
+  ],
+  "slot": 16,
+  "jp": "フレアバズーカ",
+  "en": "",
+  "status": "todo"
+ },
+ {
+  "id": "t0B3294",
+  "ptrs": [
+   "0C2F3C",
+   "0C4BAC"
+  ],
+  "slot": 16,
+  "jp": "サンドロケット",
+  "en": "",
+  "status": "todo"
+ },
+ {
+  "id": "t0B32A4",
+  "ptrs": [
+   "0C2F30",
+   "0C4B98"
+  ],
+  "slot": 16,
+  "jp": "ボルトロケット",
+  "en": "",
+  "status": "todo"
+ },
+ {
+  "id": "t0B32B4",
+  "ptrs": [
+   "0C2F24",
+   "0C4B84"
+  ],
+  "slot": 16,
+  "jp": "ミストロケット",
+  "en": "",
+  "status": "todo"
+ },
+ {
+  "id": "t0B32C4",
+  "ptrs": [
+   "0C2F18",
+   "0C4B70"
+  ],
+  "slot": 16,
+  "jp": "フレアロケット",
+  "en": "",
+  "status": "todo"
+ },
+ {
+  "id": "t0B32D4",
+  "ptrs": [
+   "0C2F00",
+   "0C4B48"
+  ],
+  "slot": 16,
+  "jp": "サンドネイル",
+  "en": "",
+  "status": "todo"
+ },
+ {
+  "id": "t0B32E4",
+  "ptrs": [
+   "0C2EF4",
+   "0C4B34"
+  ],
+  "slot": 12,
+  "jp": "ライネイル",
+  "en": "",
+  "status": "todo"
+ },
+ {
+  "id": "t0B32F0",
+  "ptrs": [
+   "0C2EE8",
+   "0C4B20"
+  ],
+  "slot": 16,
+  "jp": "アイスネイル",
+  "en": "",
+  "status": "todo"
+ },
+ {
+  "id": "t0B3300",
+  "ptrs": [
+   "0C2EDC",
+   "0C4B0C"
+  ],
+  "slot": 12,
+  "jp": "ボムネイル",
+  "en": "",
+  "status": "todo"
+ },
+ {
+  "id": "t0B330C",
+  "ptrs": [
+   "0C2EC4",
+   "0C4AE4"
+  ],
+  "slot": 16,
+  "jp": "サンドウィスプ",
+  "en": "",
+  "status": "todo"
+ },
+ {
+  "id": "t0B331C",
+  "ptrs": [
+   "0C2EB8",
+   "0C4AD0"
+  ],
+  "slot": 16,
+  "jp": "ボルトウィスプ",
+  "en": "",
+  "status": "todo"
+ },
+ {
+  "id": "t0B332C",
+  "ptrs": [
+   "0C2EAC",
+   "0C4ABC"
+  ],
+  "slot": 16,
+  "jp": "アクアウィスプ",
+  "en": "",
+  "status": "todo"
+ },
+ {
+  "id": "t0B333C",
+  "ptrs": [
+   "0C2EA0",
+   "0C4AA8"
+  ],
+  "slot": 16,
+  "jp": "ヒートウィスプ",
+  "en": "",
+  "status": "todo"
+ },
+ {
+  "id": "t0B334C",
+  "ptrs": [
+   "0C2E88",
+   "0C4A80"
+  ],
+  "slot": 16,
+  "jp": "サンドカッター",
+  "en": "",
+  "status": "todo"
+ },
+ {
+  "id": "t0B335C",
+  "ptrs": [
+   "0C2E7C",
+   "0C4A6C"
+  ],
+  "slot": 16,
+  "jp": "エレキカッター",
+  "en": "",
+  "status": "todo"
+ },
+ {
+  "id": "t0B336C",
+  "ptrs": [
+   "0C2E70",
+   "0C4A58"
+  ],
+  "slot": 16,
+  "jp": "ミストカッター",
+  "en": "",
+  "status": "todo"
+ },
+ {
+  "id": "t0B337C",
+  "ptrs": [
+   "0C2E64",
+   "0C4A44"
+  ],
+  "slot": 16,
+  "jp": "ヒートカッター",
+  "en": "",
+  "status": "todo"
+ },
+ {
+  "id": "t0B338C",
+  "ptrs": [
+   "0C2E4C",
+   "0C4A1C"
+  ],
+  "slot": 20,
+  "jp": "グランパニッシュ",
+  "en": "",
+  "status": "todo"
+ },
+ {
+  "id": "t0B33A0",
+  "ptrs": [
+   "0C2E40",
+   "0C4A08"
+  ],
+  "slot": 20,
+  "jp": "エレキパニッシュ",
+  "en": "",
+  "status": "todo"
+ },
+ {
+  "id": "t0B33B4",
+  "ptrs": [
+   "0C2E34",
+   "0C49F4"
+  ],
+  "slot": 20,
+  "jp": "アイスパニッシュ",
+  "en": "",
+  "status": "todo"
+ },
+ {
+  "id": "t0B33C8",
+  "ptrs": [
+   "0C2E28",
+   "0C49E0"
+  ],
+  "slot": 20,
+  "jp": "フレアパニッシュ",
+  "en": "",
+  "status": "todo"
+ },
+ {
+  "id": "t0B33DC",
+  "ptrs": [
+   "0C2E10",
+   "0C49B8"
+  ],
+  "slot": 16,
+  "jp": "サンドチェイン",
+  "en": "",
+  "status": "todo"
+ },
+ {
+  "id": "t0B33EC",
+  "ptrs": [
+   "0C2E04",
+   "0C49A4"
+  ],
+  "slot": 16,
+  "jp": "エレキチェイン",
+  "en": "",
+  "status": "todo"
+ },
+ {
+  "id": "t0B33FC",
+  "ptrs": [
+   "0C2DF8",
+   "0C4990"
+  ],
+  "slot": 16,
+  "jp": "ミストチェイン",
+  "en": "",
+  "status": "todo"
+ },
+ {
+  "id": "t0B340C",
+  "ptrs": [
+   "0C2DEC",
+   "0C497C"
+  ],
+  "slot": 16,
+  "jp": "ボムチェイン",
+  "en": "",
+  "status": "todo"
+ },
+ {
+  "id": "t0B341C",
+  "ptrs": [
+   "0C2DD4",
+   "0C4954"
+  ],
+  "slot": 16,
+  "jp": "グランレーザー",
+  "en": "",
+  "status": "todo"
+ },
+ {
+  "id": "t0B342C",
+  "ptrs": [
+   "0C2DC8",
+   "0C4940"
+  ],
+  "slot": 16,
+  "jp": "ライレーザー",
+  "en": "",
+  "status": "todo"
+ },
+ {
+  "id": "t0B343C",
+  "ptrs": [
+   "0C2DBC",
+   "0C492C"
+  ],
+  "slot": 16,
+  "jp": "アクアレーザー",
+  "en": "",
+  "status": "todo"
+ },
+ {
+  "id": "t0B344C",
+  "ptrs": [
+   "0C2DB0",
+   "0C4918"
+  ],
+  "slot": 16,
+  "jp": "ヒートレーザー",
+  "en": "",
+  "status": "todo"
+ },
+ {
+  "id": "t0B345C",
+  "ptrs": [
+   "0C2D98",
+   "0C48F0"
+  ],
+  "slot": 16,
+  "jp": "グランキャノン",
+  "en": "",
+  "status": "todo"
+ },
+ {
+  "id": "t0B346C",
+  "ptrs": [
+   "0C2D8C",
+   "0C48DC"
+  ],
+  "slot": 16,
+  "jp": "ライキャノン",
+  "en": "",
+  "status": "todo"
+ },
+ {
+  "id": "t0B347C",
+  "ptrs": [
+   "0C2D80",
+   "0C48C8"
+  ],
+  "slot": 16,
+  "jp": "アイスキャノン",
+  "en": "",
+  "status": "todo"
+ },
+ {
+  "id": "t0B348C",
+  "ptrs": [
+   "0C2D74",
+   "0C48B4"
+  ],
+  "slot": 16,
+  "jp": "ボムキャノン",
+  "en": "",
+  "status": "todo"
+ },
+ {
+  "id": "t0B349C",
+  "ptrs": [
+   "0C2D5C",
+   "0C488C"
+  ],
+  "slot": 16,
+  "jp": "グランカリバー",
+  "en": "",
+  "status": "todo"
+ },
+ {
+  "id": "t0B34AC",
+  "ptrs": [
+   "0C2D50",
+   "0C4878"
+  ],
+  "slot": 16,
+  "jp": "ライカリバー",
+  "en": "",
+  "status": "todo"
+ },
+ {
+  "id": "t0B34BC",
+  "ptrs": [
+   "0C2D44",
+   "0C4864"
+  ],
+  "slot": 16,
+  "jp": "アクアカリバー",
+  "en": "",
+  "status": "todo"
+ },
+ {
+  "id": "t0B34CC",
+  "ptrs": [
+   "0C2D38",
+   "0C4850"
+  ],
+  "slot": 16,
+  "jp": "フレアカリバー",
+  "en": "",
+  "status": "todo"
+ },
+ {
+  "id": "t0B34DC",
+  "ptrs": [
+   "0C2D20",
+   "0C4828"
+  ],
+  "slot": 16,
+  "jp": "グランアーム",
+  "en": "",
+  "status": "todo"
+ },
+ {
+  "id": "t0B34EC",
+  "ptrs": [
+   "0C2D14",
+   "0C4814"
+  ],
+  "slot": 16,
+  "jp": "ボルトアーム",
+  "en": "",
+  "status": "todo"
+ },
+ {
+  "id": "t0B34FC",
+  "ptrs": [
+   "0C2D08",
+   "0C4800"
+  ],
+  "slot": 16,
+  "jp": "アイスアーム",
+  "en": "",
+  "status": "todo"
+ },
+ {
+  "id": "t0B350C",
+  "ptrs": [
+   "0C2CFC",
+   "0C47EC"
+  ],
+  "slot": 16,
+  "jp": "ヒートアーム",
+  "en": "",
+  "status": "todo"
+ },
+ {
+  "id": "t0B351C",
+  "ptrs": [
+   "0C2CE4",
+   "0C47C4"
+  ],
+  "slot": 16,
+  "jp": "ネクロアース",
+  "en": "",
+  "status": "todo"
+ },
+ {
+  "id": "t0B352C",
+  "ptrs": [
+   "0C2CD8",
+   "0C47B0"
+  ],
+  "slot": 16,
+  "jp": "ネクロライズ",
+  "en": "",
+  "status": "todo"
+ },
+ {
+  "id": "t0B353C",
+  "ptrs": [
+   "0C2CCC",
+   "0C479C"
+  ],
+  "slot": 16,
+  "jp": "ネクロアイス",
+  "en": "",
+  "status": "todo"
+ },
+ {
+  "id": "t0B354C",
+  "ptrs": [
+   "0C2CC0",
+   "0C4788"
+  ],
+  "slot": 16,
+  "jp": "ネクロボンバー",
+  "en": "",
+  "status": "todo"
+ },
+ {
+  "id": "t0B355C",
+  "ptrs": [
+   "0C2CA8",
+   "0C4760"
+  ],
+  "slot": 20,
+  "jp": "アースランチャー",
+  "en": "",
+  "status": "todo"
+ },
+ {
+  "id": "t0B3570",
+  "ptrs": [
+   "0C2C9C",
+   "0C474C"
+  ],
+  "slot": 20,
+  "jp": "エレキランチャー",
+  "en": "",
+  "status": "todo"
+ },
+ {
+  "id": "t0B3584",
+  "ptrs": [
+   "0C2C90",
+   "0C4738"
+  ],
+  "slot": 20,
+  "jp": "アクアランチャー",
+  "en": "",
+  "status": "todo"
+ },
+ {
+  "id": "t0B3598",
+  "ptrs": [
+   "0C2C84",
+   "0C4724"
+  ],
+  "slot": 16,
+  "jp": "ボムランチャー",
+  "en": "",
+  "status": "todo"
+ },
+ {
+  "id": "t0B35A8",
+  "ptrs": [
+   "0C2C6C",
+   "0C46FC"
+  ],
+  "slot": 20,
+  "jp": "グランビームガン",
+  "en": "",
+  "status": "todo"
+ },
+ {
+  "id": "t0B35BC",
+  "ptrs": [
+   "0C2C60",
+   "0C46E8"
+  ],
+  "slot": 16,
+  "jp": "ライビームガン",
+  "en": "",
+  "status": "todo"
+ },
+ {
+  "id": "t0B35CC",
+  "ptrs": [
+   "0C2C54",
+   "0C46D4"
+  ],
+  "slot": 20,
+  "jp": "アクアビームガン",
+  "en": "",
+  "status": "todo"
+ },
+ {
+  "id": "t0B35E0",
+  "ptrs": [
+   "0C2C48",
+   "0C46C0"
+  ],
+  "slot": 16,
+  "jp": "ボムビームガン",
+  "en": "",
+  "status": "todo"
+ },
+ {
+  "id": "t0B35F0",
+  "ptrs": [
+   "0C2C30",
+   "0C4698"
+  ],
+  "slot": 20,
+  "jp": "アースバッテリー",
+  "en": "",
+  "status": "todo"
+ },
+ {
+  "id": "t0B3604",
+  "ptrs": [
+   "0C2C24",
+   "0C4684"
+  ],
+  "slot": 16,
+  "jp": "ライバッテリー",
+  "en": "",
+  "status": "todo"
+ },
+ {
+  "id": "t0B3614",
+  "ptrs": [
+   "0C2C18",
+   "0C4670"
+  ],
+  "slot": 20,
+  "jp": "アクアバッテリー",
+  "en": "",
+  "status": "todo"
+ },
+ {
+  "id": "t0B3628",
+  "ptrs": [
+   "0C2C0C",
+   "0C465C"
+  ],
+  "slot": 20,
+  "jp": "ヒートバッテリー",
+  "en": "",
+  "status": "todo"
+ },
+ {
+  "id": "t0B363C",
+  "ptrs": [
+   "0C2BF4",
+   "0C4634"
+  ],
+  "slot": 16,
+  "jp": "グランドリル",
+  "en": "",
+  "status": "todo"
+ },
+ {
+  "id": "t0B364C",
+  "ptrs": [
+   "0C2BE8",
+   "0C4620"
+  ],
+  "slot": 16,
+  "jp": "ボルトドリル",
+  "en": "",
+  "status": "todo"
+ },
+ {
+  "id": "t0B365C",
+  "ptrs": [
+   "0C2BDC",
+   "0C460C"
+  ],
+  "slot": 16,
+  "jp": "アクアドリル",
+  "en": "",
+  "status": "todo"
+ },
+ {
+  "id": "t0B366C",
+  "ptrs": [
+   "0C2BD0",
+   "0C45F8"
+  ],
+  "slot": 16,
+  "jp": "ヒートドリル",
+  "en": "",
+  "status": "todo"
+ },
+ {
+  "id": "t0B367C",
+  "ptrs": [
+   "0C2BB8",
+   "0C45D0"
+  ],
+  "slot": 20,
+  "jp": "アーススタンガン",
+  "en": "",
+  "status": "todo"
+ },
+ {
+  "id": "t0B3690",
+  "ptrs": [
+   "0C2BAC",
+   "0C45BC"
+  ],
+  "slot": 20,
+  "jp": "エレキスタンガン",
+  "en": "",
+  "status": "todo"
+ },
+ {
+  "id": "t0B36A4",
+  "ptrs": [
+   "0C2BA0",
+   "0C45A8"
+  ],
+  "slot": 20,
+  "jp": "アイススタンガン",
+  "en": "",
+  "status": "todo"
+ },
+ {
+  "id": "t0B36B8",
+  "ptrs": [
+   "0C2B94",
+   "0C4594"
+  ],
+  "slot": 16,
+  "jp": "ボムスタンガン",
+  "en": "",
+  "status": "todo"
+ },
+ {
+  "id": "t0B36C8",
+  "ptrs": [
+   "0C2B7C",
+   "0C456C"
+  ],
+  "slot": 16,
+  "jp": "アースリング",
+  "en": "",
+  "status": "todo"
+ },
+ {
+  "id": "t0B36D8",
+  "ptrs": [
+   "0C2B70",
+   "0C4558"
+  ],
+  "slot": 16,
+  "jp": "エレキリング",
+  "en": "",
+  "status": "todo"
+ },
+ {
+  "id": "t0B36E8",
+  "ptrs": [
+   "0C2B64",
+   "0C4544"
+  ],
+  "slot": 16,
+  "jp": "アクアリング",
+  "en": "",
+  "status": "todo"
+ },
+ {
+  "id": "t0B36F8",
+  "ptrs": [
+   "0C2B58",
+   "0C4530"
+  ],
+  "slot": 16,
+  "jp": "ヒートリング",
+  "en": "",
+  "status": "todo"
+ },
+ {
+  "id": "t0B3708",
+  "ptrs": [
+   "0C2B40",
+   "0C4508"
+  ],
+  "slot": 16,
+  "jp": "グラントリック",
+  "en": "",
+  "status": "todo"
+ },
+ {
+  "id": "t0B3718",
+  "ptrs": [
+   "0C2B34",
+   "0C44F4"
+  ],
+  "slot": 16,
+  "jp": "エレクトリック",
+  "en": "",
+  "status": "todo"
+ },
+ {
+  "id": "t0B3728",
+  "ptrs": [
+   "0C2B28",
+   "0C44E0"
+  ],
+  "slot": 16,
+  "jp": "アクアトリック",
+  "en": "",
+  "status": "todo"
+ },
+ {
+  "id": "t0B3738",
+  "ptrs": [
+   "0C2B1C",
+   "0C44CC"
+  ],
+  "slot": 16,
+  "jp": "フレアトリック",
+  "en": "",
+  "status": "todo"
+ },
+ {
+  "id": "t0B3748",
+  "ptrs": [
+   "0C2B04",
+   "0D1218"
+  ],
+  "slot": 20,
+  "jp": "はりてみだれうち",
+  "en": "",
+  "status": "todo"
+ },
+ {
+  "id": "t0B375C",
+  "ptrs": [
+   "0C2AF8"
+  ],
+  "slot": 12,
+  "jp": "とつげき",
+  "en": "",
+  "status": "todo"
+ },
+ {
+  "id": "t0B3768",
+  "ptrs": [
+   "0C2AEC"
+  ],
+  "slot": 12,
+  "jp": "しめつける",
+  "en": "",
+  "status": "todo"
+ },
+ {
+  "id": "t0B3774",
+  "ptrs": [
+   "0C2AE0"
+  ],
+  "slot": 12,
+  "jp": "たいあたり",
+  "en": "",
+  "status": "todo"
+ },
+ {
+  "id": "t0B3780",
+  "ptrs": [
+   "0C2AD4"
+  ],
+  "slot": 12,
+  "jp": "ころがる",
+  "en": "",
+  "status": "todo"
+ },
+ {
+  "id": "t0B378C",
+  "ptrs": [
+   "0C2AC8"
+  ],
+  "slot": 12,
+  "jp": "ねんりき",
+  "en": "",
+  "status": "todo"
+ },
+ {
+  "id": "t0B3798",
+  "ptrs": [
+   "0C2ABC"
+  ],
+  "slot": 8,
+  "jp": "のろい",
+  "en": "",
+  "status": "todo"
+ },
+ {
+  "id": "t0B37A0",
+  "ptrs": [
+   "0C2AB0"
+  ],
+  "slot": 8,
+  "jp": "おどる",
+  "en": "",
+  "status": "todo"
+ },
+ {
+  "id": "t0B37A8",
+  "ptrs": [
+   "0C2AA4"
+  ],
+  "slot": 8,
+  "jp": "かじる",
+  "en": "",
+  "status": "todo"
+ },
+ {
+  "id": "t0B37B0",
+  "ptrs": [
+   "0C2A98"
+  ],
+  "slot": 16,
+  "jp": "きあいをいれる",
+  "en": "",
+  "status": "todo"
+ },
+ {
+  "id": "t0B37C0",
+  "ptrs": [
+   "0C2A8C"
+  ],
+  "slot": 12,
+  "jp": "はねまわる",
+  "en": "",
+  "status": "todo"
+ },
+ {
+  "id": "t0B37CC",
+  "ptrs": [
+   "0C2A80"
+  ],
+  "slot": 16,
+  "jp": "マッハタックル",
+  "en": "",
+  "status": "todo"
+ },
+ {
+  "id": "t0B37DC",
+  "ptrs": [
+   "0C2A74"
+  ],
+  "slot": 16,
+  "jp": "さいみんじゅつ",
+  "en": "",
+  "status": "todo"
+ },
+ {
+  "id": "t0B37EC",
+  "ptrs": [
+   "0C2A68"
+  ],
+  "slot": 16,
+  "jp": "ドクのシッポ",
+  "en": "",
+  "status": "todo"
+ },
+ {
+  "id": "t0B37FC",
+  "ptrs": [
+   "0C2A5C"
+  ],
+  "slot": 16,
+  "jp": "ロングホーン",
+  "en": "",
+  "status": "todo"
+ },
+ {
+  "id": "t0B380C",
+  "ptrs": [
+   "0C2A50"
+  ],
+  "slot": 8,
+  "jp": "ビンタ",
+  "en": "",
+  "status": "todo"
+ },
+ {
+  "id": "t0B3814",
+  "ptrs": [
+   "0C2A44"
+  ],
+  "slot": 12,
+  "jp": "てっけん",
+  "en": "",
+  "status": "todo"
+ },
+ {
+  "id": "t0B3820",
+  "ptrs": [
+   "0C2A38"
+  ],
+  "slot": 12,
+  "jp": "ひっかく",
+  "en": "",
+  "status": "todo"
+ },
+ {
+  "id": "t0B382C",
+  "ptrs": [
+   "0C2A2C"
+  ],
+  "slot": 8,
+  "jp": "たえる",
+  "en": "",
+  "status": "todo"
+ },
+ {
+  "id": "t0B3834",
+  "ptrs": [
+   "0C2A20"
+  ],
+  "slot": 8,
+  "jp": "さけぶ",
+  "en": "",
+  "status": "todo"
+ },
+ {
+  "id": "t0B383C",
+  "ptrs": [
+   "0C2A14"
+  ],
+  "slot": 12,
+  "jp": "のしかかる",
+  "en": "",
+  "status": "todo"
+ },
+ {
+  "id": "t0B3848",
+  "ptrs": [
+   "0C2A08"
+  ],
+  "slot": 16,
+  "jp": "ねむりのほうし",
+  "en": "",
+  "status": "todo"
+ },
+ {
+  "id": "t0B3858",
+  "ptrs": [
+   "0C29FC"
+  ],
+  "slot": 16,
+  "jp": "ドクのほうし",
+  "en": "",
+  "status": "todo"
+ },
+ {
+  "id": "t0B3868",
+  "ptrs": [
+   "0C29F0"
+  ],
+  "slot": 8,
+  "jp": "はれつ",
+  "en": "",
+  "status": "todo"
+ },
+ {
+  "id": "t0B3870",
+  "ptrs": [
+   "0C29E4"
+  ],
+  "slot": 20,
+  "jp": "かふんまきちらし",
+  "en": "",
+  "status": "todo"
+ },
+ {
+  "id": "t0B3884",
+  "ptrs": [
+   "0C29D8"
+  ],
+  "slot": 12,
+  "jp": "ツタがらみ",
+  "en": "",
+  "status": "todo"
+ },
+ {
+  "id": "t0B3890",
+  "ptrs": [
+   "0C29CC"
+  ],
+  "slot": 12,
+  "jp": "かぶりつく",
+  "en": "",
+  "status": "todo"
+ },
+ {
+  "id": "t0B389C",
+  "ptrs": [
+   "0C29C0"
+  ],
+  "slot": 12,
+  "jp": "ふんばる",
+  "en": "",
+  "status": "todo"
+ },
+ {
+  "id": "t0B38A8",
+  "ptrs": [
+   "0C29B4"
+  ],
+  "slot": 12,
+  "jp": "ぶちかまし",
+  "en": "",
+  "status": "todo"
+ },
+ {
+  "id": "t0B38B4",
+  "ptrs": [
+   "0C29A8"
+  ],
+  "slot": 12,
+  "jp": "ドクバリ",
+  "en": "",
+  "status": "todo"
+ },
+ {
+  "id": "t0B38C0",
+  "ptrs": [
+   "0C299C"
+  ],
+  "slot": 16,
+  "jp": "するどいキバ",
+  "en": "",
+  "status": "todo"
+ },
+ {
+  "id": "t0B38D0",
+  "ptrs": [
+   "0C2990"
+  ],
+  "slot": 16,
+  "jp": "ちからをためる",
+  "en": "",
+  "status": "todo"
+ },
+ {
+  "id": "t0B38E0",
+  "ptrs": [
+   "0C2984"
+  ],
+  "slot": 12,
+  "jp": "つきさす",
+  "en": "",
+  "status": "todo"
+ },
+ {
+  "id": "t0B38EC",
+  "ptrs": [
+   "0C2978"
+  ],
+  "slot": 16,
+  "jp": "ちょうおんぱ",
+  "en": "",
+  "status": "todo"
+ },
+ {
+  "id": "t0B38FC",
+  "ptrs": [
+   "0C296C"
+  ],
+  "slot": 16,
+  "jp": "ヒレチョップ",
+  "en": "",
+  "status": "todo"
+ },
+ {
+  "id": "t0B390C",
+  "ptrs": [
+   "0C2960"
+  ],
+  "slot": 12,
+  "jp": "くいちぎる",
+  "en": "",
+  "status": "todo"
+ },
+ {
+  "id": "t0B3918",
+  "ptrs": [
+   "0C2954"
+  ],
+  "slot": 12,
+  "jp": "えんまく",
+  "en": "",
+  "status": "todo"
+ },
+ {
+  "id": "t0B3924",
+  "ptrs": [
+   "0C2948"
+  ],
+  "slot": 16,
+  "jp": "カラにこもる",
+  "en": "",
+  "status": "todo"
+ },
+ {
+  "id": "t0B3934",
+  "ptrs": [
+   "0C293C"
+  ],
+  "slot": 16,
+  "jp": "ようかいえき",
+  "en": "",
+  "status": "todo"
+ },
+ {
+  "id": "t0B3944",
+  "ptrs": [
+   "0C2930"
+  ],
+  "slot": 12,
+  "jp": "かたくなる",
+  "en": "",
+  "status": "todo"
+ },
+ {
+  "id": "t0B3950",
+  "ptrs": [
+   "0C2924"
+  ],
+  "slot": 8,
+  "jp": "はねる",
+  "en": "",
+  "status": "todo"
+ },
+ {
+  "id": "t0B3958",
+  "ptrs": [
+   "0C2918"
+  ],
+  "slot": 8,
+  "jp": "はさむ",
+  "en": "",
+  "status": "todo"
+ },
+ {
+  "id": "t0B3960",
+  "ptrs": [
+   "0C290C"
+  ],
+  "slot": 16,
+  "jp": "こうそくいどう",
+  "en": "",
+  "status": "todo"
+ },
+ {
+  "id": "t0B3970",
+  "ptrs": [
+   "0C2900"
+  ],
+  "slot": 8,
+  "jp": "つつく",
+  "en": "",
+  "status": "todo"
+ },
+ {
+  "id": "t0B3978",
+  "ptrs": [
+   "0C28F4"
+  ],
+  "slot": 12,
+  "jp": "こもりうた",
+  "en": "",
+  "status": "todo"
+ },
+ {
+  "id": "t0B3984",
+  "ptrs": [
+   "0C28E8"
+  ],
+  "slot": 16,
+  "jp": "するどいツメ",
+  "en": "",
+  "status": "todo"
+ },
+ {
+  "id": "t0B3994",
+  "ptrs": [
+   "0C28DC"
+  ],
+  "slot": 16,
+  "jp": "がなりたてる",
+  "en": "",
+  "status": "todo"
+ },
+ {
+  "id": "t0B39A4",
+  "ptrs": [
+   "0C28D0"
+  ],
+  "slot": 12,
+  "jp": "ついばむ",
+  "en": "",
+  "status": "todo"
+ },
+ {
+  "id": "t0B39B0",
+  "ptrs": [
+   "0C28C4"
+  ],
+  "slot": 16,
+  "jp": "コウラにこもる",
+  "en": "",
+  "status": "todo"
+ },
+ {
+  "id": "t0B39C0",
+  "ptrs": [
+   "0C28B8"
+  ],
+  "slot": 12,
+  "jp": "ふみつける",
+  "en": "",
+  "status": "todo"
+ },
+ {
+  "id": "t0B39CC",
+  "ptrs": [
+   "0C28AC"
+  ],
+  "slot": 12,
+  "jp": "とっしん",
+  "en": "",
+  "status": "todo"
+ },
+ {
+  "id": "t0B39D8",
+  "ptrs": [
+   "0C28A0"
+  ],
+  "slot": 12,
+  "jp": "ツノでつく",
+  "en": "",
+  "status": "todo"
+ },
+ {
+  "id": "t0B39E4",
+  "ptrs": [
+   "0C2894"
+  ],
+  "slot": 8,
+  "jp": "ほえる",
+  "en": "",
+  "status": "todo"
+ },
+ {
+  "id": "t0B39EC",
+  "ptrs": [
+   "0C2888"
+  ],
+  "slot": 12,
+  "jp": "かみつく",
+  "en": "",
+  "status": "todo"
+ },
+ {
+  "id": "t0B39F8",
+  "ptrs": [
+   "0C287C"
+  ],
+  "slot": 16,
+  "jp": "きゅうこうか",
+  "en": "",
+  "status": "todo"
+ },
+ {
+  "id": "t0B3A08",
+  "ptrs": [
+   "0C2870"
+  ],
+  "slot": 8,
+  "jp": "ずつき",
+  "en": "",
+  "status": "todo"
+ },
+ {
+  "id": "t0B3A10",
+  "ptrs": [
+   "0C2864"
+  ],
+  "slot": 8,
+  "jp": "パンチ",
+  "en": "",
+  "status": "todo"
+ },
+ {
+  "id": "t0B3A18",
+  "ptrs": [
+   "0C4424"
+  ],
+  "slot": 12,
+  "jp": "ゼロイー",
+  "en": "",
+  "status": "todo"
+ },
+ {
+  "id": "t0B3A24",
+  "ptrs": [
+   "0C4420"
+  ],
+  "slot": 12,
+  "jp": "メタボール",
+  "en": "",
+  "status": "todo"
+ },
+ {
+  "id": "t0B3A30",
+  "ptrs": [
+   "0C441C"
+  ],
+  "slot": 16,
+  "jp": "ゴストフリー",
+  "en": "",
+  "status": "todo"
+ },
+ {
+  "id": "t0B3A40",
+  "ptrs": [
+   "0C4418"
+  ],
+  "slot": 12,
+  "jp": "デュアロン",
+  "en": "",
+  "status": "todo"
+ },
+ {
+  "id": "t0B3A4C",
+  "ptrs": [
+   "0C4414"
+  ],
+  "slot": 12,
+  "jp": "エコロード",
+  "en": "",
+  "status": "todo"
+ },
+ {
+  "id": "t0B3A58",
+  "ptrs": [
+   "0C4410"
+  ],
+  "slot": 12,
+  "jp": "キックバグ",
+  "en": "",
+  "status": "todo"
+ },
+ {
+  "id": "t0B3A64",
+  "ptrs": [
+   "0C440C"
+  ],
+  "slot": 16,
+  "jp": "シェルブック",
+  "en": "",
+  "status": "todo"
+ },
+ {
+  "id": "t0B3A74",
+  "ptrs": [
+   "0C4408"
+  ],
+  "slot": 12,
+  "jp": "バーディス",
+  "en": "",
+  "status": "todo"
+ },
+ {
+  "id": "t0B3A80",
+  "ptrs": [
+   "0C4404"
+  ],
+  "slot": 16,
+  "jp": "テトロトップ",
+  "en": "",
+  "status": "todo"
+ },
+ {
+  "id": "t0B3A90",
+  "ptrs": [
+   "0C4400"
+  ],
+  "slot": 12,
+  "jp": "イグアーム",
+  "en": "",
+  "status": "todo"
+ },
+ {
+  "id": "t0B3A9C",
+  "ptrs": [
+   "0C449C"
+  ],
+  "slot": 12,
+  "jp": "エリダヌス",
+  "en": "",
+  "status": "todo"
+ },
+ {
+  "id": "t0B3AA8",
+  "ptrs": [
+   "0C4498"
+  ],
+  "slot": 16,
+  "jp": "ケンタウルス",
+  "en": "",
+  "status": "todo"
+ },
+ {
+  "id": "t0B3AB8",
+  "ptrs": [
+   "0C4494"
+  ],
+  "slot": 12,
+  "jp": "ドラコー",
+  "en": "",
+  "status": "todo"
+ },
+ {
+  "id": "t0B3AC4",
+  "ptrs": [
+   "0C4490"
+  ],
+  "slot": 8,
+  "jp": "リーラ",
+  "en": "",
+  "status": "todo"
+ },
+ {
+  "id": "t0B3ACC",
+  "ptrs": [
+   "0C448C"
+  ],
+  "slot": 16,
+  "jp": "サギッタリウス",
+  "en": "",
+  "status": "todo"
+ },
+ {
+  "id": "t0B3ADC",
+  "ptrs": [
+   "0C4488"
+  ],
+  "slot": 8,
+  "jp": "リブラ",
+  "en": "",
+  "status": "todo"
+ },
+ {
+  "id": "t0B3AE4",
+  "ptrs": [
+   "0C4484"
+  ],
+  "slot": 12,
+  "jp": "ペルセウス",
+  "en": "",
+  "status": "todo"
+ },
+ {
+  "id": "t0B3AF0",
+  "ptrs": [
+   "0C4480"
+  ],
+  "slot": 8,
+  "jp": "ゲミニ",
+  "en": "",
+  "status": "todo"
+ },
+ {
+  "id": "t0B3AF8",
+  "ptrs": [
+   "0C447C"
+  ],
+  "slot": 16,
+  "jp": "オフィウクス",
+  "en": "",
+  "status": "todo"
+ },
+ {
+  "id": "t0B3B08",
+  "ptrs": [
+   "0C4478"
+  ],
+  "slot": 12,
+  "jp": "ウィルゴー",
+  "en": "",
+  "status": "todo"
+ },
+ {
+  "id": "t0B3B14",
+  "ptrs": [
+   "0C4474"
+  ],
+  "slot": 16,
+  "jp": "ウルサマヨール",
+  "en": "",
+  "status": "todo"
+ },
+ {
+  "id": "t0B3B24",
+  "ptrs": [
+   "0C4470"
+  ],
+  "slot": 12,
+  "jp": "レープス",
+  "en": "",
+  "status": "todo"
+ },
+ {
+  "id": "t0B3B30",
+  "ptrs": [
+   "0C446C"
+  ],
+  "slot": 12,
+  "jp": "ケフェウス",
+  "en": "",
+  "status": "todo"
+ },
+ {
+  "id": "t0B3B3C",
+  "ptrs": [
+   "0C4468"
+  ],
+  "slot": 12,
+  "jp": "ボーティス",
+  "en": "",
+  "status": "todo"
+ },
+ {
+  "id": "t0B3B48",
+  "ptrs": [
+   "0C4464"
+  ],
+  "slot": 12,
+  "jp": "カシオペア",
+  "en": "",
+  "status": "todo"
+ },
+ {
+  "id": "t0B3B54",
+  "ptrs": [
+   "0C4460"
+  ],
+  "slot": 12,
+  "jp": "ヘルクレス",
+  "en": "",
+  "status": "todo"
+ },
+ {
+  "id": "t0B3B60",
+  "ptrs": [
+   "0C445C"
+  ],
+  "slot": 12,
+  "jp": "アウリガ",
+  "en": "",
+  "status": "todo"
+ },
+ {
+  "id": "t0B3B6C",
+  "ptrs": [
+   "0C4458"
+  ],
+  "slot": 12,
+  "jp": "オリオン",
+  "en": "",
+  "status": "todo"
+ },
+ {
+  "id": "t0B3B78",
+  "ptrs": [
+   "0C4454"
+  ],
+  "slot": 12,
+  "jp": "ケートス",
+  "en": "",
+  "status": "todo"
+ },
+ {
+  "id": "t0B3B84",
+  "ptrs": [
+   "0C4450"
+  ],
+  "slot": 12,
+  "jp": "カンケール",
+  "en": "",
+  "status": "todo"
+ },
+ {
+  "id": "t0B3B90",
+  "ptrs": [
+   "0C444C"
+  ],
+  "slot": 16,
+  "jp": "スコルピウス",
+  "en": "",
+  "status": "todo"
+ },
+ {
+  "id": "t0B3BA0",
+  "ptrs": [
+   "0C4448"
+  ],
+  "slot": 12,
+  "jp": "コルウス",
+  "en": "",
+  "status": "todo"
+ },
+ {
+  "id": "t0B3BAC",
+  "ptrs": [
+   "0C4444"
+  ],
+  "slot": 12,
+  "jp": "キグヌス",
+  "en": "",
+  "status": "todo"
+ },
+ {
+  "id": "t0B3BB8",
+  "ptrs": [
+   "0C4440"
+  ],
+  "slot": 12,
+  "jp": "アクイラ",
+  "en": "",
+  "status": "todo"
+ },
+ {
+  "id": "t0B3BC4",
+  "ptrs": [
+   "0C443C"
+  ],
+  "slot": 16,
+  "jp": "アクアリウス",
+  "en": "",
+  "status": "todo"
+ },
+ {
+  "id": "t0B3BD4",
+  "ptrs": [
+   "0C4438"
+  ],
+  "slot": 16,
+  "jp": "カプリコルヌス",
+  "en": "",
+  "status": "todo"
+ },
+ {
+  "id": "t0B3BE4",
+  "ptrs": [
+   "0C4434"
+  ],
+  "slot": 8,
+  "jp": "レオ",
+  "en": "",
+  "status": "todo"
+ },
+ {
+  "id": "t0B3BEC",
+  "ptrs": [
+   "0C4430"
+  ],
+  "slot": 12,
+  "jp": "ペガスス",
+  "en": "",
+  "status": "todo"
+ },
+ {
+  "id": "t0B3BF8",
+  "ptrs": [
+   "0C442C"
+  ],
+  "slot": 12,
+  "jp": "タウルス",
+  "en": "",
+  "status": "todo"
+ },
+ {
+  "id": "t0B3C04",
+  "ptrs": [
+   "0C4428"
+  ],
+  "slot": 8,
+  "jp": "カリナ",
+  "en": "",
+  "status": "todo"
+ },
+ {
+  "id": "t0B3C0C",
+  "ptrs": [
+   "0C44B0"
+  ],
+  "slot": 8,
+  "jp": "だいち",
+  "en": "",
+  "status": "todo"
+ },
+ {
+  "id": "t0B3C14",
+  "ptrs": [
+   "0C44AC"
+  ],
+  "slot": 12,
+  "jp": "かみなり",
+  "en": "",
+  "status": "todo"
+ },
+ {
+  "id": "t0B3C20",
+  "ptrs": [
+   "0C44A8"
+  ],
+  "slot": 8,
+  "jp": "みず",
+  "en": "",
+  "status": "todo"
+ },
+ {
+  "id": "t0B3C28",
+  "ptrs": [
+   "0C44A4"
+  ],
+  "slot": 8,
+  "jp": "ほのお",
+  "en": "",
+  "status": "todo"
+ },
+ {
+  "id": "t0B3C30",
+  "ptrs": [
+   "0C44A0",
+   "0D02B0",
+   "0D0874"
+  ],
+  "slot": 12,
+  "jp": "むぞくせい",
+  "en": "",
+  "status": "todo"
+ },
+ {
+  "id": "t0B3C3C",
+  "ptrs": [
+   "0C6C54"
+  ],
+  "slot": 20,
+  "jp": "サブウェイキット",
+  "en": "",
+  "status": "todo"
+ },
+ {
+  "id": "t0B3C50",
+  "ptrs": [
+   "0C6C40"
+  ],
+  "slot": 20,
+  "jp": "ファクトリキット",
+  "en": "",
+  "status": "todo"
+ },
+ {
+  "id": "t0B3C64",
+  "ptrs": [
+   "0C6C2C"
+  ],
+  "slot": 20,
+  "jp": "コロシアムキット",
+  "en": "",
+  "status": "todo"
+ },
+ {
+  "id": "t0B3C78",
+  "ptrs": [
+   "0C6C18"
+  ],
+  "slot": 16,
+  "jp": "ショップキット",
+  "en": "",
+  "status": "todo"
+ },
+ {
+  "id": "t0B3C88",
+  "ptrs": [
+   "0C6C04"
+  ],
+  "slot": 16,
+  "jp": "プラグインＡ３",
+  "en": "",
+  "status": "todo"
+ },
+ {
+  "id": "t0B3C98",
+  "ptrs": [
+   "0C6BF0"
+  ],
+  "slot": 16,
+  "jp": "プラグインＡ２",
+  "en": "",
+  "status": "todo"
+ },
+ {
+  "id": "t0B3CA8",
+  "ptrs": [
+   "0C6BDC"
+  ],
+  "slot": 16,
+  "jp": "プラグインＡ１",
+  "en": "",
+  "status": "todo"
+ },
+ {
+  "id": "t0B3CB8",
+  "ptrs": [
+   "0C6BC8"
+  ],
+  "slot": 16,
+  "jp": "プラグインＷ３",
+  "en": "",
+  "status": "todo"
+ },
+ {
+  "id": "t0B3CC8",
+  "ptrs": [
+   "0C6BB4"
+  ],
+  "slot": 16,
+  "jp": "プラグインＷ２",
+  "en": "",
+  "status": "todo"
+ },
+ {
+  "id": "t0B3CD8",
+  "ptrs": [
+   "0C6BA0"
+  ],
+  "slot": 16,
+  "jp": "プラグインＷ１",
+  "en": "",
+  "status": "todo"
+ },
+ {
+  "id": "t0B3CE8",
+  "ptrs": [
+   "0C6B8C"
+  ],
+  "slot": 16,
+  "jp": "クロックアップ",
+  "en": "",
+  "status": "todo"
+ },
+ {
+  "id": "t0B3CF8",
+  "ptrs": [
+   "0C6B78"
+  ],
+  "slot": 16,
+  "jp": "ドレスアップ",
+  "en": "",
+  "status": "todo"
+ },
+ {
+  "id": "t0B3D08",
+  "ptrs": [
+   "0C6B64"
+  ],
+  "slot": 16,
+  "jp": "ビルドアップ",
+  "en": "",
+  "status": "todo"
+ },
+ {
+  "id": "t0B3D18",
+  "ptrs": [
+   "0C6B50"
+  ],
+  "slot": 16,
+  "jp": "メモリアップ",
+  "en": "",
+  "status": "todo"
+ },
+ {
+  "id": "t0B3D28",
+  "ptrs": [
+   "0C6B3C"
+  ],
+  "slot": 16,
+  "jp": "マルチワクチン",
+  "en": "",
+  "status": "todo"
+ },
+ {
+  "id": "t0B3D38",
+  "ptrs": [
+   "0C6B28"
+  ],
+  "slot": 12,
+  "jp": "パッチＶ３",
+  "en": "",
+  "status": "todo"
+ },
+ {
+  "id": "t0B3D44",
+  "ptrs": [
+   "0C6B14"
+  ],
+  "slot": 12,
+  "jp": "パッチＶ２",
+  "en": "",
+  "status": "todo"
+ },
+ {
+  "id": "t0B3D50",
+  "ptrs": [
+   "0C6B00"
+  ],
+  "slot": 12,
+  "jp": "パッチＶ１",
+  "en": "",
+  "status": "todo"
+ },
+ {
+  "id": "t0B3D5C",
+  "ptrs": [
+   "0C6AEC"
+  ],
+  "slot": 20,
+  "jp": "ギガダイヤモンド",
+  "en": "",
+  "status": "todo"
+ },
+ {
+  "id": "t0B3D70",
+  "ptrs": [
+   "0C6AD8"
+  ],
+  "slot": 20,
+  "jp": "アースエメラルド",
+  "en": "",
+  "status": "todo"
+ },
+ {
+  "id": "t0B3D84",
+  "ptrs": [
+   "0C6AC4"
+  ],
+  "slot": 20,
+  "jp": "サンダートパーズ",
+  "en": "",
+  "status": "todo"
+ },
+ {
+  "id": "t0B3D98",
+  "ptrs": [
+   "0C6AB0"
+  ],
+  "slot": 20,
+  "jp": "アクアサファイア",
+  "en": "",
+  "status": "todo"
+ },
+ {
+  "id": "t0B3DAC",
+  "ptrs": [
+   "0C6A9C"
+  ],
+  "slot": 20,
+  "jp": "メガフレアルビー",
+  "en": "",
+  "status": "todo"
+ },
+ {
+  "id": "t0B3DC0",
+  "ptrs": [
+   "0C6A88"
+  ],
+  "slot": 20,
+  "jp": "ピュアクリスタル",
+  "en": "",
+  "status": "todo"
+ },
+ {
+  "id": "t0B3DD4",
+  "ptrs": [
+   "0C6A74"
+  ],
+  "slot": 16,
+  "jp": "トランスＭＣ",
+  "en": "",
+  "status": "todo"
+ },
+ {
+  "id": "t0B3DE4",
+  "ptrs": [
+   "0C6A60"
+  ],
+  "slot": 16,
+  "jp": "ストロングＡ",
+  "en": "",
+  "status": "todo"
+ },
+ {
+  "id": "t0B3DF4",
+  "ptrs": [
+   "0C6A4C"
+  ],
+  "slot": 12,
+  "jp": "ミプスＶＲ",
+  "en": "",
+  "status": "todo"
+ },
+ {
+  "id": "t0B3E00",
+  "ptrs": [
+   "0C6A38"
+  ],
+  "slot": 12,
+  "jp": "スーパーＨ",
+  "en": "",
+  "status": "todo"
+ },
+ {
+  "id": "t0B3E0C",
+  "ptrs": [
+   "0C6A24"
+  ],
+  "slot": 12,
+  "jp": "ドラゴンＢ",
+  "en": "",
+  "status": "todo"
+ },
+ {
+  "id": "t0B3E18",
+  "ptrs": [
+   "0C6A10"
+  ],
+  "slot": 12,
+  "jp": "チタニウム",
+  "en": "",
+  "status": "todo"
+ },
+ {
+  "id": "t0B3E24",
+  "ptrs": [
+   "0C69FC"
+  ],
+  "slot": 16,
+  "jp": "アルミニウム",
+  "en": "",
+  "status": "todo"
+ },
+ {
+  "id": "t0B3E34",
+  "ptrs": [
+   "0C69E8"
+  ],
+  "slot": 16,
+  "jp": "マグネシウム",
+  "en": "",
+  "status": "todo"
+ },
+ {
+  "id": "t0B3E44",
+  "ptrs": [
+   "0C69D4"
+  ],
+  "slot": 12,
+  "jp": "Ｂトゥース",
+  "en": "",
+  "status": "todo"
+ },
+ {
+  "id": "t0B3E50",
+  "ptrs": [
+   "0C69C0"
+  ],
+  "slot": 12,
+  "jp": "ＩＲＤＡ",
+  "en": "",
+  "status": "todo"
+ },
+ {
+  "id": "t0B3E5C",
+  "ptrs": [
+   "0C69AC"
+  ],
+  "slot": 16,
+  "jp": "Ｃフラッシュ",
+  "en": "",
+  "status": "todo"
+ },
+ {
+  "id": "t0B3E6C",
+  "ptrs": [
+   "0C6998"
+  ],
+  "slot": 12,
+  "jp": "ジャケット",
+  "en": "",
+  "status": "todo"
+ },
+ {
+  "id": "t0B3E78",
+  "ptrs": [
+   "0C6984"
+  ],
+  "slot": 12,
+  "jp": "クレードル",
+  "en": "",
+  "status": "todo"
+ },
+ {
+  "id": "t0B3E84",
+  "ptrs": [
+   "0C6970"
+  ],
+  "slot": 12,
+  "jp": "スタイラス",
+  "en": "",
+  "status": "todo"
+ },
+ {
+  "id": "t0B3E90",
+  "ptrs": [
+   "0C695C"
+  ],
+  "slot": 16,
+  "jp": "かみがみのみず",
+  "en": "",
+  "status": "todo"
+ },
+ {
+  "id": "t0B3EA0",
+  "ptrs": [
+   "0C6948"
+  ],
+  "slot": 16,
+  "jp": "まほうのキノコ",
+  "en": "",
+  "status": "todo"
+ },
+ {
+  "id": "t0B3EB0",
+  "ptrs": [
+   "0C6934"
+  ],
+  "slot": 20,
+  "jp": "かがやくきんぞく",
+  "en": "",
+  "status": "todo"
+ },
+ {
+  "id": "t0B3EC4",
+  "ptrs": [
+   "0C6920"
+  ],
+  "slot": 16,
+  "jp": "ふしぎないし",
+  "en": "",
+  "status": "todo"
+ },
+ {
+  "id": "t0B3ED4",
+  "ptrs": [
+   "0C690C"
+  ],
+  "slot": 20,
+  "jp": "きれいなたましい",
+  "en": "",
+  "status": "todo"
+ },
+ {
+  "id": "t0B3EE8",
+  "ptrs": [
+   "0C68F8"
+  ],
+  "slot": 20,
+  "jp": "ほのかなひとだま",
+  "en": "",
+  "status": "todo"
+ },
+ {
+  "id": "t0B3EFC",
+  "ptrs": [
+   "0C68E4"
+  ],
+  "slot": 20,
+  "jp": "まぼろしのリンゴ",
+  "en": "",
+  "status": "todo"
+ },
+ {
+  "id": "t0B3F10",
+  "ptrs": [
+   "0C68D0"
+  ],
+  "slot": 16,
+  "jp": "ひかりのイチゴ",
+  "en": "",
+  "status": "todo"
+ },
+ {
+  "id": "t0B3F20",
+  "ptrs": [
+   "0C68BC"
+  ],
+  "slot": 20,
+  "jp": "こんごうひりょう",
+  "en": "",
+  "status": "todo"
+ },
+ {
+  "id": "t0B3F34",
+  "ptrs": [
+   "0C68A8"
+  ],
+  "slot": 16,
+  "jp": "あめのしずく",
+  "en": "",
+  "status": "todo"
+ },
+ {
+  "id": "t0B3F44",
+  "ptrs": [
+   "0C6894"
+  ],
+  "slot": 16,
+  "jp": "ローヤルゼリー",
+  "en": "",
+  "status": "todo"
+ },
+ {
+  "id": "t0B3F54",
+  "ptrs": [
+   "0C6880"
+  ],
+  "slot": 12,
+  "jp": "はなのみつ",
+  "en": "",
+  "status": "todo"
+ },
+ {
+  "id": "t0B3F60",
+  "ptrs": [
+   "0C686C"
+  ],
+  "slot": 20,
+  "jp": "やまもりこざかな",
+  "en": "",
+  "status": "todo"
+ },
+ {
+  "id": "t0B3F74",
+  "ptrs": [
+   "0C6858"
+  ],
+  "slot": 16,
+  "jp": "プランクトン",
+  "en": "",
+  "status": "todo"
+ },
+ {
+  "id": "t0B3F84",
+  "ptrs": [
+   "0C6844"
+  ],
+  "slot": 16,
+  "jp": "キリキリバッタ",
+  "en": "",
+  "status": "todo"
+ },
+ {
+  "id": "t0B3F94",
+  "ptrs": [
+   "0C6830"
+  ],
+  "slot": 20,
+  "jp": "ちいさいいもむし",
+  "en": "",
+  "status": "todo"
+ },
+ {
+  "id": "t0B3FA8",
+  "ptrs": [
+   "0C681C"
+  ],
+  "slot": 20,
+  "jp": "ほしくさブロック",
+  "en": "",
+  "status": "todo"
+ },
+ {
+  "id": "t0B3FBC",
+  "ptrs": [
+   "0C6808"
+  ],
+  "slot": 12,
+  "jp": "かれススキ",
+  "en": "",
+  "status": "todo"
+ },
+ {
+  "id": "t0B3FC8",
+  "ptrs": [
+   "0C67F4"
+  ],
+  "slot": 16,
+  "jp": "ほねつきにく",
+  "en": "",
+  "status": "todo"
+ },
+ {
+  "id": "t0B3FD8",
+  "ptrs": [
+   "0C67E0"
+  ],
+  "slot": 16,
+  "jp": "こまぎれのにく",
+  "en": "",
+  "status": "todo"
+ },
+ {
+  "id": "t0B3FE8",
+  "ptrs": [
+   "0C67CC"
+  ],
+  "slot": 20,
+  "jp": "ケンタルバリアＥ",
+  "en": "",
+  "status": "todo"
+ },
+ {
+  "id": "t0B3FFC",
+  "ptrs": [
+   "0C67B8"
+  ],
+  "slot": 20,
+  "jp": "ケンタルバリアＯ",
+  "en": "",
+  "status": "todo"
+ }
+]

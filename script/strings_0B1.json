@@ -1,0 +1,3201 @@
+[
+ {
+  "id": "t0B1000",
+  "ptrs": [
+   "0BEC68"
+  ],
+  "slot": 24,
+  "jp": "ばんのうがた　ミサイル",
+  "en": "",
+  "status": "todo"
+ },
+ {
+  "id": "t0B1018",
+  "ptrs": [
+   "0BEC28",
+   "0BEC38",
+   "0BEC48",
+   "0BEC58",
+   "0C37B8",
+   "0C59D0"
+  ],
+  "slot": 16,
+  "jp": "ケンタウランス",
+  "en": "",
+  "status": "todo"
+ },
+ {
+  "id": "t0B1028",
+  "ptrs": [
+   "0BEBD8",
+   "0BEBE8",
+   "0BEBF8",
+   "0BEC08",
+   "0C377C",
+   "0C596C"
+  ],
+  "slot": 16,
+  "jp": "ドラコループ",
+  "en": "",
+  "status": "todo"
+ },
+ {
+  "id": "t0B1038",
+  "ptrs": [
+   "0BEBC4",
+   "0BEC14"
+  ],
+  "slot": 24,
+  "jp": "ひだりてに　とりつける",
+  "en": "",
+  "status": "todo"
+ },
+ {
+  "id": "t0B1050",
+  "ptrs": [
+   "0BEB88",
+   "0BEB98",
+   "0BEBA8",
+   "0BEBB8",
+   "0C3740",
+   "0C5908"
+  ],
+  "slot": 20,
+  "jp": "リブラスプレッド",
+  "en": "",
+  "status": "todo"
+ },
+ {
+  "id": "t0B1064",
+  "ptrs": [
+   "0BEB78"
+  ],
+  "slot": 24,
+  "jp": "いっきに　あびせかける",
+  "en": "",
+  "status": "todo"
+ },
+ {
+  "id": "t0B107C",
+  "ptrs": [
+   "0BEB74"
+  ],
+  "slot": 24,
+  "jp": "こまかい　りゅうしを",
+  "en": "",
+  "status": "todo"
+ },
+ {
+  "id": "t0B1094",
+  "ptrs": [
+   "0BEB38",
+   "0BEB48",
+   "0BEB58",
+   "0BEB68",
+   "0C3704",
+   "0C58A4"
+  ],
+  "slot": 20,
+  "jp": "レープスアサルト",
+  "en": "",
+  "status": "todo"
+ },
+ {
+  "id": "t0B10A8",
+  "ptrs": [
+   "0BEB28"
+  ],
+  "slot": 24,
+  "jp": "あつかいやすい　ガン",
+  "en": "",
+  "status": "todo"
+ },
+ {
+  "id": "t0B10C0",
+  "ptrs": [
+   "0BEB24"
+  ],
+  "slot": 24,
+  "jp": "はんどうが　すくなく",
+  "en": "",
+  "status": "todo"
+ },
+ {
+  "id": "t0B10D8",
+  "ptrs": [
+   "0BEAE8",
+   "0BEAF8",
+   "0BEB08",
+   "0BEB18",
+   "0C36C8",
+   "0C5840"
+  ],
+  "slot": 20,
+  "jp": "アウリガバルカン",
+  "en": "",
+  "status": "todo"
+ },
+ {
+  "id": "t0B10EC",
+  "ptrs": [
+   "0BEAD4"
+  ],
+  "slot": 24,
+  "jp": "シンプルだが　たかい",
+  "en": "",
+  "status": "todo"
+ },
+ {
+  "id": "t0B1104",
+  "ptrs": [
+   "0BEA98",
+   "0BEAA8",
+   "0BEAB8",
+   "0BEAC8",
+   "0C368C",
+   "0C57DC"
+  ],
+  "slot": 16,
+  "jp": "オリオンバイス",
+  "en": "",
+  "status": "todo"
+ },
+ {
+  "id": "t0B1114",
+  "ptrs": [
+   "0BEA88"
+  ],
+  "slot": 24,
+  "jp": "てきを　はさむ　アーム",
+  "en": "",
+  "status": "todo"
+ },
+ {
+  "id": "t0B112C",
+  "ptrs": [
+   "0BEA84"
+  ],
+  "slot": 24,
+  "jp": "ものすごい　ちからで",
+  "en": "",
+  "status": "todo"
+ },
+ {
+  "id": "t0B1144",
+  "ptrs": [
+   "0BEA48",
+   "0BEA58",
+   "0BEA68",
+   "0BEA78",
+   "0C3650",
+   "0C5778"
+  ],
+  "slot": 20,
+  "jp": "キグヌスニードル",
+  "en": "",
+  "status": "todo"
+ },
+ {
+  "id": "t0B1158",
+  "ptrs": [
+   "0BEA38"
+  ],
+  "slot": 20,
+  "jp": "ほこる　ミサイル",
+  "en": "",
+  "status": "todo"
+ },
+ {
+  "id": "t0B116C",
+  "ptrs": [
+   "0BEA34"
+  ],
+  "slot": 24,
+  "jp": "たかい　はかいりょくを",
+  "en": "",
+  "status": "todo"
+ },
+ {
+  "id": "t0B1184",
+  "ptrs": [
+   "0BE9F8",
+   "0BEA08",
+   "0BEA18",
+   "0BEA28",
+   "0C3614",
+   "0C5714"
+  ],
+  "slot": 20,
+  "jp": "アクイラバスター",
+  "en": "",
+  "status": "todo"
+ },
+ {
+  "id": "t0B1198",
+  "ptrs": [
+   "0BE9E8"
+  ],
+  "slot": 20,
+  "jp": "すべてを　つらぬく",
+  "en": "",
+  "status": "todo"
+ },
+ {
+  "id": "t0B11AC",
+  "ptrs": [
+   "0BE9E4"
+  ],
+  "slot": 24,
+  "jp": "２つの　ハイレーザーが",
+  "en": "",
+  "status": "todo"
+ },
+ {
+  "id": "t0B11C4",
+  "ptrs": [
+   "0BE9A8",
+   "0BE9B8",
+   "0BE9C8",
+   "0BE9D8",
+   "0C35D8",
+   "0C56B0"
+  ],
+  "slot": 20,
+  "jp": "カプリコウインド",
+  "en": "",
+  "status": "todo"
+ },
+ {
+  "id": "t0B11D8",
+  "ptrs": [
+   "0BE998"
+  ],
+  "slot": 24,
+  "jp": "エネルギーを　うちだす",
+  "en": "",
+  "status": "todo"
+ },
+ {
+  "id": "t0B11F0",
+  "ptrs": [
+   "0BE994"
+  ],
+  "slot": 24,
+  "jp": "うすく　あっしゅくした",
+  "en": "",
+  "status": "todo"
+ },
+ {
+  "id": "t0B1208",
+  "ptrs": [
+   "0BE958",
+   "0BE968",
+   "0BE978",
+   "0BE988",
+   "0C359C",
+   "0C564C"
+  ],
+  "slot": 16,
+  "jp": "レオクラスター",
+  "en": "",
+  "status": "todo"
+ },
+ {
+  "id": "t0B1218",
+  "ptrs": [
+   "0BE948"
+  ],
+  "slot": 24,
+  "jp": "はんげきを　ゆるさない",
+  "en": "",
+  "status": "todo"
+ },
+ {
+  "id": "t0B1230",
+  "ptrs": [
+   "0BE944"
+  ],
+  "slot": 24,
+  "jp": "はげしい　れんしゃで",
+  "en": "",
+  "status": "todo"
+ },
+ {
+  "id": "t0B1248",
+  "ptrs": [
+   "0BE908",
+   "0BE918",
+   "0BE928",
+   "0BE938",
+   "0C3560",
+   "0C55E8"
+  ],
+  "slot": 16,
+  "jp": "カリナチョップ",
+  "en": "",
+  "status": "todo"
+ },
+ {
+  "id": "t0B1258",
+  "ptrs": [
+   "0BE8F8"
+  ],
+  "slot": 24,
+  "jp": "てきを　なぐりつける",
+  "en": "",
+  "status": "todo"
+ },
+ {
+  "id": "t0B1270",
+  "ptrs": [
+   "0BE8F4"
+  ],
+  "slot": 20,
+  "jp": "かたい　アームで",
+  "en": "",
+  "status": "todo"
+ },
+ {
+  "id": "t0B1284",
+  "ptrs": [
+   "0BE8B8",
+   "0BE8C8",
+   "0BE8D8",
+   "0BE8E8",
+   "0C3524",
+   "0C5584"
+  ],
+  "slot": 20,
+  "jp": "ケンタジャベリン",
+  "en": "",
+  "status": "todo"
+ },
+ {
+  "id": "t0B1298",
+  "ptrs": [
+   "0BE8A8",
+   "0BEC18"
+  ],
+  "slot": 24,
+  "jp": "ながく　するどい　ヤリ",
+  "en": "",
+  "status": "todo"
+ },
+ {
+  "id": "t0B12B0",
+  "ptrs": [
+   "0BE89C",
+   "0BE8AC",
+   "0BE8BC",
+   "0BE8CC",
+   "0BE8DC",
+   "0BEC0C",
+   "0BEC1C",
+   "0BEC2C",
+   "0BEC3C",
+   "0BEC4C",
+   "0BED9C",
+   "0BEDAC",
+   "0BEDBC",
+   "0BEDCC",
+   "0BEDDC",
+   "0BF6FC",
+   "0BF70C",
+   "0BF71C",
+   "0BF72C",
+   "0BF73C",
+   "0D0100"
+  ],
+  "slot": 24,
+  "jp": "ケンタウルススタイル",
+  "en": "",
+  "status": "todo"
+ },
+ {
+  "id": "t0B12C8",
+  "ptrs": [
+   "0BE868",
+   "0BE878",
+   "0BE888",
+   "0BE898",
+   "0C34E8",
+   "0C5520"
+  ],
+  "slot": 20,
+  "jp": "ドラコスクリュー",
+  "en": "",
+  "status": "todo"
+ },
+ {
+  "id": "t0B12DC",
+  "ptrs": [
+   "0BE858",
+   "0BEBC8"
+  ],
+  "slot": 20,
+  "jp": "ほそみの　ドリル",
+  "en": "",
+  "status": "todo"
+ },
+ {
+  "id": "t0B12F0",
+  "ptrs": [
+   "0BE854",
+   "0BE8A4"
+  ],
+  "slot": 24,
+  "jp": "みぎてに　とりつける",
+  "en": "",
+  "status": "todo"
+ },
+ {
+  "id": "t0B1308",
+  "ptrs": [
+   "0BE84C",
+   "0BE85C",
+   "0BE86C",
+   "0BE87C",
+   "0BE88C",
+   "0BEBBC",
+   "0BEBCC",
+   "0BEBDC",
+   "0BEBEC",
+   "0BEBFC",
+   "0BED4C",
+   "0BED5C",
+   "0BED6C",
+   "0BED7C",
+   "0BED8C",
+   "0BF6AC",
+   "0BF6BC",
+   "0BF6CC",
+   "0BF6DC",
+   "0BF6EC",
+   "0D01F0"
+  ],
+  "slot": 20,
+  "jp": "ドラコースタイル",
+  "en": "",
+  "status": "todo"
+ },
+ {
+  "id": "t0B131C",
+  "ptrs": [
+   "0BE818",
+   "0BE828",
+   "0BE838",
+   "0BE848",
+   "0C34AC",
+   "0C54BC"
+  ],
+  "slot": 16,
+  "jp": "リブラショット",
+  "en": "",
+  "status": "todo"
+ },
+ {
+  "id": "t0B132C",
+  "ptrs": [
+   "0BE808"
+  ],
+  "slot": 24,
+  "jp": "たいりょうに　うちだす",
+  "en": "",
+  "status": "todo"
+ },
+ {
+  "id": "t0B1344",
+  "ptrs": [
+   "0BE804"
+  ],
+  "slot": 20,
+  "jp": "ビームカッターを",
+  "en": "",
+  "status": "todo"
+ },
+ {
+  "id": "t0B1358",
+  "ptrs": [
+   "0BE7FC",
+   "0BE80C",
+   "0BE81C",
+   "0BE82C",
+   "0BE83C",
+   "0BEB6C",
+   "0BEB7C",
+   "0BEB8C",
+   "0BEB9C",
+   "0BEBAC",
+   "0BECFC",
+   "0BED0C",
+   "0BED1C",
+   "0BED2C",
+   "0BED3C",
+   "0BF60C",
+   "0BF61C",
+   "0BF62C",
+   "0BF63C",
+   "0BF64C",
+   "0D02E0"
+  ],
+  "slot": 16,
+  "jp": "リブラスタイル",
+  "en": "",
+  "status": "todo"
+ },
+ {
+  "id": "t0B1368",
+  "ptrs": [
+   "0BE7C8",
+   "0BE7D8",
+   "0BE7E8",
+   "0BE7F8",
+   "0C3470",
+   "0C5458"
+  ],
+  "slot": 16,
+  "jp": "ゲミニナックル",
+  "en": "",
+  "status": "todo"
+ },
+ {
+  "id": "t0B1378",
+  "ptrs": [
+   "0BE7B8"
+  ],
+  "slot": 24,
+  "jp": "ナックルを　うちだす",
+  "en": "",
+  "status": "todo"
+ },
+ {
+  "id": "t0B1390",
+  "ptrs": [
+   "0BE7B4"
+  ],
+  "slot": 24,
+  "jp": "てきに　むけて　２つの",
+  "en": "",
+  "status": "todo"
+ },
+ {
+  "id": "t0B13A8",
+  "ptrs": [
+   "0BE7AC",
+   "0BE7BC",
+   "0BE7CC",
+   "0BE7DC",
+   "0BE7EC",
+   "0BF5BC",
+   "0BF5CC",
+   "0BF5DC",
+   "0BF5EC",
+   "0BF5FC",
+   "0D00F8"
+  ],
+  "slot": 16,
+  "jp": "ゲミニスタイル",
+  "en": "",
+  "status": "todo"
+ },
+ {
+  "id": "t0B13B8",
+  "ptrs": [
+   "0BE778",
+   "0BE788",
+   "0BE798",
+   "0BE7A8",
+   "0C3434",
+   "0C53F4"
+  ],
+  "slot": 20,
+  "jp": "オフィウクスター",
+  "en": "",
+  "status": "todo"
+ },
+ {
+  "id": "t0B13CC",
+  "ptrs": [
+   "0BE768"
+  ],
+  "slot": 20,
+  "jp": "ふんさいする　ぶき",
+  "en": "",
+  "status": "todo"
+ },
+ {
+  "id": "t0B13E0",
+  "ptrs": [
+   "0BE764"
+  ],
+  "slot": 24,
+  "jp": "てっきゅうで　てきを",
+  "en": "",
+  "status": "todo"
+ },
+ {
+  "id": "t0B13F8",
+  "ptrs": [
+   "0BE75C",
+   "0BE76C",
+   "0BE77C",
+   "0BE78C",
+   "0BE79C",
+   "0BF56C",
+   "0BF57C",
+   "0BF58C",
+   "0BF59C",
+   "0BF5AC",
+   "0D0090"
+  ],
+  "slot": 24,
+  "jp": "オフィウクススタイル",
+  "en": "",
+  "status": "todo"
+ },
+ {
+  "id": "t0B1410",
+  "ptrs": [
+   "0BE728",
+   "0BE738",
+   "0BE748",
+   "0BE758",
+   "0C33F8",
+   "0C5390"
+  ],
+  "slot": 20,
+  "jp": "レープスハンマー",
+  "en": "",
+  "status": "todo"
+ },
+ {
+  "id": "t0B1424",
+  "ptrs": [
+   "0BE718"
+  ],
+  "slot": 24,
+  "jp": "たたきつぶす　ハンマー",
+  "en": "",
+  "status": "todo"
+ },
+ {
+  "id": "t0B143C",
+  "ptrs": [
+   "0BE714"
+  ],
+  "slot": 24,
+  "jp": "あらゆる　そうこうを",
+  "en": "",
+  "status": "todo"
+ },
+ {
+  "id": "t0B1454",
+  "ptrs": [
+   "0BE70C",
+   "0BE71C",
+   "0BE72C",
+   "0BE73C",
+   "0BE74C",
+   "0BEB1C",
+   "0BEB2C",
+   "0BEB3C",
+   "0BEB4C",
+   "0BEB5C",
+   "0BECAC",
+   "0BECBC",
+   "0BECCC",
+   "0BECDC",
+   "0BECEC",
+   "0BF4CC",
+   "0BF4DC",
+   "0BF4EC",
+   "0BF4FC",
+   "0BF50C",
+   "0D02E8"
+  ],
+  "slot": 20,
+  "jp": "レープススタイル",
+  "en": "",
+  "status": "todo"
+ },
+ {
+  "id": "t0B1468",
+  "ptrs": [
+   "0BE6D8",
+   "0BE6E8",
+   "0BE6F8",
+   "0BE708",
+   "0C33BC",
+   "0C532C"
+  ],
+  "slot": 20,
+  "jp": "ボーツブレイザー",
+  "en": "",
+  "status": "todo"
+ },
+ {
+  "id": "t0B147C",
+  "ptrs": [
+   "0BE6C8"
+  ],
+  "slot": 24,
+  "jp": "しゅつりょくの　ビーム",
+  "en": "",
+  "status": "todo"
+ },
+ {
+  "id": "t0B1494",
+  "ptrs": [
+   "0BE6C4"
+  ],
+  "slot": 24,
+  "jp": "ひじょうに　おおきな",
+  "en": "",
+  "status": "todo"
+ },
+ {
+  "id": "t0B14AC",
+  "ptrs": [
+   "0BE6BC",
+   "0BE6CC",
+   "0BE6DC",
+   "0BE6EC",
+   "0BE6FC",
+   "0BF47C",
+   "0BF48C",
+   "0BF49C",
+   "0BF4AC",
+   "0BF4BC",
+   "0D0260"
+  ],
+  "slot": 20,
+  "jp": "ボーティススタイル",
+  "en": "",
+  "status": "todo"
+ },
+ {
+  "id": "t0B14C0",
+  "ptrs": [
+   "0BE688",
+   "0BE698",
+   "0BE6A8",
+   "0BE6B8",
+   "0C3380",
+   "0C52C8"
+  ],
+  "slot": 16,
+  "jp": "カシオペアアイ",
+  "en": "",
+  "status": "todo"
+ },
+ {
+  "id": "t0B14D0",
+  "ptrs": [
+   "0BE678"
+  ],
+  "slot": 24,
+  "jp": "いっきに　たたみかける",
+  "en": "",
+  "status": "todo"
+ },
+ {
+  "id": "t0B14E8",
+  "ptrs": [
+   "0BE674"
+  ],
+  "slot": 24,
+  "jp": "２つの　ガトリングで",
+  "en": "",
+  "status": "todo"
+ },
+ {
+  "id": "t0B1500",
+  "ptrs": [
+   "0BE66C",
+   "0BE67C",
+   "0BE68C",
+   "0BE69C",
+   "0BE6AC",
+   "0D00A0"
+  ],
+  "slot": 20,
+  "jp": "カシオペアスタイル",
+  "en": "",
+  "status": "todo"
+ },
+ {
+  "id": "t0B1514",
+  "ptrs": [
+   "0BE638",
+   "0BE648",
+   "0BE658",
+   "0BE668",
+   "0C3344",
+   "0C5264"
+  ],
+  "slot": 20,
+  "jp": "アウリガアンテナ",
+  "en": "",
+  "status": "todo"
+ },
+ {
+  "id": "t0B1528",
+  "ptrs": [
+   "0BE628"
+  ],
+  "slot": 24,
+  "jp": "ぞうふくさせて　うつ",
+  "en": "",
+  "status": "todo"
+ },
+ {
+  "id": "t0B1540",
+  "ptrs": [
+   "0BE624"
+  ],
+  "slot": 24,
+  "jp": "アンテナで　いりょくを",
+  "en": "",
+  "status": "todo"
+ },
+ {
+  "id": "t0B1558",
+  "ptrs": [
+   "0BE61C",
+   "0BE62C",
+   "0BE63C",
+   "0BE64C",
+   "0BE65C",
+   "0BEACC",
+   "0BEADC",
+   "0BEAEC",
+   "0BEAFC",
+   "0BEB0C",
+   "0BF3DC",
+   "0BF3EC",
+   "0BF3FC",
+   "0BF40C",
+   "0BF41C",
+   "0D0020"
+  ],
+  "slot": 20,
+  "jp": "アウリガスタイル",
+  "en": "",
+  "status": "todo"
+ },
+ {
+  "id": "t0B156C",
+  "ptrs": [
+   "0BE5E8",
+   "0BE5F8",
+   "0BE608",
+   "0BE618",
+   "0C3308",
+   "0C5200"
+  ],
+  "slot": 20,
+  "jp": "オリオンライフル",
+  "en": "",
+  "status": "todo"
+ },
+ {
+  "id": "t0B1580",
+  "ptrs": [
+   "0BE5D8"
+  ],
+  "slot": 24,
+  "jp": "とても　たかい　ガン",
+  "en": "",
+  "status": "todo"
+ },
+ {
+  "id": "t0B1598",
+  "ptrs": [
+   "0BE5D4"
+  ],
+  "slot": 20,
+  "jp": "めいちゅうりつが",
+  "en": "",
+  "status": "todo"
+ },
+ {
+  "id": "t0B15AC",
+  "ptrs": [
+   "0BE5CC",
+   "0BE5DC",
+   "0BE5EC",
+   "0BE5FC",
+   "0BE60C",
+   "0BEA7C",
+   "0BEA8C",
+   "0BEA9C",
+   "0BEAAC",
+   "0BEABC",
+   "0BF38C",
+   "0BF39C",
+   "0BF3AC",
+   "0BF3BC",
+   "0BF3CC",
+   "0D0098"
+  ],
+  "slot": 20,
+  "jp": "オリオンスタイル",
+  "en": "",
+  "status": "todo"
+ },
+ {
+  "id": "t0B15C0",
+  "ptrs": [
+   "0BE598",
+   "0BE5A8",
+   "0BE5B8",
+   "0BE5C8",
+   "0C32CC",
+   "0C519C"
+  ],
+  "slot": 20,
+  "jp": "プラズマカンケル",
+  "en": "",
+  "status": "todo"
+ },
+ {
+  "id": "t0B15D4",
+  "ptrs": [
+   "0BE588"
+  ],
+  "slot": 20,
+  "jp": "あつめて　うちだす",
+  "en": "",
+  "status": "todo"
+ },
+ {
+  "id": "t0B15E8",
+  "ptrs": [
+   "0BE584"
+  ],
+  "slot": 24,
+  "jp": "プラズマエネルギーを",
+  "en": "",
+  "status": "todo"
+ },
+ {
+  "id": "t0B1600",
+  "ptrs": [
+   "0BE57C",
+   "0BE58C",
+   "0BE59C",
+   "0BE5AC",
+   "0BE5BC",
+   "0BF33C",
+   "0BF34C",
+   "0BF35C",
+   "0BF36C",
+   "0BF37C",
+   "0D00C0"
+  ],
+  "slot": 20,
+  "jp": "カンケールスタイル",
+  "en": "",
+  "status": "todo"
+ },
+ {
+  "id": "t0B1614",
+  "ptrs": [
+   "0BE548",
+   "0BE558",
+   "0BE568",
+   "0BE578",
+   "0C3290",
+   "0C5138"
+  ],
+  "slot": 20,
+  "jp": "スコルプハンター",
+  "en": "",
+  "status": "todo"
+ },
+ {
+  "id": "t0B1628",
+  "ptrs": [
+   "0BE534"
+  ],
+  "slot": 24,
+  "jp": "ぜんぶで　１２はつもの",
+  "en": "",
+  "status": "todo"
+ },
+ {
+  "id": "t0B1640",
+  "ptrs": [
+   "0BE52C",
+   "0BE53C",
+   "0BE54C",
+   "0BE55C",
+   "0BE56C",
+   "0BF2EC",
+   "0BF2FC",
+   "0BF30C",
+   "0BF31C",
+   "0BF32C",
+   "0D0150"
+  ],
+  "slot": 24,
+  "jp": "スコルピウススタイル",
+  "en": "",
+  "status": "todo"
+ },
+ {
+  "id": "t0B1658",
+  "ptrs": [
+   "0BE4F8",
+   "0BE508",
+   "0BE518",
+   "0BE528",
+   "0C3254",
+   "0C50D4"
+  ],
+  "slot": 16,
+  "jp": "キグヌスレイ",
+  "en": "",
+  "status": "todo"
+ },
+ {
+  "id": "t0B1668",
+  "ptrs": [
+   "0BE4E8"
+  ],
+  "slot": 24,
+  "jp": "モデルにした　レーザー",
+  "en": "",
+  "status": "todo"
+ },
+ {
+  "id": "t0B1680",
+  "ptrs": [
+   "0BE4E4"
+  ],
+  "slot": 20,
+  "jp": "たいようこうせんを",
+  "en": "",
+  "status": "todo"
+ },
+ {
+  "id": "t0B1694",
+  "ptrs": [
+   "0BE4DC",
+   "0BE4EC",
+   "0BE4FC",
+   "0BE50C",
+   "0BE51C",
+   "0BEA2C",
+   "0BEA3C",
+   "0BEA4C",
+   "0BEA5C",
+   "0BEA6C",
+   "0BF29C",
+   "0BF2AC",
+   "0BF2BC",
+   "0BF2CC",
+   "0BF2DC",
+   "0D00C8"
+  ],
+  "slot": 20,
+  "jp": "キグヌススタイル",
+  "en": "",
+  "status": "todo"
+ },
+ {
+  "id": "t0B16A8",
+  "ptrs": [
+   "0BE4A8",
+   "0BE4B8",
+   "0BE4C8",
+   "0BE4D8",
+   "0C3218",
+   "0C5070"
+  ],
+  "slot": 16,
+  "jp": "アクイラクロー",
+  "en": "",
+  "status": "todo"
+ },
+ {
+  "id": "t0B16B8",
+  "ptrs": [
+   "0BE498"
+  ],
+  "slot": 24,
+  "jp": "てきを　ひきさく　ツメ",
+  "en": "",
+  "status": "todo"
+ },
+ {
+  "id": "t0B16D0",
+  "ptrs": [
+   "0BE494"
+  ],
+  "slot": 24,
+  "jp": "こうそくで　とびまわり",
+  "en": "",
+  "status": "todo"
+ },
+ {
+  "id": "t0B16E8",
+  "ptrs": [
+   "0BE48C",
+   "0BE49C",
+   "0BE4AC",
+   "0BE4BC",
+   "0BE4CC",
+   "0BE9DC",
+   "0BE9EC",
+   "0BE9FC",
+   "0BEA0C",
+   "0BEA1C",
+   "0BF24C",
+   "0BF25C",
+   "0BF26C",
+   "0BF27C",
+   "0BF28C",
+   "0D0038"
+  ],
+  "slot": 20,
+  "jp": "アクイラスタイル",
+  "en": "",
+  "status": "todo"
+ },
+ {
+  "id": "t0B16FC",
+  "ptrs": [
+   "0BE458",
+   "0BE468",
+   "0BE478",
+   "0BE488",
+   "0C31DC",
+   "0C500C"
+  ],
+  "slot": 20,
+  "jp": "カプリコウェーブ",
+  "en": "",
+  "status": "todo"
+ },
+ {
+  "id": "t0B1710",
+  "ptrs": [
+   "0BE448"
+  ],
+  "slot": 20,
+  "jp": "てきを　うちくだく",
+  "en": "",
+  "status": "todo"
+ },
+ {
+  "id": "t0B1724",
+  "ptrs": [
+   "0BE444"
+  ],
+  "slot": 20,
+  "jp": "ひかりの　はどうで",
+  "en": "",
+  "status": "todo"
+ },
+ {
+  "id": "t0B1738",
+  "ptrs": [
+   "0BE43C",
+   "0BE44C",
+   "0BE45C",
+   "0BE46C",
+   "0BE47C",
+   "0BE98C",
+   "0BE99C",
+   "0BE9AC",
+   "0BE9BC",
+   "0BE9CC",
+   "0BF1FC",
+   "0BF20C",
+   "0BF21C",
+   "0BF22C",
+   "0BF23C",
+   "0BF42C",
+   "0BF43C",
+   "0BF44C",
+   "0BF45C",
+   "0BF46C",
+   "0D00A8"
+  ],
+  "slot": 24,
+  "jp": "カプリコルヌススタイル",
+  "en": "",
+  "status": "todo"
+ },
+ {
+  "id": "t0B1750",
+  "ptrs": [
+   "0BE408",
+   "0BE418",
+   "0BE428",
+   "0BE438",
+   "0C31A0",
+   "0C4FA8"
+  ],
+  "slot": 12,
+  "jp": "レオワスプ",
+  "en": "",
+  "status": "todo"
+ },
+ {
+  "id": "t0B175C",
+  "ptrs": [
+   "0BE3F8"
+  ],
+  "slot": 24,
+  "jp": "いっきに　おそいかかる",
+  "en": "",
+  "status": "todo"
+ },
+ {
+  "id": "t0B1774",
+  "ptrs": [
+   "0BE3F4"
+  ],
+  "slot": 24,
+  "jp": "１０はつの　ミサイルが",
+  "en": "",
+  "status": "todo"
+ },
+ {
+  "id": "t0B178C",
+  "ptrs": [
+   "0BE3EC",
+   "0BE3FC",
+   "0BE40C",
+   "0BE41C",
+   "0BE42C",
+   "0BE93C",
+   "0BE94C",
+   "0BE95C",
+   "0BE96C",
+   "0BE97C",
+   "0BF1AC",
+   "0BF1BC",
+   "0BF1CC",
+   "0BF1DC",
+   "0BF1EC",
+   "0D02F0"
+  ],
+  "slot": 16,
+  "jp": "レオスタイル",
+  "en": "",
+  "status": "todo"
+ },
+ {
+  "id": "t0B179C",
+  "ptrs": [
+   "0BE3B8",
+   "0BE3C8",
+   "0BE3D8",
+   "0BE3E8",
+   "0C3164",
+   "0C4F44"
+  ],
+  "slot": 16,
+  "jp": "カリナピストル",
+  "en": "",
+  "status": "todo"
+ },
+ {
+  "id": "t0B17AC",
+  "ptrs": [
+   "0BE3A8",
+   "0BEAD8"
+  ],
+  "slot": 24,
+  "jp": "はかいりょくを　もつ",
+  "en": "",
+  "status": "todo"
+ },
+ {
+  "id": "t0B17C4",
+  "ptrs": [
+   "0BE3A4"
+  ],
+  "slot": 20,
+  "jp": "こがただが　たかい",
+  "en": "",
+  "status": "todo"
+ },
+ {
+  "id": "t0B17D8",
+  "ptrs": [
+   "0BE39C",
+   "0BE3AC",
+   "0BE3BC",
+   "0BE3CC",
+   "0BE3DC",
+   "0BE8EC",
+   "0BE8FC",
+   "0BE90C",
+   "0BE91C",
+   "0BE92C",
+   "0BEC5C",
+   "0BEC6C",
+   "0BEC7C",
+   "0BEC8C",
+   "0BEC9C",
+   "0BF10C",
+   "0BF11C",
+   "0BF12C",
+   "0BF13C",
+   "0BF14C",
+   "0D00B8"
+  ],
+  "slot": 16,
+  "jp": "カリナスタイル",
+  "en": "",
+  "status": "todo"
+ },
+ {
+  "id": "t0B17E8",
+  "ptrs": [
+   "0BE368",
+   "0BE378",
+   "0BE388",
+   "0BE398",
+   "0C3128",
+   "0C4EE0"
+  ],
+  "slot": 16,
+  "jp": "ガトリングガン",
+  "en": "",
+  "status": "todo"
+ },
+ {
+  "id": "t0B17F8",
+  "ptrs": [
+   "0BE358"
+  ],
+  "slot": 24,
+  "jp": "てきに　あびせる　ガン",
+  "en": "",
+  "status": "todo"
+ },
+ {
+  "id": "t0B1810",
+  "ptrs": [
+   "0BE354"
+  ],
+  "slot": 24,
+  "jp": "たいりょうの　タマを",
+  "en": "",
+  "status": "todo"
+ },
+ {
+  "id": "t0B1828",
+  "ptrs": [
+   "0BE318",
+   "0BE328",
+   "0BE338",
+   "0BE348",
+   "0C30EC",
+   "0C4E7C"
+  ],
+  "slot": 16,
+  "jp": "ミサイルハット",
+  "en": "",
+  "status": "todo"
+ },
+ {
+  "id": "t0B1838",
+  "ptrs": [
+   "0BE304"
+  ],
+  "slot": 20,
+  "jp": "あたまに　かぶる",
+  "en": "",
+  "status": "todo"
+ },
+ {
+  "id": "t0B184C",
+  "ptrs": [
+   "0BE2B8",
+   "0BE2C8",
+   "0BE2D8",
+   "0BE2E8",
+   "0BE2F8",
+   "0BE308",
+   "0C30B0",
+   "0C4E18"
+  ],
+  "slot": 16,
+  "jp": "ミサイルポッド",
+  "en": "",
+  "status": "todo"
+ },
+ {
+  "id": "t0B185C",
+  "ptrs": [
+   "0BE2B4",
+   "0BF8B0"
+  ],
+  "slot": 20,
+  "jp": "せなかに　せおう",
+  "en": "",
+  "status": "todo"
+ },
+ {
+  "id": "t0B1870",
+  "ptrs": [
+   "0BE278",
+   "0BE288",
+   "0BE298",
+   "0BE2A8",
+   "0C3074",
+   "0C4DB4"
+  ],
+  "slot": 16,
+  "jp": "ショルダーガン",
+  "en": "",
+  "status": "todo"
+ },
+ {
+  "id": "t0B1880",
+  "ptrs": [
+   "0BE268"
+  ],
+  "slot": 24,
+  "jp": "こがたの　ビームガン",
+  "en": "",
+  "status": "todo"
+ },
+ {
+  "id": "t0B1898",
+  "ptrs": [
+   "0BE264",
+   "0BEC64"
+  ],
+  "slot": 24,
+  "jp": "りょうかたに　つける",
+  "en": "",
+  "status": "todo"
+ },
+ {
+  "id": "t0B18B0",
+  "ptrs": [
+   "0BE228",
+   "0BE238",
+   "0BE248",
+   "0BE258",
+   "0C3038",
+   "0C4D50"
+  ],
+  "slot": 16,
+  "jp": "シザーショット",
+  "en": "",
+  "status": "todo"
+ },
+ {
+  "id": "t0B18C0",
+  "ptrs": [
+   "0BE218"
+  ],
+  "slot": 24,
+  "jp": "うちだす　かわったガン",
+  "en": "",
+  "status": "todo"
+ },
+ {
+  "id": "t0B18D8",
+  "ptrs": [
+   "0BE214"
+  ],
+  "slot": 24,
+  "jp": "ビームを　はさみこんで",
+  "en": "",
+  "status": "todo"
+ },
+ {
+  "id": "t0B18F0",
+  "ptrs": [
+   "0BE1D8",
+   "0BE1E8",
+   "0BE1F8",
+   "0BE208",
+   "0C2FFC",
+   "0C4CEC"
+  ],
+  "slot": 16,
+  "jp": "エナジーボウル",
+  "en": "",
+  "status": "todo"
+ },
+ {
+  "id": "t0B1900",
+  "ptrs": [
+   "0BE1C8"
+  ],
+  "slot": 24,
+  "jp": "たんぱつ　ビームほう",
+  "en": "",
+  "status": "todo"
+ },
+ {
+  "id": "t0B1918",
+  "ptrs": [
+   "0BE1C4"
+  ],
+  "slot": 20,
+  "jp": "こうしゅつりょくの",
+  "en": "",
+  "status": "todo"
+ },
+ {
+  "id": "t0B192C",
+  "ptrs": [
+   "0BE188",
+   "0BE198",
+   "0BE1A8",
+   "0BE1B8",
+   "0C2424",
+   "0C2FC0",
+   "0C4C88"
+  ],
+  "slot": 12,
+  "jp": "マシンガン",
+  "en": "",
+  "status": "todo"
+ },
+ {
+  "id": "t0B1938",
+  "ptrs": [
+   "0BE178"
+  ],
+  "slot": 24,
+  "jp": "れんしゃされる　ガン",
+  "en": "",
+  "status": "todo"
+ },
+ {
+  "id": "t0B1950",
+  "ptrs": [
+   "0BE174"
+  ],
+  "slot": 24,
+  "jp": "だんがんが　こうそくで",
+  "en": "",
+  "status": "todo"
+ },
+ {
+  "id": "t0B1968",
+  "ptrs": [
+   "0BE138",
+   "0BE148",
+   "0BE158",
+   "0BE168",
+   "0C2F84",
+   "0C4C24"
+  ],
+  "slot": 20,
+  "jp": "フォトンブラスト",
+  "en": "",
+  "status": "todo"
+ },
+ {
+  "id": "t0B197C",
+  "ptrs": [
+   "0BE128"
+  ],
+  "slot": 24,
+  "jp": "あつめて　うつ　ガン",
+  "en": "",
+  "status": "todo"
+ },
+ {
+  "id": "t0B1994",
+  "ptrs": [
+   "0BE124"
+  ],
+  "slot": 24,
+  "jp": "たいきの　エネルギーを",
+  "en": "",
+  "status": "todo"
+ },
+ {
+  "id": "t0B19AC",
+  "ptrs": [
+   "0BE0E8",
+   "0BE0F8",
+   "0BE108",
+   "0BE118",
+   "0C2F48",
+   "0C4BC0"
+  ],
+  "slot": 16,
+  "jp": "ダブルバズーカ",
+  "en": "",
+  "status": "todo"
+ },
+ {
+  "id": "t0B19BC",
+  "ptrs": [
+   "0BE0D8"
+  ],
+  "slot": 24,
+  "jp": "あたりやすい　バズーカ",
+  "en": "",
+  "status": "todo"
+ },
+ {
+  "id": "t0B19D4",
+  "ptrs": [
+   "0BE0D4"
+  ],
+  "slot": 24,
+  "jp": "いりょくは　よわいが",
+  "en": "",
+  "status": "todo"
+ },
+ {
+  "id": "t0B19EC",
+  "ptrs": [
+   "0BE098",
+   "0BE0A8",
+   "0BE0B8",
+   "0BE0C8",
+   "0C2F0C",
+   "0C4B5C"
+  ],
+  "slot": 16,
+  "jp": "ツインロケット",
+  "en": "",
+  "status": "todo"
+ },
+ {
+  "id": "t0B19FC",
+  "ptrs": [
+   "0BE088",
+   "0BE538"
+  ],
+  "slot": 24,
+  "jp": "ミサイルを　うちだす",
+  "en": "",
+  "status": "todo"
+ },
+ {
+  "id": "t0B1A14",
+  "ptrs": [
+   "0BE084"
+  ],
+  "slot": 24,
+  "jp": "きょだいな　２ほんの",
+  "en": "",
+  "status": "todo"
+ },
+ {
+  "id": "t0B1A2C",
+  "ptrs": [
+   "0BE048",
+   "0BE058",
+   "0BE068",
+   "0BE078",
+   "0C2ED0",
+   "0C4AF8"
+  ],
+  "slot": 16,
+  "jp": "パワードネイル",
+  "en": "",
+  "status": "todo"
+ },
+ {
+  "id": "t0B1A3C",
+  "ptrs": [
+   "0BE038"
+  ],
+  "slot": 24,
+  "jp": "なぎはらう　てつのツメ",
+  "en": "",
+  "status": "todo"
+ },
+ {
+  "id": "t0B1A54",
+  "ptrs": [
+   "0BE034"
+  ],
+  "slot": 24,
+  "jp": "てきを　ちからまかせに",
+  "en": "",
+  "status": "todo"
+ },
+ {
+  "id": "t0B1A6C",
+  "ptrs": [
+   "0BDFF8",
+   "0BE008",
+   "0BE018",
+   "0BE028",
+   "0C2E94",
+   "0C4A94"
+  ],
+  "slot": 12,
+  "jp": "ウィスプ",
+  "en": "",
+  "status": "todo"
+ },
+ {
+  "id": "t0B1A78",
+  "ptrs": [
+   "0BDFE8"
+  ],
+  "slot": 20,
+  "jp": "こがたの　ピストル",
+  "en": "",
+  "status": "todo"
+ },
+ {
+  "id": "t0B1A8C",
+  "ptrs": [
+   "0BDFE4"
+  ],
+  "slot": 24,
+  "jp": "かるくて　つかいやすい",
+  "en": "",
+  "status": "todo"
+ },
+ {
+  "id": "t0B1AA4",
+  "ptrs": [
+   "0BDFA8",
+   "0BDFB8",
+   "0BDFC8",
+   "0BDFD8",
+   "0C2E58",
+   "0C4A30"
+  ],
+  "slot": 16,
+  "jp": "オートカッター",
+  "en": "",
+  "status": "todo"
+ },
+ {
+  "id": "t0B1AB4",
+  "ptrs": [
+   "0BDF98"
+  ],
+  "slot": 20,
+  "jp": "こがた　ノコギリ",
+  "en": "",
+  "status": "todo"
+ },
+ {
+  "id": "t0B1AC8",
+  "ptrs": [
+   "0BDF94"
+  ],
+  "slot": 24,
+  "jp": "こうそくかいてんする",
+  "en": "",
+  "status": "todo"
+ },
+ {
+  "id": "t0B1AE0",
+  "ptrs": [
+   "0BDF58",
+   "0BDF68",
+   "0BDF78",
+   "0BDF88",
+   "0C2E1C",
+   "0C49CC"
+  ],
+  "slot": 12,
+  "jp": "パニッシュ",
+  "en": "",
+  "status": "todo"
+ },
+ {
+  "id": "t0B1AEC",
+  "ptrs": [
+   "0BDF48"
+  ],
+  "slot": 24,
+  "jp": "いかずちを　ふらせる",
+  "en": "",
+  "status": "todo"
+ },
+ {
+  "id": "t0B1B04",
+  "ptrs": [
+   "0BDF44"
+  ],
+  "slot": 20,
+  "jp": "てきに　さばきの",
+  "en": "",
+  "status": "todo"
+ },
+ {
+  "id": "t0B1B18",
+  "ptrs": [
+   "0BDF34",
+   "0BDFD4",
+   "0BE024",
+   "0BE074",
+   "0BE0C4",
+   "0BE114",
+   "0BE164",
+   "0BE204",
+   "0BE2F4",
+   "0BE394",
+   "0BE934",
+   "0BE984",
+   "0BE9D4",
+   "0BEA24",
+   "0BEA74",
+   "0BEAC4",
+   "0BEB14",
+   "0BEBB4",
+   "0BECF4",
+   "0BED94",
+   "0BEDE4"
+  ],
+  "slot": 24,
+  "jp": "てきの　めを　くらます",
+  "en": "",
+  "status": "todo"
+ },
+ {
+  "id": "t0B1B30",
+  "ptrs": [
+   "0BDF14",
+   "0BDFB4",
+   "0BE0A4",
+   "0BE0F4",
+   "0BE144",
+   "0BE284",
+   "0BE2D4",
+   "0BE324",
+   "0BE374",
+   "0BE964",
+   "0BE9B4",
+   "0BEA04",
+   "0BEA54",
+   "0BEAA4",
+   "0BEAF4",
+   "0BEC84",
+   "0BECD4",
+   "0BED24",
+   "0BED74",
+   "0BEDC4"
+  ],
+  "slot": 24,
+  "jp": "きりを　はっせいさせる",
+  "en": "",
+  "status": "todo"
+ },
+ {
+  "id": "t0B1B48",
+  "ptrs": [
+   "0BDF08",
+   "0BDF18",
+   "0BDF28",
+   "0BDF38",
+   "0C2DE0",
+   "0C4968"
+  ],
+  "slot": 16,
+  "jp": "チェインソー",
+  "en": "",
+  "status": "todo"
+ },
+ {
+  "id": "t0B1B58",
+  "ptrs": [
+   "0BDEF8"
+  ],
+  "slot": 24,
+  "jp": "かいぞうした　ノコギリ",
+  "en": "",
+  "status": "todo"
+ },
+ {
+  "id": "t0B1B70",
+  "ptrs": [
+   "0BDEF4"
+  ],
+  "slot": 20,
+  "jp": "バトルに　あわせて",
+  "en": "",
+  "status": "todo"
+ },
+ {
+  "id": "t0B1B84",
+  "ptrs": [
+   "0BDEB8",
+   "0BDEC8",
+   "0BDED8",
+   "0BDEE8",
+   "0C2DA4",
+   "0C4904"
+  ],
+  "slot": 16,
+  "jp": "レーザーガン",
+  "en": "",
+  "status": "todo"
+ },
+ {
+  "id": "t0B1B94",
+  "ptrs": [
+   "0BDEA8"
+  ],
+  "slot": 24,
+  "jp": "かんつうする　レーザー",
+  "en": "",
+  "status": "todo"
+ },
+ {
+  "id": "t0B1BAC",
+  "ptrs": [
+   "0BDEA4"
+  ],
+  "slot": 24,
+  "jp": "あらゆる　ぶっしつを",
+  "en": "",
+  "status": "todo"
+ },
+ {
+  "id": "t0B1BC4",
+  "ptrs": [
+   "0BDE68",
+   "0BDE78",
+   "0BDE88",
+   "0BDE98",
+   "0C2D68",
+   "0C48A0"
+  ],
+  "slot": 12,
+  "jp": "キャノン",
+  "en": "",
+  "status": "todo"
+ },
+ {
+  "id": "t0B1BD0",
+  "ptrs": [
+   "0BDE58"
+  ],
+  "slot": 20,
+  "jp": "ビームキャノンほう",
+  "en": "",
+  "status": "todo"
+ },
+ {
+  "id": "t0B1BE4",
+  "ptrs": [
+   "0BDE54"
+  ],
+  "slot": 24,
+  "jp": "はんどうが　おおきい",
+  "en": "",
+  "status": "todo"
+ },
+ {
+  "id": "t0B1BFC",
+  "ptrs": [
+   "0BDE18",
+   "0BDE28",
+   "0BDE38",
+   "0BDE48",
+   "0C2D2C",
+   "0C483C"
+  ],
+  "slot": 16,
+  "jp": "エクスカリバー",
+  "en": "",
+  "status": "todo"
+ },
+ {
+  "id": "t0B1C0C",
+  "ptrs": [
+   "0BDE08"
+  ],
+  "slot": 20,
+  "jp": "つかえる　せいけん",
+  "en": "",
+  "status": "todo"
+ },
+ {
+  "id": "t0B1C20",
+  "ptrs": [
+   "0BDE04"
+  ],
+  "slot": 24,
+  "jp": "えらばれた　ものだけが",
+  "en": "",
+  "status": "todo"
+ },
+ {
+  "id": "t0B1C38",
+  "ptrs": [
+   "0BDDFC",
+   "0BDE0C",
+   "0BDE1C",
+   "0BDE2C",
+   "0BDE3C",
+   "0BE20C",
+   "0BE21C",
+   "0BE22C",
+   "0BE23C",
+   "0BE24C",
+   "0BE34C",
+   "0BE35C",
+   "0BE36C",
+   "0BE37C",
+   "0BE38C",
+   "0BF0BC",
+   "0BF0CC",
+   "0BF0DC",
+   "0BF0EC",
+   "0BF0FC",
+   "0D0168"
+  ],
+  "slot": 16,
+  "jp": "ゼロイータイプ",
+  "en": "",
+  "status": "todo"
+ },
+ {
+  "id": "t0B1C48",
+  "ptrs": [
+   "0BDDC8",
+   "0BDDD8",
+   "0BDDE8",
+   "0BDDF8",
+   "0C2CF0",
+   "0C47D8"
+  ],
+  "slot": 16,
+  "jp": "パワーアーム",
+  "en": "",
+  "status": "todo"
+ },
+ {
+  "id": "t0B1C58",
+  "ptrs": [
+   "0BDDB8"
+  ],
+  "slot": 24,
+  "jp": "こうげきする　アーム",
+  "en": "",
+  "status": "todo"
+ },
+ {
+  "id": "t0B1C70",
+  "ptrs": [
+   "0BDDB4"
+  ],
+  "slot": 24,
+  "jp": "ちからを　ぞうふくして",
+  "en": "",
+  "status": "todo"
+ },
+ {
+  "id": "t0B1C88",
+  "ptrs": [
+   "0BDDAC",
+   "0BDDBC",
+   "0BDDCC",
+   "0BDDDC",
+   "0BDDEC",
+   "0BE1BC",
+   "0BE1CC",
+   "0BE1DC",
+   "0BE1EC",
+   "0BE1FC",
+   "0BE2FC",
+   "0BE30C",
+   "0BE31C",
+   "0BE32C",
+   "0BE33C",
+   "0BF06C",
+   "0BF07C",
+   "0BF08C",
+   "0BF09C",
+   "0BF0AC",
+   "0D02C0"
+  ],
+  "slot": 20,
+  "jp": "メタボールタイプ",
+  "en": "",
+  "status": "todo"
+ },
+ {
+  "id": "t0B1C9C",
+  "ptrs": [
+   "0BDD78",
+   "0BDD88",
+   "0BDD98",
+   "0BDDA8",
+   "0C2CB4",
+   "0C4774"
+  ],
+  "slot": 16,
+  "jp": "ネクロマンサー",
+  "en": "",
+  "status": "todo"
+ },
+ {
+  "id": "t0B1CAC",
+  "ptrs": [
+   "0BDD68"
+  ],
+  "slot": 20,
+  "jp": "いわれる　まけん",
+  "en": "",
+  "status": "todo"
+ },
+ {
+  "id": "t0B1CC0",
+  "ptrs": [
+   "0BDD64"
+  ],
+  "slot": 24,
+  "jp": "たましいを　きりさくと",
+  "en": "",
+  "status": "todo"
+ },
+ {
+  "id": "t0B1CD8",
+  "ptrs": [
+   "0BDD5C",
+   "0BDD6C",
+   "0BDD7C",
+   "0BDD8C",
+   "0BDD9C",
+   "0BDFDC",
+   "0BDFEC",
+   "0BDFFC",
+   "0BE00C",
+   "0BE01C",
+   "0BF01C",
+   "0BF02C",
+   "0BF03C",
+   "0BF04C",
+   "0BF05C",
+   "0D0108"
+  ],
+  "slot": 20,
+  "jp": "ゴストフリータイプ",
+  "en": "",
+  "status": "todo"
+ },
+ {
+  "id": "t0B1CEC",
+  "ptrs": [
+   "0BDD28",
+   "0BDD38",
+   "0BDD48",
+   "0BDD58",
+   "0C2C78",
+   "0C4710"
+  ],
+  "slot": 12,
+  "jp": "ランチャー",
+  "en": "",
+  "status": "todo"
+ },
+ {
+  "id": "t0B1CF8",
+  "ptrs": [
+   "0BDD18"
+  ],
+  "slot": 24,
+  "jp": "つぎつぎと　うちだす",
+  "en": "",
+  "status": "todo"
+ },
+ {
+  "id": "t0B1D10",
+  "ptrs": [
+   "0BDD14"
+  ],
+  "slot": 24,
+  "jp": "６はつの　ミサイルを",
+  "en": "",
+  "status": "todo"
+ },
+ {
+  "id": "t0B1D28",
+  "ptrs": [
+   "0BDD0C",
+   "0BDD1C",
+   "0BDD2C",
+   "0BDD3C",
+   "0BDD4C",
+   "0BE16C",
+   "0BE17C",
+   "0BE18C",
+   "0BE19C",
+   "0BE1AC",
+   "0BE2AC",
+   "0BE2BC",
+   "0BE2CC",
+   "0BE2DC",
+   "0BE2EC",
+   "0BEFCC",
+   "0BEFDC",
+   "0BEFEC",
+   "0BEFFC",
+   "0BF00C",
+   "0D01E8"
+  ],
+  "slot": 20,
+  "jp": "デュアロンタイプ",
+  "en": "",
+  "status": "todo"
+ },
+ {
+  "id": "t0B1D3C",
+  "ptrs": [
+   "0BDCD8",
+   "0BDCE8",
+   "0BDCF8",
+   "0BDD08",
+   "0C2C3C",
+   "0C46AC"
+  ],
+  "slot": 12,
+  "jp": "ビームガン",
+  "en": "",
+  "status": "todo"
+ },
+ {
+  "id": "t0B1D48",
+  "ptrs": [
+   "0BDCC8"
+  ],
+  "slot": 24,
+  "jp": "かんたんな　ビームガン",
+  "en": "",
+  "status": "todo"
+ },
+ {
+  "id": "t0B1D60",
+  "ptrs": [
+   "0BDCC4"
+  ],
+  "slot": 24,
+  "jp": "シンプルで　あつかいが",
+  "en": "",
+  "status": "todo"
+ },
+ {
+  "id": "t0B1D78",
+  "ptrs": [
+   "0BDCBC",
+   "0BDCCC",
+   "0BDCDC",
+   "0BDCEC",
+   "0BDCFC",
+   "0BDF8C",
+   "0BDF9C",
+   "0BDFAC",
+   "0BDFBC",
+   "0BDFCC",
+   "0BEF7C",
+   "0BEF8C",
+   "0BEF9C",
+   "0BEFAC",
+   "0BEFBC",
+   "0D0078"
+  ],
+  "slot": 20,
+  "jp": "エコロードタイプ",
+  "en": "",
+  "status": "todo"
+ },
+ {
+  "id": "t0B1D8C",
+  "ptrs": [
+   "0BDCA4",
+   "0BDCF4",
+   "0BDD94",
+   "0BDE34",
+   "0BDE84",
+   "0BDED4",
+   "0BE064",
+   "0BE1A4",
+   "0BE334",
+   "0BE564",
+   "0BE5B4",
+   "0BE604",
+   "0BE654",
+   "0BE884",
+   "0BE8D4",
+   "0BE924",
+   "0BEB54",
+   "0BED34"
+  ],
+  "slot": 20,
+  "jp": "かみなりを　おとす",
+  "en": "",
+  "status": "todo"
+ },
+ {
+  "id": "t0B1DA0",
+  "ptrs": [
+   "0BDC88",
+   "0BDC98",
+   "0BDCA8",
+   "0BDCB8",
+   "0C2C00",
+   "0C4648"
+  ],
+  "slot": 12,
+  "jp": "バッテリー",
+  "en": "",
+  "status": "todo"
+ },
+ {
+  "id": "t0B1DAC",
+  "ptrs": [
+   "0BDC78"
+  ],
+  "slot": 20,
+  "jp": "おおきい　ほうだい",
+  "en": "",
+  "status": "todo"
+ },
+ {
+  "id": "t0B1DC0",
+  "ptrs": [
+   "0BDC74"
+  ],
+  "slot": 24,
+  "jp": "そこそこ　かりょくが",
+  "en": "",
+  "status": "todo"
+ },
+ {
+  "id": "t0B1DD8",
+  "ptrs": [
+   "0BDC6C",
+   "0BDC7C",
+   "0BDC8C",
+   "0BDC9C",
+   "0BDCAC",
+   "0BDF3C",
+   "0BDF4C",
+   "0BDF5C",
+   "0BDF6C",
+   "0BDF7C",
+   "0BE11C",
+   "0BE12C",
+   "0BE13C",
+   "0BE14C",
+   "0BE15C",
+   "0BEF2C",
+   "0BEF3C",
+   "0BEF4C",
+   "0BEF5C",
+   "0BEF6C",
+   "0D00D0"
+  ],
+  "slot": 20,
+  "jp": "キックバグタイプ",
+  "en": "",
+  "status": "todo"
+ },
+ {
+  "id": "t0B1DEC",
+  "ptrs": [
+   "0BDC54",
+   "0BDDE4",
+   "0BE014",
+   "0BE0B4",
+   "0BE104",
+   "0BE154",
+   "0BE244",
+   "0BE294",
+   "0BE2E4",
+   "0BE6A4",
+   "0BE6F4",
+   "0BE834",
+   "0BE974",
+   "0BE9C4",
+   "0BEA14",
+   "0BEA64",
+   "0BEAB4",
+   "0BEB04",
+   "0BEBF4",
+   "0BEC44",
+   "0BEC94",
+   "0BECE4"
+  ],
+  "slot": 24,
+  "jp": "てきを　かんでんさせる",
+  "en": "",
+  "status": "todo"
+ },
+ {
+  "id": "t0B1E04",
+  "ptrs": [
+   "0BDC38",
+   "0BDC48",
+   "0BDC58",
+   "0BDC68",
+   "0C2BC4",
+   "0C45E4"
+  ],
+  "slot": 16,
+  "jp": "ドリルアーム",
+  "en": "",
+  "status": "todo"
+ },
+ {
+  "id": "t0B1E14",
+  "ptrs": [
+   "0BDC28"
+  ],
+  "slot": 20,
+  "jp": "てきを　つらぬく",
+  "en": "",
+  "status": "todo"
+ },
+ {
+  "id": "t0B1E28",
+  "ptrs": [
+   "0BDC24"
+  ],
+  "slot": 24,
+  "jp": "こうそくかいてんして",
+  "en": "",
+  "status": "todo"
+ },
+ {
+  "id": "t0B1E40",
+  "ptrs": [
+   "0BDC1C",
+   "0BDC2C",
+   "0BDC3C",
+   "0BDC4C",
+   "0BDC5C",
+   "0BDEEC",
+   "0BDEFC",
+   "0BDF0C",
+   "0BDF1C",
+   "0BDF2C",
+   "0BEEDC",
+   "0BEEEC",
+   "0BEEFC",
+   "0BEF0C",
+   "0BEF1C",
+   "0D0140"
+  ],
+  "slot": 20,
+  "jp": "シェルブックタイプ",
+  "en": "",
+  "status": "todo"
+ },
+ {
+  "id": "t0B1E54",
+  "ptrs": [
+   "0BDBF4",
+   "0BDD84",
+   "0BDDD4",
+   "0BDE74",
+   "0BDF64",
+   "0BE054",
+   "0BE194",
+   "0BE234",
+   "0BE4B4",
+   "0BE504",
+   "0BE554",
+   "0BE5A4",
+   "0BE5F4",
+   "0BE644",
+   "0BE694",
+   "0BE6E4",
+   "0BE784",
+   "0BE7D4",
+   "0BE824",
+   "0BE914",
+   "0BEB44",
+   "0BEBE4",
+   "0BEC34"
+  ],
+  "slot": 20,
+  "jp": "てきを　こおらせる",
+  "en": "",
+  "status": "todo"
+ },
+ {
+  "id": "t0B1E68",
+  "ptrs": [
+   "0BDBE8",
+   "0BDBF8",
+   "0BDC08",
+   "0BDC18",
+   "0C2B88",
+   "0C4580"
+  ],
+  "slot": 12,
+  "jp": "スタンガン",
+  "en": "",
+  "status": "todo"
+ },
+ {
+  "id": "t0B1E74",
+  "ptrs": [
+   "0BDBE4",
+   "0BDCD4",
+   "0BDD24",
+   "0BDD74",
+   "0BDE64",
+   "0BDF04",
+   "0BE044",
+   "0BE134",
+   "0BE224",
+   "0BE314",
+   "0BE4A4",
+   "0BE4F4",
+   "0BE724",
+   "0BE904",
+   "0BEA94",
+   "0BEAE4",
+   "0BEBD4",
+   "0BEC24",
+   "0BED14"
+  ],
+  "slot": 24,
+  "jp": "あたると　ばくはつする",
+  "en": "",
+  "status": "todo"
+ },
+ {
+  "id": "t0B1E8C",
+  "ptrs": [
+   "0BDBD8"
+  ],
+  "slot": 24,
+  "jp": "ショックを　あたえる",
+  "en": "",
+  "status": "todo"
+ },
+ {
+  "id": "t0B1EA4",
+  "ptrs": [
+   "0BDBD4"
+  ],
+  "slot": 24,
+  "jp": "こうあつ　でんりゅうで",
+  "en": "",
+  "status": "todo"
+ },
+ {
+  "id": "t0B1EBC",
+  "ptrs": [
+   "0BDBCC",
+   "0BDBDC",
+   "0BDBEC",
+   "0BDBFC",
+   "0BDC0C",
+   "0BDE9C",
+   "0BDEAC",
+   "0BDEBC",
+   "0BDECC",
+   "0BDEDC",
+   "0BE0CC",
+   "0BE0DC",
+   "0BE0EC",
+   "0BE0FC",
+   "0BE10C",
+   "0BEE8C",
+   "0BEE9C",
+   "0BEEAC",
+   "0BEEBC",
+   "0BEECC",
+   "0D0200"
+  ],
+  "slot": 20,
+  "jp": "バーディスタイプ",
+  "en": "",
+  "status": "todo"
+ },
+ {
+  "id": "t0B1ED0",
+  "ptrs": [
+   "0BDBC4",
+   "0BDC14",
+   "0BDCB4",
+   "0BDD54",
+   "0BDDA4",
+   "0BE254",
+   "0BE2A4",
+   "0BE344",
+   "0BE434",
+   "0BE484",
+   "0BE4D4",
+   "0BE524",
+   "0BE574",
+   "0BE5C4",
+   "0BE614",
+   "0BE664",
+   "0BE6B4",
+   "0BE704",
+   "0BE754",
+   "0BEC04",
+   "0BEC54",
+   "0BECA4",
+   "0BED44"
+  ],
+  "slot": 24,
+  "jp": "じしんを　ひきおこす",
+  "en": "",
+  "status": "todo"
+ },
+ {
+  "id": "t0B1EE8",
+  "ptrs": [
+   "0BDB98",
+   "0BDBA8",
+   "0BDBB8",
+   "0BDBC8",
+   "0C2B4C",
+   "0C451C"
+  ],
+  "slot": 16,
+  "jp": "ダブルリング",
+  "en": "",
+  "status": "todo"
+ },
+ {
+  "id": "t0B1EF8",
+  "ptrs": [
+   "0BDB94",
+   "0BDC34",
+   "0BDC84",
+   "0BDDC4",
+   "0BDEB4",
+   "0BDFA4",
+   "0BDFF4",
+   "0BE184",
+   "0BE274",
+   "0BE364",
+   "0BE404",
+   "0BE454",
+   "0BE814",
+   "0BEB34",
+   "0BEC74",
+   "0BED64",
+   "0BEDB4"
+  ],
+  "slot": 24,
+  "jp": "てきを　ヤケドさせる",
+  "en": "",
+  "status": "todo"
+ },
+ {
+  "id": "t0B1F10",
+  "ptrs": [
+   "0BDB88"
+  ],
+  "slot": 20,
+  "jp": "ビームを　うちだす",
+  "en": "",
+  "status": "todo"
+ },
+ {
+  "id": "t0B1F24",
+  "ptrs": [
+   "0BDB84"
+  ],
+  "slot": 24,
+  "jp": "アンテナが　かいてんし",
+  "en": "",
+  "status": "todo"
+ },
+ {
+  "id": "t0B1F3C",
+  "ptrs": [
+   "0BDB7C",
+   "0BDB8C",
+   "0BDB9C",
+   "0BDBAC",
+   "0BDBBC",
+   "0BDE4C",
+   "0BDE5C",
+   "0BDE6C",
+   "0BDE7C",
+   "0BDE8C",
+   "0BE07C",
+   "0BE08C",
+   "0BE09C",
+   "0BE0AC",
+   "0BE0BC",
+   "0BEE3C",
+   "0BEE4C",
+   "0BEE5C",
+   "0BEE6C",
+   "0BEE7C",
+   "0D01D8"
+  ],
+  "slot": 20,
+  "jp": "テトロトップタイプ",
+  "en": "",
+  "status": "todo"
+ },
+ {
+  "id": "t0B1F50",
+  "ptrs": [
+   "0BDB74",
+   "0BDC64",
+   "0BDD04",
+   "0BDDF4",
+   "0BDE44",
+   "0BDE94",
+   "0BDEE4",
+   "0BDF84",
+   "0BE1B4",
+   "0BE3E4",
+   "0BE7A4",
+   "0BE7F4",
+   "0BE844",
+   "0BE894",
+   "0BE8E4",
+   "0BEB64"
+  ],
+  "slot": 24,
+  "jp": "てきに　いわを　おとす",
+  "en": "",
+  "status": "todo"
+ },
+ {
+  "id": "t0B1F68",
+  "ptrs": [
+   "0BDB64",
+   "0BDBB4",
+   "0BDC04",
+   "0BDD44",
+   "0BDF24",
+   "0BDF74",
+   "0BDFC4",
+   "0BE1F4",
+   "0BE384",
+   "0BE3D4",
+   "0BE424",
+   "0BE474",
+   "0BE4C4",
+   "0BE514",
+   "0BE744",
+   "0BE794",
+   "0BE7E4",
+   "0BEBA4",
+   "0BED84",
+   "0BEDD4"
+  ],
+  "slot": 24,
+  "jp": "まわりに　ほうでんする",
+  "en": "",
+  "status": "todo"
+ },
+ {
+  "id": "t0B1F80",
+  "ptrs": [
+   "0BDB54",
+   "0BDBA4",
+   "0BDC44",
+   "0BDC94",
+   "0BDCE4",
+   "0BDD34",
+   "0BDE24",
+   "0BDEC4",
+   "0BE004",
+   "0BE1E4",
+   "0BE3C4",
+   "0BE414",
+   "0BE464",
+   "0BE734",
+   "0BE874",
+   "0BE8C4",
+   "0BEB94"
+  ],
+  "slot": 24,
+  "jp": "みずばしらが　あがる",
+  "en": "",
+  "status": "todo"
+ },
+ {
+  "id": "t0B1F98",
+  "ptrs": [
+   "0BDB48",
+   "0BDB58",
+   "0BDB68",
+   "0BDB78",
+   "0C2B10",
+   "0C44B8"
+  ],
+  "slot": 16,
+  "jp": "トリックスター",
+  "en": "",
+  "status": "todo"
+ },
+ {
+  "id": "t0B1FA8",
+  "ptrs": [
+   "0BDB44",
+   "0BDE14",
+   "0BDF54",
+   "0BE094",
+   "0BE0E4",
+   "0BE1D4",
+   "0BE2C4",
+   "0BE3B4",
+   "0BE544",
+   "0BE594",
+   "0BE5E4",
+   "0BE634",
+   "0BE684",
+   "0BE6D4",
+   "0BE774",
+   "0BE7C4",
+   "0BE864",
+   "0BE8B4",
+   "0BE954",
+   "0BE9A4",
+   "0BE9F4",
+   "0BEA44",
+   "0BEB84",
+   "0BECC4"
+  ],
+  "slot": 20,
+  "jp": "ほのおが　ふきだす",
+  "en": "",
+  "status": "todo"
+ },
+ {
+  "id": "t0B1FBC",
+  "ptrs": [
+   "0BDB38"
+  ],
+  "slot": 24,
+  "jp": "とびだす　しこみがたな",
+  "en": "",
+  "status": "todo"
+ },
+ {
+  "id": "t0B1FD4",
+  "ptrs": [
+   "0BDB34"
+  ],
+  "slot": 24,
+  "jp": "こうそくで　やいばが",
+  "en": "",
+  "status": "todo"
+ },
+ {
+  "id": "t0B1FEC",
+  "ptrs": [
+   "0BDB30",
+   "0BDB40",
+   "0BDB50",
+   "0BDB60",
+   "0BDB70",
+   "0BDB80",
+   "0BDB90",
+   "0BDBA0",
+   "0BDBB0",
+   "0BDBC0",
+   "0BDBD0",
+   "0BDBE0",
+   "0BDBF0",
+   "0BDC00",
+   "0BDC10",
+   "0BDC20",
+   "0BDC30",
+   "0BDC40",
+   "0BDC50",
+   "0BDC60",
+   "0BDC70",
+   "0BDC80",
+   "0BDC90",
+   "0BDCA0",
+   "0BDCB0",
+   "0BDCC0",
+   "0BDCD0",
+   "0BDCE0",
+   "0BDCF0",
+   "0BDD00",
+   "0BDD10",
+   "0BDD20",
+   "0BDD30",
+   "0BDD40",
+   "0BDD50",
+   "0BDD60",
+   "0BDD70",
+   "0BDD80",
+   "0BDD90",
+   "0BDDA0",
+   "0BDDB0",
+   "0BDDC0",
+   "0BDDD0",
+   "0BDDE0",
+   "0BDDF0",
+   "0BDE00",
+   "0BDE10",
+   "0BDE20",
+   "0BDE30",
+   "0BDE40",
+   "0BDE50",
+   "0BDE60",
+   "0BDE70",
+   "0BDE80",
+   "0BDE90",
+   "0BDEA0",
+   "0BDEB0",
+   "0BDEC0",
+   "0BDED0",
+   "0BDEE0",
+   "0BDEF0",
+   "0BDF00",
+   "0BDF10",
+   "0BDF20",
+   "0BDF30",
+   "0BDF40",
+   "0BDF50",
+   "0BDF60",
+   "0BDF70",
+   "0BDF80",
+   "0BDF90",
+   "0BDFA0",
+   "0BDFB0",
+   "0BDFC0",
+   "0BDFD0",
+   "0BDFE0",
+   "0BDFF0",
+   "0BE000",
+   "0BE010",
+   "0BE020",
+   "0BE030",
+   "0BE040",
+   "0BE050",
+   "0BE060",
+   "0BE070",
+   "0BE080",
+   "0BE090",
+   "0BE0A0",
+   "0BE0B0",
+   "0BE0C0",
+   "0BE0D0",
+   "0BE0E0",
+   "0BE0F0",
+   "0BE100",
+   "0BE110",
+   "0BE120",
+   "0BE130",
+   "0BE140",
+   "0BE150",
+   "0BE160",
+   "0BE170",
+   "0BE180",
+   "0BE190",
+   "0BE1A0",
+   "0BE1B0",
+   "0BE1C0",
+   "0BE1D0",
+   "0BE1E0",
+   "0BE1F0",
+   "0BE200",
+   "0BE210",
+   "0BE220",
+   "0BE230",
+   "0BE240",
+   "0BE250",
+   "0BE260",
+   "0BE270",
+   "0BE280",
+   "0BE290",
+   "0BE2A0",
+   "0BE2B0",
+   "0BE2C0",
+   "0BE2D0",
+   "0BE2E0",
+   "0BE2F0",
+   "0BE300",
+   "0BE310",
+   "0BE320",
+   "0BE330",
+   "0BE340",
+   "0BE350",
+   "0BE360",
+   "0BE370",
+   "0BE380",
+   "0BE390",
+   "0BE3A0",
+   "0BE3B0",
+   "0BE3C0",
+   "0BE3D0",
+   "0BE3E0",
+   "0BE3F0",
+   "0BE400",
+   "0BE410",
+   "0BE420",
+   "0BE430",
+   "0BE440",
+   "0BE450",
+   "0BE460",
+   "0BE470",
+   "0BE480",
+   "0BE490",
+   "0BE4A0",
+   "0BE4B0",
+   "0BE4C0",
+   "0BE4D0",
+   "0BE4E0",
+   "0BE4F0",
+   "0BE500",
+   "0BE510",
+   "0BE520",
+   "0BE530",
+   "0BE540",
+   "0BE550",
+   "0BE560",
+   "0BE570",
+   "0BE580",
+   "0BE590",
+   "0BE5A0",
+   "0BE5B0",
+   "0BE5C0",
+   "0BE5D0",
+   "0BE5E0",
+   "0BE5F0",
+   "0BE600",
+   "0BE610",
+   "0BE620",
+   "0BE630",
+   "0BE640",
+   "0BE650",
+   "0BE660",
+   "0BE670",
+   "0BE680",
+   "0BE690",
+   "0BE6A0",
+   "0BE6B0",
+   "0BE6C0",
+   "0BE6D0",
+   "0BE6E0",
+   "0BE6F0",
+   "0BE700",
+   "0BE710",
+   "0BE720",
+   "0BE730",
+   "0BE740",
+   "0BE750",
+   "0BE760",
+   "0BE770",
+   "0BE780",
+   "0BE790",
+   "0BE7A0",
+   "0BE7B0",
+   "0BE7C0",
+   "0BE7D0",
+   "0BE7E0",
+   "0BE7F0",
+   "0BE800",
+   "0BE810",
+   "0BE820",
+   "0BE830",
+   "0BE840",
+   "0BE850",
+   "0BE860",
+   "0BE870",
+   "0BE880",
+   "0BE890",
+   "0BE8A0",
+   "0BE8B0",
+   "0BE8C0",
+   "0BE8D0",
+   "0BE8E0",
+   "0BE8F0",
+   "0BE900",
+   "0BE910",
+   "0BE920",
+   "0BE930",
+   "0BE940",
+   "0BE950",
+   "0BE960",
+   "0BE970",
+   "0BE980",
+   "0BE990",
+   "0BE9A0",
+   "0BE9B0",
+   "0BE9C0",
+   "0BE9D0",
+   "0BE9E0",
+   "0BE9F0",
+   "0BEA00",
+   "0BEA10",
+   "0BEA20",
+   "0BEA30",
+   "0BEA40",
+   "0BEA50",
+   "0BEA60",
+   "0BEA70",
+   "0BEA80",
+   "0BEA90",
+   "0BEAA0",
+   "0BEAB0",
+   "0BEAC0",
+   "0BEAD0",
+   "0BEAE0",
+   "0BEAF0",
+   "0BEB00",
+   "0BEB10",
+   "0BEB20",
+   "0BEB30",
+   "0BEB40",
+   "0BEB50",
+   "0BEB60",
+   "0BEB70",
+   "0BEB80",
+   "0BEB90",
+   "0BEBA0",
+   "0BEBB0",
+   "0BEBC0",
+   "0BEBD0",
+   "0BEBE0",
+   "0BEBF0",
+   "0BEC00",
+   "0BEC10",
+   "0BEC20",
+   "0BEC30",
+   "0BEC40",
+   "0BEC50",
+   "0BEC60",
+   "0BEC70",
+   "0BEC80",
+   "0BEC90",
+   "0BECA0",
+   "0BECB0",
+   "0BECC0",
+   "0BECD0",
+   "0BECE0",
+   "0BECF0",
+   "0BED00",
+   "0BED10",
+   "0BED20",
+   "0BED30",
+   "0BED40",
+   "0BED50",
+   "0BED60",
+   "0BED70",
+   "0BED80",
+   "0BED90",
+   "0BEDA0",
+   "0BEDB0",
+   "0BEDC0",
+   "0BEDD0",
+   "0BEDE0",
+   "0D0050"
+  ],
+  "slot": 20,
+  "jp": "ウェポンデバイス",
+  "en": "",
+  "status": "todo"
+ }
+]

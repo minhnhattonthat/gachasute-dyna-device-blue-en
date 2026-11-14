@@ -1,0 +1,1077 @@
+[
+ {
+  "id": "t0BB010",
+  "ptrs": [
+   "08B1E4"
+  ],
+  "slot": 44,
+  "jp": "おおきいほうの　プレイヤーが　せんこうです",
+  "en": "",
+  "status": "todo"
+ },
+ {
+  "id": "t0BB03C",
+  "ptrs": [
+   "08B2C0"
+  ],
+  "slot": 24,
+  "jp": "１Ｐが　せんこう　です",
+  "en": "",
+  "status": "todo"
+ },
+ {
+  "id": "t0BB054",
+  "ptrs": [
+   "08B2C4"
+  ],
+  "slot": 24,
+  "jp": "２Ｐが　こうこう　です",
+  "en": "",
+  "status": "todo"
+ },
+ {
+  "id": "t0BB06C",
+  "ptrs": [
+   "08B354"
+  ],
+  "slot": 24,
+  "jp": "１Ｐが　こうこう　です",
+  "en": "",
+  "status": "todo"
+ },
+ {
+  "id": "t0BB084",
+  "ptrs": [
+   "08B358"
+  ],
+  "slot": 24,
+  "jp": "２Ｐが　せんこう　です",
+  "en": "",
+  "status": "todo"
+ },
+ {
+  "id": "t0BB09C",
+  "ptrs": [
+   "08BA24"
+  ],
+  "slot": 8,
+  "jp": "{%02X}",
+  "en": "",
+  "status": "keep",
+  "notes": "ASCII: number format or debug label"
+ },
+ {
+  "id": "t0BB0A4",
+  "ptrs": [
+   "08C4C4"
+  ],
+  "slot": 12,
+  "jp": "TS ACTIVE",
+  "en": "",
+  "status": "keep",
+  "notes": "ASCII: number format or debug label"
+ },
+ {
+  "id": "t0BB0B0",
+  "ptrs": [
+   "08C4FC"
+  ],
+  "slot": 12,
+  "jp": "TS SLEEP ",
+  "en": "",
+  "status": "keep",
+  "notes": "ASCII: number format or debug label"
+ },
+ {
+  "id": "t0BB0BC",
+  "ptrs": [
+   "08C500"
+  ],
+  "slot": 12,
+  "jp": "SIO ID ={%d}",
+  "en": "",
+  "status": "keep",
+  "notes": "ASCII: number format or debug label"
+ },
+ {
+  "id": "t0BB0C8",
+  "ptrs": [
+   "0E45D4"
+  ],
+  "slot": 16,
+  "jp": "　　（＾＾）",
+  "en": "",
+  "status": "todo"
+ },
+ {
+  "id": "t0BB0D8",
+  "ptrs": [
+   "0E45D0"
+  ],
+  "slot": 20,
+  "jp": "しょうねんアシベ",
+  "en": "",
+  "status": "todo"
+ },
+ {
+  "id": "t0BB0EC",
+  "ptrs": [
+   "0E45CC"
+  ],
+  "slot": 20,
+  "jp": "アイスカフェラテ",
+  "en": "",
+  "status": "todo"
+ },
+ {
+  "id": "t0BB100",
+  "ptrs": [
+   "0E45C8"
+  ],
+  "slot": 20,
+  "jp": "あやしいバイヤー",
+  "en": "",
+  "status": "todo"
+ },
+ {
+  "id": "t0BB114",
+  "ptrs": [
+   "08CED0"
+  ],
+  "slot": 16,
+  "jp": "かちポイント／",
+  "en": "",
+  "status": "todo"
+ },
+ {
+  "id": "t0BB124",
+  "ptrs": [
+   "08CED4"
+  ],
+  "slot": 8,
+  "jp": "のこり",
+  "en": "",
+  "status": "todo"
+ },
+ {
+  "id": "t0BB12C",
+  "ptrs": [
+   "08CFD8"
+  ],
+  "slot": 8,
+  "jp": "たい",
+  "en": "",
+  "status": "todo"
+ },
+ {
+  "id": "t0BB134",
+  "ptrs": [
+   "08CFDC"
+  ],
+  "slot": 16,
+  "jp": "まけポイント／",
+  "en": "",
+  "status": "todo"
+ },
+ {
+  "id": "t0BB144",
+  "ptrs": [
+   "08D31C"
+  ],
+  "slot": 20,
+  "jp": "JUNBAN LIST DISPLAY",
+  "en": "",
+  "status": "keep",
+  "notes": "ASCII: number format or debug label"
+ },
+ {
+  "id": "t0BB158",
+  "ptrs": [
+   "08D320"
+  ],
+  "slot": 12,
+  "jp": "TURN={%02d}",
+  "en": "",
+  "status": "keep",
+  "notes": "ASCII: number format or debug label"
+ },
+ {
+  "id": "t0BB164",
+  "ptrs": [
+   "08D328"
+  ],
+  "slot": 20,
+  "jp": "NO {%d}  PLAYER={%d}",
+  "en": "",
+  "status": "keep",
+  "notes": "ASCII: number format or debug label"
+ },
+ {
+  "id": "t0BB178",
+  "ptrs": [
+   "08D38C"
+  ],
+  "slot": 4,
+  "jp": "ONI",
+  "en": "",
+  "status": "keep",
+  "notes": "ASCII: number format or debug label"
+ },
+ {
+  "id": "t0BB17C",
+  "ptrs": [
+   "08D390"
+  ],
+  "slot": 4,
+  "jp": "ACT",
+  "en": "",
+  "status": "keep",
+  "notes": "ASCII: number format or debug label"
+ },
+ {
+  "id": "t0BB180",
+  "ptrs": [
+   "0E4674"
+  ],
+  "slot": 16,
+  "jp": "　　（＾＾）",
+  "en": "",
+  "status": "todo"
+ },
+ {
+  "id": "t0BB190",
+  "ptrs": [
+   "0E4670"
+  ],
+  "slot": 20,
+  "jp": "しょうねんアシベ",
+  "en": "",
+  "status": "todo"
+ },
+ {
+  "id": "t0BB1A4",
+  "ptrs": [
+   "0E466C"
+  ],
+  "slot": 20,
+  "jp": "アイスカフェラテ",
+  "en": "",
+  "status": "todo"
+ },
+ {
+  "id": "t0BB1B8",
+  "ptrs": [
+   "0E4668"
+  ],
+  "slot": 20,
+  "jp": "あやしいバイヤー",
+  "en": "",
+  "status": "todo"
+ },
+ {
+  "id": "t0BB1CC",
+  "ptrs": [
+   "08DE6C"
+  ],
+  "slot": 4,
+  "jp": "む",
+  "en": "",
+  "status": "todo"
+ },
+ {
+  "id": "t0BB1D0",
+  "ptrs": [
+   "08EE08"
+  ],
+  "slot": 24,
+  "jp": "{C2}ダイナデータベース",
+  "en": "",
+  "status": "todo"
+ },
+ {
+  "id": "t0BB1E8",
+  "ptrs": [
+   "08EE80",
+   "08EF90",
+   "08F018",
+   "08F0D8",
+   "08F148",
+   "08F228"
+  ],
+  "slot": 8,
+  "jp": "{C2}{%sR0}",
+  "en": "",
+  "status": "keep",
+  "notes": "ASCII: number format or debug label"
+ },
+ {
+  "id": "t0BB1F0",
+  "ptrs": [
+   "08EE84",
+   "08F014",
+   "08F0E0"
+  ],
+  "slot": 20,
+  "jp": "ーーーーーーーー",
+  "en": "",
+  "status": "todo"
+ },
+ {
+  "id": "t0BB204",
+  "ptrs": [
+   "08EF94"
+  ],
+  "slot": 16,
+  "jp": "{C2}{%sR0}タイプ",
+  "en": "",
+  "status": "todo"
+ },
+ {
+  "id": "t0BB214",
+  "ptrs": [
+   "08EF98"
+  ],
+  "slot": 16,
+  "jp": "{C2}{%sR0}スタイル",
+  "en": "",
+  "status": "todo"
+ },
+ {
+  "id": "t0BB224",
+  "ptrs": [
+   "08EFB0"
+  ],
+  "slot": 16,
+  "jp": "{C2}{%sR0}ぞくせい",
+  "en": "",
+  "status": "todo"
+ },
+ {
+  "id": "t0BB234",
+  "ptrs": [
+   "08F0DC",
+   "08F14C"
+  ],
+  "slot": 12,
+  "jp": "{C2}＋{%02dR1}",
+  "en": "",
+  "status": "todo"
+ },
+ {
+  "id": "t0BB240",
+  "ptrs": [
+   "08F2A0"
+  ],
+  "slot": 12,
+  "jp": "{C2}{%02dR0}",
+  "en": "",
+  "status": "keep",
+  "notes": "ASCII: number format or debug label"
+ },
+ {
+  "id": "t0BB24C",
+  "ptrs": [
+   "08F3B4"
+  ],
+  "slot": 8,
+  "jp": "{C2}{%4dR0}",
+  "en": "",
+  "status": "keep",
+  "notes": "ASCII: number format or debug label"
+ },
+ {
+  "id": "t0BB254",
+  "ptrs": [
+   "08F3B8",
+   "08F41C",
+   "08F464"
+  ],
+  "slot": 12,
+  "jp": "{C2}＋{%02dR0}",
+  "en": "",
+  "status": "todo"
+ },
+ {
+  "id": "t0BB260",
+  "ptrs": [
+   "08F418",
+   "08F460",
+   "08F48C"
+  ],
+  "slot": 12,
+  "jp": "{C2}ーーー",
+  "en": "",
+  "status": "todo"
+ },
+ {
+  "id": "t0BB26C",
+  "ptrs": [
+   "090104"
+  ],
+  "slot": 20,
+  "jp": "なにを　しますか？",
+  "en": "",
+  "status": "todo"
+ },
+ {
+  "id": "t0BB280",
+  "ptrs": [
+   "090108"
+  ],
+  "slot": 44,
+  "jp": "　　つれていく　　　ステータス　　　にがす",
+  "en": "",
+  "status": "todo"
+ },
+ {
+  "id": "t0BB2AC",
+  "ptrs": [
+   "090138"
+  ],
+  "slot": 44,
+  "jp": "ほんとうに　にがしても　よろしいですか？",
+  "en": "",
+  "status": "todo"
+ },
+ {
+  "id": "t0BB2D8",
+  "ptrs": [
+   "09013C"
+  ],
+  "slot": 32,
+  "jp": "　　　　　はい　　　　いいえ",
+  "en": "",
+  "status": "todo"
+ },
+ {
+  "id": "t0BB2F8",
+  "ptrs": [
+   "090184"
+  ],
+  "slot": 40,
+  "jp": "すでに　３たい　つれあるいているため",
+  "en": "",
+  "status": "todo"
+ },
+ {
+  "id": "t0BB320",
+  "ptrs": [
+   "090188"
+  ],
+  "slot": 32,
+  "jp": "これいじょう　つれていけません",
+  "en": "",
+  "status": "todo"
+ },
+ {
+  "id": "t0BB340",
+  "ptrs": [
+   "0901B0"
+  ],
+  "slot": 32,
+  "jp": "ダイナを　せんたくしてください",
+  "en": "",
+  "status": "todo"
+ },
+ {
+  "id": "t0BB360",
+  "ptrs": [
+   "0901E4"
+  ],
+  "slot": 36,
+  "jp": "つれていくを　えらんでください！",
+  "en": "",
+  "status": "todo"
+ },
+ {
+  "id": "t0BB384",
+  "ptrs": [
+   "090710"
+  ],
+  "slot": 24,
+  "jp": "{%02dR0}／{%02dR1}ページ",
+  "en": "",
+  "status": "todo"
+ },
+ {
+  "id": "t0BB39C",
+  "ptrs": [
+   "090720"
+  ],
+  "slot": 4,
+  "jp": "／",
+  "en": "",
+  "status": "todo"
+ },
+ {
+  "id": "t0BB3A0",
+  "ptrs": [
+   "090724"
+  ],
+  "slot": 8,
+  "jp": "{C4}{%sR2}",
+  "en": "",
+  "status": "keep",
+  "notes": "ASCII: number format or debug label"
+ },
+ {
+  "id": "t0BB3A8",
+  "ptrs": [
+   "0907F0"
+  ],
+  "slot": 8,
+  "jp": "{%3dR0}",
+  "en": "",
+  "status": "keep",
+  "notes": "ASCII: number format or debug label"
+ },
+ {
+  "id": "t0BB3B0",
+  "ptrs": [
+   "0921D0",
+   "0922A4"
+  ],
+  "slot": 20,
+  "jp": "ーーーーーーーー",
+  "en": "",
+  "status": "todo"
+ },
+ {
+  "id": "t0BB3C4",
+  "ptrs": [
+   "092298",
+   "09233C",
+   "0926DC"
+  ],
+  "slot": 8,
+  "jp": "{C3}{%sR0}",
+  "en": "",
+  "status": "keep",
+  "notes": "ASCII: number format or debug label"
+ },
+ {
+  "id": "t0BB3CC",
+  "ptrs": [
+   "09229C",
+   "092340",
+   "09274C"
+  ],
+  "slot": 12,
+  "jp": "{C3}＋{%02dR1}",
+  "en": "",
+  "status": "todo"
+ },
+ {
+  "id": "t0BB3D8",
+  "ptrs": [
+   "092344",
+   "092608"
+  ],
+  "slot": 20,
+  "jp": "ウエポンデバイス１",
+  "en": "",
+  "status": "todo"
+ },
+ {
+  "id": "t0BB3EC",
+  "ptrs": [
+   "09236C",
+   "092618"
+  ],
+  "slot": 20,
+  "jp": "ウエポンデバイス２",
+  "en": "",
+  "status": "todo"
+ },
+ {
+  "id": "t0BB400",
+  "ptrs": [
+   "0923D0",
+   "092644"
+  ],
+  "slot": 20,
+  "jp": "ウエポンデバイス３",
+  "en": "",
+  "status": "todo"
+ },
+ {
+  "id": "t0BB414",
+  "ptrs": [
+   "0923D4",
+   "0926CC"
+  ],
+  "slot": 20,
+  "jp": "アーマーデバイス　",
+  "en": "",
+  "status": "todo"
+ },
+ {
+  "id": "t0BB428",
+  "ptrs": [
+   "092748",
+   "093A20"
+  ],
+  "slot": 8,
+  "jp": "{%sR0}",
+  "en": "",
+  "status": "keep",
+  "notes": "ASCII: number format or debug label"
+ },
+ {
+  "id": "t0BB430",
+  "ptrs": [
+   "092804"
+  ],
+  "slot": 12,
+  "jp": "＋{%02dR1}",
+  "en": "",
+  "status": "todo"
+ },
+ {
+  "id": "t0BB43C",
+  "ptrs": [
+   "092810"
+  ],
+  "slot": 16,
+  "jp": "デバイスなし",
+  "en": "",
+  "status": "todo"
+ },
+ {
+  "id": "t0BB44C",
+  "ptrs": [
+   "092E5C"
+  ],
+  "slot": 8,
+  "jp": "{%4dR0}",
+  "en": "",
+  "status": "keep",
+  "notes": "ASCII: number format or debug label"
+ },
+ {
+  "id": "t0BB454",
+  "ptrs": [
+   "092E60"
+  ],
+  "slot": 8,
+  "jp": "{%4dR1}",
+  "en": "",
+  "status": "keep",
+  "notes": "ASCII: number format or debug label"
+ },
+ {
+  "id": "t0BB45C",
+  "ptrs": [
+   "092E64"
+  ],
+  "slot": 8,
+  "jp": "{%4dR2}",
+  "en": "",
+  "status": "keep",
+  "notes": "ASCII: number format or debug label"
+ },
+ {
+  "id": "t0BB464",
+  "ptrs": [
+   "0930A0"
+  ],
+  "slot": 8,
+  "jp": "{%3dR0}",
+  "en": "",
+  "status": "keep",
+  "notes": "ASCII: number format or debug label"
+ },
+ {
+  "id": "t0BB46C",
+  "ptrs": [
+   "095550"
+  ],
+  "slot": 12,
+  "jp": "CONT {%03d}",
+  "en": "",
+  "status": "keep",
+  "notes": "ASCII: number format or debug label"
+ },
+ {
+  "id": "t0BB478",
+  "ptrs": [
+   "095554"
+  ],
+  "slot": 12,
+  "jp": "{%04d} {%04d}",
+  "en": "",
+  "status": "keep",
+  "notes": "ASCII: number format or debug label"
+ },
+ {
+  "id": "t0BB484",
+  "ptrs": [
+   "09647C"
+  ],
+  "slot": 20,
+  "jp": "〒{%02dR0}ー{%02dR1}",
+  "en": "",
+  "status": "todo"
+ },
+ {
+  "id": "t0BB498",
+  "ptrs": [
+   "096484"
+  ],
+  "slot": 16,
+  "jp": "セクタタイプ／",
+  "en": "",
+  "status": "todo"
+ },
+ {
+  "id": "t0BB4A8",
+  "ptrs": [
+   "09648C"
+  ],
+  "slot": 20,
+  "jp": "セクタバリュー／",
+  "en": "",
+  "status": "todo"
+ },
+ {
+  "id": "t0BB4BC",
+  "ptrs": [
+   "0964E8"
+  ],
+  "slot": 8,
+  "jp": "{%dR2}",
+  "en": "",
+  "status": "keep",
+  "notes": "ASCII: number format or debug label"
+ },
+ {
+  "id": "t0BB4C4",
+  "ptrs": [
+   "09E578"
+  ],
+  "slot": 24,
+  "jp": "マイキャラ　のいどう",
+  "en": "",
+  "status": "todo"
+ },
+ {
+  "id": "t0BB4DC",
+  "ptrs": [
+   "09E57C"
+  ],
+  "slot": 12,
+  "jp": "ショット",
+  "en": "",
+  "status": "todo"
+ },
+ {
+  "id": "t0BB4E8",
+  "ptrs": [
+   "09E580"
+  ],
+  "slot": 20,
+  "jp": "ポーズ・ギブアップ",
+  "en": "",
+  "status": "todo"
+ },
+ {
+  "id": "t0BB4FC",
+  "ptrs": [
+   "09E584"
+  ],
+  "slot": 32,
+  "jp": "（タイマーは　とまりません）",
+  "en": "",
+  "status": "todo"
+ },
+ {
+  "id": "t0BB51C",
+  "ptrs": [
+   "09E588"
+  ],
+  "slot": 20,
+  "jp": "２ふんの　あいだに",
+  "en": "",
+  "status": "todo"
+ },
+ {
+  "id": "t0BB530",
+  "ptrs": [
+   "09E58C"
+  ],
+  "slot": 24,
+  "jp": "できるだけ　おおくの",
+  "en": "",
+  "status": "todo"
+ },
+ {
+  "id": "t0BB548",
+  "ptrs": [
+   "09E590"
+  ],
+  "slot": 24,
+  "jp": "とくてんを　とることを",
+  "en": "",
+  "status": "todo"
+ },
+ {
+  "id": "t0BB560",
+  "ptrs": [
+   "09E594"
+  ],
+  "slot": 20,
+  "jp": "めざす　ゲームです",
+  "en": "",
+  "status": "todo"
+ },
+ {
+  "id": "t0BB574",
+  "ptrs": [
+   "09E598"
+  ],
+  "slot": 32,
+  "jp": "さまざまな　かくしボーナスを",
+  "en": "",
+  "status": "todo"
+ },
+ {
+  "id": "t0BB594",
+  "ptrs": [
+   "09E59C"
+  ],
+  "slot": 32,
+  "jp": "みつけだして　こうとくてんを",
+  "en": "",
+  "status": "todo"
+ },
+ {
+  "id": "t0BB5B4",
+  "ptrs": [
+   "09E5A0"
+  ],
+  "slot": 20,
+  "jp": "ゲットしてください",
+  "en": "",
+  "status": "todo"
+ },
+ {
+  "id": "t0BB5C8",
+  "ptrs": [
+   "0A0AE0"
+  ],
+  "slot": 20,
+  "jp": "カーソルの　いどう",
+  "en": "",
+  "status": "todo"
+ },
+ {
+  "id": "t0BB5DC",
+  "ptrs": [
+   "0A0AE4"
+  ],
+  "slot": 16,
+  "jp": "ボタンを　おす",
+  "en": "",
+  "status": "todo"
+ },
+ {
+  "id": "t0BB5EC",
+  "ptrs": [
+   "0A0AE8"
+  ],
+  "slot": 20,
+  "jp": "めじるしを　つける",
+  "en": "",
+  "status": "todo"
+ },
+ {
+  "id": "t0BB600",
+  "ptrs": [
+   "0A0AEC"
+  ],
+  "slot": 20,
+  "jp": "ポーズ・ギブアップ",
+  "en": "",
+  "status": "todo"
+ },
+ {
+  "id": "t0BB614",
+  "ptrs": [
+   "0A0AF0"
+  ],
+  "slot": 24,
+  "jp": "スイッチに　ついている",
+  "en": "",
+  "status": "todo"
+ },
+ {
+  "id": "t0BB62C",
+  "ptrs": [
+   "0A0AF4"
+  ],
+  "slot": 28,
+  "jp": "すうじの　かずだけ　その",
+  "en": "",
+  "status": "todo"
+ },
+ {
+  "id": "t0BB648",
+  "ptrs": [
+   "0A0AF8"
+  ],
+  "slot": 28,
+  "jp": "ほうこうに　かんでんする",
+  "en": "",
+  "status": "todo"
+ },
+ {
+  "id": "t0BB664",
+  "ptrs": [
+   "0A0AFC"
+  ],
+  "slot": 24,
+  "jp": "スイッチが　あります",
+  "en": "",
+  "status": "todo"
+ },
+ {
+  "id": "t0BB67C",
+  "ptrs": [
+   "0A0B00"
+  ],
+  "slot": 28,
+  "jp": "よけながら　それいがいの",
+  "en": "",
+  "status": "todo"
+ },
+ {
+  "id": "t0BB698",
+  "ptrs": [
+   "0A0B04"
+  ],
+  "slot": 20,
+  "jp": "スイッチを　すべて",
+  "en": "",
+  "status": "todo"
+ },
+ {
+  "id": "t0BB6AC",
+  "ptrs": [
+   "0A0B08"
+  ],
+  "slot": 16,
+  "jp": "おしてください",
+  "en": "",
+  "status": "todo"
+ },
+ {
+  "id": "t0BB6BC",
+  "ptrs": [
+   "0A322C"
+  ],
+  "slot": 24,
+  "jp": "マイキャラ　のいどう",
+  "en": "",
+  "status": "todo"
+ },
+ {
+  "id": "t0BB6D4",
+  "ptrs": [
+   "0A3230"
+  ],
+  "slot": 24,
+  "jp": "みぎてで　エサをもつ",
+  "en": "",
+  "status": "todo"
+ },
+ {
+  "id": "t0BB6EC",
+  "ptrs": [
+   "0A3234"
+  ],
+  "slot": 24,
+  "jp": "ひだりてで　エサをもつ",
+  "en": "",
+  "status": "todo"
+ },
+ {
+  "id": "t0BB704",
+  "ptrs": [
+   "0A3238"
+  ],
+  "slot": 20,
+  "jp": "ポーズ・ギブアップ",
+  "en": "",
+  "status": "todo"
+ },
+ {
+  "id": "t0BB718",
+  "ptrs": [
+   "0A323C"
+  ],
+  "slot": 20,
+  "jp": "４たいの　ダイナが",
+  "en": "",
+  "status": "todo"
+ },
+ {
+  "id": "t0BB72C",
+  "ptrs": [
+   "0A3240"
+  ],
+  "slot": 28,
+  "jp": "つぎつぎと　ほしがるエサを",
+  "en": "",
+  "status": "todo"
+ },
+ {
+  "id": "t0BB748",
+  "ptrs": [
+   "0A3244"
+  ],
+  "slot": 28,
+  "jp": "ホンキで　おこりだすまえに",
+  "en": "",
+  "status": "todo"
+ },
+ {
+  "id": "t0BB764",
+  "ptrs": [
+   "0A3248"
+  ],
+  "slot": 24,
+  "jp": "あたえていくゲームです",
+  "en": "",
+  "status": "todo"
+ },
+ {
+  "id": "t0BB77C",
+  "ptrs": [
+   "0A324C"
+  ],
+  "slot": 24,
+  "jp": "おこりはじめたときに",
+  "en": "",
+  "status": "todo"
+ },
+ {
+  "id": "t0BB794",
+  "ptrs": [
+   "0A3250"
+  ],
+  "slot": 20,
+  "jp": "エサを　あたえると",
+  "en": "",
+  "status": "todo"
+ },
+ {
+  "id": "t0BB7A8",
+  "ptrs": [
+   "0A3254"
+  ],
+  "slot": 24,
+  "jp": "こうとくてんに　なります",
+  "en": "",
+  "status": "todo"
+ }
+]
