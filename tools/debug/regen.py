@@ -1,6 +1,7 @@
 """Regenerate every debug-warp scene from a cold boot: shot + savestate per scene, checked by its log.
 
     python -X utf8 tools/debug/regen.py [SCENE ...] [--rom ROM] [--jobs 4] [--out work/qa/warp] [--states work/states]
+                                        [--probe tools/lua/markerlog.lua]
 
 Runs tools/debug/warp.lua for each scene in tools/debug/scenes.tsv (or the named ones) in parallel. Each run must
 log "ARRIVED <scene>" and "HOLD done"; then <out>/<scene>/hold.png is the proof shot and <states>/<scene>.mss the
@@ -35,7 +36,7 @@ def scenes():
     return rows
 
 
-def run(rom, out, states, row):
+def run(rom, out, states, row, probes=()):
     name, kind = row[0], row[1]
     hold = int(row[3]) if len(row) > 3 and row[3].strip() else 300
     d = out / name
@@ -44,6 +45,8 @@ def run(rom, out, states, row):
            "--script", str(ROOT / "tools" / "debug" / "warp.lua"), "--var", f"SCENE='{name}'",
            "--var", "FINISH=1", "--var", f"WARP_STATE='{state.as_posix()}'",
            "--frames", str(BUDGET.get(kind, 12000) + hold), "--timeout", "1200"]
+    for p in probes:
+        cmd += ["--script", str(Path(p).resolve())]
     r = subprocess.run(cmd, capture_output=True, text=True, cwd=ROOT)
     log = (d / "log.txt").read_text(encoding="utf-8", errors="replace") if (d / "log.txt").exists() else ""
     ok = f"ARRIVED {name} " in log and "HOLD done" in log and (d / "hold.png").exists()
@@ -57,6 +60,7 @@ def main():
     ap.add_argument("--jobs", type=int, default=4)
     ap.add_argument("--out", default=str(ROOT / "work" / "qa" / "warp"))
     ap.add_argument("--states", default=str(ROOT / "work" / "states"))
+    ap.add_argument("--probe", action="append", default=[], help="extra Lua probe run beside warp.lua (repeatable)")
     a = ap.parse_args()
     rows = scenes()
     if a.names:
@@ -71,13 +75,14 @@ def main():
     # longest first so the menu replays (about 26k frames) don't trail at the end
     rows.sort(key=lambda r: -BUDGET.get(r[1], 12000))
     with ThreadPoolExecutor(a.jobs) as ex:
-        res = list(ex.map(lambda r: run(a.rom, out, states, r), rows))
+        res = list(ex.map(lambda r: run(a.rom, out, states, r, a.probe), rows))
     # Mesen runs occasionally die under load (8 parallel menu replays: 3 exited 1 mid-route); retry those once
     retry = {n for n, ok, _, _ in res if not ok}
     if retry:
         print(f"retrying {len(retry)}: {' '.join(sorted(retry))}")
         with ThreadPoolExecutor(min(2, a.jobs)) as ex:
-            again = {t[0]: t for t in ex.map(lambda r: run(a.rom, out, states, r), [r for r in rows if r[0] in retry])}
+            again = {t[0]: t for t in ex.map(lambda r: run(a.rom, out, states, r, a.probe),
+                                             [r for r in rows if r[0] in retry])}
         res = [again.get(t[0], t) for t in res]
     order = {r[0]: i for i, r in enumerate(scenes())}
     res.sort(key=lambda t: order[t[0]])

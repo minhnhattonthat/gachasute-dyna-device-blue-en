@@ -2,9 +2,26 @@
 
 Updated at the end of every session. Keep it to what the next session needs; history is in git.
 
-- **Phase:** 5. Engine spike and marker build next (phase 4 extract done 2026-11-15). Last build: `tools/build.py`
-  2026-11-15, build/dynadevice_blue_en.gba sha1 eac296b5... = the original (identity), smoke ok.
-- **Done:**
+- **Phase:** 5. Engine spike done (VWF in game), marker build boots; width gate and full marker tour in progress.
+  Last build: `tools/build.py --marker --out build/marker.gba` 2026-11-15, sha1 8462835c..., smoke ok.
+- **Done (phase 5 so far, `docs/re/font.md`, `docs/re/windows.md`, decision D9):**
+  - Renderer found: all text goes through text objects and 0x080049AC, one SJIS glyph per u16 unit (size 1 =
+    16x16 cells / 12x12 font 0x080F0A54, size 3 = 8x8 font 0x0811F304). ASCII had no glyphs.
+  - `tools/vwf.py`: ARM hook at ROM 0x7F0000 redraws the same cells with a proportional font (`fonts/vwf8.txt`,
+    drawn here, MIT); `encode_en` pads segments (units x 8 >= px), keeps codes even, splits text pairs that read
+    as codes. Message mode lays out the whole line, so the drawer's split pieces join up. Every glyph verified in
+    game (`work/qa/p5_vwf`); JP text through the hook unchanged.
+  - `tools/insert.py` + `build.py`: default build = English (VWF + `en`); `--marker` (every todo -> id + filler;
+    strings in their slot, 236 moved to free space with pointers rewritten), `--marker-px N` (wide string
+    markers for the width gate), `--identity`, `--qa sSSS.KK[@speaker]=TEXT`.
+  - `tools/lint.py` (+ tests/test_lint.py, in the check): codes, 2 lines/page, 188 px per line, 176 px on a
+    page's last line; strings against `docs/re/budgets.tsv` (not written yet: every string warns).
+  - Message box measured (portrait and no-portrait: same box, x 48, 2 lines, 188/176 px).
+  - Marker tour, 14 scenes (date, form, keyboard, title, intro, menu, menu_items, e7, greets, gameover, keeper):
+    all reached, ids show; left Japanese = graphics (menu bar, item submenu, form labels; docs/re/graphics.md).
+  - Probes: `tools/lua/fontprobe.lua`, `drawprobe.lua`, `markerlog.lua` (logs id, size, map cell of every marker
+    drawn); `regen.py --probe`.
+- **Done (earlier phases):**
   - Phase 4 (`docs/re/text.md`): `tools/extract.py dump|verify` -> `script/` (30 files, 5536 entries):
     `events_NNN.json` = the 2824 messages (id `sSSS.KK`, flag, speaker), `strings_XXX.json` = the 2712 strings
     of 0x0AF6D0-0x0BB7C0 (id `tOOOOOO`, `ptrs` = every u32 pointer word, `slot` = bytes free in place).
@@ -44,18 +61,23 @@ Updated at the end of every session. Keep it to what the next session needs; his
     (other projects' emulators were using ~7 GB) after `battle_place` passed; the new code is guarded by kind, and the
     resume/dmode runs go through the shared boot, form, title and tutorial paths. First thing next session: run
     `tools/debug/regen.py --jobs 2` over all rows when memory allows.
-- **Next (phase 5, `references/pipeline.md` §Marker, `platform-gba.md`):**
-  - Find the runtime font by hooking the message drawer 0x08013488 (check 0x21C414/0x224B44/0x225EC4 first) and
-    how it handles ASCII bytes (the parser already reads ASCII codes KG/KP/KN/C0-C4/%); decide half-width / VWF;
-    the pad byte for odd-length English text (`script.message_bytes` refuses odd text). English must never
-    contain the byte pairs the engine reads as codes (KG, KP, KN, C0-C9, %): plan an encoding or a lint.
-  - Marker build: every todo entry -> `[id]` marker (messages through `script.pack`; strings relocated to free
-    space 0x747DA0+ with every `ptrs` word rewritten, or in place when they fit `slot`), boot, tour with the warps.
-  - Width gate: measure each box/menu variant in-game. Confirm C0-C4 = colour.
-  - Name entry: the keyboard rows (`data` entries, table 0x0D21F0) and the address DB reader (record sizes fixed
-    at 16/10/20 bytes) need English layouts.
-  - The phase-2 full regen (`tools/debug/regen.py --jobs 2`) is still owed when memory allows (0.9 GB free this
-    session, six other projects' emulators running).
+- **Next (phase 5, `references/pipeline.md` §Marker/§Width gate):**
+  - Full marker tour, when memory allows (this session's run was stopped by the host at 2.2 GB free, after 14
+    scenes): `python -X utf8 tools/build.py --marker --marker-px 240 --out build/marker.gba`, then
+    `python -X utf8 tools/debug/regen.py --rom build/marker.gba --out work/qa/p5_mk --states work/qa/p5_states
+    --jobs 2 --probe tools/lua/markerlog.lua`. Collect `MARK` lines from `work/qa/p5_mk/*/log.txt`: they give
+    each string's window (size, map col/row). Look at every hold shot for Japanese left (graphics or unextracted
+    text) and broken screens (non-text strings: set their status to "keep" with a note).
+  - Width gate for strings: group the MARK placements into windows (item list, help box, status, shop, DB,
+    keyword, date...), measure each window's budget from the wide-marker shots (pixels to the next element or
+    the frame), write `docs/re/budgets.tsv` (start, end, px, lines, variant per id range) and the table in
+    docs/re/windows.md. Then the glyph torture line in one size-1 field (size 1 draws English 2 rows down in the
+    16x16 cell: check it looks right next to JP glyphs; a taller font is optional).
+  - Register widths: find what %sR4/%sR5/%sR0 hold (player name, Dyna name...) and set `lint.REG_PX` from the
+    longest English value (now a 64 px guess).
+  - Name entry (can wait for phase 7): keyboard rows (`data` entries, table 0x0D21F0) and the address DB reader
+    (record sizes fixed at 16/10/20 bytes) need English layouts.
+  - The phase-2 full regen (`regen.py --jobs 2` on the original) is still owed when memory allows.
 - **Later phases need:** graphics text: ポーズ, the opening movie's
   green spec panels, debug menu (romaji, debug build only: leave), and the **staff roll** (mode 22): its kana are
   not SJIS in the ROM, find their encoding or tiles (add to the graphics-text survey).

@@ -73,9 +73,13 @@ def qa_override(scripts, spec):
     """--qa sSSS.KK=TEXT: replace one message's text (tools/text.py form, a typed \\n = newline; an odd length gets
     a trailing space)."""
     mid, _, txt = spec.partition("=")
+    mid, _, speaker = mid.partition("@")  # sSSS.KK@-1 also sets the speaker (-1 = no portrait)
     txt = txt.replace("\\n", "\n")  # a shell-typed \n is a line break
     s, k = int(mid[1:4]), int(mid[5:7])
-    [op for op in scripts[s] if op.code == script.MSG][k].text = vwf.encode_en(txt)
+    op = [op for op in scripts[s] if op.code == script.MSG][k]
+    op.text = vwf.encode_en(txt)
+    if speaker:
+        op.speaker = int(speaker)
 
 
 def main():

@@ -12,6 +12,10 @@ its font at run time (dialogue, the boot date prompt, the profile popup) is stri
   name entry (kana keyboard + START/SELECT hints), profile form labels (なまえ, ニックネーム, せいべつ,
   けいたいばんごう, メールアドレス, たんじょうび, けつえきがた, おわる): these labels are tiles; match them to
   the rows below with `vramfind.py` against `work/ecd/` in phase 8.
+- **Marker tour** (phase 5, `build.py --marker`, `work/qa/p5_mk`): text left Japanese in the marker build is
+  graphics (or unextracted text; checked by SJIS search): the field menu bar (じゅうみん データベース システム
+  もちもの パーティ), the item submenu (つかう ならびかえ すてる: ならびかえ is not SJIS anywhere in the ROM),
+  the profile form labels above. Phase 8 maps each to its ECD block.
 - Not yet covered: raw (uncompressed) tiles outside ECD, the unknown file at 0x0E7FA4, the one BIOS-LZ77 block
   at 0x0E6A58, sprites (OAM) on screens past the profile form. Extend with the debug tool's tour (phase 2/5).
 
