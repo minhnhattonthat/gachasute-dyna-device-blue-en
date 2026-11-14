@@ -2038,8 +2038,8 @@
   ],
   "slot": 28,
   "jp": "あまり　こうげきてきでは",
-  "en": "",
-  "status": "todo"
+  "en": "aggressive at heart,",
+  "status": "done"
  },
  {
   "id": "t0B6F68",
@@ -2048,8 +2048,8 @@
   ],
   "slot": 24,
   "jp": "ウィルゴーは　もともと",
-  "en": "",
-  "status": "todo"
+  "en": "Virgo isn't very",
+  "status": "done"
  },
  {
   "id": "t0B6F80",
@@ -2058,8 +2058,8 @@
   ],
   "slot": 24,
   "jp": "いっしゅの　スタイルだ",
-  "en": "",
-  "status": "todo"
+  "en": "A fairy-folk style.",
+  "status": "done"
  },
  {
   "id": "t0B6F98",
@@ -2068,8 +2068,8 @@
   ],
   "slot": 20,
   "jp": "じつは　ようせいの",
-  "en": "",
-  "status": "todo"
+  "en": "a kind of fairy.",
+  "status": "done"
  },
  {
   "id": "t0B6FAC",
@@ -2078,8 +2078,8 @@
   ],
   "slot": 20,
   "jp": "ように　みえるが",
-  "en": "",
-  "status": "todo"
+  "en": "but it's really",
+  "status": "done"
  },
  {
   "id": "t0B6FC0",
@@ -2088,8 +2088,8 @@
   ],
   "slot": 28,
   "jp": "ウィルゴーは　にんげんの",
-  "en": "",
-  "status": "todo"
+  "en": "Virgo looks human,",
+  "status": "done"
  },
  {
   "id": "t0B6FDC",
@@ -2098,8 +2098,8 @@
   ],
   "slot": 24,
   "jp": "こぶしでの　てっけん",
-  "en": "",
-  "status": "todo"
+  "en": "iron-fist punch",
+  "status": "done"
  },
  {
   "id": "t0B6FF4",
@@ -2108,7 +2108,7 @@
   ],
   "slot": 20,
   "jp": "てつが　しこまれた",
-  "en": "",
-  "status": "todo"
+  "en": "iron-laced",
+  "status": "done"
  }
 ]
