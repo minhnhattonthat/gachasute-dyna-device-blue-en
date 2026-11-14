@@ -168,3 +168,13 @@ Binding for every translator and reviewer. Agents propose additions in reports; 
   places "the arcade", "the minimart", "school", "my house"; activities/events as bare plural/mass nouns
   ("homework", "soccer", "school fairs"). Nicknames: meaningful words translated (Pest, Tangerine, Polka
   Dot, Ditzy Sis, Ace Battler), Japanese names in Hepburn (Kurosuke, Murasame).
+- b038-b041 Database help pages (4 lines, 96 px; the glossary check runs per line, so each line keeps its own
+  terms). Shared line patterns: Extra pages "<Elem>-element" / "Extra with the" / "power of <sandstorms>" /
+  "at its command."; element pages "Strong vs. thunder," / "weak vs. fire: the" / Element / "marked in green.";
+  ability-type pages end "is this type's knack." (t0B60B4, t0B651C); style rarity "<Type> type" / "includes
+  this" / Style / "Rarity: low/normal/high."; Zero-E "includes this style."; style profiles: food/type/sector
+  pages start "For <Style>," then "<X> food is a joy;" / "<Y> food" / "seems a turn-off.", "<A>, <B>" / "<C> and
+  such" / "types are favorites." / "sectors are favorites."; attack pages end "attacks are its forte." or
+  "are its forte."; origin pages end "<adjective> style." (t0B7CA0 "style."). Food kinds: meat, fruit, soul,
+  holy, hard, fertilizer, sea(food), honey, bug, grass. ひとだま -> ghostfire; ねんりき -> Mind Power;
+  えんごこうげき -> Support Attack; ていさつ -> Scout. Dyna plural stays "Dyna".

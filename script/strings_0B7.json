@@ -1547,8 +1547,8 @@
   ],
   "slot": 28,
   "jp": "こうげきを　とくいとする",
-  "en": "",
-  "status": "todo"
+  "en": "attacks are its forte.",
+  "status": "done"
  },
  {
   "id": "t0B7C58",
@@ -1557,8 +1557,8 @@
   ],
   "slot": 20,
   "jp": "おおごえで　ほえる",
-  "en": "",
-  "status": "todo"
+  "en": "loud roaring",
+  "status": "done"
  },
  {
   "id": "t0B7C6C",
@@ -1567,8 +1567,8 @@
   ],
   "slot": 24,
   "jp": "てきに　かみついたり",
-  "en": "",
-  "status": "todo"
+  "en": "mouth, biting foes;",
+  "status": "done"
  },
  {
   "id": "t0B7C84",
@@ -1577,8 +1577,8 @@
   ],
   "slot": 28,
   "jp": "レオは　おおきな　くちで",
-  "en": "",
-  "status": "todo"
+  "en": "Leo: with its big",
+  "status": "done"
  },
  {
   "id": "t0B7CA0",
@@ -1598,8 +1598,8 @@
   ],
   "slot": 12,
   "jp": "スタイルだ",
-  "en": "",
-  "status": "todo"
+  "en": "style.",
+  "status": "done"
  },
  {
   "id": "t0B7CAC",
@@ -1608,8 +1608,8 @@
   ],
   "slot": 28,
   "jp": "くらいつくと　はなれない",
-  "en": "",
-  "status": "todo"
+  "en": "it won't let go. A grim",
+  "status": "done"
  },
  {
   "id": "t0B7CC8",
@@ -1618,8 +1618,8 @@
   ],
   "slot": 24,
   "jp": "もち　いちど　てきに",
-  "en": "",
-  "status": "todo"
+  "en": "it bites into a foe,",
+  "status": "done"
  },
  {
   "id": "t0B7CE0",
@@ -1628,8 +1628,8 @@
   ],
   "slot": 24,
   "jp": "レオは　おおきなキバを",
-  "en": "",
-  "status": "todo"
+  "en": "Leo: big fangs; once",
+  "status": "done"
  },
  {
   "id": "t0B7CF8",
@@ -1640,8 +1640,8 @@
   ],
   "slot": 12,
   "jp": "ペガススは",
-  "en": "",
-  "status": "todo"
+  "en": "For Pegasus,",
+  "status": "done"
  },
  {
   "id": "t0B7D04",
@@ -1650,8 +1650,8 @@
   ],
   "slot": 28,
   "jp": "きゅうこうか　こうげきを",
-  "en": "",
-  "status": "todo"
+  "en": "dive-bomb attacks",
+  "status": "done"
  },
  {
   "id": "t0B7D20",
@@ -1660,8 +1660,8 @@
   ],
   "slot": 24,
   "jp": "できることを　いかした",
-  "en": "",
-  "status": "todo"
+  "en": "gliding skill,",
+  "status": "done"
  },
  {
   "id": "t0B7D38",
@@ -1670,8 +1670,8 @@
   ],
   "slot": 24,
   "jp": "ペガススは　かっくうが",
-  "en": "",
-  "status": "todo"
+  "en": "Pegasus: using its",
+  "status": "done"
  },
  {
   "id": "t0B7D50",
@@ -1680,8 +1680,8 @@
   ],
   "slot": 20,
   "jp": "できる　スタイルだ",
-  "en": "",
-  "status": "todo"
+  "en": "a gliding style.",
+  "status": "done"
  },
  {
   "id": "t0B7D64",
@@ -1690,8 +1690,8 @@
   ],
   "slot": 20,
   "jp": "かっくうすることが",
-  "en": "",
-  "status": "todo"
+  "en": "glide through the air:",
+  "status": "done"
  },
  {
   "id": "t0B7D78",
@@ -1700,8 +1700,8 @@
   ],
   "slot": 28,
   "jp": "もつ　ちいさい　つばさで",
-  "en": "",
-  "status": "todo"
+  "en": "on both arms let it",
+  "status": "done"
  },
  {
   "id": "t0B7D94",
@@ -1710,8 +1710,8 @@
   ],
   "slot": 28,
   "jp": "ペガススは　りょううでに",
-  "en": "",
-  "status": "todo"
+  "en": "Pegasus: small wings",
+  "status": "done"
  },
  {
   "id": "t0B7DB0",
@@ -1722,8 +1722,8 @@
   ],
   "slot": 12,
   "jp": "タウルスは",
-  "en": "",
-  "status": "todo"
+  "en": "For Taurus,",
+  "status": "done"
  },
  {
   "id": "t0B7DBC",
@@ -1744,8 +1744,8 @@
   ],
   "slot": 16,
   "jp": "とくいとする",
-  "en": "",
-  "status": "todo"
+  "en": "are its forte.",
+  "status": "done"
  },
  {
   "id": "t0B7DCC",
@@ -1754,8 +1754,8 @@
   ],
   "slot": 20,
   "jp": "ずつき　こうげきを",
-  "en": "",
-  "status": "todo"
+  "en": "headbutt attacks",
+  "status": "done"
  },
  {
   "id": "t0B7DE0",
@@ -1764,8 +1764,8 @@
   ],
   "slot": 20,
   "jp": "ツノを　いかした",
-  "en": "",
-  "status": "todo"
+  "en": "horns on its head,",
+  "status": "done"
  },
  {
   "id": "t0B7DF4",
@@ -1774,8 +1774,8 @@
   ],
   "slot": 24,
   "jp": "タウルスは　あたまの",
-  "en": "",
-  "status": "todo"
+  "en": "Taurus: using the",
+  "status": "done"
  },
  {
   "id": "t0B7E0C",
@@ -1784,8 +1784,8 @@
   ],
   "slot": 24,
   "jp": "たいへんな　スタイルだ",
-  "en": "",
-  "status": "todo"
+  "en": "a tough style.",
+  "status": "done"
  },
  {
   "id": "t0B7E24",
@@ -1794,8 +1794,8 @@
   ],
   "slot": 16,
   "jp": "てなづけるのが",
-  "en": "",
-  "status": "todo"
+  "en": "hard to tame:",
+  "status": "done"
  },
  {
   "id": "t0B7E34",
@@ -1804,8 +1804,8 @@
   ],
   "slot": 24,
   "jp": "せいかくが　あらっぽく",
-  "en": "",
-  "status": "todo"
+  "en": "rough-tempered and",
+  "status": "done"
  },
  {
   "id": "t0B7E4C",
@@ -1814,8 +1814,8 @@
   ],
   "slot": 24,
   "jp": "タウルスは　ひじょうに",
-  "en": "",
-  "status": "todo"
+  "en": "Taurus is very",
+  "status": "done"
  },
  {
   "id": "t0B7E64",
@@ -1853,8 +1853,8 @@
   ],
   "slot": 24,
   "jp": "セクタを　このむようだ",
-  "en": "",
-  "status": "todo"
+  "en": "sectors are favorites.",
+  "status": "done"
  },
  {
   "id": "t0B7E7C",
@@ -1871,8 +1871,8 @@
   ],
   "slot": 20,
   "jp": "ショップ　などの",
-  "en": "",
-  "status": "todo"
+  "en": "Shop and such",
+  "status": "done"
  },
  {
   "id": "t0B7E90",
@@ -1883,8 +1883,8 @@
   ],
   "slot": 20,
   "jp": "ホール　マウンテン",
-  "en": "",
-  "status": "todo"
+  "en": "Hole, Mountain,",
+  "status": "done"
  },
  {
   "id": "t0B7EA4",
@@ -1913,8 +1913,8 @@
   ],
   "slot": 24,
   "jp": "タイプを　このむようだ",
-  "en": "",
-  "status": "todo"
+  "en": "types are favorites.",
+  "status": "done"
  },
  {
   "id": "t0B7EBC",
@@ -1937,8 +1937,8 @@
   ],
   "slot": 8,
   "jp": "などの",
-  "en": "",
-  "status": "todo"
+  "en": "and such",
+  "status": "done"
  },
  {
   "id": "t0B7EC4",
@@ -1952,8 +1952,8 @@
   ],
   "slot": 28,
   "jp": "テトロトップ　キックバグ",
-  "en": "",
-  "status": "todo"
+  "en": "Tetrotop, Kickbug,",
+  "status": "done"
  },
  {
   "id": "t0B7EE0",
@@ -1991,8 +1991,8 @@
   ],
   "slot": 16,
   "jp": "きらうようだ",
-  "en": "",
-  "status": "todo"
+  "en": "seems a turn-off.",
+  "status": "done"
  },
  {
   "id": "t0B7EF0",
@@ -2003,8 +2003,8 @@
   ],
   "slot": 20,
   "jp": "くだもののエサを",
-  "en": "",
-  "status": "todo"
+  "en": "fruit food",
+  "status": "done"
  },
  {
   "id": "t0B7F04",
@@ -2015,8 +2015,8 @@
   ],
   "slot": 24,
   "jp": "にくのエサを　このみ",
-  "en": "",
-  "status": "todo"
+  "en": "meat food is a joy;",
+  "status": "done"
  },
  {
   "id": "t0B7F1C",
@@ -2027,8 +2027,8 @@
   ],
   "slot": 12,
   "jp": "カリナは",
-  "en": "",
-  "status": "todo"
+  "en": "For Carina,",
+  "status": "done"
  },
  {
   "id": "t0B7F28",
@@ -2037,8 +2037,8 @@
   ],
   "slot": 24,
   "jp": "パンチを　とくいとする",
-  "en": "",
-  "status": "todo"
+  "en": "punches are its forte.",
+  "status": "done"
  },
  {
   "id": "t0B7F40",
@@ -2047,8 +2047,8 @@
   ],
   "slot": 28,
   "jp": "その　ちからを　いかした",
-  "en": "",
-  "status": "todo"
+  "en": "that strength,",
+  "status": "done"
  },
  {
   "id": "t0B7F5C",
@@ -2057,8 +2057,8 @@
   ],
   "slot": 24,
   "jp": "うでの　ちからがつよく",
-  "en": "",
-  "status": "todo"
+  "en": "very strong; using",
+  "status": "done"
  },
  {
   "id": "t0B7F74",
@@ -2067,8 +2067,8 @@
   ],
   "slot": 24,
   "jp": "カリナは　ひじょうに",
-  "en": "",
-  "status": "todo"
+  "en": "Carina's arms are",
+  "status": "done"
  },
  {
   "id": "t0B7F8C",
@@ -2077,8 +2077,8 @@
   ],
   "slot": 24,
   "jp": "めずらしい　スタイルだ",
-  "en": "",
-  "status": "todo"
+  "en": "rare style.",
+  "status": "done"
  },
  {
   "id": "t0B7FA4",
@@ -2087,8 +2087,8 @@
   ],
   "slot": 24,
   "jp": "よさを　あわせもった",
-  "en": "",
-  "status": "todo"
+  "en": "smarts: a very",
+  "status": "done"
  },
  {
   "id": "t0B7FBC",
@@ -2097,8 +2097,8 @@
   ],
   "slot": 20,
   "jp": "つよさと　あたまの",
-  "en": "",
-  "status": "todo"
+  "en": "strength and",
+  "status": "done"
  },
  {
   "id": "t0B7FD0",
@@ -2107,8 +2107,8 @@
   ],
   "slot": 20,
   "jp": "カリナは　ちからの",
-  "en": "",
-  "status": "todo"
+  "en": "Carina has both",
+  "status": "done"
  },
  {
   "id": "t0B7FE4",
@@ -2118,7 +2118,7 @@
   "slot": 24,
   "jp": "ｇｎｙｃｕｓ＜☆↓＋",
   "en": "",
-  "status": "todo"
+  "status": "keep"
  },
  {
   "id": "t0B7FFC",
@@ -2128,6 +2128,6 @@
   "slot": 24,
   "jp": "ｕａｉａｑｌ！←＄○",
   "en": "",
-  "status": "todo"
+  "status": "keep"
  }
 ]

@@ -2,7 +2,8 @@
 
 Updated at the end of every session. Keep it to what the next session needs; history is in git.
 
-- **Phase:** 6. Translate in progress: b001-b037 of 45 merged (all scripts 0-833; strings to t0B5724).
+- **Phase:** 6. Translate in progress: b001-b041 of 45 merged (all scripts 0-833; strings to t0B7FD0: every
+  Database help line done).
   Last build: `build/dynadevice_blue_en.gba` 2026-11-15 (b001 only), sha1 8b8b8bd1...; pilot seen in game
   (`work/qa/p6_pilot2`, warp `intro` + `MASHA=1`, 6000 frames): English wraps cleanly, ▼ clears the last line.
 - **How phase 6 runs (D11):** one agent translates batches in order, itself (Orca: no helpers).
@@ -24,17 +25,24 @@ Updated at the end of every session. Keep it to what the next session needs; his
   `work/qa/p6_choice6`). Fix idea: replace timed waits with event-driven segments (wait for SCRIPT n / room), or
   finish the tutorial on the original ROM, save in game, and start these scenes from that .sav (text-independent).
 - **Next:**
-  1. Continue at b038 (t0B573C-, Database keyword/style help lines, 96 px), in order to b045 (then UI strings,
-     menus: menu verbs must match glossary "Decisions from earlier batches"). Help lines are 4-line pages:
-     `python -X utf8 tools/desc_view.py bNNN` now also shows the help pages (table 0x0D0300-0x0D1250; run with
-     `--dump` once if work/tl/desc_records.txt predates 2026-11-15 evening). Keyword names double as help lines:
-     "Style" (t0B5588, pattern "<Type> type" / "includes this" / "Style" / "Rarity: low."), "Element", "Sector",
-     "Type" end their pages as a bare label; b038+ must fit those patterns (t0B6770 ぶんるいされる -> "includes
-     this"; the type lines t0B6780 etc. -> "Kickbug type"; rarity lines "Rarity: low/normal/high.").
+  1. Continue at b042, in order to b045: UI strings (menus, prompts, formats; 88 px "guess" budget). b041's UI
+     rows (t0B8060-t0B9234: item-description prompt, give-up/discard/send-to-Dyna-Center prompts, PDA schedule,
+     calendar, blood type, money diary) were moved to the top of b042.tsv (b042 now 248 rows; split it in two
+     sittings if needed). Menu verbs must match glossary "Decisions from earlier batches". Look before
+     translating: `t0B8158` ({%sR1}を てにいれた！) has a 64 px budget but a 64 px register, so check the real
+     budget in game; placeholder/grid strings (－－：－－, the calendar digit rows t0B8F78/t0B9124, （日）（月）...
+     t0B8254 which the code may slice by byte offset) need a look at the code before changing their length.
      A JP-blank fragment ("　") is set to status keep in script/ and its line deleted from work/tl/bNNN.tsv.
+  2. Phase 7 (name entry): t0B7FE4-t0B8044 (ｇｎｙｃｕｓ＜☆↓＋ ... ｓｅｒｕｓｐｅ▽＞％, pointers 0x0D1EA8-0x0D1ED8,
+     next to the keyboard table) look like a keyboard grid; set to status keep for now, decide with the
+     keyboard layout. `tools/width.py "text" ...` prints a line's pixel width.
   3. After all batches: review pass (fresh read-only, per file group, `assets/reviewer-brief.md`), Minors to
      `docs/polish.md`; `tools/lint.py` 0 errors; `batches.py check` 0 problems. Then phase 7.
-- **Done (phase 6, latest session):** b029-b037: armor/weapon/food/material descriptions (parts pattern reworked
+- **Done (phase 6, latest session):** b038-b041: all Database help pages (keywords, sectors, elements, Extras,
+  ability types, style rarity, the 5 profile pages of every style). Line patterns in glossary "b038-b041". The
+  per-line glossary check forces each fragment to carry its own term, so pages are written line by line.
+  Phase 8: look at a few help pages in game (Database > keyword list), e.g. Extra and a style's food page.
+- **Done (phase 6, session before):** b029-b037: armor/weapon/food/material descriptions (parts pattern reworked
   in b028: "Igarm types and" / "Zero-E types'" / "dedicated Devices" / "need this part."), device names, star
   and constellation names, Extra weapon names, skills, items, gossip word lists, nicknames, keyword names.
   Glossary sections b029-b036 hold every name decision. 64 px cuts and unsure names listed in new
