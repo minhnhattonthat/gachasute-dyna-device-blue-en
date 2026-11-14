@@ -8,6 +8,7 @@ ROOT = Path(__file__).resolve().parents[1]
 sys.path.insert(0, str(ROOT / "tools"))
 import budgets  # noqa: E402
 import lint  # noqa: E402
+import vwf  # noqa: E402
 
 
 class TestBudgets(unittest.TestCase):
@@ -50,6 +51,10 @@ class TestRules(unittest.TestCase):
     def test_register_width(self):
         self.assertEqual(lint.line_width("{%sR4}"), lint.REG_PX["s"])
         self.assertEqual(lint.line_width("{%02dR1}"), 16)
+
+    def test_raw_byte_width(self):
+        self.assertEqual(lint.line_width("a[5C]b"), vwf.width("a\\b"))
+        self.assertEqual(lint.line_width("[7F]"), 0)
 
     def test_string_budget(self):
         e = {"id": "t0B0000", "jp": "あ", "en": "H" * 10}

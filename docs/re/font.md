@@ -42,5 +42,15 @@
 - Proven in game: build with `--qa`, intro scene: every glyph of fonts/vwf8.txt renders (`work/qa/p5_vwf/z.png`);
   JP text through the hook looks as before.
 
+## Torture line (2026-11-15, `work/qa/torture`, `work/qa/torture_form`)
+- The font covers all printable ASCII except `%`: the game's expander (0x0801328C) reads every `%` as a register,
+  so `%` can never be text (write "percent"). `{ } [ ] \` are syntax in `script/`: write them `[7B] [7D] [5B] [5D]
+  [5C]`.
+- Message `s001.00` = `tests/test_vwf.py` TORTURE (all glyphs over 3 pages, double spaces), warp `intro` with
+  `MASHA=1`: every glyph and both double spaces render, nothing clipped. Size-1 field `t0B8F38` (form, gender) with
+  `#$@<>^_`|~[\`: all render, 2 rows down in the 16x16 cell as expected.
+- Bug found and fixed by it: `[XX]` bytes added no width in `encode_en` (and lint), so a line with an escaped
+  character got too few cells and lost its last glyph.
+
 ## Width gate
 See the table in docs/re/windows.md (measured in-game with the marker build and `build.py --qa`).

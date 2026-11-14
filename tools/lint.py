@@ -39,11 +39,14 @@ def reg_width(m):
 def line_width(line):
     px = 0
     pos = 0
-    for m in re.finditer(r"\{[^{}]*\}", line):
+    for m in re.finditer(r"\{[^{}]*\}|\[([0-9A-Fa-f]{2})\]", line):
         px += vwf.width(line[pos:m.start()])
         r = REG.fullmatch(m.group())
         if r:
             px += reg_width(r)
+        elif m[1] is not None:      # [XX] raw byte: an ASCII glyph at its width, half an SJIS cell otherwise
+            b = int(m[1], 16)
+            px += vwf.char_width(chr(b)) if 0x20 <= b < 0x7F else 0 if b == vwf.PAD else vwf.CELL // 2
         pos = m.end()
     return px + vwf.width(line[pos:])
 

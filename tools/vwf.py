@@ -118,16 +118,19 @@ def encode_en(s, cell=CELL):
             byte(PAD)
         st["own"] = st["px"] = 0
 
+    def ascii(b):
+        if odd() and bytes((out[-1], b)) in CODES:
+            byte(PAD)   # out[-1] and b would form a code unit: push b into the next unit
+        byte(b)
+        if 0x20 <= b < 0x7F:
+            st["px"] += char_width(chr(b), cell)
+
     def plain(text):
         for ch in text:
             if ch in "{}[]\\":
                 raise ValueError(f"stray {ch!r} in {s!r}: write a control code or [XX]")
             if ord(ch) < 0x80:
-                b = ord(ch)
-                if odd() and bytes((out[-1], b)) in CODES:
-                    byte(PAD)   # out[-1] and b would form a code unit: push b into the next unit
-                byte(b)
-                st["px"] += char_width(ch, cell)
+                ascii(ord(ch))
             else:
                 raw = ch.encode("cp932")
                 if len(raw) != 2:
@@ -146,8 +149,9 @@ def encode_en(s, cell=CELL):
             if odd():
                 byte(PAD)
             out.extend(m[1].encode("ascii"))
-        elif m[3] is not None:          # [XX] raw byte: part of the segment's own text
-            byte(int(m[3], 16))
+        elif m[3] is not None:          # [XX] raw byte: part of the segment's own text (ASCII counts its width)
+            b = int(m[3], 16)
+            ascii(b) if b < 0x80 else byte(b)
         else:                           # KG KP KN Cn end the segment
             close_segment()
             out.extend(b"KG" if t == "\n" else b"KP" if t.startswith("{KP}") else b"KN" if t == "{KN}"

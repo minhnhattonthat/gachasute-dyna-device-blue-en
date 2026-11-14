@@ -15,6 +15,9 @@ SAMPLES = [
     "Hello!", "KGB agent", "C3PO and C4", "A\nB{KP}\nCD", "Hi {%sR0}, OK?", "x{%02dR1}y", "Ａx", "x Ａ",
     "Welcome to Dyna City! The quick brown\nfox jumps over the lazy dog.{KN}", "{C1}Red{C0} text",
 ]
+# The glyph torture line booted in game (docs/re/font.md §Torture line): all printable ASCII but %, double spaces.
+TORTURE = ("!\"#$&'()*+,-./0123456789\n[5C]:;<=>?@ABCDEFGHIJKLM{KP}\nNOPQRSTUVWXYZ[5B][5C][5D]^_`\n"
+           "abcdefghijklmnopqrstuvwxyz{KP}\n[7B]|[7D]~ two  spaces  here.")
 
 
 def segments(raw):
@@ -41,7 +44,8 @@ class TestFont(unittest.TestCase):
         f = vwf.font()
         for c in range(0x20, 0x7F):
             ch = chr(c)
-            if ch in "\\`{}[]|^_<>@#$%~":
+            if ch == "%":   # the game's register expander takes every % (docs/re/text.md): no glyph
+                self.assertNotIn(ch, f)
                 continue
             self.assertIn(ch, f, f"missing glyph {ch!r}")
             adv, rows = f[ch]
@@ -82,6 +86,11 @@ class TestEncode(unittest.TestCase):
     def test_samples(self):
         for s in SAMPLES:
             self.check(s)
+
+    def test_torture_line(self):
+        # every glyph, escaped syntax characters included (their width counts: clipped line ends otherwise)
+        self.check(TORTURE)
+        self.check("[5B][5C][5D][7B][7D]")
 
     def test_code_pairs_split(self):
         raw = self.check("KGKPKN")
