@@ -7,8 +7,8 @@
   ],
   "slot": 16,
   "jp": "エレキピストル",
-  "en": "",
-  "status": "todo"
+  "en": "Elec Pistol",
+  "status": "done"
  },
  {
   "id": "t0B3014",
@@ -18,8 +18,8 @@
   ],
   "slot": 16,
   "jp": "アクアピストル",
-  "en": "",
-  "status": "todo"
+  "en": "Aqua Pistol",
+  "status": "done"
  },
  {
   "id": "t0B3024",
@@ -29,8 +29,8 @@
   ],
   "slot": 16,
   "jp": "フレアピストル",
-  "en": "",
-  "status": "todo"
+  "en": "Flare Pistol",
+  "status": "done"
  },
  {
   "id": "t0B3034",
@@ -40,8 +40,8 @@
   ],
   "slot": 20,
   "jp": "サンドガトリング",
-  "en": "",
-  "status": "todo"
+  "en": "Sand Gatling",
+  "status": "done"
  },
  {
   "id": "t0B3048",
@@ -51,8 +51,8 @@
   ],
   "slot": 20,
   "jp": "エレキガトリング",
-  "en": "",
-  "status": "todo"
+  "en": "Elec Gatling",
+  "status": "done"
  },
  {
   "id": "t0B305C",
@@ -62,8 +62,8 @@
   ],
   "slot": 20,
   "jp": "ミストガトリング",
-  "en": "",
-  "status": "todo"
+  "en": "Mist Gatling",
+  "status": "done"
  },
  {
   "id": "t0B3070",
@@ -73,8 +73,8 @@
   ],
   "slot": 20,
   "jp": "ヒートガトリング",
-  "en": "",
-  "status": "todo"
+  "en": "Heat Gatling",
+  "status": "done"
  },
  {
   "id": "t0B3084",
@@ -84,8 +84,8 @@
   ],
   "slot": 16,
   "jp": "アースハット",
-  "en": "",
-  "status": "todo"
+  "en": "Earth Hat",
+  "status": "done"
  },
  {
   "id": "t0B3094",
@@ -95,8 +95,8 @@
   ],
   "slot": 12,
   "jp": "ライハット",
-  "en": "",
-  "status": "todo"
+  "en": "Rai Hat",
+  "status": "done"
  },
  {
   "id": "t0B30A0",
@@ -106,8 +106,8 @@
   ],
   "slot": 16,
   "jp": "ミストハット",
-  "en": "",
-  "status": "todo"
+  "en": "Mist Hat",
+  "status": "done"
  },
  {
   "id": "t0B30B0",
@@ -117,8 +117,8 @@
   ],
   "slot": 12,
   "jp": "ボムハット",
-  "en": "",
-  "status": "todo"
+  "en": "Bomb Hat",
+  "status": "done"
  },
  {
   "id": "t0B30BC",
@@ -128,8 +128,8 @@
   ],
   "slot": 16,
   "jp": "サンドポッド",
-  "en": "",
-  "status": "todo"
+  "en": "Sand Pod",
+  "status": "done"
  },
  {
   "id": "t0B30CC",
@@ -139,8 +139,8 @@
   ],
   "slot": 16,
   "jp": "ボルトポッド",
-  "en": "",
-  "status": "todo"
+  "en": "Bolt Pod",
+  "status": "done"
  },
  {
   "id": "t0B30DC",
@@ -150,8 +150,8 @@
   ],
   "slot": 16,
   "jp": "ミストポッド",
-  "en": "",
-  "status": "todo"
+  "en": "Mist Pod",
+  "status": "done"
  },
  {
   "id": "t0B30EC",
@@ -161,8 +161,8 @@
   ],
   "slot": 16,
   "jp": "フレアポッド",
-  "en": "",
-  "status": "todo"
+  "en": "Flare Pod",
+  "status": "done"
  },
  {
   "id": "t0B30FC",
@@ -172,8 +172,8 @@
   ],
   "slot": 20,
   "jp": "アースショルダー",
-  "en": "",
-  "status": "todo"
+  "en": "Earth Shoulder",
+  "status": "done"
  },
  {
   "id": "t0B3110",
@@ -183,8 +183,8 @@
   ],
   "slot": 20,
   "jp": "ボルトショルダー",
-  "en": "",
-  "status": "todo"
+  "en": "Bolt Shoulder",
+  "status": "done"
  },
  {
   "id": "t0B3124",
@@ -194,8 +194,8 @@
   ],
   "slot": 20,
   "jp": "ミストショルダー",
-  "en": "",
-  "status": "todo"
+  "en": "Mist Shoulder",
+  "status": "done"
  },
  {
   "id": "t0B3138",
@@ -205,8 +205,8 @@
   ],
   "slot": 20,
   "jp": "ヒートショルダー",
-  "en": "",
-  "status": "todo"
+  "en": "Heat Shoulder",
+  "status": "done"
  },
  {
   "id": "t0B314C",
@@ -216,8 +216,8 @@
   ],
   "slot": 16,
   "jp": "アースシザー",
-  "en": "",
-  "status": "todo"
+  "en": "Earth Scissor",
+  "status": "done"
  },
  {
   "id": "t0B315C",
@@ -227,8 +227,8 @@
   ],
   "slot": 16,
   "jp": "ボルトシザー",
-  "en": "",
-  "status": "todo"
+  "en": "Bolt Scissor",
+  "status": "done"
  },
  {
   "id": "t0B316C",
@@ -238,8 +238,8 @@
   ],
   "slot": 16,
   "jp": "アイスシザー",
-  "en": "",
-  "status": "todo"
+  "en": "Ice Scissor",
+  "status": "done"
  },
  {
   "id": "t0B317C",
@@ -249,8 +249,8 @@
   ],
   "slot": 12,
   "jp": "ボムシザー",
-  "en": "",
-  "status": "todo"
+  "en": "Bomb Scissor",
+  "status": "done"
  },
  {
   "id": "t0B3188",
@@ -260,8 +260,8 @@
   ],
   "slot": 16,
   "jp": "サンドボウル",
-  "en": "",
-  "status": "todo"
+  "en": "Sand Bowl",
+  "status": "done"
  },
  {
   "id": "t0B3198",
@@ -271,8 +271,8 @@
   ],
   "slot": 16,
   "jp": "エレキボウル",
-  "en": "",
-  "status": "todo"
+  "en": "Elec Bowl",
+  "status": "done"
  },
  {
   "id": "t0B31A8",
@@ -282,8 +282,8 @@
   ],
   "slot": 16,
   "jp": "アクアボウル",
-  "en": "",
-  "status": "todo"
+  "en": "Aqua Bowl",
+  "status": "done"
  },
  {
   "id": "t0B31B8",
@@ -293,8 +293,8 @@
   ],
   "slot": 16,
   "jp": "フレアボウル",
-  "en": "",
-  "status": "todo"
+  "en": "Flare Bowl",
+  "status": "done"
  },
  {
   "id": "t0B31C8",
@@ -304,8 +304,8 @@
   ],
   "slot": 20,
   "jp": "グランマシンガン",
-  "en": "",
-  "status": "todo"
+  "en": "Gran Rapid Gun",
+  "status": "done"
  },
  {
   "id": "t0B31DC",
@@ -315,8 +315,8 @@
   ],
   "slot": 16,
   "jp": "ライマシンガン",
-  "en": "",
-  "status": "todo"
+  "en": "Rai Rapid Gun",
+  "status": "done"
  },
  {
   "id": "t0B31EC",
@@ -326,8 +326,8 @@
   ],
   "slot": 20,
   "jp": "アイスマシンガン",
-  "en": "",
-  "status": "todo"
+  "en": "Ice Rapid Gun",
+  "status": "done"
  },
  {
   "id": "t0B3200",
@@ -337,8 +337,8 @@
   ],
   "slot": 20,
   "jp": "ヒートマシンガン",
-  "en": "",
-  "status": "todo"
+  "en": "Heat Rapid Gun",
+  "status": "done"
  },
  {
   "id": "t0B3214",
@@ -348,8 +348,8 @@
   ],
   "slot": 16,
   "jp": "フォトンサンド",
-  "en": "",
-  "status": "todo"
+  "en": "Photon Sand",
+  "status": "done"
  },
  {
   "id": "t0B3224",
@@ -359,8 +359,8 @@
   ],
   "slot": 16,
   "jp": "フォトンボルト",
-  "en": "",
-  "status": "todo"
+  "en": "Photon Bolt",
+  "status": "done"
  },
  {
   "id": "t0B3234",
@@ -370,8 +370,8 @@
   ],
   "slot": 16,
   "jp": "フォトンミスト",
-  "en": "",
-  "status": "todo"
+  "en": "Photon Mist",
+  "status": "done"
  },
  {
   "id": "t0B3244",
@@ -381,8 +381,8 @@
   ],
   "slot": 16,
   "jp": "フォトンボム",
-  "en": "",
-  "status": "todo"
+  "en": "Photon Bomb",
+  "status": "done"
  },
  {
   "id": "t0B3254",
@@ -392,8 +392,8 @@
   ],
   "slot": 16,
   "jp": "サンドバズーカ",
-  "en": "",
-  "status": "todo"
+  "en": "Sand Bazooka",
+  "status": "done"
  },
  {
   "id": "t0B3264",
@@ -403,8 +403,8 @@
   ],
   "slot": 16,
   "jp": "ボルトバズーカ",
-  "en": "",
-  "status": "todo"
+  "en": "Bolt Bazooka",
+  "status": "done"
  },
  {
   "id": "t0B3274",
@@ -414,8 +414,8 @@
   ],
   "slot": 16,
   "jp": "ミストバズーカ",
-  "en": "",
-  "status": "todo"
+  "en": "Mist Bazooka",
+  "status": "done"
  },
  {
   "id": "t0B3284",
@@ -425,8 +425,8 @@
   ],
   "slot": 16,
   "jp": "フレアバズーカ",
-  "en": "",
-  "status": "todo"
+  "en": "Flare Bazooka",
+  "status": "done"
  },
  {
   "id": "t0B3294",
@@ -436,8 +436,8 @@
   ],
   "slot": 16,
   "jp": "サンドロケット",
-  "en": "",
-  "status": "todo"
+  "en": "Sand Rocket",
+  "status": "done"
  },
  {
   "id": "t0B32A4",
@@ -447,8 +447,8 @@
   ],
   "slot": 16,
   "jp": "ボルトロケット",
-  "en": "",
-  "status": "todo"
+  "en": "Bolt Rocket",
+  "status": "done"
  },
  {
   "id": "t0B32B4",
@@ -458,8 +458,8 @@
   ],
   "slot": 16,
   "jp": "ミストロケット",
-  "en": "",
-  "status": "todo"
+  "en": "Mist Rocket",
+  "status": "done"
  },
  {
   "id": "t0B32C4",
@@ -469,8 +469,8 @@
   ],
   "slot": 16,
   "jp": "フレアロケット",
-  "en": "",
-  "status": "todo"
+  "en": "Flare Rocket",
+  "status": "done"
  },
  {
   "id": "t0B32D4",
@@ -480,8 +480,8 @@
   ],
   "slot": 16,
   "jp": "サンドネイル",
-  "en": "",
-  "status": "todo"
+  "en": "Sand Nail",
+  "status": "done"
  },
  {
   "id": "t0B32E4",
@@ -491,8 +491,8 @@
   ],
   "slot": 12,
   "jp": "ライネイル",
-  "en": "",
-  "status": "todo"
+  "en": "Rai Nail",
+  "status": "done"
  },
  {
   "id": "t0B32F0",
@@ -502,8 +502,8 @@
   ],
   "slot": 16,
   "jp": "アイスネイル",
-  "en": "",
-  "status": "todo"
+  "en": "Ice Nail",
+  "status": "done"
  },
  {
   "id": "t0B3300",
@@ -513,8 +513,8 @@
   ],
   "slot": 12,
   "jp": "ボムネイル",
-  "en": "",
-  "status": "todo"
+  "en": "Bomb Nail",
+  "status": "done"
  },
  {
   "id": "t0B330C",
@@ -524,8 +524,8 @@
   ],
   "slot": 16,
   "jp": "サンドウィスプ",
-  "en": "",
-  "status": "todo"
+  "en": "Sand Wisp",
+  "status": "done"
  },
  {
   "id": "t0B331C",
@@ -535,8 +535,8 @@
   ],
   "slot": 16,
   "jp": "ボルトウィスプ",
-  "en": "",
-  "status": "todo"
+  "en": "Bolt Wisp",
+  "status": "done"
  },
  {
   "id": "t0B332C",
@@ -546,8 +546,8 @@
   ],
   "slot": 16,
   "jp": "アクアウィスプ",
-  "en": "",
-  "status": "todo"
+  "en": "Aqua Wisp",
+  "status": "done"
  },
  {
   "id": "t0B333C",
@@ -557,8 +557,8 @@
   ],
   "slot": 16,
   "jp": "ヒートウィスプ",
-  "en": "",
-  "status": "todo"
+  "en": "Heat Wisp",
+  "status": "done"
  },
  {
   "id": "t0B334C",
@@ -568,8 +568,8 @@
   ],
   "slot": 16,
   "jp": "サンドカッター",
-  "en": "",
-  "status": "todo"
+  "en": "Sand Cutter",
+  "status": "done"
  },
  {
   "id": "t0B335C",
@@ -579,8 +579,8 @@
   ],
   "slot": 16,
   "jp": "エレキカッター",
-  "en": "",
-  "status": "todo"
+  "en": "Elec Cutter",
+  "status": "done"
  },
  {
   "id": "t0B336C",
@@ -590,8 +590,8 @@
   ],
   "slot": 16,
   "jp": "ミストカッター",
-  "en": "",
-  "status": "todo"
+  "en": "Mist Cutter",
+  "status": "done"
  },
  {
   "id": "t0B337C",
@@ -601,8 +601,8 @@
   ],
   "slot": 16,
   "jp": "ヒートカッター",
-  "en": "",
-  "status": "todo"
+  "en": "Heat Cutter",
+  "status": "done"
  },
  {
   "id": "t0B338C",
@@ -612,8 +612,8 @@
   ],
   "slot": 20,
   "jp": "グランパニッシュ",
-  "en": "",
-  "status": "todo"
+  "en": "Gran Punish",
+  "status": "done"
  },
  {
   "id": "t0B33A0",
@@ -623,8 +623,8 @@
   ],
   "slot": 20,
   "jp": "エレキパニッシュ",
-  "en": "",
-  "status": "todo"
+  "en": "Elec Punish",
+  "status": "done"
  },
  {
   "id": "t0B33B4",
@@ -634,8 +634,8 @@
   ],
   "slot": 20,
   "jp": "アイスパニッシュ",
-  "en": "",
-  "status": "todo"
+  "en": "Ice Punish",
+  "status": "done"
  },
  {
   "id": "t0B33C8",
@@ -645,8 +645,8 @@
   ],
   "slot": 20,
   "jp": "フレアパニッシュ",
-  "en": "",
-  "status": "todo"
+  "en": "Flare Punish",
+  "status": "done"
  },
  {
   "id": "t0B33DC",
@@ -656,8 +656,8 @@
   ],
   "slot": 16,
   "jp": "サンドチェイン",
-  "en": "",
-  "status": "todo"
+  "en": "Sand Chain",
+  "status": "done"
  },
  {
   "id": "t0B33EC",
@@ -667,8 +667,8 @@
   ],
   "slot": 16,
   "jp": "エレキチェイン",
-  "en": "",
-  "status": "todo"
+  "en": "Elec Chain",
+  "status": "done"
  },
  {
   "id": "t0B33FC",
@@ -678,8 +678,8 @@
   ],
   "slot": 16,
   "jp": "ミストチェイン",
-  "en": "",
-  "status": "todo"
+  "en": "Mist Chain",
+  "status": "done"
  },
  {
   "id": "t0B340C",
@@ -689,8 +689,8 @@
   ],
   "slot": 16,
   "jp": "ボムチェイン",
-  "en": "",
-  "status": "todo"
+  "en": "Bomb Chain",
+  "status": "done"
  },
  {
   "id": "t0B341C",
@@ -700,8 +700,8 @@
   ],
   "slot": 16,
   "jp": "グランレーザー",
-  "en": "",
-  "status": "todo"
+  "en": "Gran Laser",
+  "status": "done"
  },
  {
   "id": "t0B342C",
@@ -711,8 +711,8 @@
   ],
   "slot": 16,
   "jp": "ライレーザー",
-  "en": "",
-  "status": "todo"
+  "en": "Rai Laser",
+  "status": "done"
  },
  {
   "id": "t0B343C",
@@ -722,8 +722,8 @@
   ],
   "slot": 16,
   "jp": "アクアレーザー",
-  "en": "",
-  "status": "todo"
+  "en": "Aqua Laser",
+  "status": "done"
  },
  {
   "id": "t0B344C",
@@ -733,8 +733,8 @@
   ],
   "slot": 16,
   "jp": "ヒートレーザー",
-  "en": "",
-  "status": "todo"
+  "en": "Heat Laser",
+  "status": "done"
  },
  {
   "id": "t0B345C",
@@ -744,8 +744,8 @@
   ],
   "slot": 16,
   "jp": "グランキャノン",
-  "en": "",
-  "status": "todo"
+  "en": "Gran Cannon",
+  "status": "done"
  },
  {
   "id": "t0B346C",
@@ -755,8 +755,8 @@
   ],
   "slot": 16,
   "jp": "ライキャノン",
-  "en": "",
-  "status": "todo"
+  "en": "Rai Cannon",
+  "status": "done"
  },
  {
   "id": "t0B347C",
@@ -766,8 +766,8 @@
   ],
   "slot": 16,
   "jp": "アイスキャノン",
-  "en": "",
-  "status": "todo"
+  "en": "Ice Cannon",
+  "status": "done"
  },
  {
   "id": "t0B348C",
@@ -777,8 +777,8 @@
   ],
   "slot": 16,
   "jp": "ボムキャノン",
-  "en": "",
-  "status": "todo"
+  "en": "Bomb Cannon",
+  "status": "done"
  },
  {
   "id": "t0B349C",
@@ -788,8 +788,8 @@
   ],
   "slot": 16,
   "jp": "グランカリバー",
-  "en": "",
-  "status": "todo"
+  "en": "Gran Caliber",
+  "status": "done"
  },
  {
   "id": "t0B34AC",

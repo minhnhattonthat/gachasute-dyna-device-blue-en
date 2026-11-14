@@ -145,7 +145,7 @@ Binding for every translator and reviewer. Agents propose additions in reports; 
   Centa Javelin, Draco Shower/Loop/Screw, Libra Breaker/Spread/Shot, Lepus Wing/Assault/Hammer, Carina
   Rapier/Chop/Pistol, Auriga Vulcan/Antenna, Orion Vise/Rifle, Cygnus Needle/Ray, Aquila Buster/Claw, Capri
   Wind/Wave, Leo Cluster/Wasp, Gemini Knuckle, Ophiu Star, Bootes Blazer, Cassiopeia Eye, Plasma Cancer, Scorp
-  Hunter, Gatling Gun, Missile Hat, Missile Pod, Shoulder Gun, Scissor Shot, Energy Bowl, Machine Gun, Photon
+  Hunter, Gatling Gun, Missile Hat, Missile Pod, Shoulder Gun, Scissor Shot, Energy Bowl, Rapid Gun (マシンガン: "Gran Machine Gun" can't fit 64 px), Photon
   Blast. Styles: "<Latin constellation> style" (Centaurus, Draco, Libra, Gemini, Ophiuchus, Lepus, Bootes,
   Cassiopeia, Auriga, Orion, Cancer, Scorpius, Cygnus, Aquila, Capricornus, Leo, Carina). Elements in
   descriptions: Fire-/Water-/Thunder-/Earth-element.
