@@ -2,7 +2,7 @@
 
 Updated at the end of every session. Keep it to what the next session needs; history is in git.
 
-- **Phase:** 6. Translate in progress: b001-b023 of 45 merged (scripts 0-672).
+- **Phase:** 6. Translate in progress: b001-b028 of 45 merged (all scripts 0-833; strings to t0B00C8).
   Last build: `build/dynadevice_blue_en.gba` 2026-11-15 (b001 only), sha1 8b8b8bd1...; pilot seen in game
   (`work/qa/p6_pilot2`, warp `intro` + `MASHA=1`, 6000 frames): English wraps cleanly, ▼ clears the last line.
 - **How phase 6 runs (D11):** one agent translates batches in order, itself (Orca: no helpers).
@@ -24,12 +24,20 @@ Updated at the end of every session. Keep it to what the next session needs; his
   `work/qa/p6_choice6`). Fix idea: replace timed waits with event-driven segments (wait for SCRIPT n / room), or
   finish the tutorial on the original ROM, save in game, and start these scenes from that .sav (text-independent).
 - **Next:**
-  1. Continue at b024 (s673-, Navyu's Dyna Center lines), in order to b027, then strings b028-b045 (Dyna species =
-     constellation names per D10, armor/weapon parts, menus: menu verbs must match glossary "Decisions from earlier
-     batches"; the gossip word lists t0B4948-t0B4BE0 per the translator brief's b018-b023 note).
+  1. Continue at b029 (t0B00E0-, description-line fragments), in order to b045 (Dyna species = constellation names
+     per D10, armor/weapon parts, menus: menu verbs must match glossary "Decisions from earlier batches"; the gossip
+     word lists t0B4948-t0B4BE0 per the translator brief's b018-b023 note). For fragment batches first run
+     `python -X utf8 tools/desc_view.py bNNN` (records that use the batch's lines, done lines as «English»; b029
+     prints 159 records, read it via ctx_execute in chunks) and follow the brief's "Description lines" note.
+     A JP-blank fragment ("　") is set to status keep in script/ and its line deleted from work/tl/bNNN.tsv.
   3. After all batches: review pass (fresh read-only, per file group, `assets/reviewer-brief.md`), Minors to
      `docs/polish.md`; `tools/lint.py` 0 errors; `batches.py check` 0 problems. Then phase 7.
-- **Done (phase 6, latest session):** b018-b023 (resident tips and gossip in 4 voices, monthly talk, item
+- **Done (phase 6, latest session):** b024-b028 (shops, Colosseum/Ranking Battle prizes, Factory, regular
+  reports and city ranks, tournament, travelling merchant, challengers, G-Force, link messages, sector types,
+  first description fragments). New terms in glossary (Hall of Fame, Hero's Crown, Draco style, the 10 body
+  types). Sector-type field header: the code right-aligns it at col 13 (0x0804E4E6), budget raised 32 -> 56 px;
+  **phase 8: look at the "Mega House" / "Colosseum" header** in the field build menu. `tools/desc_view.py` added.
+- **Done (phase 6, session before):** b018-b023 (resident tips and gossip in 4 voices, monthly talk, item
   requests/trades, Dyna Center menus, auction). `tools/batches.py` now rejects a/an right before a register.
 - **Done (phase 6, session before):** b011-b017 (story end, post-game Navyu, battle/system messages, item use,
   resident Dyna tips). The original's stray `{%}` in s341.00 (a typo that eats 3 bytes) is dropped in English;
