@@ -35,6 +35,12 @@ translated literally and losing its punch; character quirks flattened to neutral
   ダイナの (t0AFE90) is also line 1 of the House keyword ("A Dyna's" / "home sector."). Device records:
   [type][category][line 1][line 2], line 2 often ends in the device name (ほのおが ふきだす / トリックスター).
   A JP blank line "　" is status keep (t0AFEE4); never leave English empty.
+  b029 changed the parts pattern to "Igarm types and" / "Zero-E types'" / "dedicated Devices" / "need this part."
+  (the 2nd type line is shared with food records: "<Type> types'" / "favorite." / "top favorite!"), and
+  metal to "Sturdy." / "Very heavy." Armor records: [style][Armor Device][L3][L4]; element variants
+  "Fire-element" / "<name>". Open for later batches: t0B0D5C should read "Its smooth surface" (+ "deflects
+  attacks."); t0B185C sits in "Very light, so" / [t0B185C] / "it suits big" / "weapons and such." (e.g. "worn
+  on the back,").
 - Dyna body types (b028): イグアーム Igarm, テトロトップ Tetrotop, シェルブック Shellbook, バーディス Birdis,
   キックバグ Kickbug, ゼロイー Zero-E, デュアロン Dualon, エコロード Ecoroad, メタボール Metaball, ゴストフリー Ghostfree.
 - An entry with any `\n` is not wrapped by the tool: lay out every line yourself and put `\n` after `{KP}` before

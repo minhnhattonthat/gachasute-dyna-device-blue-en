@@ -133,3 +133,11 @@ Binding for every translator and reviewer. Agents propose additions in reports; 
   moon viewing; Dyna Center menu `<@2>Withdraw<@13>Treat\n<@2>Auction<@13>Quit`, withdraw `<@3>Dyna<@9>Kits<@15>Quit`;
   やめる (menu) -> Quit; item prompts "Give/Take/Buy/Sell {%sR0}?", "Trade for {%sR2}?"; auction: opening bid,
   "goes to {%sR4}-san"; うまれた from address data -> "a Dyna of the {%sR1} style was born".
+- b029 Armor Device names (also the item list at t0B3FE8-, where name + " S" grade letter must fit 64 px):
+  ケンタルバリア Centaur Wall, ドラコファング Draco Fang, サギタルパッド Sagitta Pad, リブショルダー Lib Shoulder,
+  ゲミニクヘルム Geminic Helm, オフィウマスク Ophiu Mask, ウルスアーマー Ursa Armor, レープススーツ Lepus Suit,
+  ボルトプレート Bolt Plate, カペリオボディ Caperio Body, アウルフェイス Owl Face, オリオンヘッド Orion Head,
+  カンクルカバー Crab Cover, スコルプメット Scorp Helmet, キグヌスコート Cygnus Coat, アクイラホーン Aquila Horn,
+  カプリコガード Capri Guard, レオプロテクト Leo Protect, タウロレガース Tauro Shins, カリナフレーム Carina Frame,
+  ゼロス/メタラ/ゴスト/ディア/エコロシールド Zeros/Metala/Ghost/Dia/Ecolo Shield. Styles: "Sagittarius style",
+  "Ursa Major style", "Taurus style" (constellation Latin, D10). Food: "<Type> types'" / "favorite." / "top favorite!".
