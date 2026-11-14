@@ -3,8 +3,8 @@
 Updated at the end of every session. Keep it to what the next session needs; history is in git.
 
 - **Phase:** 6. Translate in progress: all 45 batches merged (5285 done, 179 keep, 72 data, 0 todo); review
-  pass running (`tools/pairs.py` -> `work/review/pairs/`, `sh tools/review_run.sh` -> codex exec read-only,
-  reports in `work/review/reports/gNN.md`; brief `docs/reviewer-brief.md`).
+  review round 1 done and fixed (r01); a few Important items left (Next 1). Tools: `tools/pairs.py`,
+  `sh tools/review_run.sh` (codex exec), `tools/show.py ID..` (print entries), brief `docs/reviewer-brief.md`.
   Last build: `build/dynadevice_blue_en.gba` 2026-11-15 (all batches), sha1 68d1683b..., smoke ok; pilot seen in game
   (`work/qa/p6_pilot2`, warp `intro` + `MASHA=1`, 6000 frames): English wraps cleanly, ▼ clears the last line.
 - **How phase 6 runs (D11):** one agent translates batches in order, itself (Orca: no helpers).
@@ -26,8 +26,17 @@ Updated at the end of every session. Keep it to what the next session needs; his
   `work/qa/p6_choice6`). Fix idea: replace timed waits with event-driven segments (wait for SCRIPT n / room), or
   finish the tutorial on the original ROM, save in game, and start these scenes from that .sav (text-independent).
 - **Next:**
-  1. Review pass: read each `work/review/reports/gNN.md`, fix Critical/Important in script/ (Edit tool;
-     `python -X utf8 tools/batches.py check` and `tools/check.py` after), Minors to `docs/polish.md`. Codex's
+  1. Review pass, first round done: 10 codex reports saved in `docs/review/gNN.md` (all files reviewed). Fixed and
+     merged as fix batch `r01` (`docs/review/r01_fixes.tsv`; ids in work/tl/r01.tsv, `merge r01 --overwrite`):
+     honorifics (Genio-sama, {name}-san, Lord Terry), Navyu contractions, s135.09 Byler kidnap line, star names
+     Segin/Chertan, the switch minigame rule (number = shock switches that way), etc. **Still open (Important):**
+     (a) s437.02-.09 "X Extra followed by Y" -> order-free wording ("when X and Y Extras come back to back");
+     (b) activity register verb "doing {%sR5}" in s493-s496, s549-s552, s565-s568, s577-s580, s585-s588 and
+     "will to do {%sR4}" in s561-s564 -> "enjoying"/"lose all interest in" per voice (g05.md);
+     (c) t0B57EC (reviewer: "the null" vs "none"; check the record in desc_view first), t0BB224 "Elem." (phase 8
+     width check, polish.md), t0B8254 weekdays (deliberate 3-letter + PAD, polish.md: waive). Fix as batch r02,
+     then move every Minor from docs/review/*.md into `docs/polish.md` (one `- [ ] id - note` line each), then
+     re-run `tools/pairs.py` + `sh tools/review_run.sh` only on changed groups if wanted. Then phase 7. Codex's
      Windows read-only sandbox can't start a shell, so `review_run.sh` pipes brief + glossary + style + pairs on
      stdin. Never `taskkill /IM codex.exe` (other sessions' codex): kill by PID.
   2. Phase 7 (name entry): t0B7FE4-t0B8044 (ｇｎｙｃｕｓ＜☆↓＋ ... ｓｅｒｕｓｐｅ▽＞％, pointers 0x0D1EA8-0x0D1ED8,

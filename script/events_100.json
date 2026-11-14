@@ -548,7 +548,7 @@
   "flag": 0,
   "speaker": 9,
   "jp": "{%sR4}さん\nゆうしょう　おめでとうございます！",
-  "en": "{%sR4}, congratulations on your\nvictory!",
+  "en": "{%sR4}-san, congratulations on\nyour victory!",
   "status": "done"
  },
  {
@@ -700,7 +700,7 @@
   "flag": 0,
   "speaker": 7,
   "jp": "だってぇ・・・シティともども\nすっごく　ジミでぇ・・・みすぼらしくてぇ",
-  "en": "Because... it's soooo plain, just like your\ncity... and shabbyyy...",
+  "en": "Because... you're soooo plain, just like your\ncity... and shabbyyy...",
   "status": "done"
  },
  {
@@ -956,7 +956,7 @@
   "flag": 0,
   "speaker": 7,
   "jp": "う　うらぎりものぉぉー\nよろしくしてって　いったのにぃぃ",
-  "en": "Y-you traitooors! And you said we'd be\nfriiiends!",
+  "en": "Y-you traitooors! And I asked you to be\nfriiiends!",
   "status": "done"
  },
  {
@@ -2036,7 +2036,7 @@
   "flag": 0,
   "speaker": 2,
   "jp": "みとれちまってたんだな！\n・・・うーん　ツミな　オレさまだぜ・・・",
-  "en": "you were just struck speechless! ...Mmm, the\ngreat me is a sin...",
+  "en": "you were just struck speechless! ...Mmm, the\ngreat me is criminally charming...",
   "status": "done"
  },
  {
@@ -2460,7 +2460,7 @@
   "flag": 0,
   "speaker": 7,
   "jp": "あ！　はいっ　テリーさまぁ\nかんどりょうこうですぅ！",
-  "en": "Oh! Yes, Terry-samaaa! Loud and\ncleeear!",
+  "en": "Oh! Yes, Lord Terryyy! Loud and cleeear!",
   "status": "done"
  },
  {
@@ -2596,7 +2596,7 @@
   "flag": 0,
   "speaker": 9,
   "jp": "{%sR4}さん\nゆうしょう　おめでとうございます！",
-  "en": "{%sR4}, congratulations on your\nvictory!",
+  "en": "{%sR4}-san, congratulations on\nyour victory!",
   "status": "done"
  },
  {
@@ -3116,7 +3116,7 @@
   "flag": 0,
   "speaker": 6,
   "jp": "・・・しかぁし！　おじょうちゃんがたが\nしんせつに　あつめてきて　くれた{KP}\nそれが　なくなってしまえば・・・",
-  "en": "...Howeverrr! If the things you young ladies\nso kindly gathered up for me{KP}\nwere to disappear...",
+  "en": "...Howeverrr! If the things you kids so\nkindly gathered up for me{KP}\nwere to disappear...",
   "status": "done"
  },
  {
@@ -3204,7 +3204,7 @@
   "flag": 0,
   "speaker": 6,
   "jp": "フヒヒヒ　あまいデスねぇ・・・そんなもん\nはやいモノがちに　きまってるデース！",
-  "en": "Fuhihihi, how naive, desu... Obviously, it's\nfinders keepers, desuuu!",
+  "en": "Fuhihihi, how naive, desu... Obviously, it's\nfirst come, first served, desuuu!",
   "status": "done"
  },
  {
@@ -3876,7 +3876,7 @@
   "flag": 0,
   "speaker": 8,
   "jp": "この　おじょうちゃんは\nわれわれ　バイラーが　あずかる！{KP}\nダイナシティを　かえすひつようも\nなくなるってワケだ！　ハハハハハ！",
-  "en": "This little girl is coming with us, Byler!{KP}\nThen there's no need to give back her\nDyna City! Hahahahaha!",
+  "en": "We of Byler are taking this little girl!{KP}\nThen there's no need to give back her\nDyna City! Hahahahaha!",
   "status": "done"
  },
  {
@@ -5372,7 +5372,7 @@
   "flag": 0,
   "speaker": 2,
   "jp": "ガハハハハハ　ゲニオさま　さんじょう！",
-  "en": "Gahahahaha! The great Genio is here!",
+  "en": "Gahahahaha! Genio-sama has arrived!",
   "status": "done"
  },
  {
@@ -5676,7 +5676,7 @@
   "flag": 0,
   "speaker": 1,
   "jp": "・・・わたしはぁ\nいままで　あそびはんぶんでぇ",
-  "en": "...Up until now, I've been half playing\narooound,",
+  "en": "...Up until now, I've treated it all like a\ngaaame,",
   "status": "done"
  },
  {
@@ -5980,7 +5980,7 @@
   "flag": 0,
   "speaker": 8,
   "jp": "では　その　ゆうきとやらが\nムダではないことを　しょうめいしてみろ！{KP}\nゆけっ！　わがダイナよ！",
-  "en": "Then prove that this \"guts\" of yours is\nnot wasted!{KP}\nGo! My Dyna!",
+  "en": "Then prove that this so-called courage of\nyours is not in vain!{KP}\nGo! My Dyna!",
   "status": "done"
  },
  {

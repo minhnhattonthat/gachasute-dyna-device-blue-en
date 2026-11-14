@@ -1460,7 +1460,7 @@
   "flag": 0,
   "speaker": -1,
   "jp": "てきダイナを　じぶんで　しとめたり\nとくしゅのうりょくを　うまく　つかうと{KP}\nつぎの　レベルアップで　パラメーターが\nぐーんと　あがるってワケだ",
-  "en": "Take down enemy Dyna yourself, or pull\noff special abilities right,{KP}\nand its parameters go waaay up at the\nnext level-up!",
+  "en": "If it takes down enemy Dyna itself or pulls\noff special abilities right,{KP}\nits parameters go waaay up at the next\nlevel-up!",
   "status": "done"
  },
  {
@@ -1492,7 +1492,7 @@
   "flag": 0,
   "speaker": -1,
   "jp": "てきダイナに　とどめを　さす\nとくしゅのうりょくを　せいこうさせる{KP}\nそういうことの　つみかさねで　よりおおくの\nパラメーターが　あがるようになる",
-  "en": "Finishing off enemy Dyna. Succeeding with\nspecial abilities.{KP}\nBuilding up such deeds makes more\nparameters rise.",
+  "en": "Finishing off enemy Dyna. Succeeding with\nspecial abilities.{KP}\nBuilding up such deeds makes its\nparameters rise more.",
   "status": "done"
  },
  {

@@ -20,7 +20,7 @@
   "flag": 0,
   "speaker": 4,
   "jp": "せいげんじかん　しゅうりょう！\nけっかを　はっぴょうします{KN}",
-  "en": "Time's up! Here are the results!{KN}",
+  "en": "Time is up! Here are the results!{KN}",
   "status": "done"
  },
  {
@@ -252,7 +252,7 @@
   "flag": 0,
   "speaker": 4,
   "jp": "そういえば　コロシアムに　だれか\nまたせているのではないですか？{KP}\nわすれずに　いってあげてくださいね",
-  "en": "By the way, isn't someone waiting for you\nat the Colosseum?{KP}\nPlease do not forget to go and see\nthem.",
+  "en": "By the way, is someone not waiting for you\nat the Colosseum?{KP}\nPlease do not forget to go and see\nthem.",
   "status": "done"
  },
  {
@@ -316,7 +316,7 @@
   "flag": 0,
   "speaker": 4,
   "jp": "そういえば　コロシアムに　だれか\nまたせているのではないですか？{KP}\nわすれずに　いってあげてくださいね",
-  "en": "By the way, isn't someone waiting for you\nat the Colosseum?{KP}\nPlease do not forget to go and see\nthem.",
+  "en": "By the way, is someone not waiting for you\nat the Colosseum?{KP}\nPlease do not forget to go and see\nthem.",
   "status": "done"
  },
  {
@@ -324,7 +324,7 @@
   "flag": 0,
   "speaker": 4,
   "jp": "そういえば　きょうは　たいかいが\nひらかれるんでしたね",
-  "en": "Oh yes, the tournament is being held\ntoday, isn't it?",
+  "en": "Oh yes, the tournament is being held\ntoday, is it not?",
   "status": "done"
  },
  {

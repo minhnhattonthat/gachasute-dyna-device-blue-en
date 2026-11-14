@@ -901,7 +901,7 @@
   ],
   "slot": 24,
   "jp": "スイッチに　ついている",
-  "en": "Some switches give",
+  "en": "The number on a",
   "status": "done"
  },
  {
@@ -911,7 +911,7 @@
   ],
   "slot": 28,
   "jp": "すうじの　かずだけ　その",
-  "en": "a shock as many",
+  "en": "switch tells how",
   "status": "done"
  },
  {
@@ -921,7 +921,7 @@
   ],
   "slot": 28,
   "jp": "ほうこうに　かんでんする",
-  "en": "squares as their",
+  "en": "many shock switches",
   "status": "done"
  },
  {
@@ -931,7 +931,7 @@
   ],
   "slot": 24,
   "jp": "スイッチが　あります",
-  "en": "number, that way.",
+  "en": "lie that way.",
   "status": "done"
  },
  {

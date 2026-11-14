@@ -68,7 +68,7 @@
   "flag": 0,
   "speaker": -1,
   "jp": "{%sR4}は\nきぜつしてしまった！{KN}",
-  "en": "{%sR4} fainted!{KN}",
+  "en": "{%sR4} was knocked out!{KN}",
   "status": "done"
  },
  {

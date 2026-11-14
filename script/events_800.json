@@ -364,7 +364,7 @@
   "flag": 0,
   "speaker": 3,
   "jp": "うーん・・・つめが　あまかったか・・・\nしょうぶは　あまくないね",
-  "en": "Hmm... My plan had a hole in it... Battles are\nnever easy, are they?",
+  "en": "Hmm... I went too easy on the finish...\nBattles are never easy, are they?",
   "status": "done"
  },
  {
@@ -788,7 +788,7 @@
   "flag": 0,
   "speaker": -1,
   "jp": "せつぞく　たいきちゅう・・・\nＢボタンで　まえの　がめんに　もどります{KN}",
-  "en": "Waiting for connection...\nPress the B Button to go back.{KN}",
+  "en": "Waiting for link...\nPress the B Button to go back.{KN}",
   "status": "done"
  },
  {

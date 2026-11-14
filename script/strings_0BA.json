@@ -363,7 +363,7 @@
   ],
   "slot": 12,
   "jp": "びょうきが",
-  "en": "Its sickness",
+  "en": "Its health",
   "status": "done"
  },
  {
@@ -1920,7 +1920,7 @@
   ],
   "slot": 36,
   "jp": "ていさつで　ダイナと　トラップを",
-  "en": "Scout sees Dyna, traps alike:",
+  "en": "Scout can't tell Dyna/traps:",
   "status": "done"
  },
  {

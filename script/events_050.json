@@ -460,7 +460,7 @@
   "flag": 0,
   "speaker": 1,
   "jp": "また　あたらしく\nセットしなおせるようになるの",
-  "en": "and you can set it again somewhere new.",
+  "en": "and you can set it up again, anew.",
   "status": "done"
  },
  {
@@ -820,7 +820,7 @@
   "flag": 0,
   "speaker": 4,
   "jp": "データを　とった　ダイナなどに\nそうびさせてあげてください{KP}\nデバイスを　そうびさせるには　Ｂボタンを\nおして　メニューの",
-  "en": "Please have your Dyna, or whoever you\nhave data on, equip it.{KP}\nTo equip a Device, press the B Button, and\nin the menu,",
+  "en": "Please equip it on the Dyna you took the\ndata from, for example.{KP}\nTo equip a Device, press the B Button, and\nin the menu,",
   "status": "done"
  },
  {
@@ -1060,7 +1060,7 @@
   "flag": 0,
   "speaker": 4,
   "jp": "きげんが　わるくなければ\nデバイスそざいなどの　アイテムを{KP}\nくれたり　うってくれたりすることも\nあるみたいですよ",
-  "en": "If they are in a good mood, they may give\nyou{KP}\nor sell you items such as Device parts.",
+  "en": "As long as they are not in a bad mood,\nthey may give you{KP}\nor sell you items such as Device parts.",
   "status": "done"
  },
  {
@@ -1156,7 +1156,7 @@
   "flag": 0,
   "speaker": 2,
   "jp": "だが　しかし！　この　ゲニオさまは\nまけっぱなしでは　おわらないぜ！{KP}\nいちど　かったくらいで　いいきになるなよ！\nプレイじかんで　まけても　バトルで　かつ！",
-  "en": "But hear this! The great Genio doesn't stay\nbeaten!{KP}\nDon't get cocky over one win! Lose on play\ntime, win in battle!",
+  "en": "But hear this! Genio-sama doesn't stay\nbeaten!{KP}\nDon't get cocky over one win! Lose on play\ntime, win in battle!",
   "status": "done"
  },
  {
@@ -1228,7 +1228,7 @@
   "flag": 0,
   "speaker": 2,
   "jp": "まぁ　しかし　オレさまに　かったのは\nじじつだし　きねんに　これを　やろう！",
-  "en": "Well, you did beat the great me, fair and\nsquare, so take this as a souvenir!",
+  "en": "Well, you did beat the great me, so take\nthis as a souvenir!",
   "status": "done"
  },
  {

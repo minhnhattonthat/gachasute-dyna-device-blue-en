@@ -972,7 +972,7 @@
   "flag": 0,
   "speaker": 4,
   "jp": "{%sR4}さん\nほんじつも　ダイナデバイスを",
-  "en": "{%sR4}-san, here at Dyna\nDevice,",
+  "en": "{%sR4}-san, thank you for playing\nDyna Device",
   "status": "done"
  },
  {
@@ -980,7 +980,7 @@
   "flag": 0,
   "speaker": 4,
   "jp": "ごりよういただき　ありがとうございます{KP}\n・・・ふふっ　あいさつが　かたいですか？",
-  "en": "we thank you for playing with us again\ntoday.{KP}\n...Fufu, is my greeting too stiff?",
+  "en": "again today.{KP}\n...Fufu, is my greeting too stiff?",
   "status": "done"
  },
  {
@@ -1044,7 +1044,7 @@
   "flag": 0,
   "speaker": 4,
   "jp": "{%sR4}さん\nほんじつも　ダイナデバイスを",
-  "en": "{%sR4}-san, here at Dyna\nDevice,",
+  "en": "{%sR4}-san, thank you for playing\nDyna Device",
   "status": "done"
  },
  {
@@ -1052,7 +1052,7 @@
   "flag": 0,
   "speaker": 4,
   "jp": "ごりよういただき　ありがとうございます{KP}\n・・・ふふっ　あいさつが　かたいですか？",
-  "en": "we thank you for playing with us again\ntoday.{KP}\n...Fufu, is my greeting too stiff?",
+  "en": "again today.{KP}\n...Fufu, is my greeting too stiff?",
   "status": "done"
  },
  {
