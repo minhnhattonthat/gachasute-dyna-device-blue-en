@@ -1,6 +1,7 @@
 # Debug tool: story flags, events, script start (phase 2)
 
-Tool: `tools/debug/warp.lua` + `tools/debug/scenes.tsv` (kinds: boot, newgame, script, event, field, menu, fscript, mode). Command in
+Tool: `tools/debug/warp.lua` + `tools/debug/scenes.tsv` (kinds: boot, newgame, script, event, field, menu, fscript, mode,
+resume, dmode). Probe for flag experiments from a state: `tools/debug/probe_flags.lua`. Command in
 AGENTS.md. Each warp logs `WARP <stage>`, `SCRIPT <n> lr=.. room=..`, `ARRIVED <scene>`, and `TEXT <ptr>` for every
 string the message drawer gets (text-coverage source for phase 8).
 
@@ -73,6 +74,26 @@ string the message drawer gets (text-coverage source for phase 8).
 - Text: no staff names exist as SJIS text (no スタッフ/ディレクター strings); the sound test lists a スタッフロール
   BGM, so credits, if any, are graphics. Script 153 (epilogue) ends at once when hijacked; the ending chain is in
   the event pick after 0x0801EDFE (flags 0x4F-0x54 with room 0x13 -> event 0x4F, then more cases), not decoded.
+
+## Continue path, endings and credits (verified 2026-11-15, kinds `resume`, `dmode`)
+- The event pick's switch covers events 2..71 only; the code after 0x0801EDFE adds side events 79 (room 0x13,
+  flag 79 == 2 or flags 81-84 == 1) and 81-84 (reception, random, flag 95 == 0) and 86. Events 72-78 (scripts
+  147-153) are never picked at a room load.
+- The field init (its branch at **0x08055D84**) branches on an entry code in r4: 57 = new game (-> 0x0800DDDC,
+  0x08042518, then the room-load event pick), 0x27 with flag 3 == 2, 0x2E, 0x33, 0x37 with flag 2 == 2, 0x3B (59),
+  0x32 with flag 14 == 2 -> **continue handler 0x080522D4** (via 0x080522B0, table 0x080D32C4[2]).
+- The continue handler restarts the story script in progress, first match wins: flag 2==2 -> 2, 2==1 -> 3, 3==2 -> 4,
+  9==2 -> 35, 14==2 -> 78/79/80 (flag 15 2/1/else), 24..31==1 -> 98, 101-105, 36 -> 112, 41 -> 115, 45..49 -> 119-123,
+  61 -> 135, 65==2 -> 140, 66 -> 141, 67 -> 142, 71 -> 147, 73 -> 149, 74 -> 150, 75 -> 152 (flag 93 == 0) / 151,
+  89==2 -> 756, 89/90/91/92==1 -> 758/759/760/761 (flag 93 != 0: 757), 86 -> 817, 95==3 -> 153 or, with the score
+  0x0801A6C4 > 99, 155; else 154 (アトラクション しゅうりょう). Kind `resume` (rows r2..r817) sets entry 59 on a new
+  game and pokes the flags, so each script starts through this handler.
+- Ending: script 152 (final battle aftermath) ends in **mode 22 = the staff roll**: credits are drawn as graphics
+  (kana staff names, e.g. ゲームデザイン あかいし たつや) over illustrations, ~9500 frames, last card ©2002 スマイルソフト.
+  Mode 22 forced at a cold boot plays the same roll (rows `credits`, `credits_mid`). The credits text is not SJIS
+  in the ROM: find its encoding or tiles before phase 8 (graphics text list).
+- System > おわる > yes quits the field to mode 2 (PDA) -> 46 -> 39. Kind `dmode` replaces that set_mode
+  (0x08002C1C) call with mode N, so shop and menu modes open with the tutorial's party, money and items in RAM.
 
 ## Field and menus (open, older notes)
 - After the tutorial skip the player has no Dynas, and a visiting challenger (script 791, from 0x080654A2 when

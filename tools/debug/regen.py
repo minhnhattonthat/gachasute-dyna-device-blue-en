@@ -20,7 +20,8 @@ from skill import SKILL  # noqa: E402
 ROM = ROOT / "rom" / "Gachasute! Dyna Device Blue (Japan).gba"
 SCENES = ROOT / "tools" / "debug" / "scenes.tsv"
 # frame budget per kind: the warp stops itself at the hold shot; this is only the ceiling
-BUDGET = {"boot": 4000, "newgame": 5000, "script": 9000, "event": 12000, "field": 12000, "menu": 32000, "fscript": 33000, "mode": 4500}
+BUDGET = {"boot": 4000, "newgame": 5000, "script": 9000, "event": 12000, "field": 12000, "menu": 32000, "fscript": 33000, "mode": 4500,
+          "resume": 4500, "dmode": 28000}
 
 
 def scenes():

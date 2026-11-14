@@ -5,6 +5,7 @@ keyboard	boot	keyboard	120	name-entry keyboard (profile name)
 title	boot	title	60	title screen after the form
 intro	newgame		600	new game: script 1 (ようこそ ダイナシティへ), tutorial start
 battle_place	field	30 -	60	tutorial skipped, out into the city: a visiting challenger starts a battle, Dyna placement screen (script 181)
+battle_place_trap	field	240 -;6 a;60 -;16 down;60 -;6 a;90 -	60	visiting challenger's battle: Dyna 1 placed, its trap set, Dyna 2 prompt
 menu	menu	6 b;60 -	60	tutorial played out (tools/debug/tutorial_route.txt), city road, B: field menu bar (じゅうみん データベース システム もちもの パーティ)
 menu_db_dyna	menu	6 b;60 -;6 a;40 -;6 a;90 -	60	menu: database > Dyna (list of 4 pages)
 menu_db_device	menu	6 b;60 -;6 a;40 -;6 down;20 -;6 a;90 -	60	menu: database > device (list)
@@ -39,6 +40,59 @@ e40	event	40	900	story event 40: script 113 (reception)
 e56	event	56	900	story event 56: script 129 (city)
 s152	script	152	900	hijack: script 152, final battle aftermath (rival loses)
 s153	script	153	900	hijack: script 153, epilogue
+r2	resume	2=2	900	continue path (0x080522D4), flag 2 = 2: script 2
+r3	resume	2=1	900	continue, flag 2 = 1: script 3
+r4	resume	3=2	900	continue, flag 3 = 2: script 4
+r35	resume	9=2	900	continue, flag 9 = 2: script 35
+r78	resume	14=2 15=2	900	continue, flags 14 = 2, 15 = 2: script 78
+r79	resume	14=2 15=1	900	continue, flags 14 = 2, 15 = 1: script 79
+r80	resume	14=2	900	continue, flag 14 = 2: script 80
+r98	resume	24=1	900	continue, flag 24 = 1: script 98
+r101	resume	27=1	900	continue, flag 27 = 1: script 101
+r102	resume	28=1	900	continue, flag 28 = 1: script 102
+r103	resume	29=1	900	continue, flag 29 = 1: script 103
+r104	resume	30=1	900	continue, flag 30 = 1: script 104
+r105	resume	31=1	900	continue, flag 31 = 1: script 105
+r112	resume	36=1	900	continue, flag 36 = 1: script 112
+r115	resume	41=1	900	continue, flag 41 = 1: script 115
+r119	resume	45=1	900	continue, flag 45 = 1: script 119
+r120	resume	46=1	900	continue, flag 46 = 1: script 120
+r121	resume	47=1	900	continue, flag 47 = 1: script 121
+r122	resume	48=1	900	continue, flag 48 = 1: script 122
+r123	resume	49=1	900	continue, flag 49 = 1: script 123
+r135	resume	61=1	900	continue, flag 61 = 1: script 135
+r140	resume	65=2	900	continue, flag 65 = 2: script 140
+r141	resume	66=1	900	continue, flag 66 = 1: script 141
+r142	resume	67=1	900	continue, flag 67 = 1: script 142
+r147	resume	71=1	900	continue, flag 71 = 1: script 147, final chapter (Yurie attacked)
+r149	resume	73=1	900	continue, flag 73 = 1: script 149, final area
+r150	resume	74=1	900	continue, flag 74 = 1: script 150, final battle retry prompt (どこから さいかいしますか)
+r151	resume	75=1 93=1	900	continue, flags 75 = 1, 93 = 1: script 151, retry prompt
+r152	resume	75=1	900	continue, flag 75 = 1: script 152, final battle aftermath (then the staff roll, mode 22)
+r756	resume	89=2	900	continue, flag 89 = 2: script 756
+r758	resume	89=1	900	continue, flag 89 = 1: script 758
+r759	resume	90=1	900	continue, flag 90 = 1: script 759
+r760	resume	91=1	900	continue, flag 91 = 1: script 760
+r761	resume	92=1	900	continue, flag 92 = 1: script 761
+r757	resume	90=1 93=1	900	continue, flags 90 = 1, 93 = 1: script 757
+r817	resume	86=1	900	continue, flag 86 = 1: script 817
+r153	resume	95=3	900	continue, flag 95 = 3, score <= 99: script 153, epilogue
+r155	resume	95=3 score=100	900	continue, flag 95 = 3, score > 99: script 155, epilogue (complete)
+r154	resume		900	continue, no story flag: script 154 (アトラクション しゅうりょう)
+ending_full	resume	75=1 mash	7000	final battle aftermath played with A every 40 frames into the staff roll (MASHA)
+d_dyna_status	dmode	11	300	tutorial played, quit, mode 11 with real data: Dyna status / equip
+d_customize	dmode	13	300	tutorial data, mode 13: ダイナカスタマイズ
+d_auction	dmode	15	300	tutorial data, mode 15: アイテムオークション
+d_dyna_shop	dmode	16	300	tutorial data, mode 16: Dyna list shop
+d_item_sell	dmode	17	300	tutorial data, mode 17: アイテムばいきゃく
+d_kit	dmode	20	300	tutorial data, mode 20: kept kits
+d_dev_status	dmode	21	300	tutorial data, mode 21: かいはつじょうきょう
+d_shop_list	dmode	23	300	tutorial data, mode 23: shop list with sector map
+d_placement	dmode	28	300	tutorial data, mode 28: ダイナはいち
+d_team	dmode	33	300	tutorial data, mode 33: チームへんせい
+d_get	dmode	36	300	tutorial data, mode 36: ゲット list
+credits	mode	22	9600	mode 22: staff roll (graphics credits over illustrations), held to the last card ©2002 スマイルソフト
+credits_mid	mode	22	1100	mode 22: staff roll, first staff card (ゲームデザイン)
 debug_menu	mode	50	60	leftover AGB SYSTEM DEBUG MENU (mode 50 forced at boot); cursor starts on PDA SYSTEM
 dbg_city_setup	mode	50 10 -;6 down;20 -;6 a;200 -	60	debug menu > MONSTER CITY: CITY SETUP MENU (map, money, monster num, scenario)
 dbg_city_start	mode	50 10 -;6 down;20 -;6 a;200 -;6 a;900 -	60	debug menu > CITY SETUP > START: game starts in the city (ようこそ ダイナシティへ)
@@ -70,7 +124,7 @@ mode_item_sell	mode	17	600	mode 17: アイテムばいきゃく (item sell)
 mode_subway	mode	18	600	mode 18: subway train demo
 mode_kit	mode	20	600	mode 20: あずかっている…キット (kept kits)
 mode_dev_status	mode	21	600	mode 21: かいはつじょうきょう (device development status)
-mode_colo_event	mode	22	600	mode 22: colosseum event (crowd scene)
+mode_colo_event	mode	22	600	mode 22: staff roll, opening crowd picture (see credits, credits_mid)
 mode_shop_list	mode	23	600	mode 23: shop list with sector map
 mode_card	mode	24	600	mode 24: めいしこうかん (business-card exchange)
 mode_battle_field	mode	27	600	mode 27: 3D battle field

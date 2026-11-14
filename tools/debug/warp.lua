@@ -139,6 +139,50 @@ L.on_exec(MODE_PICK, MODE_PICK, function()
   arriveAfterRoute = true
 end)
 
+-- kind "resume": arg "flag=value ...[ score=N][ | route]". The field init (0x08055D84) branches on an entry code in
+-- r4 (57 = new game; 59 and others = continue). The continue handler 0x080522D4 restarts the story script in
+-- progress from the flags (chain of flag tests, docs/re/debug.md: e.g. flag 75 == 1 -> script 152, flag 95 == 3 ->
+-- epilogue 153, or 155 when the completion score 0x0801A6C4 is above 99; nothing set -> 154). Here the new game's
+-- entry code becomes 59, every story flag is cleared, flag 1 = 3, the pokes are applied and, with score=N, the
+-- score the epilogue test reads (r0 at 0x0805266E) is replaced.
+local RESUME_FIELD, RESUME_DISPATCH, RESUME_SCORE = 0x08055D84, 0x080522D4, 0x0805266E
+local resumeSet = false
+L.on_exec(RESUME_SCORE, RESUME_SCORE, function()
+  local sc = scene.kind == "resume" and tonumber(scene.arg:match("score=(%d+)"))
+  if sc then emu.setState({ ["cpu.r0"] = sc }) end
+end)
+L.on_exec(RESUME_FIELD, RESUME_FIELD, function()
+  if scene.kind ~= "resume" or resumeSet then return end
+  L.log(string.format("FIELDINIT entry=%d f%d", emu.getState()["cpu.r4"], L.frame))
+  resumeSet = true
+  emu.setState({ ["cpu.r4"] = 59 })
+  for n = 2, 127 do set_flag(n, 0) end
+  set_flag(1, 3)
+  local pokes = scene.arg:match("^([^|]*)")
+  for k, v in pokes:gmatch("(%d+)=(%d+)") do set_flag(tonumber(k), tonumber(v)) end
+  emu.write(DAYS, 99, MEM)
+  set_stage("resume")
+end)
+L.on_exec(RESUME_DISPATCH, RESUME_DISPATCH, function()
+  if scene.kind == "resume" then L.log(string.format("RESUME dispatch f%d", L.frame)) end
+end)
+
+-- kind "dmode": arg "N[ route]". Mode N entered with real game data: the tutorial plays out as for "menu" (2 Dynas,
+-- 4300 bits, an item shop sector), then system > おわる > yes quits the field, and the game's next set_mode call
+-- (0x08002C1C, r0 = 2 after a quit) gets mode N instead. Party, items and money stay in RAM.
+local SET_MODE = 0x08002C1C
+local QUIT_ROUTE = "6 b;60 -;6 right;30 -;6 a;40 -;6 down;20 -;6 down;20 -;6 a;90 -;6 a;60 -"
+L.on_exec(SET_MODE, SET_MODE, function()
+  if scene.kind ~= "dmode" or stage ~= "dquit" then return end
+  local want = tonumber(scene.arg:match("^%s*(%d+)"))
+  local route = scene.arg:match("^%s*%d+%s+(.+)$")
+  L.log(string.format("SETMODE %d -> %d f%d", emu.getState()["cpu.r0"], want, L.frame))
+  emu.setState({ ["cpu.r0"] = want, ["cpu.r1"] = 1 })
+  set_stage("done")
+  play(parse_route("1 -;" .. (route or "120 -")))
+  arriveAfterRoute = true
+end)
+
 local dateSeen = false
 L.on_exec(DATE_PROMPT, DATE_PROMPT, function()
   if not dateSeen and scene.kind == "boot" and scene.arg == "date" then
@@ -184,9 +228,15 @@ L.on_exec(SCRIPT_START, SCRIPT_START, function()
     if route then play(parse_route("1 -;" .. route)); arriveAfterRoute = true else arrive() end
     return
   end
-  if (scene.kind == "menu" or scene.kind == "fscript") and stage == "title" and idx == 1 then
+  if (scene.kind == "menu" or scene.kind == "fscript" or scene.kind == "dmode") and stage == "title" and idx == 1 then
     tutStart = L.frame
     set_stage("tutorial")
+  end
+  if scene.kind == "resume" and stage == "resume" then
+    set_stage("done")
+    local route = scene.arg:match("|%s*(.+)$")
+    if route then play(parse_route("1 -;" .. route)); arriveAfterRoute = true else arrive() end
+    return
   end
   if stage ~= "done" and (scene.kind == "script" or scene.kind == "newgame" or (stage == "walk" and idx == eventScript)) then
     set_stage("done")
@@ -221,12 +271,17 @@ L.on_frame(function(n)
         -- walk into the reception (room 15), whose load starts script 331 (lr 0x0805003B)
         set_stage("fwalk")
         play(parse_route("90 up;50 right;60 up;60 -"))
+      elseif scene.kind == "dmode" then
+        set_stage("dquit")
+        play(parse_route(QUIT_ROUTE))
       else
         set_stage("done")
         play(parse_route("1 -;" .. scene.arg))
         arriveAfterRoute = true
       end
     end
+  elseif stage == "dquit" then
+    if L.route_done() and n - stageFrame > 900 then L.fail("dmode: the quit route set no mode") end
   elseif stage == "fwalk" or stage == "ftalk" then
     if L.route_done() and n - stageFrame > 600 then L.fail("fscript: no script started at stage " .. stage) end
   elseif stage == "boot" then
@@ -266,7 +321,8 @@ L.on_frame(function(n)
     if WARP_STATE then L.save_state(WARP_STATE, function() L.finish(0) end)
     elseif FINISH then L.finish(0) end
   end
-  if arrived and n > arrived and (MASHA or 0) > 0 and (n - arrived) % 40 == 0 then L.press("a", 6) end
+  if arrived and n > arrived and ((MASHA or 0) > 0 or (scene.kind == "resume" and scene.arg:match("mash")))
+    and (n - arrived) % 40 == 0 then L.press("a", 6) end
   if n % 30 == 0 then  -- log top-level mode changes ("MODE n")
     local m = emu.read32(MODE_VAR, MEM)
     if m ~= lastMode then L.log(string.format("MODE %d f%d", m, n)); lastMode = m end
