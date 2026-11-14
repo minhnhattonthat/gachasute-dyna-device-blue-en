@@ -147,3 +147,4 @@ mode_map_test	mode	47	600	mode 47: map test (house room)
 mode_battle_test	mode	48	600	mode 48: battle test (CASE=)
 mode_data_view	mode	49	600	mode 49: DATA VIEW
 choice_yesno	fscript	37	150	Yurie's colosseum Yes/No choice (script 37 opens on it): checks choice-line layout
+choice_s37	script	37 120 -;6 a;60 -;6 a;60 -;6 a;60 -	300	hijack at the tutorial start: script 37 (Yurie's Yes/No), no tutorial route; choice layout check
