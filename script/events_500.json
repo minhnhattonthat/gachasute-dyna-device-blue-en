@@ -4,407 +4,407 @@
   "flag": 0,
   "speaker": -1,
   "jp": "そういえば　さっき\n{%sR4}に　あったわ{KP}\nなんでも　でんせつの　{%sR5}を\nさがす　たびに　でるんですって",
-  "en": "",
-  "status": "todo"
+  "en": "Oh, I ran into {%sR4} just now.{KP}\nThey say they're going on a journey to\nfind the legendary {%sR5}!",
+  "status": "done"
  },
  {
   "id": "s501.00",
   "flag": 0,
   "speaker": -1,
   "jp": "あなたは　どう　おもいます？",
-  "en": "",
-  "status": "todo"
+  "en": "What do you think?",
+  "status": "done"
  },
  {
   "id": "s502.00",
   "flag": 0,
   "speaker": -1,
   "jp": "オマエ　どう　おもう？",
-  "en": "",
-  "status": "todo"
+  "en": "What do you think, huh?",
+  "status": "done"
  },
  {
   "id": "s503.00",
   "flag": 0,
   "speaker": -1,
   "jp": "キミは　どう　おもう？",
-  "en": "",
-  "status": "todo"
+  "en": "And what do you make of it?",
+  "status": "done"
  },
  {
   "id": "s504.00",
   "flag": 0,
   "speaker": -1,
   "jp": "あなた　どう　おもう？",
-  "en": "",
-  "status": "todo"
+  "en": "What do you think?",
+  "status": "done"
  },
  {
   "id": "s505.00",
   "flag": 0,
   "speaker": -1,
   "jp": "おもっていたとおりですね",
-  "en": "",
-  "status": "todo"
+  "en": "Just as I thought.",
+  "status": "done"
  },
  {
   "id": "s506.00",
   "flag": 0,
   "speaker": -1,
   "jp": "ま　そんなことだろうと　おもってたがな",
-  "en": "",
-  "status": "todo"
+  "en": "Eh, figured it'd be somethin' like that.",
+  "status": "done"
  },
  {
   "id": "s507.00",
   "flag": 0,
   "speaker": -1,
   "jp": "すべて　よそうどおりだ",
-  "en": "",
-  "status": "todo"
+  "en": "All as I predicted.",
+  "status": "done"
  },
  {
   "id": "s508.00",
   "flag": 0,
   "speaker": -1,
   "jp": "やっぱりねー\nそんな　きは　してたのよ",
-  "en": "",
-  "status": "todo"
+  "en": "I knew it!\nI just had a feeling.",
+  "status": "done"
  },
  {
   "id": "s509.00",
   "flag": 0,
   "speaker": -1,
   "jp": "おもっても　みなかったです",
-  "en": "",
-  "status": "todo"
+  "en": "I never would have imagined it.",
+  "status": "done"
  },
  {
   "id": "s510.00",
   "flag": 0,
   "speaker": -1,
   "jp": "まさか　そうくるとはなぁ・・・",
-  "en": "",
-  "status": "todo"
+  "en": "Whoa, didn't see that one comin'...",
+  "status": "done"
  },
  {
   "id": "s511.00",
   "flag": 0,
   "speaker": -1,
   "jp": "よそうがいだな・・・",
-  "en": "",
-  "status": "todo"
+  "en": "Most unexpected...",
+  "status": "done"
  },
  {
   "id": "s512.00",
   "flag": 0,
   "speaker": -1,
   "jp": "ウソみたい・・・",
-  "en": "",
-  "status": "todo"
+  "en": "No way...",
+  "status": "done"
  },
  {
   "id": "s513.00",
   "flag": 0,
   "speaker": -1,
   "jp": "かっこいいですよね",
-  "en": "",
-  "status": "todo"
+  "en": "Is that not cool?",
+  "status": "done"
  },
  {
   "id": "s514.00",
   "flag": 0,
   "speaker": -1,
   "jp": "けっこう　かっこいいじゃねぇか",
-  "en": "",
-  "status": "todo"
+  "en": "Pretty cool, ain't it!",
+  "status": "done"
  },
  {
   "id": "s515.00",
   "flag": 0,
   "speaker": -1,
   "jp": "なかなか　やるものだな",
-  "en": "",
-  "status": "todo"
+  "en": "Not bad at all.",
+  "status": "done"
  },
  {
   "id": "s516.00",
   "flag": 0,
   "speaker": -1,
   "jp": "うーん　かっこいいわぁー",
-  "en": "",
-  "status": "todo"
+  "en": "Ooh, so cool!",
+  "status": "done"
  },
  {
   "id": "s517.00",
   "flag": 0,
   "speaker": -1,
   "jp": "・・・ちょっと　かっこわるいですね",
-  "en": "",
-  "status": "todo"
+  "en": "...That is a little uncool.",
+  "status": "done"
  },
  {
   "id": "s518.00",
   "flag": 0,
   "speaker": -1,
   "jp": "・・・ったく　かっこわりぃなぁ",
-  "en": "",
-  "status": "todo"
+  "en": "...Jeez, how lame.",
+  "status": "done"
  },
  {
   "id": "s519.00",
   "flag": 0,
   "speaker": -1,
   "jp": "しょせん　そのていどか・・・",
-  "en": "",
-  "status": "todo"
+  "en": "Is that the best they can do...",
+  "status": "done"
  },
  {
   "id": "s520.00",
   "flag": 0,
   "speaker": -1,
   "jp": "かっこわるいなぁ・・・",
-  "en": "",
-  "status": "todo"
+  "en": "How lame...",
+  "status": "done"
  },
  {
   "id": "s521.00",
   "flag": 0,
   "speaker": -1,
   "jp": "なかなか　おもしろいですね",
-  "en": "",
-  "status": "todo"
+  "en": "How very interesting.",
+  "status": "done"
  },
  {
   "id": "s522.00",
   "flag": 0,
   "speaker": -1,
   "jp": "なんだか　おもしろそうだな",
-  "en": "",
-  "status": "todo"
+  "en": "Sounds kinda fun!",
+  "status": "done"
  },
  {
   "id": "s523.00",
   "flag": 0,
   "speaker": -1,
   "jp": "なかなか　きょうみぶかい",
-  "en": "",
-  "status": "todo"
+  "en": "Most intriguing.",
+  "status": "done"
  },
  {
   "id": "s524.00",
   "flag": 0,
   "speaker": -1,
   "jp": "なんだか　おもしろそう",
-  "en": "",
-  "status": "todo"
+  "en": "Sounds kind of fun!",
+  "status": "done"
  },
  {
   "id": "s525.00",
   "flag": 0,
   "speaker": -1,
   "jp": "・・・あまり　おもしろくは\nなさそうですね",
-  "en": "",
-  "status": "todo"
+  "en": "...It does not sound very interesting.",
+  "status": "done"
  },
  {
   "id": "s526.00",
   "flag": 0,
   "speaker": -1,
   "jp": "・・・どこが　おもしれぇんだ　あれ",
-  "en": "",
-  "status": "todo"
+  "en": "...What's so fun about that?",
+  "status": "done"
  },
  {
   "id": "s527.00",
   "flag": 0,
   "speaker": -1,
   "jp": "・・・つまらん",
-  "en": "",
-  "status": "todo"
+  "en": "...Dull.",
+  "status": "done"
  },
  {
   "id": "s528.00",
   "flag": 0,
   "speaker": -1,
   "jp": "・・・なにが　おもしろいのかな",
-  "en": "",
-  "status": "todo"
+  "en": "...What's the fun in that?",
+  "status": "done"
  },
  {
   "id": "s529.00",
   "flag": 0,
   "speaker": -1,
   "jp": "あのひとには　さからわないほうが\nいいと　おもいますよ",
-  "en": "",
-  "status": "todo"
+  "en": "I think it is best not to cross that one.",
+  "status": "done"
  },
  {
   "id": "s530.00",
   "flag": 0,
   "speaker": -1,
   "jp": "あいつには　さからわないほうが　いいぜ",
-  "en": "",
-  "status": "todo"
+  "en": "Better not mess with that one.",
+  "status": "done"
  },
  {
   "id": "s531.00",
   "flag": 0,
   "speaker": -1,
   "jp": "あいつには　さからわんことだ",
-  "en": "",
-  "status": "todo"
+  "en": "Do not cross that one.",
+  "status": "done"
  },
  {
   "id": "s532.00",
   "flag": 0,
   "speaker": -1,
   "jp": "あのひとには　さからわないほうが\nいいと　おもうよ",
-  "en": "",
-  "status": "todo"
+  "en": "I think you'd better not cross that one.",
+  "status": "done"
  },
  {
   "id": "s533.00",
   "flag": 0,
   "speaker": -1,
   "jp": "まぁ　そういうのは\nわたしにも　わかります",
-  "en": "",
-  "status": "todo"
+  "en": "Well, I can understand that sort of\nthing.",
+  "status": "done"
  },
  {
   "id": "s534.00",
   "flag": 0,
   "speaker": -1,
   "jp": "ま　そういうのは\nオレにも　わかるぜ",
-  "en": "",
-  "status": "todo"
+  "en": "Eh, I get that kinda thing.",
+  "status": "done"
  },
  {
   "id": "s535.00",
   "flag": 0,
   "speaker": -1,
   "jp": "まぁ　そういうのも\nわからんでもないな",
-  "en": "",
-  "status": "todo"
+  "en": "Well, I can see why, I suppose.",
+  "status": "done"
  },
  {
   "id": "s536.00",
   "flag": 0,
   "speaker": -1,
   "jp": "わたしにも　わかるよ\nそういうの",
-  "en": "",
-  "status": "todo"
+  "en": "I get it too, that kind of thing.",
+  "status": "done"
  },
  {
   "id": "s537.00",
   "flag": 0,
   "speaker": -1,
   "jp": "ちょっと　わたしには\nりかいできませんね・・・",
-  "en": "",
-  "status": "todo"
+  "en": "I am afraid I cannot quite understand\nit...",
+  "status": "done"
  },
  {
   "id": "s538.00",
   "flag": 0,
   "speaker": -1,
   "jp": "ちょっと　オレには\nりかいできねぇなぁ・・・",
-  "en": "",
-  "status": "todo"
+  "en": "Nope, I just don't get it...",
+  "status": "done"
  },
  {
   "id": "s539.00",
   "flag": 0,
   "speaker": -1,
   "jp": "りかいできんな・・・",
-  "en": "",
-  "status": "todo"
+  "en": "I do not understand...",
+  "status": "done"
  },
  {
   "id": "s540.00",
   "flag": 0,
   "speaker": -1,
   "jp": "なに　かんがえてるんだろ？\nぜんぜん　わかんないなー",
-  "en": "",
-  "status": "todo"
+  "en": "What are they thinking?\nI don't get it at all.",
+  "status": "done"
  },
  {
   "id": "s541.00",
   "flag": 0,
   "speaker": -1,
   "jp": "ひとは　みかけに　よらないものですね",
-  "en": "",
-  "status": "todo"
+  "en": "You really cannot judge by appearances.",
+  "status": "done"
  },
  {
   "id": "s542.00",
   "flag": 0,
   "speaker": -1,
   "jp": "ひとは　みかけに　よらねぇなぁ",
-  "en": "",
-  "status": "todo"
+  "en": "Can't judge a book by its cover, huh?",
+  "status": "done"
  },
  {
   "id": "s543.00",
   "flag": 0,
   "speaker": -1,
   "jp": "ひとは　みかけに　よらんな",
-  "en": "",
-  "status": "todo"
+  "en": "One cannot judge by appearances.",
+  "status": "done"
  },
  {
   "id": "s544.00",
   "flag": 0,
   "speaker": -1,
   "jp": "ひとは　みかけに　よらないね",
-  "en": "",
-  "status": "todo"
+  "en": "You can't judge by looks, huh?",
+  "status": "done"
  },
  {
   "id": "s545.00",
   "flag": 0,
   "speaker": -1,
   "jp": "こんげつは　１月\nいよいよ　{%04dR4}年が　はじまりましたね{KP}\nことしも　どうか　この　シティを\nよろしくおねがいしますね",
-  "en": "",
-  "status": "todo"
+  "en": "This month is January.{KP}\nThe year {%04dR4} has begun at last!{KP}\nI hope you will take good care of this city\nagain this year.",
+  "status": "done"
  },
  {
   "id": "s546.00",
   "flag": 0,
   "speaker": -1,
   "jp": "こんげつは　１月\nいよいよ　{%04dR4}年が　はじまったな！{KP}\nことしも　この　シティを\nよろしくたのむぜ！",
-  "en": "",
-  "status": "todo"
+  "en": "This month's January!{KP}\nThe year {%04dR4} is finally here!{KP}\nTake good care of this city again this\nyear!",
+  "status": "done"
  },
  {
   "id": "s547.00",
   "flag": 0,
   "speaker": -1,
   "jp": "こんげつは　１月\nいよいよ　{%04dR4}年か・・・{KP}\nことしも　ひきつづき　この　シティを\nたのむぞ",
-  "en": "",
-  "status": "todo"
+  "en": "This month is January.{KP}\nSo it is {%04dR4} at last...{KP}\nContinue to look after this city this\nyear.",
+  "status": "done"
  },
  {
   "id": "s548.00",
   "flag": 0,
   "speaker": -1,
   "jp": "こんげつは　１月\nいよいよ　{%04dR4}年だね{KP}\nことしも　この　シティを　よろしくね",
-  "en": "",
-  "status": "todo"
+  "en": "This month's January.{KP}\nIt's finally {%04dR4}!{KP}\nTake good care of this city this year too,\nokay?",
+  "status": "done"
  },
  {
   "id": "s549.00",
   "flag": 0,
   "speaker": -1,
   "jp": "こんげつは　２月\nふゆ　ほんばんといったかんじですね{KP}\nそういえば　{%sR4}に\nきいたのですが",
-  "en": "",
-  "status": "todo"
+  "en": "This month is February.{KP}\nWinter is in full swing.{KP}\nBy the way, I heard from\n{%sR4}...",
+  "status": "done"
  },
  {
   "id": "s549.01",
   "flag": 0,
   "speaker": -1,
   "jp": "この　ふゆは　ゆきの　ふる　なかを{KP}\n{%sR5}するのが　はやっていると\nいうのは　ほんとうなのでしょうか？",
-  "en": "",
-  "status": "todo"
+  "en": "that doing {%sR5} in the falling\nsnow{KP}\nis all the rage this winter. Is that true?",
+  "status": "done"
  }
 ]

@@ -4,88 +4,88 @@
   "flag": 0,
   "speaker": -1,
   "jp": "こんげつは　２月\nまさに　ふゆ　ほんばんといったかんじだな{KP}\nそういえば　{%sR4}が\nいってたが",
-  "en": "",
-  "status": "todo"
+  "en": "This month's February.{KP}\nWinter's in full swing now!{KP}\nHey, {%sR4} was sayin'...",
+  "status": "done"
  },
  {
   "id": "s550.01",
   "flag": 0,
   "speaker": -1,
   "jp": "この　ふゆは　ゆきの　ふる　なかを{KP}\n{%sR5}するのが\nはやってるってぇのは　ほんとうか？",
-  "en": "",
-  "status": "todo"
+  "en": "that doin' {%sR5} in the fallin'\nsnow{KP}\nis all the rage this winter. That true?",
+  "status": "done"
  },
  {
   "id": "s551.00",
   "flag": 0,
   "speaker": -1,
   "jp": "こんげつは　２月\nふゆ　ほんばんといったところか・・・{KP}\nそういえば　{%sR4}に\nきいたのだが",
-  "en": "",
-  "status": "todo"
+  "en": "This month is February.{KP}\nWinter is in full swing, I suppose...{KP}\nIncidentally, I heard from\n{%sR4}...",
+  "status": "done"
  },
  {
   "id": "s551.01",
   "flag": 0,
   "speaker": -1,
   "jp": "この　ふゆは　ゆきの　ふる　なかを{KP}\n{%sR5}するのが　はやっていると\nいうのは　ほんとうなのか？",
-  "en": "",
-  "status": "todo"
+  "en": "that doing {%sR5} in the falling\nsnow{KP}\nis in fashion this winter. Is that so?",
+  "status": "done"
  },
  {
   "id": "s552.00",
   "flag": 0,
   "speaker": -1,
   "jp": "こんげつは　２月\nふゆ　ほんばんと　いったところね{KP}\nそういえば　{%sR4}に\nきいたんだけど",
-  "en": "",
-  "status": "todo"
+  "en": "This month's February.{KP}\nWinter's in full swing, huh?{KP}\nBy the way, I heard from\n{%sR4}...",
+  "status": "done"
  },
  {
   "id": "s552.01",
   "flag": 0,
   "speaker": -1,
   "jp": "この　ふゆは　ゆきの　ふる　なかを{KP}\n{%sR5}するのが　はやっていると\nいうのは　ほんとうなの？",
-  "en": "",
-  "status": "todo"
+  "en": "that doing {%sR5} in the falling\nsnow{KP}\nis all the rage this winter. Is that true?",
+  "status": "done"
  },
  {
   "id": "s553.00",
   "flag": 0,
   "speaker": -1,
   "jp": "こんげつは　３月\nだんだんと　あたたかくなってきましたね{KP}\n３月といえば　そつぎょうの　きせつ\nそういえば　{%sR4}は",
-  "en": "",
-  "status": "todo"
+  "en": "This month is March.{KP}\nIt is slowly getting warmer.{KP}\nMarch is the season of graduations.\nSpeaking of which, {%sR4}",
+  "status": "done"
  },
  {
   "id": "s553.01",
   "flag": 0,
   "speaker": -1,
   "jp": "もう　{%sR5}は\nそつぎょうする　と　いっていました{KP}\nそうやって　ひとは\nおとなに　なっていくのですね・・・",
-  "en": "",
-  "status": "todo"
+  "en": "said they are graduating from\n{%sR5} now.{KP}\nThat is how people grow up, I suppose...",
+  "status": "done"
  },
  {
   "id": "s554.00",
   "flag": 0,
   "speaker": -1,
   "jp": "こんげつは　３月\nだんだん　あったかくなってきたぜ{KP}\n３月といえば　そつぎょうの　きせつ\nそういえば　{%sR4}は",
-  "en": "",
-  "status": "todo"
+  "en": "This month's March.{KP}\nIt's gettin' warmer bit by bit!{KP}\nMarch means graduation season. Speakin' of\nwhich, {%sR4}",
+  "status": "done"
  },
  {
   "id": "s554.01",
   "flag": 0,
   "speaker": -1,
   "jp": "もう　{%sR5}は\nそつぎょうする　と　いってたぜ{KP}\nそうやって　ひとは\nおとなに　なっていくんだな・・・",
-  "en": "",
-  "status": "todo"
+  "en": "said they're graduatin' from {%sR5}\nnow.{KP}\nThat's how people grow up, huh...",
+  "status": "done"
  },
  {
   "id": "s555.00",
   "flag": 0,
   "speaker": -1,
   "jp": "こんげつは　３月\nだんだんと　あたたかくなってきたな{KP}\n３月といえば　そつぎょうの　きせつ\nそういえば　{%sR4}は",
-  "en": "",
-  "status": "todo"
+  "en": "This month is March.{KP}\nIt is gradually growing warmer.{KP}\nMarch is the season of graduations.\nSpeaking of which, {%sR4}",
+  "status": "done"
  },
  {
   "id": "s555.01",
