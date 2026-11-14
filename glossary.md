@@ -108,3 +108,12 @@ Binding for every translator and reviewer. Agents propose additions in reports; 
   ネットけいさつ -> net police, ちかてつのえき -> subway station; b009-b010: ぬいぐるみ -> stuffed toy, げきレア ->
   ultra-rare, レアアイテム -> rare item, Terry calls the player ボウズ -> "kid", Yurie calls Navyu おねえさん -> "Miss",
   the lady duelist of s122 is Jorna in disguise (prim "Fufu" until s123.04); そうび -> Equip, パーティー -> Party, ダブルアタック -> Double Attack, けんちくキット -> building kit. Choice lines: `<@5>Yes<@11>No` for はい/いいえ at JP cols 5/11.
+- b011-b017: Jorna drawls with stretched vowels ("pleeease", "riiight"), calls Yurie "that girl" (あのコ) and
+  "Yurie-san", Terry "Lord Terry"; Sigma laughs "Fuhihihi"; Navyu says "{name}-san". 〒NN-NN addresses ->
+  "{%02dR4}-{%02dR5}" ("the Factory at 12-34"). アトラクション しゅうりょう/かいし -> "Attraction closed." /
+  "Attraction open."; ワンサイドアタック -> One-Sided Attack; えんごこうげき -> Support Attack; ジョーカー -> Joker;
+  とくしゅ (command) -> Special; nP -> "P{%dR4}"; status: poisoned, asleep, paralyzed/numb, confused, burned,
+  frozen, shocked (かんでん), sand in its eyes, knocked out; ぼうぎょりょく/こうげきりょく/すばやさ -> Defense/Attack/Speed;
+  プラスポイント -> Plus Points; sectors House, Hole, Water, Mega House; エクストラ -> Extra (Heat/Ice/Bolt/Sand);
+  むぞくせい -> element "none"; resident Dyna talk in 4 voices (polite / rough / stern / girlish), each line set
+  in id order.
