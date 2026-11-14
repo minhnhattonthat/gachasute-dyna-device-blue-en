@@ -2,8 +2,20 @@
 
 Updated at the end of every session. Keep it to what the next session needs; history is in git.
 
-- **Phase:** 5. Engine spike done (VWF in game), marker build boots; width gate and full marker tour in progress.
-  Last build: `tools/build.py --marker --out build/marker.gba` 2026-11-15, sha1 8462835c..., smoke ok.
+- **Phase:** 5. Full marker tour done, string budgets written (docs/re/budgets.tsv); left: torture line, register
+  widths (player name length), a few guessed windows.
+  Last build: `tools/build.py --marker --out build/marker_n.gba` 2026-11-15, sha1 8462835c..., all 147 scenes reach.
+- **Done this session (width gate):**
+  - Full marker tour on `build.py --marker`: 147/147 scenes reached (`work/qa/p5_mk`, probe markerlog.lua); 153
+    strings and 252 messages drawn; every message in the standard box. Placements committed as
+    `docs/re/marks_p5.tsv` (`tools/marks.py LOGDIR --tsv OUT [--group]`).
+  - `--marker-px 240` hangs the profile form (size-1 date field overrun), so every warp failed; `build.py
+    --marker-ids TSV` now widens only size-3 ids from a tour, `--qa tOOOOOO=TEXT` overrides one string. Wide
+    markers still garble dense screens and break the dmode/menu tutorial replay: measure from JP-width shots.
+  - `tools/edge.py SHOT COL ROW0 ROW1` finds a window's frame x; `tools/budgets.py` writes `docs/re/budgets.tsv`
+    (per-id rows for toured strings = smallest window, then class ranges; status measured/guess); tests check it
+    is current and every todo string has a budget. Table and findings: docs/re/windows.md §String windows.
+    Description box 88 px (4 lines), name lists 64 px.
 - **Done (phase 5 so far, `docs/re/font.md`, `docs/re/windows.md`, decision D9):**
   - Renderer found: all text goes through text objects and 0x080049AC, one SJIS glyph per u16 unit (size 1 =
     16x16 cells / 12x12 font 0x080F0A54, size 3 = 8x8 font 0x0811F304). ASCII had no glyphs.
@@ -61,23 +73,25 @@ Updated at the end of every session. Keep it to what the next session needs; his
     (other projects' emulators were using ~7 GB) after `battle_place` passed; the new code is guarded by kind, and the
     resume/dmode runs go through the shared boot, form, title and tutorial paths. First thing next session: run
     `tools/debug/regen.py --jobs 2` over all rows when memory allows.
-- **Next (phase 5, `references/pipeline.md` §Marker/§Width gate):**
-  - Full marker tour, when memory allows (this session's run was stopped by the host at 2.2 GB free, after 14
-    scenes): `python -X utf8 tools/build.py --marker --marker-px 240 --out build/marker.gba`, then
-    `python -X utf8 tools/debug/regen.py --rom build/marker.gba --out work/qa/p5_mk --states work/qa/p5_states
-    --jobs 2 --probe tools/lua/markerlog.lua`. Collect `MARK` lines from `work/qa/p5_mk/*/log.txt`: they give
-    each string's window (size, map col/row). Look at every hold shot for Japanese left (graphics or unextracted
-    text) and broken screens (non-text strings: set their status to "keep" with a note).
-  - Width gate for strings: group the MARK placements into windows (item list, help box, status, shop, DB,
-    keyword, date...), measure each window's budget from the wide-marker shots (pixels to the next element or
-    the frame), write `docs/re/budgets.tsv` (start, end, px, lines, variant per id range) and the table in
-    docs/re/windows.md. Then the glyph torture line in one size-1 field (size 1 draws English 2 rows down in the
-    16x16 cell: check it looks right next to JP glyphs; a taller font is optional).
-  - Register widths: find what %sR4/%sR5/%sR0 hold (player name, Dyna name...) and set `lint.REG_PX` from the
-    longest English value (now a 64 px guess).
+- **Next (phase 5, `references/pipeline.md` §Width gate):**
+  - Glyph torture line: `build.py --marker --qa "s001.00=<all printable ASCII + double spaces>"` (warp `intro`)
+    and one size-1 field via `--qa t0B8F38=...` (warp `form`: size 1 draws English 2 rows down in the 16x16 cell).
+  - Register widths: %sR4 = player nickname (469 uses), %sR5 = Dyna name (131), %sR3 = a name (24), %sR0-R2 =
+    type/style/attribute or item names (`{%sR0}タイプ　{%sR1}スタイル`). Find the name-entry maximum (type A x20
+    on the keyboard from `work/qa/p5_states/keyboard.mss`, emu.py `--state-in`) and set `lint.REG_PX` per
+    register (now one 64 px guess); R0-R2 = longest English type/style/attribute name.
+  - Guessed windows in `tools/budgets.py` WINDOW (cols 2, 3, 7-9, 13, 15, 19, 20, 22) and the class ranges for
+    unreached strings (DB/help lines 0x0B562C-0x0B802C have 12-13-char JP lines: a wider box than 88 somewhere;
+    UI strings 0x0B8044+): measure from `work/qa/p5_mk` shots (`tools/edge.py`, sheet.py --crop --zoom).
+  - Hold shots of the tour for Japanese left / broken screens were only sampled (menus, shops, lists); a pass
+    over `work/qa/p5_mk/sheet*.png` (regen per batch overwrote sheet.png: rebuild with sheet.py over the dirs).
+  - Memory: the host's AWPerformance.SCSubAgent (Dell service) held 3-7 GB; Claude Code reaps idle background
+    tours at low memory. Run tours one emulator at a time in foreground batches (`work/qa/wrun.sh`-style loop
+    that skips scenes whose log has `HOLD done`).
   - Name entry (can wait for phase 7): keyboard rows (`data` entries, table 0x0D21F0) and the address DB reader
     (record sizes fixed at 16/10/20 bytes) need English layouts.
-  - The phase-2 full regen (`regen.py --jobs 2` on the original) is still owed when memory allows.
+  - The phase-2 full regen on the original ROM is still owed, but all 147 warps reached from cold boots on the
+    marker build this session (same warp.lua), so the warp code is proven.
 - **Later phases need:** graphics text: ポーズ, the opening movie's
   green spec panels, debug menu (romaji, debug build only: leave), and the **staff roll** (mode 22): its kana are
   not SJIS in the ROM, find their encoding or tiles (add to the graphics-text survey).

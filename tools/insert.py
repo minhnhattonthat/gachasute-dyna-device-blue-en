@@ -97,11 +97,16 @@ def string_marker(entry, wide=None):
 
 def string_bytes(entry, marker_mode):
     """-> encoded bytes (NUL NUL terminated) for a string entry, or None to keep the original. marker_mode:
-    False, True (markers at the JP width) or a pixel width for every marker line."""
+    False, True (markers at the JP width), a pixel width for every marker line, or a dict {id: px} (those ids
+    wide, the rest at the JP width: a size-1 field given 240 px overruns its object and hangs the form)."""
     if entry.get("en"):
         txt = entry["en"]
     elif marker_mode and entry.get("status") == "todo":
-        txt = string_marker(entry, None if marker_mode is True else marker_mode)
+        if isinstance(marker_mode, dict):
+            wide = marker_mode.get(entry["id"])
+        else:
+            wide = None if marker_mode is True else marker_mode
+        txt = string_marker(entry, wide)
     else:
         return None
     return vwf.encode_en(txt) + b"\0\0"

@@ -6,7 +6,21 @@ from pathlib import Path
 
 ROOT = Path(__file__).resolve().parents[1]
 sys.path.insert(0, str(ROOT / "tools"))
+import budgets  # noqa: E402
 import lint  # noqa: E402
+
+
+class TestBudgets(unittest.TestCase):
+    def test_budgets_file_current(self):
+        """docs/re/budgets.tsv = tools/budgets.py output (edit the window table there, then regenerate)."""
+        self.assertEqual(budgets.OUT.read_text(encoding="utf-8"), budgets.render())
+
+    def test_every_todo_string_has_a_budget(self):
+        rows = lint.load_budgets()
+        for f in (ROOT / "script").glob("strings_*.json"):
+            for e in json.loads(f.read_text(encoding="utf-8")):
+                if e["status"] == "todo":
+                    self.assertIsNotNone(lint.budget_for(e["id"], rows), e["id"])
 
 
 def msg(jp, en):

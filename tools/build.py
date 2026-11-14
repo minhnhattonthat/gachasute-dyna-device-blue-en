@@ -82,19 +82,39 @@ def qa_override(scripts, spec):
         op.speaker = int(speaker)
 
 
+def wide_ids(tsv, px):
+    """-> {id: px} for every size-3 row of a marks TSV (an id seen at size 1 anywhere stays at the JP width)."""
+    rows = [ln.split("\t") for ln in Path(tsv).read_text(encoding="utf-8").splitlines()[1:] if ln.strip()]
+    small = {r[0] for r in rows if len(r) > 1 and r[1] == "1"}
+    return {r[0]: px for r in rows if r[0].startswith("t") and r[0] not in small}
+
+
+def qa_string(entries, spec):
+    """--qa tOOOOOO=TEXT: give one string-region entry this English (text.py form) for the build."""
+    sid, _, txt = spec.partition("=")
+    if sid not in entries:
+        raise SystemExit(f"--qa: no string {sid}")
+    entries[sid] = dict(entries[sid], en=txt.replace("\\n", "\n"))
+
+
 def main():
     ap = argparse.ArgumentParser()
     ap.add_argument("--out", default=str(OUT))
     ap.add_argument("--stress", action="store_true", help="append ＊ to every message (relocation test build)")
     ap.add_argument("--qa", action="append", default=[], metavar="sSSS.KK=TEXT",
-                    help="engine test: replace one message's text (repeatable)")
+                    help="engine test: replace one message's text, or a string's (tOOOOOO=TEXT) (repeatable)")
     ap.add_argument("--identity", action="store_true", help="no VWF, no text changes: must equal the original")
     ap.add_argument("--marker", action="store_true", help="every todo line -> [id] + filler (phase 5 marker build)")
     ap.add_argument("--marker-px", type=int, default=0,
                     help="with --marker: fill every string marker line to N px (width gate) instead of the JP width")
+    ap.add_argument("--marker-ids", metavar="TSV",
+                    help="with --marker-px: widen only the ids in this file's first column (tools/marks.py --tsv; "
+                         "an optional 'size' column keeps size-1 rows at the JP width)")
     a = ap.parse_args()
     if a.marker and a.marker_px:
         a.marker = a.marker_px
+        if a.marker_ids:
+            a.marker = wide_ids(a.marker_ids, a.marker_px)
     check_rom.check()
     rom = ROM.read_bytes()
     entries = None
@@ -106,7 +126,12 @@ def main():
         entries = insert.load_entries()
         scripts = insert.message_scripts(rom, entries, marker=a.marker)
     for spec in a.qa:
-        qa_override(scripts, spec)
+        if spec.startswith("t"):
+            if entries is None:
+                raise SystemExit("--qa tOOOOOO needs an English or marker build")
+            qa_string(entries, spec)
+        else:
+            qa_override(scripts, spec)
     report = {}
     out = build(rom, scripts, english=not a.identity, entries=entries, marker=a.marker, report=report)
     if report:
