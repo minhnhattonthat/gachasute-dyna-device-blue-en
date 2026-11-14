@@ -2,7 +2,7 @@
 
 Updated at the end of every session. Keep it to what the next session needs; history is in git.
 
-- **Phase:** 6. Translate in progress: b001-b017 of 45 merged (scripts 0-422).
+- **Phase:** 6. Translate in progress: b001-b023 of 45 merged (scripts 0-672).
   Last build: `build/dynadevice_blue_en.gba` 2026-11-15 (b001 only), sha1 8b8b8bd1...; pilot seen in game
   (`work/qa/p6_pilot2`, warp `intro` + `MASHA=1`, 6000 frames): English wraps cleanly, ▼ clears the last line.
 - **How phase 6 runs (D11):** one agent translates batches in order, itself (Orca: no helpers).
@@ -24,11 +24,14 @@ Updated at the end of every session. Keep it to what the next session needs; his
   `work/qa/p6_choice6`). Fix idea: replace timed waits with event-driven segments (wait for SCRIPT n / room), or
   finish the tutorial on the original ROM, save in game, and start these scenes from that .sav (text-independent).
 - **Next:**
-  1. Continue at b018 (s422.04-, Dyna residents' Extra tips in the rough voice), in order to b027, then strings b028-b045 (Dyna species = constellation
-     names per D10, armor/weapon parts, menus: menu verbs must match glossary "Decisions from earlier batches").
+  1. Continue at b024 (s673-, Navyu's Dyna Center lines), in order to b027, then strings b028-b045 (Dyna species =
+     constellation names per D10, armor/weapon parts, menus: menu verbs must match glossary "Decisions from earlier
+     batches"; the gossip word lists t0B4948-t0B4BE0 per the translator brief's b018-b023 note).
   3. After all batches: review pass (fresh read-only, per file group, `assets/reviewer-brief.md`), Minors to
      `docs/polish.md`; `tools/lint.py` 0 errors; `batches.py check` 0 problems. Then phase 7.
-- **Done (phase 6, latest session):** b011-b017 (story end, post-game Navyu, battle/system messages, item use,
+- **Done (phase 6, latest session):** b018-b023 (resident tips and gossip in 4 voices, monthly talk, item
+  requests/trades, Dyna Center menus, auction). `tools/batches.py` now rejects a/an right before a register.
+- **Done (phase 6, session before):** b011-b017 (story end, post-game Navyu, battle/system messages, item use,
   resident Dyna tips). The original's stray `{%}` in s341.00 (a typo that eats 3 bytes) is dropped in English;
   `tools/lint.py` and `tools/batches.py` no longer require it.
 - **Done (phase 6, earlier session):** `tools/batches.py` (skill asset adapted: lint widths, \n escaping, wrap,

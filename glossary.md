@@ -117,3 +117,8 @@ Binding for every translator and reviewer. Agents propose additions in reports; 
   プラスポイント -> Plus Points; sectors House, Hole, Water, Mega House; エクストラ -> Extra (Heat/Ice/Bolt/Sand);
   むぞくせい -> element "none"; resident Dyna talk in 4 voices (polite / rough / stern / girlish), each line set
   in id order.
+- b018-b023: Extra names (Device name parts): Heat, Ice, Bolt, Sand, Flare, Aqua, Mist, Bomb, Gran, Elec, Earth;
+  コンボ -> combo; ５月びょう -> the May blues; たなばた -> the Star Festival (wish on a paper strip); おつきみ ->
+  moon viewing; Dyna Center menu `<@2>Withdraw<@13>Treat\n<@2>Auction<@13>Quit`, withdraw `<@3>Dyna<@9>Kits<@15>Quit`;
+  やめる (menu) -> Quit; item prompts "Give/Take/Buy/Sell {%sR0}?", "Trade for {%sR2}?"; auction: opening bid,
+  "goes to {%sR4}-san"; うまれた from address data -> "a Dyna of the {%sR1} style was born".
