@@ -1,0 +1,195 @@
+-- Debug warp for Gachasute! Dyna Device Blue. Boots cold, fills the profile form, starts a new game and lands on
+-- the scene named by SCENE (tools/debug/scenes.tsv). RE notes: docs/re/debug.md.
+--   emu.py ROM --out DIR --script tools/debug/warp.lua --var "SCENE='intro'" --frames 900 --sheet
+-- Globals (all optional except SCENE):
+--   SCENES  path of the scene list (default: ../debug/scenes.tsv, relative to tools/mesen, Mesen's working folder)
+--   HOLD    frames to keep running after the scene is reached (default: the scene's hold column, else 300)
+--   MASHA   1 = press A every 40 frames after arrival (click through dialogue)
+--   GOD     reserved (battles): not wired yet
+-- Log lines: "WARP <stage>" at each stage, "ARRIVED <scene> f<frame>" when the scene is up, "SCRIPT <n>" whenever
+-- the game starts an event script (with the caller's PC).
+
+local SCRIPT_START = 0x0801A9D4  -- start_script(r0 = file 2, r1 = script index); docs/re/debug.md
+local FORM_INPUT   = 0x0803C6B4  -- profile form: key read, runs only while the form is idle (no popup)
+local SCR          = 0x02001C60  -- running script: +0 pc, +4 start, +0x10 current opcode (0 = none)
+local TEXT_DRAW    = 0x08013488  -- message text drawer, r0 = SJIS string (called by script op 2)
+
+local EVENT_PICK   = 0x0801E868  -- picks the story event at each room load from the flags (returns -1 = none)
+local FLAGS        = 0x0200A300  -- story flags: 2 bits each, flag n in byte n>>2 at bit (n&3)*2; event e uses flag e
+local DAYS         = 0x0200A7A4  -- days elapsed (u8); events need a minimum day count
+local ROOM         = 0x02001C54  -- current room (i16): 0 = Dyna City sector map, 15 = reception
+local EVENT_SCRIPTS = 0x080CED94 -- i16 per event: the script the room load starts for it
+local DATE_PROMPT  = 0x08040C28  -- boot date prompt: loads its string きょうの ひづけを...
+
+local MEM = emu.memType.gbaMemory
+local function r16(a) return emu.read16(a, MEM) end
+local function set_flag(n, v)
+  local a = FLAGS + (n >> 2)
+  local sh = (n & 3) * 2
+  local b = emu.read(a, MEM)
+  emu.write(a, (b & ~(3 << sh) & 0xFF) | ((v & 3) << sh), MEM)
+end
+local function get_flag(n) return (emu.read(FLAGS + (n >> 2), MEM) >> ((n & 3) * 2)) & 3 end
+
+-- scene list: name, kind, arg, hold, note (tab separated, '#' comments)
+local scenes = {}
+do
+  local path = SCENES or "../debug/scenes.tsv"
+  for line in io.lines(path) do
+    if not line:match("^%s*#") and line:match("%S") then
+      local f = {}
+      for col in (line .. "\t"):gmatch("([^\t]*)\t") do f[#f + 1] = col end
+      if f[1] ~= "name" then
+        scenes[f[1]] = { name = f[1], kind = f[2], arg = f[3], hold = tonumber(f[4]), note = f[5] }
+      end
+    end
+  end
+end
+local scene = scenes[SCENE or ""]
+if not scene then L.fail("unknown SCENE " .. tostring(SCENE)) return end
+local hold = tonumber(HOLD) or scene.hold or 300
+
+local stage, stageFrame = "boot", 0
+local arrived = nil
+local function set_stage(s)
+  stage, stageFrame = s, L.frame
+  L.log(string.format("WARP %s f%d", s, L.frame))
+end
+local function arrive()
+  if arrived then return end
+  arrived = L.frame
+  L.log(string.format("ARRIVED %s f%d", scene.name, L.frame))
+  L.shot("arrived.png")
+end
+
+-- seq: list of {spec, frames}
+local function play(seq)
+  for _, s in ipairs(seq) do L.press(s[1], s[2]) end
+end
+local function parse_route(str)
+  local seq = {}
+  for step in str:gmatch("[^;]+") do
+    local n, spec = step:match("^%s*(%d+)%s+(%S+)%s*$")
+    seq[#seq + 1] = { spec, tonumber(n) }
+  end
+  return seq
+end
+
+-- Profile form: name あああ, nickname あああ, gender as is, skip the postal-code keyboard, down to おわる, A.
+local FORM = parse_route("10 -;6 a;80 -;6 a;40 -;6 a;40 -;6 a;40 -;6 start;80 -;6 a;80 -;6 a;40 -;6 a;40 -;" ..
+  "6 a;40 -;6 start;100 -;6 a;100 -;6 b;60 -;6 down;40 -;6 down;40 -;6 down;40 -;6 down;40 -;6 down;40 -;" ..
+  "6 down;40 -;6 a;60 -")
+
+local formSeen, scriptCount, formLast = false, 0, -1
+L.on_exec(FORM_INPUT, FORM_INPUT, function()
+  formLast = L.frame
+  if not formSeen then
+    formSeen = true
+    if scene.kind == "boot" and scene.arg == "form" then set_stage("done"); arrive(); return end
+    if scene.kind == "boot" and scene.arg == "keyboard" then
+      set_stage("done"); play(parse_route("10 -;6 a;80 -")); arrive(); return
+    end
+    set_stage("form")
+    play(FORM)
+  end
+end)
+
+-- kinds "event" and "field": before the game's first event pick, set flag 1 = 3 (intro done), every other story
+-- flag to 0, flag E = 3 (event E pending; "event" only), extra "flag=value" pokes from the arg, and a high day
+-- count. The new game then skips the tutorial, and the pick starts event E's script as soon as the player is in
+-- the room it needs (reception 15 at once; city 0 after walking out of the south door).
+-- arg: "event" = "E[ flag=value ...]"; "field" = an input route played once the player stands in the city.
+local flagsSet = false
+L.on_exec(EVENT_PICK, EVENT_PICK, function()
+  if (scene.kind == "event" or scene.kind == "field") and not flagsSet then
+    flagsSet = true
+    for n = 2, 95 do set_flag(n, 0) end
+    set_flag(1, 3)
+    if scene.kind == "event" then
+      set_flag(tonumber(scene.arg:match("^%s*(%d+)")), 3)
+      for k, v in scene.arg:gmatch("(%d+)=(%d+)") do set_flag(tonumber(k), tonumber(v)) end
+    end
+    if scene.kind == "event" then emu.write(DAYS, 99, MEM) end
+    set_stage("walk")
+  end
+end)
+
+local dateSeen = false
+L.on_exec(DATE_PROMPT, DATE_PROMPT, function()
+  if not dateSeen and scene.kind == "boot" and scene.arg == "date" then
+    dateSeen = true
+    set_stage("done")
+    arrive()
+  end
+end)
+
+L.on_exec(SCRIPT_START, SCRIPT_START, function()
+  local s = emu.getState()
+  local idx = s["cpu.r1"]
+  scriptCount = scriptCount + 1
+  if scene.kind == "field" and stage == "walk" and idx >= 780 and idx <= 795 then
+    -- a visiting challenger (scripts 780-795, yes/no battle offer) would block the field: run the empty script 331
+    emu.setState({ ["cpu.r1"] = 331 })
+    L.log(string.format("SCRIPT %d -> 331 (visitor suppressed) f%d", idx, L.frame))
+    return
+  end
+  if scene.kind == "script" and scriptCount == 1 then
+    local want = tonumber(scene.arg)
+    emu.setState({ ["cpu.r1"] = want })
+    L.log(string.format("SCRIPT %d -> %d (hijacked) lr=%08X f%d", idx, want, s["cpu.r14"] or 0, L.frame))
+    idx = want
+  else
+    L.log(string.format("SCRIPT %d lr=%08X room=%d f%d", idx, s["cpu.r14"] or 0, r16(ROOM), L.frame))
+  end
+  local eventScript = scene.kind == "event" and emu.read16(EVENT_SCRIPTS + 2 * tonumber(scene.arg), MEM) or -1
+  if stage ~= "done" and (scene.kind == "script" or scene.kind == "newgame" or (stage == "walk" and idx == eventScript)) then
+    set_stage("done")
+    arrive()
+  end
+end)
+
+-- Every string handed to the message-box text drawer (r0 = SJIS pointer), for text coverage.
+L.on_exec(TEXT_DRAW, TEXT_DRAW, function()
+  local p = emu.getState()["cpu.r0"]
+  L.log(string.format("TEXT %08X f%d", p, L.frame))
+end)
+
+local cityFrame, arriveAfterRoute = nil, false
+L.on_frame(function(n)
+  if stage == "boot" then
+    -- logos and the date prompt: A every 60 frames until the profile form handler runs
+    if n % 60 == 0 and n > 300 then L.press("a", 6) end
+  elseif stage == "form" and L.route_done() then
+    set_stage("title")
+  elseif stage == "title" then
+    if scene.kind == "boot" and scene.arg == "title" and n - stageFrame > 500 then set_stage("done"); arrive() end
+    -- still on the form (the cursor missed おわる): down to the last item, then A
+    if formLast >= n - 2 and L.route_done() then
+      play(parse_route("6 down;30 -;6 down;30 -;6 down;30 -;6 down;30 -;6 a;60 -"))
+    -- intro animation and title: Start every 120 frames until the first script starts
+    elseif formLast < n - 120 and (n - stageFrame) % 120 == 0 then L.press("start", 6) end
+  elseif stage == "walk" then
+    -- out of the reception (room 15) by its south door into the city, where the picked event starts
+    if scene.kind == "field" and r16(ROOM) == 0 and r16(SCR + 0x10) == 0 then
+      if not cityFrame then cityFrame = n end
+      if n - cityFrame >= 90 then
+        set_stage("done")
+        play(parse_route("1 -;" .. scene.arg))
+        arriveAfterRoute = true
+      end
+    elseif scene.kind == "field" and r16(ROOM) == 0 then
+      -- a script in the city (the partner Dyna greets you, script 791): click through it
+      cityFrame = nil
+      if L.route_done() then L.press("a", 6); L.press("-", 34) end
+    else
+      cityFrame = nil
+      if L.route_done() and n - stageFrame > 120 then L.press("down", 20); L.press("-", 10) end
+    end
+  end
+  if arriveAfterRoute and L.route_done() then arriveAfterRoute = false; arrive() end
+  if arrived and n - arrived == hold then
+    L.shot("hold.png")
+    L.log(string.format("HOLD done f%d", n))
+  end
+  if arrived and n > arrived and (MASHA or 0) > 0 and (n - arrived) % 40 == 0 then L.press("a", 6) end
+end)

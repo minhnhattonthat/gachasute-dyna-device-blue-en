@@ -2,3 +2,5 @@
 - SKILL.md Step 0: the plugin guard hook did not fire in an Orca worker session; adding the hooks block to .claude/settings.json mid-session made it fire immediately (no restart needed).
 - scripts/lua/probes (Mesen GBA): `emu.getState()` exposes registers as `cpu.r0`..; worked in tools/lua/lzss_log.lua.
 - references/graphics.md static sweep: `codex exec -s read-only -i sheet.png ...` works as the independent reviewer in Orca runs (no nested workers); it reads images and returns TSV rows.
+- references/emulator-qa.md (Hooks): Mesen GBA `L.on_read` on ROM (0x08xxxxxx) works and `watch.lua` needs `--var "WATCH_MODE='read'"` to log reads (default logs writes only); `emu.setState({["cpu.r1"]=n})` in an on_exec at a function entry changes its argument (used to hijack start_script).
+- context-mode plugin: Read/Bash output over ~4 KB is replaced by an index stub; read files with ctx_execute (cat) or smaller ranges.

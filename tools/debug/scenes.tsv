@@ -1,0 +1,15 @@
+name	kind	arg	hold	note
+date	boot	date	60	boot date prompt (きょうの ひづけを せっていしてください)
+form	boot	form	120	profile form with its help popup, cold boot
+keyboard	boot	keyboard	120	name-entry keyboard (profile name)
+title	boot	title	60	title screen after the form
+intro	newgame		600	new game: script 1 (ようこそ ダイナシティへ), tutorial start
+battle_place	field	30 -	60	tutorial skipped, out into the city: a visiting challenger starts a battle, Dyna placement screen (script 181)
+e7	event	7	900	story event 7: script 33, Mii's colosseum tutorial (city)
+e13	event	13	900	story event 13: script 74, device development tutorial (reception)
+e19	event	19	900	story event 19: script 92, rival shows up (city)
+e33	event	33	900	story event 33: script 106 (city)
+e40	event	40	900	story event 40: script 113 (reception)
+e56	event	56	900	story event 56: script 129 (city)
+s152	script	152	900	hijack: script 152, final battle aftermath (rival loses)
+s153	script	153	900	hijack: script 153, epilogue
