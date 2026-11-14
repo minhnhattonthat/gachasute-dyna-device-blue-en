@@ -4,120 +4,120 @@
   "flag": 0,
   "speaker": -1,
   "jp": "なぁ？　となりに　{%sR4}タイプの\nヤツが　すんでるだろ？{KP}\nオレはな　{%sR4}タイプが\nどうも　きにくわねぇんだよ",
-  "en": "",
-  "status": "todo"
+  "en": "Hey, there's a {%sR4} type livin'\nnext door, right?{KP}\nThing is, I can't stand {%sR4}\ntypes.",
+  "status": "done"
  },
  {
   "id": "s450.01",
   "flag": 0,
   "speaker": -1,
   "jp": "あいつのいえと　オレのいえは\nちかくにしないでもらえねぇかな？",
-  "en": "",
-  "status": "todo"
+  "en": "Think you could keep their house away\nfrom mine?",
+  "status": "done"
  },
  {
   "id": "s451.00",
   "flag": 0,
   "speaker": -1,
   "jp": "ここの　となりに　{%sR4}タイプが\nすんでいるな？{KP}\nわたしは　{%sR4}タイプとは\nあわないのだ",
-  "en": "",
-  "status": "todo"
+  "en": "A {%sR4} type lives next door,\ndoes it not?{KP}\nI do not get on with {%sR4}\ntypes.",
+  "status": "done"
  },
  {
   "id": "s451.01",
   "flag": 0,
   "speaker": -1,
   "jp": "すみやかに　わたしのいえと　あのいえの\nばしょを　とおくに　はなしてもらいたい",
-  "en": "",
-  "status": "todo"
+  "en": "Move my house and that house far apart\nat once.",
+  "status": "done"
  },
  {
   "id": "s452.00",
   "flag": 0,
   "speaker": -1,
   "jp": "ここの　となりに　{%sR4}タイプの\nひとが　すんでるでしょ？{KP}\nわたしねぇ　{%sR4}タイプって\nどうも　にがてなのよねー・・・",
-  "en": "",
-  "status": "todo"
+  "en": "Someone of the {%sR4} type lives\nnext door, right?{KP}\nI'm just not good with {%sR4}\ntypes...",
+  "status": "done"
  },
  {
   "id": "s452.01",
   "flag": 0,
   "speaker": -1,
   "jp": "ねぇ　わたしのいえと　あのひとのいえ\nばしょ　はなしてもらえないかな？",
-  "en": "",
-  "status": "todo"
+  "en": "Hey, could you move my house away from\ntheirs?",
+  "status": "done"
  },
  {
   "id": "s453.00",
   "flag": 0,
   "speaker": -1,
   "jp": "ここの　いえに　{%sR4}タイプの\nかたが　すんでらしゃいますよね？{KP}\nじつは　わたし　{%sR4}タイプが\nどうも　にがてなんです・・・",
-  "en": "",
-  "status": "todo"
+  "en": "Someone of the {%sR4} type lives\nin this house too, yes?{KP}\nTo be honest, I do not get along with\n{%sR4} types...",
+  "status": "done"
  },
  {
   "id": "s453.01",
   "flag": 0,
   "speaker": -1,
   "jp": "なんとか　わたしのいえと　あのかたのいえは\nべつにしてもらえないでしょうか？",
-  "en": "",
-  "status": "todo"
+  "en": "Could you somehow give me a house of my\nown?",
+  "status": "done"
  },
  {
   "id": "s454.00",
   "flag": 0,
   "speaker": -1,
   "jp": "なぁ？　ここに　{%sR4}タイプの\nヤツが　すんでるだろ？{KP}\nオレはな　{%sR4}タイプが\nどうも　きにくわねぇんだよ",
-  "en": "",
-  "status": "todo"
+  "en": "Hey, there's a {%sR4} type livin'\nhere too, right?{KP}\nThing is, I can't stand {%sR4}\ntypes.",
+  "status": "done"
  },
  {
   "id": "s454.01",
   "flag": 0,
   "speaker": -1,
   "jp": "あいつのいえと　オレのいえは\nいっしょにしないでもらえねぇかな？",
-  "en": "",
-  "status": "todo"
+  "en": "Think you could not stick me in the same\nhouse with 'em?",
+  "status": "done"
  },
  {
   "id": "s455.00",
   "flag": 0,
   "speaker": -1,
   "jp": "ここの　いえに　{%sR4}タイプが\nすんでいるな？{KP}\nわたしは　{%sR4}タイプとは\nあわないのだ",
-  "en": "",
-  "status": "todo"
+  "en": "A {%sR4} type lives in this house\ntoo, does it not?{KP}\nI do not get on with {%sR4}\ntypes.",
+  "status": "done"
  },
  {
   "id": "s455.01",
   "flag": 0,
   "speaker": -1,
   "jp": "すみやかに　わたしたちの　すむいえを\nべつべつにしてもらいたい",
-  "en": "",
-  "status": "todo"
+  "en": "Give us separate houses at once.",
+  "status": "done"
  },
  {
   "id": "s456.00",
   "flag": 0,
   "speaker": -1,
   "jp": "ここの　いえに　{%sR4}タイプの\nひとが　すんでるでしょ？{KP}\nわたしねぇ　{%sR4}タイプって\nどうも　にがてなのよねー・・・",
-  "en": "",
-  "status": "todo"
+  "en": "Someone of the {%sR4} type lives\nin this house too, right?{KP}\nI'm just not good with {%sR4}\ntypes...",
+  "status": "done"
  },
  {
   "id": "s456.01",
   "flag": 0,
   "speaker": -1,
   "jp": "ねぇ　わたしのいえと　あのひとのいえ\nべつにしてもらえないかな？",
-  "en": "",
-  "status": "todo"
+  "en": "Hey, could we live in separate houses?",
+  "status": "done"
  },
  {
   "id": "s457.00",
   "flag": 0,
   "speaker": -1,
   "jp": "ここの　まわりに　{%sR4}の\nセクタが　ありますよね？{KP}\nじつは　わたし　{%sR4}の\nセクタが　にがてなんです・・・",
-  "en": "",
-  "status": "todo"
+  "en": "There is a {%sR4} sector near\nhere, yes?{KP}\nTo be honest, I do not like {%sR4}\nsectors...",
+  "status": "done"
  },
  {
   "id": "s457.01",

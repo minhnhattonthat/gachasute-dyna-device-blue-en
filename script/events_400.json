@@ -1276,415 +1276,415 @@
   "flag": 0,
   "speaker": -1,
   "jp": "たとえば　フレアと　ヒートの\nエクストラが　れんぞくしたばあい{KP}\nヤケドの　ついかこうかが\nかならず　はっせいするのだ",
-  "en": "",
-  "status": "todo"
+  "en": "For instance, a \"Flare\" Extra followed by a\n\"Heat\" Extra{KP}\nwill always trigger a burn effect.",
+  "status": "done"
  },
  {
   "id": "s439.03",
   "flag": 0,
   "speaker": -1,
   "jp": "たとえば　アクアと　アイスの\nエクストラが　れんぞくしたばあい{KP}\nこおりの　ついかこうかが\nかならず　はっせいするのだ",
-  "en": "",
-  "status": "todo"
+  "en": "For instance, an \"Aqua\" Extra followed by\nan \"Ice\" Extra{KP}\nwill always trigger a freeze effect.",
+  "status": "done"
  },
  {
   "id": "s439.04",
   "flag": 0,
   "speaker": -1,
   "jp": "たとえば　アクアと　ボルトの\nエクストラが　れんぞくしたばあい{KP}\nかんでんの　ついかこうかが\nかならず　はっせいするのだ",
-  "en": "",
-  "status": "todo"
+  "en": "For instance, an \"Aqua\" Extra followed by\na \"Bolt\" Extra{KP}\nwill always trigger a shock effect.",
+  "status": "done"
  },
  {
   "id": "s439.05",
   "flag": 0,
   "speaker": -1,
   "jp": "たとえば　ミストと　サンドの\nエクストラが　れんぞくしたばあい{KP}\nめつぶしの　ついかこうかが\nかならず　はっせいするのだ",
-  "en": "",
-  "status": "todo"
+  "en": "For instance, a \"Mist\" Extra followed by a\n\"Sand\" Extra{KP}\nwill always trigger a blinding effect.",
+  "status": "done"
  },
  {
   "id": "s439.06",
   "flag": 0,
   "speaker": -1,
   "jp": "たとえば　アイスと　ボムの\nエクストラが　れんぞくしたばあい{KP}\nあいてを　そくしさせる　こうかが\nはっせいすることが　あるのだ",
-  "en": "",
-  "status": "todo"
+  "en": "For instance, an \"Ice\" Extra followed by a\n\"Bomb\" Extra{KP}\nmay knock the opponent out in one go.",
+  "status": "done"
  },
  {
   "id": "s439.07",
   "flag": 0,
   "speaker": -1,
   "jp": "たとえば　グランと　ボムの\nエクストラが　れんぞくしたばあい{KP}\nあいての　ぶきデバイスを　ひとつ\nしようできなくすることが　あるのだ",
-  "en": "",
-  "status": "todo"
+  "en": "For instance, a \"Gran\" Extra followed by a\n\"Bomb\" Extra{KP}\nmay disable one of the opponent's weapon\nDevices.",
+  "status": "done"
  },
  {
   "id": "s439.08",
   "flag": 0,
   "speaker": -1,
   "jp": "たとえば　フレアと　ボムの\nエクストラが　れんぞくしたばあい{KP}\nあいての　ぼうぐデバイスを　ひとつ\nしようできなくすることが　あるのだ",
-  "en": "",
-  "status": "todo"
+  "en": "For instance, a \"Flare\" Extra followed by a\n\"Bomb\" Extra{KP}\nmay disable one of the opponent's armor\nDevices.",
+  "status": "done"
  },
  {
   "id": "s439.09",
   "flag": 0,
   "speaker": -1,
   "jp": "たとえば　エレキと　アースの\nエクストラが　れんぞくしたばあい{KP}\nあいてを　しばらくのあいだ\nきぜつさせることが　あるのだ",
-  "en": "",
-  "status": "todo"
+  "en": "For instance, an \"Elec\" Extra followed by\nan \"Earth\" Extra{KP}\nmay stun the opponent for a while.",
+  "status": "done"
  },
  {
   "id": "s440.00",
   "flag": 0,
   "speaker": -1,
   "jp": "ぞくせいが　むぞくせいいがいの\nデバイスには　それぞれ{KP}\nエクストラと　よばれる　ちからが\nついているの",
-  "en": "",
-  "status": "todo"
+  "en": "Every Device whose element isn't \"none\"{KP}\nhas a power called an Extra.",
+  "status": "done"
  },
  {
   "id": "s440.01",
   "flag": 0,
   "speaker": -1,
   "jp": "エクストラの　なかには　れんぞくで\nこうげきしたときの　くみあわせで{KP}\nコンボという　ついかこうかが\nはっせいするものも　あるわ",
-  "en": "",
-  "status": "todo"
+  "en": "With some Extras, if you attack several\ntimes in a row,{KP}\nyou can get an extra effect called a\ncombo,{KP}\ndepending on the mix.",
+  "status": "done"
  },
  {
   "id": "s440.02",
   "flag": 0,
   "speaker": -1,
   "jp": "たとえば　フレアと　ヒートの\nエクストラが　れんぞくしたばあい{KP}\nヤケドの　ついかこうかが\nかならず　はっせいするのよ",
-  "en": "",
-  "status": "todo"
+  "en": "Like, a \"Flare\" Extra and then a \"Heat\"\nExtra{KP}\nalways trigger a burn effect, you know.",
+  "status": "done"
  },
  {
   "id": "s440.03",
   "flag": 0,
   "speaker": -1,
   "jp": "たとえば　アクアと　アイスの\nエクストラが　れんぞくしたばあい{KP}\nこおりの　ついかこうかが\nかならず　はっせいするのよ",
-  "en": "",
-  "status": "todo"
+  "en": "Like, an \"Aqua\" Extra and then an \"Ice\"\nExtra{KP}\nalways trigger a freeze effect, you\nknow.",
+  "status": "done"
  },
  {
   "id": "s440.04",
   "flag": 0,
   "speaker": -1,
   "jp": "たとえば　アクアと　ボルトの\nエクストラが　れんぞくしたばあい{KP}\nかんでんの　ついかこうかが\nかならず　はっせいするのよ",
-  "en": "",
-  "status": "todo"
+  "en": "Like, an \"Aqua\" Extra and then a \"Bolt\"\nExtra{KP}\nalways trigger a shock effect, you know.",
+  "status": "done"
  },
  {
   "id": "s440.05",
   "flag": 0,
   "speaker": -1,
   "jp": "たとえば　ミストと　サンドの\nエクストラが　れんぞくしたばあい{KP}\nめつぶしの　ついかこうかが\nかならず　はっせいするのよ",
-  "en": "",
-  "status": "todo"
+  "en": "Like, a \"Mist\" Extra and then a \"Sand\"\nExtra{KP}\nalways trigger a blinding effect, you\nknow.",
+  "status": "done"
  },
  {
   "id": "s440.06",
   "flag": 0,
   "speaker": -1,
   "jp": "たとえば　アイスと　ボムの\nエクストラが　れんぞくしたばあい{KP}\nあいてを　そくしさせる　こうかが\nはっせいすることが　あるのよ",
-  "en": "",
-  "status": "todo"
+  "en": "Like, an \"Ice\" Extra and then a \"Bomb\"\nExtra{KP}\ncan sometimes knock the opponent out in\none go!",
+  "status": "done"
  },
  {
   "id": "s440.07",
   "flag": 0,
   "speaker": -1,
   "jp": "たとえば　グランと　ボムの\nエクストラが　れんぞくしたばあい{KP}\nあいての　ぶきデバイスを　ひとつ\nしようできなくすることが　あるのよ",
-  "en": "",
-  "status": "todo"
+  "en": "Like, a \"Gran\" Extra and then a \"Bomb\"\nExtra{KP}\ncan sometimes disable one of the\nopponent's weapon Devices!",
+  "status": "done"
  },
  {
   "id": "s440.08",
   "flag": 0,
   "speaker": -1,
   "jp": "たとえば　フレアと　ボムの\nエクストラが　れんぞくしたばあい{KP}\nあいての　ぼうぐデバイスを　ひとつ\nしようできなくすることが　あるのよ",
-  "en": "",
-  "status": "todo"
+  "en": "Like, a \"Flare\" Extra and then a \"Bomb\"\nExtra{KP}\ncan sometimes disable one of the\nopponent's armor Devices!",
+  "status": "done"
  },
  {
   "id": "s440.09",
   "flag": 0,
   "speaker": -1,
   "jp": "たとえば　エレキと　アースの\nエクストラが　れんぞくしたばあい{KP}\nあいてを　しばらくのあいだ\nこうどうふのうにすることが　あるのよ",
-  "en": "",
-  "status": "todo"
+  "en": "Like, an \"Elec\" Extra and then an \"Earth\"\nExtra{KP}\ncan sometimes leave the opponent unable\nto act for a while!",
+  "status": "done"
  },
  {
   "id": "s441.00",
   "flag": 0,
   "speaker": -1,
   "jp": "ダイナが　レベルアップするときに\nパラメーターが　どのくらい　あがるかは{KP}\nその　ダイナが　どのように\nバトルを　してきたかで　きまってきます",
-  "en": "",
-  "status": "todo"
+  "en": "How much a Dyna's parameters rise when it\nlevels up{KP}\ndepends on how that Dyna has been\nfighting its battles.",
+  "status": "done"
  },
  {
   "id": "s441.01",
   "flag": 0,
   "speaker": -1,
   "jp": "てきダイナに　とどめを　さしたり\nとくしゅのうりょくを　せいこうさせると{KP}\nつぎの　レベルアップで　パラメーターが\nおおきく　あがりやすくなります",
-  "en": "",
-  "status": "todo"
+  "en": "If it finishes off enemy Dyna or pulls off\nspecial abilities,{KP}\nits parameters are likely to rise a lot at\nthe next level-up.",
+  "status": "done"
  },
  {
   "id": "s441.02",
   "flag": 0,
   "speaker": -1,
   "jp": "はんたいに　ダイナシティで　くうふくや\nびょうきのまま　ほうっておかれたり{KP}\nバトルに　さんかしても　まったく\nかつやくしないままだったりすると",
-  "en": "",
-  "status": "todo"
+  "en": "On the other hand, if it is left hungry or\nsick in a Dyna City,{KP}\nor takes part in battles without doing\nanything useful,",
+  "status": "done"
  },
  {
   "id": "s441.03",
   "flag": 0,
   "speaker": -1,
   "jp": "つぎの　レベルアップで　パラメーターが\nあまり　あがらなくなってしまいます{KP}\nいろいろなことに　きをくばることが\nつよいダイナを　そだてるコツです",
-  "en": "",
-  "status": "todo"
+  "en": "its parameters will not rise much at the\nnext level-up.{KP}\nPaying attention to everything is the\nsecret to raising strong Dyna.",
+  "status": "done"
  },
  {
   "id": "s442.00",
   "flag": 0,
   "speaker": -1,
   "jp": "ダイナが　レベルアップするときに\nパラメーターが　どのくらい　あがるのか{KP}\nそいつは　ダイナが　どんなふうに\nバトルしてきたかで　きまってくるんだぜ",
-  "en": "",
-  "status": "todo"
+  "en": "How much a Dyna's parameters go up when\nit levels up?{KP}\nThat all comes down to how it's been\nfightin' its battles!",
+  "status": "done"
  },
  {
   "id": "s442.01",
   "flag": 0,
   "speaker": -1,
   "jp": "てきダイナを　じぶんで　しとめたり\nとくしゅのうりょくを　うまく　つかうと{KP}\nつぎの　レベルアップで　パラメーターが\nぐーんと　あがるってワケだ",
-  "en": "",
-  "status": "todo"
+  "en": "Take down enemy Dyna yourself, or pull\noff special abilities right,{KP}\nand its parameters go waaay up at the\nnext level-up!",
+  "status": "done"
  },
  {
   "id": "s442.02",
   "flag": 0,
   "speaker": -1,
   "jp": "ところが　ダイナシティで　くうふくや\nびょうきのまま　ほっとかれたり{KP}\nバトルで　ぜんぜん\nいいとこなしだったりすると",
-  "en": "",
-  "status": "todo"
+  "en": "But if it gets left hungry or sick in a Dyna\nCity,{KP}\nor it's totally useless in battle,",
+  "status": "done"
  },
  {
   "id": "s442.03",
   "flag": 0,
   "speaker": -1,
   "jp": "つぎの　レベルアップで　パラメーターが\nろくに　あがらなくなっちまう{KP}\nま　ようするに　つよいダイナを\nそだてるのは　ラクじゃないってこった",
-  "en": "",
-  "status": "todo"
+  "en": "its parameters barely go up at the next\nlevel-up.{KP}\nSo basically, raisin' strong Dyna ain't\neasy!",
+  "status": "done"
  },
  {
   "id": "s443.00",
   "flag": 0,
   "speaker": -1,
   "jp": "ダイナが　レベルアップするときに\nパラメーターが　どのくらい　あがるかは{KP}\nその　ダイナが　どのように\nバトルを　してきたかなどで　きまる",
-  "en": "",
-  "status": "todo"
+  "en": "How much a Dyna's parameters rise when it\nlevels up{KP}\nis decided by how that Dyna has fought,\namong other things.",
+  "status": "done"
  },
  {
   "id": "s443.01",
   "flag": 0,
   "speaker": -1,
   "jp": "てきダイナに　とどめを　さす\nとくしゅのうりょくを　せいこうさせる{KP}\nそういうことの　つみかさねで　よりおおくの\nパラメーターが　あがるようになる",
-  "en": "",
-  "status": "todo"
+  "en": "Finishing off enemy Dyna. Succeeding with\nspecial abilities.{KP}\nBuilding up such deeds makes more\nparameters rise.",
+  "status": "done"
  },
  {
   "id": "s443.02",
   "flag": 0,
   "speaker": -1,
   "jp": "ただし　ダイナシティで　くうふくや\nびょうきのまま　ほうっておく{KP}\nバトルに　さんかしても　まったく\nかつやくしないなどのことを　くりかえすと",
-  "en": "",
-  "status": "todo"
+  "en": "However, leaving it hungry or sick in a\nDyna City,{KP}\nor letting it take part in battles without\naccomplishing anything...",
+  "status": "done"
  },
  {
   "id": "s443.03",
   "flag": 0,
   "speaker": -1,
   "jp": "パラメーターの　あがる　りょうは\nさがっていってしまう{KP}\nつよい　ダイナを　そだてたければ\nこのことを　おぼえておいて　そんはない",
-  "en": "",
-  "status": "todo"
+  "en": "Repeat such things, and its parameter gains\nwill shrink.{KP}\nIf you wish to raise strong Dyna, you\nwould do well to remember this.",
+  "status": "done"
  },
  {
   "id": "s444.00",
   "flag": 0,
   "speaker": -1,
   "jp": "ダイナが　レベルアップするときに\nパラメーターが　どのくらい　あがるかは{KP}\nその　ダイナが　どんなふうに\nすごしているかで　きまってくるわ",
-  "en": "",
-  "status": "todo"
+  "en": "How much a Dyna's parameters go up when\nit levels up{KP}\ndepends on how that Dyna spends its\ndays.",
+  "status": "done"
  },
  {
   "id": "s444.01",
   "flag": 0,
   "speaker": -1,
   "jp": "てきダイナを　じぶんで　たおしたり\nとくしゅのうりょくを　きめると{KP}\nつぎの　レベルアップで　パラメーターが\nたくさん　あがりやすくなるの",
-  "en": "",
-  "status": "todo"
+  "en": "If it beats enemy Dyna itself or lands\nspecial abilities,{KP}\nits parameters will probably go up a lot at\nthe next level-up.",
+  "status": "done"
  },
  {
   "id": "s444.02",
   "flag": 0,
   "speaker": -1,
   "jp": "でも　ダイナシティで　くうふくや\nびょうきのまま　ほっとかれたり{KP}\nバトルに　さんかしても　ぜんぜん\nかつやくしなかったりすると",
-  "en": "",
-  "status": "todo"
+  "en": "But if it's left hungry or sick in a Dyna\nCity,{KP}\nor it joins battles and doesn't do anything\nat all,",
+  "status": "done"
  },
  {
   "id": "s444.03",
   "flag": 0,
   "speaker": -1,
   "jp": "つぎの　レベルアップで　パラメーターが\nあまり　あがらなくなっちゃうの{KP}\nめんどうなことを　キチッとやることが\nだいじだってことなのよね　きっと",
-  "en": "",
-  "status": "todo"
+  "en": "its parameters won't go up much at the\nnext level-up.{KP}\nI guess it means doing the boring stuff\nproperly really matters!",
+  "status": "done"
  },
  {
   "id": "s445.00",
   "flag": 0,
   "speaker": -1,
   "jp": "うう・・・なんだか　びょうきに\nかかってしまったみたいです・・・{KP}\nすみませんが　ダイナセンターに\nつれていっていただけないでしょうか？",
-  "en": "",
-  "status": "todo"
+  "en": "Ugh... I seem to have caught an illness...{KP}\nI am sorry, but could you please take me\nto the Dyna Center?",
+  "status": "done"
  },
  {
   "id": "s445.01",
   "flag": 0,
   "speaker": -1,
   "jp": "ちりょうを　おこなえば　ぐあいが\nよくなるとおもいますので・・・",
-  "en": "",
-  "status": "todo"
+  "en": "I think I will feel better once I am\ntreated...",
+  "status": "done"
  },
  {
   "id": "s445.02",
   "flag": 0,
   "speaker": -1,
   "jp": "マルチワクチンを　つかいますか？\n　　　　　はい　　　　いいえ{KN}",
-  "en": "",
-  "status": "todo"
+  "en": "Use a Multi Vaccine?\n          Yes         No{KN}",
+  "status": "done"
  },
  {
   "id": "s445.03",
   "flag": 0,
   "speaker": -1,
   "jp": "{%sR1}の　びょうきが\nかいふくした！",
-  "en": "",
-  "status": "todo"
+  "en": "{%sR1}'s illness was cured!",
+  "status": "done"
  },
  {
   "id": "s446.00",
   "flag": 0,
   "speaker": -1,
   "jp": "うう・・・あたまいてぇ・・・\nこりゃ　びょうきに　かかっちまったかな{KP}\nすまねぇが　ダイナセンターまで\nつれてってもらえねぇか？",
-  "en": "",
-  "status": "todo"
+  "en": "Ugh... my head's killin' me... Guess I caught\nsomethin'.{KP}\nSorry, but could you take me to the Dyna\nCenter?",
+  "status": "done"
  },
  {
   "id": "s446.01",
   "flag": 0,
   "speaker": -1,
   "jp": "なぁに　こんなもん　ちりょうすりゃ\nいっぱつで　よくなるって",
-  "en": "",
-  "status": "todo"
+  "en": "Aw, one round of treatment and I'll be fine\nin no time!",
+  "status": "done"
  },
  {
   "id": "s446.02",
   "flag": 0,
   "speaker": -1,
   "jp": "マルチワクチンを　つかいますか？\n　　　　　はい　　　　いいえ{KN}",
-  "en": "",
-  "status": "todo"
+  "en": "Use a Multi Vaccine?\n          Yes         No{KN}",
+  "status": "done"
  },
  {
   "id": "s446.03",
   "flag": 0,
   "speaker": -1,
   "jp": "{%sR1}の　びょうきが\nかいふくした！",
-  "en": "",
-  "status": "todo"
+  "en": "{%sR1}'s illness was cured!",
+  "status": "done"
  },
  {
   "id": "s447.00",
   "flag": 0,
   "speaker": -1,
   "jp": "・・・わたしとしたことが　どうやら\nびょうきに　かかってしまったようだ{KP}\nすまんが　ダイナセンターまで\nつれていってくれ",
-  "en": "",
-  "status": "todo"
+  "en": "...How unlike me. It seems I have fallen\nill.{KP}\nForgive me, but take me to the Dyna\nCenter.",
+  "status": "done"
  },
  {
   "id": "s447.01",
   "flag": 0,
   "speaker": -1,
   "jp": "そこで　ちりょうさえ　おこなえば\nなおるはずだ",
-  "en": "",
-  "status": "todo"
+  "en": "Treatment there should cure me.",
+  "status": "done"
  },
  {
   "id": "s447.02",
   "flag": 0,
   "speaker": -1,
   "jp": "マルチワクチンを　つかいますか？\n　　　　　はい　　　　いいえ{KN}",
-  "en": "",
-  "status": "todo"
+  "en": "Use a Multi Vaccine?\n          Yes         No{KN}",
+  "status": "done"
  },
  {
   "id": "s447.03",
   "flag": 0,
   "speaker": -1,
   "jp": "{%sR1}の　びょうきが\nかいふくした！",
-  "en": "",
-  "status": "todo"
+  "en": "{%sR1}'s illness was cured!",
+  "status": "done"
  },
  {
   "id": "s448.00",
   "flag": 0,
   "speaker": -1,
   "jp": "うー・・・あたま　いたーい・・・\nこれって　びょうきかなぁ・・・{KP}\nごめん　ダイナセンターまで\nつれてってくれないかな？",
-  "en": "",
-  "status": "todo"
+  "en": "Ooh... my head hurts...{KP}\nAm I sick or something...?{KP}\nSorry, could you take me to the Dyna\nCenter?",
+  "status": "done"
  },
  {
   "id": "s448.01",
   "flag": 0,
   "speaker": -1,
   "jp": "ちりょうさえすれば　ちゃんと\nなおるはずだから・・・おねがい",
-  "en": "",
-  "status": "todo"
+  "en": "If I get treated, I should be fine...\nPlease?",
+  "status": "done"
  },
  {
   "id": "s448.02",
   "flag": 0,
   "speaker": -1,
   "jp": "マルチワクチンを　つかいますか？\n　　　　　はい　　　　いいえ{KN}",
-  "en": "",
-  "status": "todo"
+  "en": "Use a Multi Vaccine?\n          Yes         No{KN}",
+  "status": "done"
  },
  {
   "id": "s448.03",
   "flag": 0,
   "speaker": -1,
   "jp": "{%sR1}の　びょうきが\nかいふくした！",
-  "en": "",
-  "status": "todo"
+  "en": "{%sR1}'s illness was cured!",
+  "status": "done"
  },
  {
   "id": "s449.00",
   "flag": 0,
   "speaker": -1,
   "jp": "ここの　となりに　{%sR4}タイプの\nかたが　すんでらしゃいますよね？{KP}\nじつは　わたし　{%sR4}タイプが\nどうも　にがてなんです・・・",
-  "en": "",
-  "status": "todo"
+  "en": "Someone of the {%sR4} type lives\nnext door, yes?{KP}\nTo be honest, I do not get along with\n{%sR4} types...",
+  "status": "done"
  },
  {
   "id": "s449.01",
   "flag": 0,
   "speaker": -1,
   "jp": "なんとか　わたしのいえと　あのかたのいえは\nきょりを　はなしてもらえないでしょうか？",
-  "en": "",
-  "status": "todo"
+  "en": "Could you somehow move my house and\ntheirs farther apart?",
+  "status": "done"
  }
 ]
