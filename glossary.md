@@ -86,6 +86,17 @@ Binding for every translator and reviewer. Agents propose additions in reports; 
 | データベース | Database | | menu | |
 | キーワード | Keyword | | Database entries | |
 | オークション | auction | | | |
+| でんどういり | Hall of Fame | | Dyna already crowned / city rank above S | |
+| ゆうしゃのおうかん | Hero's Crown | | Ranking Battle champion's mark | |
+| ドラコースタイル | Draco style | | prize Dyna (D10 constellation) | |
+| イグアームタイプ | Igarm type | | body type | |
+| キックバグタイプ | Kickbug type | | body type | |
+| ゼロイータイプ | Zero-E type | | body type | |
+| デュアロンタイプ | Dualon type | | body type | |
+| エコロードタイプ | Ecoroad type | | body type | |
+| メタボールタイプ | Metaball type | | body type | |
+| ゴストフリータイプ | Ghostfree type | | body type | |
+| マウンテン | Mountain | | sector type | |
 
 ## Decisions from earlier batches
 - b001-b002 menu commands, quoted in tutorials (the strings batches must use the same words; not table-checked

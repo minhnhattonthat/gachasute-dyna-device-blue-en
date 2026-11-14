@@ -7,8 +7,8 @@
   ],
   "slot": 16,
   "jp": "むぞくせいの",
-  "en": "",
-  "status": "todo"
+  "en": "Non-element",
+  "status": "done"
  },
  {
   "id": "t0B0024",
@@ -17,8 +17,8 @@
   ],
   "slot": 20,
   "jp": "キックバグタイプと",
-  "en": "",
-  "status": "todo"
+  "en": "Kickbug type",
+  "status": "done"
  },
  {
   "id": "t0B0038",
@@ -27,8 +27,8 @@
   ],
   "slot": 20,
   "jp": "バーディスタイプと",
-  "en": "",
-  "status": "todo"
+  "en": "Birdis type",
+  "status": "done"
  },
  {
   "id": "t0B004C",
@@ -37,8 +37,8 @@
   ],
   "slot": 24,
   "jp": "シェルブックタイプと",
-  "en": "",
-  "status": "todo"
+  "en": "Shellbook type",
+  "status": "done"
  },
  {
   "id": "t0B0064",
@@ -47,8 +47,8 @@
   ],
   "slot": 24,
   "jp": "テトロトップタイプと",
-  "en": "",
-  "status": "todo"
+  "en": "Tetrotop type",
+  "status": "done"
  },
  {
   "id": "t0B007C",
@@ -61,8 +61,8 @@
   ],
   "slot": 20,
   "jp": "ひつような　パーツ",
-  "en": "",
-  "status": "todo"
+  "en": "dedicated Devices.",
+  "status": "done"
  },
  {
   "id": "t0B0090",
@@ -75,8 +75,8 @@
   ],
   "slot": 20,
   "jp": "せんようデバイスに",
-  "en": "",
-  "status": "todo"
+  "en": "a part for their",
+  "status": "done"
  },
  {
   "id": "t0B00A4",
@@ -85,8 +85,8 @@
   ],
   "slot": 20,
   "jp": "イグアームタイプと",
-  "en": "",
-  "status": "todo"
+  "en": "Igarm type",
+  "status": "done"
  },
  {
   "id": "t0B00B8",
@@ -95,8 +95,8 @@
   ],
   "slot": 16,
   "jp": "がんじょうだが",
-  "en": "",
-  "status": "todo"
+  "en": "Sturdy, but",
+  "status": "done"
  },
  {
   "id": "t0B00C8",
@@ -105,8 +105,8 @@
   ],
   "slot": 24,
   "jp": "じょうぶさに　かける",
-  "en": "",
-  "status": "todo"
+  "en": "not very strong.",
+  "status": "done"
  },
  {
   "id": "t0B00E0",

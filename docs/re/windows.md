@@ -29,7 +29,7 @@ start) or a zoomed crop of `work/qa/p5_mk/<scene>/hold.png`.
 | Customize tree, deep level | col 3 | 104 px (frame x 133) | measured | |
 | Dyna card HP / mood | col 7 | 58 px (card inner x 114) | measured (mode_dyna_shop) | TRACK label 48, battle result name 74 (ID_WINDOW) |
 | Resident map sector label | col 8 | 50 px (panel inner x 114) | measured | date prompt line t0B9944: 141 (box inner x 205) |
-| Field menu header: sector type | col 9 | 32 px (box inner x 104) | measured (`work/qa/g_tut` f21995) | all sector type names get 32 |
+| Field menu header: sector type | right-aligned to col 13 | 56 px (box inner x 104) | measured (`work/qa/g_tut` f21995; code 0x0804E4E6 draws at col = 13 - units, so a longer name grows left; row empty from col 6) | JP's longest names take 5 cells; English "Mega House" takes 7: check it in phase 8 |
 | Customize level value | col 13 | 28 px (tree frame x 133) | measured | tutorial team card name: 70 (Lv at x 176) |
 | Dynapad title | col 15 | 72 px (screen inner x 192) | measured | keyword number 24, money line 114, spec panel 112 |
 | Card exchange / free-battle opponent | col 19 | 86 px (inner x 238) | measured (mode_card2, dbg_colo_free) | |

@@ -188,671 +188,671 @@
   "flag": 0,
   "speaker": 2,
   "jp": "おそいぞ　{%sR4}！{KP}\nせっかく　しゅくめいの　ライバルが\nバトルをしに　やってきたというのに・・・",
-  "en": "",
-  "status": "todo"
+  "en": "You're late, {%sR4}!{KP}\nAnd here your destined rival came all this\nway to battle you...",
+  "status": "done"
  },
  {
   "id": "s806.01",
   "flag": 0,
   "speaker": 2,
   "jp": "とうぜん　バトルするよな？\n　　　　　はい　　　　いいえ{KN}",
-  "en": "",
-  "status": "todo"
+  "en": "Of course you'll battle me, right?\n          Yes         No{KN}",
+  "status": "done"
  },
  {
   "id": "s806.02",
   "flag": 0,
   "speaker": 2,
   "jp": "ようし　そうと　きまれば　とっとと\nじゅんびして　コロシアムに　こい！",
-  "en": "",
-  "status": "todo"
+  "en": "All right, then it's settled! Hurry up, get\nready and come to the Colosseum!",
+  "status": "done"
  },
  {
   "id": "s806.03",
   "flag": 0,
   "speaker": 2,
   "jp": "オレさまの　じゅんびは\nいつなんどきでも　カンペキだぜ！",
-  "en": "",
-  "status": "todo"
+  "en": "The great me is always perfectly ready,\nany time, anywhere!",
+  "status": "done"
  },
  {
   "id": "s806.04",
   "flag": 0,
   "speaker": 2,
   "jp": "なんだと？　おまえ　このごにおよんで\nおじけづいたのか？",
-  "en": "",
-  "status": "todo"
+  "en": "What?! Are you chickening out on me now,\nafter all this?",
+  "status": "done"
  },
  {
   "id": "s806.05",
   "flag": 0,
   "speaker": 2,
   "jp": "ふっ　しかたない・・・きょうの　ところは\nオレさまの　かちに　しておいてやろう・・・{KP}\nあばよ！",
-  "en": "",
-  "status": "todo"
+  "en": "Hmph, fine... I'll just count today as a win\nfor the great me...{KP}\nSee ya!",
+  "status": "done"
  },
  {
   "id": "s807.00",
   "flag": 0,
   "speaker": 2,
   "jp": "まちくたびれたぜ！　もはや　オレたちに\nことばなど　ひつようない！{KP}\nバトルスタートだ！",
-  "en": "",
-  "status": "todo"
+  "en": "I'm sick of waiting! You and me don't need\nwords anymore!{KP}\nBattle start!",
+  "status": "done"
  },
  {
   "id": "s808.00",
   "flag": 0,
   "speaker": 2,
   "jp": "・・・きょ　きょうの　オレさまは　いさぎよく\nまけを　みとめるぞ！　お　おう！",
-  "en": "",
-  "status": "todo"
+  "en": "...T-today, the great me admits defeat like\na man! Y-yeah!",
+  "status": "done"
  },
  {
   "id": "s808.01",
   "flag": 0,
   "speaker": 2,
   "jp": "その　しょうこだ！\nこれを　もっていきやがれ！！",
-  "en": "",
-  "status": "todo"
+  "en": "Here's the proof! Take this and get outta\nhere!!",
+  "status": "done"
  },
  {
   "id": "s808.02",
   "flag": 0,
   "speaker": -1,
   "jp": "{%sR4}は\n{%dR1}ビットを　てにいれた！{KN}",
-  "en": "",
-  "status": "todo"
+  "en": "{%sR4} got {%dR1} bits!{KN}",
+  "status": "done"
  },
  {
   "id": "s808.03",
   "flag": 0,
   "speaker": 2,
   "jp": "だがな　おぼえておけ！{KP}\nきょうの　かぜが　たまたま\nおまえに　ふいていた・・・それだけだ！",
-  "en": "",
-  "status": "todo"
+  "en": "But remember this!{KP}\nThe wind just happened to be blowing your\nway today... That's all!",
+  "status": "done"
  },
  {
   "id": "s808.04",
   "flag": 0,
   "speaker": 2,
   "jp": "あばよ！",
-  "en": "",
-  "status": "todo"
+  "en": "See ya!",
+  "status": "done"
  },
  {
   "id": "s808.05",
   "flag": 0,
   "speaker": 2,
   "jp": "・・・く・・・くく・・・いや！\nうれしくない！　うれしくないぞ！",
-  "en": "",
-  "status": "todo"
+  "en": "...Heh... heh heh... No! I'm not happy! Not\nhappy at all!",
+  "status": "done"
  },
  {
   "id": "s808.06",
   "flag": 0,
   "speaker": 2,
   "jp": "オレさまは　かって\nあたりまえなんだからな！",
-  "en": "",
-  "status": "todo"
+  "en": "It's only natural for the great me to win,\nafter all!",
+  "status": "done"
  },
  {
   "id": "s808.07",
   "flag": 0,
   "speaker": 2,
   "jp": "まぁ　なんだな・・・\nおまえも　オレさまのライバルだったら",
-  "en": "",
-  "status": "todo"
+  "en": "Well, what I'm saying is... if you're gonna be\nthe great me's rival,",
+  "status": "done"
  },
  {
   "id": "s808.08",
   "flag": 0,
   "speaker": 2,
   "jp": "もうすこし　うでを\nあげとけって　ことだな！{KP}\nあばよ！",
-  "en": "",
-  "status": "todo"
+  "en": "you'd better get a bit stronger!{KP}\nSee ya!",
+  "status": "done"
  },
  {
   "id": "s809.00",
   "flag": 0,
   "speaker": 3,
   "jp": "まってたよ　{%sR4}　よかったら\nこれから　ボクと　バトルしてくれないか？",
-  "en": "",
-  "status": "todo"
+  "en": "I've been waiting, {%sR4}. If you\ndon't mind, would you battle me now?",
+  "status": "done"
  },
  {
   "id": "s809.01",
   "flag": 0,
   "speaker": 3,
   "jp": "どうだい？　ちょうせん　うけてくれるかい？\n　　　　　はい　　　　いいえ{KN}",
-  "en": "",
-  "status": "todo"
+  "en": "Well? Will you accept my challenge?\n          Yes         No{KN}",
+  "status": "done"
  },
  {
   "id": "s809.02",
   "flag": 0,
   "speaker": 3,
   "jp": "じゃあ　じゅんびが　できたら\nコロシアムに　きてくれ{KP}\nまってるよ",
-  "en": "",
-  "status": "todo"
+  "en": "Then come to the Colosseum when you're\nready.{KP}\nI'll be waiting.",
+  "status": "done"
  },
  {
   "id": "s809.03",
   "flag": 0,
   "speaker": 3,
   "jp": "いや　いいんだ\nいそがしいところ　すまなかったね",
-  "en": "",
-  "status": "todo"
+  "en": "No, it's fine. Sorry to bother you while\nyou're busy.",
+  "status": "done"
  },
  {
   "id": "s809.04",
   "flag": 0,
   "speaker": 3,
   "jp": "キミとの　バトルは　またの　たのしみに\nとっておくことにするよ{KP}\nそれじゃ",
-  "en": "",
-  "status": "todo"
+  "en": "I'll save our battle for another time,\nthen.{KP}\nSee you.",
+  "status": "done"
  },
  {
   "id": "s810.00",
   "flag": 0,
   "speaker": 3,
   "jp": "やぁ　やっと　きたね\nじゃあ　さっそく　はじめようか",
-  "en": "",
-  "status": "todo"
+  "en": "Ah, you're finally here. Well then, shall we\nbegin?",
+  "status": "done"
  },
  {
   "id": "s811.00",
   "flag": 0,
   "speaker": 3,
   "jp": "うーん・・・つめが　あまかったか・・・\nしょうぶは　あまくないね",
-  "en": "",
-  "status": "todo"
+  "en": "Hmm... My plan had a hole in it... Battles are\nnever easy, are they?",
+  "status": "done"
  },
  {
   "id": "s811.01",
   "flag": 0,
   "speaker": 3,
   "jp": "きょうの　しょうりの　しるしに\nこれを　うけとってくれ",
-  "en": "",
-  "status": "todo"
+  "en": "Take this as a token of your victory\ntoday.",
+  "status": "done"
  },
  {
   "id": "s811.02",
   "flag": 0,
   "speaker": -1,
   "jp": "{%sR4}は\n{%dR1}ビットを　てにいれた！{KN}",
-  "en": "",
-  "status": "todo"
+  "en": "{%sR4} got {%dR1} bits!{KN}",
+  "status": "done"
  },
  {
   "id": "s811.03",
   "flag": 0,
   "speaker": 3,
   "jp": "さくせんを　ねりなおして　また　くるよ\nそれじゃ",
-  "en": "",
-  "status": "todo"
+  "en": "I'll rework my strategy and come again. See\nyou.",
+  "status": "done"
  },
  {
   "id": "s811.04",
   "flag": 0,
   "speaker": 3,
   "jp": "よし！　かったぞ！　ねらいどおりだ！{KP}\nきょうは　このさくせんが\nまちがっていないと　わかって　よかったよ",
-  "en": "",
-  "status": "todo"
+  "en": "Yes! I won! Just as I planned!{KP}\nI'm glad today proved this strategy is\nright.",
+  "status": "done"
  },
  {
   "id": "s811.05",
   "flag": 0,
   "speaker": 3,
   "jp": "あとは　つぎの　たいかいまでに　もうすこし\nちょうせいしていかないとな・・・{KP}\nそれじゃ",
-  "en": "",
-  "status": "todo"
+  "en": "Now I just need to fine-tune it a bit more\nbefore the next tournament...{KP}\nSee you.",
+  "status": "done"
  },
  {
   "id": "s812.00",
   "flag": 0,
   "speaker": 15,
   "jp": "こんにちはぁ　{%sR4}！\nげんきしてたぁ？",
-  "en": "",
-  "status": "todo"
+  "en": "Hellooo, {%sR4}! Have you been\nweeell?",
+  "status": "done"
  },
  {
   "id": "s812.01",
   "flag": 0,
   "speaker": 15,
   "jp": "ねぇねぇ　わたしと　バトルしようよぅ\n　　　　　はい　　　　いいえ{KN}",
-  "en": "",
-  "status": "todo"
+  "en": "Hey, hey, let's battle, okaaay?\n          Yes         No{KN}",
+  "status": "done"
  },
  {
   "id": "s812.02",
   "flag": 0,
   "speaker": 15,
   "jp": "やったぁ！　んじゃ　じゅんびできたらぁ\nコロシアムに　きてねぇー　まってるからぁ",
-  "en": "",
-  "status": "todo"
+  "en": "Yaaay! Then come to the Colosseum when\nyou're readyyy. I'll be waitiiing.",
+  "status": "done"
  },
  {
   "id": "s812.03",
   "flag": 0,
   "speaker": 15,
   "jp": "え？　ええー！？\nだめなのぅ？　どうしてぇ？",
-  "en": "",
-  "status": "todo"
+  "en": "Huh? Whaaat?! You can't? But whyyy?",
+  "status": "done"
  },
  {
   "id": "s812.04",
   "flag": 0,
   "speaker": 15,
   "jp": "・・・ううぅ・・・つぎに　きたときにはぁ\nぜったいに　バトルしてねぇ？　きっとだよぉ{KP}\nじゃあねぇ",
-  "en": "",
-  "status": "todo"
+  "en": "...Boo-hoo... Next time I come, you'll battle\nme for sure, riiight? Promiiise?{KP}\nByeee.",
+  "status": "done"
  },
  {
   "id": "s813.00",
   "flag": 0,
   "speaker": 15,
   "jp": "あっ　きたきたぁ！\nじゃあ　さっそく　はじめるよぉ",
-  "en": "",
-  "status": "todo"
+  "en": "Oh, there you aaare! Okay, let's get\nstaaarted.",
+  "status": "done"
  },
  {
   "id": "s814.00",
   "flag": 0,
   "speaker": 15,
   "jp": "てへっ・・・やっぱり　まけちゃったぁ\n{%sR4}は　やっぱり　つよいねぇ",
-  "en": "",
-  "status": "todo"
+  "en": "Tee-hee... I lost after aaall. {%sR4}\nreally is strooong.",
+  "status": "done"
  },
  {
   "id": "s814.01",
   "flag": 0,
   "speaker": 15,
   "jp": "そんな　つよい　{%sR4}にぃ\nわたくしからの　プレゼントでぇす",
-  "en": "",
-  "status": "todo"
+  "en": "So here's a present from little old me for\nsooo strong {%sR4}.",
+  "status": "done"
  },
  {
   "id": "s814.02",
   "flag": 0,
   "speaker": -1,
   "jp": "{%sR4}は\n{%dR1}ビットを　てにいれた！{KN}",
-  "en": "",
-  "status": "todo"
+  "en": "{%sR4} got {%dR1} bits!{KN}",
+  "status": "done"
  },
  {
   "id": "s814.03",
   "flag": 0,
   "speaker": 15,
   "jp": "また　こんど　あそぼうねぇ　きゃははっ",
-  "en": "",
-  "status": "todo"
+  "en": "Let's play again sometiiime. Kyahaha!",
+  "status": "done"
  },
  {
   "id": "s814.04",
   "flag": 0,
   "speaker": 15,
   "jp": "かった　かったぁ！\n{%sR4}に　かったぁ！",
-  "en": "",
-  "status": "todo"
+  "en": "I won, I woooon! I beat {%sR4}!",
+  "status": "done"
  },
  {
   "id": "s814.05",
   "flag": 0,
   "speaker": 15,
   "jp": "{%sR4}も　がんばったんだけどぉ{KP}\nわたくしの　がんばりにぃ　ちょぉっと\nまけちゃったねぇ　へへへ",
-  "en": "",
-  "status": "todo"
+  "en": "{%sR4} tried really haaard, too...{KP}\nbut lost juuust a teeny bit to how hard I\ntried. Hehehe.",
+  "status": "done"
  },
  {
   "id": "s814.06",
   "flag": 0,
   "speaker": 15,
   "jp": "また　こんど　あそぼうねぇ　きゃははっ",
-  "en": "",
-  "status": "todo"
+  "en": "Let's play again sometiiime. Kyahaha!",
+  "status": "done"
  },
  {
   "id": "s815.00",
   "flag": 0,
   "speaker": 5,
   "jp": "いま　こちらに　あやしいヤツが\nきませんでしたか！？",
-  "en": "",
-  "status": "todo"
+  "en": "Did a suspicious character just come by\nhere?!",
+  "status": "done"
  },
  {
   "id": "s815.01",
   "flag": 0,
   "speaker": 5,
   "jp": "・・・みかけてないですか・・・あいつ・・・\nいったい　どこに　にげこんだんだ？",
-  "en": "",
-  "status": "todo"
+  "en": "...You haven't seen him... Where on earth\ndid that guy run off to?",
+  "status": "done"
  },
  {
   "id": "s815.02",
   "flag": 0,
   "speaker": 5,
   "jp": "じつはですね　このシティに\nネットはんざいしゃが　にげこんだのです",
-  "en": "",
-  "status": "todo"
+  "en": "You see, a net criminal has fled into this\ncity.",
+  "status": "done"
  },
  {
   "id": "s815.03",
   "flag": 0,
   "speaker": 5,
   "jp": "よろしければ　そうさに\nごきょうりょくいただけないでしょうか？",
-  "en": "",
-  "status": "todo"
+  "en": "If you don't mind, could we ask for your\nhelp with the investigation?",
+  "status": "done"
  },
  {
   "id": "s815.04",
   "flag": 0,
   "speaker": 5,
   "jp": "おそらく　どこかのいえに\nかくれていると　おもわれますので",
-  "en": "",
-  "status": "todo"
+  "en": "We think he's probably hiding in one of the\nhouses,",
+  "status": "done"
  },
  {
   "id": "s815.05",
   "flag": 0,
   "speaker": 5,
   "jp": "はっけんしたら　わたしが　いくまで\nじかんかせぎを　してください",
-  "en": "",
-  "status": "todo"
+  "en": "so if you find him, please stall him until I\nget there.",
+  "status": "done"
  },
  {
   "id": "s815.06",
   "flag": 0,
   "speaker": 5,
   "jp": "きょうりょくしていただけますか？\n　　　　　はい　　　　いいえ{KN}",
-  "en": "",
-  "status": "todo"
+  "en": "Will you help us?\n          Yes         No{KN}",
+  "status": "done"
  },
  {
   "id": "s815.07",
   "flag": 0,
   "speaker": 5,
   "jp": "ありがとうございます！\nでは　わたしは　あちらを　さがしてみます",
-  "en": "",
-  "status": "todo"
+  "en": "Thank you very much! Then I'll go search\nover there.",
+  "status": "done"
  },
  {
   "id": "s815.08",
   "flag": 0,
   "speaker": 5,
   "jp": "あ　いえ　きになさらないでください\nこれは　われわれの　しごとですので{KP}\nでは　しつれい",
-  "en": "",
-  "status": "todo"
+  "en": "Oh, no, please don't worry about it. This is\nour job, after all.{KP}\nExcuse me, then.",
+  "status": "done"
  },
  {
   "id": "s816.00",
   "flag": 0,
   "speaker": 9,
   "jp": "だれだ　おまえは！？\n・・・ここの　シティの　ヤツか？",
-  "en": "",
-  "status": "todo"
+  "en": "Who are you?! ...Someone from this city?",
+  "status": "done"
  },
  {
   "id": "s816.01",
   "flag": 0,
   "speaker": 9,
   "jp": "くっ・・・みつかっちまったからには\nしかたない・・・バトルで　だまらせてやる！",
-  "en": "",
-  "status": "todo"
+  "en": "Tch... Now that you've found me, I've got\nno choice... I'll shut you up with a battle!",
+  "status": "done"
  },
  {
   "id": "s817.00",
   "flag": 0,
   "speaker": 9,
   "jp": "くそっ・・・ゆだんしたぜ・・・\n・・・ん？",
-  "en": "",
-  "status": "todo"
+  "en": "Dang it... I got careless... ...Huh?",
+  "status": "done"
  },
  {
   "id": "s817.01",
   "flag": 0,
   "speaker": 5,
   "jp": "そこまでだ！\nおとなしくついてきてもらおう",
-  "en": "",
-  "status": "todo"
+  "en": "That's far enough! You're coming with me\nquietly.",
+  "status": "done"
  },
  {
   "id": "s817.02",
   "flag": 0,
   "speaker": 9,
   "jp": "しまった！　じかんかせぎだったのか・・・",
-  "en": "",
-  "status": "todo"
+  "en": "Oh no! So you were just stalling me...",
+  "status": "done"
  },
  {
   "id": "s817.03",
   "flag": 0,
   "speaker": 5,
   "jp": "ごきょうりょくに　かんしゃします！{KP}\nわれわれ　Ｇフォースより　このビットを\nおくらせていただきます",
-  "en": "",
-  "status": "todo"
+  "en": "Thank you for your cooperation!{KP}\nPlease accept these bits from all of us at\nG-Force.",
+  "status": "done"
  },
  {
   "id": "s817.04",
   "flag": 0,
   "speaker": -1,
   "jp": "{%sR4}は\n{%dR1}ビットを　てにいれた！{KN}",
-  "en": "",
-  "status": "todo"
+  "en": "{%sR4} got {%dR1} bits!{KN}",
+  "status": "done"
  },
  {
   "id": "s817.05",
   "flag": 0,
   "speaker": 5,
   "jp": "それでは　しつれいいたしました",
-  "en": "",
-  "status": "todo"
+  "en": "Well then, excuse me.",
+  "status": "done"
  },
  {
   "id": "s817.06",
   "flag": 0,
   "speaker": 9,
   "jp": "はっはっは！　たいしたことないヤツだな！\n・・・おっと　そろそろ　ずらかるとするか",
-  "en": "",
-  "status": "todo"
+  "en": "Hahaha! What a pushover! ...Whoops, time I\nmade myself scarce.",
+  "status": "done"
  },
  {
   "id": "s818.00",
   "flag": 0,
   "speaker": 4,
   "jp": "{%sR4}さん　きこえますか？\nわたしです　ナビュウです",
-  "en": "",
-  "status": "todo"
+  "en": "{%sR4}-san, can you hear me? It is\nme, Navyu.",
+  "status": "done"
  },
  {
   "id": "s818.01",
   "flag": 0,
   "speaker": 4,
   "jp": "たったいま　Ｇフォースから\nこちらに　れんらくが　はいりました",
-  "en": "",
-  "status": "todo"
+  "en": "I have just received a message from\nG-Force.",
+  "status": "done"
  },
  {
   "id": "s818.02",
   "flag": 0,
   "speaker": 4,
   "jp": "このシティに　にげこんだ　はんざいしゃを\nぶじに　つかまえたそうです{KP}\nそれでは",
-  "en": "",
-  "status": "todo"
+  "en": "They say they have safely caught the\ncriminal who fled into this city.{KP}\nWell then.",
+  "status": "done"
  },
  {
   "id": "s819.00",
   "flag": 0,
   "speaker": 4,
   "jp": "このシティで　ダイナの\nびょうきが　はっせいしたようです",
-  "en": "",
-  "status": "todo"
+  "en": "It seems a Dyna illness has broken out in\nthis city.",
+  "status": "done"
  },
  {
   "id": "s819.01",
   "flag": 0,
   "speaker": 4,
   "jp": "シティに　すんでいる　ダイナと\nつれあるいている　ダイナの",
-  "en": "",
-  "status": "todo"
+  "en": "Please check right away on the condition of\nthe Dyna living in the city",
+  "status": "done"
  },
  {
   "id": "s819.02",
   "flag": 0,
   "speaker": 4,
   "jp": "じょうたいを　だいしきゅう\nかくにんしてください{KP}\nそれでは",
-  "en": "",
-  "status": "todo"
+  "en": "and the Dyna you have with you.{KP}\nWell then.",
+  "status": "done"
  },
  {
   "id": "s820.00",
   "flag": 0,
   "speaker": 4,
   "jp": "たったいま　ちからつきた　ダイナが\nダイナセンターに　おくられてきました",
-  "en": "",
-  "status": "todo"
+  "en": "A Dyna that collapsed has just been sent\nto the Dyna Center.",
+  "status": "done"
  },
  {
   "id": "s820.01",
   "flag": 0,
   "speaker": 4,
   "jp": "すでに　かいふくしていますので\nはやく　むかえにきてあげてください{KP}\nそれでは",
-  "en": "",
-  "status": "todo"
+  "en": "It has already recovered, so please come\nand pick it up soon.{KP}\nWell then.",
+  "status": "done"
  },
  {
   "id": "s821.00",
   "flag": 0,
   "speaker": 4,
   "jp": "たったいま　ちからつきた　ダイナが\nダイナセンターに　おくられてきました",
-  "en": "",
-  "status": "todo"
+  "en": "A Dyna that collapsed has just been sent\nto the Dyna Center.",
+  "status": "done"
  },
  {
   "id": "s821.01",
   "flag": 0,
   "speaker": 4,
   "jp": "すでに　かいふくしていますので\nはやく　むかえにきてあげてください",
-  "en": "",
-  "status": "todo"
+  "en": "It has already recovered, so please come\nand pick it up soon.",
+  "status": "done"
  },
  {
   "id": "s821.02",
   "flag": 0,
   "speaker": 4,
   "jp": "それと　このシティで　ダイナの\nびょうきが　はっせいしたようです",
-  "en": "",
-  "status": "todo"
+  "en": "Also, it seems a Dyna illness has broken out\nin this city.",
+  "status": "done"
  },
  {
   "id": "s821.03",
   "flag": 0,
   "speaker": 4,
   "jp": "シティに　すんでいる　ダイナと\nつれあるいている　ダイナの",
-  "en": "",
-  "status": "todo"
+  "en": "Please check right away on the condition of\nthe Dyna living in the city",
+  "status": "done"
  },
  {
   "id": "s821.04",
   "flag": 0,
   "speaker": 4,
   "jp": "じょうたいを　だいしきゅう\nかくにんしてください{KP}\nそれでは",
-  "en": "",
-  "status": "todo"
+  "en": "and the Dyna you have with you.{KP}\nWell then.",
+  "status": "done"
  },
  {
   "id": "s822.00",
   "flag": 0,
   "speaker": -1,
   "jp": "つうしんケーブルを　せつぞくして\nじっこうしたい　こうもくを　えらんでください{KN}",
-  "en": "",
-  "status": "todo"
+  "en": "Connect the link cable and choose what you\nwant to do.{KN}",
+  "status": "done"
  },
  {
   "id": "s823.00",
   "flag": 0,
   "speaker": -1,
   "jp": "こうかんできる　アイテムが　ありません{KN}",
-  "en": "",
-  "status": "todo"
+  "en": "There are no items you can trade.{KN}",
+  "status": "done"
  },
  {
   "id": "s824.00",
   "flag": 0,
   "speaker": -1,
   "jp": "アドレスちょうにも　ダイナにも\nあきが　ないので　こうかんできません{KN}",
-  "en": "",
-  "status": "todo"
+  "en": "There's no room in your address book or\nfor more Dyna, so you can't trade.{KN}",
+  "status": "done"
  },
  {
   "id": "s825.00",
   "flag": 0,
   "speaker": -1,
   "jp": "せつぞく　たいきちゅう・・・\nＢボタンで　まえの　がめんに　もどります{KN}",
-  "en": "",
-  "status": "todo"
+  "en": "Waiting for connection...\nPress the B Button to go back.{KN}",
+  "status": "done"
  },
  {
   "id": "s826.00",
   "flag": 0,
   "speaker": -1,
   "jp": "Ｒボタンで　めいしの　ないようを　かくにん\nもんだいなければ　Ａボタンを　おしてください{KN}",
-  "en": "",
-  "status": "todo"
+  "en": "Press the R Button to check the card.\nIf it's okay, press the A Button.{KN}",
+  "status": "done"
  },
  {
   "id": "s827.00",
   "flag": 0,
   "speaker": -1,
   "jp": "めいしこうかんを　はじめても　いいですか？\n　　　　　はい　　　　いいえ{KN}",
-  "en": "",
-  "status": "todo"
+  "en": "Start the Card Trade?\n          Yes         No{KN}",
+  "status": "done"
  },
  {
   "id": "s828.00",
   "flag": 0,
   "speaker": 1,
   "jp": "それじゃあ　みぎしたの　ウインドウから\nいちばんうえのワザを　えらんで",
-  "en": "",
-  "status": "todo"
+  "en": "Okay, now pick the top move from the\nwindow at the bottom right.",
+  "status": "done"
  },
  {
   "id": "s829.00",
   "flag": 0,
   "speaker": 1,
   "jp": "えらぶのは　いちばんうえの　ワザだってば！{KP}\n・・・もう　わたしの　いったこと\nわすれちゃったの？",
-  "en": "",
-  "status": "todo"
+  "en": "I said pick the top move!{KP}\n...Did you forget what I told you\nalready?",
+  "status": "done"
  },
  {
   "id": "s830.00",
   "flag": 0,
   "speaker": 1,
   "jp": "よし　どうやら　こっちのほうが\nすばやかったみたいね{KP}\nそれじゃあ　みぎしたの　ウインドウから\nいちばんうえのワザを　えらんで",
-  "en": "",
-  "status": "todo"
+  "en": "Good, looks like we were faster.{KP}\nOkay, now pick the top move from the\nwindow at the bottom right.",
+  "status": "done"
  },
  {
   "id": "s831.00",
   "flag": 0,
   "speaker": 1,
   "jp": "ここで　たおしちゃえば　はんげきを\nうけなかったのに・・・ザンネン{KP}\nあっ　はんげきが　くるわよ！",
-  "en": "",
-  "status": "todo"
+  "en": "If you'd knocked it out here, you wouldn't\nget hit back... Too bad.{KP}\nOh! Here comes the counterattack!",
+  "status": "done"
  },
  {
   "id": "s832.00",
   "flag": 0,
   "speaker": 1,
   "jp": "あちゃー　けっこう　つよく　そだててるのね\nゲニオくんの　ダイナ・・・{KP}\nま　これくらい　まだまだ　とりもどせるわ！\nしょうぶは　これからよ！",
-  "en": "",
-  "status": "todo"
+  "en": "Yikes, Genio-kun's Dyna is pretty well\ntrained...{KP}\nWell, we can still make up for this much!\nThe battle's only just begun!",
+  "status": "done"
  },
  {
   "id": "s833.00",
   "flag": 0,
   "speaker": 1,
   "jp": "くうー　おしかったのに！{KP}\nでも　つぎの　こうげきには\nもう　たえられないはずよ",
-  "en": "",
-  "status": "todo"
+  "en": "Argh, so close!{KP}\nBut it shouldn't be able to take another\nhit.",
+  "status": "done"
  }
 ]

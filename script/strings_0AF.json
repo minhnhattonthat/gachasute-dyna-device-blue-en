@@ -7,8 +7,8 @@
   ],
   "slot": 16,
   "jp": "ヨロシク仮面",
-  "en": "",
-  "status": "todo"
+  "en": "Howdy Mask",
+  "status": "done"
  },
  {
   "id": "t0AF6E0",
@@ -1121,8 +1121,8 @@
   ],
   "slot": 12,
   "jp": "センター",
-  "en": "",
-  "status": "todo"
+  "en": "Center",
+  "status": "done"
  },
  {
   "id": "t0AFCAC",
@@ -1132,8 +1132,8 @@
   ],
   "slot": 8,
   "jp": "ホーム",
-  "en": "",
-  "status": "todo"
+  "en": "Home",
+  "status": "done"
  },
  {
   "id": "t0AFCB4",
@@ -1143,8 +1143,8 @@
   ],
   "slot": 8,
   "jp": "ダスト",
-  "en": "",
-  "status": "todo"
+  "en": "Dust",
+  "status": "done"
  },
  {
   "id": "t0AFCBC",
@@ -1154,8 +1154,8 @@
   ],
   "slot": 16,
   "jp": "ファクトリー",
-  "en": "",
-  "status": "todo"
+  "en": "Factory",
+  "status": "done"
  },
  {
   "id": "t0AFCCC",
@@ -1165,8 +1165,8 @@
   ],
   "slot": 12,
   "jp": "サブウェイ",
-  "en": "",
-  "status": "todo"
+  "en": "Subway",
+  "status": "done"
  },
  {
   "id": "t0AFCD8",
@@ -1176,8 +1176,8 @@
   ],
   "slot": 12,
   "jp": "コロシアム",
-  "en": "",
-  "status": "todo"
+  "en": "Colosseum",
+  "status": "done"
  },
  {
   "id": "t0AFCE4",
@@ -1187,8 +1187,8 @@
   ],
   "slot": 12,
   "jp": "ショップ",
-  "en": "",
-  "status": "todo"
+  "en": "Shop",
+  "status": "done"
  },
  {
   "id": "t0AFCF0",
@@ -1199,8 +1199,8 @@
   ],
   "slot": 8,
   "jp": "ハウス",
-  "en": "",
-  "status": "todo"
+  "en": "House",
+  "status": "done"
  },
  {
   "id": "t0AFCF8",
@@ -1210,8 +1210,8 @@
   ],
   "slot": 12,
   "jp": "メガハウス",
-  "en": "",
-  "status": "todo"
+  "en": "Mega House",
+  "status": "done"
  },
  {
   "id": "t0AFD04",
@@ -1224,8 +1224,8 @@
   ],
   "slot": 12,
   "jp": "マウンテン",
-  "en": "",
-  "status": "todo"
+  "en": "Mountain",
+  "status": "done"
  },
  {
   "id": "t0AFD10",
@@ -1235,8 +1235,8 @@
   ],
   "slot": 12,
   "jp": "ウォーター",
-  "en": "",
-  "status": "todo"
+  "en": "Water",
+  "status": "done"
  },
  {
   "id": "t0AFD1C",
@@ -1246,8 +1246,8 @@
   ],
   "slot": 8,
   "jp": "ホール",
-  "en": "",
-  "status": "todo"
+  "en": "Hole",
+  "status": "done"
  },
  {
   "id": "t0AFD24",
@@ -1257,8 +1257,8 @@
   ],
   "slot": 8,
   "jp": "ランド",
-  "en": "",
-  "status": "todo"
+  "en": "Land",
+  "status": "done"
  },
  {
   "id": "t0AFD2C",
@@ -1268,8 +1268,8 @@
   ],
   "slot": 12,
   "jp": "グラウンド",
-  "en": "",
-  "status": "todo"
+  "en": "Ground",
+  "status": "done"
  },
  {
   "id": "t0AFD38",
@@ -1278,8 +1278,8 @@
   ],
   "slot": 8,
   "jp": "ダミー",
-  "en": "",
-  "status": "todo"
+  "en": "Dummy",
+  "status": "done"
  },
  {
   "id": "t0AFD40",
@@ -1288,8 +1288,8 @@
   ],
   "slot": 28,
   "jp": "げんざいの　セクタタイプ",
-  "en": "",
-  "status": "todo"
+  "en": "Current sector type",
+  "status": "done"
  },
  {
   "id": "t0AFD5C",
@@ -1298,8 +1298,8 @@
   ],
   "slot": 16,
   "jp": "サブウェイを",
-  "en": "",
-  "status": "todo"
+  "en": "For a Subway:",
+  "status": "done"
  },
  {
   "id": "t0AFD6C",
@@ -1308,8 +1308,8 @@
   ],
   "slot": 16,
   "jp": "ファクトリーを",
-  "en": "",
-  "status": "todo"
+  "en": "For a Factory:",
+  "status": "done"
  },
  {
   "id": "t0AFD7C",
@@ -1318,8 +1318,8 @@
   ],
   "slot": 16,
   "jp": "コロシアムを",
-  "en": "",
-  "status": "todo"
+  "en": "For a Colosseum:",
+  "status": "done"
  },
  {
   "id": "t0AFD8C",
@@ -1331,8 +1331,8 @@
   ],
   "slot": 24,
   "jp": "ひつようになる　キット",
-  "en": "",
-  "status": "todo"
+  "en": "to build one.",
+  "status": "done"
  },
  {
   "id": "t0AFDA4",
@@ -1344,8 +1344,8 @@
   ],
   "slot": 16,
   "jp": "たてるときに",
-  "en": "",
-  "status": "todo"
+  "en": "the kit you need",
+  "status": "done"
  },
  {
   "id": "t0AFDB4",
@@ -1354,8 +1354,8 @@
   ],
   "slot": 12,
   "jp": "ショップを",
-  "en": "",
-  "status": "todo"
+  "en": "For a Shop:",
+  "status": "done"
  },
  {
   "id": "t0AFDC0",
@@ -1366,8 +1366,8 @@
   ],
   "slot": 20,
   "jp": "アーマーデバイスの",
-  "en": "",
-  "status": "todo"
+  "en": "An Armor Device's",
+  "status": "done"
  },
  {
   "id": "t0AFDD4",
@@ -1377,8 +1377,8 @@
   ],
   "slot": 12,
   "jp": "３ポイント",
-  "en": "",
-  "status": "todo"
+  "en": "be raised by 3",
+  "status": "done"
  },
  {
   "id": "t0AFDE0",
@@ -1388,8 +1388,8 @@
   ],
   "slot": 12,
   "jp": "２ポイント",
-  "en": "",
-  "status": "todo"
+  "en": "be raised by 2",
+  "status": "done"
  },
  {
   "id": "t0AFDEC",
@@ -1403,8 +1403,8 @@
   ],
   "slot": 24,
   "jp": "ふやすことが　できる",
-  "en": "",
-  "status": "todo"
+  "en": "with this item.",
+  "status": "done"
  },
  {
   "id": "t0AFE04",
@@ -1414,8 +1414,8 @@
   ],
   "slot": 12,
   "jp": "１ポイント",
-  "en": "",
-  "status": "todo"
+  "en": "be raised by 1",
+  "status": "done"
  },
  {
   "id": "t0AFE10",
@@ -1429,8 +1429,8 @@
   ],
   "slot": 20,
   "jp": "プラスポイントを",
-  "en": "",
-  "status": "todo"
+  "en": "Plus Points can",
+  "status": "done"
  },
  {
   "id": "t0AFE24",
@@ -1441,8 +1441,8 @@
   ],
   "slot": 20,
   "jp": "ウェポンデバイスの",
-  "en": "",
-  "status": "todo"
+  "en": "A Weapon Device's",
+  "status": "done"
  },
  {
   "id": "t0AFE38",
@@ -1451,8 +1451,8 @@
   ],
   "slot": 12,
   "jp": "すばやさを",
-  "en": "",
-  "status": "todo"
+  "en": "Speed",
+  "status": "done"
  },
  {
   "id": "t0AFE44",
@@ -1461,8 +1461,8 @@
   ],
   "slot": 20,
   "jp": "ぼうぎょりょくを",
-  "en": "",
-  "status": "todo"
+  "en": "Defense",
+  "status": "done"
  },
  {
   "id": "t0AFE58",
@@ -1471,8 +1471,8 @@
   ],
   "slot": 20,
   "jp": "こうげきりょくを",
-  "en": "",
-  "status": "todo"
+  "en": "Attack",
+  "status": "done"
  },
  {
   "id": "t0AFE6C",
@@ -1484,8 +1484,8 @@
   ],
   "slot": 20,
   "jp": "１ポイント　あげる",
-  "en": "",
-  "status": "todo"
+  "en": "goes up by 1.",
+  "status": "done"
  },
  {
   "id": "t0AFE80",
@@ -1494,8 +1494,8 @@
   ],
   "slot": 16,
   "jp": "さいだいＨＰを",
-  "en": "",
-  "status": "todo"
+  "en": "max HP",
+  "status": "done"
  },
  {
   "id": "t0AFE90",
@@ -1508,8 +1508,8 @@
   ],
   "slot": 12,
   "jp": "ダイナの",
-  "en": "",
-  "status": "todo"
+  "en": "A Dyna's",
+  "status": "done"
  },
  {
   "id": "t0AFE9C",
@@ -1518,8 +1518,8 @@
   ],
   "slot": 20,
   "jp": "けんこうに　する",
-  "en": "",
-  "status": "todo"
+  "en": "status problems.",
+  "status": "done"
  },
  {
   "id": "t0AFEB0",
@@ -1528,8 +1528,8 @@
   ],
   "slot": 24,
   "jp": "ダイナの　じょうたいを",
-  "en": "",
-  "status": "todo"
+  "en": "Cures a Dyna's",
+  "status": "done"
  },
  {
   "id": "t0AFEC8",
@@ -1538,8 +1538,8 @@
   ],
   "slot": 12,
   "jp": "かんぜんに",
-  "en": "",
-  "status": "todo"
+  "en": "HP completely",
+  "status": "done"
  },
  {
   "id": "t0AFED4",
@@ -1548,8 +1548,8 @@
   ],
   "slot": 16,
   "jp": "１００ポイント",
-  "en": "",
-  "status": "todo"
+  "en": "HP by 100 points",
+  "status": "done"
  },
  {
   "id": "t0AFEE4",
@@ -1571,7 +1571,7 @@
   "slot": 4,
   "jp": "　",
   "en": "",
-  "status": "todo"
+  "status": "keep"
  },
  {
   "id": "t0AFEE8",
@@ -1582,8 +1582,8 @@
   ],
   "slot": 16,
   "jp": "かいふくする",
-  "en": "",
-  "status": "todo"
+  "en": "when used.",
+  "status": "done"
  },
  {
   "id": "t0AFEF8",
@@ -1592,8 +1592,8 @@
   ],
   "slot": 16,
   "jp": "３０ポイント",
-  "en": "",
-  "status": "todo"
+  "en": "HP by 30 points",
+  "status": "done"
  },
  {
   "id": "t0AFF08",
@@ -1604,8 +1604,8 @@
   ],
   "slot": 20,
   "jp": "ダイナの　ＨＰを",
-  "en": "",
-  "status": "todo"
+  "en": "Restores a Dyna's",
+  "status": "done"
  },
  {
   "id": "t0AFF1C",
@@ -1614,8 +1614,8 @@
   ],
   "slot": 24,
   "jp": "でんせつの　ほうせき",
-  "en": "",
-  "status": "todo"
+  "en": "legendary gem.",
+  "status": "done"
  },
  {
   "id": "t0AFF34",
@@ -1624,8 +1624,8 @@
   ],
   "slot": 20,
   "jp": "なぞに　つつまれた",
-  "en": "",
-  "status": "todo"
+  "en": "A mysterious,",
+  "status": "done"
  },
  {
   "id": "t0AFF48",
@@ -1634,8 +1634,8 @@
   ],
   "slot": 20,
   "jp": "ふれたことがない",
-  "en": "",
-  "status": "todo"
+  "en": "has ever seen it.",
+  "status": "done"
  },
  {
   "id": "t0AFF5C",
@@ -1644,8 +1644,8 @@
   ],
   "slot": 24,
   "jp": "ほとんど　ひとの　めに",
-  "en": "",
-  "status": "todo"
+  "en": "Hardly anyone",
+  "status": "done"
  },
  {
   "id": "t0AFF74",
@@ -1654,8 +1654,8 @@
   ],
   "slot": 20,
   "jp": "みどりの　ほうせき",
-  "en": "",
-  "status": "todo"
+  "en": "green gem.",
+  "status": "done"
  },
  {
   "id": "t0AFF88",
@@ -1664,8 +1664,8 @@
   ],
   "slot": 20,
   "jp": "きいろい　ほうせき",
-  "en": "",
-  "status": "todo"
+  "en": "yellow gem.",
+  "status": "done"
  },
  {
   "id": "t0AFF9C",
@@ -1674,8 +1674,8 @@
   ],
   "slot": 20,
   "jp": "あおい　ほうせき",
-  "en": "",
-  "status": "todo"
+  "en": "blue gem.",
+  "status": "done"
  },
  {
   "id": "t0AFFB0",
@@ -1684,8 +1684,8 @@
   ],
   "slot": 20,
   "jp": "あかい　ほうせき",
-  "en": "",
-  "status": "todo"
+  "en": "red gem.",
+  "status": "done"
  },
  {
   "id": "t0AFFC4",
@@ -1697,8 +1697,8 @@
   ],
   "slot": 12,
   "jp": "うみだす",
-  "en": "",
-  "status": "todo"
+  "en": "from this",
+  "status": "done"
  },
  {
   "id": "t0AFFD0",
@@ -1707,8 +1707,8 @@
   ],
   "slot": 24,
   "jp": "とうめいの　ほうせき",
-  "en": "",
-  "status": "todo"
+  "en": "colorless gem.",
+  "status": "done"
  },
  {
   "id": "t0AFFE8",
@@ -1717,8 +1717,8 @@
   ],
   "slot": 20,
   "jp": "うみだす　むしょく",
-  "en": "",
-  "status": "todo"
+  "en": "from this clear,",
+  "status": "done"
  },
  {
   "id": "t0AFFFC",
@@ -1731,7 +1731,7 @@
   ],
   "slot": 24,
   "jp": "おおきな　エネルギーを",
-  "en": "",
-  "status": "todo"
+  "en": "energy pours",
+  "status": "done"
  }
 ]

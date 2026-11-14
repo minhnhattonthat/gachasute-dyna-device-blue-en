@@ -28,7 +28,7 @@ WINDOW = {
     (3, 6): (64, "auction item names (upgrade mark at col 14)", "measured"),
     (3, 7): (58, "dyna shop card HP / mood (card inner x 114)", "measured"),
     (3, 8): (50, "resident map sector label (panel inner x 114)", "measured"),
-    (3, 9): (32, "field build menu header: sector type (box inner x 104)", "measured"),
+    (3, 9): (56, "field build menu header: sector type, right-aligned to x 104 by units (0x0804E4E6: col = 13 - units); row empty from col 6 (g_tut f21995)", "measured"),
     (3, 13): (28, "customize level value (tree frame x 133)", "measured"),
     (3, 15): (72, "dynapad title (screen inner x 192)", "measured"),
     (3, 16): (80, "sell list names (price column at x 213), party Dyna name", "measured"),
@@ -56,7 +56,7 @@ ID_WINDOW = {
 # id ranges by content (work/qa/strmap.txt, phase 5): start, end, px, variant, status
 CLASSES = [
     (0x0AF6D0, 0x0AF6DF, 64, "ヨロシク仮面 (where it shows: not found yet)", "guess"),
-    (0x0AFCA0, 0x0AFD3C, 32, "sector type names (field build menu header)", "measured"),
+    (0x0AFCA0, 0x0AFD3C, 56, "sector type names (field build menu header, right-aligned at col 13)", "measured"),
     (0x0AFD40, 0x0B211C, 88, "item / device description lines (4-line box) + device names", "measured"),
     (0x0B2128, 0x0B37A0, 64, "Dyna, weapon and device names", "measured"),
     (0x0B37A8, 0x0B3A9C, 64, "attack names", "measured"),

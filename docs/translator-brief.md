@@ -24,5 +24,18 @@ translated literally and losing its punch; character quirks flattened to neutral
   ゲームセンター, activities like サッカー/宿題, events like 運動会, nicknames): the strings batch must render
   them as bare nouns that read after "for", "at", "busy with", "graduating from", "collecting" (no article:
   "the arcade" only if it fits 64 px; activities as nouns: "soccer", "homework", "shopping").
+- Description lines (0x0AFD40-0x0B211C, 88 px each) are shared fragments: an item/device record is 4 line
+  pointers read as one JP phrase (`work/tl/desc_records.txt`: record -> its 4 ids; rebuild it from the table at
+  0x0BDB2C, 16 bytes a record). Translate a fragment so it reads in EVERY record that uses it, in its line slot;
+  English may move meaning between lines. Patterns set in b028: kits "For a Shop:" / "the kit you need" / "to build
+  one."; stat items "A Dyna's" / "max HP" / "goes up by 1."; Plus Points "A Weapon Device's" / "Plus Points can" /
+  "be raised by 1" / "with this item."; gems "<Elem>-element" (fire/water/thunder/earth: "Fire-element", むぞくせい:
+  "Non-element") / "energy pours" / "from this" / "red gem."; parts "Igarm type" / "and Zero-E type:" / "a part for
+  their" / "dedicated Devices."; armor metal "Very light, but" / "not very strong." / "Sturdy, but" / "very heavy.".
+  ダイナの (t0AFE90) is also line 1 of the House keyword ("A Dyna's" / "home sector."). Device records:
+  [type][category][line 1][line 2], line 2 often ends in the device name (ほのおが ふきだす / トリックスター).
+  A JP blank line "　" is status keep (t0AFEE4); never leave English empty.
+- Dyna body types (b028): イグアーム Igarm, テトロトップ Tetrotop, シェルブック Shellbook, バーディス Birdis,
+  キックバグ Kickbug, ゼロイー Zero-E, デュアロン Dualon, エコロード Ecoroad, メタボール Metaball, ゴストフリー Ghostfree.
 - An entry with any `\n` is not wrapped by the tool: lay out every line yourself and put `\n` after `{KP}` before
   a choice line (`<@N>` counts from the line start).

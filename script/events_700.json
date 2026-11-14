@@ -308,7 +308,7 @@
   "flag": 0,
   "speaker": 4,
   "jp": "ドラコースタイルの　{%sR1}ぞくせいが\nダイナネットから　おくられてきました{KN}",
-  "en": "a Draco-style Dyna of the {%sR1}\nelement has been sent from the Dyna{KP}\nNet.{KN}",
+  "en": "the Dyna Net has sent you a Draco style\nDyna of the {%sR1} element.{KN}",
   "status": "done"
  },
  {
