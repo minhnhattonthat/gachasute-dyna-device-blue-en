@@ -146,3 +146,4 @@ mode_opening	mode	46	1500	mode 46: opening movie (Dyna Pad, device cards, green 
 mode_map_test	mode	47	600	mode 47: map test (house room)
 mode_battle_test	mode	48	600	mode 48: battle test (CASE=)
 mode_data_view	mode	49	600	mode 49: DATA VIEW
+choice_yesno	fscript	37	150	Yurie's colosseum Yes/No choice (script 37 opens on it): checks choice-line layout

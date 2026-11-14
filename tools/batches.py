@@ -84,9 +84,12 @@ def pad_cols(line):
     for m in COL.finditer(line):
         out += line[pos:m.start()]
         gap = int(m[1]) * vwf.CELL - lint.line_width(out)
-        if gap < 0 or gap % vwf.char_width(" "):
+        if gap < 0:
             raise ValueError(f"<@{m[1]}>: text before it is {lint.line_width(out)} px, past column {m[1]}")
-        out += " " * (gap // vwf.char_width(" "))
+        sp = vwf.char_width(" ")
+        out += " " * -(-gap // sp)  # round up: at most sp-1 px right of the JP column
+        pos = m.end()
+        continue
         pos = m.end()
     return out + line[pos:]
 

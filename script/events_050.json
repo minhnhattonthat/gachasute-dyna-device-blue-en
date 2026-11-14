@@ -4,152 +4,152 @@
   "flag": 0,
   "speaker": 1,
   "jp": "とりあえず　どういう　はいちなのか\nけんとうもつかないから{KP}\nまんなかを　ていさつしてみましょうか{KP}\nまんなかを　えらんで　Ａボタンを　おしてね",
-  "en": "",
-  "status": "todo"
+  "en": "We have no idea how they're placed yet,{KP}\nso let's try scouting the middle.{KP}\nChoose the middle and press the A\nButton.",
+  "status": "done"
  },
  {
   "id": "s050.01",
   "flag": 0,
   "speaker": -1,
   "jp": "ていさつしたい　ポイントを　\nえらんでください{KN}",
-  "en": "",
-  "status": "todo"
+  "en": "Please choose the point you want to\nscout.{KN}",
+  "status": "done"
  },
  {
   "id": "s051.00",
   "flag": 0,
   "speaker": 1,
   "jp": "そこじゃないってば！　ここよ　ここ！",
-  "en": "",
-  "status": "todo"
+  "en": "Not there! Here, here!",
+  "status": "done"
  },
  {
   "id": "s051.01",
   "flag": 0,
   "speaker": -1,
   "jp": "ていさつしたい　ポイントを　\nえらんでください{KN}",
-  "en": "",
-  "status": "todo"
+  "en": "Please choose the point you want to\nscout.{KN}",
+  "status": "done"
  },
  {
   "id": "s052.00",
   "flag": 0,
   "speaker": 1,
   "jp": "けっかが　でたわ\nこの　データの　みかたを　せつめいするわね",
-  "en": "",
-  "status": "todo"
+  "en": "The results are in. I'll explain how to read\nthis data.",
+  "status": "done"
  },
  {
   "id": "s052.01",
   "flag": 0,
   "speaker": 1,
   "jp": "この　すうじは　いま　せんたくした\nマスを　ちゅうしんにした　９マスのなかに",
-  "en": "",
-  "status": "todo"
+  "en": "These numbers show, for the 9 squares\ncentered on the square you just chose,",
+  "status": "done"
  },
  {
   "id": "s052.02",
   "flag": 0,
   "speaker": 1,
   "jp": "ダイナと　トラップが　それぞれ\nいくつずつ　あるかを　あらわしているの",
-  "en": "",
-  "status": "todo"
+  "en": "how many Dyna and how many traps are in\nthem.",
+  "status": "done"
  },
  {
   "id": "s052.03",
   "flag": 0,
   "speaker": 1,
   "jp": "うえの　Ｄが　ダイナ\nしたの　Ｔが　トラップよ",
-  "en": "",
-  "status": "todo"
+  "en": "The D on top is for Dyna, and the T below\nis for traps.",
+  "status": "done"
  },
  {
   "id": "s052.04",
   "flag": 0,
   "speaker": 1,
   "jp": "つまり　この　９マスの　はんいには{KP}\nダイナが　１たいと\nトラップが　２つ　あるっていうことね",
-  "en": "",
-  "status": "todo"
+  "en": "So in these 9 squares,{KP}\nthere is 1 Dyna and 2 traps.",
+  "status": "done"
  },
  {
   "id": "s052.05",
   "flag": 0,
   "speaker": 1,
   "jp": "でも　わかるのは　かずだけで　じっさいに\nどこにあるかは　ふつうは　わからないの",
-  "en": "",
-  "status": "todo"
+  "en": "But all you learn is how many. Normally you\ncan't tell exactly where they are.",
+  "status": "done"
  },
  {
   "id": "s052.06",
   "flag": 0,
   "speaker": 1,
   "jp": "ふつうじゃない　ばあいっていうのは\nあとでまた　せつめいするね",
-  "en": "",
-  "status": "todo"
+  "en": "I'll explain the not-normal cases later.",
+  "status": "done"
  },
  {
   "id": "s052.07",
   "flag": 0,
   "speaker": 1,
   "jp": "これで　こっちの　こうどうは　おわり\nつぎは　あいての　こうどうに　なるわ",
-  "en": "",
-  "status": "todo"
+  "en": "That ends our move. Next, it's the\nopponent's turn.",
+  "status": "done"
  },
  {
   "id": "s052.08",
   "flag": 0,
   "speaker": 1,
   "jp": "ゲニオくんの　おてなみはいけんと\nいきましょう{KN}",
-  "en": "",
-  "status": "todo"
+  "en": "Let's see what Genio-kun can do.{KN}",
+  "status": "done"
  },
  {
   "id": "s053.00",
   "flag": 0,
   "speaker": 1,
   "jp": "ええっ！？　いきなり　こうげき！？\nうわぁ　ゲニオくんらしいなぁ・・・",
-  "en": "",
-  "status": "todo"
+  "en": "Whaaat!? He's attacking right away!?\nWow, that's so Genio-kun...",
+  "status": "done"
  },
  {
   "id": "s054.00",
   "flag": 0,
   "speaker": 1,
   "jp": "あらら　ぜんぜん　かんけいないところに\nきたわね・・・",
-  "en": "",
-  "status": "todo"
+  "en": "Oh my, he hit somewhere totally\nunrelated...",
+  "status": "done"
  },
  {
   "id": "s054.01",
   "flag": 0,
   "speaker": 1,
   "jp": "こんなふうに　なんにもないところに\nこうげきすると　１ターン　ムダになるワケ",
-  "en": "",
-  "status": "todo"
+  "en": "See, when you attack a spot with nothing\nthere, you waste a turn.",
+  "status": "done"
  },
  {
   "id": "s054.02",
   "flag": 0,
   "speaker": 1,
   "jp": "それでも　トラップに　かかっちゃったり\nするよりは　ぜんぜん　いいんだけどね",
-  "en": "",
-  "status": "todo"
+  "en": "Still, it's way better than walking into a\ntrap.",
+  "status": "done"
  },
  {
   "id": "s054.03",
   "flag": 0,
   "speaker": 1,
   "jp": "じゃあ　こっちの　２ターンめ\nはりきっていってみよっか{KN}",
-  "en": "",
-  "status": "todo"
+  "en": "Okay, it's our 2nd turn. Let's go for it!{KN}",
+  "status": "done"
  },
  {
   "id": "s055.00",
   "flag": 0,
   "speaker": 1,
   "jp": "とりあえず　トラップが　あるみたいだし\nもういっかい　ていさつしてみましょう",
-  "en": "",
-  "status": "todo"
+  "en": "There seems to be a trap, so let's scout\none more time.",
+  "status": "done"
  },
  {
   "id": "s055.01",
