@@ -64,7 +64,9 @@ def load_budgets():
         for ln in BUDGETS.read_text(encoding="utf-8").splitlines():
             if not ln.strip() or ln.startswith("#"):
                 continue
-            a, b, px, lines, variant = ln.split("\t")[:5]
+            a, b, px, lines, variant, *status = ln.split("\t")
+            if status and status[0].strip() == "guess":
+                variant += " (guess)"
             out.append((int(a, 16), int(b, 16), int(px), int(lines), variant))
     return out
 
@@ -108,6 +110,9 @@ def check_entry(e, budgets):
             warns.append("no measured budget")
         else:
             px, lines, variant = b
+            if variant.endswith("(guess)"):
+                # an unmeasured window is at least as wide as the JP line the original drew in it
+                px = max([px] + [line_width(line) for line in jp.split("\n")])
             ls = en.split("\n")
             if len(ls) > lines:
                 errs.append(f"{len(ls)} lines > {lines} ({variant})")

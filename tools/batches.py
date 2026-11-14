@@ -28,7 +28,7 @@ vwf = lint.vwf
 
 # ---- ADAPTER: this game's text format ----
 TOKEN = re.compile(r"\{[^{}\n]*\}|\[[0-9A-Fa-f]{2}\]")  # codes; lint checks the ones that must match
-FREE = {"{KP}"}  # pages may be added freely
+FREE = {"{KP}", "[7F]"}  # pages may be added freely; [7F] = PAD, a zero-width filler byte (fixed-size slices)
 VARIABLE = r"\{%[^{}]*\}"  # a register the game fills in: no "1st"/"1th" suffix after it
 HONORIFICS = {}  # kept (D1) but not machine-checked: さん/くん are inside common kana words (みなさん, たくさん)
 SPEAKERS = {-1: "", 1: "Yurie", 2: "Genio", 3: "Ippa", 4: "Navyu", 5: "G-Force", 6: "Byler grunt", 7: "Jorna",

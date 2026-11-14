@@ -43,8 +43,8 @@
 0B67B8	0B67B8	100	1	keyword help box (inner x 111; work/qa/help12: a 12-char JP line fits)	measured
 0B67D0	0B67D0	100	1	keyword help box (inner x 111; work/qa/help12: a 12-char JP line fits)	measured
 0B67E4	0B67E4	100	1	keyword help box (inner x 111; work/qa/help12: a 12-char JP line fits)	measured
-0B8150	0B8150	64	1	auction item names (upgrade mark at col 14)	measured
-0B8158	0B8158	64	1	auction item names (upgrade mark at col 14)	measured
+0B8150	0B8150	88	1	item-get lines (JP {%sR1}を てにいれた！ is 120 px; marker sat in the auction list)	guess
+0B8158	0B8158	88	1	item-get lines (JP {%sR1}を てにいれた！ is 120 px; marker sat in the auction list)	guess
 0B91A4	0B91A4	70	1	item menu list (count at x 209)	measured
 0B91A8	0B91A8	70	1	item menu list (count at x 209)	measured
 0B91AC	0B91AC	70	1	item menu list (count at x 209)	measured
@@ -91,11 +91,11 @@
 0B9D08	0B9D08	88	1	description box (item, shop, sell, DB help): x 8, frame x 98	measured
 0B9D14	0B9D14	88	1	description box (item, shop, sell, DB help): x 8, frame x 98	measured
 0B9D94	0B9D94	86	1	field build menu (box inner x 104), team help (frame x 106), PDA schedule cells	measured
-0B9D9C	0B9D9C	86	1	field build menu (box inner x 104), team help (frame x 106), PDA schedule cells	measured
+0B9D9C	0B9D9C	86	1	field build menu row: 7 cells + %s register (register must be short: cost?)	guess
 0B9DB0	0B9DB0	86	1	field build menu (box inner x 104), team help (frame x 106), PDA schedule cells	measured
 0B9DC0	0B9DC0	86	1	field build menu (box inner x 104), team help (frame x 106), PDA schedule cells	measured
 0B9DCC	0B9DCC	86	1	field build menu (box inner x 104), team help (frame x 106), PDA schedule cells	measured
-0B9DE0	0B9DE0	86	1	field build menu (box inner x 104), team help (frame x 106), PDA schedule cells	measured
+0B9DE0	0B9DE0	86	1	field build menu row: 7 cells + %s register (register must be short: cost?)	guess
 0B9DF4	0B9DF4	86	1	field build menu (box inner x 104), team help (frame x 106), PDA schedule cells	measured
 0B9E00	0B9E00	86	1	field build menu (box inner x 104), team help (frame x 106), PDA schedule cells	measured
 0B9E14	0B9E14	86	1	field build menu (box inner x 104), team help (frame x 106), PDA schedule cells	measured

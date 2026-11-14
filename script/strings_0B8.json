@@ -50,8 +50,8 @@
   ],
   "slot": 16,
   "jp": "ひょうじします",
-  "en": "",
-  "status": "todo"
+  "en": "cursor is on.",
+  "status": "done"
  },
  {
   "id": "t0B8070",
@@ -60,8 +60,8 @@
   ],
   "slot": 24,
   "jp": "アイテムの　せつめいを",
-  "en": "",
-  "status": "todo"
+  "en": "of the item the",
+  "status": "done"
  },
  {
   "id": "t0B8088",
@@ -70,8 +70,8 @@
   ],
   "slot": 24,
   "jp": "カーソルが　あっている",
-  "en": "",
-  "status": "todo"
+  "en": "Shows a description",
+  "status": "done"
  },
  {
   "id": "t0B80A0",
@@ -80,8 +80,8 @@
   ],
   "slot": 20,
   "jp": "{%2dR0}／{%2dR1}ページ",
-  "en": "",
-  "status": "todo"
+  "en": "Page {%2dR0}/{%2dR1}",
+  "status": "done"
  },
  {
   "id": "t0B80B4",
@@ -90,8 +90,8 @@
   ],
   "slot": 12,
   "jp": "＋{%02dR0}",
-  "en": "",
-  "status": "todo"
+  "en": "+{%02dR0}",
+  "status": "done"
  },
  {
   "id": "t0B80C0",
@@ -105,8 +105,8 @@
   ],
   "slot": 8,
   "jp": "{%sR0}を",
-  "en": "",
-  "status": "todo"
+  "en": "{%sR0}",
+  "status": "done"
  },
  {
   "id": "t0B80C8",
@@ -115,8 +115,8 @@
   ],
   "slot": 20,
   "jp": "あきらめますか？",
-  "en": "",
-  "status": "todo"
+  "en": "Give it up?",
+  "status": "done"
  },
  {
   "id": "t0B80DC",
@@ -127,8 +127,8 @@
   ],
   "slot": 24,
   "jp": "　　はい　　　いいえ",
-  "en": "",
-  "status": "todo"
+  "en": "    Yes       No",
+  "status": "done"
  },
  {
   "id": "t0B80F4",
@@ -138,8 +138,8 @@
   ],
   "slot": 20,
   "jp": "ダイナセンターに",
-  "en": "",
-  "status": "todo"
+  "en": "To the Dyna Center:",
+  "status": "done"
  },
  {
   "id": "t0B8108",
@@ -148,8 +148,8 @@
   ],
   "slot": 20,
   "jp": "てんそうしますか？",
-  "en": "",
-  "status": "todo"
+  "en": "Send it?",
+  "status": "done"
  },
  {
   "id": "t0B811C",
@@ -158,8 +158,8 @@
   ],
   "slot": 24,
   "jp": "すてても　いいですか？",
-  "en": "",
-  "status": "todo"
+  "en": "Throw it away?",
+  "status": "done"
  },
  {
   "id": "t0B8134",
@@ -168,8 +168,8 @@
   ],
   "slot": 8,
   "jp": "すてた",
-  "en": "",
-  "status": "todo"
+  "en": "Threw it away.",
+  "status": "done"
  },
  {
   "id": "t0B813C",
@@ -178,8 +178,8 @@
   ],
   "slot": 20,
   "jp": "てんそうしました",
-  "en": "",
-  "status": "todo"
+  "en": "Sent it.",
+  "status": "done"
  },
  {
   "id": "t0B8150",
@@ -188,8 +188,8 @@
   ],
   "slot": 8,
   "jp": "{%sR0}は",
-  "en": "",
-  "status": "todo"
+  "en": "{%sR0} got",
+  "status": "done"
  },
  {
   "id": "t0B8158",
@@ -198,8 +198,8 @@
   ],
   "slot": 24,
   "jp": "{%sR1}を　てにいれた！",
-  "en": "",
-  "status": "todo"
+  "en": "{%sR1}!",
+  "status": "done"
  },
  {
   "id": "t0B8170",
@@ -208,8 +208,8 @@
   ],
   "slot": 20,
   "jp": "しかし　もちものが",
-  "en": "",
-  "status": "todo"
+  "en": "But the bag",
+  "status": "done"
  },
  {
   "id": "t0B8184",
@@ -218,8 +218,8 @@
   ],
   "slot": 20,
   "jp": "いっぱいだった！",
-  "en": "",
-  "status": "todo"
+  "en": "was full!",
+  "status": "done"
  },
  {
   "id": "t0B8198",
@@ -228,8 +228,8 @@
   ],
   "slot": 36,
   "jp": "ダイナセンターに　てんそうした！",
-  "en": "",
-  "status": "todo"
+  "en": "Sent to the Dyna Center!",
+  "status": "done"
  },
  {
   "id": "t0B81BC",
@@ -238,8 +238,8 @@
   ],
   "slot": 20,
   "jp": "なにかすてますか？",
-  "en": "",
-  "status": "todo"
+  "en": "Discard something?",
+  "status": "done"
  },
  {
   "id": "t0B81D0",
@@ -248,8 +248,8 @@
   ],
   "slot": 32,
   "jp": "　　　　　はい　　　　いいえ",
-  "en": "",
-  "status": "todo"
+  "en": "          Yes         No",
+  "status": "done"
  },
  {
   "id": "t0B81F0",
@@ -258,8 +258,8 @@
   ],
   "slot": 20,
   "jp": "{%sR0}を　あきらめた",
-  "en": "",
-  "status": "todo"
+  "en": "Gave up {%sR0}.",
+  "status": "done"
  },
  {
   "id": "t0B8204",
@@ -268,8 +268,8 @@
   ],
   "slot": 12,
   "jp": "遊びに行く",
-  "en": "",
-  "status": "todo"
+  "en": "Go play",
+  "status": "done"
  },
  {
   "id": "t0B8210",
@@ -279,8 +279,8 @@
   ],
   "slot": 12,
   "jp": "勉強する",
-  "en": "",
-  "status": "todo"
+  "en": "Study",
+  "status": "done"
  },
  {
   "id": "t0B821C",
@@ -289,8 +289,8 @@
   ],
   "slot": 28,
   "jp": "冬休みの宿題を終わらせる",
-  "en": "",
-  "status": "todo"
+  "en": "Do winter homework",
+  "status": "done"
  },
  {
   "id": "t0B8238",
@@ -299,8 +299,8 @@
   ],
   "slot": 12,
   "jp": "２０－－年",
-  "en": "",
-  "status": "todo"
+  "en": "20--/",
+  "status": "done"
  },
  {
   "id": "t0B8244",
@@ -309,8 +309,8 @@
   ],
   "slot": 16,
   "jp": "－－月－－日",
-  "en": "",
-  "status": "todo"
+  "en": "--/--",
+  "status": "done"
  },
  {
   "id": "t0B8254",
@@ -319,8 +319,8 @@
   ],
   "slot": 44,
   "jp": "（日）（月）（火）（水）（木）（金）（土）",
-  "en": "",
-  "status": "todo"
+  "en": "Sun[7F][7F][7F]Mon[7F][7F][7F]Tue[7F][7F][7F]Wed[7F][7F][7F]Thu[7F][7F][7F]Fri[7F][7F][7F]Sat[7F][7F][7F]",
+  "status": "done"
  },
  {
   "id": "t0B8280",
@@ -329,8 +329,8 @@
   ],
   "slot": 24,
   "jp": "－－：－－～－－：－－",
-  "en": "",
-  "status": "todo"
+  "en": "--:--~--:--",
+  "status": "done"
  },
  {
   "id": "t0B8298",
@@ -339,8 +339,8 @@
   ],
   "slot": 16,
   "jp": "～－－／－－",
-  "en": "",
-  "status": "todo"
+  "en": "~--/--",
+  "status": "done"
  },
  {
   "id": "t0B82A8",
@@ -1046,8 +1046,8 @@
   ],
   "slot": 8,
   "jp": "{C3}３",
-  "en": "",
-  "status": "todo"
+  "en": "{C3}3",
+  "status": "done"
  },
  {
   "id": "t0B8B00",
@@ -1056,8 +1056,8 @@
   ],
   "slot": 8,
   "jp": "{C3}２",
-  "en": "",
-  "status": "todo"
+  "en": "{C3}2",
+  "status": "done"
  },
  {
   "id": "t0B8B08",
@@ -1066,8 +1066,8 @@
   ],
   "slot": 8,
   "jp": "{C3}１",
-  "en": "",
-  "status": "todo"
+  "en": "{C3}1",
+  "status": "done"
  },
  {
   "id": "t0B8B10",
@@ -1087,8 +1087,8 @@
   ],
   "slot": 4,
   "jp": "－",
-  "en": "",
-  "status": "todo"
+  "en": "-",
+  "status": "done"
  },
  {
   "id": "t0B8B1C",
@@ -1108,8 +1108,8 @@
   ],
   "slot": 4,
   "jp": "→",
-  "en": "",
-  "status": "todo"
+  "en": ">",
+  "status": "done"
  },
  {
   "id": "t0B8B24",
@@ -1118,8 +1118,8 @@
   ],
   "slot": 28,
   "jp": "とうろくしたい　たんごを",
-  "en": "",
-  "status": "todo"
+  "en": "Enter the word",
+  "status": "done"
  },
  {
   "id": "t0B8B40",
@@ -1128,8 +1128,8 @@
   ],
   "slot": 28,
   "jp": "にゅうりょくしてください",
-  "en": "",
-  "status": "todo"
+  "en": "you want to register.",
+  "status": "done"
  },
  {
   "id": "t0B8B5C",
@@ -1138,8 +1138,8 @@
   ],
   "slot": 28,
   "jp": "　　　　つかう＝Ａボタン",
-  "en": "",
-  "status": "todo"
+  "en": "A Button: Use",
+  "status": "done"
  },
  {
   "id": "t0B8B78",
@@ -1148,8 +1148,8 @@
   ],
   "slot": 28,
   "jp": "しゅうせいする＝Ｒボタン",
-  "en": "",
-  "status": "todo"
+  "en": "R Button: Edit",
+  "status": "done"
  },
  {
   "id": "t0B8B94",
@@ -1158,8 +1158,8 @@
   ],
   "slot": 28,
   "jp": "　　　　やめる＝Ｂボタン",
-  "en": "",
-  "status": "todo"
+  "en": "B Button: Quit",
+  "status": "done"
  },
  {
   "id": "t0B8BB0",
@@ -1168,8 +1168,8 @@
   ],
   "slot": 24,
   "jp": "とうろくする＝Ｒボタン",
-  "en": "",
-  "status": "todo"
+  "en": "R Button: Register",
+  "status": "done"
  },
  {
   "id": "t0B8BC8",
@@ -1178,8 +1178,8 @@
   ],
   "slot": 24,
   "jp": "　　　やめる＝Ｂボタン",
-  "en": "",
-  "status": "todo"
+  "en": "B Button: Quit",
+  "status": "done"
  },
  {
   "id": "t0B8BE0",
@@ -1199,8 +1199,8 @@
   ],
   "slot": 8,
   "jp": "{C2}３",
-  "en": "",
-  "status": "todo"
+  "en": "{C2}3",
+  "status": "done"
  },
  {
   "id": "t0B8BF0",
@@ -1209,8 +1209,8 @@
   ],
   "slot": 52,
   "jp": "このばんごうは　げんざい　つかわれて　おりません",
-  "en": "",
-  "status": "todo"
+  "en": "The number you dialed is not in service.",
+  "status": "done"
  },
  {
   "id": "t0B8C24",
@@ -1230,8 +1230,8 @@
   ],
   "slot": 16,
   "jp": "ＡＢ型　ＲＨ－",
-  "en": "",
-  "status": "todo"
+  "en": "AB Rh-       ",
+  "status": "done"
  },
  {
   "id": "t0B8EB0",
@@ -1240,8 +1240,8 @@
   ],
   "slot": 16,
   "jp": "Ｏ型　ＲＨ－　",
-  "en": "",
-  "status": "todo"
+  "en": "O Rh-         ",
+  "status": "done"
  },
  {
   "id": "t0B8EC0",
@@ -1250,8 +1250,8 @@
   ],
   "slot": 16,
   "jp": "Ｂ型　ＲＨ－　",
-  "en": "",
-  "status": "todo"
+  "en": "B Rh-         ",
+  "status": "done"
  },
  {
   "id": "t0B8ED0",
@@ -1260,8 +1260,8 @@
   ],
   "slot": 16,
   "jp": "Ａ型　ＲＨ－　",
-  "en": "",
-  "status": "todo"
+  "en": "A Rh-         ",
+  "status": "done"
  },
  {
   "id": "t0B8EE0",
@@ -1270,8 +1270,8 @@
   ],
   "slot": 16,
   "jp": "ＡＢ型　　　　",
-  "en": "",
-  "status": "todo"
+  "en": "AB            ",
+  "status": "done"
  },
  {
   "id": "t0B8EF0",
@@ -1280,8 +1280,8 @@
   ],
   "slot": 16,
   "jp": "Ｏ型　　　　　",
-  "en": "",
-  "status": "todo"
+  "en": "O             ",
+  "status": "done"
  },
  {
   "id": "t0B8F00",
@@ -1290,8 +1290,8 @@
   ],
   "slot": 16,
   "jp": "Ｂ型　　　　　",
-  "en": "",
-  "status": "todo"
+  "en": "B             ",
+  "status": "done"
  },
  {
   "id": "t0B8F10",
@@ -1300,8 +1300,8 @@
   ],
   "slot": 16,
   "jp": "Ａ型　　　　　",
-  "en": "",
-  "status": "todo"
+  "en": "A             ",
+  "status": "done"
  },
  {
   "id": "t0B8F20",
@@ -1310,8 +1310,8 @@
   ],
   "slot": 16,
   "jp": "わからない　　",
-  "en": "",
-  "status": "todo"
+  "en": "Unknown     ",
+  "status": "done"
  },
  {
   "id": "t0B8F30",
@@ -1320,8 +1320,8 @@
   ],
   "slot": 8,
   "jp": "おんな",
-  "en": "",
-  "status": "todo"
+  "en": "Girl",
+  "status": "done"
  },
  {
   "id": "t0B8F38",
@@ -1330,8 +1330,8 @@
   ],
   "slot": 8,
   "jp": "おとこ",
-  "en": "",
-  "status": "todo"
+  "en": "Boy",
+  "status": "done"
  },
  {
   "id": "t0B8F40",
@@ -1382,8 +1382,8 @@
   ],
   "slot": 4,
   "jp": "…",
-  "en": "",
-  "status": "todo"
+  "en": "...",
+  "status": "done"
  },
  {
   "id": "t0B8F50",
@@ -1394,8 +1394,8 @@
   ],
   "slot": 20,
   "jp": "{%04dR2}年{%02dR3}月",
-  "en": "",
-  "status": "todo"
+  "en": "{%04dR2}/{%02dR3}/",
+  "status": "done"
  },
  {
   "id": "t0B8F64",
@@ -1406,8 +1406,8 @@
   ],
   "slot": 12,
   "jp": "{%02dR4}日",
-  "en": "",
-  "status": "todo"
+  "en": "{%02dR4}",
+  "status": "done"
  },
  {
   "id": "t0B8F70",
@@ -1431,7 +1431,7 @@
   "slot": 128,
   "jp": "　１　２　３　４　５　６　７　８　９１０１１１２１３１４１５１６１７１８１９２０２１２２２３２４２５２６２７２８２９３０３１",
   "en": "",
-  "status": "todo"
+  "status": "keep"
  },
  {
   "id": "t0B8FF8",
@@ -1440,8 +1440,8 @@
   ],
   "slot": 4,
   "jp": "土",
-  "en": "",
-  "status": "todo"
+  "en": "Sa",
+  "status": "done"
  },
  {
   "id": "t0B8FFC",
@@ -1450,7 +1450,7 @@
   ],
   "slot": 4,
   "jp": "金",
-  "en": "",
-  "status": "todo"
+  "en": "Fr",
+  "status": "done"
  }
 ]

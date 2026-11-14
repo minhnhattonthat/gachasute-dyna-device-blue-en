@@ -47,6 +47,11 @@ ID_WINDOW = {
     ("t0BB1B8", 7): (74, "battle result name (count column at x 131)", "measured"),
     ("t0B2058", 13): (70, "tutorial team card name (Lv at x 176)", "measured"),
     ("t0B9F44", 15): (24, "keyword list number (name at col 18)", "measured"),
+    # the JP lines are wider than these marker placements: unmeasured, at least the JP width (phase 8: look)
+    **{(i, 6): (88, "item-get lines (JP {%sR1}を てにいれた！ is 120 px; marker sat in the auction list)", "guess")
+       for i in ("t0B8150", "t0B8158")},
+    **{(i, 2): (86, "field build menu row: 7 cells + %s register (register must be short: cost?)", "guess")
+       for i in ("t0B9D9C", "t0B9DE0")},
     ("t0BA6D0", 15): (114, "money line (dyna shop, shop list)", "measured"),
     ("t0BA79C", 15): (112, "shop list spec panel (inner x 233)", "measured"),
     **{(i, 1): (100, "keyword help box (inner x 111; work/qa/help12: a 12-char JP line fits)", "measured")
