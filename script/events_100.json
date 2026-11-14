@@ -3932,840 +3932,840 @@
   "flag": 0,
   "speaker": 4,
   "jp": "バイラーは　また　かならず　この\nシティに　せめてくるはずですから・・・",
-  "en": "",
-  "status": "todo"
+  "en": "because Byler is sure to attack this City\nagain...",
+  "status": "done"
  },
  {
   "id": "s135.17",
   "flag": 0,
   "speaker": -1,
   "jp": "テリーによって　ダイナシティに\nかけられていた　ふういんが　とけて",
-  "en": "",
-  "status": "todo"
+  "en": "The seal Terry had put on the Dyna City\nwas broken,",
+  "status": "done"
  },
  {
   "id": "s135.18",
   "flag": 0,
   "speaker": -1,
   "jp": "ダイナシティぜんたいの　サイズが\n１００セクタ　ひろがりました",
-  "en": "",
-  "status": "todo"
+  "en": "and the whole Dyna City grew by 100\nsectors.",
+  "status": "done"
  },
  {
   "id": "s136.00",
   "flag": 0,
   "speaker": 1,
   "jp": "{%sR4}くん・・・あいつと\nバトルしちゃ　ダメだよ・・・{KP}\nあいつの　ねらいは\nこのシティなんだから・・・",
-  "en": "",
-  "status": "todo"
+  "en": "{%sR4}-kun... Don't battle him...{KP}\nIt's this City he's after...",
+  "status": "done"
  },
  {
   "id": "s137.00",
   "flag": 0,
   "speaker": 3,
   "jp": "おーい　{%sR4}―！",
-  "en": "",
-  "status": "todo"
+  "en": "Hey, {%sR4}!",
+  "status": "done"
  },
  {
   "id": "s137.01",
   "flag": 0,
   "speaker": 3,
   "jp": "きょうも　ユリエちゃん　がっこう\nやすんでたね・・・{KP}\nまだ　めが　さめないのかな・・・・・・・・\n・・・・・・・・・・・・・・・・・・・・・",
-  "en": "",
-  "status": "todo"
+  "en": "Yurie-chan was off school again today,\nhuh...{KP}\nI wonder if she still hasn't woken\nup............{KP}\n..................",
+  "status": "done"
  },
  {
   "id": "s137.02",
   "flag": 0,
   "speaker": 3,
   "jp": "・・・キミのせいじゃないさ　げんきだせよ\nしかし　なにか　てがかりは　ないものかなぁ",
-  "en": "",
-  "status": "todo"
+  "en": "...It's not your fault, so cheer up.{KP}\nStill, there must be some kind of clue...",
+  "status": "done"
  },
  {
   "id": "s137.03",
   "flag": 0,
   "speaker": 7,
   "jp": "ありますぅぅーっ！",
-  "en": "",
-  "status": "todo"
+  "en": "There iiis!",
+  "status": "done"
  },
  {
   "id": "s137.04",
   "flag": 0,
   "speaker": 3,
   "jp": "うわっ　なんだ！？",
-  "en": "",
-  "status": "todo"
+  "en": "Whoa! What the!?",
+  "status": "done"
  },
  {
   "id": "s137.05",
   "flag": 0,
   "speaker": 7,
   "jp": "えへへへぇ・・・おひさしぶりですぅ",
-  "en": "",
-  "status": "todo"
+  "en": "Ehehehe... Long time no seeee.",
+  "status": "done"
  },
  {
   "id": "s137.06",
   "flag": 0,
   "speaker": 3,
   "jp": "・・・キミは　たしか　バイラーの・・・！",
-  "en": "",
-  "status": "todo"
+  "en": "...You're... from Byler, aren't you...!",
+  "status": "done"
  },
  {
   "id": "s137.07",
   "flag": 0,
   "speaker": 7,
   "jp": "ままままま　まって　まってくださいぃ！",
-  "en": "",
-  "status": "todo"
+  "en": "W-w-w-w-wait, pleeease wait!",
+  "status": "done"
  },
  {
   "id": "s137.08",
   "flag": 0,
   "speaker": 7,
   "jp": "わ・・・わたくしはぁ　もう　バイラーはぁ\n・・・そのぅ・・・やめたんでぇす",
-  "en": "",
-  "status": "todo"
+  "en": "I... I... um... I quit Byler... you seeee...",
+  "status": "done"
  },
  {
   "id": "s137.09",
   "flag": 0,
   "speaker": 3,
   "jp": "・・・やめた？\n・・・なんか　しんじられないなぁ・・・",
-  "en": "",
-  "status": "todo"
+  "en": "...You quit?{KP}\n...I don't know if I can believe that...",
+  "status": "done"
  },
  {
   "id": "s137.10",
   "flag": 0,
   "speaker": 7,
   "jp": "しんじてくださいよぉぉ",
-  "en": "",
-  "status": "todo"
+  "en": "Pleeease believe meee!",
+  "status": "done"
  },
  {
   "id": "s137.11",
   "flag": 0,
   "speaker": 7,
   "jp": "あのコに　かんするぅ　とぉっておきの\nじょうほうを　おおしえしますからぁ",
-  "en": "",
-  "status": "todo"
+  "en": "I'll tell you some reeeally special\ninformation about that girl.",
+  "status": "done"
  },
  {
   "id": "s137.12",
   "flag": 0,
   "speaker": 3,
   "jp": "・・・だってさ\nどうする？　しんじる？",
-  "en": "",
-  "status": "todo"
+  "en": "...So she says.{KP}\nWhat do you think? Do we believe her?",
+  "status": "done"
  },
  {
   "id": "s137.13",
   "flag": 0,
   "speaker": 3,
   "jp": "・・・・・・{KP}\n・・・うん　そうか",
-  "en": "",
-  "status": "todo"
+  "en": "......{KP}\n...Yeah, I see.",
+  "status": "done"
  },
  {
   "id": "s137.14",
   "flag": 0,
   "speaker": 3,
   "jp": "わかった　ボクらは　キミを　しんじよう\nじょうほうを　おしえてくれるかい？",
-  "en": "",
-  "status": "todo"
+  "en": "All right, we'll believe you.{KP}\nWill you tell us what you know?",
+  "status": "done"
  },
  {
   "id": "s137.15",
   "flag": 0,
   "speaker": 7,
   "jp": "は　はいっ！　きいてくださぁいっ",
-  "en": "",
-  "status": "todo"
+  "en": "Y-yes! Pleeease listen!",
+  "status": "done"
  },
  {
   "id": "s137.16",
   "flag": 0,
   "speaker": 7,
   "jp": "じつは　かのじょはぁ　バイラーの　アジト\nバイラーシティに　いるんですぅ",
-  "en": "",
-  "status": "todo"
+  "en": "The truth is, she's in Byler's hideout,{KP}\nByler Cityyy!",
+  "status": "done"
  },
  {
   "id": "s137.17",
   "flag": 0,
   "speaker": 3,
   "jp": "バイラーシティ？・・・もしかして　うわさの\nきょだいな　シティのことか？",
-  "en": "",
-  "status": "todo"
+  "en": "Byler City?... You mean that huge City\neveryone's been whispering about?",
+  "status": "done"
  },
  {
   "id": "s137.18",
   "flag": 0,
   "speaker": 3,
   "jp": "いったい　そこには\nどうやっていけばいいんだ？",
-  "en": "",
-  "status": "todo"
+  "en": "How on earth do we get there?",
+  "status": "done"
  },
  {
   "id": "s137.19",
   "flag": 0,
   "speaker": 7,
   "jp": "バイラーシティはぁ　ほかのシティとは\nつながっていないのでぇ",
-  "en": "",
-  "status": "todo"
+  "en": "Byler City isn't connected to any other\nCities, sooo...",
+  "status": "done"
  },
  {
   "id": "s137.20",
   "flag": 0,
   "speaker": 7,
   "jp": "そのばしょを　しっているぅ　わたくしたち\nバイラーしか　いくことが　できないんですぅ",
-  "en": "",
-  "status": "todo"
+  "en": "only us Byler who know where it is can go\nthere.",
+  "status": "done"
  },
  {
   "id": "s137.21",
   "flag": 0,
   "speaker": 7,
   "jp": "このシティにも　ちかてつ　ありますよねぇ？{KP}\nそこからぁ　バイラーシティへ\nごあんない　いたしますぅ",
-  "en": "",
-  "status": "todo"
+  "en": "This City has a subway too, riiight?{KP}\nI'll take you to Byler City from there.",
+  "status": "done"
  },
  {
   "id": "s137.22",
   "flag": 0,
   "speaker": 3,
   "jp": "そうか・・・よし{KP}\nとりあえず　ボクは　バトルになるかも\nしれないから　じゅんびを　してくるよ",
-  "en": "",
-  "status": "todo"
+  "en": "I see... Right.{KP}\nThere might be a battle, so I'm going to go\nget ready.",
+  "status": "done"
  },
  {
   "id": "s137.23",
   "flag": 0,
   "speaker": 3,
   "jp": "キミは　いちど　ダイナセンターに　いって\nナビュウに　いまのことを　ほうこくするんだ{KP}\nあとで　サブウェイで　おちあおう！",
-  "en": "",
-  "status": "todo"
+  "en": "You go to the Dyna Center first and tell\nNavyu what just happened.{KP}\nWe'll meet up later at the Subway!",
+  "status": "done"
  },
  {
   "id": "s137.24",
   "flag": 0,
   "speaker": 3,
   "jp": "・・・そうそう　バトルの　じゅんびも\nわすれないでくれよ{KP}\nじゃ　また　あとで！",
-  "en": "",
-  "status": "todo"
+  "en": "...Oh, and don't forget to get ready for\nbattle too.{KP}\nSee you later!",
+  "status": "done"
  },
  {
   "id": "s137.25",
   "flag": 0,
   "speaker": 7,
   "jp": "・・・うん・・・ダイナセンターにぃ・・・\nいくんだよねぇ？{KP}\nわたくしも　おねえさんにぃ・・・\nあやまりたいからぁ",
-  "en": "",
-  "status": "todo"
+  "en": "...Mm... You're going to the Dyna Centerrr,\nriiight?{KP}\nI want to say sorry to Miss Navyu tooo,",
+  "status": "done"
  },
  {
   "id": "s137.26",
   "flag": 0,
   "speaker": 7,
   "jp": "ちょうどいいですぅ・・・てへっ{KP}\nじゃあ　いきましょぉ",
-  "en": "",
-  "status": "todo"
+  "en": "so that works out niiicely... Teehee!{KP}\nLet's gooo, then.",
+  "status": "done"
  },
  {
   "id": "s138.00",
   "flag": 0,
   "speaker": 4,
   "jp": "あら　{%sR4}さん\nおきゃくさまですか？",
-  "en": "",
-  "status": "todo"
+  "en": "Oh, {%sR4}-san.{KP}\nDo you have a guest?",
+  "status": "done"
  },
  {
   "id": "s138.01",
   "flag": 0,
   "speaker": 4,
   "jp": "・・・！　あなたは・・・",
-  "en": "",
-  "status": "todo"
+  "en": "...! You are...",
+  "status": "done"
  },
  {
   "id": "s138.02",
   "flag": 0,
   "speaker": 7,
   "jp": "ええとぉ・・・そのぅ・・・いままで\nいろいろとぉ　ごめんなさぁい",
-  "en": "",
-  "status": "todo"
+  "en": "Ummm... well... For everything up until\nnooow...{KP}\nI'm reeeally sorry.",
+  "status": "done"
  },
  {
   "id": "s138.03",
   "flag": 0,
   "speaker": 7,
   "jp": "はんせい・・・してますぅ・・・",
-  "en": "",
-  "status": "todo"
+  "en": "I've been thinking about what I did...\nreeeally.",
+  "status": "done"
  },
  {
   "id": "s138.04",
   "flag": 0,
   "speaker": 4,
   "jp": "？？　いったい　どうなってるんですか？\nせつめいしていただけませんか？",
-  "en": "",
-  "status": "todo"
+  "en": "?? What on earth is going on?{KP}\nWould you kindly explain?",
+  "status": "done"
  },
  {
   "id": "s138.05",
   "flag": 0,
   "speaker": 4,
   "jp": "・・・・・・{KP}\n・・・なるほど　そういうことですか・・・{KP}\nうーん　わたしは　しょうじき\nしんじてもいいものか　はんだんできません",
-  "en": "",
-  "status": "todo"
+  "en": "......{KP}\n...I see. So that is how it is...{KP}\nHmm... To be honest, I cannot decide\nwhether I should believe her.",
+  "status": "done"
  },
  {
   "id": "s138.06",
   "flag": 0,
   "speaker": 4,
   "jp": "でも　{%sR4}さんが\nしんじてあげたいと　おもったのであれば{KP}\nそれは　とても\nすばらしいことだとおもいます",
-  "en": "",
-  "status": "todo"
+  "en": "But if you, {%sR4}-san, felt that\nyou wanted to believe her,{KP}\nthen I think that is a truly wonderful\nthing.",
+  "status": "done"
  },
  {
   "id": "s138.07",
   "flag": 0,
   "speaker": 4,
   "jp": "ね？　あなたも　しんじてもらえて\nうれしかったでしょう？",
-  "en": "",
-  "status": "todo"
+  "en": "You see? You were happy to be believed,\nwere you not?",
+  "status": "done"
  },
  {
   "id": "s138.08",
   "flag": 0,
   "speaker": 7,
   "jp": "は！　はいぃ　うれしかったですぅ！",
-  "en": "",
-  "status": "todo"
+  "en": "Y-yes! Yeees, I was so happyyy!",
+  "status": "done"
  },
  {
   "id": "s138.09",
   "flag": 0,
   "speaker": 4,
   "jp": "じゃあ　{%sR4}さんを\nうらぎったりしないでくださいね",
-  "en": "",
-  "status": "todo"
+  "en": "Then please do not betray\n{%sR4}-san.",
+  "status": "done"
  },
  {
   "id": "s138.10",
   "flag": 0,
   "speaker": 7,
   "jp": "・・・はい　ぜったい・・・ぜったい\nうらぎらないですぅ・・・てへへ・・・",
-  "en": "",
-  "status": "todo"
+  "en": "...Yes, I'll never... never betray him...\nTeehee...",
+  "status": "done"
  },
  {
   "id": "s138.11",
   "flag": 0,
   "speaker": 4,
   "jp": "あ　そろそろ　イッパさんも\nもどってきているんじゃないですか？{KP}\nこのシティは　わたしにまかせて\nいってきてください",
-  "en": "",
-  "status": "todo"
+  "en": "Oh, Ippa-san should be back by now, should\nhe not?{KP}\nLeave this City to me, and off you go.",
+  "status": "done"
  },
  {
   "id": "s138.12",
   "flag": 0,
   "speaker": 4,
   "jp": "きっと・・・ユリエさんを\nたすけだしてきてくださいね！{KP}\n・・・ジョルナさん？",
-  "en": "",
-  "status": "todo"
+  "en": "Please be sure to... rescue Yurie-san!{KP}\n...Jorna-san?",
+  "status": "done"
  },
  {
   "id": "s138.13",
   "flag": 0,
   "speaker": 7,
   "jp": "・・・てへへぇ",
-  "en": "",
-  "status": "todo"
+  "en": "...Teeheee.",
+  "status": "done"
  },
  {
   "id": "s138.14",
   "flag": 0,
   "speaker": 4,
   "jp": "ジョルナさん！",
-  "en": "",
-  "status": "todo"
+  "en": "Jorna-san!",
+  "status": "done"
  },
  {
   "id": "s138.15",
   "flag": 0,
   "speaker": 7,
   "jp": "は！　はいぃ　ジョルナ　ここに　いまぁす！",
-  "en": "",
-  "status": "todo"
+  "en": "Y-yes! Yeees, Jorna is riiight heeere!",
+  "status": "done"
  },
  {
   "id": "s138.16",
   "flag": 0,
   "speaker": 7,
   "jp": "ぜったい　ぜーったいにぃ\nあのコを　たすけだしてみせますぅ！{KP}\n・・・・・・・・・・・・・・・・・・・・・\n・・・・・・・・・・・・・・・・・・・・・",
-  "en": "",
-  "status": "todo"
+  "en": "We'll rescue that girl, I promise, I\npromiiise!{KP}\n..................",
+  "status": "done"
  },
  {
   "id": "s138.17",
   "flag": 0,
   "speaker": 7,
   "jp": "わ　わたくしの　カオにぃ\nなにか　ついてますぅ？",
-  "en": "",
-  "status": "todo"
+  "en": "I-is there something on my faaace?",
+  "status": "done"
  },
  {
   "id": "s138.18",
   "flag": 0,
   "speaker": 4,
   "jp": "うふふふっ　あなたが　なぜ　バイラーを\nやめて　ここに　きたか・・・{KP}\nなんとなく　わかってしまいました",
-  "en": "",
-  "status": "todo"
+  "en": "Ufufufu! Why you quit Byler and came\nhere...{KP}\nI think I have more or less figured it\nout.",
+  "status": "done"
  },
  {
   "id": "s138.19",
   "flag": 0,
   "speaker": 4,
   "jp": "さっきは　しんようできないと\nいいましたが・・・しんじます{KP}\n{%sR4}さんを\nたすけてあげてくださいね",
-  "en": "",
-  "status": "todo"
+  "en": "Earlier I said I could not trust you... but I\nbelieve you.{KP}\nPlease take good care of\n{%sR4}-san.",
+  "status": "done"
  },
  {
   "id": "s138.20",
   "flag": 0,
   "speaker": 7,
   "jp": "は　はい！　まかせてくださぁい！",
-  "en": "",
-  "status": "todo"
+  "en": "Y-yes! Leave it to meee!",
+  "status": "done"
  },
  {
   "id": "s138.21",
   "flag": 0,
   "speaker": 7,
   "jp": "じゃあ　さっそく　いきましょおぉ",
-  "en": "",
-  "status": "todo"
+  "en": "Then let's get going right awaaay!",
+  "status": "done"
  },
  {
   "id": "s138.22",
   "flag": 0,
   "speaker": 7,
   "jp": "それじゃですねぇ　いつでも　バトルできる\n・・・っていう　じゅんびが　できたらぁ{KP}\nどこでもいいのでぇ\nサブウェイに　はいってくださぁい",
-  "en": "",
-  "status": "todo"
+  "en": "Sooo, once you're all set and ready to\nbattle at any time,{KP}\njust go into any Subway you like.",
+  "status": "done"
  },
  {
   "id": "s138.23",
   "flag": 0,
   "speaker": 7,
   "jp": "もしも　そこにぃ　おともだちが\nいなかったばあいはぁ{KP}\nちかてつでぇ　いどうするときに\nひろいますからぁ",
-  "en": "",
-  "status": "todo"
+  "en": "If your friend isn't theeere,{KP}\nwe'll pick him up when we ride the\nsubwaaay.",
+  "status": "done"
  },
  {
   "id": "s138.24",
   "flag": 0,
   "speaker": 4,
   "jp": "これからの　バトルに　そなえて　もっと\nつよい　デバイスが　ひつようですね{KN}",
-  "en": "",
-  "status": "todo"
+  "en": "You will need stronger Devices for the\nbattles ahead.{KN}",
+  "status": "done"
  },
  {
   "id": "s138.25",
   "flag": 0,
   "speaker": 4,
   "jp": "ファクトリキットを　ひとつ\nついかしておきます",
-  "en": "",
-  "status": "todo"
+  "en": "I will add one Factory Kit for you.",
+  "status": "done"
  },
  {
   "id": "s138.26",
   "flag": 0,
   "speaker": 4,
   "jp": "ファクトリキットは　ダイナセンターで\nあずかっておきますので",
-  "en": "",
-  "status": "todo"
+  "en": "The Dyna Center will keep the Factory Kit\nfor you,",
+  "status": "done"
  },
  {
   "id": "s138.27",
   "flag": 0,
   "speaker": 4,
   "jp": "ひつようなときは　こちらから\nひきだしていってくださいね{KN}",
-  "en": "",
-  "status": "todo"
+  "en": "so please withdraw it from here when you\nneed it.{KN}",
+  "status": "done"
  },
  {
   "id": "s139.00",
   "flag": 0,
   "speaker": 3,
   "jp": "ようやくきたな・・・まちくたびれちゃったよ\nそれじゃ　ジョルナちゃん　おねがいするよ",
-  "en": "",
-  "status": "todo"
+  "en": "Finally, you're here... I got tired of\nwaiting.{KP}\nWell then, Jorna-chan, we're counting on\nyou.",
+  "status": "done"
  },
  {
   "id": "s139.01",
   "flag": 0,
   "speaker": 7,
   "jp": "はぁい　ええっとぉ・・・ここを　こうしてぇ\nいきさきを　ここにして・・・っとぉ{KP}\nそれではぁ・・・しゅっぱつしまぁす！",
-  "en": "",
-  "status": "todo"
+  "en": "Okaaay. Ummm... This goes like thiiis, and\nthe destination goes heeere...{KP}\nHere we gooo!",
+  "status": "done"
  },
  {
   "id": "s140.00",
   "flag": 0,
   "speaker": 7,
   "jp": "とうちゃぁーく！",
-  "en": "",
-  "status": "todo"
+  "en": "We've arriiived!",
+  "status": "done"
  },
  {
   "id": "s140.01",
   "flag": 0,
   "speaker": 7,
   "jp": "・・・って　あれぇ？",
-  "en": "",
-  "status": "todo"
+  "en": "...Huuuh?",
+  "status": "done"
  },
  {
   "id": "s140.02",
   "flag": 0,
   "speaker": 3,
   "jp": "？　どうかしたのかい？",
-  "en": "",
-  "status": "todo"
+  "en": "? Is something wrong?",
+  "status": "done"
  },
  {
   "id": "s140.03",
   "flag": 0,
   "speaker": 7,
   "jp": "ちかてつに　のったらぁ{KP}\nあのコが　つかまってる　しせつにぃ\nちょくせつ　つくハズだったのにぃ・・・{KP}\nなんでぇ？　どうしてぇ？",
-  "en": "",
-  "status": "todo"
+  "en": "The subway was supposed to take us{KP}\nstraight to the place where that girl is\nbeing held...{KP}\nWhyyy? How come?",
+  "status": "done"
  },
  {
   "id": "s140.04",
   "flag": 0,
   "speaker": 6,
   "jp": "フヒヒヒヒ！　よくやったデスよ　ジョルナ！{KP}\nよていどおり　うまいこと\nここに　さそいこんだデスねぇ！",
-  "en": "",
-  "status": "todo"
+  "en": "Fuhihihihi! Well done, Jorna, desu!{KP}\nYou lured them here just as planned,\ndesu!",
+  "status": "done"
  },
  {
   "id": "s140.05",
   "flag": 0,
   "speaker": 7,
   "jp": "・・・あ・・・ああぁっ！！　シグマ！？",
-  "en": "",
-  "status": "todo"
+  "en": "...Ah... Aaah!! Sigma!?",
+  "status": "done"
  },
  {
   "id": "s140.06",
   "flag": 0,
   "speaker": 7,
   "jp": "・・・そっか・・・あんたぁ\nあのコが　つかまっている・・・{KP}\n・・・しせつの　ばしょを\nいどうさせたなぁぁっ！！",
-  "en": "",
-  "status": "todo"
+  "en": "...I get it... Youuu...{KP}\n...you moved the place where that girl is\nbeing heeeld!!",
+  "status": "done"
  },
  {
   "id": "s140.07",
   "flag": 0,
   "speaker": 6,
   "jp": "なに　いってるデスかァ？　もう\nおしばいは　おわりにしても　いいんデスよ？{KP}\nいやぁー　しかし　ほんとに\nよくやったデスねェ　さすが　ジョルナ！",
-  "en": "",
-  "status": "todo"
+  "en": "What are you saying, desu? You can stop\nthe act now, desu.{KP}\nWeeell, you really did a great job, desu!\nThat's our Jorna!",
+  "status": "done"
  },
  {
   "id": "s140.08",
   "flag": 0,
   "speaker": 6,
   "jp": "フヒヒヒヒ！・・・さぁ　おまえたち\nやってしまうデス！！",
-  "en": "",
-  "status": "todo"
+  "en": "Fuhihihihi! ...Now, everyone, get them,\ndesu!!",
+  "status": "done"
  },
  {
   "id": "s140.09",
   "flag": 0,
   "speaker": 6,
   "jp": "せっかく　コイツらを　ここに　さそいこんだ{KP}\nジョルナの　どりょくを\nムダにするなデスよォ！！",
-  "en": "",
-  "status": "todo"
+  "en": "Don't waste Jorna's hard work luring these\nguys here, desu!!",
+  "status": "done"
  },
  {
   "id": "s140.10",
   "flag": 0,
   "speaker": 7,
   "jp": "ちがう・・・ちがうのぉ・・・！\nしんじてぇ・・・しんじてよおぉ・・・！",
-  "en": "",
-  "status": "todo"
+  "en": "No... that's not true...!{KP}\nBelieve me... pleeease believe meee...!",
+  "status": "done"
  },
  {
   "id": "s140.11",
   "flag": 0,
   "speaker": 3,
   "jp": "・・・いまは\nそんなこといってるばあいじゃない！",
-  "en": "",
-  "status": "todo"
+  "en": "...This is no time to be talking about\nthat!",
+  "status": "done"
  },
  {
   "id": "s140.12",
   "flag": 0,
   "speaker": 3,
   "jp": "{%sR4}！\nそっちの　てきは　まかせた！{KP}\n・・・くるぞ！",
-  "en": "",
-  "status": "todo"
+  "en": "{%sR4}! I'll leave the enemies on\nthat side to you!{KP}\n...Here they come!",
+  "status": "done"
  },
  {
   "id": "s141.00",
   "flag": 0,
   "speaker": -1,
   "jp": "どこから　さいかいしますか？\n　　バトルまえ　じぶんのいえ　セーブデータ{KN}",
-  "en": "",
-  "status": "todo"
+  "en": "Where do you want to restart from?\n    Battle      My House    Save Data{KN}",
+  "status": "done"
  },
  {
   "id": "s141.01",
   "flag": 0,
   "speaker": 3,
   "jp": "{%sR4}！\nそっちの　てきは　まかせた！{KP}\n・・・くるぞ！",
-  "en": "",
-  "status": "todo"
+  "en": "{%sR4}! I'll leave the enemies on\nthat side to you!{KP}\n...Here they come!",
+  "status": "done"
  },
  {
   "id": "s141.02",
   "flag": 0,
   "speaker": 3,
   "jp": "はぁ　はぁ・・・なんとか　かたづいたかな？{KP}\n・・・さぁ　ユリエちゃんの　いばしょを\nおしえてもらおうか？",
-  "en": "",
-  "status": "todo"
+  "en": "Huff, huff... Did we take care of them?{KP}\n...Now, how about you tell us where\nYurie-chan is?",
+  "status": "done"
  },
  {
   "id": "s141.03",
   "flag": 0,
   "speaker": 6,
   "jp": "フ　フヒヒ　そんなモン\nおしえるわけないデスよー{KP}\nアンタたちは　ここで　くたばるデス！",
-  "en": "",
-  "status": "todo"
+  "en": "F-fuhihi! As if I'd tell you that, desu!{KP}\nYou're going to croak right here, desu!",
+  "status": "done"
  },
  {
   "id": "s141.04",
   "flag": 0,
   "speaker": 7,
   "jp": "ここからだったらぁ　そこの　みちを\nみぎにはいっていった　ところですぅ{KP}\nあんないするよぉ！",
-  "en": "",
-  "status": "todo"
+  "en": "From here, it's just down that road and to\nthe right!{KP}\nI'll show you the waaay!",
+  "status": "done"
  },
  {
   "id": "s141.05",
   "flag": 0,
   "speaker": 6,
   "jp": "コラ！　よけいなこと　いうなデス！",
-  "en": "",
-  "status": "todo"
+  "en": "Hey! Don't say anything you shouldn't,\ndesu!",
+  "status": "done"
  },
  {
   "id": "s141.06",
   "flag": 0,
   "speaker": 6,
   "jp": "・・・あ　いやッ・・・さすが！\n・・・さすが　ジョルナ！",
-  "en": "",
-  "status": "todo"
+  "en": "...Ah, no... Well done!{KP}\n...That's our Jorna!",
+  "status": "done"
  },
  {
   "id": "s141.07",
   "flag": 0,
   "speaker": 6,
   "jp": "ドンドン　コイツらを\nワナに　さそいこんでくれデスー・・・",
-  "en": "",
-  "status": "todo"
+  "en": "Keep luring these guys into the trap,\ndesu...",
+  "status": "done"
  },
  {
   "id": "s141.08",
   "flag": 0,
   "speaker": 7,
   "jp": "ち　ちがうようっ！　うそじゃ・・・\nうそじゃないようっ{KP}\nほんとに・・・ほんとに　このさきにぃ・・・",
-  "en": "",
-  "status": "todo"
+  "en": "N-no, that's not it! It's not a lie...{KP}\nit's not a liiie!{KP}\nIt really... really is just up aheeead...",
+  "status": "done"
  },
  {
   "id": "s141.09",
   "flag": 0,
   "speaker": 3,
   "jp": "{%sR4}・・・どうする？",
-  "en": "",
-  "status": "todo"
+  "en": "{%sR4}... What do you think?",
+  "status": "done"
  },
  {
   "id": "s141.10",
   "flag": 0,
   "speaker": 7,
   "jp": "・・・あ",
-  "en": "",
-  "status": "todo"
+  "en": "...Ah.",
+  "status": "done"
  },
  {
   "id": "s141.11",
   "flag": 0,
   "speaker": 3,
   "jp": "・・・そうだね　キミは　きっと\nそうすると　おもったよ{KP}\nじゃあ　ジョルナちゃん",
-  "en": "",
-  "status": "todo"
+  "en": "...Yeah, I thought you'd say that.{KP}\nOkay then, Jorna-chan,",
+  "status": "done"
  },
  {
   "id": "s141.12",
   "flag": 0,
   "speaker": 3,
   "jp": "ここで　じっとしてても　しかたないし\nあんないしてくれるかな？",
-  "en": "",
-  "status": "todo"
+  "en": "there's no point just standing around\nhere.{KP}\nWill you show us the way?",
+  "status": "done"
  },
  {
   "id": "s141.13",
   "flag": 0,
   "speaker": 7,
   "jp": "・・・・・・・・・・・・・・・・・・・・・\n・・・・・・・・・・・・・・・・・・・・・",
-  "en": "",
-  "status": "todo"
+  "en": "..................",
+  "status": "done"
  },
  {
   "id": "s141.14",
   "flag": 0,
   "speaker": 7,
   "jp": "・・・あ・・・あり・・・が・・・とう・・・\n・・・ううう・・・うえええんっ",
-  "en": "",
-  "status": "todo"
+  "en": "...Th... thank... you...{KP}\n...Uuu... Waaaaah!",
+  "status": "done"
  },
  {
   "id": "s141.15",
   "flag": 0,
   "speaker": 6,
   "jp": "そ　そうはさせないデスよおお！",
-  "en": "",
-  "status": "todo"
+  "en": "I-I won't let you do that, desuuuu!",
+  "status": "done"
  },
  {
   "id": "s141.16",
   "flag": 0,
   "speaker": 6,
   "jp": "こ　こうなったら　わたしみずから\nオマエたちを　とめてみせるデス！！{KP}\nひょおおっ！！",
-  "en": "",
-  "status": "todo"
+  "en": "F-fine, then I will stop you myself, desu!!{KP}\nHyooooh!!",
+  "status": "done"
  },
  {
   "id": "s142.00",
   "flag": 0,
   "speaker": -1,
   "jp": "どこから　さいかいしますか？\n　　バトルまえ　じぶんのいえ　セーブデータ{KN}",
-  "en": "",
-  "status": "todo"
+  "en": "Where do you want to restart from?\n    Battle      My House    Save Data{KN}",
+  "status": "done"
  },
  {
   "id": "s142.01",
   "flag": 0,
   "speaker": 6,
   "jp": "こ　こうなったら　わたしみずから\nオマエたちを　とめてみせるデス！！{KP}\nひょおおっ！！",
-  "en": "",
-  "status": "todo"
+  "en": "F-fine, then I will stop you myself, desu!!{KP}\nHyooooh!!",
+  "status": "done"
  },
  {
   "id": "s142.02",
   "flag": 0,
   "speaker": 6,
   "jp": "ぐうううううっ・・・\nやっぱり　まけたデス・・・",
-  "en": "",
-  "status": "todo"
+  "en": "Grrrrrr... I lost after all, desu...",
+  "status": "done"
  },
  {
   "id": "s142.03",
   "flag": 0,
   "speaker": 6,
   "jp": "し・・・しかし　オマエたちを\nこのさきへ　いかせるわけには・・・{KP}\nいかないデス！！",
-  "en": "",
-  "status": "todo"
+  "en": "B-but I cannot let you go any further...{KP}\nI cannot, desu!!",
+  "status": "done"
  },
  {
   "id": "s142.04",
   "flag": 0,
   "speaker": 6,
   "jp": "フヒヒヒヒヒ！　このへんのセクタもろとも\nみんな　ふっとぶデス！{KP}\nフヒヒヒヒヒヒヒヒヒヒヒ！！",
-  "en": "",
-  "status": "todo"
+  "en": "Fuhihihihihi! You'll all be blown away along\nwith these sectors, desu!{KP}\nFuhihihihihihihihihihi!!",
+  "status": "done"
  },
  {
   "id": "s142.05",
   "flag": 0,
   "speaker": 3,
   "jp": "まずい！　たぶん　これは\nじしんの　きょうりょくな　ヤツだ！",
-  "en": "",
-  "status": "todo"
+  "en": "Uh-oh! This must be one of those powerful\nearthquake things!",
+  "status": "done"
  },
  {
   "id": "s142.06",
   "flag": 0,
   "speaker": 3,
   "jp": "このゆれじゃ　ほんとうに　このエリアが\nふっとんでしまうぞ{KP}\nしかたない\nとりあえず　いったん　にげよう！",
-  "en": "",
-  "status": "todo"
+  "en": "With shaking like this, this area really will\nget blown away.{KP}\nNo choice, let's get out of here for now!",
+  "status": "done"
  },
  {
   "id": "s142.07",
   "flag": 0,
   "speaker": 3,
   "jp": "・・・？　ジョルナちゃん　どうしたんだい？",
-  "en": "",
-  "status": "todo"
+  "en": "...? Jorna-chan, what's wrong?",
+  "status": "done"
  },
  {
   "id": "s142.08",
   "flag": 0,
   "speaker": 7,
   "jp": "ううぅ・・・いまの　ゆれでぇ・・・ころんで\nあしを　ひねっちゃったぁ・・・みたいですぅ",
-  "en": "",
-  "status": "todo"
+  "en": "Uuu... In that quake just now... I fell and\ntwisted my ankle... I thiiink.",
+  "status": "done"
  },
  {
   "id": "s142.09",
   "flag": 0,
   "speaker": 7,
   "jp": "ちかてつはぁ　じどうそうじゅうでぇ\nさっきのシティにぃ　かえるようにぃ・・・",
-  "en": "",
-  "status": "todo"
+  "en": "I set the subway to drive itself\nautomatically back to the last Cityyy...",
+  "status": "done"
  },
  {
   "id": "s142.10",
   "flag": 0,
   "speaker": 7,
   "jp": "せっていしておいたのでぇ・・・わたくしはぁ\n・・・おいていって・・・くださぁい・・・",
-  "en": "",
-  "status": "todo"
+  "en": "so... pleeease... just leave me behiiind...",
+  "status": "done"
  },
  {
   "id": "s142.11",
   "flag": 0,
   "speaker": 7,
   "jp": "ひゃあっ・・・え？・・・ええええっ！？",
-  "en": "",
-  "status": "todo"
+  "en": "Hyaa!... Huh?... Whaaaaat!?",
+  "status": "done"
  },
  {
   "id": "s142.12",
   "flag": 0,
   "speaker": 3,
   "jp": "よし！　じゃ　ボクは\nここまで　ちかてつを　もってくるよ",
-  "en": "",
-  "status": "todo"
+  "en": "Right! Then I'll bring the subway over\nhere.",
+  "status": "done"
  },
  {
   "id": "s142.13",
   "flag": 0,
   "speaker": 3,
   "jp": "このくらいの　きょりなら\nうごかして　こられるから！",
-  "en": "",
-  "status": "todo"
+  "en": "It's close enough that I can drive it\nhere!",
+  "status": "done"
  },
  {
   "id": "s142.14",
