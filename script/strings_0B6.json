@@ -380,8 +380,8 @@
   ],
   "slot": 20,
   "jp": "メタボールタイプに",
-  "en": "",
-  "status": "todo"
+  "en": "Metaball type",
+  "status": "done"
  },
  {
   "id": "t0B62F0",
@@ -390,8 +390,8 @@
   ],
   "slot": 24,
   "jp": "バトルが　できるセクタ",
-  "en": "",
-  "status": "todo"
+  "en": "this battle sector.",
+  "status": "done"
  },
  {
   "id": "t0B6308",
@@ -400,8 +400,8 @@
   ],
   "slot": 16,
   "jp": "ダイナによる",
-  "en": "",
-  "status": "todo"
+  "en": "in Dyna battles at",
+  "status": "done"
  },
  {
   "id": "t0B6318",
@@ -410,8 +410,8 @@
   ],
   "slot": 20,
   "jp": "ほかの　マスターと",
-  "en": "",
-  "status": "todo"
+  "en": "fight other Masters",
+  "status": "done"
  },
  {
   "id": "t0B632C",
@@ -420,8 +420,8 @@
   ],
   "slot": 24,
   "jp": "ダイナネットに　いる",
-  "en": "",
-  "status": "todo"
+  "en": "Across Dyna Net,",
+  "status": "done"
  },
  {
   "id": "t0B6344",
@@ -430,8 +430,8 @@
   ],
   "slot": 16,
   "jp": "きかないタイプ",
-  "en": "",
-  "status": "todo"
+  "en": "hurt this type.",
+  "status": "done"
  },
  {
   "id": "t0B6354",
@@ -440,8 +440,8 @@
   ],
   "slot": 20,
   "jp": "こうげきが　あまり",
-  "en": "",
-  "status": "todo"
+  "en": "attacks barely",
+  "status": "done"
  },
  {
   "id": "t0B6368",
@@ -450,8 +450,8 @@
   ],
   "slot": 24,
   "jp": "じったいが　ないため",
-  "en": "",
-  "status": "todo"
+  "en": "With no real body,",
+  "status": "done"
  },
  {
   "id": "t0B6380",
@@ -460,8 +460,8 @@
   ],
   "slot": 12,
   "jp": "らくせきの",
-  "en": "",
-  "status": "todo"
+  "en": "power of rockfalls",
+  "status": "done"
  },
  {
   "id": "t0B638C",
@@ -470,8 +470,8 @@
   ],
   "slot": 16,
   "jp": "ならしたセクタ",
-  "en": "",
-  "status": "todo"
+  "en": "into a sector.",
+  "status": "done"
  },
  {
   "id": "t0B639C",
@@ -480,8 +480,8 @@
   ],
   "slot": 20,
   "jp": "ランドを　たいらに",
-  "en": "",
-  "status": "todo"
+  "en": "Land flattened",
+  "status": "done"
  },
  {
   "id": "t0B63B0",
@@ -490,8 +490,8 @@
   ],
   "slot": 24,
   "jp": "たてものを　たてるため",
-  "en": "",
-  "status": "todo"
+  "en": "buildings need it:",
+  "status": "done"
  },
  {
   "id": "t0B63C8",
@@ -501,8 +501,8 @@
   ],
   "slot": 16,
   "jp": "ハウスなどの",
-  "en": "",
-  "status": "todo"
+  "en": "Houses and other",
+  "status": "done"
  },
  {
   "id": "t0B63D8",
@@ -511,8 +511,8 @@
   ],
   "slot": 20,
   "jp": "もっている　タイプ",
-  "en": "",
-  "status": "todo"
+  "en": "skill: a Scout type.",
+  "status": "done"
  },
  {
   "id": "t0B63EC",
@@ -521,8 +521,8 @@
   ],
   "slot": 24,
   "jp": "ていさつのうりょくを",
-  "en": "",
-  "status": "todo"
+  "en": "its own Scout",
+  "status": "done"
  },
  {
   "id": "t0B6404",
@@ -531,8 +531,8 @@
   ],
   "slot": 24,
   "jp": "スタイルごとに　ちがう",
-  "en": "",
-  "status": "todo"
+  "en": "give each style",
+  "status": "done"
  },
  {
   "id": "t0B641C",
@@ -541,8 +541,8 @@
   ],
   "slot": 24,
   "jp": "めが　ひじょうに　よく",
-  "en": "",
-  "status": "todo"
+  "en": "Its very keen eyes",
+  "status": "done"
  },
  {
   "id": "t0B6434",
@@ -553,8 +553,8 @@
   ],
   "slot": 24,
   "jp": "シェルブックタイプに",
-  "en": "",
-  "status": "todo"
+  "en": "Shellbook type",
+  "status": "done"
  },
  {
   "id": "t0B644C",
@@ -565,8 +565,8 @@
   ],
   "slot": 20,
   "jp": "イグアームタイプに",
-  "en": "",
-  "status": "todo"
+  "en": "Igarm type",
+  "status": "done"
  },
  {
   "id": "t0B6460",
@@ -575,8 +575,8 @@
   ],
   "slot": 20,
   "jp": "きいろが　めじるし",
-  "en": "",
-  "status": "todo"
+  "en": "marked in yellow.",
+  "status": "done"
  },
  {
   "id": "t0B6474",
@@ -585,8 +585,8 @@
   ],
   "slot": 20,
   "jp": "だいちに　よわい",
-  "en": "",
-  "status": "todo"
+  "en": "weak vs. earth: the",
+  "status": "done"
  },
  {
   "id": "t0B6488",
@@ -595,8 +595,8 @@
   ],
   "slot": 16,
   "jp": "みずに　つよく",
-  "en": "",
-  "status": "todo"
+  "en": "Strong vs. water,",
+  "status": "done"
  },
  {
   "id": "t0B6498",
@@ -607,8 +607,8 @@
   ],
   "slot": 20,
   "jp": "エコロードタイプに",
-  "en": "",
-  "status": "todo"
+  "en": "Ecoroad type",
+  "status": "done"
  },
  {
   "id": "t0B64AC",
@@ -619,8 +619,8 @@
   ],
   "slot": 24,
   "jp": "ゴストフリータイプに",
-  "en": "",
-  "status": "todo"
+  "en": "Ghostfree type",
+  "status": "done"
  },
  {
   "id": "t0B64C4",
@@ -629,8 +629,8 @@
   ],
   "slot": 12,
   "jp": "ほうでんの",
-  "en": "",
-  "status": "todo"
+  "en": "power of discharge",
+  "status": "done"
  },
  {
   "id": "t0B64D0",
@@ -640,8 +640,8 @@
   ],
   "slot": 20,
   "jp": "うまれかたをする",
-  "en": "",
-  "status": "todo"
+  "en": "special way.",
+  "status": "done"
  },
  {
   "id": "t0B64E4",
@@ -651,8 +651,8 @@
   ],
   "slot": 12,
   "jp": "とくしゅな",
-  "en": "",
-  "status": "todo"
+  "en": "It's born in a",
+  "status": "done"
  },
  {
   "id": "t0B64F0",
@@ -663,8 +663,8 @@
   ],
   "slot": 24,
   "jp": "ぶんるいされるスタイル",
-  "en": "",
-  "status": "todo"
+  "en": "includes this style.",
+  "status": "done"
  },
  {
   "id": "t0B6508",
@@ -675,8 +675,8 @@
   ],
   "slot": 20,
   "jp": "ゼロイータイプに",
-  "en": "",
-  "status": "todo"
+  "en": "Zero-E type",
+  "status": "done"
  },
  {
   "id": "t0B651C",
@@ -686,8 +686,8 @@
   ],
   "slot": 16,
   "jp": "できるタイプ",
-  "en": "",
-  "status": "todo"
+  "en": "is this type's knack.",
+  "status": "done"
  },
  {
   "id": "t0B652C",
@@ -696,8 +696,8 @@
   ],
   "slot": 24,
   "jp": "２つ　セットすることが",
-  "en": "",
-  "status": "todo"
+  "en": "two at a time",
+  "status": "done"
  },
  {
   "id": "t0B6544",
@@ -706,8 +706,8 @@
   ],
   "slot": 24,
   "jp": "かわりに　トラップを",
-  "en": "",
-  "status": "todo"
+  "en": "setting traps",
+  "status": "done"
  },
  {
   "id": "t0B655C",
@@ -716,8 +716,8 @@
   ],
   "slot": 20,
   "jp": "いどうが　できない",
-  "en": "",
-  "status": "todo"
+  "en": "Can't move. Instead,",
+  "status": "done"
  },
  {
   "id": "t0B6570",
@@ -726,8 +726,8 @@
   ],
   "slot": 16,
   "jp": "ついかこうか",
-  "en": "",
-  "status": "todo"
+  "en": "bonus effect.",
+  "status": "done"
  },
  {
   "id": "t0B6580",
@@ -736,8 +736,8 @@
   ],
   "slot": 24,
   "jp": "はっせいすることがある",
-  "en": "",
-  "status": "todo"
+  "en": "there may be a",
+  "status": "done"
  },
  {
   "id": "t0B6598",
@@ -746,8 +746,8 @@
   ],
   "slot": 20,
   "jp": "れんぞくしたときに",
-  "en": "",
-  "status": "todo"
+  "en": "chain together,",
+  "status": "done"
  },
  {
   "id": "t0B65AC",
@@ -756,8 +756,8 @@
   ],
   "slot": 24,
   "jp": "２つの　エクストラが",
-  "en": "",
-  "status": "todo"
+  "en": "When two Extras",
+  "status": "done"
  },
  {
   "id": "t0B65C4",
@@ -766,8 +766,8 @@
   ],
   "slot": 20,
   "jp": "１２しゅるい　ある",
-  "en": "",
-  "status": "todo"
+  "en": "There are 12 kinds.",
+  "status": "done"
  },
  {
   "id": "t0B65D8",
@@ -776,8 +776,8 @@
   ],
   "slot": 20,
   "jp": "ついている　ちから",
-  "en": "",
-  "status": "todo"
+  "en": "carry this power.",
+  "status": "done"
  },
  {
   "id": "t0B65EC",
@@ -786,8 +786,8 @@
   ],
   "slot": 24,
   "jp": "ぞくせいの　デバイスに",
-  "en": "",
-  "status": "todo"
+  "en": "ones, element Devices",
+  "status": "done"
  },
  {
   "id": "t0B6604",
@@ -796,8 +796,8 @@
   ],
   "slot": 20,
   "jp": "むぞくせいいがいの",
-  "en": "",
-  "status": "todo"
+  "en": "Besides non-element",
+  "status": "done"
  },
  {
   "id": "t0B6618",
@@ -806,8 +806,8 @@
   ],
   "slot": 24,
   "jp": "わきだす　こともある",
-  "en": "",
-  "status": "todo"
+  "en": "bring water up.",
+  "status": "done"
  },
  {
   "id": "t0B6630",
@@ -816,8 +816,8 @@
   ],
   "slot": 24,
   "jp": "あなを　ほると　みずが",
-  "en": "",
-  "status": "todo"
+  "en": "digging a hole can",
+  "status": "done"
  },
  {
   "id": "t0B6648",
@@ -826,8 +826,8 @@
   ],
   "slot": 24,
   "jp": "かずが　へったときに",
-  "en": "",
-  "status": "todo"
+  "en": "when they get fewer,",
+  "status": "done"
  },
  {
   "id": "t0B6660",
@@ -836,8 +836,8 @@
   ],
   "slot": 16,
   "jp": "みずの　セクタ",
-  "en": "",
-  "status": "todo"
+  "en": "Water sectors:",
+  "status": "done"
  },
  {
   "id": "t0B6670",
@@ -846,8 +846,8 @@
   ],
   "slot": 24,
   "jp": "１つのぶきは　５つの",
-  "en": "",
-  "status": "todo"
+  "en": "kind comes in 5",
+  "status": "done"
  },
  {
   "id": "t0B6688",
@@ -856,8 +856,8 @@
   ],
   "slot": 20,
   "jp": "とりつける　ぶき",
-  "en": "",
-  "status": "todo"
+  "en": "as a weapon. Each",
+  "status": "done"
  },
  {
   "id": "t0B669C",
@@ -868,8 +868,8 @@
   ],
   "slot": 20,
   "jp": "デュアロンタイプに",
-  "en": "",
-  "status": "todo"
+  "en": "Dualon type",
+  "status": "done"
  },
  {
   "id": "t0B66B0",
@@ -878,8 +878,8 @@
   ],
   "slot": 20,
   "jp": "かわすことが　ある",
-  "en": "",
-  "status": "todo"
+  "en": "the trap. A lucky",
+  "status": "done"
  },
  {
   "id": "t0B66C4",
@@ -888,8 +888,8 @@
   ],
   "slot": 20,
   "jp": "ばしょに　おちても",
-  "en": "",
-  "status": "todo"
+  "en": "spot, it may dodge",
+  "status": "done"
  },
  {
   "id": "t0B66D8",
@@ -898,8 +898,8 @@
   ],
   "slot": 20,
   "jp": "トラップの　ある",
-  "en": "",
-  "status": "todo"
+  "en": "Even on a trap's",
+  "status": "done"
  },
  {
   "id": "t0B66EC",
@@ -916,8 +916,8 @@
   ],
   "slot": 24,
   "jp": "レアリティは　たかい",
-  "en": "",
-  "status": "todo"
+  "en": "Rarity: high.",
+  "status": "done"
  },
  {
   "id": "t0B6704",
@@ -928,8 +928,8 @@
   ],
   "slot": 20,
   "jp": "バーディスタイプに",
-  "en": "",
-  "status": "todo"
+  "en": "Birdis type",
+  "status": "done"
  },
  {
   "id": "t0B6718",
@@ -946,8 +946,8 @@
   ],
   "slot": 24,
   "jp": "レアリティは　ひくい",
-  "en": "",
-  "status": "todo"
+  "en": "Rarity: low.",
+  "status": "done"
  },
  {
   "id": "t0B6730",
@@ -958,8 +958,8 @@
   ],
   "slot": 24,
   "jp": "テトロトップタイプに",
-  "en": "",
-  "status": "todo"
+  "en": "Tetrotop type",
+  "status": "done"
  },
  {
   "id": "t0B6748",
@@ -968,8 +968,8 @@
   ],
   "slot": 16,
   "jp": "すいりゅうの",
-  "en": "",
-  "status": "todo"
+  "en": "power of water jets",
+  "status": "done"
  },
  {
   "id": "t0B6758",
@@ -986,8 +986,8 @@
   ],
   "slot": 24,
   "jp": "レアリティは　ふつう",
-  "en": "",
-  "status": "todo"
+  "en": "Rarity: normal.",
+  "status": "done"
  },
  {
   "id": "t0B6770",
@@ -1022,8 +1022,8 @@
   ],
   "slot": 16,
   "jp": "ぶんるいされる",
-  "en": "",
-  "status": "todo"
+  "en": "includes this",
+  "status": "done"
  },
  {
   "id": "t0B6780",
@@ -1034,8 +1034,8 @@
   ],
   "slot": 20,
   "jp": "キックバグタイプに",
-  "en": "",
-  "status": "todo"
+  "en": "Kickbug type",
+  "status": "done"
  },
  {
   "id": "t0B6794",
@@ -1044,8 +1044,8 @@
   ],
   "slot": 12,
   "jp": "こおりの",
-  "en": "",
-  "status": "todo"
+  "en": "power of ice",
+  "status": "done"
  },
  {
   "id": "t0B67A0",
@@ -1055,8 +1055,8 @@
   ],
   "slot": 24,
   "jp": "ぞくせいに　わけられる",
-  "en": "",
-  "status": "todo"
+  "en": "elemental versions.",
+  "status": "done"
  },
  {
   "id": "t0B67B8",
@@ -1065,8 +1065,8 @@
   ],
   "slot": 24,
   "jp": "１つのぼうぐは　５つの",
-  "en": "",
-  "status": "todo"
+  "en": "kind comes in 5",
+  "status": "done"
  },
  {
   "id": "t0B67D0",
@@ -1075,8 +1075,8 @@
   ],
   "slot": 20,
   "jp": "とりつける　ぼうぐ",
-  "en": "",
-  "status": "todo"
+  "en": "as armor. Each",
+  "status": "done"
  },
  {
   "id": "t0B67E4",
@@ -1087,8 +1087,8 @@
   ],
   "slot": 12,
   "jp": "ダイナに",
-  "en": "",
-  "status": "todo"
+  "en": "Fitted to a Dyna",
+  "status": "done"
  },
  {
   "id": "t0B67F0",
@@ -1108,8 +1108,8 @@
   ],
   "slot": 16,
   "jp": "ちからを　もつ",
-  "en": "",
-  "status": "todo"
+  "en": "at its command.",
+  "status": "done"
  },
  {
   "id": "t0B6800",
@@ -1118,8 +1118,8 @@
   ],
   "slot": 12,
   "jp": "じしんの",
-  "en": "",
-  "status": "todo"
+  "en": "power of earthquakes",
+  "status": "done"
  },
  {
   "id": "t0B680C",
@@ -1139,8 +1139,8 @@
   ],
   "slot": 24,
   "jp": "エクストラの　１つで",
-  "en": "",
-  "status": "todo"
+  "en": "Extra with the",
+  "status": "done"
  },
  {
   "id": "t0B6824",
@@ -1151,8 +1151,8 @@
   ],
   "slot": 16,
   "jp": "エリダヌスは",
-  "en": "",
-  "status": "todo"
+  "en": "For Eridanus,",
+  "status": "done"
  },
  {
   "id": "t0B6834",
@@ -1161,8 +1161,8 @@
   ],
   "slot": 20,
   "jp": "うでから　くりだす",
-  "en": "",
-  "status": "todo"
+  "en": "eight arms,",
+  "status": "done"
  },
  {
   "id": "t0B6848",
@@ -1171,8 +1171,8 @@
   ],
   "slot": 24,
   "jp": "エリダヌスは　８ほんの",
-  "en": "",
-  "status": "todo"
+  "en": "Eridanus: from its",
+  "status": "done"
  },
  {
   "id": "t0B6860",
@@ -1181,8 +1181,8 @@
   ],
   "slot": 24,
   "jp": "まつられているという",
-  "en": "",
-  "status": "todo"
+  "en": "some land: a sacred",
+  "status": "done"
  },
  {
   "id": "t0B6878",
@@ -1191,8 +1191,8 @@
   ],
   "slot": 24,
   "jp": "くにでは　かみとして",
-  "en": "",
-  "status": "todo"
+  "en": "is held a god in",
+  "status": "done"
  },
  {
   "id": "t0B6890",
@@ -1201,8 +1201,8 @@
   ],
   "slot": 24,
   "jp": "エリダヌスは　とある",
-  "en": "",
-  "status": "todo"
+  "en": "Eridanus, they say,",
+  "status": "done"
  },
  {
   "id": "t0B68A8",
@@ -1211,8 +1211,8 @@
   ],
   "slot": 28,
   "jp": "とつげきする　こうげきを",
-  "en": "",
-  "status": "todo"
+  "en": "into foes",
+  "status": "done"
  },
  {
   "id": "t0B68C4",
@@ -1221,8 +1221,8 @@
   ],
   "slot": 20,
   "jp": "たいして　すてみで",
-  "en": "",
-  "status": "todo"
+  "en": "all-out charges",
+  "status": "done"
  },
  {
   "id": "t0B68D8",
@@ -1231,8 +1231,8 @@
   ],
   "slot": 24,
   "jp": "ケンタウルスは　てきに",
-  "en": "",
-  "status": "todo"
+  "en": "Centaurus: reckless,",
+  "status": "done"
  },
  {
   "id": "t0B68F0",
@@ -1241,8 +1241,8 @@
   ],
   "slot": 24,
   "jp": "ふめいの　スタイルだ",
-  "en": "",
-  "status": "todo"
+  "en": "a mystery style.",
+  "status": "done"
  },
  {
   "id": "t0B6908",
@@ -1251,8 +1251,8 @@
   ],
   "slot": 24,
   "jp": "おおった　しょうたい",
-  "en": "",
-  "status": "todo"
+  "en": "hides its true self:",
+  "status": "done"
  },
  {
   "id": "t0B6920",
@@ -1261,8 +1261,8 @@
   ],
   "slot": 24,
   "jp": "ぜんしんを　ヨロイで",
-  "en": "",
-  "status": "todo"
+  "en": "full-body armor",
+  "status": "done"
  },
  {
   "id": "t0B6938",
@@ -1274,8 +1274,8 @@
   ],
   "slot": 16,
   "jp": "ケンタウルスは",
-  "en": "",
-  "status": "todo"
+  "en": "For Centaurus,",
+  "status": "done"
  },
  {
   "id": "t0B6948",
@@ -1286,8 +1286,8 @@
   ],
   "slot": 20,
   "jp": "ランド　コロシアム",
-  "en": "",
-  "status": "todo"
+  "en": "Land, Colosseum",
+  "status": "done"
  },
  {
   "id": "t0B695C",
@@ -1298,8 +1298,8 @@
   ],
   "slot": 16,
   "jp": "このむようだ",
-  "en": "",
-  "status": "todo"
+  "en": "it seems.",
+  "status": "done"
  },
  {
   "id": "t0B696C",
@@ -1310,8 +1310,8 @@
   ],
   "slot": 20,
   "jp": "すべての　タイプを",
-  "en": "",
-  "status": "todo"
+  "en": "any type is welcome,",
+  "status": "done"
  },
  {
   "id": "t0B6980",
@@ -1322,8 +1322,8 @@
   ],
   "slot": 20,
   "jp": "ゼロイー　いがいの",
-  "en": "",
-  "status": "todo"
+  "en": "Zero-E aside,",
+  "status": "done"
  },
  {
   "id": "t0B6994",
@@ -1334,8 +1334,8 @@
   ],
   "slot": 16,
   "jp": "にくのエサを",
-  "en": "",
-  "status": "todo"
+  "en": "meat food",
+  "status": "done"
  },
  {
   "id": "t0B69A4",
@@ -1346,8 +1346,8 @@
   ],
   "slot": 24,
   "jp": "せいなるエサを　このみ",
-  "en": "",
-  "status": "todo"
+  "en": "holy food is a joy;",
+  "status": "done"
  },
  {
   "id": "t0B69BC",
@@ -1358,8 +1358,8 @@
   ],
   "slot": 12,
   "jp": "ドラコーは",
-  "en": "",
-  "status": "todo"
+  "en": "For Draco,",
+  "status": "done"
  },
  {
   "id": "t0B69C8",
@@ -1368,8 +1368,8 @@
   ],
   "slot": 24,
   "jp": "まきついて　しめつける",
-  "en": "",
-  "status": "todo"
+  "en": "squeezing",
+  "status": "done"
  },
  {
   "id": "t0B69E0",
@@ -1378,8 +1378,8 @@
   ],
   "slot": 20,
   "jp": "からだで　てきに",
-  "en": "",
-  "status": "todo"
+  "en": "wraps around foes:",
+  "status": "done"
  },
  {
   "id": "t0B69F4",
@@ -1388,8 +1388,8 @@
   ],
   "slot": 20,
   "jp": "ドラコーは　ながい",
-  "en": "",
-  "status": "todo"
+  "en": "Draco's long body",
+  "status": "done"
  },
  {
   "id": "t0B6A08",
@@ -1398,8 +1398,8 @@
   ],
   "slot": 24,
   "jp": "ゆるされる　でんせつの",
-  "en": "",
-  "status": "todo"
+  "en": "it. A legendary",
+  "status": "done"
  },
  {
   "id": "t0B6A20",
@@ -1408,8 +1408,8 @@
   ],
   "slot": 28,
   "jp": "マスターのみが　もつことを",
-  "en": "",
-  "status": "todo"
+  "en": "Masters may own",
+  "status": "done"
  },
  {
   "id": "t0B6A3C",
@@ -1418,8 +1418,8 @@
   ],
   "slot": 24,
   "jp": "ドラコーは　えらばれた",
-  "en": "",
-  "status": "todo"
+  "en": "Draco: only chosen",
+  "status": "done"
  },
  {
   "id": "t0B6A54",
@@ -1430,8 +1430,8 @@
   ],
   "slot": 12,
   "jp": "リーラは",
-  "en": "",
-  "status": "todo"
+  "en": "For Lyra,",
+  "status": "done"
  },
  {
   "id": "t0B6A60",
@@ -1440,8 +1440,8 @@
   ],
   "slot": 24,
   "jp": "ぶつける　たいあたり",
-  "en": "",
-  "status": "todo"
+  "en": "foes: body-slam",
+  "status": "done"
  },
  {
   "id": "t0B6A78",
@@ -1450,8 +1450,8 @@
   ],
   "slot": 20,
   "jp": "からだを　てきに",
-  "en": "",
-  "status": "todo"
+  "en": "pointy body into",
+  "status": "done"
  },
  {
   "id": "t0B6A8C",
@@ -1460,8 +1460,8 @@
   ],
   "slot": 20,
   "jp": "リーラは　とがった",
-  "en": "",
-  "status": "todo"
+  "en": "Lyra: ramming its",
+  "status": "done"
  },
  {
   "id": "t0B6AA0",
@@ -1470,8 +1470,8 @@
   ],
   "slot": 20,
   "jp": "いのちが　やどった",
-  "en": "",
-  "status": "todo"
+  "en": "alive. A gemstone",
+  "status": "done"
  },
  {
   "id": "t0B6AB4",
@@ -1480,8 +1480,8 @@
   ],
   "slot": 16,
   "jp": "けっしょうに",
-  "en": "",
-  "status": "todo"
+  "en": "magic stone, now",
+  "status": "done"
  },
  {
   "id": "t0B6AC4",
@@ -1490,8 +1490,8 @@
   ],
   "slot": 24,
   "jp": "リーラは　まほうせきの",
-  "en": "",
-  "status": "todo"
+  "en": "Lyra: a crystal of",
+  "status": "done"
  },
  {
   "id": "t0B6ADC",
@@ -1500,8 +1500,8 @@
   ],
   "slot": 24,
   "jp": "ころがり　とっしんする",
-  "en": "",
-  "status": "todo"
+  "en": "rolling, charging",
+  "status": "done"
  },
  {
   "id": "t0B6AF4",
@@ -1510,8 +1510,8 @@
   ],
   "slot": 28,
   "jp": "じりょくで　かいてんして",
-  "en": "",
-  "status": "todo"
+  "en": "spinning by magnets,",
+  "status": "done"
  },
  {
   "id": "t0B6B10",
@@ -1520,8 +1520,8 @@
   ],
   "slot": 24,
   "jp": "うまれた　スタイルだ",
-  "en": "",
-  "status": "todo"
+  "en": "birth to the style.",
+  "status": "done"
  },
  {
   "id": "t0B6B28",
@@ -1530,8 +1530,8 @@
   ],
   "slot": 24,
   "jp": "じりょくで　くっついて",
-  "en": "",
-  "status": "todo"
+  "en": "by magnetism, gave",
+  "status": "done"
  },
  {
   "id": "t0B6B40",
@@ -1540,8 +1540,8 @@
   ],
   "slot": 20,
   "jp": "てつの　かたまりが",
-  "en": "",
-  "status": "todo"
+  "en": "lumps of iron, stuck",
+  "status": "done"
  },
  {
   "id": "t0B6B54",
@@ -1554,8 +1554,8 @@
   ],
   "slot": 20,
   "jp": "サギッタリウスは",
-  "en": "",
-  "status": "todo"
+  "en": "For Sagittarius,",
+  "status": "done"
  },
  {
   "id": "t0B6B68",
@@ -1566,8 +1566,8 @@
   ],
   "slot": 20,
   "jp": "ファクトリーなどの",
-  "en": "",
-  "status": "todo"
+  "en": "or Factory-like",
+  "status": "done"
  },
  {
   "id": "t0B6B7C",
@@ -1578,8 +1578,8 @@
   ],
   "slot": 12,
   "jp": "ないようだ",
-  "en": "",
-  "status": "todo"
+  "en": "it seems.",
+  "status": "done"
  },
  {
   "id": "t0B6B88",
@@ -1590,8 +1590,8 @@
   ],
   "slot": 24,
   "jp": "タイプには　かんしんが",
-  "en": "",
-  "status": "todo"
+  "en": "types don't appeal,",
+  "status": "done"
  },
  {
   "id": "t0B6BA0",
@@ -1602,8 +1602,8 @@
   ],
   "slot": 20,
   "jp": "ゼロイーいがいの",
-  "en": "",
-  "status": "todo"
+  "en": "Zero-E aside,",
+  "status": "done"
  },
  {
   "id": "t0B6BB4",
@@ -1614,8 +1614,8 @@
   ],
   "slot": 20,
   "jp": "ひりょうのエサを",
-  "en": "",
-  "status": "todo"
+  "en": "fertilizer food",
+  "status": "done"
  },
  {
   "id": "t0B6BC8",
@@ -1626,8 +1626,8 @@
   ],
   "slot": 24,
   "jp": "かたいエサを　このみ",
-  "en": "",
-  "status": "todo"
+  "en": "hard food is a joy;",
+  "status": "done"
  },
  {
   "id": "t0B6BE0",
@@ -1638,8 +1638,8 @@
   ],
   "slot": 12,
   "jp": "リブラは",
-  "en": "",
-  "status": "todo"
+  "en": "For Libra,",
+  "status": "done"
  },
  {
   "id": "t0B6BEC",
@@ -1648,8 +1648,8 @@
   ],
   "slot": 28,
   "jp": "あたえる　ねんりきによる",
-  "en": "",
-  "status": "todo"
+  "en": "Mind Power",
+  "status": "done"
  },
  {
   "id": "t0B6C08",
@@ -1658,8 +1658,8 @@
   ],
   "slot": 20,
   "jp": "てきに　ダメージを",
-  "en": "",
-  "status": "todo"
+  "en": "touch, it hurts foes:",
+  "status": "done"
  },
  {
   "id": "t0B6C1C",
@@ -1668,8 +1668,8 @@
   ],
   "slot": 28,
   "jp": "リブラは　てを　ふれずに",
-  "en": "",
-  "status": "todo"
+  "en": "Libra: without a",
+  "status": "done"
  },
  {
   "id": "t0B6C38",
@@ -1678,8 +1678,8 @@
   ],
   "slot": 28,
   "jp": "みつかった　しんぴてきな",
-  "en": "",
-  "status": "todo"
+  "en": "civilization. Mystic",
+  "status": "done"
  },
  {
   "id": "t0B6C54",
@@ -1688,8 +1688,8 @@
   ],
   "slot": 24,
   "jp": "ぶんめいの　いせきから",
-  "en": "",
-  "status": "todo"
+  "en": "ruins of an ancient",
+  "status": "done"
  },
  {
   "id": "t0B6C6C",
@@ -1698,8 +1698,8 @@
   ],
   "slot": 20,
   "jp": "リブラは　こだい",
-  "en": "",
-  "status": "todo"
+  "en": "Libra was found in",
+  "status": "done"
  },
  {
   "id": "t0B6C80",
@@ -1710,8 +1710,8 @@
   ],
   "slot": 16,
   "jp": "ペルセウスは",
-  "en": "",
-  "status": "todo"
+  "en": "For Perseus,",
+  "status": "done"
  },
  {
   "id": "t0B6C90",
@@ -1720,8 +1720,8 @@
   ],
   "slot": 28,
   "jp": "こんらんさせる　おどりの",
-  "en": "",
-  "status": "todo"
+  "en": "confusing dance",
+  "status": "done"
  },
  {
   "id": "t0B6CAC",
@@ -1730,8 +1730,8 @@
   ],
   "slot": 24,
   "jp": "マヒさせる　のろいや",
-  "en": "",
-  "status": "todo"
+  "en": "that paralyze, and",
+  "status": "done"
  },
  {
   "id": "t0B6CC4",
@@ -1740,8 +1740,8 @@
   ],
   "slot": 24,
   "jp": "ペルセウスは　てきを",
-  "en": "",
-  "status": "todo"
+  "en": "Perseus: curses",
+  "status": "done"
  },
  {
   "id": "t0B6CDC",
@@ -1750,8 +1750,8 @@
   ],
   "slot": 28,
   "jp": "よみがえった　スタイルだ",
-  "en": "",
-  "status": "todo"
+  "en": "back. An undead style.",
+  "status": "done"
  },
  {
   "id": "t0B6CF8",
@@ -1760,8 +1760,8 @@
   ],
   "slot": 24,
   "jp": "このよへの　みれんで",
-  "en": "",
-  "status": "todo"
+  "en": "clung to this world",
+  "status": "done"
  },
  {
   "id": "t0B6D10",
@@ -1770,8 +1770,8 @@
   ],
   "slot": 28,
   "jp": "きょじんの　ずがいこつが",
-  "en": "",
-  "status": "todo"
+  "en": "giant's skull that",
+  "status": "done"
  },
  {
   "id": "t0B6D2C",
@@ -1780,8 +1780,8 @@
   ],
   "slot": 24,
   "jp": "ペルセウスは　しんだ",
-  "en": "",
-  "status": "todo"
+  "en": "Perseus: a dead",
+  "status": "done"
  },
  {
   "id": "t0B6D44",
@@ -1792,8 +1792,8 @@
   ],
   "slot": 12,
   "jp": "ゲミニは",
-  "en": "",
-  "status": "todo"
+  "en": "For Gemini,",
+  "status": "done"
  },
  {
   "id": "t0B6D50",
@@ -1802,8 +1802,8 @@
   ],
   "slot": 24,
   "jp": "タックルや　はねまわる",
-  "en": "",
-  "status": "todo"
+  "en": "tackle and bounce",
+  "status": "done"
  },
  {
   "id": "t0B6D68",
@@ -1812,8 +1812,8 @@
   ],
   "slot": 24,
   "jp": "じゆうじざいに　とび",
-  "en": "",
-  "status": "todo"
+  "en": "freely in the air;",
+  "status": "done"
  },
  {
   "id": "t0B6D80",
@@ -1822,8 +1822,8 @@
   ],
   "slot": 24,
   "jp": "ゲミニは　こうそくで",
-  "en": "",
-  "status": "todo"
+  "en": "Gemini flies fast,",
+  "status": "done"
  },
  {
   "id": "t0B6D98",
@@ -1832,8 +1832,8 @@
   ],
   "slot": 24,
   "jp": "ふしぎな　スタイルだ",
-  "en": "",
-  "status": "todo"
+  "en": "A strange style.",
+  "status": "done"
  },
  {
   "id": "t0B6DB0",
@@ -1842,8 +1842,8 @@
   ],
   "slot": 20,
   "jp": "もったものとされる",
-  "en": "",
-  "status": "todo"
+  "en": "a will, they say.",
+  "status": "done"
  },
  {
   "id": "t0B6DC4",
@@ -1852,8 +1852,8 @@
   ],
   "slot": 20,
   "jp": "あつまって　いしを",
-  "en": "",
-  "status": "todo"
+  "en": "gathered and gained",
+  "status": "done"
  },
  {
   "id": "t0B6DD8",
@@ -1862,8 +1862,8 @@
   ],
   "slot": 24,
   "jp": "ゲミニは　ひとだまが",
-  "en": "",
-  "status": "todo"
+  "en": "Gemini: ghostfires",
+  "status": "done"
  },
  {
   "id": "t0B6DF0",
@@ -1874,8 +1874,8 @@
   ],
   "slot": 16,
   "jp": "ホール　ダスト",
-  "en": "",
-  "status": "todo"
+  "en": "Hole, Dust",
+  "status": "done"
  },
  {
   "id": "t0B6E00",
@@ -1886,8 +1886,8 @@
   ],
   "slot": 24,
   "jp": "タイプを　きらうようだ",
-  "en": "",
-  "status": "todo"
+  "en": "type seems unwelcome.",
+  "status": "done"
  },
  {
   "id": "t0B6E18",
@@ -1898,8 +1898,8 @@
   ],
   "slot": 20,
   "jp": "いがいの　すべての",
-  "en": "",
-  "status": "todo"
+  "en": "aside, every",
+  "status": "done"
  },
  {
   "id": "t0B6E2C",
@@ -1910,8 +1910,8 @@
   ],
   "slot": 24,
   "jp": "ゴストフリー　ゼロイー",
-  "en": "",
-  "status": "todo"
+  "en": "Ghostfree, Zero-E",
+  "status": "done"
  },
  {
   "id": "t0B6E44",
@@ -1922,8 +1922,8 @@
   ],
   "slot": 16,
   "jp": "せいなるエサを",
-  "en": "",
-  "status": "todo"
+  "en": "holy food",
+  "status": "done"
  },
  {
   "id": "t0B6E54",
@@ -1934,8 +1934,8 @@
   ],
   "slot": 28,
   "jp": "たましいのエサを　このみ",
-  "en": "",
-  "status": "todo"
+  "en": "soul food is a joy;",
+  "status": "done"
  },
  {
   "id": "t0B6E70",
@@ -1946,8 +1946,8 @@
   ],
   "slot": 16,
   "jp": "オフィウクスは",
-  "en": "",
-  "status": "todo"
+  "en": "For Ophiuchus,",
+  "status": "done"
  },
  {
   "id": "t0B6E80",
@@ -1956,8 +1956,8 @@
   ],
   "slot": 24,
   "jp": "さいみんじゅつによる",
-  "en": "",
-  "status": "todo"
+  "en": "hypnosis",
+  "status": "done"
  },
  {
   "id": "t0B6E98",
@@ -1966,8 +1966,8 @@
   ],
   "slot": 24,
   "jp": "さきにある　ドクバリと",
-  "en": "",
-  "status": "todo"
+  "en": "tip stinger and",
+  "status": "done"
  },
  {
   "id": "t0B6EB0",
@@ -1976,8 +1976,8 @@
   ],
   "slot": 28,
   "jp": "オフィウクスは　シッポの",
-  "en": "",
-  "status": "todo"
+  "en": "Ophiuchus: its tail-",
+  "status": "done"
  },
  {
   "id": "t0B6ECC",
@@ -1986,8 +1986,8 @@
   ],
   "slot": 28,
   "jp": "ウワサされる　おそろしい",
-  "en": "",
-  "status": "todo"
+  "en": "rumor has it. A dread",
+  "status": "done"
  },
  {
   "id": "t0B6EE8",
@@ -1996,8 +1996,8 @@
   ],
   "slot": 28,
   "jp": "すむ　あくまの　１しゅと",
-  "en": "",
-  "status": "todo"
+  "en": "of the underworld,",
+  "status": "done"
  },
  {
   "id": "t0B6F04",
@@ -2006,8 +2006,8 @@
   ],
   "slot": 28,
   "jp": "オフィウクスは　まかいに",
-  "en": "",
-  "status": "todo"
+  "en": "Ophiuchus: a demon",
+  "status": "done"
  },
  {
   "id": "t0B6F20",
@@ -2018,8 +2018,8 @@
   ],
   "slot": 16,
   "jp": "ウィルゴーは",
-  "en": "",
-  "status": "todo"
+  "en": "For Virgo,",
+  "status": "done"
  },
  {
   "id": "t0B6F30",
@@ -2028,8 +2028,8 @@
   ],
   "slot": 28,
   "jp": "ないが　ビンタこうげきを",
-  "en": "",
-  "status": "todo"
+  "en": "but slap attacks",
+  "status": "done"
  },
  {
   "id": "t0B6F4C",
