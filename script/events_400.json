@@ -860,7 +860,7 @@
   "flag": 0,
   "speaker": -1,
   "jp": "ちなみに　わたしは\n{%sR4}タイプなので・・・",
-  "en": "By the way, I am a {%sR4} type,\nso...",
+  "en": "By the way, my type is {%sR4},\nso...",
   "status": "done"
  },
  {
@@ -892,7 +892,7 @@
   "flag": 0,
   "speaker": -1,
   "jp": "ちなみに　オレは\n{%sR4}タイプだから・・・",
-  "en": "Me, I'm a {%sR4} type, so...",
+  "en": "Me, my type's {%sR4}, so...",
   "status": "done"
  },
  {
@@ -924,7 +924,7 @@
   "flag": 0,
   "speaker": -1,
   "jp": "ところで　わたしは\n{%sR4}タイプなのだが",
-  "en": "Now, I happen to be a {%sR4}\ntype.",
+  "en": "Now, my own type is {%sR4}.",
   "status": "done"
  },
  {
@@ -956,7 +956,7 @@
   "flag": 0,
   "speaker": -1,
   "jp": "そんな　わたしは\n{%sR4}タイプだから・・・",
-  "en": "Me, I'm a {%sR4} type, so...",
+  "en": "Me, my type's {%sR4}, so...",
   "status": "done"
  },
  {
@@ -988,7 +988,7 @@
   "flag": 0,
   "speaker": -1,
   "jp": "ちなみに　わたしは\n{%sR4}タイプなので・・・",
-  "en": "By the way, I am a {%sR4} type,\nso...",
+  "en": "By the way, my type is {%sR4},\nso...",
   "status": "done"
  },
  {
@@ -1020,7 +1020,7 @@
   "flag": 0,
   "speaker": -1,
   "jp": "ちなみに　オレは\n{%sR4}タイプだから・・・",
-  "en": "Me, I'm a {%sR4} type, so...",
+  "en": "Me, my type's {%sR4}, so...",
   "status": "done"
  },
  {
@@ -1052,7 +1052,7 @@
   "flag": 0,
   "speaker": -1,
   "jp": "ところで　わたしは\n{%sR4}タイプなのだが",
-  "en": "Now, I happen to be a {%sR4}\ntype.",
+  "en": "Now, my own type is {%sR4}.",
   "status": "done"
  },
  {
@@ -1084,7 +1084,7 @@
   "flag": 0,
   "speaker": -1,
   "jp": "そんな　わたしは\n{%sR4}タイプだから・・・",
-  "en": "Me, I'm a {%sR4} type, so...",
+  "en": "Me, my type's {%sR4}, so...",
   "status": "done"
  },
  {

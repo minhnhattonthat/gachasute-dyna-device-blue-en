@@ -186,6 +186,8 @@ def problems(entry, en, terms):
         out.append(f"control codes differ: JP {dict(want)} EN {dict(have)}")
     if re.search(VARIABLE + r"(st|nd|rd|th)\b", en):
         out.append('ordinal suffix after a variable (write "No. {%dR0}")')
+    if re.search(r"\b[Aa]n? " + VARIABLE, en):
+        out.append("a/an right before a variable (the article can't match every value)")
     jp_plain = TOKEN.sub("", jp)
     flat = re.sub(r"\s+", " ", en.replace("{KP}", " ")).lower()  # a term may wrap across lines
     for jps, ens, avoid in terms:

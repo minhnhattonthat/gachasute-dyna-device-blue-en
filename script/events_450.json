@@ -4,7 +4,7 @@
   "flag": 0,
   "speaker": -1,
   "jp": "なぁ？　となりに　{%sR4}タイプの\nヤツが　すんでるだろ？{KP}\nオレはな　{%sR4}タイプが\nどうも　きにくわねぇんだよ",
-  "en": "Hey, there's a {%sR4} type livin'\nnext door, right?{KP}\nThing is, I can't stand {%sR4}\ntypes.",
+  "en": "Hey, one of them {%sR4} types\nlives next door, right?{KP}\nThing is, I can't stand {%sR4}\ntypes.",
   "status": "done"
  },
  {
@@ -20,7 +20,7 @@
   "flag": 0,
   "speaker": -1,
   "jp": "ここの　となりに　{%sR4}タイプが\nすんでいるな？{KP}\nわたしは　{%sR4}タイプとは\nあわないのだ",
-  "en": "A {%sR4} type lives next door,\ndoes it not?{KP}\nI do not get on with {%sR4}\ntypes.",
+  "en": "A Dyna of the {%sR4} type lives\nnext door, does it not?{KP}\nI do not get on with {%sR4}\ntypes.",
   "status": "done"
  },
  {
@@ -68,7 +68,7 @@
   "flag": 0,
   "speaker": -1,
   "jp": "なぁ？　ここに　{%sR4}タイプの\nヤツが　すんでるだろ？{KP}\nオレはな　{%sR4}タイプが\nどうも　きにくわねぇんだよ",
-  "en": "Hey, there's a {%sR4} type livin'\nhere too, right?{KP}\nThing is, I can't stand {%sR4}\ntypes.",
+  "en": "Hey, one of them {%sR4} types\nlives here too, right?{KP}\nThing is, I can't stand {%sR4}\ntypes.",
   "status": "done"
  },
  {
@@ -84,7 +84,7 @@
   "flag": 0,
   "speaker": -1,
   "jp": "ここの　いえに　{%sR4}タイプが\nすんでいるな？{KP}\nわたしは　{%sR4}タイプとは\nあわないのだ",
-  "en": "A {%sR4} type lives in this house\ntoo, does it not?{KP}\nI do not get on with {%sR4}\ntypes.",
+  "en": "A Dyna of the {%sR4} type lives in\nthis house too, does it not?{KP}\nI do not get on with {%sR4}\ntypes.",
   "status": "done"
  },
  {
@@ -116,7 +116,7 @@
   "flag": 0,
   "speaker": -1,
   "jp": "ここの　まわりに　{%sR4}の\nセクタが　ありますよね？{KP}\nじつは　わたし　{%sR4}の\nセクタが　にがてなんです・・・",
-  "en": "There is a {%sR4} sector near\nhere, yes?{KP}\nTo be honest, I do not like {%sR4}\nsectors...",
+  "en": "There are {%sR4} sectors near\nhere, yes?{KP}\nTo be honest, I do not like {%sR4}\nsectors...",
   "status": "done"
  },
  {
