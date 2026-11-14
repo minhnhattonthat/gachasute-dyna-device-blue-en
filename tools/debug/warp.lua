@@ -54,6 +54,7 @@ local hold = tonumber(HOLD) or scene.hold or 300
 local TUT_ROUTE = (SCENES and SCENES:gsub("[^/\\]+$", "") or "../debug/") .. "tutorial_route.txt"
 local TUT_MASH = 2997  -- frames of A-mashing from script 1's start before the recorded tutorial route begins
 local tutStart = 0
+local tutRouteT = nil  -- tutorial frame the recorded route starts (set from the script-10 nag)
 local arriveAfterRoute = false  -- arrive when the queued input route has played out
 local stage, stageFrame = "boot", 0
 local arrived = nil
@@ -213,6 +214,12 @@ L.on_exec(SCRIPT_START, SCRIPT_START, function()
   else
     L.log(string.format("SCRIPT %d lr=%08X room=%d f%d", idx, s["cpu.r14"] or 0, r16(ROOM), L.frame))
   end
+  if stage == "tutorial" and idx == 10 and not tutRouteT and L.frame - tutStart >= TUT_MASH - 400 then
+    -- script 10 is the "press A at the Gachasute" nag the A-mash keeps retriggering (every 240 frames); start the
+    -- recorded route 157 frames after one, as on the original ROM. A fixed start frame broke once the English text
+    -- shifted the nag's phase (the route's first steps were eaten by an open nag box).
+    tutRouteT = L.frame - tutStart + 157
+  end
   local eventScript = scene.kind == "event" and emu.read16(EVENT_SCRIPTS + 2 * tonumber(scene.arg), MEM) or -1
   if scene.kind == "fscript" and stage == "fwalk" and r16(ROOM) == 15 then
     -- the reception's room-load script (331, fades the room in) runs; then up to the counter and talk
@@ -256,13 +263,14 @@ L.on_frame(function(n)
     -- kind "menu": play the whole tutorial (script 1) as recorded: A every 40 frames for TUT_MASH frames, then the
     -- recorded route (Gachasute walk, Dyna names, house, sector build with an item shop), ending on the city road.
     local t = n - tutStart
-    if t < TUT_MASH and t > 0 and t % 40 == 0 then L.press("a", 6) end
-    if t == TUT_MASH then
+    local routeT = tutRouteT or (TUT_MASH + 600)  -- fallback if no nag was seen
+    if t < routeT and t > 0 and t % 40 == 0 then L.press("a", 6) end
+    if t == routeT then
       local f = assert(io.open(TUT_ROUTE, "r"))
       local str = f:read("a"); f:close()
       play(parse_route(str:gsub("%s+$", "")))
     end
-    if t > TUT_MASH and L.route_done() then
+    if t > routeT and L.route_done() then
       if r16(ROOM) ~= 0 or r16(SCR + 0x10) ~= 0 then
         L.log(string.format("WARP tutorial route ended off the city road room=%d op=%d f%d", r16(ROOM),
           r16(SCR + 0x10), n))

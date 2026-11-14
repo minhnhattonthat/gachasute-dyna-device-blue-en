@@ -700,7 +700,7 @@
   "flag": 0,
   "speaker": 4,
   "jp": "では　かいはつの　ながれを　せつめいします{KP}\nそこにいる　けんきゅういんに　はなしかけて\nかいはついらいを　えらんでください",
-  "en": "Now, I will explain how development\nworks.{KP}\nPlease talk to the researcher there and\nchoose Request Development.",
+  "en": "Now, I will explain how development\nworks.{KP}\nPlease talk to the researcher there and\nchoose New Request.",
   "status": "done"
  },
  {
@@ -732,7 +732,7 @@
   "flag": 0,
   "speaker": 4,
   "jp": "ちょっと　ようすを　みてみましょう{KP}\nけんきゅういんに　はなしかけて\nかいはつじょうきょうを　えらんでください",
-  "en": "Let us see how it is going.{KP}\nPlease talk to the researcher and choose\nDevelopment Status.",
+  "en": "Let us see how it is going.{KP}\nPlease talk to the researcher and choose\nCheck Status.",
   "status": "done"
  },
  {
@@ -756,7 +756,7 @@
   "flag": 0,
   "speaker": 4,
   "jp": "そろそろ　かんせいするころですね{KP}\nけんきゅういんに　はなしかけて\nかいはつじょうきょうを　えらんでください",
-  "en": "It should be about finished by now.{KP}\nPlease talk to the researcher and choose\nDevelopment Status.",
+  "en": "It should be about finished by now.{KP}\nPlease talk to the researcher and choose\nCheck Status.",
   "status": "done"
  },
  {
@@ -780,7 +780,7 @@
   "flag": 0,
   "speaker": 4,
   "jp": "そろそろ　かんせいするころですね{KP}\nけんきゅういんに　はなしかけて\nかいはつじょうきょうを　えらんでください",
-  "en": "It should be about finished by now.{KP}\nPlease talk to the researcher and choose\nDevelopment Status.",
+  "en": "It should be about finished by now.{KP}\nPlease talk to the researcher and choose\nCheck Status.",
   "status": "done"
  },
  {
@@ -804,7 +804,7 @@
   "flag": 0,
   "speaker": 4,
   "jp": "では　あらためて　けんきゅういんに　\nはなしかけて{KP}\nかいはつじょうきょうを　えらんでください",
-  "en": "Now, please talk to the researcher once\nmore{KP}\nand choose Development Status.",
+  "en": "Now, please talk to the researcher once\nmore{KP}\nand choose Check Status.",
   "status": "done"
  },
  {
@@ -892,551 +892,551 @@
   "flag": 0,
   "speaker": 4,
   "jp": "ただし　このばあいは　よわい　ぞくせいに\nたいして　さらに　よわくなってしまって{KP}\nいちげきで　たおされて　しまうことも\nあるので　きをつけてください",
-  "en": "",
-  "status": "todo"
+  "en": "However, in that case it becomes even\nweaker against the element it is weak{KP}\nagainst,{KP}\nand it may even be taken down in one hit,\nso please be careful.",
+  "status": "done"
  },
  {
   "id": "s080.11",
   "flag": 0,
   "speaker": 4,
   "jp": "では　わたしは　ダイナセンターに　もどります\nなにかありましたら　また　おたちよりください",
-  "en": "",
-  "status": "todo"
+  "en": "Well, I will go back to the Dyna Center now.\nIf anything comes up, please drop by{KP}\nagain.",
+  "status": "done"
  },
  {
   "id": "s081.00",
   "flag": 0,
   "speaker": 4,
   "jp": "まず　ファクトリーを　たててください！",
-  "en": "",
-  "status": "todo"
+  "en": "First, please build the Factory!",
+  "status": "done"
  },
  {
   "id": "s082.00",
   "flag": 0,
   "speaker": 4,
   "jp": "そこにいる　けんきゅういんに　はなしかけて\nかいはついらいを　えらんでください",
-  "en": "",
-  "status": "todo"
+  "en": "Please talk to the researcher there and\nchoose New Request.",
+  "status": "done"
  },
  {
   "id": "s083.00",
   "flag": 0,
   "speaker": 4,
   "jp": "かいはついらいを　えらんでください{KP}\nそうすると　あたらしいデバイスの\nかいはつを　いらいできます",
-  "en": "",
-  "status": "todo"
+  "en": "Please choose New Request.{KP}\nThat lets you request the development of\na new Device.",
+  "status": "done"
  },
  {
   "id": "s083.01",
   "flag": 0,
   "speaker": 13,
   "jp": "　　かいはついらい　　　　かいはつじょうきょう\n　　かいはつちゅうし　　　なんでもない{KN}",
-  "en": "",
-  "status": "todo"
+  "en": "    New Request         Check Status\n    Cancel Request       Never mind{KN}",
+  "status": "done"
  },
  {
   "id": "s084.00",
   "flag": 0,
   "speaker": 4,
   "jp": "そこにいる　けんきゅういんに　はなしかけて\nかいはつじょうきょうを　えらんでください",
-  "en": "",
-  "status": "todo"
+  "en": "Please talk to the researcher there and\nchoose Check Status.",
+  "status": "done"
  },
  {
   "id": "s085.00",
   "flag": 0,
   "speaker": 4,
   "jp": "かいはつじょうきょうを　えらんでください{KP}\nげんざいの　デバイスかいはつじょうきょうを\nかくにんできます",
-  "en": "",
-  "status": "todo"
+  "en": "Please choose Check Status.{KP}\nYou can check how your Device\ndevelopment is going right now.",
+  "status": "done"
  },
  {
   "id": "s085.01",
   "flag": 0,
   "speaker": 13,
   "jp": "　　かいはついらい　　　　かいはつじょうきょう\n　　かいはつちゅうし　　　なんでもない{KN}",
-  "en": "",
-  "status": "todo"
+  "en": "    New Request         Check Status\n    Cancel Request       Never mind{KN}",
+  "status": "done"
  },
  {
   "id": "s086.00",
   "flag": 0,
   "speaker": 4,
   "jp": "このように　じかんが　たつと　じょじょに\nデバイスが　かんせいに　ちかづきます",
-  "en": "",
-  "status": "todo"
+  "en": "As you can see, as time passes, the Device\ngets closer and closer to being finished.",
+  "status": "done"
  },
  {
   "id": "s086.01",
   "flag": 0,
   "speaker": 4,
   "jp": "この　かいはつしんこうどが\n１００％になると　かんせいとなるわけですね",
-  "en": "",
-  "status": "todo"
+  "en": "Once this development progress reaches\n100 percent, it is finished.",
+  "status": "done"
  },
  {
   "id": "s087.00",
   "flag": 0,
   "speaker": 4,
   "jp": "あら？　かいはつが\nストップしているみたいですね",
-  "en": "",
-  "status": "todo"
+  "en": "Oh? It seems development has stopped.",
+  "status": "done"
  },
  {
   "id": "s087.01",
   "flag": 0,
   "speaker": 4,
   "jp": "このマークは　デバイスの　かいはつちゅうに\nもんだいが　はっせいして",
-  "en": "",
-  "status": "todo"
+  "en": "This mark means that a problem came up\nwhile the Device was being developed,",
+  "status": "done"
  },
  {
   "id": "s087.02",
   "flag": 0,
   "speaker": 4,
   "jp": "かいはつの　しんこうが\nストップしていることを　あらわしています",
-  "en": "",
-  "status": "todo"
+  "en": "and development progress has stopped.",
+  "status": "done"
  },
  {
   "id": "s087.03",
   "flag": 0,
   "speaker": 4,
   "jp": "しきんぶそく・・・と　かいてありますね{KP}\nおかねが　たりなくなって　かいはつが\nつづけられないということです",
-  "en": "",
-  "status": "todo"
+  "en": "It says... \"Not enough funds.\"{KP}\nThat means the money ran out, and\ndevelopment cannot go on.",
+  "status": "done"
  },
  {
   "id": "s087.04",
   "flag": 0,
   "speaker": 4,
   "jp": "こういうばあいは　とまってしまった\nプロジェクトを　えらんでみてください{KN}",
-  "en": "",
-  "status": "todo"
+  "en": "In a case like this, please try choosing the\nproject that has stopped.{KN}",
+  "status": "done"
  },
  {
   "id": "s088.00",
   "flag": 0,
   "speaker": 4,
   "jp": "とまってしまったプロジェクトを\nえらんでください{KP}\nプロジェクトが　とまっている\nげんいんを　かくにんできます{KN}",
-  "en": "",
-  "status": "todo"
+  "en": "Please choose the project that has\nstopped.{KP}\nYou can check why the project has\nstopped.{KN}",
+  "status": "done"
  },
  {
   "id": "s089.00",
   "flag": 0,
   "speaker": 4,
   "jp": "このように　もんだいが　はっせいしている\nプロジェクトについて　きくと",
-  "en": "",
-  "status": "todo"
+  "en": "When you ask about a project that has a\nproblem like this,",
+  "status": "done"
  },
  {
   "id": "s089.01",
   "flag": 0,
   "speaker": 4,
   "jp": "かいはつを　さいかいするのに\nひつような　ものを　きくことができます",
-  "en": "",
-  "status": "todo"
+  "en": "you can find out what is needed to restart\ndevelopment.",
+  "status": "done"
  },
  {
   "id": "s089.02",
   "flag": 0,
   "speaker": 4,
   "jp": "こんかいは　おかねでしたが\nアイテムの　ばあいもあります{KP}\nアイテムの　ばあい　なかなか　もくてきの\nアイテムが　みつからないことも　あります",
-  "en": "",
-  "status": "todo"
+  "en": "This time it was money, but sometimes it is\nan item.{KP}\nWhen it is an item, the one you need can\nbe hard to find.",
+  "status": "done"
  },
  {
   "id": "s089.03",
   "flag": 0,
   "speaker": 4,
   "jp": "そういうときには　たとえば\nデバイスそざいのみせを　たててみたり{KP}\nシティにすんでいる　ダイナに\nはなしかけてみてください",
-  "en": "",
-  "status": "todo"
+  "en": "At times like that, try building a Device\nparts shop, for example,{KP}\nor try talking to the Dyna who live in your\ncity.",
+  "status": "done"
  },
  {
   "id": "s089.04",
   "flag": 0,
   "speaker": 4,
   "jp": "きげんが　わるくなければ\nデバイスそざいなどの　アイテムを{KP}\nくれたり　うってくれたりすることも\nあるみたいですよ",
-  "en": "",
-  "status": "todo"
+  "en": "If they are in a good mood, they may give\nyou{KP}\nor sell you items such as Device parts.",
+  "status": "done"
  },
  {
   "id": "s089.05",
   "flag": 0,
   "speaker": 4,
   "jp": "では　こんかいの　おかねは\nわたしが　はらっておきますね{KN}",
-  "en": "",
-  "status": "todo"
+  "en": "Well then, I will pay the money for you this\ntime.{KN}",
+  "status": "done"
  },
  {
   "id": "s090.00",
   "flag": 0,
   "speaker": 4,
   "jp": "ちょっと　トラブルも　ありましたが\nぶじ　かんせいですね",
-  "en": "",
-  "status": "todo"
+  "en": "There was a little trouble, but it is finished\nsafely.",
+  "status": "done"
  },
  {
   "id": "s090.01",
   "flag": 0,
   "speaker": 4,
   "jp": "しゅうりょうした　プロジェクトを\nえらんでみてください{KN}",
-  "en": "",
-  "status": "todo"
+  "en": "Please try choosing the finished project.{KN}",
+  "status": "done"
  },
  {
   "id": "s091.00",
   "flag": 0,
   "speaker": 4,
   "jp": "しゅうりょうした　プロジェクトを\nえらんでください{KN}",
-  "en": "",
-  "status": "todo"
+  "en": "Please choose the finished project.{KN}",
+  "status": "done"
  },
  {
   "id": "s092.00",
   "flag": 0,
   "speaker": 2,
   "jp": "{%sR4}―！！\nそこを　うごくな！！",
-  "en": "",
-  "status": "todo"
+  "en": "{%sR4}!!\nDon't you move!!",
+  "status": "done"
  },
  {
   "id": "s092.01",
   "flag": 0,
   "speaker": 2,
   "jp": "はぁはぁ・・・やっと　みつけたぞ！{KP}\nおまえ　じつは　ずーっとまえから\nダイナデバイスやってたのを　かくしてたな！",
-  "en": "",
-  "status": "todo"
+  "en": "Huff, huff... Finally found you!{KP}\nYou! You've secretly been playing Dyna\nDevice for ages, haven't you!",
+  "status": "done"
  },
  {
   "id": "s092.02",
   "flag": 0,
   "speaker": 2,
   "jp": "いや！　こたえなくても\nオレさまには　わかる！{KP}\n・・・このあいだは　ゆだんしたぜ・・・",
-  "en": "",
-  "status": "todo"
+  "en": "No! Don't answer! The great me already\nknows!{KP}\n...I let my guard down last time...",
+  "status": "done"
  },
  {
   "id": "s092.03",
   "flag": 0,
   "speaker": 2,
   "jp": "まさか　あそこまで\nダイナたちを　そだてていたとはな",
-  "en": "",
-  "status": "todo"
+  "en": "Who knew you'd raised your Dyna that\nfar!",
+  "status": "done"
  },
  {
   "id": "s092.04",
   "flag": 0,
   "speaker": 2,
   "jp": "・・・なに？　ほんとうに\nはじめたばっかりだと？　ウソを　つくな！",
-  "en": "",
-  "status": "todo"
+  "en": "...What? You really just started? Don't lie\nto me!",
+  "status": "done"
  },
  {
   "id": "s092.05",
   "flag": 0,
   "speaker": 2,
   "jp": "はじめたばっかりのヤツに\nこのオレさまが　まけるわけないだろ！{KP}\nおまえは　ぜったいに　このゲームを\n１００じかんは　やってる！",
-  "en": "",
-  "status": "todo"
+  "en": "There's no way the great me loses to\nsomeone who just started!{KP}\nYou've definitely played this game for 100\nhours!",
+  "status": "done"
  },
  {
   "id": "s092.06",
   "flag": 0,
   "speaker": 2,
   "jp": "・・・まぁ　１００じかんやってたヤツ\nあいてに　あそこまで　きわどい　しょうぶが{KP}\nできるあたりが　さすが\nオレさまと　いったところか・・・",
-  "en": "",
-  "status": "todo"
+  "en": "...Well, against someone with 100 hours, a\nbattle that close{KP}\njust goes to show how great the great me\nreally is...",
+  "status": "done"
  },
  {
   "id": "s092.07",
   "flag": 0,
   "speaker": 2,
   "jp": "だが　しかし！　この　ゲニオさまは\nまけっぱなしでは　おわらないぜ！{KP}\nいちど　かったくらいで　いいきになるなよ！\nプレイじかんで　まけても　バトルで　かつ！",
-  "en": "",
-  "status": "todo"
+  "en": "But hear this! The great Genio doesn't stay\nbeaten!{KP}\nDon't get cocky over one win! Lose on play\ntime, win in battle!",
+  "status": "done"
  },
  {
   "id": "s092.08",
   "flag": 0,
   "speaker": 2,
   "jp": "と　いうわけだから　コロシアムに　こい！\nオレも　いまから　せつぞくするからな！{KP}\nにげるなよ！！",
-  "en": "",
-  "status": "todo"
+  "en": "So get over to the Colosseum! I'm\nconnecting right now too!{KP}\nDon't you run away!!",
+  "status": "done"
  },
  {
   "id": "s093.00",
   "flag": 0,
   "speaker": 12,
   "jp": "あ　いらっしゃいましたね！　あなたを\nバトルで　しめいしているかたが　おまちです",
-  "en": "",
-  "status": "todo"
+  "en": "Ah, there you are! Someone who has\nchallenged you to a battle is waiting.",
+  "status": "done"
  },
  {
   "id": "s093.01",
   "flag": 0,
   "speaker": 12,
   "jp": "さぁ　どうぞ　こちらへ",
-  "en": "",
-  "status": "todo"
+  "en": "This way, please.",
+  "status": "done"
  },
  {
   "id": "s094.00",
   "flag": 0,
   "speaker": 2,
   "jp": "くくく・・・\nにげださなかったことは　ほめてやろう！{KP}\nだが　その　ゆうきが　いのちとりだぜ！",
-  "en": "",
-  "status": "todo"
+  "en": "Heh heh heh... I'll give you credit for not\nrunning away!{KP}\nBut that courage is gonna be the end of\nyou!",
+  "status": "done"
  },
  {
   "id": "s094.01",
   "flag": 0,
   "speaker": 2,
   "jp": "うまれかわった　ダイナの　ちから\nたっぷりと　あじわえ！！　がはははは！！",
-  "en": "",
-  "status": "todo"
+  "en": "Taste the power of my reborn Dyna!!\nGwahahaha!!",
+  "status": "done"
  },
  {
   "id": "s095.00",
   "flag": 0,
   "speaker": 2,
   "jp": "・・・あれ？{KP}\nちょっとまて！　いや　こんなハズは・・・{KP}\nあそこで　ああなるハズで\nここで　こうなるハズだから・・・",
-  "en": "",
-  "status": "todo"
+  "en": "...Huh?{KP}\nWait a sec! No, this can't be...{KP}\nThat was supposed to go like that, and\nthis was supposed to go like this...",
+  "status": "done"
  },
  {
   "id": "s095.01",
   "flag": 0,
   "speaker": 2,
   "jp": "{%sR4}！　オマエ\nすこし　みないあいだに{KP}\nさらに　１００じかん\nゲームを　やっただろ！",
-  "en": "",
-  "status": "todo"
+  "en": "{%sR4}! You!{KP}\nWhile I wasn't looking, you played another\n100 hours, didn't you!",
+  "status": "done"
  },
  {
   "id": "s095.02",
   "flag": 0,
   "speaker": 2,
   "jp": "いまの　オレさまが　まけるなど　それしか\nかんがえられん！　・・・きたないヤツめ！",
-  "en": "",
-  "status": "todo"
+  "en": "That's the only way the great me could\nlose now! ...You dirty cheat!",
+  "status": "done"
  },
  {
   "id": "s095.03",
   "flag": 0,
   "speaker": 2,
   "jp": "まぁ　しかし　オレさまに　かったのは\nじじつだし　きねんに　これを　やろう！",
-  "en": "",
-  "status": "todo"
+  "en": "Well, you did beat the great me, fair and\nsquare, so take this as a souvenir!",
+  "status": "done"
  },
  {
   "id": "s095.04",
   "flag": 0,
   "speaker": 2,
   "jp": "だが　ごうけい２００じかん　やっている\nおまえを　あいてにして　オレさまは",
-  "en": "",
-  "status": "todo"
+  "en": "But against you, with a total of 200 hours,\nthe great me",
+  "status": "done"
  },
  {
   "id": "s095.05",
   "flag": 0,
   "speaker": 2,
   "jp": "いつ　かっても　おかしくない　バトルをした{KP}\nこのままいくと　オレさまも　バイラーに\nめを　つけられちまうかもな　がはははは！",
-  "en": "",
-  "status": "todo"
+  "en": "fought a battle I could've won at any\nmoment!{KP}\nAt this rate, even the great me might\ncatch Byler's eye! Gwahahaha!",
+  "status": "done"
  },
  {
   "id": "s095.06",
   "flag": 0,
   "speaker": 2,
   "jp": "・・・なに？　バイラーって\nなんなのかだと？{KP}\n・・・うむ　オマエのような　プレイじかんに\nモノを　いわせるような　ザコには",
-  "en": "",
-  "status": "todo"
+  "en": "...What? You want to know what Byler\nis?{KP}\n...Hmm. Small fry like you, who win on play\ntime alone,",
+  "status": "done"
  },
  {
   "id": "s095.07",
   "flag": 0,
   "speaker": 2,
   "jp": "いっしょう　えんが　ないとは　おもうが\nいちおう　おしえてやろう！{KP}\nいま　ダイナデバイスで\nでかい　ダイナシティを　つくって",
-  "en": "",
-  "status": "todo"
+  "en": "will never have anything to do with them,\nbut I'll tell you anyway!{KP}\nRight now in Dyna Device, anyone who\nbuilds a big Dyna City",
+  "status": "done"
  },
  {
   "id": "s095.08",
   "flag": 0,
   "speaker": 2,
   "jp": "つよいダイナを　そだてている\nれんちゅうが　なにものかに　おそわれて{KP}\nダイナシティも　ダイナも\nうばわれるという　じけんが　おこっててな",
-  "en": "",
-  "status": "todo"
+  "en": "and raises strong Dyna is getting attacked\nby someone,{KP}\nand having their Dyna City and Dyna\nstolen.",
+  "status": "done"
  },
  {
   "id": "s095.09",
   "flag": 0,
   "speaker": 2,
   "jp": "ネットの　ウワサで　そのはんにんたちは\nバイラーと　なのっていると　いわれてるのさ{KP}\nしょうたいふめい　もくてきふめい\nバトルは　メチャクチャつよいらしい",
-  "en": "",
-  "status": "todo"
+  "en": "The rumor on the net is that the culprits\ncall themselves Byler.{KP}\nNobody knows who they are or what they\nwant, but they're super strong in battle.",
+  "status": "done"
  },
  {
   "id": "s095.10",
   "flag": 0,
   "speaker": 2,
   "jp": "わかってるのは　そんなとこだ{KP}\nまちがっても　オマエのとこには　こないから\nせいぜい　まったり　ダイナそだてて",
-  "en": "",
-  "status": "todo"
+  "en": "That's about all anyone knows.{KP}\nThey'll never come to your place, so just\ntake it easy raising your Dyna,",
+  "status": "done"
  },
  {
   "id": "s095.11",
   "flag": 0,
   "speaker": 2,
   "jp": "つぎの　オレさまとの　バトルで\nボロまけしないように　じゅんびしとくんだな{KP}\nあばよ！",
-  "en": "",
-  "status": "todo"
+  "en": "and get ready so you don't get crushed in\nyour next battle with the great me!{KP}\nSee ya!",
+  "status": "done"
  },
  {
   "id": "s096.00",
   "flag": 0,
   "speaker": 6,
   "jp": "ここが　ヤマダさまの　いっていた\nダイナシティなのデスか・・・{KP}\nまだまだ　たいした　おおきさには\nなっていないようデスな",
-  "en": "",
-  "status": "todo"
+  "en": "So this is the Dyna City Yamada-sama\nspoke of, desu...{KP}\nIt doesn't seem to have grown very big\nyet, desu.",
+  "status": "done"
  },
  {
   "id": "s097.00",
   "flag": 0,
   "speaker": 6,
   "jp": "とりあえず　テリーが\nギガダイヤモンドを　さがしおわるまで{KP}\nこのダイナシティの　マスターに\nきづかれないように・・・",
-  "en": "",
-  "status": "todo"
+  "en": "For now, until Terry finishes searching for\nthe Giga Diamond,{KP}\nI must not let this Dyna City's Master\nnotice me...",
+  "status": "done"
  },
  {
   "id": "s097.01",
   "flag": 0,
   "speaker": 6,
   "jp": "・・・って　はうあ！！",
-  "en": "",
-  "status": "todo"
+  "en": "...Wha-HUH!!",
+  "status": "done"
  },
  {
   "id": "s097.02",
   "flag": 0,
   "speaker": 6,
   "jp": "ア　アンタ！\nいつからそこに　いたデスかぁぁぁぁぁ！？{KP}\nアンタ　いまの　わたしの　ひとりごとを\nぬすみぎき　したデスか？",
-  "en": "",
-  "status": "todo"
+  "en": "Y-you!! How long have you been standing\nthere, desuuuuu!?{KP}\nDid you just eavesdrop on me talking to\nmyself, desu?",
+  "status": "done"
  },
  {
   "id": "s097.03",
   "flag": 0,
   "speaker": 6,
   "jp": "いや　むしろ　したデスね！！{KP}\nきかれてしまったからには　しかたないデスな\nバイラーの　シグマの　なにかけて{KP}\nアンタには　きえてもらうデスますぅぅぅ！！",
-  "en": "",
-  "status": "todo"
+  "en": "No, you surely did, desu!!{KP}\nNow that you've heard, it can't be helped,\ndesu. In the name of Sigma of Byler,{KP}\nyou will have to disappear,\ndesu-masuuuu!!",
+  "status": "done"
  },
  {
   "id": "s098.00",
   "flag": 0,
   "speaker": 6,
   "jp": "な　な　なんデスとぉぉぉぉぉ！！\nそんな・・・そんなバカなぁぁぁぁぁ！！",
-  "en": "",
-  "status": "todo"
+  "en": "Wh-wh-whaaaaat, desuuuu!! No... This can't\nbe-eeeee!!",
+  "status": "done"
  },
  {
   "id": "s098.01",
   "flag": 0,
   "speaker": 6,
   "jp": "まさか　こんなところに　ここまで　デキる\nマスターがいるとは　おもいもしなかったデス",
-  "en": "",
-  "status": "todo"
+  "en": "I never dreamed there'd be a Master this\nskilled in a place like this, desu.",
+  "status": "done"
  },
  {
   "id": "s098.02",
   "flag": 0,
   "speaker": 6,
   "jp": "すっかり　チェックもれしてましたデスわ\nジョルナに　メールしなくては　いかんデスね",
-  "en": "",
-  "status": "todo"
+  "en": "I completely missed it on my checklist, desu.\nI must e-mail Jorna, desu.",
+  "status": "done"
  },
  {
   "id": "s098.03",
   "flag": 0,
   "speaker": 6,
   "jp": "・・・テリー　きんきゅうじたいデス！！{KP}\nそとがわの　エリアの　ふういんが\nとけますデスからして　てっしゅうするデス！",
-  "en": "",
-  "status": "todo"
+  "en": "...Terry, it's an emergency, desu!!{KP}\nThe seal on the outer area will be broken,\ndesu, so we are pulling out, desu!",
+  "status": "done"
  },
  {
   "id": "s098.04",
   "flag": 0,
   "speaker": 6,
   "jp": "アンタ！　バイラーに　ケンカうったこと\nきっと　こうかいするデスよ！！{KP}\nいや　むしろ　こうかいするデス！\nフヒヒヒヒ！{KP}\nアデュー！！",
-  "en": "",
-  "status": "todo"
+  "en": "You!! You will surely regret picking a fight\nwith Byler, desu!!{KP}\nNo, you WILL regret it, desu! Fuhihihihi!{KP}\nAdieu!!",
+  "status": "done"
  },
  {
   "id": "s098.05",
   "flag": 0,
   "speaker": -1,
   "jp": "シグマによって　ダイナシティに\nかけられていた　ふういんが　とけて",
-  "en": "",
-  "status": "todo"
+  "en": "The seal Sigma had put on the Dyna City\nwas broken,",
+  "status": "done"
  },
  {
   "id": "s098.06",
   "flag": 0,
   "speaker": -1,
   "jp": "ダイナシティぜんたいの　サイズが\n１００セクタ　ひろがりました",
-  "en": "",
-  "status": "todo"
+  "en": "and the whole Dyna City grew by 100\nsectors.",
+  "status": "done"
  },
  {
   "id": "s099.00",
   "flag": 0,
   "speaker": 1,
   "jp": "{%sR4}くーん　ひさしぶりーっ",
-  "en": "",
-  "status": "todo"
+  "en": "{%sR4}-kuuun! Long time no\nseeee!",
+  "status": "done"
  },
  {
   "id": "s099.01",
   "flag": 0,
   "speaker": 1,
   "jp": "え？　がっこうで　いっしょだっただろう\n・・・って？",
-  "en": "",
-  "status": "todo"
+  "en": "What? \"We were together at school\"...?",
+  "status": "done"
  },
  {
   "id": "s099.02",
   "flag": 0,
   "speaker": 1,
   "jp": "やーねぇ！　こっちでのはなしよ\nダイナシティでの！{KP}\nところで　どう？　あれから\nダイナは　つよくなった？",
-  "en": "",
-  "status": "todo"
+  "en": "Oh, come on! I mean over here, in Dyna\nCity!{KP}\nSo, how about it? Have your Dyna gotten\nstronger since then?",
+  "status": "done"
  },
  {
   "id": "s099.03",
   "flag": 0,
   "speaker": 1,
   "jp": "じつはね　これから　クラスの\nダイナデバイスを　やってる　みんなで{KP}\nあつまって　バトルたいかいを\nやることに　なってるんだ",
-  "en": "",
-  "status": "todo"
+  "en": "Actually, everyone in our class who plays\nDyna Device{KP}\nis getting together to hold a battle\ntournament.",
+  "status": "done"
  },
  {
   "id": "s099.04",
   "flag": 0,
   "speaker": 1,
   "jp": "{%sR4}くんも　いくよね？\nどうせ　ヒマしてるんでしょ？{KP}\nとりあえず　バトルに　つかいたい\nダイナを",
-  "en": "",
-  "status": "todo"
+  "en": "You're coming too, right,\n{%sR4}-kun? You're bored{KP}\nanyway, aren't you?{KP}\nFor now, go get the Dyna",
+  "status": "done"
  },
  {
   "id": "s099.05",
   "flag": 0,
   "speaker": 1,
   "jp": "つれてきて　じゅんびできたら\nまた　ここにきてね",
-  "en": "",
-  "status": "todo"
+  "en": "you want to battle with, and come back\nhere once you're ready.",
+  "status": "done"
  }
 ]

@@ -30,13 +30,14 @@ Binding for every translator and reviewer. Agents propose additions in reports; 
 | イッパ | Ippa | | classmate, ボク, smug; speaker 3 | |
 | ジョルナ | Jorna | | Byler agent, drawling "~ぇ" speech; speaker 7 | |
 | テリー | Terry | | Byler agent, cool; speaker 8 | |
-| ヤマダ | Yamada | | | |
+| ヤマダ | Yamada | | Byler boss? "Yamada-sama" to the grunts | |
+| シグマ | Sigma | | Byler grunt (speaker 6), デス tic -> ", desu" at sentence ends | |
 | バイラー | Byler | | villain group (virus pun) | Biler |
 
 ## Places
 | JP | EN | max | notes | Avoid |
 |---|---|---|---|---|
-| ダイナシティ | Dyna City | | | |
+| ダイナシティ | Dyna City / Dyna Cities | | | |
 | バイラーシティ | Byler City | | | |
 | ダイナセンター | Dyna Center | | | Dyna Centre |
 | コロシアム | Colosseum | | | Coliseum |
@@ -96,6 +97,12 @@ Binding for every translator and reviewer. Agents propose additions in reports; 
 - b003 battle: ていさつ -> Scout, こうげき -> Attack, ちりょう -> Cure (poison/sleep, not HP), いどう -> Move,
   はいち -> place, エリア -> area, マス -> square, D = Dyna / T = trap counts; チーム -> team.
   Genio is "Genio-kun" in Yurie's mouth.
-- b004 Factory: かいはついらい -> Request Development, かいはつじょうきょう -> Development Status, けんきゅういん ->
+- b004-b005 Factory menu (s083.01, 4 items at JP cols 2/13): かいはついらい -> New Request, かいはつじょうきょう ->
+  Check Status, かいはつちゅうし -> Cancel Request, なんでもない -> Never mind; けんきゅういん ->
   researcher, デバイス -> Device (capital D), せんよう/はんようデバイス -> dedicated / general Device, しょきとうし ->
-  starting investment, そうび -> Equip, パーティー -> Party, ダブルアタック -> Double Attack, けんちくキット -> building kit. Choice lines: `<@5>Yes<@11>No` for はい/いいえ at JP cols 5/11.
+  starting investment, かいはつしんこうど -> development progress, プロジェクト -> project, しきんぶそく ->
+  "Not enough funds", デバイスそざいのみせ -> Device parts shop; スタジアム -> Stadium, ブロック -> Block (Block A);
+  choice しゅっぱつする/まだ -> `<@3>Let's go<@14>Not yet`; restart menu どこから さいかいしますか？ ->
+  "Where do you want to restart from?" `<@2>Battle<@8>My House<@15>Save Data`; tournament: Round 1, Match 1,
+  semifinal, final, champion; b007: エキスパートルール -> Expert Rules, とくしゅのうりょく -> special ability,
+  ネットけいさつ -> net police, ちかてつのえき -> subway station; そうび -> Equip, パーティー -> Party, ダブルアタック -> Double Attack, けんちくキット -> building kit. Choice lines: `<@5>Yes<@11>No` for はい/いいえ at JP cols 5/11.
