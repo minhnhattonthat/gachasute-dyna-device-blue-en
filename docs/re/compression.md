@@ -15,7 +15,12 @@ Only one block in the whole ROM (0x0E6A58, 0x3098 bytes out); one `swi 0x12` cal
   (`tools/ecd.py`); `compress_stored` (literal-only) round-trips every block. Title-screen VRAM tiles not found
   raw in ROM dropped from 1531 to 381 once the decompressed blocks were searched (`vramfind.py`), the rest being
   runtime-drawn text and sprites.
-- A size-efficient encoder is still to write (phase 3 / graphics).
+- **Encoder - verified**: the original tool was Okumura's LZSS.C (N=0x400, F=0x42, THRESHOLD 2, ring zero-filled
+  instead of spaces), plus a final pad of the compressed body to an even length (a lone 00). `ecd.compress()`
+  ports it and gives back all 3114 blocks byte for byte (`python -X utf8 tools/ecd.py verify ROM`, ~30 s; the
+  test checks every 8th block).
+- Block spacing: blocks sit 0-76 bytes apart (alignment/padding varies); a re-encoded block that grows must be
+  relocated with its pointer fixed (graphics phase; the pointers are not mapped yet).
 
 ## Payloads
 | Tag | Layout |

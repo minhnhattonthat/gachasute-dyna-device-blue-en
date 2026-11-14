@@ -24,13 +24,11 @@ ROM: 8 MiB (0x800000), header title `DINODEVICE B`, code `ABIJ`. No prior fan pa
   (= file length to the marker), then a 0 pad word. First script at file+0xD10 = 0x7038D4. Scripts are 16-byte
   aligned. **verified**: offsets chain exactly; script 0 is a test script (テスト１/２/３).
 - The directory pointer 0x08702BC4 at ROM 0x0BBDF0 is the only absolute reference: relocating the file means
-  rewriting that one word (plus the table). **guess** until a corrupt-and-boot test confirms.
-- Body: little-endian u16 bytecode with **inline** strings. Message op (verified by pattern, 2871 hits):
-  `02 00  00 00  <speaker u16, FFFF = none>  <SJIS text> 00 [pad to even]`. Speaker ids 1..15 seen (portraits).
-- Other opcodes (e.g. `0E 00 04 00 ...`, `14 00 ...`, `16 00 ...`, `17 00 ...`) are not decoded yet. Inline
-  strings mean longer English shifts every later op: any in-script jump offsets must be found and fixed, or
-  the strings moved out of line (decide in phase 5; a disassembler of all opcodes and their lengths is needed
-  either way to make the identity build trustworthy).
+  rewriting that one word. **verified** in game with the relocated stress build (docs/re/script.md).
+- Body: little-endian u16 bytecode with **inline** strings; 2824 message ops
+  `02 00 <flag u16> <speaker i16, FFFF = none> <SJIS text> 00 00`. Speaker ids 1..15 seen (portraits).
+- All 59 opcodes' lengths and the two jump forms are decoded and verified: **docs/re/script.md**. Longer English
+  text is fine: `tools/script.py` re-lays the ops and fixes every relative jump (phase 3 identity build).
 - Text layout: 2 lines per page; longest JP line 21-23 full-width chars.
 
 ### In-string control codes (counts over all message ops)

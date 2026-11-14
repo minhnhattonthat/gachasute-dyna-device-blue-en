@@ -23,6 +23,12 @@ class EcdBlocks(unittest.TestCase):
             self.assertEqual(len(raw), out_len, hex(off))
             self.assertEqual(ecd.decompress(ecd.compress_stored(raw), 0)[0], raw, hex(off))
 
+    def test_encoder_reproduces_the_original_blocks(self):
+        # every 8th block keeps the check fast (all 3114 match: `python -X utf8 tools/ecd.py verify ROM`, ~30 s)
+        for off, in_len, _ol, _tag in self.blocks[::8]:
+            raw, _ = ecd.decompress(self.data, off)
+            self.assertEqual(ecd.compress(raw), self.data[off:off + 16 + in_len], hex(off))
+
 
 if __name__ == "__main__":
     unittest.main()
