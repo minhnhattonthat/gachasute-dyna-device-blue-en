@@ -604,672 +604,672 @@
   "flag": 0,
   "speaker": -1,
   "jp": "たとえば　デバイスの　なまえに\nボルトと　ついているばあい{KP}\nこうげきのあとに　あいてを　かんでんさせる\nついかこうかが　つくんだぜ",
-  "en": "",
-  "status": "todo"
+  "en": "Like, if a Device's name has \"Bolt\" in it,{KP}\nits attacks get the extra effect of\nshocking the other guy!",
+  "status": "done"
  },
  {
   "id": "s422.05",
   "flag": 0,
   "speaker": -1,
   "jp": "たとえば　デバイスの　なまえに\nサンドと　ついているばあい{KP}\nこうげきのあとに　あいての　めをくらませる\nついかこうかが　つくんだぜ",
-  "en": "",
-  "status": "todo"
+  "en": "Like, if a Device's name has \"Sand\" in it,{KP}\nits attacks get the extra effect of blinding\nthe other guy!",
+  "status": "done"
  },
  {
   "id": "s423.00",
   "flag": 0,
   "speaker": -1,
   "jp": "ぞくせいが　むぞくせいいがいの\nデバイスには　それぞれ{KP}\nエクストラと　よばれる　ちからが\nついている",
-  "en": "",
-  "status": "todo"
+  "en": "Every Device whose element is not\n\"none\"{KP}\nhas a power known as an Extra.",
+  "status": "done"
  },
  {
   "id": "s423.01",
   "flag": 0,
   "speaker": -1,
   "jp": "エクストラの　なかには　こうげきに\nついかこうかが　つくものも　あるのだ",
-  "en": "",
-  "status": "todo"
+  "en": "Some Extras add an extra effect to\nattacks.",
+  "status": "done"
  },
  {
   "id": "s423.02",
   "flag": 0,
   "speaker": -1,
   "jp": "たとえば　デバイスの　なまえに\nヒートと　ついているばあい{KP}\nこうげきのあとに　あいてを　ヤケドさせる\nついかこうかが　つくぞ",
-  "en": "",
-  "status": "todo"
+  "en": "For example, if a Device's name has \"Heat\"\nin it,{KP}\nits attacks will burn the opponent.",
+  "status": "done"
  },
  {
   "id": "s423.03",
   "flag": 0,
   "speaker": -1,
   "jp": "たとえば　デバイスの　なまえに\nアイスと　ついているばあい{KP}\nこうげきのあとに　あいてを　こおらせる\nついかこうかが　つくぞ",
-  "en": "",
-  "status": "todo"
+  "en": "For example, if a Device's name has \"Ice\"\nin it,{KP}\nits attacks will freeze the opponent.",
+  "status": "done"
  },
  {
   "id": "s423.04",
   "flag": 0,
   "speaker": -1,
   "jp": "たとえば　デバイスの　なまえに\nボルトと　ついているばあい{KP}\nこうげきのあとに　あいてを　かんでんさせる\nついかこうかが　つくぞ",
-  "en": "",
-  "status": "todo"
+  "en": "For example, if a Device's name has \"Bolt\"\nin it,{KP}\nits attacks will shock the opponent.",
+  "status": "done"
  },
  {
   "id": "s423.05",
   "flag": 0,
   "speaker": -1,
   "jp": "たとえば　デバイスの　なまえに\nサンドと　ついているばあい{KP}\nこうげきのあとに　あいての　めをくらませる\nついかこうかが　つくぞ",
-  "en": "",
-  "status": "todo"
+  "en": "For example, if a Device's name has \"Sand\"\nin it,{KP}\nits attacks will blind the opponent.",
+  "status": "done"
  },
  {
   "id": "s424.00",
   "flag": 0,
   "speaker": -1,
   "jp": "ぞくせいが　むぞくせいいがいの\nデバイスには　それぞれ{KP}\nエクストラと　よばれる　ちからが\nついているの",
-  "en": "",
-  "status": "todo"
+  "en": "Every Device whose element isn't \"none\"{KP}\nhas a power called an Extra.",
+  "status": "done"
  },
  {
   "id": "s424.01",
   "flag": 0,
   "speaker": -1,
   "jp": "エクストラの　なかには　こうげきに\nついかこうかが　つくものも　あるのよ",
-  "en": "",
-  "status": "todo"
+  "en": "And some Extras add an extra effect to\nattacks, you know.",
+  "status": "done"
  },
  {
   "id": "s424.02",
   "flag": 0,
   "speaker": -1,
   "jp": "たとえば　デバイスの　なまえに\nヒートと　ついているばあい{KP}\nこうげきのあとに　あいてを　ヤケドさせる\nついかこうかが　つくの",
-  "en": "",
-  "status": "todo"
+  "en": "Like, if a Device's name has \"Heat\" in it,{KP}\nits attacks burn the opponent too.",
+  "status": "done"
  },
  {
   "id": "s424.03",
   "flag": 0,
   "speaker": -1,
   "jp": "たとえば　デバイスの　なまえに\nアイスと　ついているばあい{KP}\nこうげきのあとに　あいてを　こおらせる\nついかこうかが　つくの",
-  "en": "",
-  "status": "todo"
+  "en": "Like, if a Device's name has \"Ice\" in it,{KP}\nits attacks freeze the opponent too.",
+  "status": "done"
  },
  {
   "id": "s424.04",
   "flag": 0,
   "speaker": -1,
   "jp": "たとえば　デバイスの　なまえに\nボルトと　ついているばあい{KP}\nこうげきのあとに　あいてを　かんでんさせる\nついかこうかが　つくの",
-  "en": "",
-  "status": "todo"
+  "en": "Like, if a Device's name has \"Bolt\" in it,{KP}\nits attacks shock the opponent too.",
+  "status": "done"
  },
  {
   "id": "s424.05",
   "flag": 0,
   "speaker": -1,
   "jp": "たとえば　デバイスの　なまえに\nサンドと　ついているばあい{KP}\nこうげきのあとに　あいての　めをくらませる\nついかこうかが　つくの",
-  "en": "",
-  "status": "todo"
+  "en": "Like, if a Device's name has \"Sand\" in it,{KP}\nits attacks blind the opponent too.",
+  "status": "done"
  },
  {
   "id": "s425.00",
   "flag": 0,
   "speaker": -1,
   "jp": "{%sR4}さん　しっていますか？\nショップキットで　ショップを　たてると",
-  "en": "",
-  "status": "todo"
+  "en": "{%sR4}-san, did you know? If you\nbuild a shop with a Shop Kit,",
+  "status": "done"
  },
  {
   "id": "s425.01",
   "flag": 0,
   "speaker": -1,
   "jp": "クスリのショップ　エサのショップ\nデバイスそざいのショップ　なんでもや",
-  "en": "",
-  "status": "todo"
+  "en": "a medicine shop, a food shop, a Device\nparts shop, or a general store...",
+  "status": "done"
  },
  {
   "id": "s425.02",
   "flag": 0,
   "speaker": -1,
   "jp": "・・・の　４しゅるいの　ショップの　うち\nどれか　１つが　たつんです",
-  "en": "",
-  "status": "todo"
+  "en": "...one of those 4 kinds of shop is what you\nget.",
+  "status": "done"
  },
  {
   "id": "s425.03",
   "flag": 0,
   "speaker": -1,
   "jp": "うりものは　ショップに　はいりなおすたびに\nかわるらしいですよ",
-  "en": "",
-  "status": "todo"
+  "en": "And I hear the goods change every time\nyou go back in.",
+  "status": "done"
  },
  {
   "id": "s426.00",
   "flag": 0,
   "speaker": -1,
   "jp": "{%sR4}　しってるか？\nショップキットで　ショップを　たてると",
-  "en": "",
-  "status": "todo"
+  "en": "{%sR4}, you know this? If you\nbuild a shop with a Shop Kit,",
+  "status": "done"
  },
  {
   "id": "s426.01",
   "flag": 0,
   "speaker": -1,
   "jp": "クスリのショップ　エサのショップ\nデバイスそざいのショップ　なんでもや",
-  "en": "",
-  "status": "todo"
+  "en": "a medicine shop, a food shop, a Device\nparts shop, or a general store...",
+  "status": "done"
  },
  {
   "id": "s426.02",
   "flag": 0,
   "speaker": -1,
   "jp": "・・・の　４しゅるいの　ショップの　うち\nどれか　１つが　たつんだぜ",
-  "en": "",
-  "status": "todo"
+  "en": "...you get one of those 4 kinds of shop!",
+  "status": "done"
  },
  {
   "id": "s426.03",
   "flag": 0,
   "speaker": -1,
   "jp": "うりものは　ショップに　はいりなおすたびに\nかわるらしいぜ",
-  "en": "",
-  "status": "todo"
+  "en": "And they say the goods change every time\nyou go back in!",
+  "status": "done"
  },
  {
   "id": "s427.00",
   "flag": 0,
   "speaker": -1,
   "jp": "{%sR4}　しっているか？\nショップキットで　ショップを　たてると",
-  "en": "",
-  "status": "todo"
+  "en": "{%sR4}, do you know? If you build\na shop with a Shop Kit,",
+  "status": "done"
  },
  {
   "id": "s427.01",
   "flag": 0,
   "speaker": -1,
   "jp": "クスリのショップ　エサのショップ\nデバイスそざいのショップ　なんでもや",
-  "en": "",
-  "status": "todo"
+  "en": "a medicine shop, a food shop, a Device\nparts shop, or a general store...",
+  "status": "done"
  },
  {
   "id": "s427.02",
   "flag": 0,
   "speaker": -1,
   "jp": "・・・の　４しゅるいの　ショップの　うち\nどれか　１つが　たつのだ",
-  "en": "",
-  "status": "todo"
+  "en": "...one of those 4 kinds of shop will be\nbuilt.",
+  "status": "done"
  },
  {
   "id": "s427.03",
   "flag": 0,
   "speaker": -1,
   "jp": "うりものは　ショップに　はいりなおすたびに\nかわるらしい",
-  "en": "",
-  "status": "todo"
+  "en": "It seems the goods change each time you\nenter.",
+  "status": "done"
  },
  {
   "id": "s428.00",
   "flag": 0,
   "speaker": -1,
   "jp": "{%sR4}さん　しってる？\nショップキットで　ショップを　たてると",
-  "en": "",
-  "status": "todo"
+  "en": "{%sR4}-san, did you know? If you\nbuild a shop with a Shop Kit,",
+  "status": "done"
  },
  {
   "id": "s428.01",
   "flag": 0,
   "speaker": -1,
   "jp": "クスリのショップ　エサのショップ\nデバイスそざいのショップ　なんでもや",
-  "en": "",
-  "status": "todo"
+  "en": "a medicine shop, a food shop, a Device\nparts shop, or a general store...",
+  "status": "done"
  },
  {
   "id": "s428.02",
   "flag": 0,
   "speaker": -1,
   "jp": "・・・の　４しゅるいの　ショップの　うち\nどれか　１つが　たつんだよ",
-  "en": "",
-  "status": "todo"
+  "en": "...you get one of those 4 kinds of shop!",
+  "status": "done"
  },
  {
   "id": "s428.03",
   "flag": 0,
   "speaker": -1,
   "jp": "うりものは　ショップに　はいりなおすたびに\nかわるらしいよ",
-  "en": "",
-  "status": "todo"
+  "en": "And the goods change every time you go\nback in, I hear.",
+  "status": "done"
  },
  {
   "id": "s429.00",
   "flag": 0,
   "speaker": -1,
   "jp": "わたしたち　ダイナには　それぞれ\nタイプごとに　あいしょうが　あります",
-  "en": "",
-  "status": "todo"
+  "en": "We Dyna each get along better or worse{KP}\nwith others, depending on type.",
+  "status": "done"
  },
  {
   "id": "s429.01",
   "flag": 0,
   "speaker": -1,
   "jp": "やっぱり　なかのいいタイプと\nとなりどうしで　くらせると　うれしいですね",
-  "en": "",
-  "status": "todo"
+  "en": "It is so nice to live right next door{KP}\nto a type you get along with.",
+  "status": "done"
  },
  {
   "id": "s429.02",
   "flag": 0,
   "speaker": -1,
   "jp": "ちなみに　わたしは\n{%sR4}タイプなので・・・",
-  "en": "",
-  "status": "todo"
+  "en": "By the way, I am a {%sR4} type,\nso...",
+  "status": "done"
  },
  {
   "id": "s429.03",
   "flag": 0,
   "speaker": -1,
   "jp": "{%sR5}タイプと\nなかがいいんですよ",
-  "en": "",
-  "status": "todo"
+  "en": "I get along well with {%sR5}\ntypes.",
+  "status": "done"
  },
  {
   "id": "s430.00",
   "flag": 0,
   "speaker": -1,
   "jp": "オレたち　ダイナには　それぞれ\nタイプごとに　あいしょうが　あるんだ",
-  "en": "",
-  "status": "todo"
+  "en": "Us Dyna, we get along better or worse{KP}\nwith each other depending on type.",
+  "status": "done"
  },
  {
   "id": "s430.01",
   "flag": 0,
   "speaker": -1,
   "jp": "やっぱ　きのあうタイプと\nとなりどうしで　くらせると　うれしいよな",
-  "en": "",
-  "status": "todo"
+  "en": "It's great livin' next door to a type you\nclick with, right?",
+  "status": "done"
  },
  {
   "id": "s430.02",
   "flag": 0,
   "speaker": -1,
   "jp": "ちなみに　オレは\n{%sR4}タイプだから・・・",
-  "en": "",
-  "status": "todo"
+  "en": "Me, I'm a {%sR4} type, so...",
+  "status": "done"
  },
  {
   "id": "s430.03",
   "flag": 0,
   "speaker": -1,
   "jp": "{%sR5}タイプと\nなかがいいんだぜ",
-  "en": "",
-  "status": "todo"
+  "en": "I get along great with {%sR5}\ntypes!",
+  "status": "done"
  },
  {
   "id": "s431.00",
   "flag": 0,
   "speaker": -1,
   "jp": "わたしたち　ダイナには　それぞれ\nタイプごとに　あいしょうが　ある",
-  "en": "",
-  "status": "todo"
+  "en": "We Dyna each get along better or worse{KP}\nwith others, depending on type.",
+  "status": "done"
  },
  {
   "id": "s431.01",
   "flag": 0,
   "speaker": -1,
   "jp": "やはり　なかのいいタイプの　となりで\nくらせるにこしたことはないな",
-  "en": "",
-  "status": "todo"
+  "en": "Living beside a type one gets on with{KP}\nis certainly best.",
+  "status": "done"
  },
  {
   "id": "s431.02",
   "flag": 0,
   "speaker": -1,
   "jp": "ところで　わたしは\n{%sR4}タイプなのだが",
-  "en": "",
-  "status": "todo"
+  "en": "Now, I happen to be a {%sR4}\ntype.",
+  "status": "done"
  },
  {
   "id": "s431.03",
   "flag": 0,
   "speaker": -1,
   "jp": "{%sR5}タイプとは\nうまくやっていけるきがするな",
-  "en": "",
-  "status": "todo"
+  "en": "I believe I would do well with\n{%sR5} types.",
+  "status": "done"
  },
  {
   "id": "s432.00",
   "flag": 0,
   "speaker": -1,
   "jp": "わたしたち　ダイナには　それぞれ\nタイプごとに　あいしょうが　あるの",
-  "en": "",
-  "status": "todo"
+  "en": "We Dyna each get along better or worse{KP}\nwith others, depending on type.",
+  "status": "done"
  },
  {
   "id": "s432.01",
   "flag": 0,
   "speaker": -1,
   "jp": "やっぱり　となりどうしで　くらすなら\nなかよしのタイプよね",
-  "en": "",
-  "status": "todo"
+  "en": "If you're going to live next door to\nsomeone,{KP}\nit should be a type you're friends with,\nright?",
+  "status": "done"
  },
  {
   "id": "s432.02",
   "flag": 0,
   "speaker": -1,
   "jp": "そんな　わたしは\n{%sR4}タイプだから・・・",
-  "en": "",
-  "status": "todo"
+  "en": "Me, I'm a {%sR4} type, so...",
+  "status": "done"
  },
  {
   "id": "s432.03",
   "flag": 0,
   "speaker": -1,
   "jp": "{%sR5}タイプと\nなかよしなのよ",
-  "en": "",
-  "status": "todo"
+  "en": "I'm good friends with {%sR5}\ntypes!",
+  "status": "done"
  },
  {
   "id": "s433.00",
   "flag": 0,
   "speaker": -1,
   "jp": "わたしたち　ダイナには　それぞれ\nタイプごとに　あいしょうが　あります",
-  "en": "",
-  "status": "todo"
+  "en": "We Dyna each get along better or worse{KP}\nwith others, depending on type.",
+  "status": "done"
  },
  {
   "id": "s433.01",
   "flag": 0,
   "speaker": -1,
   "jp": "やっぱり　にがてなタイプとは　ちょっと\nとなりどうしになりたくないですね・・・",
-  "en": "",
-  "status": "todo"
+  "en": "I would really rather not live next door{KP}\nto a type I do not get along with...",
+  "status": "done"
  },
  {
   "id": "s433.02",
   "flag": 0,
   "speaker": -1,
   "jp": "ちなみに　わたしは\n{%sR4}タイプなので・・・",
-  "en": "",
-  "status": "todo"
+  "en": "By the way, I am a {%sR4} type,\nso...",
+  "status": "done"
  },
  {
   "id": "s433.03",
   "flag": 0,
   "speaker": -1,
   "jp": "{%sR5}タイプが\nにがてなんですよ",
-  "en": "",
-  "status": "todo"
+  "en": "I do not get along with {%sR5}\ntypes.",
+  "status": "done"
  },
  {
   "id": "s434.00",
   "flag": 0,
   "speaker": -1,
   "jp": "オレたち　ダイナには　それぞれ\nタイプごとに　あいしょうが　あるんだ",
-  "en": "",
-  "status": "todo"
+  "en": "Us Dyna, we get along better or worse{KP}\nwith each other depending on type.",
+  "status": "done"
  },
  {
   "id": "s434.01",
   "flag": 0,
   "speaker": -1,
   "jp": "やっぱ　きのあわねぇタイプの\nとなりには　なりたくねぇよな",
-  "en": "",
-  "status": "todo"
+  "en": "Nobody wants to live next to a type they\ncan't stand, right?",
+  "status": "done"
  },
  {
   "id": "s434.02",
   "flag": 0,
   "speaker": -1,
   "jp": "ちなみに　オレは\n{%sR4}タイプだから・・・",
-  "en": "",
-  "status": "todo"
+  "en": "Me, I'm a {%sR4} type, so...",
+  "status": "done"
  },
  {
   "id": "s434.03",
   "flag": 0,
   "speaker": -1,
   "jp": "{%sR5}タイプとは\nどうも　あわねぇな",
-  "en": "",
-  "status": "todo"
+  "en": "Me and {%sR5} types just don't\nmix.",
+  "status": "done"
  },
  {
   "id": "s435.00",
   "flag": 0,
   "speaker": -1,
   "jp": "わたしたち　ダイナには　それぞれ\nタイプごとに　あいしょうが　ある",
-  "en": "",
-  "status": "todo"
+  "en": "We Dyna each get along better or worse{KP}\nwith others, depending on type.",
+  "status": "done"
  },
  {
   "id": "s435.01",
   "flag": 0,
   "speaker": -1,
   "jp": "やはり　あわないタイプの　となりでは\nくらしたくないものだな",
-  "en": "",
-  "status": "todo"
+  "en": "One would rather not live beside{KP}\na type one does not get on with.",
+  "status": "done"
  },
  {
   "id": "s435.02",
   "flag": 0,
   "speaker": -1,
   "jp": "ところで　わたしは\n{%sR4}タイプなのだが",
-  "en": "",
-  "status": "todo"
+  "en": "Now, I happen to be a {%sR4}\ntype.",
+  "status": "done"
  },
  {
   "id": "s435.03",
   "flag": 0,
   "speaker": -1,
   "jp": "{%sR5}タイプとは\nうまくやっていけないきがするな",
-  "en": "",
-  "status": "todo"
+  "en": "I doubt I would do well with\n{%sR5} types.",
+  "status": "done"
  },
  {
   "id": "s436.00",
   "flag": 0,
   "speaker": -1,
   "jp": "わたしたち　ダイナには　それぞれ\nタイプごとに　あいしょうが　あるの",
-  "en": "",
-  "status": "todo"
+  "en": "We Dyna each get along better or worse{KP}\nwith others, depending on type.",
+  "status": "done"
  },
  {
   "id": "s436.01",
   "flag": 0,
   "speaker": -1,
   "jp": "やっぱり　にがてなタイプと\nおとなりさんっていうのは　ちょっとね・・・",
-  "en": "",
-  "status": "todo"
+  "en": "Having a type you don't like for a\nneighbor{KP}\nis kind of, you know...",
+  "status": "done"
  },
  {
   "id": "s436.02",
   "flag": 0,
   "speaker": -1,
   "jp": "そんな　わたしは\n{%sR4}タイプだから・・・",
-  "en": "",
-  "status": "todo"
+  "en": "Me, I'm a {%sR4} type, so...",
+  "status": "done"
  },
  {
   "id": "s436.03",
   "flag": 0,
   "speaker": -1,
   "jp": "{%sR5}タイプが\nけっこう　にがてかも・・・",
-  "en": "",
-  "status": "todo"
+  "en": "{%sR5} types are kind of not my\nthing...",
+  "status": "done"
  },
  {
   "id": "s437.00",
   "flag": 0,
   "speaker": -1,
   "jp": "ぞくせいが　むぞくせいいがいの\nデバイスには　それぞれ{KP}\nエクストラと　よばれる　ちからが\nついています",
-  "en": "",
-  "status": "todo"
+  "en": "Every Device whose element is not\n\"none\"{KP}\nhas a power called an Extra.",
+  "status": "done"
  },
  {
   "id": "s437.01",
   "flag": 0,
   "speaker": -1,
   "jp": "エクストラの　なかには　れんぞくで\nこうげきしたときの　くみあわせによって{KP}\nコンボという　ついかこうかが\nはっせいするものも　あります",
-  "en": "",
-  "status": "todo"
+  "en": "With some Extras, attacking several times\nin a row{KP}\ncan trigger an extra effect called a\ncombo,{KP}\ndepending on the mix.",
+  "status": "done"
  },
  {
   "id": "s437.02",
   "flag": 0,
   "speaker": -1,
   "jp": "たとえば　フレアと　ヒートの\nエクストラが　れんぞくしたばあい{KP}\nヤケドの　ついかこうかが\nかならず　はっせいします",
-  "en": "",
-  "status": "todo"
+  "en": "For example, a \"Flare\" Extra followed by a\n\"Heat\" Extra{KP}\nwill always trigger a burn effect.",
+  "status": "done"
  },
  {
   "id": "s437.03",
   "flag": 0,
   "speaker": -1,
   "jp": "たとえば　アクアと　アイスの\nエクストラが　れんぞくしたばあい{KP}\nこおりの　ついかこうかが\nかならず　はっせいします",
-  "en": "",
-  "status": "todo"
+  "en": "For example, an \"Aqua\" Extra followed by\nan \"Ice\" Extra{KP}\nwill always trigger a freeze effect.",
+  "status": "done"
  },
  {
   "id": "s437.04",
   "flag": 0,
   "speaker": -1,
   "jp": "たとえば　アクアと　ボルトの\nエクストラが　れんぞくしたばあい{KP}\nかんでんの　ついかこうかが\nかならず　はっせいします",
-  "en": "",
-  "status": "todo"
+  "en": "For example, an \"Aqua\" Extra followed by a\n\"Bolt\" Extra{KP}\nwill always trigger a shock effect.",
+  "status": "done"
  },
  {
   "id": "s437.05",
   "flag": 0,
   "speaker": -1,
   "jp": "たとえば　ミストと　サンドの\nエクストラが　れんぞくしたばあい{KP}\nめつぶしの　ついかこうかが\nかならず　はっせいします",
-  "en": "",
-  "status": "todo"
+  "en": "For example, a \"Mist\" Extra followed by a\n\"Sand\" Extra{KP}\nwill always trigger a blinding effect.",
+  "status": "done"
  },
  {
   "id": "s437.06",
   "flag": 0,
   "speaker": -1,
   "jp": "たとえば　アイスと　ボムの\nエクストラが　れんぞくしたばあい{KP}\nあいてを　そくしさせる　こうかが\nはっせいすることが　あります",
-  "en": "",
-  "status": "todo"
+  "en": "For example, an \"Ice\" Extra followed by a\n\"Bomb\" Extra{KP}\ncan sometimes knock the opponent out in\none go.",
+  "status": "done"
  },
  {
   "id": "s437.07",
   "flag": 0,
   "speaker": -1,
   "jp": "たとえば　グランと　ボムの\nエクストラが　れんぞくしたばあい{KP}\nあいての　ぶきデバイスを　ひとつ\nしようできなくすることが　あります",
-  "en": "",
-  "status": "todo"
+  "en": "For example, a \"Gran\" Extra followed by a\n\"Bomb\" Extra{KP}\ncan sometimes disable one of the\nopponent's weapon Devices.",
+  "status": "done"
  },
  {
   "id": "s437.08",
   "flag": 0,
   "speaker": -1,
   "jp": "たとえば　フレアと　ボムの\nエクストラが　れんぞくしたばあい{KP}\nあいての　ぼうぐデバイスを　ひとつ\nしようできなくすることが　あります",
-  "en": "",
-  "status": "todo"
+  "en": "For example, a \"Flare\" Extra followed by a\n\"Bomb\" Extra{KP}\ncan sometimes disable one of the\nopponent's armor Devices.",
+  "status": "done"
  },
  {
   "id": "s437.09",
   "flag": 0,
   "speaker": -1,
   "jp": "たとえば　エレキと　アースの\nエクストラが　れんぞくしたばあい{KP}\nあいてを　しばらくのあいだ\nきぜつさせることが　あります",
-  "en": "",
-  "status": "todo"
+  "en": "For example, an \"Elec\" Extra followed by\nan \"Earth\" Extra{KP}\ncan sometimes stun the opponent for a\nwhile.",
+  "status": "done"
  },
  {
   "id": "s438.00",
   "flag": 0,
   "speaker": -1,
   "jp": "ぞくせいが　むぞくせいいがいの\nデバイスには　それぞれ{KP}\nエクストラっていう　すげぇ　ちからが\nついてるんだぜ",
-  "en": "",
-  "status": "todo"
+  "en": "Every Device whose element ain't \"none\"{KP}\nhas an awesome power called an Extra!",
+  "status": "done"
  },
  {
   "id": "s438.01",
   "flag": 0,
   "speaker": -1,
   "jp": "しかも　エクストラの　なかには　れんぞくで\nこうげきしたときの　くみあわせしだいで{KP}\nコンボとかいう　ついかこうかが\nはっせいするものも　あるんだぜ",
-  "en": "",
-  "status": "todo"
+  "en": "And some Extras, if you attack a bunch in\na row,{KP}\ncan set off an extra effect called a\ncombo,{KP}\ndependin' on the mix!",
+  "status": "done"
  },
  {
   "id": "s438.02",
   "flag": 0,
   "speaker": -1,
   "jp": "たとえば　フレアと　ヒートの\nエクストラが　れんぞくしたばあい{KP}\nヤケドの　ついかこうかが\nかならず　はっせいするんだぜ",
-  "en": "",
-  "status": "todo"
+  "en": "Like, a \"Flare\" Extra then a \"Heat\"\nExtra{KP}\nalways sets off a burn effect!",
+  "status": "done"
  },
  {
   "id": "s438.03",
   "flag": 0,
   "speaker": -1,
   "jp": "たとえば　アクアと　アイスの\nエクストラが　れんぞくしたばあい{KP}\nこおりの　ついかこうかが\nかならず　はっせいするんだぜ",
-  "en": "",
-  "status": "todo"
+  "en": "Like, an \"Aqua\" Extra then an \"Ice\"\nExtra{KP}\nalways sets off a freeze effect!",
+  "status": "done"
  },
  {
   "id": "s438.04",
   "flag": 0,
   "speaker": -1,
   "jp": "たとえば　アクアと　ボルトの\nエクストラが　れんぞくしたばあい{KP}\nかんでんの　ついかこうかが\nかならず　はっせいするんだぜ",
-  "en": "",
-  "status": "todo"
+  "en": "Like, an \"Aqua\" Extra then a \"Bolt\"\nExtra{KP}\nalways sets off a shock effect!",
+  "status": "done"
  },
  {
   "id": "s438.05",
   "flag": 0,
   "speaker": -1,
   "jp": "たとえば　ミストと　サンドの\nエクストラが　れんぞくしたばあい{KP}\nめつぶしの　ついかこうかが\nかならず　はっせいするんだぜ",
-  "en": "",
-  "status": "todo"
+  "en": "Like, a \"Mist\" Extra then a \"Sand\" Extra{KP}\nalways sets off a blinding effect!",
+  "status": "done"
  },
  {
   "id": "s438.06",
   "flag": 0,
   "speaker": -1,
   "jp": "たとえば　アイスと　ボムの\nエクストラが　れんぞくしたばあい{KP}\nあいてを　そくしさせる　こうかが\nはっせいすることが　あるんだぜ",
-  "en": "",
-  "status": "todo"
+  "en": "Like, an \"Ice\" Extra then a \"Bomb\"\nExtra{KP}\ncan sometimes take the other guy out in\none shot!",
+  "status": "done"
  },
  {
   "id": "s438.07",
   "flag": 0,
   "speaker": -1,
   "jp": "たとえば　グランと　ボムの\nエクストラが　れんぞくしたばあい{KP}\nあいての　ぶきデバイスを　ひとつ\nしようできなくすることが　あるんだぜ",
-  "en": "",
-  "status": "todo"
+  "en": "Like, a \"Gran\" Extra then a \"Bomb\"\nExtra{KP}\ncan sometimes knock out one of the other\nguy's weapon Devices!",
+  "status": "done"
  },
  {
   "id": "s438.08",
   "flag": 0,
   "speaker": -1,
   "jp": "たとえば　フレアと　ボムの\nエクストラが　れんぞくしたばあい{KP}\nあいての　ぼうぐデバイスを　ひとつ\nしようできなくすることが　あるんだぜ",
-  "en": "",
-  "status": "todo"
+  "en": "Like, a \"Flare\" Extra then a \"Bomb\"\nExtra{KP}\ncan sometimes knock out one of the other\nguy's armor Devices!",
+  "status": "done"
  },
  {
   "id": "s438.09",
   "flag": 0,
   "speaker": -1,
   "jp": "たとえば　エレキと　アースの\nエクストラが　れんぞくしたばあい{KP}\nあいてを　しばらくのあいだ\nきぜつさせることが　あるんだぜ",
-  "en": "",
-  "status": "todo"
+  "en": "Like, an \"Elec\" Extra then an \"Earth\"\nExtra{KP}\ncan sometimes stun the other guy for a\nwhile!",
+  "status": "done"
  },
  {
   "id": "s439.00",
   "flag": 0,
   "speaker": -1,
   "jp": "ぞくせいが　むぞくせいいがいの\nデバイスには　それぞれ{KP}\nエクストラと　よばれる　ちからが\nついている",
-  "en": "",
-  "status": "todo"
+  "en": "Every Device whose element is not\n\"none\"{KP}\nhas a power known as an Extra.",
+  "status": "done"
  },
  {
   "id": "s439.01",
   "flag": 0,
   "speaker": -1,
   "jp": "エクストラの　なかには　れんぞくで\nこうげきしたときの　くみあわせにより{KP}\nコンボという　ついかこうかが\nはっせいするものも　あるぞ",
-  "en": "",
-  "status": "todo"
+  "en": "With some Extras, attacking several times\nin a row{KP}\ncan trigger an extra effect called a\ncombo,{KP}\ndepending on the mix.",
+  "status": "done"
  },
  {
   "id": "s439.02",
