@@ -15,7 +15,8 @@ Updated at the end of every session. Keep it to what the next session needs; his
     business cards, minigame titles and level select, opening movie, title, battle test.
   - `tools/debug/regen.py`: now resolves `--out/--states` to absolute paths (relative ones landed nowhere, since
     Mesen runs in tools/mesen). All 55 mode rows verified by cold-boot regen with hold shots (work/qa/warpm,
-    warpm2). The full `regen.py --jobs 2` run of every row: see the result line below.
+    warpm2). The full `regen.py --jobs 2` run of the 40 older rows: 40/40 reached, hold shots checked
+    (work/qa/warp/sheet*.png), states in work/states/. `--jobs 2` fits in ~1.3 GB free RAM.
 - **Next (phase 2):**
   1. Endings and credits: decode the event pick after 0x0801EDFE (flags 0x4F-0x54 + room 0x13 -> event 0x4F, more
      cases follow; events 72-87 -> scripts 147-153, 796-817) and add event rows that play the final battle,
