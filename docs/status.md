@@ -2,8 +2,10 @@
 
 Updated at the end of every session. Keep it to what the next session needs; history is in git.
 
-- **Phase:** 6. Translate in progress: b001-b043 of 45 merged (all scripts 0-833; strings to t0BA8F0).
-  Last build: `build/dynadevice_blue_en.gba` 2026-11-15 (b001 only), sha1 8b8b8bd1...; pilot seen in game
+- **Phase:** 6. Translate in progress: all 45 batches merged (5285 done, 179 keep, 72 data, 0 todo); review
+  pass running (`tools/pairs.py` -> `work/review/pairs/`, `sh tools/review_run.sh` -> codex exec read-only,
+  reports in `work/review/reports/gNN.md`; brief `docs/reviewer-brief.md`).
+  Last build: `build/dynadevice_blue_en.gba` 2026-11-15 (all batches), sha1 68d1683b..., smoke ok; pilot seen in game
   (`work/qa/p6_pilot2`, warp `intro` + `MASHA=1`, 6000 frames): English wraps cleanly, ▼ clears the last line.
 - **How phase 6 runs (D11):** one agent translates batches in order, itself (Orca: no helpers).
   - Batches: `work/tl/b001..b045.tsv` (gitignored, made once by `tools/batches.py split`; b001-b027 events,
@@ -24,19 +26,19 @@ Updated at the end of every session. Keep it to what the next session needs; his
   `work/qa/p6_choice6`). Fix idea: replace timed waits with event-driven segments (wait for SCRIPT n / room), or
   finish the tutorial on the original ROM, save in game, and start these scenes from that .sav (text-independent).
 - **Next:**
-  1. Continue at b044, then b045: UI strings (88 px "guess" budget). Patterns from b042-b043 are in glossary
-     "b042 UI" (dates, times, weekdays, Yes/No columns, button help, status words). Multi-line help fragments
-     read in ascending pointer-table order (one fragment per line, 4 lines). Lint now lets any budget grow to
-     the JP line's own width (the original fit). A code-sliced or JP-blank string (digit tables ０１２...,
-     calendar rows, "　") is set to status keep in script/ and its line deleted from work/tl/bNNN.tsv; a string
-     the code slices by byte offset can be kept in shape with `[7F]` PAD bytes (t0B8254 weekday row).
-     Trailing JP padding in fixed panels: end the English with `<@10>` so it still covers the cells.
+  1. Review pass: read each `work/review/reports/gNN.md`, fix Critical/Important in script/ (Edit tool;
+     `python -X utf8 tools/batches.py check` and `tools/check.py` after), Minors to `docs/polish.md`. Codex's
+     Windows read-only sandbox can't start a shell, so `review_run.sh` pipes brief + glossary + style + pairs on
+     stdin. Never `taskkill /IM codex.exe` (other sessions' codex): kill by PID.
   2. Phase 7 (name entry): t0B7FE4-t0B8044 (ｇｎｙｃｕｓ＜☆↓＋ ... ｓｅｒｕｓｐｅ▽＞％, pointers 0x0D1EA8-0x0D1ED8,
      next to the keyboard table) look like a keyboard grid; set to status keep for now, decide with the
      keyboard layout. `tools/width.py "text" ...` prints a line's pixel width.
   3. After all batches: review pass (fresh read-only, per file group, `assets/reviewer-brief.md`), Minors to
      `docs/polish.md`; `tools/lint.py` 0 errors; `batches.py check` 0 problems. Then phase 7.
-- **Done (phase 6, latest session):** b042-b043: item/PDA/calendar/blood type/money diary, link-trade panels,
+- **Done (phase 6, latest session):** b044-b045: combo Extra names (Earth Rai, Bomb Mist...), status-ailment
+  words, link-battle rules and messages, Dyna Database labels, Dyna menu `<@2>Take<@10>Status<@18>Free`
+  ("Release" too wide), minigame help (3 games). Blanks t0BAAB0/t0BAF84 kept. Notes in `docs/polish.md` "b044-b045".
+- **Done (phase 6, session before):** b042-b043: item/PDA/calendar/blood type/money diary, link-trade panels,
   Card Trade messages, Dyna Pad jukebox names, party/City help, field build menu, item-use messages, debug
   menu strings. Code checked: weekday row t0B8254 is copied 6 bytes a day (0x0801FFA4), calendar digits 4
   bytes a day (0x0802914C): both kept in shape. In-game checks listed in `docs/polish.md` "UI strings to look
