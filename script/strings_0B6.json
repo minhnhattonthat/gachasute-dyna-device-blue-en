@@ -6,8 +6,8 @@
   ],
   "slot": 24,
   "jp": "うみだされる　いきもの",
-  "en": "",
-  "status": "todo"
+  "en": "people's data. Fit",
+  "status": "done"
  },
  {
   "id": "t0B6028",
@@ -16,8 +16,8 @@
   ],
   "slot": 20,
   "jp": "ひとの　データから",
-  "en": "",
-  "status": "todo"
+  "en": "Creatures born from",
+  "status": "done"
  },
  {
   "id": "t0B603C",
@@ -26,8 +26,8 @@
   ],
   "slot": 24,
   "jp": "みどりいろが　めじるし",
-  "en": "",
-  "status": "todo"
+  "en": "marked in green.",
+  "status": "done"
  },
  {
   "id": "t0B6054",
@@ -36,8 +36,8 @@
   ],
   "slot": 20,
   "jp": "ほのおに　よわい",
-  "en": "",
-  "status": "todo"
+  "en": "weak vs. fire: the",
+  "status": "done"
  },
  {
   "id": "t0B6068",
@@ -46,8 +46,8 @@
   ],
   "slot": 20,
   "jp": "かみなりに　つよく",
-  "en": "",
-  "status": "todo"
+  "en": "Strong vs. thunder,",
+  "status": "done"
  },
  {
   "id": "t0B607C",
@@ -56,8 +56,8 @@
   ],
   "slot": 20,
   "jp": "５しゅるい　ある",
-  "en": "",
-  "status": "todo"
+  "en": "out of 5 kinds.",
+  "status": "done"
  },
  {
   "id": "t0B6090",
@@ -66,8 +66,8 @@
   ],
   "slot": 24,
   "jp": "デバイスに　ついている",
-  "en": "",
-  "status": "todo"
+  "en": "Devices each have an",
+  "status": "done"
  },
  {
   "id": "t0B60A8",
@@ -76,8 +76,8 @@
   ],
   "slot": 12,
   "jp": "ダイナや",
-  "en": "",
-  "status": "todo"
+  "en": "The Dyna and",
+  "status": "done"
  },
  {
   "id": "t0B60B4",
@@ -87,8 +87,8 @@
   ],
   "slot": 20,
   "jp": "ことがあるタイプ",
-  "en": "",
-  "status": "todo"
+  "en": "is this type's knack.",
+  "status": "done"
  },
  {
   "id": "t0B60C8",
@@ -97,8 +97,8 @@
   ],
   "slot": 16,
   "jp": "はんげきできる",
-  "en": "",
-  "status": "todo"
+  "en": "at times",
+  "status": "done"
  },
  {
   "id": "t0B60D8",
@@ -107,8 +107,8 @@
   ],
   "slot": 20,
   "jp": "たいして　すぐに",
-  "en": "",
-  "status": "todo"
+  "en": "attacks right away",
+  "status": "done"
  },
  {
   "id": "t0B60EC",
@@ -117,8 +117,8 @@
   ],
   "slot": 24,
   "jp": "あいての　こうげきに",
-  "en": "",
-  "status": "todo"
+  "en": "Countering foes'",
+  "status": "done"
  },
  {
   "id": "t0B6104",
@@ -127,8 +127,8 @@
   ],
   "slot": 16,
   "jp": "しかくいエリア",
-  "en": "",
-  "status": "todo"
+  "en": "roads.",
+  "status": "done"
  },
  {
   "id": "t0B6114",
@@ -137,8 +137,8 @@
   ],
   "slot": 24,
   "jp": "どうろで　くぎられた",
-  "en": "",
-  "status": "todo"
+  "en": "divided up by",
+  "status": "done"
  },
  {
   "id": "t0B612C",
@@ -147,8 +147,8 @@
   ],
   "slot": 16,
   "jp": "たくさん　ある",
-  "en": "",
-  "status": "todo"
+  "en": "many square areas",
+  "status": "done"
  },
  {
   "id": "t0B613C",
@@ -157,8 +157,8 @@
   ],
   "slot": 20,
   "jp": "ダイナシティないに",
-  "en": "",
-  "status": "todo"
+  "en": "In Dyna City are",
+  "status": "done"
  },
  {
   "id": "t0B6150",
@@ -167,8 +167,8 @@
   ],
   "slot": 20,
   "jp": "３０しゅるい　ある",
-  "en": "",
-  "status": "todo"
+  "en": "There are 30.",
+  "status": "done"
  },
  {
   "id": "t0B6164",
@@ -177,8 +177,8 @@
   ],
   "slot": 20,
   "jp": "こまかい　くくり",
-  "en": "",
-  "status": "todo"
+  "en": "finer categories.",
+  "status": "done"
  },
  {
   "id": "t0B6178",
@@ -187,8 +187,8 @@
   ],
   "slot": 20,
   "jp": "みためで　わける",
-  "en": "",
-  "status": "todo"
+  "en": "by looks into these",
+  "status": "done"
  },
  {
   "id": "t0B618C",
@@ -198,8 +198,8 @@
   ],
   "slot": 12,
   "jp": "ダイナを",
-  "en": "",
-  "status": "todo"
+  "en": "Dyna are grouped",
+  "status": "done"
  },
  {
   "id": "t0B6198",
@@ -208,8 +208,8 @@
   ],
   "slot": 24,
   "jp": "うるかは　わからない",
-  "en": "",
-  "status": "todo"
+  "en": "a mystery till built.",
+  "status": "done"
  },
  {
   "id": "t0B61B0",
@@ -218,8 +218,8 @@
   ],
   "slot": 20,
   "jp": "たてるまで　なにを",
-  "en": "",
-  "status": "todo"
+  "en": "What it sells is",
+  "status": "done"
  },
  {
   "id": "t0B61C4",
@@ -228,8 +228,8 @@
   ],
   "slot": 24,
   "jp": "うったりできるセクタ",
-  "en": "",
-  "status": "todo"
+  "en": "in this sector.",
+  "status": "done"
  },
  {
   "id": "t0B61DC",
@@ -238,8 +238,8 @@
   ],
   "slot": 24,
   "jp": "アイテムを　かったり",
-  "en": "",
-  "status": "todo"
+  "en": "Buy and sell items",
+  "status": "done"
  },
  {
   "id": "t0B61F4",
@@ -248,8 +248,8 @@
   ],
   "slot": 20,
   "jp": "くらませるタイプ",
-  "en": "",
-  "status": "todo"
+  "en": "is this type's trick.",
+  "status": "done"
  },
  {
   "id": "t0B6208",
@@ -258,8 +258,8 @@
   ],
   "slot": 16,
   "jp": "てきの　めを",
-  "en": "",
-  "status": "todo"
+  "en": "to blind foes",
+  "status": "done"
  },
  {
   "id": "t0B6218",
@@ -268,8 +268,8 @@
   ],
   "slot": 16,
   "jp": "はっせいさせて",
-  "en": "",
-  "status": "todo"
+  "en": "all around it",
+  "status": "done"
  },
  {
   "id": "t0B6228",
@@ -278,8 +278,8 @@
   ],
   "slot": 20,
   "jp": "まわりに　きりを",
-  "en": "",
-  "status": "todo"
+  "en": "Raising a mist",
+  "status": "done"
  },
  {
   "id": "t0B623C",
@@ -288,8 +288,8 @@
   ],
   "slot": 24,
   "jp": "まもる　けいさつそしき",
-  "en": "",
-  "status": "todo"
+  "en": "a police force.",
+  "status": "done"
  },
  {
   "id": "t0B6254",
@@ -298,8 +298,8 @@
   ],
   "slot": 24,
   "jp": "ネットはんざいしゃから",
-  "en": "",
-  "status": "todo"
+  "en": "against net crime:",
+  "status": "done"
  },
  {
   "id": "t0B626C",
@@ -308,8 +308,8 @@
   ],
   "slot": 16,
   "jp": "ダイナシティを",
-  "en": "",
-  "status": "todo"
+  "en": "Dyna City's guard",
+  "status": "done"
  },
  {
   "id": "t0B627C",
@@ -318,8 +318,8 @@
   ],
   "slot": 16,
   "jp": "ダイナネットと",
-  "en": "",
-  "status": "todo"
+  "en": "Dyna Net and",
+  "status": "done"
  },
  {
   "id": "t0B628C",
@@ -328,8 +328,8 @@
   ],
   "slot": 16,
   "jp": "すなあらしの",
-  "en": "",
-  "status": "todo"
+  "en": "power of sandstorms",
+  "status": "done"
  },
  {
   "id": "t0B629C",
@@ -338,8 +338,8 @@
   ],
   "slot": 20,
   "jp": "えきとなるセクタ",
-  "en": "",
-  "status": "todo"
+  "en": "is this sector.",
+  "status": "done"
  },
  {
   "id": "t0B62B0",
@@ -348,8 +348,8 @@
   ],
   "slot": 12,
   "jp": "ちかてつの",
-  "en": "",
-  "status": "todo"
+  "en": "Its station",
+  "status": "done"
  },
  {
   "id": "t0B62BC",
@@ -358,8 +358,8 @@
   ],
   "slot": 16,
   "jp": "ちかを　はしる",
-  "en": "",
-  "status": "todo"
+  "en": "runs a subway.",
+  "status": "done"
  },
  {
   "id": "t0B62CC",
@@ -368,8 +368,8 @@
   ],
   "slot": 16,
   "jp": "ダイナシティの",
-  "en": "",
-  "status": "todo"
+  "en": "Under Dyna City",
+  "status": "done"
  },
  {
   "id": "t0B62DC",

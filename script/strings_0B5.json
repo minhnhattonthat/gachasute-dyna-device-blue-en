@@ -1354,8 +1354,8 @@
   ],
   "slot": 20,
   "jp": "はらっぱの　ような",
-  "en": "",
-  "status": "todo"
+  "en": "grassland: the",
+  "status": "done"
  },
  {
   "id": "t0B5750",
@@ -1364,8 +1364,8 @@
   ],
   "slot": 16,
   "jp": "すこし　あれた",
-  "en": "",
-  "status": "todo"
+  "en": "Somewhat wild",
+  "status": "done"
  },
  {
   "id": "t0B5760",
@@ -1374,8 +1374,8 @@
   ],
   "slot": 12,
   "jp": "らくらいの",
-  "en": "",
-  "status": "todo"
+  "en": "power of lightning",
+  "status": "done"
  },
  {
   "id": "t0B576C",
@@ -1384,8 +1384,8 @@
   ],
   "slot": 24,
   "jp": "あまり　きかないタイプ",
-  "en": "",
-  "status": "todo"
+  "en": "hurt this type.",
+  "status": "done"
  },
  {
   "id": "t0B5784",
@@ -1394,8 +1394,8 @@
   ],
   "slot": 24,
   "jp": "いがいの　こうげきが",
-  "en": "",
-  "status": "todo"
+  "en": "element can really",
+  "status": "done"
  },
  {
   "id": "t0B579C",
@@ -1404,8 +1404,8 @@
   ],
   "slot": 24,
   "jp": "からだが　かたいため",
-  "en": "",
-  "status": "todo"
+  "en": "Hard body: only the",
+  "status": "done"
  },
  {
   "id": "t0B57B4",
@@ -1414,8 +1414,8 @@
   ],
   "slot": 24,
   "jp": "１けんに　３たいまで",
-  "en": "",
-  "status": "todo"
+  "en": "Up to 3 Dyna",
+  "status": "done"
  },
  {
   "id": "t0B57CC",
@@ -1424,8 +1424,8 @@
   ],
   "slot": 16,
   "jp": "まとめたセクタ",
-  "en": "",
-  "status": "todo"
+  "en": "into one sector.",
+  "status": "done"
  },
  {
   "id": "t0B57DC",
@@ -1434,8 +1434,8 @@
   ],
   "slot": 16,
   "jp": "ハウス４けんを",
-  "en": "",
-  "status": "todo"
+  "en": "4 Houses joined",
+  "status": "done"
  },
  {
   "id": "t0B57EC",
@@ -1444,8 +1444,8 @@
   ],
   "slot": 24,
   "jp": "つよいところも　ない",
-  "en": "",
-  "status": "todo"
+  "en": "the null",
+  "status": "done"
  },
  {
   "id": "t0B5804",
@@ -1454,8 +1454,8 @@
   ],
   "slot": 16,
   "jp": "よわいところも",
-  "en": "",
-  "status": "todo"
+  "en": "and no strong ones:",
+  "status": "done"
  },
  {
   "id": "t0B5814",
@@ -1464,8 +1464,8 @@
   ],
   "slot": 16,
   "jp": "ぞくせいなし",
-  "en": "",
-  "status": "todo"
+  "en": "No weak points",
+  "status": "done"
  },
  {
   "id": "t0B5824",
@@ -1474,8 +1474,8 @@
   ],
   "slot": 24,
   "jp": "あおいろが　めじるし",
-  "en": "",
-  "status": "todo"
+  "en": "marked in blue.",
+  "status": "done"
  },
  {
   "id": "t0B583C",
@@ -1484,8 +1484,8 @@
   ],
   "slot": 20,
   "jp": "かみなりに　よわい",
-  "en": "",
-  "status": "todo"
+  "en": "weak vs. thunder: the",
+  "status": "done"
  },
  {
   "id": "t0B5850",
@@ -1494,8 +1494,8 @@
   ],
   "slot": 20,
   "jp": "ほのおに　つよく",
-  "en": "",
-  "status": "todo"
+  "en": "Strong vs. fire,",
+  "status": "done"
  },
  {
   "id": "t0B5864",
@@ -1504,8 +1504,8 @@
   ],
   "slot": 12,
   "jp": "ふぶきの",
-  "en": "",
-  "status": "todo"
+  "en": "power of blizzards",
+  "status": "done"
  },
  {
   "id": "t0B5870",
@@ -1514,8 +1514,8 @@
   ],
   "slot": 20,
   "jp": "シティの　もちぬし",
-  "en": "",
-  "status": "todo"
+  "en": "of the city's owner.",
+  "status": "done"
  },
  {
   "id": "t0B5884",
@@ -1524,8 +1524,8 @@
   ],
   "slot": 24,
   "jp": "かんきょうを　つくる",
-  "en": "",
-  "status": "todo"
+  "en": "That's the job",
+  "status": "done"
  },
  {
   "id": "t0B589C",
@@ -1534,8 +1534,8 @@
   ],
   "slot": 24,
   "jp": "そだてるため　すみよい",
-  "en": "",
-  "status": "todo"
+  "en": "need a good home.",
+  "status": "done"
  },
  {
   "id": "t0B58B4",
@@ -1544,8 +1544,8 @@
   ],
   "slot": 24,
   "jp": "さいきょうの　ダイナを",
-  "en": "",
-  "status": "todo"
+  "en": "The strongest Dyna",
+  "status": "done"
  },
  {
   "id": "t0B58CC",
@@ -1554,8 +1554,8 @@
   ],
   "slot": 16,
   "jp": "しやすくなる",
-  "en": "",
-  "status": "todo"
+  "en": "happen more often.",
+  "status": "done"
  },
  {
   "id": "t0B58DC",
@@ -1564,8 +1564,8 @@
   ],
   "slot": 20,
   "jp": "じしんが　はっせい",
-  "en": "",
-  "status": "todo"
+  "en": "earthquakes",
+  "status": "done"
  },
  {
   "id": "t0B58F0",
@@ -1574,8 +1574,8 @@
   ],
   "slot": 16,
   "jp": "かずが　へると",
-  "en": "",
-  "status": "todo"
+  "en": "when they get fewer,",
+  "status": "done"
  },
  {
   "id": "t0B5900",
@@ -1584,8 +1584,8 @@
   ],
   "slot": 20,
   "jp": "いわやまの　セクタ",
-  "en": "",
-  "status": "todo"
+  "en": "Mountain sectors:",
+  "status": "done"
  },
  {
   "id": "t0B5914",
@@ -1594,8 +1594,8 @@
   ],
   "slot": 16,
   "jp": "らいきゅうの",
-  "en": "",
-  "status": "todo"
+  "en": "power of ball lightning",
+  "status": "done"
  },
  {
   "id": "t0B5924",
@@ -1604,8 +1604,8 @@
   ],
   "slot": 12,
   "jp": "ばくはつの",
-  "en": "",
-  "status": "todo"
+  "en": "power of explosions",
+  "status": "done"
  },
  {
   "id": "t0B5930",
@@ -1614,8 +1614,8 @@
   ],
   "slot": 24,
   "jp": "あかいろが　めじるし",
-  "en": "",
-  "status": "todo"
+  "en": "marked in red.",
+  "status": "done"
  },
  {
   "id": "t0B5948",
@@ -1624,8 +1624,8 @@
   ],
   "slot": 16,
   "jp": "みずに　よわい",
-  "en": "",
-  "status": "todo"
+  "en": "weak vs. water: the",
+  "status": "done"
  },
  {
   "id": "t0B5958",
@@ -1634,8 +1634,8 @@
   ],
   "slot": 20,
   "jp": "だいちに　つよく",
-  "en": "",
-  "status": "todo"
+  "en": "Strong vs. earth,",
+  "status": "done"
  },
  {
   "id": "t0B596C",
@@ -1644,8 +1644,8 @@
   ],
   "slot": 20,
   "jp": "みずが　ながれこむ",
-  "en": "",
-  "status": "todo"
+  "en": "water flows in.",
+  "status": "done"
  },
  {
   "id": "t0B5980",
@@ -1654,8 +1654,8 @@
   ],
   "slot": 20,
   "jp": "セクタが　あると",
-  "en": "",
-  "status": "todo"
+  "en": "sector is next to it,",
+  "status": "done"
  },
  {
   "id": "t0B5994",
@@ -1664,8 +1664,8 @@
   ],
   "slot": 24,
   "jp": "となりに　ウォーターの",
-  "en": "",
-  "status": "todo"
+  "en": "If a Water",
+  "status": "done"
  },
  {
   "id": "t0B59AC",
@@ -1674,8 +1674,8 @@
   ],
   "slot": 24,
   "jp": "あなが　あいたセクタ",
-  "en": "",
-  "status": "todo"
+  "en": "A sector with a hole.",
+  "status": "done"
  },
  {
   "id": "t0B59C4",
@@ -1684,8 +1684,8 @@
   ],
   "slot": 24,
   "jp": "ダイナの　いえとなる",
-  "en": "",
-  "status": "todo"
+  "en": "Dyna live in this",
+  "status": "done"
  },
  {
   "id": "t0B59DC",
@@ -1694,8 +1694,8 @@
   ],
   "slot": 24,
   "jp": "マスターから　うまれた",
-  "en": "",
-  "status": "todo"
+  "en": "the Master's own",
+  "status": "done"
  },
  {
   "id": "t0B59F4",
@@ -1704,8 +1704,8 @@
   ],
   "slot": 24,
   "jp": "シティの　マスターと",
-  "en": "",
-  "status": "todo"
+  "en": "The city's Master and",
+  "status": "done"
  },
  {
   "id": "t0B5A0C",
@@ -1714,8 +1714,8 @@
   ],
   "slot": 12,
   "jp": "かえんの",
-  "en": "",
-  "status": "todo"
+  "en": "power of flames",
+  "status": "done"
  },
  {
   "id": "t0B5A18",
@@ -1724,8 +1724,8 @@
   ],
   "slot": 24,
   "jp": "バージョンは　１．００",
-  "en": "",
-  "status": "todo"
+  "en": "Version 1.00.",
+  "status": "done"
  },
  {
   "id": "t0B5A30",
@@ -1734,8 +1734,8 @@
   ],
   "slot": 24,
   "jp": "オペレーションシステム",
-  "en": "",
-  "status": "todo"
+  "en": "operating system.",
+  "status": "done"
  },
  {
   "id": "t0B5A48",
@@ -1744,8 +1744,8 @@
   ],
   "slot": 20,
   "jp": "さいようされている",
-  "en": "",
-  "status": "todo"
+  "en": "built-in",
+  "status": "done"
  },
  {
   "id": "t0B5A5C",
@@ -1754,8 +1754,8 @@
   ],
   "slot": 24,
   "jp": "この　ダイナパッドに",
-  "en": "",
-  "status": "todo"
+  "en": "This Dyna Pad's",
+  "status": "done"
  },
  {
   "id": "t0B5A74",
@@ -1764,8 +1764,8 @@
   ],
   "slot": 20,
   "jp": "すすめてもらえる",
-  "en": "",
-  "status": "todo"
+  "en": "4 lines at once.",
+  "status": "done"
  },
  {
   "id": "t0B5A88",
@@ -1774,8 +1774,8 @@
   ],
   "slot": 24,
   "jp": "４ラインまで　どうじに",
-  "en": "",
-  "status": "todo"
+  "en": "It can run up to",
+  "status": "done"
  },
  {
   "id": "t0B5AA0",
@@ -1784,8 +1784,8 @@
   ],
   "slot": 24,
   "jp": "おこなってくれるセクタ",
-  "en": "",
-  "status": "todo"
+  "en": "in this sector.",
+  "status": "done"
  },
  {
   "id": "t0B5AB8",
@@ -1794,8 +1794,8 @@
   ],
   "slot": 24,
   "jp": "デバイスの　かいはつを",
-  "en": "",
-  "status": "todo"
+  "en": "Devices get built",
+  "status": "done"
  },
  {
   "id": "t0B5AD0",
@@ -1804,8 +1804,8 @@
   ],
   "slot": 20,
   "jp": "かせぐことができる",
-  "en": "",
-  "status": "todo"
+  "en": "can earn you some.",
+  "status": "done"
  },
  {
   "id": "t0B5AE4",
@@ -1814,8 +1814,8 @@
   ],
   "slot": 20,
   "jp": "ミニゲームなどでも",
-  "en": "",
-  "status": "todo"
+  "en": "Minigames and more",
+  "status": "done"
  },
  {
   "id": "t0B5AF8",
@@ -1824,8 +1824,8 @@
   ],
   "slot": 20,
   "jp": "せかいでの　おかね",
-  "en": "",
-  "status": "todo"
+  "en": "world's money.",
+  "status": "done"
  },
  {
   "id": "t0B5B0C",
@@ -1834,8 +1834,8 @@
   ],
   "slot": 20,
   "jp": "ダイナデバイスの",
-  "en": "",
-  "status": "todo"
+  "en": "The Dyna Device",
+  "status": "done"
  },
  {
   "id": "t0B5B20",
@@ -1844,8 +1844,8 @@
   ],
   "slot": 12,
   "jp": "はつねつの",
-  "en": "",
-  "status": "todo"
+  "en": "power of heat",
+  "status": "done"
  },
  {
   "id": "t0B5B2C",
@@ -1855,8 +1855,8 @@
   ],
   "slot": 20,
   "jp": "すむことができる",
-  "en": "",
-  "status": "todo"
+  "en": "can live in each.",
+  "status": "done"
  },
  {
   "id": "t0B5B40",
@@ -1865,8 +1865,8 @@
   ],
   "slot": 20,
   "jp": "１けんに　１たい",
-  "en": "",
-  "status": "todo"
+  "en": "One Dyna",
+  "status": "done"
  },
  {
   "id": "t0B5B54",
@@ -1875,8 +1875,8 @@
   ],
   "slot": 20,
   "jp": "いえとなるセクタ",
-  "en": "",
-  "status": "todo"
+  "en": "home sector.",
+  "status": "done"
  },
  {
   "id": "t0B5B68",
@@ -1885,8 +1885,8 @@
   ],
   "slot": 16,
   "jp": "つくられている",
-  "en": "",
-  "status": "todo"
+  "en": "build it.",
+  "status": "done"
  },
  {
   "id": "t0B5B78",
@@ -1895,8 +1895,8 @@
   ],
   "slot": 20,
   "jp": "うばった　シティで",
-  "en": "",
-  "status": "todo"
+  "en": "stole cities to",
+  "status": "done"
  },
  {
   "id": "t0B5B8C",
@@ -1905,8 +1905,8 @@
   ],
   "slot": 20,
   "jp": "マスターたちから",
-  "en": "",
-  "status": "todo"
+  "en": "From Masters, they",
+  "status": "done"
  },
  {
   "id": "t0B5BA0",
@@ -1915,8 +1915,8 @@
   ],
   "slot": 20,
   "jp": "バイラーの　アジト",
-  "en": "",
-  "status": "todo"
+  "en": "Byler's hideout.",
+  "status": "done"
  },
  {
   "id": "t0B5BB4",
@@ -1925,8 +1925,8 @@
   ],
   "slot": 20,
   "jp": "もくてきは　ふめい",
-  "en": "",
-  "status": "todo"
+  "en": "Its aims: unknown.",
+  "status": "done"
  },
  {
   "id": "t0B5BC8",
@@ -1935,8 +1935,8 @@
   ],
   "slot": 16,
   "jp": "なぞの　そしき",
-  "en": "",
-  "status": "todo"
+  "en": "a mystery group.",
+  "status": "done"
  },
  {
   "id": "t0B5BD8",
@@ -1945,8 +1945,8 @@
   ],
   "slot": 20,
   "jp": "あくじを　はたらく",
-  "en": "",
-  "status": "todo"
+  "en": "deeds are done by",
+  "status": "done"
  },
  {
   "id": "t0B5BEC",
@@ -1955,8 +1955,8 @@
   ],
   "slot": 16,
   "jp": "ダイナネットで",
-  "en": "",
-  "status": "todo"
+  "en": "In Dyna Net, evil",
+  "status": "done"
  },
  {
   "id": "t0B5BFC",
@@ -1965,8 +1965,8 @@
   ],
   "slot": 20,
   "jp": "えんごこうげきが",
-  "en": "",
-  "status": "todo"
+  "en": "ally's attack",
+  "status": "done"
  },
  {
   "id": "t0B5C10",
@@ -1975,8 +1975,8 @@
   ],
   "slot": 20,
   "jp": "つづけて　ついかの",
-  "en": "",
-  "status": "todo"
+  "en": "attack after an",
+  "status": "done"
  },
  {
   "id": "t0B5C24",
@@ -1985,8 +1985,8 @@
   ],
   "slot": 24,
   "jp": "みかたの　こうげきに",
-  "en": "",
-  "status": "todo"
+  "en": "A follow-up support",
+  "status": "done"
  },
  {
   "id": "t0B5C3C",
@@ -1995,8 +1995,8 @@
   ],
   "slot": 16,
   "jp": "あんないやく",
-  "en": "",
-  "status": "todo"
+  "en": "guide.",
+  "status": "done"
  },
  {
   "id": "t0B5C4C",
@@ -2005,8 +2005,8 @@
   ],
   "slot": 16,
   "jp": "はけんされた",
-  "en": "",
-  "status": "todo"
+  "en": "sent this",
+  "status": "done"
  },
  {
   "id": "t0B5C5C",
@@ -2015,8 +2015,8 @@
   ],
   "slot": 20,
   "jp": "ダイナサーバーから",
-  "en": "",
-  "status": "todo"
+  "en": "the Dyna Server",
+  "status": "done"
  },
  {
   "id": "t0B5C70",
@@ -2025,8 +2025,8 @@
   ],
   "slot": 20,
   "jp": "このダイナシティに",
-  "en": "",
-  "status": "todo"
+  "en": "To this Dyna City",
+  "status": "done"
  },
  {
   "id": "t0B5C84",
@@ -2035,8 +2035,8 @@
   ],
   "slot": 24,
   "jp": "もらうことが　できる",
-  "en": "",
-  "status": "todo"
+  "en": "a special way.",
+  "status": "done"
  },
  {
   "id": "t0B5C9C",
@@ -2045,8 +2045,8 @@
   ],
   "slot": 24,
   "jp": "とくしゅな　ほうほうで",
-  "en": "",
-  "status": "todo"
+  "en": "Obtained only in",
+  "status": "done"
  },
  {
   "id": "t0B5CB4",
@@ -2055,8 +2055,8 @@
   ],
   "slot": 24,
   "jp": "ちょくげきを　かわせる",
-  "en": "",
-  "status": "todo"
+  "en": "its spot, at times,",
+  "status": "done"
  },
  {
   "id": "t0B5CCC",
@@ -2065,8 +2065,8 @@
   ],
   "slot": 24,
   "jp": "ばしょに　せめてきても",
-  "en": "",
-  "status": "todo"
+  "en": "when foes attack",
+  "status": "done"
  },
  {
   "id": "t0B5CE4",
@@ -2075,8 +2075,8 @@
   ],
   "slot": 20,
   "jp": "てきが　じぶんの",
-  "en": "",
-  "status": "todo"
+  "en": "Dodging direct hits",
+  "status": "done"
  },
  {
   "id": "t0B5CF8",
@@ -2085,8 +2085,8 @@
   ],
   "slot": 16,
   "jp": "ぶきや　ぼうぐ",
-  "en": "",
-  "status": "todo"
+  "en": "and armor.",
+  "status": "done"
  },
  {
   "id": "t0B5D08",
@@ -2095,8 +2095,8 @@
   ],
   "slot": 24,
   "jp": "ちからを　ついかする",
-  "en": "",
-  "status": "todo"
+  "en": "of powers: weapons",
+  "status": "done"
  },
  {
   "id": "t0B5D20",
@@ -2105,8 +2105,8 @@
   ],
   "slot": 24,
   "jp": "とりつけて　さまざまな",
-  "en": "",
-  "status": "todo"
+  "en": "to give it all kinds",
+  "status": "done"
  },
  {
   "id": "t0B5D38",
@@ -2115,8 +2115,8 @@
   ],
   "slot": 20,
   "jp": "できない　タイプ",
-  "en": "",
-  "status": "todo"
+  "en": "is this type's way.",
+  "status": "done"
  },
  {
   "id": "t0B5D4C",
@@ -2125,8 +2125,8 @@
   ],
   "slot": 24,
   "jp": "トラップを　おくことが",
-  "en": "",
-  "status": "todo"
+  "en": "to set traps,",
+  "status": "done"
  },
  {
   "id": "t0B5D64",
@@ -2135,8 +2135,8 @@
   ],
   "slot": 24,
   "jp": "いどうできるかわりに",
-  "en": "",
-  "status": "todo"
+  "en": "at once, but unable",
+  "status": "done"
  },
  {
   "id": "t0B5D7C",
@@ -2145,8 +2145,8 @@
   ],
   "slot": 20,
   "jp": "いちどに　２マス",
-  "en": "",
-  "status": "todo"
+  "en": "Moving 2 squares",
+  "status": "done"
  },
  {
   "id": "t0B5D90",
@@ -2155,8 +2155,8 @@
   ],
   "slot": 12,
   "jp": "こうげき",
-  "en": "",
-  "status": "todo"
+  "en": "in a row.",
+  "status": "done"
  },
  {
   "id": "t0B5D9C",
@@ -2165,8 +2165,8 @@
   ],
   "slot": 20,
   "jp": "２かい　れんぞく",
-  "en": "",
-  "status": "todo"
+  "en": "two attacks",
+  "status": "done"
  },
  {
   "id": "t0B5DB0",
@@ -2175,8 +2175,8 @@
   ],
   "slot": 24,
   "jp": "すると　はっせいする",
-  "en": "",
-  "status": "todo"
+  "en": "hit a foe directly:",
+  "status": "done"
  },
  {
   "id": "t0B5DC8",
@@ -2185,8 +2185,8 @@
   ],
   "slot": 24,
   "jp": "てきに　ちょくげきを",
-  "en": "",
-  "status": "todo"
+  "en": "Triggered when you",
+  "status": "done"
  },
  {
   "id": "t0B5DE0",
@@ -2195,8 +2195,8 @@
   ],
   "slot": 20,
   "jp": "ちらかったセクタ",
-  "en": "",
-  "status": "todo"
+  "en": "this messy sector.",
+  "status": "done"
  },
  {
   "id": "t0B5DF4",
@@ -2205,8 +2205,8 @@
   ],
   "slot": 24,
   "jp": "こわしたときに　できる",
-  "en": "",
-  "status": "todo"
+  "en": "torn down, leave",
+  "status": "done"
  },
  {
   "id": "t0B5E0C",
@@ -2215,8 +2215,8 @@
   ],
   "slot": 12,
   "jp": "たてものを",
-  "en": "",
-  "status": "todo"
+  "en": "buildings, when",
+  "status": "done"
  },
  {
   "id": "t0B5E18",
@@ -2225,8 +2225,8 @@
   ],
   "slot": 20,
   "jp": "１０しゅるい　ある",
-  "en": "",
-  "status": "todo"
+  "en": "There are 10.",
+  "status": "done"
  },
  {
   "id": "t0B5E2C",
@@ -2235,8 +2235,8 @@
   ],
   "slot": 20,
   "jp": "おおきな　くくり",
-  "en": "",
-  "status": "todo"
+  "en": "broadest categories.",
+  "status": "done"
  },
  {
   "id": "t0B5E40",
@@ -2245,8 +2245,8 @@
   ],
   "slot": 24,
   "jp": "ぶんるいする　いちばん",
-  "en": "",
-  "status": "todo"
+  "en": "into these, the",
+  "status": "done"
  },
  {
   "id": "t0B5E58",
@@ -2255,8 +2255,8 @@
   ],
   "slot": 20,
   "jp": "さいしんがたＰＤＡ",
-  "en": "",
-  "status": "todo"
+  "en": "cutting-edge PDA.",
+  "status": "done"
  },
  {
   "id": "t0B5E6C",
@@ -2265,8 +2265,8 @@
   ],
   "slot": 16,
   "jp": "ないぞうした",
-  "en": "",
-  "status": "todo"
+  "en": "built into this",
+  "status": "done"
  },
  {
   "id": "t0B5E7C",
@@ -2275,8 +2275,8 @@
   ],
   "slot": 20,
   "jp": "ダイナデバイスを",
-  "en": "",
-  "status": "todo"
+  "en": "Dyna Device comes",
+  "status": "done"
  },
  {
   "id": "t0B5E90",
@@ -2285,8 +2285,8 @@
   ],
   "slot": 24,
   "jp": "ネットワークシステム",
-  "en": "",
-  "status": "todo"
+  "en": "system.",
+  "status": "done"
  },
  {
   "id": "t0B5EA8",
@@ -2295,8 +2295,8 @@
   ],
   "slot": 16,
   "jp": "りようしている",
-  "en": "",
-  "status": "todo"
+  "en": "this network",
+  "status": "done"
  },
  {
   "id": "t0B5EB8",
@@ -2305,8 +2305,8 @@
   ],
   "slot": 20,
   "jp": "ダイナデバイスが",
-  "en": "",
-  "status": "todo"
+  "en": "Dyna Device runs on",
+  "status": "done"
  },
  {
   "id": "t0B5ECC",
@@ -2317,8 +2317,8 @@
   ],
   "slot": 20,
   "jp": "ネットワークゲーム",
-  "en": "",
-  "status": "todo"
+  "en": "Network game",
+  "status": "done"
  },
  {
   "id": "t0B5EE0",
@@ -2327,8 +2327,8 @@
   ],
   "slot": 20,
   "jp": "バトルを　させる",
-  "en": "",
-  "status": "todo"
+  "en": "them battle. Genre:",
+  "status": "done"
  },
  {
   "id": "t0B5EF4",
@@ -2337,8 +2337,8 @@
   ],
   "slot": 20,
   "jp": "ダイナを　そだてて",
-  "en": "",
-  "status": "todo"
+  "en": "raise Dyna and make",
+  "status": "done"
  },
  {
   "id": "t0B5F08",
@@ -2347,8 +2347,8 @@
   ],
   "slot": 16,
   "jp": "ダイナシティで",
-  "en": "",
-  "status": "todo"
+  "en": "In Dyna City, you",
+  "status": "done"
  },
  {
   "id": "t0B5F18",
@@ -2357,8 +2357,8 @@
   ],
   "slot": 16,
   "jp": "おこなっている",
-  "en": "",
-  "status": "todo"
+  "en": "running the city.",
+  "status": "done"
  },
  {
   "id": "t0B5F28",
@@ -2367,8 +2367,8 @@
   ],
   "slot": 20,
   "jp": "シティの　かんりも",
-  "en": "",
-  "status": "todo"
+  "en": "also takes care of",
+  "status": "done"
  },
  {
   "id": "t0B5F3C",
@@ -2377,8 +2377,8 @@
   ],
   "slot": 24,
   "jp": "まどぐちとなるセクタ",
-  "en": "",
-  "status": "todo"
+  "en": "this gateway sector",
+  "status": "done"
  },
  {
   "id": "t0B5F54",
@@ -2387,8 +2387,8 @@
   ],
   "slot": 20,
   "jp": "ダイナネットとの",
-  "en": "",
-  "status": "todo"
+  "en": "Linking to Dyna Net,",
+  "status": "done"
  },
  {
   "id": "t0B5F68",
@@ -2397,8 +2397,8 @@
   ],
   "slot": 24,
   "jp": "じぶんだけの　シティに",
-  "en": "",
-  "status": "todo"
+  "en": "your own city",
+  "status": "done"
  },
  {
   "id": "t0B5F80",
@@ -2407,8 +2407,8 @@
   ],
   "slot": 20,
   "jp": "すんでいる　シティ",
-  "en": "",
-  "status": "todo"
+  "en": "this city. It's",
+  "status": "done"
  },
  {
   "id": "t0B5F94",
@@ -2417,8 +2417,8 @@
   ],
   "slot": 16,
   "jp": "ダイナたちが",
-  "en": "",
-  "status": "todo"
+  "en": "The Dyna live in",
+  "status": "done"
  },
  {
   "id": "t0B5FA4",
@@ -2427,8 +2427,8 @@
   ],
   "slot": 24,
   "jp": "メインコンピューター",
-  "en": "",
-  "status": "todo"
+  "en": "the main computer.",
+  "status": "done"
  },
  {
   "id": "t0B5FBC",
@@ -2437,8 +2437,8 @@
   ],
   "slot": 16,
   "jp": "かんりしている",
-  "en": "",
-  "status": "todo"
+  "en": "managed by",
+  "status": "done"
  },
  {
   "id": "t0B5FCC",
@@ -2447,8 +2447,8 @@
   ],
   "slot": 12,
   "jp": "すべてを",
-  "en": "",
-  "status": "todo"
+  "en": "entirety is",
+  "status": "done"
  },
  {
   "id": "t0B5FD8",
@@ -2457,8 +2457,8 @@
   ],
   "slot": 16,
   "jp": "ダイナネットの",
-  "en": "",
-  "status": "todo"
+  "en": "Dyna Net in its",
+  "status": "done"
  },
  {
   "id": "t0B5FE8",
@@ -2468,8 +2468,8 @@
   ],
   "slot": 20,
   "jp": "カスタマイズできる",
-  "en": "",
-  "status": "todo"
+  "en": "to customize.",
+  "status": "done"
  },
  {
   "id": "t0B5FFC",
@@ -2478,7 +2478,7 @@
   ],
   "slot": 20,
   "jp": "デバイスを　つけて",
-  "en": "",
-  "status": "todo"
+  "en": "them with Devices",
+  "status": "done"
  }
 ]
