@@ -24,7 +24,8 @@ import vwf  # noqa: E402
 SCRIPT = ROOT / "script"
 BUDGETS = ROOT / "docs" / "re" / "budgets.tsv"
 LINE_PX, LAST_PX, PAGE_LINES = 188, 176, 2      # message box, measured (docs/re/windows.md)
-REG_PX = {"s": 64, "d": 8}                       # %sRn: a name (guess until measured); %dRn: per digit (SJIS)
+REG_PX = {"s": 64, "d": 8}                       # %sRn: any name, 8 full-width chars (measured,
+                                                 # docs/re/windows.md §String registers); %dRn: per digit (SJIS)
 REG = re.compile(r"\{%(0?)(\d*)([sdXx])(R\d)?\}")
 TAGS = re.compile(r"\{%[^{}]*\}|\{KN\}|\{C\d\}")
 
