@@ -4,608 +4,608 @@
   "flag": 0,
   "speaker": -1,
   "jp": "テスト１",
-  "en": "",
-  "status": "todo"
+  "en": "Test 1",
+  "status": "done"
  },
  {
   "id": "s000.01",
   "flag": 0,
   "speaker": -1,
   "jp": "テスト２",
-  "en": "",
-  "status": "todo"
+  "en": "Test 2",
+  "status": "done"
  },
  {
   "id": "s000.02",
   "flag": 0,
   "speaker": -1,
   "jp": "テスト３",
-  "en": "",
-  "status": "todo"
+  "en": "Test 3",
+  "status": "done"
  },
  {
   "id": "s001.00",
   "flag": 0,
   "speaker": 4,
   "jp": "ようこそ　ダイナシティへ！{KP}\nこのたびは　ダイナパッドを\nおかいあげいただきまして{KP}\nまことにありがとうございます",
-  "en": "",
-  "status": "todo"
+  "en": "Welcome to Dyna City!{KP}\nThank you very much for purchasing a\nDyna Pad!",
+  "status": "done"
  },
  {
   "id": "s001.01",
   "flag": 0,
   "speaker": 4,
   "jp": "わたしは　この　ダイナシティで\nあなたの　おてつだいをさせていただく{KP}\nナビュウというものです{KP}\nそれでは　この　ダイナデバイスという\nゲームについて　せつめいします",
-  "en": "",
-  "status": "todo"
+  "en": "I am Navyu, and I will be assisting you\nhere in Dyna City.{KP}\nNow, let me explain this game called Dyna\nDevice.",
+  "status": "done"
  },
  {
   "id": "s001.02",
   "flag": 0,
   "speaker": 4,
   "jp": "ひとことで　いうと　この\nダイナデバイスという　ゲームは{KP}\nダイナたちが　すむ　シティを\nつくっていくゲームです",
-  "en": "",
-  "status": "todo"
+  "en": "In a word, Dyna Device is a game where\nyou build a city for Dyna to live in.",
+  "status": "done"
  },
  {
   "id": "s001.03",
   "flag": 0,
   "speaker": 4,
   "jp": "ダイナとは　このせかいに　そんざいする\nふしぎな　いきものたちのことです",
-  "en": "",
-  "status": "todo"
+  "en": "Dyna are the mysterious creatures that\nlive in this world.",
+  "status": "done"
  },
  {
   "id": "s001.04",
   "flag": 0,
   "speaker": 4,
   "jp": "みなさんが　めざす\nとりあえずの　もくひょうは{KP}\nダイナたちが　たのしく　くらせる\nうつくしいシティを　つくること！",
-  "en": "",
-  "status": "todo"
+  "en": "Your first goal, for now, is to build a\nbeautiful city where Dyna can live{KP}\nhappily!",
+  "status": "done"
  },
  {
   "id": "s001.05",
   "flag": 0,
   "speaker": 4,
   "jp": "ていきてきに　ダイナネットが\nシティに　てんすうを　つけて{KP}\nあなたには　Ｄランクから　Ａランクまでの\nひょうかが　つきます",
-  "en": "",
-  "status": "todo"
+  "en": "Every so often, the Dyna Net will score\nyour city{KP}\nand give you a rating from D Rank up to A\nRank.",
+  "status": "done"
  },
  {
   "id": "s001.06",
   "flag": 0,
   "speaker": 4,
   "jp": "ちなみに　ダイナネットというのは\nダイナパッドから　せつぞくできる{KP}\nネットワークシステムの　ことです",
-  "en": "",
-  "status": "todo"
+  "en": "By the way, the Dyna Net is a network\nsystem{KP}\nthat you can connect to from your Dyna\nPad.",
+  "status": "done"
  },
  {
   "id": "s001.07",
   "flag": 0,
   "speaker": 4,
   "jp": "てんすうは　きほんてきに　きげんが　いい\nダイナが　おおいと　たかくなり{KP}\nきげんが　わるい　ダイナが\nおおいと　ひくくなります",
-  "en": "",
-  "status": "todo"
+  "en": "As a rule, your score goes up when you\nhave lots of Dyna in a good mood,{KP}\nand down when you have lots of Dyna in a\nbad mood.",
+  "status": "done"
  },
  {
   "id": "s001.08",
   "flag": 0,
   "speaker": 4,
   "jp": "もちろん　あなたのシティですから\nすきなように　つくって　いいのですが{KP}\nなにをすればいいか　わからなくなったときは\nＡランクを　めざすと　いいとおもいます",
-  "en": "",
-  "status": "todo"
+  "en": "Of course, it is your city, so you may build\nit however you like.{KP}\nBut whenever you are not sure what to\ndo, aiming for A Rank is a good idea.",
+  "status": "done"
  },
  {
   "id": "s001.09",
   "flag": 0,
   "speaker": 4,
   "jp": "では　さいしょに　ダイナの\nふやしかたについて　せつめいします{KP}\nこの　ダイナセンターの　なかの　みぎがわに",
-  "en": "",
-  "status": "todo"
+  "en": "First, let me explain how to get more\nDyna.{KP}\nOn the right side of this Dyna Center...",
+  "status": "done"
  },
  {
   "id": "s001.10",
   "flag": 0,
   "speaker": 4,
   "jp": "ガチャステーション　りゃくして\nガチャステという　マシンがあります",
-  "en": "",
-  "status": "todo"
+  "en": "...is a machine called the Gacha Station, or\n\"Gachasute\" for short.",
+  "status": "done"
  },
  {
   "id": "s001.11",
   "flag": 0,
   "speaker": 4,
   "jp": "ダイナは　このマシンに\nダイナパッドの　アドレスちょうの　データを{KP}\nてんそうすることで　ふやすことができます",
-  "en": "",
-  "status": "todo"
+  "en": "You can get more Dyna by sending data\nfrom your Dyna Pad's address book{KP}\nto this machine.",
+  "status": "done"
  },
  {
   "id": "s001.12",
   "flag": 0,
   "speaker": 4,
   "jp": "それでは　まず　あなたの　データから\nダイナを　よびだしてみましょう{KP}\nガチャステの　まえで\nＡボタンを　おしてください",
-  "en": "",
-  "status": "todo"
+  "en": "First, let's call up a Dyna from your own\ndata.{KP}\nPlease stand in front of the Gachasute and\npress the A Button.",
+  "status": "done"
  },
  {
   "id": "s002.00",
   "flag": 0,
   "speaker": 4,
   "jp": "{%sR5}ですか・・・\nいいなまえですね",
-  "en": "",
-  "status": "todo"
+  "en": "{%sR5}, is it...? What a nice\nname.",
+  "status": "done"
  },
  {
   "id": "s002.01",
   "flag": 0,
   "speaker": 4,
   "jp": "いま　この{%sR5}が\nあなたの　データから　うまれたように{KP}\nダイナは　ひとの　データから\nうまれます",
-  "en": "",
-  "status": "todo"
+  "en": "Just as {%sR5} was born from your\ndata,{KP}\nDyna are born from people's data.",
+  "status": "done"
  },
  {
   "id": "s002.02",
   "flag": 0,
   "speaker": 4,
   "jp": "ダイナは　おおきくわけて\n１０しゅるいの　タイプに　わかれます{KP}\nさらに　１しゅるいの　タイプには\n３しゅるいの　スタイルが　あります",
-  "en": "",
-  "status": "todo"
+  "en": "Dyna are divided into 10 broad types.{KP}\nEach type is further split into 3 styles.",
+  "status": "done"
  },
  {
   "id": "s002.03",
   "flag": 0,
   "speaker": 4,
   "jp": "つまり　１０しゅるいの　タイプを\nこまかくわけると{KP}\n３０しゅるいの　スタイルになる\nというわけなんです",
-  "en": "",
-  "status": "todo"
+  "en": "In other words, if you break the 10 types\ndown,{KP}\nyou get 30 styles in all.",
+  "status": "done"
  },
  {
   "id": "s002.04",
   "flag": 0,
   "speaker": 4,
   "jp": "まず　さいしょは　じぶんが　つれている\nダイナが{KP}\nなにタイプの　なにスタイルなのかを\nおぼえるようにしてみてください",
-  "en": "",
-  "status": "todo"
+  "en": "To start with, try to remember the type\nand style{KP}\nof each Dyna you have with you.",
+  "status": "done"
  },
  {
   "id": "s002.05",
   "flag": 0,
   "speaker": 4,
   "jp": "タイプ　スタイルとは　べつに\nダイナには　ぞくせいも　つきます{KP}\nぞくせいは　ほのお　みず　かみなり　だいち\nそして　ぞくせいなしの　５しゅるいです",
-  "en": "",
-  "status": "todo"
+  "en": "Apart from type and style, Dyna also have\nan element.{KP}\nThere are 5 elements: fire, water, thunder,\nearth, and no element.",
+  "status": "done"
  },
  {
   "id": "s002.06",
   "flag": 0,
   "speaker": 4,
   "jp": "ぞくせいは　バトルを　するときに\nおおきく　えいきょうしてきます{KP}\nくわしくは　また　つぎの　きかいに\nせつめいしますね",
-  "en": "",
-  "status": "todo"
+  "en": "Elements make a big difference in battle.{KP}\nI will explain them in more detail another\ntime.",
+  "status": "done"
  },
  {
   "id": "s002.07",
   "flag": 0,
   "speaker": 4,
   "jp": "では　はなしを　もどします{KP}\nダイナの　ふやしかたは\nこれから　せつめいする　３とおり",
-  "en": "",
-  "status": "todo"
+  "en": "Now, back to the subject.{KP}\nThere are 3 ways to get more Dyna, which\nI will now explain.",
+  "status": "done"
  },
  {
   "id": "s002.08",
   "flag": 0,
   "speaker": 4,
   "jp": "１つめは　このダイナパッドの\nアドレスちょうの　データを{KP}\nダイナセンターの　ガチャステに\nてんそうする　ほうほう",
-  "en": "",
-  "status": "todo"
+  "en": "The first way is to send address book data\nfrom this Dyna Pad{KP}\nto the Gachasute in the Dyna Center.",
+  "status": "done"
  },
  {
   "id": "s002.09",
   "flag": 0,
   "speaker": 4,
   "jp": "このときに　ひつような　データは\nなまえと　たんじょうびの{KP}\n２つの　データが　かきこまれている\nアドレスデータです",
-  "en": "",
-  "status": "todo"
+  "en": "The data you need is an address entry{KP}\nwith two things filled in: a name and a\nbirthday.",
+  "status": "done"
  },
  {
   "id": "s002.10",
   "flag": 0,
   "speaker": 4,
   "jp": "ちなみに　おなじアドレスから　なんたいでも\nダイナを　うみだすことが　できます{KP}\nただし　おなじアドレスからは\nおなじスタイルの　ダイナしか　うまれません",
-  "en": "",
-  "status": "todo"
+  "en": "By the way, you can create as many Dyna\nas you like from the same address.{KP}\nHowever, the same address will only ever\ngive Dyna of the same style.",
+  "status": "done"
  },
  {
   "id": "s002.11",
   "flag": 0,
   "speaker": 4,
   "jp": "ダイナパッドの　メニューがめんへは\nＢボタンで　でる　メニューの{KP}\nシステムの　なかにある　おわるを\nえらぶと　いくことができます",
-  "en": "",
-  "status": "todo"
+  "en": "To reach the Dyna Pad's menu screen,\npress the B Button to open the menu,{KP}\nthen choose Quit under System.",
+  "status": "done"
  },
  {
   "id": "s002.12",
   "flag": 0,
   "speaker": 4,
   "jp": "そこから　アドレスを　えらんで\nデータを　にゅうりょくしてください",
-  "en": "",
-  "status": "todo"
+  "en": "From there, choose Address and enter your\ndata.",
+  "status": "done"
  },
  {
   "id": "s002.13",
   "flag": 0,
   "speaker": 4,
   "jp": "１ども　ダイナを\nよびだしたことのない　データは{KP}\nきいろい　もじで　ひょうじされて\nいますので　おぼえておいてください",
-  "en": "",
-  "status": "todo"
+  "en": "Please remember that data which has never\nbeen used to call up a Dyna{KP}\nis shown in yellow letters.",
+  "status": "done"
  },
  {
   "id": "s002.14",
   "flag": 0,
   "speaker": 4,
   "jp": "２つめは　おともだちから　アドレスデータを\nめいしこうかんで　もらうほうほう{KP}\nおともだちから　つうしんメニューの\nめいしこうかんで　データを　うけとると",
-  "en": "",
-  "status": "todo"
+  "en": "The second way is to receive address data\nfrom friends by trading cards.{KP}\nWhen you receive data from a friend\nthrough Card Trade in the Link menu,",
+  "status": "done"
  },
  {
   "id": "s002.15",
   "flag": 0,
   "speaker": 4,
   "jp": "いっしょに　おともだちの　ダイナを\nもらうことができる　と　いうものです{KP}\nこれは　じっさいに　やってみましょう",
-  "en": "",
-  "status": "todo"
+  "en": "you also get one of your friend's Dyna.{KP}\nLet's actually try this one.",
+  "status": "done"
  },
  {
   "id": "s003.00",
   "flag": 0,
   "speaker": 4,
   "jp": "はい　めいしの　こうかんを\nかんりょうしました",
-  "en": "",
-  "status": "todo"
+  "en": "There we are! The card trade is\ncomplete.",
+  "status": "done"
  },
  {
   "id": "s003.01",
   "flag": 0,
   "speaker": 4,
   "jp": "そして　いま　わたしの　めいしが\nおくられたのと　どうじに{KP}\nこのダイナセンターに　ダイナ\n{%sR5}が　おくられました",
-  "en": "",
-  "status": "todo"
+  "en": "And at the same moment my card was\nsent,{KP}\nthe Dyna {%sR5} was sent to this\nDyna Center.",
+  "status": "done"
  },
  {
   "id": "s003.02",
   "flag": 0,
   "speaker": 4,
   "jp": "つまり　わたしの　データから　うまれた\nダイナと　いうわけですね",
-  "en": "",
-  "status": "todo"
+  "en": "In other words, it is a Dyna born from my\ndata.",
+  "status": "done"
  },
  {
   "id": "s003.03",
   "flag": 0,
   "speaker": 4,
   "jp": "めいしこうかんや　つうしんこうかんで\nもらった　ダイナは{KP}\nほかの　うまれかたの　ダイナよりも\nすこし　つよく　そだつように　なっていて",
-  "en": "",
-  "status": "todo"
+  "en": "Dyna you receive through card trades or\nlink trades{KP}\ngrow up a little stronger than Dyna born in\nother ways,",
+  "status": "done"
  },
  {
   "id": "s003.04",
   "flag": 0,
   "speaker": 4,
   "jp": "なまえの　ひょうじも　みずいろに　なります{KP}\nまた　めいしこうかんで　もらう　ダイナには\nとくべつに　デバイスが　１つ　ついてきます",
-  "en": "",
-  "status": "todo"
+  "en": "and their names are shown in light blue.{KP}\nAlso, a Dyna received in a card trade\ncomes with one bonus Device.",
+  "status": "done"
  },
  {
   "id": "s003.05",
   "flag": 0,
   "speaker": 4,
   "jp": "いまの　めいしこうかんは　れんしゅうなので\nデバイスは　ついていませんが{KP}\nつうじょう　じぶんと　おなじバージョンとの\nめいしこうかんでは　アーマーデバイス",
-  "en": "",
-  "status": "todo"
+  "en": "This card trade was just practice, so there\nis no Device this time.{KP}\nNormally, a card trade with the same\nversion gives an Armor Device,",
+  "status": "done"
  },
  {
   "id": "s003.06",
   "flag": 0,
   "speaker": 4,
   "jp": "ちがうバージョンとの　めいしこうかんでは\nウェポンデバイスが　ついてきますので{KP}\nぜひ　いろいろな　おともだちと\nめいしこうかんしてみてくださいね",
-  "en": "",
-  "status": "todo"
+  "en": "and a card trade with a different version\ngives a Weapon Device.{KP}\nSo please do trade cards with lots of\ndifferent friends!",
+  "status": "done"
  },
  {
   "id": "s003.07",
   "flag": 0,
   "speaker": 4,
   "jp": "ちなみに　アーマーとは　ぼうぐ\nウェポンとは　ぶきのことです{KP}\nそれと　このダイナは　さしあげますが",
-  "en": "",
-  "status": "todo"
+  "en": "By the way, \"armor\" means protective\ngear, and \"weapon\" means, well,{KP}\nweapons.{KP}\nAlso, you may keep this Dyna, but...",
+  "status": "done"
  },
  {
   "id": "s003.08",
   "flag": 0,
   "speaker": 4,
   "jp": "わたしの　おくった　アドレスデータのほうは\nさくじょさせて　いただきますね{KP}\nいちおう　そういう　きまりに\nなっておりますので　ごりょうしょうください",
-  "en": "",
-  "status": "todo"
+  "en": "the address data I sent you will be\ndeleted.{KP}\nThose are the rules, I'm afraid, so I hope\nyou understand.",
+  "status": "done"
  },
  {
   "id": "s003.09",
   "flag": 0,
   "speaker": 4,
   "jp": "あたらしく　ふえた　ダイナや\nシティで　ちからつきたダイナは{KP}\nこの　ダイナセンターで　あずかっています",
-  "en": "",
-  "status": "todo"
+  "en": "Newly added Dyna, and Dyna that collapse\nin the city,{KP}\nare looked after here at the Dyna\nCenter.",
+  "status": "done"
  },
  {
   "id": "s003.10",
   "flag": 0,
   "speaker": 4,
   "jp": "しかし　ここは　ダイナにとって\nあまり　いいかんきょうでは　ありません",
-  "en": "",
-  "status": "todo"
+  "en": "However, this is not a very nice place for\nDyna to be.",
+  "status": "done"
  },
  {
   "id": "s003.11",
   "flag": 0,
   "speaker": 4,
   "jp": "ですから　ここにいる　ダイナは\nできるだけ　はやく　つれだしてあげてください",
-  "en": "",
-  "status": "todo"
+  "en": "So please take the Dyna here out as soon\nas you can.",
+  "status": "done"
  },
  {
   "id": "s003.12",
   "flag": 0,
   "speaker": 4,
   "jp": "つれだしかたは　わたしに　はなしかけて\nダイナリストを　ひょうじしてから",
-  "en": "",
-  "status": "todo"
+  "en": "To take one out, talk to me and bring up\nthe Dyna List,",
+  "status": "done"
  },
  {
   "id": "s003.13",
   "flag": 0,
   "speaker": 4,
   "jp": "つれだしたい　ダイナを　えらんで\nつれていくを　えらんでください",
-  "en": "",
-  "status": "todo"
+  "en": "choose the Dyna you want to take out,\nthen choose Take.",
+  "status": "done"
  },
  {
   "id": "s003.14",
   "flag": 0,
   "speaker": 4,
   "jp": "では　わたしが　おくった　ダイナを\nつれだしてみてください",
-  "en": "",
-  "status": "todo"
+  "en": "Now, try taking out the Dyna I sent\nyou.",
+  "status": "done"
  },
  {
   "id": "s004.00",
   "flag": 0,
   "speaker": 4,
   "jp": "ダイナに　ついては\nだいたい　こんなところですね・・・",
-  "en": "",
-  "status": "todo"
+  "en": "That just about covers Dyna...",
+  "status": "done"
  },
  {
   "id": "s004.01",
   "flag": 0,
   "speaker": 4,
   "jp": "え？　ダイナを　ふやす\n３つめの　ほうほう　ですか？",
-  "en": "",
-  "status": "todo"
+  "en": "Pardon? The third way to get more\nDyna?",
+  "status": "done"
  },
  {
   "id": "s004.02",
   "flag": 0,
   "speaker": 4,
   "jp": "それは　じぶんで　さがしてみてください\nあ　でも　１つだけ　ヒントを　さしあげます",
-  "en": "",
-  "status": "todo"
+  "en": "That one you will have to find for\nyourself. Ah, but I will give you just one{KP}\nhint.",
+  "status": "done"
  },
  {
   "id": "s004.03",
   "flag": 0,
   "speaker": 4,
   "jp": "ダイナは　データからだけではなく\nダイナからも　うまれる・・・",
-  "en": "",
-  "status": "todo"
+  "en": "Dyna are born not only from data... but\nfrom Dyna, too...",
+  "status": "done"
  },
  {
   "id": "s004.04",
   "flag": 0,
   "speaker": 4,
   "jp": "これが　３つめの　ほうほうの　ヒントです{KP}\nまぁ　ダイナシティを　つくっていくうちに\nきっと　きがつくと　おもいますよ",
-  "en": "",
-  "status": "todo"
+  "en": "That is your hint for the third way.{KP}\nWell, I am sure you will notice it as you\nbuild your Dyna City.",
+  "status": "done"
  },
  {
   "id": "s004.05",
   "flag": 0,
   "speaker": 4,
   "jp": "・・・さて　つぎは　ダイナシティの\nつくりかたに　ついての　せつめいですね{KP}\nでは　とりあえず　そとに　でてみましょう",
-  "en": "",
-  "status": "todo"
+  "en": "...Now, next I will explain how to build your\nDyna City.{KP}\nFor now, let's step outside.",
+  "status": "done"
  },
  {
   "id": "s004.06",
   "flag": 0,
   "speaker": 4,
   "jp": "これが　あなたが　これから　ダイナシティを\nつくっていく　とちです",
-  "en": "",
-  "status": "todo"
+  "en": "This is the land where you will be building\nyour Dyna City.",
+  "status": "done"
  },
  {
   "id": "s004.07",
   "flag": 0,
   "speaker": 4,
   "jp": "となりに　いえが　たっていますよね？{KP}\nあれが　あなたと　{%sR5}の\nいえに　なります",
-  "en": "",
-  "status": "todo"
+  "en": "There is a house standing right next door,\nisn't there?{KP}\nThat will be the house for you and\n{%sR5}.",
+  "status": "done"
  },
  {
   "id": "s004.08",
   "flag": 0,
   "speaker": 4,
   "jp": "いえのなかは　あとで　みてもらうとして\nまず　いえの　たてかたを　せつめいしますね{KP}\nまわりを　みて　わかると　おもいますが",
-  "en": "",
-  "status": "todo"
+  "en": "You can look inside the house later. First,\nlet me explain how to build houses.{KP}\nIf you look around, I think you can\nsee...",
+  "status": "done"
  },
  {
   "id": "s004.09",
   "flag": 0,
   "speaker": 4,
   "jp": "このとちには　まっすぐな　どうろが\nたてと　よこに　たくさん　とおっています{KP}\nこの　どうろに　かこまれた\nしかくいばしょを　セクタと　いいます",
-  "en": "",
-  "status": "todo"
+  "en": "...that this land is crossed by lots of\nstraight roads, up and down and side to{KP}\nside.{KP}\nEach square space surrounded by these\nroads is called a sector.",
+  "status": "done"
  },
  {
   "id": "s004.10",
   "flag": 0,
   "speaker": 4,
   "jp": "あなたは　このセクタのなかに\nいえを　たてたり　あなを　ほったりして{KP}\nじぶんなりの　ダイナシティを\nつくっていくことになります",
-  "en": "",
-  "status": "todo"
+  "en": "You will build houses, dig holes, and so on\ninside these sectors{KP}\nto make a Dyna City all your own.",
+  "status": "done"
  },
  {
   "id": "s004.11",
   "flag": 0,
   "speaker": 4,
   "jp": "では　ためしに　いえを　たててみましょう{KP}\nすぐ　そこの　セクタに　むかって\nＡボタンを　おしてみてください",
-  "en": "",
-  "status": "todo"
+  "en": "Let's try building a house.{KP}\nPlease face the sector right over there\nand press the A Button.",
+  "status": "done"
  },
  {
   "id": "s005.00",
   "flag": 0,
   "speaker": 4,
   "jp": "はい　いえが　たちました{KP}\nそれでは　ちょっと\nなかに　はいってみましょう",
-  "en": "",
-  "status": "todo"
+  "en": "There we are! The house is built.{KP}\nNow, let's step inside for a moment.",
+  "status": "done"
  },
  {
   "id": "s005.01",
   "flag": 0,
   "speaker": 4,
   "jp": "このように　たてたばかりの　いえは\nだれも　すんでいない　じょうたいです",
-  "en": "",
-  "status": "todo"
+  "en": "As you can see, a newly built house has no\none living in it.",
+  "status": "done"
  },
  {
   "id": "s005.02",
   "flag": 0,
   "speaker": 4,
   "jp": "それでは　このいえに　ダイナを\nすまわせてみましょう",
-  "en": "",
-  "status": "todo"
+  "en": "Now, let's have a Dyna move into this\nhouse.",
+  "status": "done"
  },
  {
   "id": "s005.03",
   "flag": 0,
   "speaker": 4,
   "jp": "いえのなかで　Ａボタンを\nおしてみてください",
-  "en": "",
-  "status": "todo"
+  "en": "Please press the A Button inside the\nhouse.",
+  "status": "done"
  },
  {
   "id": "s006.00",
   "flag": 0,
   "speaker": 4,
   "jp": "いま　つれている　２たいの\nダイナのうち",
-  "en": "",
-  "status": "todo"
+  "en": "Of the 2 Dyna you have with you right\nnow,",
+  "status": "done"
  },
  {
   "id": "s006.01",
   "flag": 0,
   "speaker": 4,
   "jp": "{%sR4}は　もう\nいえが　きまってしまっているので",
-  "en": "",
-  "status": "todo"
+  "en": "{%sR4} already has a home,",
+  "status": "done"
  },
  {
   "id": "s006.02",
   "flag": 0,
   "speaker": 4,
   "jp": "{%sR5}に\nすんでもらうことにします",
-  "en": "",
-  "status": "todo"
+  "en": "so we will have {%sR5} live\nhere.",
+  "status": "done"
  },
  {
   "id": "s006.03",
   "flag": 0,
   "speaker": 4,
   "jp": "それでは{%sR5}を　えらんで\nＡボタンを　おしてください",
-  "en": "",
-  "status": "todo"
+  "en": "Now, please choose {%sR5} and\npress the A Button.",
+  "status": "done"
  },
  {
   "id": "s007.00",
   "flag": 0,
   "speaker": 4,
   "jp": "これで　このいえは\n{%sR5}の　いえに　なりました{KP}\n・・・で　せっかく　つくった\nいえなのですが・・・",
-  "en": "",
-  "status": "todo"
+  "en": "And now this house belongs to\n{%sR5}.{KP}\n...Having gone to the trouble of building it,\nthough...",
+  "status": "done"
  },
  {
   "id": "s007.01",
   "flag": 0,
   "speaker": 4,
   "jp": "れんしゅうなので　こわしてしまいましょう{KP}\nいえを　こわすには　すんでいる\nダイナを{KP}\nそとに　つれださなければなりません",
-  "en": "",
-  "status": "todo"
+  "en": "this was just practice, so let's knock it\ndown.{KP}\nTo knock down a house, you must first\ntake the Dyna living there outside.",
+  "status": "done"
  },
  {
   "id": "s007.02",
   "flag": 0,
   "speaker": 4,
   "jp": "いえのなかにいる　{%sR5}に\nはなしかけて　いえから　つれだしてください",
-  "en": "",
-  "status": "todo"
+  "en": "Please talk to {%sR5} inside the\nhouse and take it out of the house.",
+  "status": "done"
  },
  {
   "id": "s008.00",
   "flag": 0,
   "speaker": 4,
   "jp": "それでは　そとに　でましょう",
-  "en": "",
-  "status": "todo"
+  "en": "Now then, let's go outside.",
+  "status": "done"
  },
  {
   "id": "s008.01",
   "flag": 0,
   "speaker": 4,
   "jp": "では　いえを　たてた　セクタにむかって\nＡボタンを　おしてみてください",
-  "en": "",
-  "status": "todo"
+  "en": "Now, please face the sector where you\nbuilt the house and press the A Button.",
+  "status": "done"
  },
  {
   "id": "s009.00",
   "flag": 0,
   "speaker": 4,
   "jp": "これで　すっかり　もとどおりですね{KP}\nだいたい　このようなかんじで　シティの\nかたちを　つくっていくことになります",
-  "en": "",
-  "status": "todo"
+  "en": "And everything is back the way it was.{KP}\nThis is roughly how you will shape your\ncity.",
+  "status": "done"
  },
  {
   "id": "s009.01",
   "flag": 0,
   "speaker": 4,
   "jp": "さいしょのうちは　おもいつくままに\nやってみて",
-  "en": "",
-  "status": "todo"
+  "en": "At first, just try whatever comes to\nmind,",
+  "status": "done"
  },
  {
   "id": "s009.02",
   "flag": 0,
   "speaker": 4,
   "jp": "もんだいが　はっせいしたら\nたいしょしていくといいでしょう{KP}\nそとに　いるときに　Ｒボタンを　おすと\nシティぜんたいの　マップが　でますので",
-  "en": "",
-  "status": "todo"
+  "en": "and deal with problems as they come up.{KP}\nIf you press the R Button while you are\noutside, a map of the whole city{KP}\nappears,",
+  "status": "done"
  },
  {
   "id": "s009.03",
   "flag": 0,
   "speaker": 4,
   "jp": "もんだいが　はっせいしている　ばしょを\nさがしたりするのに　やくだててください",
-  "en": "",
-  "status": "todo"
+  "en": "so please use it to find the places where\nproblems have come up.",
+  "status": "done"
  },
  {
   "id": "s009.04",

@@ -1,29 +1,79 @@
-# Glossary - <Game title>
+# Glossary - Gachasute! Dyna Device Blue
 
 Binding for every translator and reviewer. Agents propose additions in reports; only the controller edits this file.
+`tools/batches.py check` enforces the tables below (JP as a whole kana/kanji run -> one of the EN forms present).
 
 ## Rulings (asked of the user once; options and reasons in docs/decisions.md)
-- Honorifics: <kept, hyphenated (Johannes-san) | dropped>. Name order: <JP | Western>.
-- Romanisation source: <official art / anime / Hepburn>.
-- Credits: <stay kanji | English>.
-- Register / flavour: <e.g. keep light JP flavour>. Sound effects: <*Slam!*>.
-- Abbreviations: <default: full names and terms everywhere, prefer engine changes over shortening>.
+- Honorifics: kept, hyphenated (D1): くん -> -kun, さん -> -san, ちゃん -> -chan, さま -> -sama after a name.
+  Not machine-checked (みなさん, たくさん are ordinary words). Name order: Western.
+- Romanisation source (D2): no official English release, no earlier patch -> Hepburn without macrons, except where
+  a name is a plain English or Latin word in katakana (constellations, English loanwords): use that word (D10).
+- Credits: English (D3).
+- Register / flavour: a cheerful kids' game (all-kana text). Plain, lively English; keep each character's quirk
+  (see Style rules). Sound effects in asterisks: *Boom!*
+- Abbreviations: full names and terms everywhere (D4); none so far.
 
 ## Style rules
-- Punctuation map: 「」 -> "...", 『』 -> '...', ・・・ -> ..., ！？ -> !?, <more>.
-- <voice notes per character, or point to docs/style-reference.md>
+- Punctuation map: 「」 -> "...", 『』 -> '...', ・・・ -> ..., ！？ -> !?, ー (long drawl) -> doubled vowel or
+  "~" is not in the font: write "Heyyy", "Mr. Masterrr". ～ -> drop or "...". ♪ is not in the font: drop it.
+- `%` is not in the font (the expander eats it): write "percent".
+- No suffix glued to a register: not "{%dR0}th"; write "No. {%dR0}", "Round {%dR0}".
+- No a/an right before a register; registers hold up to 64 px (8 letters).
+- Voice table: docs/style-reference.md.
 
 ## Characters
 | JP | EN | max | notes | Avoid |
 |---|---|---|---|---|
+| ナビュウ | Navyu | | guide AI of the Dyna Pad, very polite; speaker 4 | Nabyu |
+| ユリエ | Yurie | | friend (girl), speaker 1, calls the player "-kun" | |
+| ゲニオ | Genio | | rival, オレさま -> "the great me"; speaker 2 | |
+| イッパ | Ippa | | classmate, ボク, smug; speaker 3 | |
+| ジョルナ | Jorna | | Byler agent, drawling "~ぇ" speech; speaker 7 | |
+| テリー | Terry | | Byler agent, cool; speaker 8 | |
+| ヤマダ | Yamada | | | |
+| バイラー | Byler | | villain group (virus pun) | Biler |
 
 ## Places
 | JP | EN | max | notes | Avoid |
 |---|---|---|---|---|
+| ダイナシティ | Dyna City | | | |
+| バイラーシティ | Byler City | | | |
+| ダイナセンター | Dyna Center | | | Dyna Centre |
+| コロシアム | Colosseum | | | Coliseum |
+| ファクトリー | Factory | | | |
 
 ## Items / skills / terms
 | JP | EN | max | notes | Avoid |
 |---|---|---|---|---|
+| ダイナデバイス | Dyna Device | | the game in the game | |
+| ダイナパッド | Dyna Pad | | handheld | Dynapad |
+| ダイナネット | Dyna Net | | | |
+| ダイナサーバー | Dyna Server | | | |
+| ガチャステーション | Gacha Station | | | |
+| ガチャステ | Gachasute | | short form, title word | Gachaste |
+| ダイナ | Dyna | | creatures; plural "Dyna" | Dynas |
+| マスター | Master | | of a city | |
+| セクタ | sector | | city grid area | |
+| ビット | bit / bits | | money | |
+| エサ | food | | Dyna feed | |
+| スタイル | style | | | |
+| タイプ | type | | | |
+| トラップ | trap | | | |
+| ウワサ | rumor | | | rumour |
+| ランク | rank | | D to A | |
+| ランキングバトル | Ranking Battle | | | |
+| フリーバトル | Free Battle | | | |
+| ショップキット | Shop Kit | | | |
+| ファクトリキット | Factory Kit | | | |
+| コロシアムキット | Colosseum Kit | | | |
+| サブウェイキット | Subway Kit | | | |
+| メガハウス | Mega House | | | |
+| ギガダイヤモンド | Giga Diamond | | | |
+| ゴーストプレイヤー | Ghost Player | | | |
+| マルチワクチン | Multi Vaccine | | | |
+| アドレスちょう | address book | | | |
+| Ｇフォース | G-Force | | | |
+| アーマーデバイス | Armor Device | | | |
 
 ## Decisions from earlier batches
-- <batch> <JP> -> <EN> (reason)
+- (none yet)
