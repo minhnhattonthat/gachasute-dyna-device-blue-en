@@ -5676,335 +5676,335 @@
   "flag": 0,
   "speaker": 1,
   "jp": "・・・わたしはぁ\nいままで　あそびはんぶんでぇ",
-  "en": "",
-  "status": "todo"
+  "en": "...Up until now, I've been half playing\narooound,",
+  "status": "done"
  },
  {
   "id": "s147.47",
   "flag": 0,
   "speaker": 1,
   "jp": "ひとの　シティを　うばったりぃ\nひどいことを　さんざんしてきましたぁ・・・{KP}\n・・・これはぁ　ヤマダさまの　ほんとうのぉ\nもくてきを　しっていたか",
-  "en": "",
-  "status": "todo"
+  "en": "stealing other people's Cities and doing lots\nof awful thiiings...{KP}\n...Whether or not I knew Yamada-sama's\nreal goal,",
+  "status": "done"
  },
  {
   "id": "s147.48",
   "flag": 0,
   "speaker": 1,
   "jp": "どうかなどぉ　かんけいなく\nゆるされないことですぅ・・・{KP}\n・・・わたしはぁ　みんなが　たのしくぅ\nあそべるように　バイラーにぃ",
-  "en": "",
-  "status": "todo"
+  "en": "that's something that can't be\nforgiveeen...{KP}\n...So that everyone can have fun playing,\nI'm going to Byler",
+  "status": "done"
  },
  {
   "id": "s147.49",
   "flag": 0,
   "speaker": 1,
   "jp": "これいじょう　こんなこと　するのを\nやめさせに　いきますぅ・・・{KP}\nついしん",
-  "en": "",
-  "status": "todo"
+  "en": "to make them stop doing things like\nthiiis...{KP}\nP.S.",
+  "status": "done"
  },
  {
   "id": "s147.50",
   "flag": 0,
   "speaker": 1,
   "jp": "・・・ユリエさぁん　もしも\nぶじにぃ　かえって　これたらぁ",
-  "en": "",
-  "status": "todo"
+  "en": "...Yurie-saaan, if I make it back safe and\nsound,",
+  "status": "done"
  },
  {
   "id": "s147.51",
   "flag": 0,
   "speaker": 1,
   "jp": "おわびといってはなんですけどぉ\nリターンマッチ　うけますぅ・・・てへっ",
-  "en": "",
-  "status": "todo"
+  "en": "I'll accept a rematch, as a way of saying\nsorryyy... Teehee!",
+  "status": "done"
  },
  {
   "id": "s147.52",
   "flag": 0,
   "speaker": 1,
   "jp": "・・・たいへん！　ジョルナを　とめなきゃ！\nムリよ　こんなの！",
-  "en": "",
-  "status": "todo"
+  "en": "...Oh no! We have to stop Jorna!{KP}\nShe can't do this alone!",
+  "status": "done"
  },
  {
   "id": "s147.53",
   "flag": 0,
   "speaker": 3,
   "jp": "・・・と　いったって　もう\nみなくなってから　けっこうたってるよ{KP}\nいまごろは　バイラーシティに\nいってしまってるかも・・・",
-  "en": "",
-  "status": "todo"
+  "en": "...Even so, it's been a while since anyone\nsaw her.{KP}\nShe might be in Byler City by now...",
+  "status": "done"
  },
  {
   "id": "s147.54",
   "flag": 0,
   "speaker": 1,
   "jp": "おっかけよう！\nいきかた　だれか　しってる？",
-  "en": "",
-  "status": "todo"
+  "en": "Let's go after her!{KP}\nDoes anyone know how to get there?",
+  "status": "done"
  },
  {
   "id": "s147.55",
   "flag": 0,
   "speaker": 3,
   "jp": "うん　ボクと　{%sR4}は\nいったことあるからね",
-  "en": "",
-  "status": "todo"
+  "en": "Yeah, {%sR4} and I have been\nthere before.",
+  "status": "done"
  },
  {
   "id": "s147.56",
   "flag": 0,
   "speaker": 2,
   "jp": "バイラーときいちゃ　だまってらんないな！\nオレさまも　ちからを　かすぜ！",
-  "en": "",
-  "status": "todo"
+  "en": "If it's Byler, I can't keep quiet!{KP}\nThe great me will lend you a hand!",
+  "status": "done"
  },
  {
   "id": "s147.57",
   "flag": 0,
   "speaker": 2,
   "jp": "だいたい　おまえら{KP}\nダイナシティなくなったのに\nダイナ　もってんのか？",
-  "en": "",
-  "status": "todo"
+  "en": "Besides, you guys...{KP}\nyour Dyna Cities are gone.{KP}\nDo you even have any Dyna?",
+  "status": "done"
  },
  {
   "id": "s147.58",
   "flag": 0,
   "speaker": 1,
   "jp": "つれあるいてた　３たいだけは　ぶじよ",
-  "en": "",
-  "status": "todo"
+  "en": "Only the 3 I had with me are safe.",
+  "status": "done"
  },
  {
   "id": "s147.59",
   "flag": 0,
   "speaker": 3,
   "jp": "おなじく",
-  "en": "",
-  "status": "todo"
+  "en": "Same here.",
+  "status": "done"
  },
  {
   "id": "s147.60",
   "flag": 0,
   "speaker": 2,
   "jp": "よし　じゃあ　オレさまは　ちょっと\nじぶんの　シティで　じゅんび　してくるぜ",
-  "en": "",
-  "status": "todo"
+  "en": "Right, then the great me is gonna go{KP}\nget ready in his own City.",
+  "status": "done"
  },
  {
   "id": "s147.61",
   "flag": 0,
   "speaker": 3,
   "jp": "ボクたちは・・・もどるシティも　ないし\nここで　またせてもらって　いいかな{KP}\n{%sR4}も\nじゅんびが　ひつようだろ？",
-  "en": "",
-  "status": "todo"
+  "en": "We don't have Cities to go back to...{KP}\nmind if we wait here?{KP}\n{%sR4}, you need to get ready\ntoo, right?",
+  "status": "done"
  },
  {
   "id": "s147.62",
   "flag": 0,
   "speaker": 1,
   "jp": "じゃあ　じゅんびができたら\nわたしに　はなしかけてね",
-  "en": "",
-  "status": "todo"
+  "en": "Then talk to me when you're ready.",
+  "status": "done"
  },
  {
   "id": "s147.63",
   "flag": 0,
   "speaker": 4,
   "jp": "いよいよ　けっせんですね{KP}\nあなたの　じまんの　ダイナたちなら\nけっして　バイラーにも　まけないはずです",
-  "en": "",
-  "status": "todo"
+  "en": "At last, the final battle.{KP}\nWith the Dyna you are so proud of,{KP}\nyou surely will not lose even to Byler.",
+  "status": "done"
  },
  {
   "id": "s147.64",
   "flag": 0,
   "speaker": 4,
   "jp": "これいじょう　かなしいおもいをする　ひとを\nふやさないためにも{KP}\nバイラーの　やぼうを　くいとめてください",
-  "en": "",
-  "status": "todo"
+  "en": "So that no more people have to suffer\nsuch sadness,{KP}\nplease stop Byler's ambitions.",
+  "status": "done"
  },
  {
   "id": "s148.00",
   "flag": 0,
   "speaker": 1,
   "jp": "どう？　じゅんびできた？\n　　　　　はい　　　　いいえ{KN}",
-  "en": "",
-  "status": "todo"
+  "en": "So? Are you ready?\n          Yes         No{KN}",
+  "status": "done"
  },
  {
   "id": "s148.01",
   "flag": 0,
   "speaker": 3,
   "jp": "こっちも　バッチリだ\nいつでも　いいよ",
-  "en": "",
-  "status": "todo"
+  "en": "I'm all set too.{KP}\nWhenever you are.",
+  "status": "done"
  },
  {
   "id": "s148.02",
   "flag": 0,
   "speaker": 1,
   "jp": "それにしても　ゲニオくん　おそいなぁ・・・\nなに　やってるんだろう？",
-  "en": "",
-  "status": "todo"
+  "en": "Still, Genio-kun sure is late...{KP}\nWhat's he doing?",
+  "status": "done"
  },
  {
   "id": "s148.03",
   "flag": 0,
   "speaker": 2,
   "jp": "またせたな！　じゅんびできたぜ！",
-  "en": "",
-  "status": "todo"
+  "en": "Sorry to keep you waiting! I'm ready!",
+  "status": "done"
  },
  {
   "id": "s148.04",
   "flag": 0,
   "speaker": 3,
   "jp": "よし　これで　みんな　そろったね\nいこう！　バイラーシティへ！",
-  "en": "",
-  "status": "todo"
+  "en": "Right, now we're all here.{KP}\nLet's go! To Byler City!",
+  "status": "done"
  },
  {
   "id": "s148.05",
   "flag": 0,
   "speaker": 1,
   "jp": "・・・うん　ちゅうとはんぱな　じょうたいで\nいっても　しかたないから{KP}\nバッチリ　じゅんびしてきてね",
-  "en": "",
-  "status": "todo"
+  "en": "...Okay. There's no point going\nhalf-prepared,{KP}\nso get yourself all set.",
+  "status": "done"
  },
  {
   "id": "s149.00",
   "flag": 0,
   "speaker": 2,
   "jp": "なんだ？　だだっぴろいだけで\nかっきがない　ダイナシティだな",
-  "en": "",
-  "status": "todo"
+  "en": "What the? This Dyna City is just huge and\nempty.{KP}\nIt's got no life at all.",
+  "status": "done"
  },
  {
   "id": "s149.01",
   "flag": 0,
   "speaker": 1,
   "jp": "みて！　あそこ！",
-  "en": "",
-  "status": "todo"
+  "en": "Look! Over there!",
+  "status": "done"
  },
  {
   "id": "s149.02",
   "flag": 0,
   "speaker": 1,
   "jp": "・・・ひどい・・・ひどすぎるよ・・・",
-  "en": "",
-  "status": "todo"
+  "en": "...That's awful... That's just too awful...",
+  "status": "done"
  },
  {
   "id": "s149.03",
   "flag": 0,
   "speaker": 8,
   "jp": "うらぎりものには　それなりの　ばつを\nあたえてやらねば　ならんのだ",
-  "en": "",
-  "status": "todo"
+  "en": "A traitor must be given the punishment she\ndeserves.",
+  "status": "done"
  },
  {
   "id": "s149.04",
   "flag": 0,
   "speaker": 2,
   "jp": "な　なんだ　なんだぁ！？",
-  "en": "",
-  "status": "todo"
+  "en": "Wh-what's going on!?",
+  "status": "done"
  },
  {
   "id": "s149.05",
   "flag": 0,
   "speaker": 8,
   "jp": "だがな　バカなのは　コイツのほうなのだぞ？{KP}\nいちど　にげきったのに\nまた　もどってきたんだからな",
-  "en": "",
-  "status": "todo"
+  "en": "But you see, she is the fool here.{KP}\nShe got away once, and then came right\nback.",
+  "status": "done"
  },
  {
   "id": "s149.06",
   "flag": 0,
   "speaker": 8,
   "jp": "こうなることが　わかりきっていたのに\nバカなヤツだ　ハッハッハッハッハ",
-  "en": "",
-  "status": "todo"
+  "en": "She knew perfectly well this would\nhappen.{KP}\nWhat a fool. Hahahahaha!",
+  "status": "done"
  },
  {
   "id": "s149.07",
   "flag": 0,
   "speaker": 1,
   "jp": "・・・・・・{KP}\n・・・・・・バカっていうなっ！",
-  "en": "",
-  "status": "todo"
+  "en": "......{KP}\n......Don't call her a fool!",
+  "status": "done"
  },
  {
   "id": "s149.08",
   "flag": 0,
   "speaker": 3,
   "jp": "・・・ユリエちゃん・・・？",
-  "en": "",
-  "status": "todo"
+  "en": "...Yurie-chan...?",
+  "status": "done"
  },
  {
   "id": "s149.09",
   "flag": 0,
   "speaker": 1,
   "jp": "わたしの・・・だいじな　ともだちを・・・\nバカって　いうなぁっ！！",
-  "en": "",
-  "status": "todo"
+  "en": "Don't you... call my precious friend...{KP}\na fool!!",
+  "status": "done"
  },
  {
   "id": "s149.10",
   "flag": 0,
   "speaker": 15,
   "jp": "・・・とも・・・だち・・・？",
-  "en": "",
-  "status": "todo"
+  "en": "...Fr... friend...?",
+  "status": "done"
  },
  {
   "id": "s149.11",
   "flag": 0,
   "speaker": 2,
   "jp": "そうだ　そうだ！　オレさまは・・・\nこいつのこと　まだ　よくは　しらねぇが{KP}\nここに　ひとりで　むかった　ゆうきは\nみあげたもんだとおもうぜ",
-  "en": "",
-  "status": "todo"
+  "en": "That's right! The great me...{KP}\ndoesn't know her that well yet, but...{KP}\ncoming here all alone took guts,{KP}\nand I respect that.",
+  "status": "done"
  },
  {
   "id": "s149.12",
   "flag": 0,
   "speaker": 2,
   "jp": "・・・その　ゆうきを\nバカとか　ぬかすヤツァ　ゆるさねぇ！",
-  "en": "",
-  "status": "todo"
+  "en": "...Anybody who calls that kind of guts{KP}\n\"foolish\" is going down!",
+  "status": "done"
  },
  {
   "id": "s149.13",
   "flag": 0,
   "speaker": 8,
   "jp": "では　その　ゆうきとやらが\nムダではないことを　しょうめいしてみろ！{KP}\nゆけっ！　わがダイナよ！",
-  "en": "",
-  "status": "todo"
+  "en": "Then prove that this \"guts\" of yours is\nnot wasted!{KP}\nGo! My Dyna!",
+  "status": "done"
  },
  {
   "id": "s149.14",
   "flag": 0,
   "speaker": 3,
   "jp": "こいつらは　ボクたちに　まかせて\nキミは　テリーを　たのむ！",
-  "en": "",
-  "status": "todo"
+  "en": "Leave these guys to us,{KP}\nand you take care of Terry!",
+  "status": "done"
  },
  {
   "id": "s149.15",
   "flag": 0,
   "speaker": 8,
   "jp": "・・・やはり　キサマとは　けっちゃくを\nつけなくては　ならないようだな{KP}\nいっておくが　いぜんの　おあそびのような\nダイナでは　ないぞ？",
-  "en": "",
-  "status": "todo"
+  "en": "...It seems I must settle things with you\nafter all.{KP}\nI warn you: these are not the toy Dyna of\nbefore.",
+  "status": "done"
  },
  {
   "id": "s149.16",
   "flag": 0,
   "speaker": 8,
   "jp": "さぁ　こい！　オレの\nほんとうの　ちからを　みせてやる！",
-  "en": "",
-  "status": "todo"
+  "en": "Come on! I will show you my true power!",
+  "status": "done"
  }
 ]
