@@ -87,8 +87,10 @@ def check_entry(e, budgets):
     except ValueError as x:
         errs.append(str(x))
         return errs, warns
-    if TAGS.findall(en) != TAGS.findall(jp):
-        errs.append(f"codes {TAGS.findall(en)} != JP {TAGS.findall(jp)}")
+    # {%} is the original's typo in s341.00 (docs/re/text.md): it would eat 3 bytes, so the English drops it
+    want = [t for t in TAGS.findall(jp) if t != "{%}"]
+    if TAGS.findall(en) != want:
+        errs.append(f"codes {TAGS.findall(en)} != JP {want}")
     if en.count("{KP}") != jp.count("{KP}"):
         warns.append(f"{{KP}} x{en.count('{KP}')} vs JP x{jp.count('{KP}')}")
     if e["id"].startswith("s"):

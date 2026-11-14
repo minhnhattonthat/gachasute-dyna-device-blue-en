@@ -4,240 +4,240 @@
   "flag": 0,
   "speaker": -1,
   "jp": "{%sR4}を　こわしましたが\nアイテムを　これいじょう　もちきれないため{KP}\n{%sR5}は　ダイナセンターに\nてんそうされました{KP}\nてもちアイテムに　よゆうが　あるときに\nひきとりに　きてください",
-  "en": "",
-  "status": "todo"
+  "en": "You destroyed {%sR4}, but you\ncan't carry any more items,{KP}\nso {%sR5} was sent to the Dyna\nCenter.{KP}\nPlease come pick it up when you have room\nfor more items.",
+  "status": "done"
  },
  {
   "id": "s351.00",
   "flag": 0,
   "speaker": -1,
   "jp": "{%sR4}が　こわされましたが\nアイテムを　これいじょう　もちきれないため{KP}\n{%sR5}は　ダイナセンターに\nてんそうされました{KP}\nてもちアイテムに　よゆうが　あるときに\nひきとりに　きてください",
-  "en": "",
-  "status": "todo"
+  "en": "{%sR4} was destroyed, but you\ncan't carry any more items,{KP}\nso {%sR5} was sent to the Dyna\nCenter.{KP}\nPlease come pick it up when you have room\nfor more items.",
+  "status": "done"
  },
  {
   "id": "s352.00",
   "flag": 0,
   "speaker": -1,
   "jp": "{%sR4}を　こわしたので\n{%sR5}を　てにいれました",
-  "en": "",
-  "status": "todo"
+  "en": "You destroyed {%sR4}\nand got {%sR5}.",
+  "status": "done"
  },
  {
   "id": "s353.00",
   "flag": 0,
   "speaker": -1,
   "jp": "{%sR4}が　こわされたので\n{%sR5}を　てにいれました",
-  "en": "",
-  "status": "todo"
+  "en": "{%sR4} was destroyed,\nso you got {%sR5}.",
+  "status": "done"
  },
  {
   "id": "s354.00",
   "flag": 0,
   "speaker": -1,
   "jp": "{%sR4}を　ほりだしました",
-  "en": "",
-  "status": "todo"
+  "en": "You dug up {%sR4}.",
+  "status": "done"
  },
  {
   "id": "s354.01",
   "flag": 0,
   "speaker": -1,
   "jp": "{%sR4}を　てにいれた！{KN}",
-  "en": "",
-  "status": "todo"
+  "en": "You got {%sR4}!{KN}",
+  "status": "done"
  },
  {
   "id": "s355.00",
   "flag": 0,
   "speaker": -1,
   "jp": "{%sR4}を　ほりだしましたが\nアイテムを　これいじょう　もちきれません{KP}\nなにかすてますか？\n　　　　　はい　　　　いいえ{KN}",
-  "en": "",
-  "status": "todo"
+  "en": "Dug up {%sR4}, but you\ncan't carry any more items.{KP}\nThrow something away?\n          Yes         No{KN}",
+  "status": "done"
  },
  {
   "id": "s355.01",
   "flag": 0,
   "speaker": -1,
   "jp": "{%sR4}を　あきらめた",
-  "en": "",
-  "status": "todo"
+  "en": "You gave up on {%sR4}.",
+  "status": "done"
  },
  {
   "id": "s356.00",
   "flag": 0,
   "speaker": -1,
   "jp": "{%sR4}を　てにいれた！{KN}",
-  "en": "",
-  "status": "todo"
+  "en": "You got {%sR4}!{KN}",
+  "status": "done"
  },
  {
   "id": "s357.00",
   "flag": 0,
   "speaker": -1,
   "jp": "{%sR4}を　あきらめた",
-  "en": "",
-  "status": "todo"
+  "en": "You gave up on {%sR4}.",
+  "status": "done"
  },
  {
   "id": "s358.00",
   "flag": 0,
   "speaker": -1,
   "jp": "　　かいわする　　　　　　つれていく\n　　バトルリストとうろく　なんでもない{KN}",
-  "en": "",
-  "status": "todo"
+  "en": "    Talk                  Take\n    Battle List Entry     Never mind{KN}",
+  "status": "done"
  },
  {
   "id": "s358.01",
   "flag": 0,
   "speaker": 4,
   "jp": "つれていくを　えらんでください",
-  "en": "",
-  "status": "todo"
+  "en": "Please choose Take.",
+  "status": "done"
  },
  {
   "id": "s359.00",
   "flag": 0,
   "speaker": -1,
   "jp": "{%sR4}を　つれていくことに　しました",
-  "en": "",
-  "status": "todo"
+  "en": "You decided to take {%sR4}\nalong.",
+  "status": "done"
  },
  {
   "id": "s360.00",
   "flag": 0,
   "speaker": -1,
   "jp": "ダイナを　これいじょう\nつれてあるくことは　できません{KP}\nだれか　いえに　かえしますか？\n　　　　　はい　　　　いいえ{KN}",
-  "en": "",
-  "status": "todo"
+  "en": "You can't take any\nmore Dyna along.{KP}\nSend one of them home?\n          Yes         No{KN}",
+  "status": "done"
  },
  {
   "id": "s361.00",
   "flag": 0,
   "speaker": -1,
   "jp": "{%sR4}を　バトルリストに\nついかしました",
-  "en": "",
-  "status": "todo"
+  "en": "{%sR4} was added to the Battle\nList.",
+  "status": "done"
  },
  {
   "id": "s362.00",
   "flag": 0,
   "speaker": -1,
   "jp": "バトルリストが　いっぱいです\nリストに　あきを　つくってください",
-  "en": "",
-  "status": "todo"
+  "en": "The Battle List is full.\nPlease make room in the list.",
+  "status": "done"
  },
  {
   "id": "s363.00",
   "flag": 0,
   "speaker": -1,
   "jp": "{%sR4}は　バトルリストに\nはいることを　いやがっています{KP}\nきげんが　よくならないと　リストに\nとうろくすることは　できません",
-  "en": "",
-  "status": "todo"
+  "en": "{%sR4} doesn't want to join the\nBattle List.{KP}\nYou can't enter it in the list until its mood\nimproves.",
+  "status": "done"
  },
  {
   "id": "s364.00",
   "flag": 0,
   "speaker": -1,
   "jp": "このダイナは　すでに\nバトルリストに　とうろくされています",
-  "en": "",
-  "status": "todo"
+  "en": "This Dyna is already entered in the Battle\nList.",
+  "status": "done"
  },
  {
   "id": "s365.00",
   "flag": 0,
   "speaker": -1,
   "jp": "ここには　げんざい　すでに\n{%sR4}が　すんでいるため{KP}\nほかの　ダイナは\nすむことができません",
-  "en": "",
-  "status": "todo"
+  "en": "{%sR4} already lives here,{KP}\nso no other Dyna can live here.",
+  "status": "done"
  },
  {
   "id": "s366.00",
   "flag": 0,
   "speaker": -1,
   "jp": "ここには　げんざい　すでに\n３たいの　ダイナが　すんでいるため{KP}\nほかの　ダイナは\nすむことができません",
-  "en": "",
-  "status": "todo"
+  "en": "3 Dyna already live here,{KP}\nso no other Dyna can live here.",
+  "status": "done"
  },
  {
   "id": "s367.00",
   "flag": 0,
   "speaker": -1,
   "jp": "ダイナを　１たいも　つれないで\nダイナシティを　あるくことは　できません",
-  "en": "",
-  "status": "todo"
+  "en": "You can't walk around Dyna City without\ntaking at least 1 Dyna.",
+  "status": "done"
  },
  {
   "id": "s368.00",
   "flag": 0,
   "speaker": -1,
   "jp": "ダイナパッドの　メニューに　もどりますか？\n　　　　　はい　　　　いいえ{KN}",
-  "en": "",
-  "status": "todo"
+  "en": "Go back to the Dyna Pad menu?\n          Yes         No{KN}",
+  "status": "done"
  },
  {
   "id": "s369.00",
   "flag": 0,
   "speaker": -1,
   "jp": "バトルの　アニメーション　ひょうじ\n　　　　　あり　　　　なし{KN}",
-  "en": "",
-  "status": "todo"
+  "en": "Show battle animations\n          On          Off{KN}",
+  "status": "done"
  },
  {
   "id": "s370.00",
   "flag": 0,
   "speaker": -1,
   "jp": "なにを　しますか？\n　　いどう　　　ラストバトル　　　やめる{KN}",
-  "en": "",
-  "status": "todo"
+  "en": "What will you do?\n    Move       Last Battle      Quit{KN}",
+  "status": "done"
  },
  {
   "id": "s370.01",
   "flag": 0,
   "speaker": -1,
   "jp": "なにを　しますか？{KP}\n　　いどう　　　　　　　　ラストバトル\n　　スタジアムへ　　　　　やめる{KN}",
-  "en": "",
-  "status": "todo"
+  "en": "What will you do?{KP}\n    Move                 Last Battle\n    To the Stadium      Quit{KN}",
+  "status": "done"
  },
  {
   "id": "s370.02",
   "flag": 0,
   "speaker": -1,
   "jp": "　　　　　アトラクション　かいし",
-  "en": "",
-  "status": "todo"
+  "en": "Attraction open.",
+  "status": "done"
  },
  {
   "id": "s371.00",
   "flag": 0,
   "speaker": -1,
   "jp": "このダイナシティには　これいじょう\nダイナを　とうろくできないため",
-  "en": "",
-  "status": "todo"
+  "en": "No more Dyna can be registered in this\nDyna City,",
+  "status": "done"
  },
  {
   "id": "s371.01",
   "flag": 0,
   "speaker": -1,
   "jp": "げんざい　ガチャステの　ごりようは\nていしさせていただいております",
-  "en": "",
-  "status": "todo"
+  "en": "we have suspended your use of Gachasute\nfor now.",
+  "status": "done"
  },
  {
   "id": "s371.02",
   "flag": 0,
   "speaker": -1,
   "jp": "ダイナを　にがしてから\nまた　ごりようください",
-  "en": "",
-  "status": "todo"
+  "en": "Please release a Dyna and then come\nagain.",
+  "status": "done"
  },
  {
   "id": "s374.00",
   "flag": 0,
   "speaker": -1,
   "jp": "　　　アトラクション　しゅうりょう",
-  "en": "",
-  "status": "todo"
+  "en": "Attraction closed.",
+  "status": "done"
  },
  {
   "id": "s375.00",

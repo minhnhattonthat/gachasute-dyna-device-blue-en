@@ -179,7 +179,8 @@ def problems(entry, en, terms):
         out.append(f"unencodable characters {bad}")
     if re.search(r"\\u[0-9a-fA-F]{4}", en) or "\t" in en:
         out.append("escape sequence or tab in the English")
-    want = Counter(t for t in TOKEN.findall(jp) if t not in FREE)
+    # {%} is the original's typo in s341.00 (docs/re/text.md): the expander would eat the next 3 bytes; drop it
+    want = Counter(t for t in TOKEN.findall(jp) if t not in FREE and t != "{%}")
     have = Counter(t for t in TOKEN.findall(en) if t not in FREE)
     if want != have:
         out.append(f"control codes differ: JP {dict(want)} EN {dict(have)}")

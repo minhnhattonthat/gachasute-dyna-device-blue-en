@@ -4,567 +4,567 @@
   "flag": 0,
   "speaker": -1,
   "jp": "{%sR4}の　めに\nすなが　はいった！{KN}",
-  "en": "",
-  "status": "todo"
+  "en": "{%sR4} got sand in its eyes!{KN}",
+  "status": "done"
  },
  {
   "id": "s301.00",
   "flag": 0,
   "speaker": -1,
   "jp": "{%sR4}は\nめを　あけていられない・・・{KN}",
-  "en": "",
-  "status": "todo"
+  "en": "{%sR4} can't keep its eyes\nopen...{KN}",
+  "status": "done"
  },
  {
   "id": "s302.00",
   "flag": 0,
   "speaker": -1,
   "jp": "{%sR4}の\nいきのねを　とめた！{KN}",
-  "en": "",
-  "status": "todo"
+  "en": "Finished off {%sR4}!{KN}",
+  "status": "done"
  },
  {
   "id": "s303.00",
   "flag": 0,
   "speaker": -1,
   "jp": "{%sR4}の\nぼうぎょりょくが　あがった！{KN}",
-  "en": "",
-  "status": "todo"
+  "en": "{%sR4}'s Defense went up!{KN}",
+  "status": "done"
  },
  {
   "id": "s304.00",
   "flag": 0,
   "speaker": -1,
   "jp": "{%sR4}の\nすばやさが　あがった！{KN}",
-  "en": "",
-  "status": "todo"
+  "en": "{%sR4}'s Speed went up!{KN}",
+  "status": "done"
  },
  {
   "id": "s305.00",
   "flag": 0,
   "speaker": -1,
   "jp": "{%sR4}の\nこうげきりょくが　あがった！{KN}",
-  "en": "",
-  "status": "todo"
+  "en": "{%sR4}'s Attack went up!{KN}",
+  "status": "done"
  },
  {
   "id": "s306.00",
   "flag": 0,
   "speaker": -1,
   "jp": "{%sR4}の\n{%sR5}が　はかいされた！{KN}",
-  "en": "",
-  "status": "todo"
+  "en": "{%sR4}'s\n{%sR5} was destroyed!{KN}",
+  "status": "done"
  },
  {
   "id": "s307.00",
   "flag": 0,
   "speaker": -1,
   "jp": "{%sR4}の\n{%sR5}が　はかいされた！{KN}",
-  "en": "",
-  "status": "todo"
+  "en": "{%sR4}'s\n{%sR5} was destroyed!{KN}",
+  "status": "done"
  },
  {
   "id": "s308.00",
   "flag": 0,
   "speaker": -1,
   "jp": "{%sR4}は\nきぜつしてしまった！{KN}",
-  "en": "",
-  "status": "todo"
+  "en": "{%sR4} fainted!{KN}",
+  "status": "done"
  },
  {
   "id": "s309.00",
   "flag": 0,
   "speaker": -1,
   "jp": "{%sR4}は\nきを　うしなっている・・・{KN}",
-  "en": "",
-  "status": "todo"
+  "en": "{%sR4} is knocked out...{KN}",
+  "status": "done"
  },
  {
   "id": "s310.00",
   "flag": 0,
   "speaker": -1,
   "jp": "{%sR4}の　からだから\nどくが　ぬけた！{KN}",
-  "en": "",
-  "status": "todo"
+  "en": "The poison has left {%sR4}'s\nbody!{KN}",
+  "status": "done"
  },
  {
   "id": "s311.00",
   "flag": 0,
   "speaker": -1,
   "jp": "{%sR4}は\nめを　さました！{KN}",
-  "en": "",
-  "status": "todo"
+  "en": "{%sR4} woke up!{KN}",
+  "status": "done"
  },
  {
   "id": "s312.00",
   "flag": 0,
   "speaker": -1,
   "jp": "{%sR4}の\nマヒが　なおった！{KN}",
-  "en": "",
-  "status": "todo"
+  "en": "{%sR4}'s paralysis was cured!{KN}",
+  "status": "done"
  },
  {
   "id": "s313.00",
   "flag": 0,
   "speaker": -1,
   "jp": "{%sR4}は\nわれに　かえった！{KN}",
-  "en": "",
-  "status": "todo"
+  "en": "{%sR4} came to its senses!{KN}",
+  "status": "done"
  },
  {
   "id": "s314.00",
   "flag": 0,
   "speaker": -1,
   "jp": "{%sR4}の\nヤケドが　なおった！{KN}",
-  "en": "",
-  "status": "todo"
+  "en": "{%sR4}'s burn was healed!{KN}",
+  "status": "done"
  },
  {
   "id": "s315.00",
   "flag": 0,
   "speaker": -1,
   "jp": "{%sR4}を　おおっていた\nこおりが　とけた！{KN}",
-  "en": "",
-  "status": "todo"
+  "en": "The ice covering {%sR4}\nmelted!{KN}",
+  "status": "done"
  },
  {
   "id": "s316.00",
   "flag": 0,
   "speaker": -1,
   "jp": "{%sR4}の　からだの\nしびれが　とれた！{KN}",
-  "en": "",
-  "status": "todo"
+  "en": "The numbness left {%sR4}'s\nbody!{KN}",
+  "status": "done"
  },
  {
   "id": "s317.00",
   "flag": 0,
   "speaker": -1,
   "jp": "{%sR4}は　めに　はいった\nすなを　ふりはらった！{KN}",
-  "en": "",
-  "status": "todo"
+  "en": "{%sR4} shook the sand\nout of its eyes!{KN}",
+  "status": "done"
  },
  {
   "id": "s318.00",
   "flag": 0,
   "speaker": -1,
   "jp": "{%sR4}は\nいしきを　とりもどした！{KN}",
-  "en": "",
-  "status": "todo"
+  "en": "{%sR4} regained consciousness!{KN}",
+  "status": "done"
  },
  {
   "id": "s319.00",
   "flag": 0,
   "speaker": -1,
   "jp": "{%sR4}は\nとっさに　はんげきした！{KN}",
-  "en": "",
-  "status": "todo"
+  "en": "{%sR4} struck back in a flash!{KN}",
+  "status": "done"
  },
  {
   "id": "s320.00",
   "flag": 0,
   "speaker": -1,
   "jp": "{%sR4}が\nつづけて　えんごこうげき！{KN}",
-  "en": "",
-  "status": "todo"
+  "en": "{%sR4} follows up\nwith a Support Attack!{KN}",
+  "status": "done"
  },
  {
   "id": "s321.00",
   "flag": 0,
   "speaker": -1,
   "jp": "{%sR4}コンボ！{KN}",
-  "en": "",
-  "status": "todo"
+  "en": "{%sR4} combo!{KN}",
+  "status": "done"
  },
  {
   "id": "s322.00",
   "flag": 0,
   "speaker": -1,
   "jp": "しかし　なにも　おこらなかった・・・{KN}",
-  "en": "",
-  "status": "todo"
+  "en": "But nothing happened...{KN}",
+  "status": "done"
  },
  {
   "id": "s323.00",
   "flag": 0,
   "speaker": -1,
   "jp": "{%sR4}の　ワザ\n{%sR5}は　つかえなくなった！{KN}",
-  "en": "",
-  "status": "todo"
+  "en": "{%sR4} can no longer use\nthe move {%sR5}!{KN}",
+  "status": "done"
  },
  {
   "id": "s324.00",
   "flag": 0,
   "speaker": -1,
   "jp": "{%sR4}の\nぼうぎょりょくが　ていかした！{KN}",
-  "en": "",
-  "status": "todo"
+  "en": "{%sR4}'s Defense went down!{KN}",
+  "status": "done"
  },
  {
   "id": "s325.00",
   "flag": 0,
   "speaker": -1,
   "jp": "{%sR4}は\nからだが　しびれて　えんごできない！{KN}",
-  "en": "",
-  "status": "todo"
+  "en": "{%sR4} is numb\nand can't give support!{KN}",
+  "status": "done"
  },
  {
   "id": "s326.00",
   "flag": 0,
   "speaker": -1,
   "jp": "{%sR4}は\nねむっているので　えんごできない！{KN}",
-  "en": "",
-  "status": "todo"
+  "en": "{%sR4} is asleep\nand can't give support!{KN}",
+  "status": "done"
  },
  {
   "id": "s327.00",
   "flag": 0,
   "speaker": -1,
   "jp": "{%sR4}は\nこおっているので　えんごできない！{KN}",
-  "en": "",
-  "status": "todo"
+  "en": "{%sR4} is frozen\nand can't give support!{KN}",
+  "status": "done"
  },
  {
   "id": "s328.00",
   "flag": 0,
   "speaker": -1,
   "jp": "すべての　データを　けして　いいですか？\n　　　　　はい　　　　いいえ{KN}",
-  "en": "",
-  "status": "todo"
+  "en": "Erase all data?\n          Yes         No{KN}",
+  "status": "done"
  },
  {
   "id": "s329.00",
   "flag": 0,
   "speaker": -1,
   "jp": "ほんとうに　けしても　いいですか？\n　　　　　はい　　　　いいえ{KN}",
-  "en": "",
-  "status": "todo"
+  "en": "Are you really sure you want to erase it?\n          Yes         No{KN}",
+  "status": "done"
  },
  {
   "id": "s330.00",
   "flag": 0,
   "speaker": -1,
   "jp": "データを　けしています{KN}",
-  "en": "",
-  "status": "todo"
+  "en": "Erasing data{KN}",
+  "status": "done"
  },
  {
   "id": "s336.00",
   "flag": 0,
   "speaker": -1,
   "jp": "{%sR4}は　{%sR5}を　つかった！",
-  "en": "",
-  "status": "todo"
+  "en": "{%sR4} used {%sR5}!",
+  "status": "done"
  },
  {
   "id": "s337.00",
   "flag": 0,
   "speaker": 4,
   "jp": "{%sR4}さん　きこえますか？\nわたしです　ナビュウです{KP}\nげんざい　ひょうじしている　セクタに\nいじょうが　はっせいしました",
-  "en": "",
-  "status": "todo"
+  "en": "{%sR4}-san, can you hear me?{KP}\nIt is me, Navyu.{KP}\nSomething is wrong in the sector now on\nscreen.",
+  "status": "done"
  },
  {
   "id": "s337.01",
   "flag": 0,
   "speaker": 4,
   "jp": "このままにしておくと　じしんが\nはっせいする　おそれがあります{KP}\nだいしきゅう　このセクタを　うめたてて\nヒビを　けしてしまってください",
-  "en": "",
-  "status": "todo"
+  "en": "If it is left like this, it may cause an\nearthquake.{KP}\nPlease fill in this sector right away and get\nrid of the cracks.",
+  "status": "done"
  },
  {
   "id": "s338.00",
   "flag": 0,
   "speaker": 4,
   "jp": "{%sR4}さん　きこえますか？\nわたしです　ナビュウです{KP}\nげんざい　ひょうじしている\nセクタを　ちゅうしんに",
-  "en": "",
-  "status": "todo"
+  "en": "{%sR4}-san, can you hear me?{KP}\nIt is me, Navyu.{KP}\nCentered on the sector now on screen,",
+  "status": "done"
  },
  {
   "id": "s338.01",
   "flag": 0,
   "speaker": 4,
   "jp": "じしんが　はっせいしました！{KP}\nいくつかの　セクタに\nひがいが　でているもようです！",
-  "en": "",
-  "status": "todo"
+  "en": "an earthquake has struck!{KP}\nIt looks like several sectors have been\ndamaged!",
+  "status": "done"
  },
  {
   "id": "s339.00",
   "flag": 0,
   "speaker": 4,
   "jp": "{%sR4}さん　きこえますか？\nわたしです　ナビュウです{KP}\nげんざい　ひょうじしている　セクタに\nいじょうが　はっせいしました",
-  "en": "",
-  "status": "todo"
+  "en": "{%sR4}-san, can you hear me?{KP}\nIt is me, Navyu.{KP}\nSomething is wrong in the sector now on\nscreen.",
+  "status": "done"
  },
  {
   "id": "s339.01",
   "flag": 0,
   "speaker": 4,
   "jp": "このままにしておくと　こうずいが\nはっせいする　おそれがあります{KP}\nだいしきゅう　このセクタを\nうめたててしまってください",
-  "en": "",
-  "status": "todo"
+  "en": "If it is left like this, it may cause a\nflood.{KP}\nPlease fill in this sector right away.",
+  "status": "done"
  },
  {
   "id": "s340.00",
   "flag": 0,
   "speaker": 4,
   "jp": "{%sR4}さん　きこえますか？\nわたしです　ナビュウです{KP}\nげんざい　ひょうじしている\nセクタを　ちゅうしんに",
-  "en": "",
-  "status": "todo"
+  "en": "{%sR4}-san, can you hear me?{KP}\nIt is me, Navyu.{KP}\nCentered on the sector now on screen,",
+  "status": "done"
  },
  {
   "id": "s340.01",
   "flag": 0,
   "speaker": 4,
   "jp": "こうずいが　はっせいしました！{KP}\nいくつかの　セクタが\nみずびたしに　なってしまったもようです！",
-  "en": "",
-  "status": "todo"
+  "en": "a flood has struck!{KP}\nIt looks like several sectors are under\nwater!",
+  "status": "done"
  },
  {
   "id": "s341.00",
   "flag": 0,
   "speaker": 4,
   "jp": "{%sR3}さん　きこえますか？\nわたしです　ナビュウです{KP}\n〒{%02dR4}ー{%02dR5}{%}の　ファクトリーから\nダイナセンターへ",
-  "en": "",
-  "status": "todo"
+  "en": "{%sR3}-san, can you hear me?{KP}\nIt is me, Navyu.{KP}\nThe Factory at {%02dR4}-{%02dR5} has sent the Dyna\nCenter",
+  "status": "done"
  },
  {
   "id": "s341.01",
   "flag": 0,
   "speaker": 4,
   "jp": "きんきゅうメールが　はいりましたので\nおつたえします{KP}\nかいはつしきんが　たりないため\nこのままの　じょうたいでは",
-  "en": "",
-  "status": "todo"
+  "en": "an urgent e-mail, so I am passing it on.{KP}\nThey are short of development funds, and\nas things stand,",
+  "status": "done"
  },
  {
   "id": "s341.02",
   "flag": 0,
   "speaker": 4,
   "jp": "かいはつを　つづけることが　むずかしい\nかいはつラインが　あるとのことです{KP}\nこのまま　かいはつを　つづけると\nじこを　ひきおこす　おそれがあるそうです",
-  "en": "",
-  "status": "todo"
+  "en": "there is a development line that will be\nhard to keep going.{KP}\nThey say that if development continues\nlike this, it could cause an accident.",
+  "status": "done"
  },
  {
   "id": "s341.03",
   "flag": 0,
   "speaker": 4,
   "jp": "かいはつを　ちゅうしさせますか？\n　　　　　はい　　　　いいえ{KN}",
-  "en": "",
-  "status": "todo"
+  "en": "Stop the development?\n          Yes         No{KN}",
+  "status": "done"
  },
  {
   "id": "s341.04",
   "flag": 0,
   "speaker": 4,
   "jp": "わかりました　そのように\nファクトリーへは　れんらくしておきます{KP}\nそれでは",
-  "en": "",
-  "status": "todo"
+  "en": "Understood. I will let the Factory know.{KP}\nWell then.",
+  "status": "done"
  },
  {
   "id": "s341.05",
   "flag": 0,
   "speaker": 4,
   "jp": "わかりました　そのように\nファクトリーへは　れんらくしておきます{KP}\nもしも　あとから　かいはつを\nちゅうしさせたくなったばあいは",
-  "en": "",
-  "status": "todo"
+  "en": "Understood. I will let the Factory know.{KP}\nIf you later decide you want to stop the\ndevelopment,",
+  "status": "done"
  },
  {
   "id": "s341.06",
   "flag": 0,
   "speaker": 4,
   "jp": "ファクトリーに　ちょくせつ　いって\nそのように　しじしてください{KP}\nそれでは",
-  "en": "",
-  "status": "todo"
+  "en": "please go to the Factory yourself and tell\nthem so.{KP}\nWell then.",
+  "status": "done"
  },
  {
   "id": "s342.00",
   "flag": 0,
   "speaker": 4,
   "jp": "{%sR3}さん　きこえますか？\nわたしです　ナビュウです{KP}\n〒{%02dR4}ー{%02dR5}の　ファクトリーから\nダイナセンターへ",
-  "en": "",
-  "status": "todo"
+  "en": "{%sR3}-san, can you hear me?{KP}\nIt is me, Navyu.{KP}\nThe Factory at {%02dR4}-{%02dR5} has sent the Dyna\nCenter",
+  "status": "done"
  },
  {
   "id": "s342.01",
   "flag": 0,
   "speaker": 4,
   "jp": "きんきゅうメールが　はいりましたので\nおつたえします{KP}\nかいはつしざいが　たりないため\nこのままの　じょうたいでは",
-  "en": "",
-  "status": "todo"
+  "en": "an urgent e-mail, so I am passing it on.{KP}\nThey are short of development materials,\nand as things stand,",
+  "status": "done"
  },
  {
   "id": "s342.02",
   "flag": 0,
   "speaker": 4,
   "jp": "かいはつを　つづけることが　むずかしい\nかいはつラインが　あるとのことです{KP}\nこのまま　かいはつを　つづけると\nじこを　ひきおこす　おそれがあるそうです",
-  "en": "",
-  "status": "todo"
+  "en": "there is a development line that will be\nhard to keep going.{KP}\nThey say that if development continues\nlike this, it could cause an accident.",
+  "status": "done"
  },
  {
   "id": "s342.03",
   "flag": 0,
   "speaker": 4,
   "jp": "かいはつを　ちゅうしさせますか？\n　　　　　はい　　　　いいえ{KN}",
-  "en": "",
-  "status": "todo"
+  "en": "Stop the development?\n          Yes         No{KN}",
+  "status": "done"
  },
  {
   "id": "s342.04",
   "flag": 0,
   "speaker": 4,
   "jp": "わかりました　そのように\nファクトリーへは　れんらくしておきます{KP}\nそれでは",
-  "en": "",
-  "status": "todo"
+  "en": "Understood. I will let the Factory know.{KP}\nWell then.",
+  "status": "done"
  },
  {
   "id": "s342.05",
   "flag": 0,
   "speaker": 4,
   "jp": "わかりました　そのように\nファクトリーへは　れんらくしておきます{KP}\nもしも　あとから　かいはつを\nちゅうしさせたくなったばあいは",
-  "en": "",
-  "status": "todo"
+  "en": "Understood. I will let the Factory know.{KP}\nIf you later decide you want to stop the\ndevelopment,",
+  "status": "done"
  },
  {
   "id": "s342.06",
   "flag": 0,
   "speaker": 4,
   "jp": "ファクトリーに　ちょくせつ　いって\nそのように　しじしてください{KP}\nそれでは",
-  "en": "",
-  "status": "todo"
+  "en": "please go to the Factory yourself and tell\nthem so.{KP}\nWell then.",
+  "status": "done"
  },
  {
   "id": "s343.00",
   "flag": 0,
   "speaker": 4,
   "jp": "{%sR4}さん　きこえますか？\nわたしです　ナビュウです{KP}\nげんざい　ひょうじしている　ファクトリーで\nばくはつじこが　はっせいしたもようです！",
-  "en": "",
-  "status": "todo"
+  "en": "{%sR4}-san, can you hear me?{KP}\nIt is me, Navyu.{KP}\nIt seems there has been an explosion at\nthe Factory now on screen!",
+  "status": "done"
  },
  {
   "id": "s343.01",
   "flag": 0,
   "speaker": 4,
   "jp": "なお　けんきゅういんの　かたがたは\nぜんいん　ぶじとのことです{KP}\nダイナセンターに　ファクトリキットが\nとどいていますので　あずかっておきます",
-  "en": "",
-  "status": "todo"
+  "en": "The researchers are all safe, I am told.{KP}\nA Factory Kit has arrived at the Dyna\nCenter, so I will keep it for you.",
+  "status": "done"
  },
  {
   "id": "s343.02",
   "flag": 0,
   "speaker": 4,
   "jp": "ひつようなときは　ひきとりにきてください",
-  "en": "",
-  "status": "todo"
+  "en": "Please come and pick it up when you need\nit.",
+  "status": "done"
  },
  {
   "id": "s344.00",
   "flag": 0,
   "speaker": 4,
   "jp": "{%sR3}さん　きこえますか？\nわたしです　ナビュウです{KP}\n〒{%02dR4}ー{%02dR5}に　すんでいる\nダイナなんですが",
-  "en": "",
-  "status": "todo"
+  "en": "{%sR3}-san, can you hear me?{KP}\nIt is me, Navyu.{KP}\nIt is about the Dyna living at {%02dR4}-{%02dR5}.",
+  "status": "done"
  },
  {
   "id": "s344.01",
   "flag": 0,
   "speaker": 4,
   "jp": "そうとう　ストレスが　たまっているみたいで\nこのままでは　なにを　するか　わかりません{KP}\nようすを　みにいっては　どうでしょうか？",
-  "en": "",
-  "status": "todo"
+  "en": "It seems to be very stressed out.{KP}\nThere is no telling what it might do like\nthis.{KP}\nWhy not go and check on it?",
+  "status": "done"
  },
  {
   "id": "s344.02",
   "flag": 0,
   "speaker": 4,
   "jp": "いちど　つれだしてあげると　わるくなった\nきげんが　かいふくするので　そのあいだに",
-  "en": "",
-  "status": "todo"
+  "en": "Taking it out once will improve its bad\nmood, so while it is out,",
+  "status": "done"
  },
  {
   "id": "s344.03",
   "flag": 0,
   "speaker": 4,
   "jp": "きげんが　わるくなる　げんいんを　さがして\nとりのぞいてあげると　いいと　おもいます",
-  "en": "",
-  "status": "todo"
+  "en": "I think you should find what is putting it in\na bad mood and get rid of it.",
+  "status": "done"
  },
  {
   "id": "s345.00",
   "flag": 0,
   "speaker": 4,
   "jp": "{%sR4}さん　きこえますか？\nわたしです　ナビュウです{KP}\n{%sR5}が　あばれだしました！{KP}\nじぶんのいえを\nはかいしようとしています！",
-  "en": "",
-  "status": "todo"
+  "en": "{%sR4}-san, can you hear me?{KP}\nIt is me, Navyu.{KP}\n{%sR5} is on a rampage!{KP}\nIt is trying to destroy its own house!",
+  "status": "done"
  },
  {
   "id": "s346.00",
   "flag": 0,
   "speaker": 4,
   "jp": "どうやら　きが　すんだみたいですね{KP}\nこのダイナは　いえが　こわれたので\nダイナセンターに　しゅうようされます",
-  "en": "",
-  "status": "todo"
+  "en": "It seems to have calmed down at last.{KP}\nIts house is wrecked, so this Dyna will be\ntaken in by the Dyna Center.",
+  "status": "done"
  },
  {
   "id": "s346.01",
   "flag": 0,
   "speaker": 4,
   "jp": "こんごは　ダイナたちの　きげんにも\nきをくばってあげてくださいね",
-  "en": "",
-  "status": "todo"
+  "en": "From now on, please keep an eye on your\nDyna's moods too.",
+  "status": "done"
  },
  {
   "id": "s347.00",
   "flag": 0,
   "speaker": 4,
   "jp": "{%sR4}さん　きこえますか？\nわたしです　ナビュウです{KP}\nげんざい　このシティで　ダイナを\nびょうきにする　ウィルスが　ふえています{KP}\nこのままでは　シティぜんたいに　びょうきが\nだいりゅうこうする　おそれがあります",
-  "en": "",
-  "status": "todo"
+  "en": "{%sR4}-san, can you hear me?{KP}\nIt is me, Navyu.{KP}\nA virus that makes Dyna sick is spreading\nin this City.{KP}\nIf this goes on, the sickness may spread\nacross the whole City.",
+  "status": "done"
  },
  {
   "id": "s347.01",
   "flag": 0,
   "speaker": 4,
   "jp": "このウィルスは　ダストの　セクタが\nおおいと　ふえやすいようです{KP}\nダストの　セクタが　このシティに　ないか\nチェックしてみてください",
-  "en": "",
-  "status": "todo"
+  "en": "This virus seems to spread easily when\nthere are many Dust sectors.{KP}\nPlease check whether this City has any\nDust sectors.",
+  "status": "done"
  },
  {
   "id": "s348.00",
   "flag": 0,
   "speaker": 4,
   "jp": "{%sR4}さん　きこえますか？\nわたしです　ナビュウです{KP}\nたいへんです！　このシティの\nダイナたちが",
-  "en": "",
-  "status": "todo"
+  "en": "{%sR4}-san, can you hear me?{KP}\nIt is me, Navyu.{KP}\nThis is terrible! The Dyna in this City",
+  "status": "done"
  },
  {
   "id": "s348.01",
   "flag": 0,
   "speaker": 4,
   "jp": "つぎつぎと　びょうきに\nかかっていっています！{KP}\nとにかく　びょうきにかかっている\nダイナを　みかけたら",
-  "en": "",
-  "status": "todo"
+  "en": "are falling sick one after another!{KP}\nIf you see any sick Dyna,",
+  "status": "done"
  },
  {
   "id": "s348.02",
   "flag": 0,
   "speaker": 4,
   "jp": "ダイナセンターまで　つれてきてください\nよろしくおねがいします！",
-  "en": "",
-  "status": "todo"
+  "en": "please bring them to the Dyna Center.{KP}\nI am counting on you!",
+  "status": "done"
  },
  {
   "id": "s349.00",
   "flag": 0,
   "speaker": -1,
   "jp": "これまでのデータを　セーブしても　いいですか？\n　　　　　はい　　　　いいえ{KN}",
-  "en": "",
-  "status": "todo"
+  "en": "Save your progress?\n          Yes         No{KN}",
+  "status": "done"
  },
  {
   "id": "s349.01",
   "flag": 0,
   "speaker": -1,
   "jp": "セーブちゅうです\nでんげんを　きらないでください{KN}",
-  "en": "",
-  "status": "todo"
+  "en": "Saving.\nDo not turn off the power.{KN}",
+  "status": "done"
  }
 ]

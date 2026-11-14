@@ -476,47 +476,47 @@
   "flag": 0,
   "speaker": -1,
   "jp": "{%sR4}は\nヤケドを　おった！{KN}",
-  "en": "",
-  "status": "todo"
+  "en": "{%sR4} got burned!{KN}",
+  "status": "done"
  },
  {
   "id": "s295.00",
   "flag": 0,
   "speaker": -1,
   "jp": "{%sR4}に\nヤケドによる　ダメージ！{KN}",
-  "en": "",
-  "status": "todo"
+  "en": "{%sR4} is hurt by its burn!{KN}",
+  "status": "done"
  },
  {
   "id": "s296.00",
   "flag": 0,
   "speaker": -1,
   "jp": "{%sR4}は\nこおりついた！{KN}",
-  "en": "",
-  "status": "todo"
+  "en": "{%sR4} froze solid!{KN}",
+  "status": "done"
  },
  {
   "id": "s297.00",
   "flag": 0,
   "speaker": -1,
   "jp": "{%sR4}は\nこおってしまって　うごけない・・・{KN}",
-  "en": "",
-  "status": "todo"
+  "en": "{%sR4} is frozen\nand can't move...{KN}",
+  "status": "done"
  },
  {
   "id": "s298.00",
   "flag": 0,
   "speaker": -1,
   "jp": "{%sR4}は\nかんでんした！{KN}",
-  "en": "",
-  "status": "todo"
+  "en": "{%sR4} got shocked!{KN}",
+  "status": "done"
  },
  {
   "id": "s299.00",
   "flag": 0,
   "speaker": -1,
   "jp": "{%sR4}は\nからだがしびれて　うごけない・・・{KN}",
-  "en": "",
-  "status": "todo"
+  "en": "{%sR4} is numb\nand can't move...{KN}",
+  "status": "done"
  }
 ]
