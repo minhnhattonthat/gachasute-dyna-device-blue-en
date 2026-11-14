@@ -1,2 +1,4 @@
 - references/setup.md / scripts/fetch_emu.py: `fetch_emu.py gba-bios` 404s (retrobios renamed the file to `GBA_bios.rom`, same SHA-1 300c20df...). Copied from a sibling repo.
 - SKILL.md Step 0: the plugin guard hook did not fire in an Orca worker session; adding the hooks block to .claude/settings.json mid-session made it fire immediately (no restart needed).
+- scripts/lua/probes (Mesen GBA): `emu.getState()` exposes registers as `cpu.r0`..; worked in tools/lua/lzss_log.lua.
+- references/graphics.md static sweep: `codex exec -s read-only -i sheet.png ...` works as the independent reviewer in Orca runs (no nested workers); it reads images and returns TSV rows.

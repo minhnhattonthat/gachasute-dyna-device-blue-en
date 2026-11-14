@@ -12,4 +12,6 @@ Addresses are for the dump in `rom.sha1` unless a note says otherwise.
 
 | File | Covers | State |
 |---|---|---|
-| <text.md> | <encoding, control codes, pointer tables> | <verified / partly guessed> |
+| text.md | SJIS encoding, resource directory, event-script container and message op, control codes, string regions, address database | container + encoding verified; opcodes beyond the message op, menu pointer tables and the font not yet |
+| compression.md | ECD LZSS codec, IMG/PLT/SCR payloads, the single BIOS LZ77 block | verified (all 3114 blocks decode; `tests/test_ecd.py`) |
+| graphics.md | graphics-text survey: 44 ECD blocks with Japanese, method and gaps | static sweep complete; tour only to the profile form |
