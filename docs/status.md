@@ -2,7 +2,7 @@
 
 Updated at the end of every session. Keep it to what the next session needs; history is in git.
 
-- **Phase:** 6. Translate in progress: b001-b003 of 45 merged (266 of 5305 entries; scripts 0-55).
+- **Phase:** 6. Translate in progress: b001-b010 of 45 merged (scripts 0-135).
   Last build: `build/dynadevice_blue_en.gba` 2026-11-15 (b001 only), sha1 8b8b8bd1...; pilot seen in game
   (`work/qa/p6_pilot2`, warp `intro` + `MASHA=1`, 6000 frames): English wraps cleanly, ▼ clears the last line.
 - **How phase 6 runs (D11):** one agent translates batches in order, itself (Orca: no helpers).
@@ -16,14 +16,15 @@ Updated at the end of every session. Keep it to what the next session needs; his
     Choice lines are manual (`\n` in the entry) with `<@N>` JP-column markers.
   - Context: one worker gets through ~3-4 batches after setup; hand back at ~150k with `worker_done --outcome
     failed`, body "context limit, resume from docs/status.md".
+- **Choice lines verified in game** (scene `choice_s37`, `work/qa/p6_s37/sheet.png`): `<@5>Yes<@11>No` puts the
+  cursor just left of "Yes"; `<@N>` columns work as designed.
+- **Debug-tool bug found (fix before phase 8):** every `menu`/`fscript`/`dmode` scene (38) replays the timed
+  `tutorial_route.txt`, which desyncs on the English build (pages differ). The route start is now synced to the
+  script-10 nag (warp.lua), which gets through the Gachasute walk, but it still loops later (script 365 in room 3,
+  `work/qa/p6_choice6`). Fix idea: replace timed waits with event-driven segments (wait for SCRIPT n / room), or
+  finish the tutorial on the original ROM, save in game, and start these scenes from that .sav (text-independent).
 - **Next:**
-  1. **Verify one choice line in game first** (s034.11 / s037.00, Yurie's Yes/No before the first Colosseum battle,
-     or any shop menu s690): the cursor must sit left of "Yes" and "No" laid out with `<@5>Yes<@11>No`. If the
-     cursor positions come from code rather than text, adjust `pad_cols` and re-merge with `--overwrite`.
-     Scene `choice_yesno` (fscript 37) was added; on the b001-b003 build it had not ARRIVED by frame 9000
-     (`work/qa/p6_choice3`, log still in tutorial TEXT at f8984): try `--frames 15000`, and if fscript can't get
-     there, check warp.lua's tutorial skip (line ~217-286) against the longer English tutorial.
-  2. Continue at b004 (s055.01-s080.09), in order to b027, then strings b028-b045 (Dyna species = constellation
+  1. Continue at b011 (s135.16-), in order to b027, then strings b028-b045 (Dyna species = constellation
      names per D10, armor/weapon parts, menus: menu verbs must match glossary "Decisions from earlier batches").
   3. After all batches: review pass (fresh read-only, per file group, `assets/reviewer-brief.md`), Minors to
      `docs/polish.md`; `tools/lint.py` 0 errors; `batches.py check` 0 problems. Then phase 7.

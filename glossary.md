@@ -105,4 +105,6 @@ Binding for every translator and reviewer. Agents propose additions in reports; 
   choice しゅっぱつする/まだ -> `<@3>Let's go<@14>Not yet`; restart menu どこから さいかいしますか？ ->
   "Where do you want to restart from?" `<@2>Battle<@8>My House<@15>Save Data`; tournament: Round 1, Match 1,
   semifinal, final, champion; b007: エキスパートルール -> Expert Rules, とくしゅのうりょく -> special ability,
-  ネットけいさつ -> net police, ちかてつのえき -> subway station; そうび -> Equip, パーティー -> Party, ダブルアタック -> Double Attack, けんちくキット -> building kit. Choice lines: `<@5>Yes<@11>No` for はい/いいえ at JP cols 5/11.
+  ネットけいさつ -> net police, ちかてつのえき -> subway station; b009-b010: ぬいぐるみ -> stuffed toy, げきレア ->
+  ultra-rare, レアアイテム -> rare item, Terry calls the player ボウズ -> "kid", Yurie calls Navyu おねえさん -> "Miss",
+  the lady duelist of s122 is Jorna in disguise (prim "Fufu" until s123.04); そうび -> Equip, パーティー -> Party, ダブルアタック -> Double Attack, けんちくキット -> building kit. Choice lines: `<@5>Yes<@11>No` for はい/いいえ at JP cols 5/11.
