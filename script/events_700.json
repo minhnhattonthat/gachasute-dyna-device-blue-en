@@ -4,560 +4,560 @@
   "flag": 0,
   "speaker": 11,
   "jp": "{%sR4}ですね\n{%dR5}ビットに　なります{KP}\nよろしいですか？\n　　　　　はい　　　　いいえ{KN}",
-  "en": "",
-  "status": "todo"
+  "en": "{%sR4}, is it?\nI can give you {%dR5} bits.{KP}\nIs that all right?\n          Yes         No{KN}",
+  "status": "done"
  },
  {
   "id": "s701.00",
   "flag": 0,
   "speaker": 11,
   "jp": "どうも　ありがとうございます\n　{KP}\nほかに　なにか　うっていただけますか？\n　　　　　はい　　　　いいえ{KN}",
-  "en": "",
-  "status": "todo"
+  "en": "Thank you very much!\n{KP}\nAnything else you'd like to sell?\n          Yes         No{KN}",
+  "status": "done"
  },
  {
   "id": "s702.00",
   "flag": 0,
   "speaker": 11,
   "jp": "そうですか・・・\n　{KP}\nほかに　なにか　うっていただけますか？\n　　　　　はい　　　　いいえ{KN}",
-  "en": "",
-  "status": "todo"
+  "en": "I see...\n{KP}\nAnything else you'd like to sell?\n          Yes         No{KN}",
+  "status": "done"
  },
  {
   "id": "s703.00",
   "flag": 0,
   "speaker": 11,
   "jp": "もうしわけありませんが\nアイテムを　おもちでは　ないようです",
-  "en": "",
-  "status": "todo"
+  "en": "I'm terribly sorry, but it seems you don't\nhave any items.",
+  "status": "done"
  },
  {
   "id": "s704.00",
   "flag": 0,
   "speaker": 11,
   "jp": "もうしわけありませんが\nその　アイテムは　かいとりできません{KP}\nほかに　なにか　うっていただけますか？\n　　　　　はい　　　　いいえ{KN}",
-  "en": "",
-  "status": "todo"
+  "en": "I'm terribly sorry, but\nI can't buy that item.{KP}\nAnything else you'd like to sell?\n          Yes         No{KN}",
+  "status": "done"
  },
  {
   "id": "s705.00",
   "flag": 0,
   "speaker": 12,
   "jp": "いらっしゃいませ！\nここは　コロシアムです",
-  "en": "",
-  "status": "todo"
+  "en": "Welcome! This is the Colosseum.",
+  "status": "done"
  },
  {
   "id": "s705.01",
   "flag": 0,
   "speaker": 12,
   "jp": "なにを　しますか？\n　　　　フリーバトル　　　やめる{KN}",
-  "en": "",
-  "status": "todo"
+  "en": "What would you like to do?\n        Free Battle      Quit{KN}",
+  "status": "done"
  },
  {
   "id": "s705.02",
   "flag": 0,
   "speaker": 12,
   "jp": "なにを　しますか？\n　フリーバトル　　ランキングバトル　　やめる{KN}",
-  "en": "",
-  "status": "todo"
+  "en": "What would you like to do?\n  Free Battle    Ranking Battle     Quit{KN}",
+  "status": "done"
  },
  {
   "id": "s705.03",
   "flag": 0,
   "speaker": 1,
   "jp": "えらぶのは　フリーバトルだってば！{KP}\n・・・もう　わたしの　いったこと\nわすれちゃったの？",
-  "en": "",
-  "status": "todo"
+  "en": "I told you, pick Free Battle!{KP}\n...Did you forget what I said already?",
+  "status": "done"
  },
  {
   "id": "s706.00",
   "flag": 0,
   "speaker": 12,
   "jp": "ダイナネットに　せつぞくします{KP}\nよろしいですか？\n　　はい　　　チームへんせい　　　やめる{KN}",
-  "en": "",
-  "status": "todo"
+  "en": "Connecting to the Dyna Net.{KP}\nIs that all right?\n    Yes       Team Setup       Quit{KN}",
+  "status": "done"
  },
  {
   "id": "s707.00",
   "flag": 0,
   "speaker": 12,
   "jp": "つづけて　バトルしますか\n　　はい　　　チームへんせい　　　やめる{KN}",
-  "en": "",
-  "status": "todo"
+  "en": "Battle again?\n    Yes       Team Setup       Quit{KN}",
+  "status": "done"
  },
  {
   "id": "s708.00",
   "flag": 0,
   "speaker": 12,
   "jp": "たいせんあいてを　さがしています{KN}",
-  "en": "",
-  "status": "todo"
+  "en": "Searching for an opponent...{KN}",
+  "status": "done"
  },
  {
   "id": "s709.00",
   "flag": 0,
   "speaker": 12,
   "jp": "たいせんあいてが　けってい　しました",
-  "en": "",
-  "status": "todo"
+  "en": "Your opponent has been decided.",
+  "status": "done"
  },
  {
   "id": "s710.00",
   "flag": 0,
   "speaker": 12,
   "jp": "{%sR4}に　ちょうせんしますか\n　　はい　　　チームへんせい　　　やめる{KN}",
-  "en": "",
-  "status": "todo"
+  "en": "Challenge {%sR4}?\n    Yes       Team Setup       Quit{KN}",
+  "status": "done"
  },
  {
   "id": "s711.00",
   "flag": 0,
   "speaker": 12,
   "jp": "さんかできる　ダイナが　３たいに\nみたないので　さんかできません！",
-  "en": "",
-  "status": "todo"
+  "en": "You have fewer than 3 Dyna that can take\npart, so you can't enter!",
+  "status": "done"
  },
  {
   "id": "s711.01",
   "flag": 0,
   "speaker": 12,
   "jp": "でんどういり　していない　ダイナを\n３たい　よういしてください！",
-  "en": "",
-  "status": "todo"
+  "en": "Please get 3 Dyna ready that aren't in the\nHall of Fame!",
+  "status": "done"
  },
  {
   "id": "s712.00",
   "flag": 0,
   "speaker": 12,
   "jp": "おめでとうございます！",
-  "en": "",
-  "status": "todo"
+  "en": "Congratulations!",
+  "status": "done"
  },
  {
   "id": "s712.01",
   "flag": 0,
   "speaker": 12,
   "jp": "{%sR0}さんは\nランク{%dR2}になりました！",
-  "en": "",
-  "status": "todo"
+  "en": "{%sR0}-san, you are now rank\n{%dR2}!",
+  "status": "done"
  },
  {
   "id": "s712.02",
   "flag": 0,
   "speaker": 12,
   "jp": "しょうきんの　{%dR1}ビットです！\nつぎも　がんばってください！",
-  "en": "",
-  "status": "todo"
+  "en": "Here is your prize of {%dR1} bits! Good\nluck next time too!",
+  "status": "done"
  },
  {
   "id": "s713.00",
   "flag": 0,
   "speaker": 12,
   "jp": "しゅつじょうわくに　でんどういりした\nダイナが　はいっています！",
-  "en": "",
-  "status": "todo"
+  "en": "A Dyna in the Hall of Fame is in one of\nyour entry slots!",
+  "status": "done"
  },
  {
   "id": "s713.01",
   "flag": 0,
   "speaker": 12,
   "jp": "チームをくみなおしてください！",
-  "en": "",
-  "status": "todo"
+  "en": "Please rebuild your team!",
+  "status": "done"
  },
  {
   "id": "s714.00",
   "flag": 0,
   "speaker": 12,
   "jp": "ダイナが　３たいいないと\nさんかできません",
-  "en": "",
-  "status": "todo"
+  "en": "You can't enter without 3 Dyna.",
+  "status": "done"
  },
  {
   "id": "s714.01",
   "flag": 0,
   "speaker": 12,
   "jp": "チームをくみなおしてください！",
-  "en": "",
-  "status": "todo"
+  "en": "Please rebuild your team!",
+  "status": "done"
  },
  {
   "id": "s715.00",
   "flag": 0,
   "speaker": 12,
   "jp": "ざんねんでした\nつぎは　がんばってください！",
-  "en": "",
-  "status": "todo"
+  "en": "Too bad! Better luck next time!",
+  "status": "done"
  },
  {
   "id": "s716.00",
   "flag": 0,
   "speaker": 4,
   "jp": "ランキングバトル　ベスト５いり\nおめでとうございます！",
-  "en": "",
-  "status": "todo"
+  "en": "Congratulations on placing in the top 5 of\nthe Ranking Battle!",
+  "status": "done"
  },
  {
   "id": "s716.01",
   "flag": 0,
   "speaker": 4,
   "jp": "しょうひんとして　ファクトリキットが\nダイナネットから　おくられてきました",
-  "en": "",
-  "status": "todo"
+  "en": "As your prize, a Factory Kit has been sent\nfrom the Dyna Net.",
+  "status": "done"
  },
  {
   "id": "s716.02",
   "flag": 0,
   "speaker": 4,
   "jp": "ファクトリキットは　ダイナセンターで\nあずかっていますので",
-  "en": "",
-  "status": "todo"
+  "en": "The Dyna Center is keeping the Factory Kit\nfor you,",
+  "status": "done"
  },
  {
   "id": "s716.03",
   "flag": 0,
   "speaker": 4,
   "jp": "ひつようなときは　こちらから\nひきだしていってくださいね{KN}",
-  "en": "",
-  "status": "todo"
+  "en": "so please withdraw it from there whenever\nyou need it.{KN}",
+  "status": "done"
  },
  {
   "id": "s717.00",
   "flag": 0,
   "speaker": 4,
   "jp": "ランキングバトル　ベスト１０いり\nおめでとうございます！",
-  "en": "",
-  "status": "todo"
+  "en": "Congratulations on placing in the top 10 of\nthe Ranking Battle!",
+  "status": "done"
  },
  {
   "id": "s717.01",
   "flag": 0,
   "speaker": 4,
   "jp": "しょうひんとして　ショップキットが\nダイナネットから　おくられてきました",
-  "en": "",
-  "status": "todo"
+  "en": "As your prize, a Shop Kit has been sent\nfrom the Dyna Net.",
+  "status": "done"
  },
  {
   "id": "s717.02",
   "flag": 0,
   "speaker": 4,
   "jp": "ショップキットは　ダイナセンターで\nあずかっていますので",
-  "en": "",
-  "status": "todo"
+  "en": "The Dyna Center is keeping the Shop Kit\nfor you,",
+  "status": "done"
  },
  {
   "id": "s717.03",
   "flag": 0,
   "speaker": 4,
   "jp": "ひつようなときは　こちらから\nひきだしていってくださいね{KN}",
-  "en": "",
-  "status": "todo"
+  "en": "so please withdraw it from there whenever\nyou need it.{KN}",
+  "status": "done"
  },
  {
   "id": "s718.00",
   "flag": 0,
   "speaker": 4,
   "jp": "ランキングバトル　ベスト１５いり\nおめでとうございます！",
-  "en": "",
-  "status": "todo"
+  "en": "Congratulations on placing in the top 15 of\nthe Ranking Battle!",
+  "status": "done"
  },
  {
   "id": "s718.01",
   "flag": 0,
   "speaker": 4,
   "jp": "しょうひんとして　コロシアムキットが\nダイナネットから　おくられてきました",
-  "en": "",
-  "status": "todo"
+  "en": "As your prize, a Colosseum Kit has been\nsent from the Dyna Net.",
+  "status": "done"
  },
  {
   "id": "s718.02",
   "flag": 0,
   "speaker": 4,
   "jp": "コロシアムキットは　ダイナセンターで\nあずかっていますので",
-  "en": "",
-  "status": "todo"
+  "en": "The Dyna Center is keeping the Colosseum\nKit for you,",
+  "status": "done"
  },
  {
   "id": "s718.03",
   "flag": 0,
   "speaker": 4,
   "jp": "ひつようなときは　こちらから\nひきだしていってくださいね{KN}",
-  "en": "",
-  "status": "todo"
+  "en": "so please withdraw it from there whenever\nyou need it.{KN}",
+  "status": "done"
  },
  {
   "id": "s719.00",
   "flag": 0,
   "speaker": 4,
   "jp": "ランキングバトル　ゆうしょう\nおめでとうございます！",
-  "en": "",
-  "status": "todo"
+  "en": "Congratulations on winning the Ranking\nBattle!",
+  "status": "done"
  },
  {
   "id": "s719.01",
   "flag": 0,
   "speaker": 4,
   "jp": "しょうひんとして　ランキングバトル\nゆうしょうでのみ　てにはいる",
-  "en": "",
-  "status": "todo"
+  "en": "As your prize, available only to Ranking\nBattle champions,",
+  "status": "done"
  },
  {
   "id": "s719.02",
   "flag": 0,
   "speaker": 4,
   "jp": "ドラコースタイルの　{%sR1}ぞくせいが\nダイナネットから　おくられてきました{KN}",
-  "en": "",
-  "status": "todo"
+  "en": "a Draco-style Dyna of the {%sR1}\nelement has been sent from the Dyna{KP}\nNet.{KN}",
+  "status": "done"
  },
  {
   "id": "s719.03",
   "flag": 0,
   "speaker": 4,
   "jp": "では　このダイナに\nなまえを　つけてあげてください",
-  "en": "",
-  "status": "todo"
+  "en": "Now, please give this Dyna a name.",
+  "status": "done"
  },
  {
   "id": "s720.00",
   "flag": 0,
   "speaker": 4,
   "jp": "{%sR1}は　ダイナセンターで\nあずかっていますので",
-  "en": "",
-  "status": "todo"
+  "en": "The Dyna Center is keeping {%sR1}\nfor you,",
+  "status": "done"
  },
  {
   "id": "s720.01",
   "flag": 0,
   "speaker": 4,
   "jp": "ひつようなときは　こちらから\nひきだしていってくださいね",
-  "en": "",
-  "status": "todo"
+  "en": "so please withdraw it from there whenever\nyou need it.",
+  "status": "done"
  },
  {
   "id": "s720.02",
   "flag": 0,
   "speaker": 4,
   "jp": "なお　ランキングバトルで\nゆうしょうした　ダイナには",
-  "en": "",
-  "status": "todo"
+  "en": "Also, a Dyna that wins the Ranking\nBattle",
+  "status": "done"
  },
  {
   "id": "s720.03",
   "flag": 0,
   "speaker": 4,
   "jp": "その　えいよを　たたえて\nゆうしゃの　おうかんが　おくられます",
-  "en": "",
-  "status": "todo"
+  "en": "receives the Hero's Crown in honor of its\nachievement.",
+  "status": "done"
  },
  {
   "id": "s720.04",
   "flag": 0,
   "speaker": 4,
   "jp": "このつぎに　ランキングバトルに\nさんかするときには",
-  "en": "",
-  "status": "todo"
+  "en": "The next time you enter the Ranking\nBattle,",
+  "status": "done"
  },
  {
   "id": "s720.05",
   "flag": 0,
   "speaker": 4,
   "jp": "また　さいしょから　チャレンジすることに\nなるのですが",
-  "en": "",
-  "status": "todo"
+  "en": "you will be starting the challenge over\nfrom the beginning,",
+  "status": "done"
  },
  {
   "id": "s720.06",
   "flag": 0,
   "speaker": 4,
   "jp": "いちど　おうかんを　うけとった\nダイナは　もう　さんかできません",
-  "en": "",
-  "status": "todo"
+  "en": "and a Dyna that has received the crown\ncan no longer take part.",
+  "status": "done"
  },
  {
   "id": "s720.07",
   "flag": 0,
   "speaker": 4,
   "jp": "あたらしい　ダイナで　また\nゆうしょうを　めざしてください",
-  "en": "",
-  "status": "todo"
+  "en": "Please aim for victory again with a new\nDyna.",
+  "status": "done"
  },
  {
   "id": "s721.00",
   "flag": 0,
   "speaker": 4,
   "jp": "ランキングバトル　ゆうしょう\nおめでとうございます！",
-  "en": "",
-  "status": "todo"
+  "en": "Congratulations on winning the Ranking\nBattle!",
+  "status": "done"
  },
  {
   "id": "s721.01",
   "flag": 0,
   "speaker": 4,
   "jp": "ゆうしょうすると　ほんらい\nレアダイナが　もらえるのですが",
-  "en": "",
-  "status": "todo"
+  "en": "Normally the champion receives a rare\nDyna,",
+  "status": "done"
  },
  {
   "id": "s721.02",
   "flag": 0,
   "speaker": 4,
   "jp": "げんざい　このシティには　げんかいまで\nダイナが　とうろくされているため",
-  "en": "",
-  "status": "todo"
+  "en": "but this city already has as many Dyna\nregistered as it can hold,",
+  "status": "done"
  },
  {
   "id": "s721.03",
   "flag": 0,
   "speaker": 4,
   "jp": "もうしわけありませんが　こんかいは\nしょうきんのみとさせていただきます",
-  "en": "",
-  "status": "todo"
+  "en": "so I am afraid this time the prize will be\nmoney only.",
+  "status": "done"
  },
  {
   "id": "s721.04",
   "flag": 0,
   "speaker": -1,
   "jp": "{%sR0}は\n{%dR1}ビットを　てにいれた！{KN}",
-  "en": "",
-  "status": "todo"
+  "en": "{%sR0} got {%dR1} bits!{KN}",
+  "status": "done"
  },
  {
   "id": "s721.05",
   "flag": 0,
   "speaker": 4,
   "jp": "なお　ランキングバトルで\nゆうしょうした　ダイナには",
-  "en": "",
-  "status": "todo"
+  "en": "Also, a Dyna that wins the Ranking\nBattle",
+  "status": "done"
  },
  {
   "id": "s721.06",
   "flag": 0,
   "speaker": 4,
   "jp": "その　えいよを　たたえて\nゆうしゃの　おうかんが　おくられます",
-  "en": "",
-  "status": "todo"
+  "en": "receives the Hero's Crown in honor of its\nachievement.",
+  "status": "done"
  },
  {
   "id": "s721.07",
   "flag": 0,
   "speaker": 4,
   "jp": "このつぎに　ランキングバトルに\nさんかするときには",
-  "en": "",
-  "status": "todo"
+  "en": "The next time you enter the Ranking\nBattle,",
+  "status": "done"
  },
  {
   "id": "s721.08",
   "flag": 0,
   "speaker": 4,
   "jp": "また　さいしょから　チャレンジすることに\nなるのですが",
-  "en": "",
-  "status": "todo"
+  "en": "you will be starting the challenge over\nfrom the beginning,",
+  "status": "done"
  },
  {
   "id": "s721.09",
   "flag": 0,
   "speaker": 4,
   "jp": "いちど　おうかんを　うけとった\nダイナは　もう　さんかできません",
-  "en": "",
-  "status": "todo"
+  "en": "and a Dyna that has received the crown\ncan no longer take part.",
+  "status": "done"
  },
  {
   "id": "s721.10",
   "flag": 0,
   "speaker": 4,
   "jp": "あたらしい　ダイナで　また\nゆうしょうを　めざしてください",
-  "en": "",
-  "status": "todo"
+  "en": "Please aim for victory again with a new\nDyna.",
+  "status": "done"
  },
  {
   "id": "s722.00",
   "flag": 0,
   "speaker": 13,
   "jp": "このファクトリーに\nなにか　ようですか？",
-  "en": "",
-  "status": "todo"
+  "en": "Is there something you need at this\nFactory?",
+  "status": "done"
  },
  {
   "id": "s722.01",
   "flag": 0,
   "speaker": 13,
   "jp": "　　かいはついらい　　　　かいはつじょうきょう\n　　かいはつちゅうし　　　なんでもない{KN}",
-  "en": "",
-  "status": "todo"
+  "en": "    New Request         Check Status\n    Cancel Request       Never mind{KN}",
+  "status": "done"
  },
  {
   "id": "s723.00",
   "flag": 0,
   "speaker": 13,
   "jp": "どの　ダイナのぶそうを\nかいはつしますか？",
-  "en": "",
-  "status": "todo"
+  "en": "Which Dyna's weapons shall we develop?",
+  "status": "done"
  },
  {
   "id": "s723.01",
   "flag": 0,
   "speaker": 4,
   "jp": "かいはつを　いらいするときには　デバイスを\nかいはつしてほしい　ダイナを",
-  "en": "",
-  "status": "todo"
+  "en": "When you request development, you need\nto bring along the Dyna you want a{KP}\nDevice developed for",
+  "status": "done"
  },
  {
   "id": "s723.02",
   "flag": 0,
   "speaker": 4,
   "jp": "つれていって　データをとってもらう\nひつようがあります",
-  "en": "",
-  "status": "todo"
+  "en": "so that they can take its data.",
+  "status": "done"
  },
  {
   "id": "s723.03",
   "flag": 0,
   "speaker": 4,
   "jp": "くれぐれも　デバイスを\nかいはつしてもらいたい　ダイナを",
-  "en": "",
-  "status": "todo"
+  "en": "Please be very careful not to forget to\nbring along the Dyna",
+  "status": "done"
  },
  {
   "id": "s723.04",
   "flag": 0,
   "speaker": 4,
   "jp": "つれていくのを　わすれないように\nきをつけてくださいね",
-  "en": "",
-  "status": "todo"
+  "en": "you want a Device developed for.",
+  "status": "done"
  },
  {
   "id": "s723.05",
   "flag": 0,
   "speaker": 4,
   "jp": "では　あなたが　いま　つれている\nダイナのなかから{KP}\nデバイスを　かいはつしてほしい\nダイナを　えらんでください",
-  "en": "",
-  "status": "todo"
+  "en": "Now, from the Dyna you have with you\nright now,{KP}\nplease choose the Dyna you want a Device\ndeveloped for.",
+  "status": "done"
  },
  {
   "id": "s724.00",
   "flag": 0,
   "speaker": 13,
   "jp": "どのプロジェクトを　かくにんしますか？{KN}",
-  "en": "",
-  "status": "todo"
+  "en": "Which project would you like to check?{KN}",
+  "status": "done"
  },
  {
   "id": "s725.00",
   "flag": 0,
   "speaker": 13,
   "jp": "かいはつしきんが　ふそくしています{KP}\nかいはつをつづけるには{%dR4}ビット\nひつようです",
-  "en": "",
-  "status": "todo"
+  "en": "We're short on development funds.{KP}\nTo keep developing, we need {%dR4}\nbits.",
+  "status": "done"
  },
  {
   "id": "s725.01",
   "flag": 0,
   "speaker": 13,
   "jp": "{%dR4}ビット　はらいますか？\n　　　　　はい　　　　いいえ{KN}",
-  "en": "",
-  "status": "todo"
+  "en": "Pay {%dR4} bits?\n          Yes         No{KN}",
+  "status": "done"
  },
  {
   "id": "s726.00",
