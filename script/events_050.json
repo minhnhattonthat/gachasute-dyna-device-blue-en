@@ -156,736 +156,736 @@
   "flag": 0,
   "speaker": -1,
   "jp": "このターンに　じっこうする　コマンドを\nせんたくしてください{KN}",
-  "en": "",
-  "status": "todo"
+  "en": "Please choose the command to carry out\nthis turn.{KN}",
+  "status": "done"
  },
  {
   "id": "s056.00",
   "flag": 0,
   "speaker": 1,
   "jp": "こんどは・・・\nさっきの　ところの　ひだりね",
-  "en": "",
-  "status": "todo"
+  "en": "This time... the spot to the left of where\nwe were before.",
+  "status": "done"
  },
  {
   "id": "s056.01",
   "flag": 0,
   "speaker": -1,
   "jp": "ていさつしたい　ポイントを　\nえらんでください{KN}",
-  "en": "",
-  "status": "todo"
+  "en": "Please choose the point you want to\nscout.{KN}",
+  "status": "done"
  },
  {
   "id": "s057.00",
   "flag": 0,
   "speaker": 1,
   "jp": "ビンゴ！　さっき　いってた\nふつうじゃないばあいが　これよ",
-  "en": "",
-  "status": "todo"
+  "en": "Bingo! This is the not-normal case I\nmentioned earlier.",
+  "status": "done"
  },
  {
   "id": "s057.01",
   "flag": 0,
   "speaker": 1,
   "jp": "ていさつけっかを　みて！\nあかく　ひょうじされてるでしょ？{KP}\nこれは　ていさつした　そのばしょに",
-  "en": "",
-  "status": "todo"
+  "en": "Look at the scouting results! See how it's\nshown in red?{KP}\nThat means that right at the spot you\nscouted,",
+  "status": "done"
  },
  {
   "id": "s057.02",
   "flag": 0,
   "speaker": 1,
   "jp": "ダイナか　トラップが\nあるということを　あらわしてるの",
-  "en": "",
-  "status": "todo"
+  "en": "there's a Dyna or a trap.",
+  "status": "done"
  },
  {
   "id": "s057.03",
   "flag": 0,
   "speaker": 1,
   "jp": "そして　ていさつけっかの　なかの{KP}\nＤの　ところが　あかく\nひょうじされていると　いうことは・・・",
-  "en": "",
-  "status": "todo"
+  "en": "And if the D in the scouting results{KP}\nis shown in red, that means...",
+  "status": "done"
  },
  {
   "id": "s057.04",
   "flag": 0,
   "speaker": 1,
   "jp": "そう！　まさに　ここに\nダイナが　いるということなのよ",
-  "en": "",
-  "status": "todo"
+  "en": "Yes! There's a Dyna right here!",
+  "status": "done"
  },
  {
   "id": "s057.05",
   "flag": 0,
   "speaker": 1,
   "jp": "じゃあ　もう　つぎは\nねらって　いっちゃいましょう{KN}",
-  "en": "",
-  "status": "todo"
+  "en": "So next, let's take aim and go for it!{KN}",
+  "status": "done"
  },
  {
   "id": "s058.00",
   "flag": 0,
   "speaker": 1,
   "jp": "うーん・・・ていさつするということを\nしらないのかしら・・・",
-  "en": "",
-  "status": "todo"
+  "en": "Hmm... Maybe they don't know about\nscouting...",
+  "status": "done"
  },
  {
   "id": "s059.00",
   "flag": 0,
   "speaker": 1,
   "jp": "きたわ！　バトルかいしよ！{KP}\nこういうふうに　ダイナの\nとなりに　こうげきしたばあいには",
-  "en": "",
-  "status": "todo"
+  "en": "Here it comes! The battle's starting!{KP}\nWhen you attack the square next to a\nDyna like this,",
+  "status": "done"
  },
  {
   "id": "s059.01",
   "flag": 0,
   "speaker": 1,
   "jp": "おたがいに　１かいずつ　こうげきしあう\nバトルに　なるの",
-  "en": "",
-  "status": "todo"
+  "en": "it turns into a battle where you each take\nturns attacking once.",
+  "status": "done"
  },
  {
   "id": "s059.02",
   "flag": 0,
   "speaker": 1,
   "jp": "すばやいほうが　さきに　こうげきできるわ\nさきに　こうげきできると　いいわね{KN}",
-  "en": "",
-  "status": "todo"
+  "en": "The faster one gets to attack first. Hope\nwe get the first hit!{KN}",
+  "status": "done"
  },
  {
   "id": "s060.00",
   "flag": 0,
   "speaker": 1,
   "jp": "あ　そうそう　ダイナが　へると{KP}\nエリアが　せまくなって　ダイナの\nはいちを　やりなおすことになるの",
-  "en": "",
-  "status": "todo"
+  "en": "Oh, right, when the number of Dyna goes\ndown,{KP}\nthe area gets smaller, and you have to\nplace your Dyna all over again.",
+  "status": "done"
  },
  {
   "id": "s060.01",
   "flag": 0,
   "speaker": 1,
   "jp": "じゃあ　また　はいちの　しじを　するね",
-  "en": "",
-  "status": "todo"
+  "en": "So I'll tell you where to place them\nagain.",
+  "status": "done"
  },
  {
   "id": "s060.02",
   "flag": 0,
   "speaker": 1,
   "jp": "１たいめの　ダイナは　ここね{KN}",
-  "en": "",
-  "status": "todo"
+  "en": "Your 1st Dyna goes here.{KN}",
+  "status": "done"
  },
  {
   "id": "s061.00",
   "flag": 0,
   "speaker": 1,
   "jp": "１こめの　トラップは　ここ{KN}",
-  "en": "",
-  "status": "todo"
+  "en": "Your 1st trap goes here.{KN}",
+  "status": "done"
  },
  {
   "id": "s062.00",
   "flag": 0,
   "speaker": 1,
   "jp": "じゃあ　２たいめの　ダイナは　ここ{KN}",
-  "en": "",
-  "status": "todo"
+  "en": "And your 2nd Dyna goes here.{KN}",
+  "status": "done"
  },
  {
   "id": "s063.00",
   "flag": 0,
   "speaker": 1,
   "jp": "さーて　はんげき　かいしよ！{KP}\nさっき　いばしょが　わかった\nダイナに　こうげきしましょう",
-  "en": "",
-  "status": "todo"
+  "en": "Okaaay, time to strike back!{KP}\nLet's attack the Dyna whose position we\nfound earlier.",
+  "status": "done"
  },
  {
   "id": "s063.01",
   "flag": 0,
   "speaker": 1,
   "jp": "こうげきを　えらんでから　さっき\nていさつした　ばしょを　えらんでね",
-  "en": "",
-  "status": "todo"
+  "en": "Choose Attack, then choose the spot we\nscouted before.",
+  "status": "done"
  },
  {
   "id": "s063.02",
   "flag": 0,
   "speaker": -1,
   "jp": "このターンに　じっこうする　コマンドを\nせんたくしてください{KN}",
-  "en": "",
-  "status": "todo"
+  "en": "Please choose the command to carry out\nthis turn.{KN}",
+  "status": "done"
  },
  {
   "id": "s064.00",
   "flag": 0,
   "speaker": 1,
   "jp": "えらぶのは　こうげきだってば！{KP}\n・・・もう　わたしの　いったこと\nわすれちゃったの？",
-  "en": "",
-  "status": "todo"
+  "en": "I said choose Attack!{KP}\n...Did you forget what I told you\nalready?",
+  "status": "done"
  },
  {
   "id": "s064.01",
   "flag": 0,
   "speaker": -1,
   "jp": "このターンに　じっこうする　コマンドを\nせんたくしてください{KN}",
-  "en": "",
-  "status": "todo"
+  "en": "Please choose the command to carry out\nthis turn.{KN}",
+  "status": "done"
  },
  {
   "id": "s065.00",
   "flag": 0,
   "speaker": 1,
   "jp": "さっき　ていさつした　ばしょを\nえらんでね",
-  "en": "",
-  "status": "todo"
+  "en": "Choose the spot we scouted before.",
+  "status": "done"
  },
  {
   "id": "s065.01",
   "flag": 0,
   "speaker": -1,
   "jp": "こうげきさせる　ポイントを\nえらんでください{KN}",
-  "en": "",
-  "status": "todo"
+  "en": "Please choose the point you want to\nattack.{KN}",
+  "status": "done"
  },
  {
   "id": "s066.00",
   "flag": 0,
   "speaker": 1,
   "jp": "えらぶのは　さっき\nていさつした　ばしょだってば！{KP}\n・・・もう　わたしの　いったこと\nわすれちゃったの？",
-  "en": "",
-  "status": "todo"
+  "en": "I said choose the spot we scouted\nbefore!{KP}\n...Did you forget what I told you\nalready?",
+  "status": "done"
  },
  {
   "id": "s066.01",
   "flag": 0,
   "speaker": -1,
   "jp": "こうげきさせる　ポイントを\nえらんでください{KN}",
-  "en": "",
-  "status": "todo"
+  "en": "Please choose the point you want to\nattack.{KN}",
+  "status": "done"
  },
  {
   "id": "s067.00",
   "flag": 0,
   "speaker": 1,
   "jp": "よーし！　やったわ！{KP}\nいまみたいに　あいての　ダイナを\nちょくげきするように　こうげきすると",
-  "en": "",
-  "status": "todo"
+  "en": "Allll right! We did it!{KP}\nWhen you attack so you hit the enemy\nDyna directly, like just now,",
+  "status": "done"
  },
  {
   "id": "s067.01",
   "flag": 0,
   "speaker": 1,
   "jp": "ダブルアタックという　じょうたいに　なって\nなんと　こっちは　２かい　こうげきできるの",
-  "en": "",
-  "status": "todo"
+  "en": "you get a Double Attack, and get this: we\ncan attack twice!",
+  "status": "done"
  },
  {
   "id": "s067.02",
   "flag": 0,
   "speaker": 1,
   "jp": "しかも　あいての　はんげきを　うけないのよ\nこれは　かったも　どうぜんね{KN}",
-  "en": "",
-  "status": "todo"
+  "en": "Plus, they can't strike back. That's as good\nas a win!{KN}",
+  "status": "done"
  },
  {
   "id": "s068.00",
   "flag": 0,
   "speaker": 1,
   "jp": "よし！　これで　おたがいに\n２たいどうしに　なったわ",
-  "en": "",
-  "status": "todo"
+  "en": "Okay! Now we're both down to 2 Dyna.",
+  "status": "done"
  },
  {
   "id": "s068.01",
   "flag": 0,
   "speaker": 1,
   "jp": "でも　あいても　はいちを　やりなおすから\nていさつのデータが　きえちゃうわ",
-  "en": "",
-  "status": "todo"
+  "en": "But they'll place their Dyna again too, so\nour scouting data gets wiped.",
+  "status": "done"
  },
  {
   "id": "s068.02",
   "flag": 0,
   "speaker": 1,
   "jp": "つぎ　また　ていさつを　するか\nまようところね・・・{KN}",
-  "en": "",
-  "status": "todo"
+  "en": "Next turn, do we scout again or not?\nTough call...{KN}",
+  "status": "done"
  },
  {
   "id": "s069.00",
   "flag": 0,
   "speaker": 1,
   "jp": "やったね！　てきは\nこっちの　トラップに　ひっかかったわ",
-  "en": "",
-  "status": "todo"
+  "en": "We did it! The enemy fell for our trap!",
+  "status": "done"
  },
  {
   "id": "s069.01",
   "flag": 0,
   "speaker": 1,
   "jp": "こんなふうに　トラップに　ひっかかった\nダイナは",
-  "en": "",
-  "status": "todo"
+  "en": "A Dyna that gets caught in a trap like\nthis",
+  "status": "done"
  },
  {
   "id": "s069.02",
   "flag": 0,
   "speaker": 1,
   "jp": "たとえ　どんなに　つよくても\nいちげきで　たおされてしまうの",
-  "en": "",
-  "status": "todo"
+  "en": "goes down in one hit, no matter how\nstrong it is.",
+  "status": "done"
  },
  {
   "id": "s069.03",
   "flag": 0,
   "speaker": 1,
   "jp": "とにかく　ていさつして　Ｔのところが\nあかくなっていたら{KP}\nそこは　トラップだってことだから\nぜったい　ふんじゃ　ダメだよ{KN}",
-  "en": "",
-  "status": "todo"
+  "en": "Anyway, if you scout and the T is shown in\nred,{KP}\nthat means there's a trap there, so don't\nyou dare step on it!{KN}",
+  "status": "done"
  },
  {
   "id": "s070.00",
   "flag": 0,
   "speaker": 1,
   "jp": "トラップは　いちど　てきが　ひっかかると\nそのばしょからは　きえてしまって",
-  "en": "",
-  "status": "todo"
+  "en": "Once an enemy falls for a trap, it vanishes\nfrom that spot,",
+  "status": "done"
  },
  {
   "id": "s070.01",
   "flag": 0,
   "speaker": 1,
   "jp": "また　あたらしく\nセットしなおせるようになるの",
-  "en": "",
-  "status": "todo"
+  "en": "and you can set it again somewhere new.",
+  "status": "done"
  },
  {
   "id": "s070.02",
   "flag": 0,
   "speaker": 1,
   "jp": "じゃあ　トラップを\nセットしなおしましょう",
-  "en": "",
-  "status": "todo"
+  "en": "So let's set the trap again.",
+  "status": "done"
  },
  {
   "id": "s070.03",
   "flag": 0,
   "speaker": 1,
   "jp": "ここは・・・ウラを　かく　イミで\nもういちど　おなじ　ばしょね",
-  "en": "",
-  "status": "todo"
+  "en": "Here... to outsmart them, let's use the same\nspot again.",
+  "status": "done"
  },
  {
   "id": "s070.04",
   "flag": 0,
   "speaker": -1,
   "jp": "３ばんの　ダイナの　トラップを\nセットしなおします{KN}",
-  "en": "",
-  "status": "todo"
+  "en": "Setting Dyna No. 3's trap again.{KN}",
+  "status": "done"
  },
  {
   "id": "s071.00",
   "flag": 0,
   "speaker": 1,
   "jp": "これで　あいては　のこり１たいね{KP}\nあせることはないわ\nとりあえず　ていさつしましょう",
-  "en": "",
-  "status": "todo"
+  "en": "That leaves them with only 1 Dyna.{KP}\nNo need to rush. Let's scout first.",
+  "status": "done"
  },
  {
   "id": "s071.01",
   "flag": 0,
   "speaker": -1,
   "jp": "このターンに　じっこうする　コマンドを\nせんたくしてください{KN}",
-  "en": "",
-  "status": "todo"
+  "en": "Please choose the command to carry out\nthis turn.{KN}",
+  "status": "done"
  },
  {
   "id": "s072.00",
   "flag": 0,
   "speaker": 1,
   "jp": "エリアが　このサイズになったときに\nまんなかを　ていさつしても",
-  "en": "",
-  "status": "todo"
+  "en": "When the area is this size, if you scout the\nmiddle,",
+  "status": "done"
  },
  {
   "id": "s072.01",
   "flag": 0,
   "speaker": 1,
   "jp": "ダイナと　トラップが\n１ずつあるって　でるだけだから・・・",
-  "en": "",
-  "status": "todo"
+  "en": "it just tells you there's 1 Dyna and 1\ntrap...",
+  "status": "done"
  },
  {
   "id": "s072.02",
   "flag": 0,
   "speaker": 1,
   "jp": "ばしょを　しぼりこむためには\nはじっこを　ていさつ！{KP}\nこんかいは　みぎを　ていさつね",
-  "en": "",
-  "status": "todo"
+  "en": "To narrow down where they are, scout the\nedges!{KP}\nThis time, let's scout the right side.",
+  "status": "done"
  },
  {
   "id": "s072.03",
   "flag": 0,
   "speaker": -1,
   "jp": "ていさつしたい　ポイントを　\nえらんでください{KN}",
-  "en": "",
-  "status": "todo"
+  "en": "Please choose the point you want to\nscout.{KN}",
+  "status": "done"
  },
  {
   "id": "s073.00",
   "flag": 0,
   "speaker": 1,
   "jp": "チャンス！　これで　きまったかも{KP}\nこういうかんじに　２たいいじょうの\nダイナと",
-  "en": "",
-  "status": "todo"
+  "en": "Our chance! This could finish it!{KP}\nIf you attack a spot like this, where 2 or\nmore Dyna",
+  "status": "done"
  },
  {
   "id": "s073.01",
   "flag": 0,
   "speaker": 1,
   "jp": "となりあわせになるばしょに\nこうげきしてしまうと",
-  "en": "",
-  "status": "todo"
+  "en": "are right next to it,",
+  "status": "done"
  },
  {
   "id": "s073.02",
   "flag": 0,
   "speaker": 1,
   "jp": "となりあわせになっている　すべての\nダイナと　たたかうことになるの",
-  "en": "",
-  "status": "todo"
+  "en": "you end up fighting every Dyna that's next\nto it.",
+  "status": "done"
  },
  {
   "id": "s073.03",
   "flag": 0,
   "speaker": 1,
   "jp": "はじめに　たたかった　１たいには\nはんげきもできるんだけど・・・",
-  "en": "",
-  "status": "todo"
+  "en": "You can strike back at the 1st one you\nfight, but...",
+  "status": "done"
  },
  {
   "id": "s073.04",
   "flag": 0,
   "speaker": 1,
   "jp": "２たいめから　あとは　いっぽうてきに\nこうげきされるだけだから",
-  "en": "",
-  "status": "todo"
+  "en": "from the 2nd one on, they just get to\nattack you,",
+  "status": "done"
  },
  {
   "id": "s073.05",
   "flag": 0,
   "speaker": 1,
   "jp": "たいていは　ちからつきちゃうわ{KP}\nさあ　しあげといきましょうか！{KN}",
-  "en": "",
-  "status": "todo"
+  "en": "so you'll usually run out of steam.{KP}\nNow then, let's finish this off!{KN}",
+  "status": "done"
  },
  {
   "id": "s074.00",
   "flag": 0,
   "speaker": 4,
   "jp": "ちょうどいいところに　いらっしゃいました\nおききしたいことがあるんですけど・・・",
-  "en": "",
-  "status": "todo"
+  "en": "You have come at just the right time.\nThere is something I would like to ask{KP}\nyou...",
+  "status": "done"
  },
  {
   "id": "s074.01",
   "flag": 0,
   "speaker": 4,
   "jp": "さっき　このシティのなかに　コロシアムが\nできたみたいなんですけど・・・",
-  "en": "",
-  "status": "todo"
+  "en": "It seems a Colosseum was just built here in\nthe city...",
+  "status": "done"
  },
  {
   "id": "s074.02",
   "flag": 0,
   "speaker": 4,
   "jp": "えっ？　おともだちに　コロシアムキットを\nもらって　たてたんですか？",
-  "en": "",
-  "status": "todo"
+  "en": "What? A friend gave you a Colosseum Kit,\nand you built it?",
+  "status": "done"
  },
  {
   "id": "s074.03",
   "flag": 0,
   "speaker": 4,
   "jp": "そんな・・・たしか　あのアイテムは\nつうしんこうかんできないハズ・・・",
-  "en": "",
-  "status": "todo"
+  "en": "But... I am sure that item cannot be traded\nby link...",
+  "status": "done"
  },
  {
   "id": "s074.04",
   "flag": 0,
   "speaker": 4,
   "jp": "え？　このシティの　なかで\nひろったって　いってた？",
-  "en": "",
-  "status": "todo"
+  "en": "What? They said they found it here in the\ncity?",
+  "status": "done"
  },
  {
   "id": "s074.05",
   "flag": 0,
   "speaker": 4,
   "jp": "・・・そういえば　さいきん　しまっておいた\nけんちくキットを　みかけないような・・・",
-  "en": "",
-  "status": "todo"
+  "en": "...Come to think of it, I have not seen the\nbuilding kits I put away lately...",
+  "status": "done"
  },
  {
   "id": "s074.06",
   "flag": 0,
   "speaker": 4,
   "jp": "・・・あっ！　いえ　なんでもありません！\nきにしないでください",
-  "en": "",
-  "status": "todo"
+  "en": "...Oh! No, it is nothing! Please do not worry\nabout it.",
+  "status": "done"
  },
  {
   "id": "s074.07",
   "flag": 0,
   "speaker": 4,
   "jp": "では　もう　バトルも　されたんですよね？\nそれなら　つぎの　ステップに　いきましょう",
-  "en": "",
-  "status": "todo"
+  "en": "So you have already had a battle, then?\nIn that case, let us go on to the next{KP}\nstep.",
+  "status": "done"
  },
  {
   "id": "s074.08",
   "flag": 0,
   "speaker": 4,
   "jp": "では　まず　このファクトリキットを\nつかって　ファクトリーを　たててください",
-  "en": "",
-  "status": "todo"
+  "en": "First, please use this Factory Kit to build a\nFactory.",
+  "status": "done"
  },
  {
   "id": "s074.09",
   "flag": 0,
   "speaker": 4,
   "jp": "わたしも　いっしょにいきますので\nすきなところに　たててくださいね",
-  "en": "",
-  "status": "todo"
+  "en": "I will come along with you, so please build\nit wherever you like.",
+  "status": "done"
  },
  {
   "id": "s074.10",
   "flag": 0,
   "speaker": 4,
   "jp": "わたしも　いっしょにいきますので{KP}\nすきなところに　ファクトリーを\nたててください",
-  "en": "",
-  "status": "todo"
+  "en": "I will come along with you,{KP}\nso please build the Factory wherever you\nlike.",
+  "status": "done"
  },
  {
   "id": "s074.11",
   "flag": 0,
   "speaker": 4,
   "jp": "あら？　これいじょう\nもちきれないみたいですね",
-  "en": "",
-  "status": "todo"
+  "en": "Oh? It seems you cannot carry any\nmore.",
+  "status": "done"
  },
  {
   "id": "s074.12",
   "flag": 0,
   "speaker": 4,
   "jp": "てもち　アイテムを　へらしてから\nひきとりにきてください",
-  "en": "",
-  "status": "todo"
+  "en": "Please have fewer items on hand, then\ncome back to pick it up.",
+  "status": "done"
  },
  {
   "id": "s075.00",
   "flag": 0,
   "speaker": 4,
   "jp": "はい　これが　デバイスとよばれる　ぶきや\nぼうぐを　かいはつする　ファクトリーです{KP}\nはいってみましょう",
-  "en": "",
-  "status": "todo"
+  "en": "There we are! This is the Factory, where\nweapons and armor called Devices are{KP}\ndeveloped.{KP}\nLet us go inside.",
+  "status": "done"
  },
  {
   "id": "s075.01",
   "flag": 0,
   "speaker": 4,
   "jp": "では　かいはつの　ながれを　せつめいします{KP}\nそこにいる　けんきゅういんに　はなしかけて\nかいはついらいを　えらんでください",
-  "en": "",
-  "status": "todo"
+  "en": "Now, I will explain how development\nworks.{KP}\nPlease talk to the researcher there and\nchoose Request Development.",
+  "status": "done"
  },
  {
   "id": "s076.00",
   "flag": 0,
   "speaker": 4,
   "jp": "はい　これで　とうろく　かんりょうです\nあとは　じかんがたてば　かんせいします",
-  "en": "",
-  "status": "todo"
+  "en": "There, the request is registered. Now it will\nbe finished once some time passes.",
+  "status": "done"
  },
  {
   "id": "s076.01",
   "flag": 0,
   "speaker": 4,
   "jp": "れんしゅうなので　ここでは　じかんを\nはやく　すすめてしまいますが{KP}\nじっさいには　そとで　ほかのことをしながら\nじかんを　つぶすことを　おすすめします",
-  "en": "",
-  "status": "todo"
+  "en": "As this is practice, I will move the time\nforward quickly here,{KP}\nbut normally I recommend passing the time\noutside by doing other things.",
+  "status": "done"
  },
  {
   "id": "s076.02",
   "flag": 0,
   "speaker": 4,
   "jp": "・・・・・・・・・・・・・・・・・・・・・\n・・・・・・・・・・・・・・・・・・・・・",
-  "en": "",
-  "status": "todo"
+  "en": ".....................\n.....................",
+  "status": "done"
  },
  {
   "id": "s076.03",
   "flag": 0,
   "speaker": 4,
   "jp": "ちょっと　ようすを　みてみましょう{KP}\nけんきゅういんに　はなしかけて\nかいはつじょうきょうを　えらんでください",
-  "en": "",
-  "status": "todo"
+  "en": "Let us see how it is going.{KP}\nPlease talk to the researcher and choose\nDevelopment Status.",
+  "status": "done"
  },
  {
   "id": "s077.00",
   "flag": 0,
   "speaker": 4,
   "jp": "では　また　じかんを　すすめます",
-  "en": "",
-  "status": "todo"
+  "en": "Now I will move the time forward again.",
+  "status": "done"
  },
  {
   "id": "s077.01",
   "flag": 0,
   "speaker": 4,
   "jp": "・・・・・・・・・・・・・・・・・・・・・\n・・・・・・・・・・・・・・・・・・・・・",
-  "en": "",
-  "status": "todo"
+  "en": ".....................\n.....................",
+  "status": "done"
  },
  {
   "id": "s077.02",
   "flag": 0,
   "speaker": 4,
   "jp": "そろそろ　かんせいするころですね{KP}\nけんきゅういんに　はなしかけて\nかいはつじょうきょうを　えらんでください",
-  "en": "",
-  "status": "todo"
+  "en": "It should be about finished by now.{KP}\nPlease talk to the researcher and choose\nDevelopment Status.",
+  "status": "done"
  },
  {
   "id": "s078.00",
   "flag": 0,
   "speaker": 4,
   "jp": "では　また　じかんを　すすめます",
-  "en": "",
-  "status": "todo"
+  "en": "Now I will move the time forward again.",
+  "status": "done"
  },
  {
   "id": "s078.01",
   "flag": 0,
   "speaker": 4,
   "jp": "・・・・・・・・・・・・・・・・・・・・・\n・・・・・・・・・・・・・・・・・・・・・",
-  "en": "",
-  "status": "todo"
+  "en": ".....................\n.....................",
+  "status": "done"
  },
  {
   "id": "s078.02",
   "flag": 0,
   "speaker": 4,
   "jp": "そろそろ　かんせいするころですね{KP}\nけんきゅういんに　はなしかけて\nかいはつじょうきょうを　えらんでください",
-  "en": "",
-  "status": "todo"
+  "en": "It should be about finished by now.{KP}\nPlease talk to the researcher and choose\nDevelopment Status.",
+  "status": "done"
  },
  {
   "id": "s079.00",
   "flag": 0,
   "speaker": 4,
   "jp": "・・・では　もんだいが　かいけつしたので\nさらに　じかんを　すすめましょう",
-  "en": "",
-  "status": "todo"
+  "en": "...Now that the problem is solved, let us\nmove the time forward some more.",
+  "status": "done"
  },
  {
   "id": "s079.01",
   "flag": 0,
   "speaker": 4,
   "jp": "・・・・・・・・・・・・・・・・・・・・・\n・・・・・・・・・・・・・・・・・・・・・",
-  "en": "",
-  "status": "todo"
+  "en": ".....................\n.....................",
+  "status": "done"
  },
  {
   "id": "s079.02",
   "flag": 0,
   "speaker": 4,
   "jp": "では　あらためて　けんきゅういんに　\nはなしかけて{KP}\nかいはつじょうきょうを　えらんでください",
-  "en": "",
-  "status": "todo"
+  "en": "Now, please talk to the researcher once\nmore{KP}\nand choose Development Status.",
+  "status": "done"
  },
  {
   "id": "s080.00",
   "flag": 0,
   "speaker": 4,
   "jp": "これで　かいはつされたばかりの　デバイスが\nあなたの　てもとに　くるわけです",
-  "en": "",
-  "status": "todo"
+  "en": "And so the newly developed Device comes\ninto your hands.",
+  "status": "done"
  },
  {
   "id": "s080.01",
   "flag": 0,
   "speaker": 4,
   "jp": "データを　とった　ダイナなどに\nそうびさせてあげてください{KP}\nデバイスを　そうびさせるには　Ｂボタンを\nおして　メニューの",
-  "en": "",
-  "status": "todo"
+  "en": "Please have your Dyna, or whoever you\nhave data on, equip it.{KP}\nTo equip a Device, press the B Button, and\nin the menu,",
+  "status": "done"
  },
  {
   "id": "s080.02",
   "flag": 0,
   "speaker": 4,
   "jp": "パーティーか　じゅうみんの　なかにある\nそうびという　コマンドを　えらんでください{KP}\nまた　デバイスには　せんようデバイスと\nはんようデバイスというものが　あります",
-  "en": "",
-  "status": "todo"
+  "en": "choose the Equip command under Party or\nResidents.{KP}\nAlso, there are two kinds of Devices:\ndedicated Devices and general Devices.",
+  "status": "done"
  },
  {
   "id": "s080.03",
   "flag": 0,
   "speaker": 4,
   "jp": "せんようデバイスは　１つのスタイルのみが\nそうびできるデバイスで{KP}\nはんようデバイスは　おなじタイプの\n３つのスタイルが　そうびできるデバイスです",
-  "en": "",
-  "status": "todo"
+  "en": "A dedicated Device can be equipped by only\none style,{KP}\nwhile a general Device can be equipped by\nthree styles of the same type.",
+  "status": "done"
  },
  {
   "id": "s080.04",
   "flag": 0,
   "speaker": 4,
   "jp": "せんようデバイスのほうが\nはんようデバイスより　きょうりょくです{KP}\nしょきとうしの　きんがくを\nおおくすることで",
-  "en": "",
-  "status": "todo"
+  "en": "Dedicated Devices are stronger than\ngeneral Devices.{KP}\nIf you raise the amount of your starting\ninvestment,",
+  "status": "done"
  },
  {
   "id": "s080.05",
   "flag": 0,
   "speaker": 4,
   "jp": "せんようデバイスが\nかいはつされやすくなるのですが{KP}\nさいしょのうちは　やすい　しょきとうしで\nかずを　そろえたほうが　いいでしょう",
-  "en": "",
-  "status": "todo"
+  "en": "dedicated Devices are more likely to be\ndeveloped,{KP}\nbut at first, it is better to keep the\nstarting investment cheap and build up{KP}\nnumbers.",
+  "status": "done"
  },
  {
   "id": "s080.06",
   "flag": 0,
   "speaker": 4,
   "jp": "また　デバイスにも　ダイナと\nおなじように　５つの　ぞくせいが　つきます{KP}\nぶきの　ぞくせいと　あいての　ダイナの\nぞくせいとの　あいしょうによって",
-  "en": "",
-  "status": "todo"
+  "en": "Devices also have one of five elements,\njust like Dyna.{KP}\nDepending on how a weapon's element\nmatches up with the enemy Dyna's{KP}\nelement,",
+  "status": "done"
  },
  {
   "id": "s080.07",
   "flag": 0,
   "speaker": 4,
   "jp": "ダメージが　おおきく　かわってきます\nぞくせいどうしの　あいしょうについては",
-  "en": "",
-  "status": "todo"
+  "en": "the damage changes a great deal. To learn\nhow the elements match up,",
+  "status": "done"
  },
  {
   "id": "s080.08",
   "flag": 0,
   "speaker": 4,
   "jp": "メニューから　データベースを　えらび\nキーワードを　よんでみてください{KP}\nダイナの　ぞくせいの　じゃくてんは\nぼうぐで　カバーすることもできます",
-  "en": "",
-  "status": "todo"
+  "en": "choose Database from the menu and read\nthe Keywords.{KP}\nYou can also cover a Dyna's elemental\nweakness with armor.",
+  "status": "done"
  },
  {
   "id": "s080.09",
   "flag": 0,
   "speaker": 4,
   "jp": "ぎゃくに　ダイナと　おなじ\nぞくせいの　ぼうぐをつけることで{KP}\nつよい　ぞくせいにたいして\nさらに　つよく　することもできます",
-  "en": "",
-  "status": "todo"
+  "en": "On the other hand, by equipping armor of\nthe same element as the Dyna,{KP}\nyou can make it even stronger against the\nelement it is strong against.",
+  "status": "done"
  },
  {
   "id": "s080.10",

@@ -95,4 +95,7 @@ Binding for every translator and reviewer. Agents propose additions in reports; 
   medicine shop, general store (なんでもや). ぞくせい -> element: fire, water, thunder, earth, none.
 - b003 battle: ていさつ -> Scout, こうげき -> Attack, ちりょう -> Cure (poison/sleep, not HP), いどう -> Move,
   はいち -> place, エリア -> area, マス -> square, D = Dyna / T = trap counts; チーム -> team.
-  Genio is "Genio-kun" in Yurie's mouth. Choice lines: `<@5>Yes<@11>No` for はい/いいえ at JP cols 5/11.
+  Genio is "Genio-kun" in Yurie's mouth.
+- b004 Factory: かいはついらい -> Request Development, かいはつじょうきょう -> Development Status, けんきゅういん ->
+  researcher, デバイス -> Device (capital D), せんよう/はんようデバイス -> dedicated / general Device, しょきとうし ->
+  starting investment, そうび -> Equip, パーティー -> Party, ダブルアタック -> Double Attack, けんちくキット -> building kit. Choice lines: `<@5>Yes<@11>No` for はい/いいえ at JP cols 5/11.
