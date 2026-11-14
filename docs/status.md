@@ -2,8 +2,7 @@
 
 Updated at the end of every session. Keep it to what the next session needs; history is in git.
 
-- **Phase:** 6. Translate in progress: b001-b041 of 45 merged (all scripts 0-833; strings to t0B7FD0: every
-  Database help line done).
+- **Phase:** 6. Translate in progress: b001-b043 of 45 merged (all scripts 0-833; strings to t0BA8F0).
   Last build: `build/dynadevice_blue_en.gba` 2026-11-15 (b001 only), sha1 8b8b8bd1...; pilot seen in game
   (`work/qa/p6_pilot2`, warp `intro` + `MASHA=1`, 6000 frames): English wraps cleanly, ▼ clears the last line.
 - **How phase 6 runs (D11):** one agent translates batches in order, itself (Orca: no helpers).
@@ -25,20 +24,24 @@ Updated at the end of every session. Keep it to what the next session needs; his
   `work/qa/p6_choice6`). Fix idea: replace timed waits with event-driven segments (wait for SCRIPT n / room), or
   finish the tutorial on the original ROM, save in game, and start these scenes from that .sav (text-independent).
 - **Next:**
-  1. Continue at b042, in order to b045: UI strings (menus, prompts, formats; 88 px "guess" budget). b041's UI
-     rows (t0B8060-t0B9234: item-description prompt, give-up/discard/send-to-Dyna-Center prompts, PDA schedule,
-     calendar, blood type, money diary) were moved to the top of b042.tsv (b042 now 248 rows; split it in two
-     sittings if needed). Menu verbs must match glossary "Decisions from earlier batches". Look before
-     translating: `t0B8158` ({%sR1}を てにいれた！) has a 64 px budget but a 64 px register, so check the real
-     budget in game; placeholder/grid strings (－－：－－, the calendar digit rows t0B8F78/t0B9124, （日）（月）...
-     t0B8254 which the code may slice by byte offset) need a look at the code before changing their length.
-     A JP-blank fragment ("　") is set to status keep in script/ and its line deleted from work/tl/bNNN.tsv.
+  1. Continue at b044, then b045: UI strings (88 px "guess" budget). Patterns from b042-b043 are in glossary
+     "b042 UI" (dates, times, weekdays, Yes/No columns, button help, status words). Multi-line help fragments
+     read in ascending pointer-table order (one fragment per line, 4 lines). Lint now lets any budget grow to
+     the JP line's own width (the original fit). A code-sliced or JP-blank string (digit tables ０１２...,
+     calendar rows, "　") is set to status keep in script/ and its line deleted from work/tl/bNNN.tsv; a string
+     the code slices by byte offset can be kept in shape with `[7F]` PAD bytes (t0B8254 weekday row).
+     Trailing JP padding in fixed panels: end the English with `<@10>` so it still covers the cells.
   2. Phase 7 (name entry): t0B7FE4-t0B8044 (ｇｎｙｃｕｓ＜☆↓＋ ... ｓｅｒｕｓｐｅ▽＞％, pointers 0x0D1EA8-0x0D1ED8,
      next to the keyboard table) look like a keyboard grid; set to status keep for now, decide with the
      keyboard layout. `tools/width.py "text" ...` prints a line's pixel width.
   3. After all batches: review pass (fresh read-only, per file group, `assets/reviewer-brief.md`), Minors to
      `docs/polish.md`; `tools/lint.py` 0 errors; `batches.py check` 0 problems. Then phase 7.
-- **Done (phase 6, latest session):** b038-b041: all Database help pages (keywords, sectors, elements, Extras,
+- **Done (phase 6, latest session):** b042-b043: item/PDA/calendar/blood type/money diary, link-trade panels,
+  Card Trade messages, Dyna Pad jukebox names, party/City help, field build menu, item-use messages, debug
+  menu strings. Code checked: weekday row t0B8254 is copied 6 bytes a day (0x0801FFA4), calendar digits 4
+  bytes a day (0x0802914C): both kept in shape. In-game checks listed in `docs/polish.md` "UI strings to look
+  at in game". `tools/budgets.py` ID_WINDOW: t0B8150/58 and t0B9D9C/DE0 are now "guess" rows.
+- **Done (phase 6, session before):** b038-b041: all Database help pages (keywords, sectors, elements, Extras,
   ability types, style rarity, the 5 profile pages of every style). Line patterns in glossary "b038-b041". The
   per-line glossary check forces each fragment to carry its own term, so pages are written line by line.
   Phase 8: look at a few help pages in game (Database > keyword list), e.g. Extra and a style's food page.

@@ -6,8 +6,8 @@
   ],
   "slot": 24,
   "jp": "たいおうした　しせつは",
-  "en": "",
-  "status": "todo"
+  "en": "facility must be",
+  "status": "done"
  },
  {
   "id": "t0BA028",
@@ -16,8 +16,8 @@
   ],
   "slot": 20,
   "jp": "セクタかきかえで",
-  "en": "",
-  "status": "todo"
+  "en": "built by sector",
+  "status": "done"
  },
  {
   "id": "t0BA03C",
@@ -26,8 +26,8 @@
   ],
   "slot": 24,
   "jp": "けんちくしてください",
-  "en": "",
-  "status": "todo"
+  "en": "rewriting.",
+  "status": "done"
  },
  {
   "id": "t0BA054",
@@ -49,8 +49,8 @@
   ],
   "slot": 8,
   "jp": "{%sR0}を",
-  "en": "",
-  "status": "todo"
+  "en": "{%sR0}",
+  "status": "done"
  },
  {
   "id": "t0BA05C",
@@ -59,8 +59,8 @@
   ],
   "slot": 20,
   "jp": "プラグインできる",
-  "en": "",
-  "status": "todo"
+  "en": "plugs into no",
+  "status": "done"
  },
  {
   "id": "t0BA070",
@@ -69,8 +69,8 @@
   ],
   "slot": 12,
   "jp": "デバイスは",
-  "en": "",
-  "status": "todo"
+  "en": "Device",
+  "status": "done"
  },
  {
   "id": "t0BA07C",
@@ -79,8 +79,8 @@
   ],
   "slot": 20,
   "jp": "もっていません！",
-  "en": "",
-  "status": "todo"
+  "en": "you have!",
+  "status": "done"
  },
  {
   "id": "t0BA090",
@@ -91,8 +91,8 @@
   ],
   "slot": 16,
   "jp": "どの　ダイナに",
-  "en": "",
-  "status": "todo"
+  "en": "Which Dyna",
+  "status": "done"
  },
  {
   "id": "t0BA0A0",
@@ -101,8 +101,8 @@
   ],
   "slot": 16,
   "jp": "あげますか？",
-  "en": "",
-  "status": "todo"
+  "en": "gets it?",
+  "status": "done"
  },
  {
   "id": "t0BA0B0",
@@ -114,8 +114,8 @@
   ],
   "slot": 8,
   "jp": "{%sR0}は",
-  "en": "",
-  "status": "todo"
+  "en": "{%sR0}",
+  "status": "done"
  },
  {
   "id": "t0BA0B8",
@@ -124,8 +124,8 @@
   ],
   "slot": 12,
   "jp": "おなかが",
-  "en": "",
-  "status": "todo"
+  "en": "looks like it's",
+  "status": "done"
  },
  {
   "id": "t0BA0C4",
@@ -134,8 +134,8 @@
   ],
   "slot": 20,
   "jp": "いっぱいのようだ",
-  "en": "",
-  "status": "todo"
+  "en": "full.",
+  "status": "done"
  },
  {
   "id": "t0BA0D8",
@@ -146,8 +146,8 @@
   ],
   "slot": 8,
   "jp": "{%sR0}に",
-  "en": "",
-  "status": "todo"
+  "en": "To {%sR0}:",
+  "status": "done"
  },
  {
   "id": "t0BA0E0",
@@ -158,8 +158,8 @@
   ],
   "slot": 8,
   "jp": "{%sR1}を",
-  "en": "",
-  "status": "todo"
+  "en": "{%sR1}",
+  "status": "done"
  },
  {
   "id": "t0BA0E8",
@@ -168,8 +168,8 @@
   ],
   "slot": 12,
   "jp": "あたえた！",
-  "en": "",
-  "status": "todo"
+  "en": "was given!",
+  "status": "done"
  },
  {
   "id": "t0BA0F4",
@@ -178,8 +178,8 @@
   ],
   "slot": 24,
   "jp": "おなかが　いっぱいに",
-  "en": "",
-  "status": "todo"
+  "en": "It seems to be",
+  "status": "done"
  },
  {
   "id": "t0BA10C",
@@ -188,8 +188,8 @@
   ],
   "slot": 16,
   "jp": "なったようだ",
-  "en": "",
-  "status": "todo"
+  "en": "full now.",
+  "status": "done"
  },
  {
   "id": "t0BA11C",
@@ -198,8 +198,8 @@
   ],
   "slot": 20,
   "jp": "すこし　おなかが",
-  "en": "",
-  "status": "todo"
+  "en": "It seems a little",
+  "status": "done"
  },
  {
   "id": "t0BA130",
@@ -208,8 +208,8 @@
   ],
   "slot": 16,
   "jp": "ふくれたようだ",
-  "en": "",
-  "status": "todo"
+  "en": "less hungry.",
+  "status": "done"
  },
  {
   "id": "t0BA140",
@@ -219,8 +219,8 @@
   ],
   "slot": 24,
   "jp": "どうやら　このエサが",
-  "en": "",
-  "status": "todo"
+  "en": "It seems this food",
+  "status": "done"
  },
  {
   "id": "t0BA158",
@@ -229,8 +229,8 @@
   ],
   "slot": 20,
   "jp": "きにいったらしい",
-  "en": "",
-  "status": "todo"
+  "en": "was a favorite.",
+  "status": "done"
  },
  {
   "id": "t0BA16C",
@@ -239,8 +239,8 @@
   ],
   "slot": 24,
   "jp": "きにいらなかったらしい",
-  "en": "",
-  "status": "todo"
+  "en": "wasn't to its taste.",
+  "status": "done"
  },
  {
   "id": "t0BA184",
@@ -259,8 +259,8 @@
   ],
   "slot": 8,
   "jp": "{%sR0}の",
-  "en": "",
-  "status": "todo"
+  "en": "{%sR0}",
+  "status": "done"
  },
  {
   "id": "t0BA18C",
@@ -269,8 +269,8 @@
   ],
   "slot": 24,
   "jp": "きげんが　よくなった",
-  "en": "",
-  "status": "todo"
+  "en": "is in a better mood.",
+  "status": "done"
  },
  {
   "id": "t0BA1A4",
@@ -279,8 +279,8 @@
   ],
   "slot": 24,
   "jp": "きげんが　わるくなった",
-  "en": "",
-  "status": "todo"
+  "en": "is in a worse mood.",
+  "status": "done"
  },
  {
   "id": "t0BA1BC",
@@ -291,8 +291,8 @@
   ],
   "slot": 16,
   "jp": "つかいますか？",
-  "en": "",
-  "status": "todo"
+  "en": "Use it?",
+  "status": "done"
  },
  {
   "id": "t0BA1CC",
@@ -301,8 +301,8 @@
   ],
   "slot": 16,
   "jp": "かいふくさせる",
-  "en": "",
-  "status": "todo"
+  "en": "It doesn't need",
+  "status": "done"
  },
  {
   "id": "t0BA1DC",
@@ -311,8 +311,8 @@
   ],
   "slot": 24,
   "jp": "ひつようが　ありません",
-  "en": "",
-  "status": "todo"
+  "en": "healing.",
+  "status": "done"
  },
  {
   "id": "t0BA1F4",
@@ -322,8 +322,8 @@
   ],
   "slot": 12,
   "jp": "つかった！",
-  "en": "",
-  "status": "todo"
+  "en": "Used it!",
+  "status": "done"
  },
  {
   "id": "t0BA200",
@@ -332,8 +332,8 @@
   ],
   "slot": 20,
   "jp": "ＨＰが　かんぜんに",
-  "en": "",
-  "status": "todo"
+  "en": "HP fully",
+  "status": "done"
  },
  {
   "id": "t0BA214",
@@ -343,8 +343,8 @@
   ],
   "slot": 16,
   "jp": "かいふくした",
-  "en": "",
-  "status": "todo"
+  "en": "restored!",
+  "status": "done"
  },
  {
   "id": "t0BA224",
@@ -353,8 +353,8 @@
   ],
   "slot": 24,
   "jp": "ＨＰが　{%dR1}ポイント",
-  "en": "",
-  "status": "todo"
+  "en": "{%dR1} HP",
+  "status": "done"
  },
  {
   "id": "t0BA23C",
@@ -363,8 +363,8 @@
   ],
   "slot": 12,
   "jp": "びょうきが",
-  "en": "",
-  "status": "todo"
+  "en": "Its sickness",
+  "status": "done"
  },
  {
   "id": "t0BA248",
@@ -373,8 +373,8 @@
   ],
   "slot": 16,
   "jp": "このアイテムは",
-  "en": "",
-  "status": "todo"
+  "en": "This item",
+  "status": "done"
  },
  {
   "id": "t0BA258",
@@ -383,8 +383,8 @@
   ],
   "slot": 16,
   "jp": "１レベルあたり",
-  "en": "",
-  "status": "todo"
+  "en": "can be used",
+  "status": "done"
  },
  {
   "id": "t0BA268",
@@ -393,8 +393,8 @@
   ],
   "slot": 12,
   "jp": "１かいしか",
-  "en": "",
-  "status": "todo"
+  "en": "only once",
+  "status": "done"
  },
  {
   "id": "t0BA274",
@@ -403,8 +403,8 @@
   ],
   "slot": 16,
   "jp": "つかえません",
-  "en": "",
-  "status": "todo"
+  "en": "per level.",
+  "status": "done"
  },
  {
   "id": "t0BA284",
@@ -416,8 +416,8 @@
   ],
   "slot": 16,
   "jp": "これいじょう",
-  "en": "",
-  "status": "todo"
+  "en": "Beyond this,",
+  "status": "done"
  },
  {
   "id": "t0BA294",
@@ -426,8 +426,8 @@
   ],
   "slot": 24,
   "jp": "ＨＰの　じょうげんは",
-  "en": "",
-  "status": "todo"
+  "en": "max HP",
+  "status": "done"
  },
  {
   "id": "t0BA2AC",
@@ -438,8 +438,8 @@
   ],
   "slot": 16,
   "jp": "あがりません",
-  "en": "",
-  "status": "todo"
+  "en": "won't go up.",
+  "status": "done"
  },
  {
   "id": "t0BA2BC",
@@ -448,8 +448,8 @@
   ],
   "slot": 20,
   "jp": "こうげきりょくは",
-  "en": "",
-  "status": "todo"
+  "en": "Attack",
+  "status": "done"
  },
  {
   "id": "t0BA2D0",
@@ -458,8 +458,8 @@
   ],
   "slot": 20,
   "jp": "ぼうぎょりょくは",
-  "en": "",
-  "status": "todo"
+  "en": "Defense",
+  "status": "done"
  },
  {
   "id": "t0BA2E4",
@@ -468,8 +468,8 @@
   ],
   "slot": 12,
   "jp": "すばやさは",
-  "en": "",
-  "status": "todo"
+  "en": "Speed",
+  "status": "done"
  },
  {
   "id": "t0BA2F0",
@@ -478,8 +478,8 @@
   ],
   "slot": 24,
   "jp": "レベルを　あげてから",
-  "en": "",
-  "status": "todo"
+  "en": "Raise its level",
+  "status": "done"
  },
  {
   "id": "t0BA308",
@@ -488,8 +488,8 @@
   ],
   "slot": 20,
   "jp": "つかってください",
-  "en": "",
-  "status": "todo"
+  "en": "and use it then.",
+  "status": "done"
  },
  {
   "id": "t0BA31C",
@@ -498,8 +498,8 @@
   ],
   "slot": 20,
   "jp": "ＨＰのじょうげんが",
-  "en": "",
-  "status": "todo"
+  "en": "Max HP",
+  "status": "done"
  },
  {
   "id": "t0BA330",
@@ -511,8 +511,8 @@
   ],
   "slot": 24,
   "jp": "１ポイント　あがった！",
-  "en": "",
-  "status": "todo"
+  "en": "went up by 1!",
+  "status": "done"
  },
  {
   "id": "t0BA348",
@@ -521,8 +521,8 @@
   ],
   "slot": 20,
   "jp": "こうげきりょくが",
-  "en": "",
-  "status": "todo"
+  "en": "Attack",
+  "status": "done"
  },
  {
   "id": "t0BA35C",
@@ -531,8 +531,8 @@
   ],
   "slot": 20,
   "jp": "ぼうぎょりょくが",
-  "en": "",
-  "status": "todo"
+  "en": "Defense",
+  "status": "done"
  },
  {
   "id": "t0BA370",
@@ -541,8 +541,8 @@
   ],
   "slot": 12,
   "jp": "すばやさが",
-  "en": "",
-  "status": "todo"
+  "en": "Speed",
+  "status": "done"
  },
  {
   "id": "t0BA37C",
@@ -551,8 +551,8 @@
   ],
   "slot": 16,
   "jp": "どのデバイスに",
-  "en": "",
-  "status": "todo"
+  "en": "Which Device?",
+  "status": "done"
  },
  {
   "id": "t0BA38C",
@@ -561,8 +561,8 @@
   ],
   "slot": 20,
   "jp": "プラスポイントは",
-  "en": "",
-  "status": "todo"
+  "en": "Plus Points are",
+  "status": "done"
  },
  {
   "id": "t0BA3A0",
@@ -571,8 +571,8 @@
   ],
   "slot": 20,
   "jp": "もう　げんかいまで",
-  "en": "",
-  "status": "todo"
+  "en": "already raised",
+  "status": "done"
  },
  {
   "id": "t0BA3B4",
@@ -581,8 +581,8 @@
   ],
   "slot": 20,
   "jp": "あげられています",
-  "en": "",
-  "status": "todo"
+  "en": "to the limit.",
+  "status": "done"
  },
  {
   "id": "t0BA3C8",
@@ -591,8 +591,8 @@
   ],
   "slot": 20,
   "jp": "プラスポイントが",
-  "en": "",
-  "status": "todo"
+  "en": "Plus Points:",
+  "status": "done"
  },
  {
   "id": "t0BA3DC",
@@ -601,8 +601,8 @@
   ],
   "slot": 16,
   "jp": "{%dR1}ポイント",
-  "en": "",
-  "status": "todo"
+  "en": "+{%dR1}",
+  "status": "done"
  },
  {
   "id": "t0BA3EC",
@@ -611,8 +611,8 @@
   ],
   "slot": 12,
   "jp": "あがった！",
-  "en": "",
-  "status": "todo"
+  "en": "Raised!",
+  "status": "done"
  },
  {
   "id": "t0BA3F8",
@@ -622,8 +622,8 @@
   ],
   "slot": 24,
   "jp": "すてても　いいですか？",
-  "en": "",
-  "status": "todo"
+  "en": "Throw it away?",
+  "status": "done"
  },
  {
   "id": "t0BA410",
@@ -633,8 +633,8 @@
   ],
   "slot": 8,
   "jp": "すてた",
-  "en": "",
-  "status": "todo"
+  "en": "Threw it away.",
+  "status": "done"
  },
  {
   "id": "t0BA418",
@@ -644,8 +644,8 @@
   ],
   "slot": 20,
   "jp": "ファクトリキットは",
-  "en": "",
-  "status": "todo"
+  "en": "Factory Kits",
+  "status": "done"
  },
  {
   "id": "t0BA42C",
@@ -655,8 +655,8 @@
   ],
   "slot": 24,
   "jp": "いま　すてられません",
-  "en": "",
-  "status": "todo"
+  "en": "can't be discarded",
+  "status": "done"
  },
  {
   "id": "t0BA444",
@@ -666,8 +666,8 @@
   ],
   "slot": 24,
   "jp": "いちど　ファクトリーを",
-  "en": "",
-  "status": "todo"
+  "en": "until a Factory",
+  "status": "done"
  },
  {
   "id": "t0BA45C",
@@ -677,8 +677,8 @@
   ],
   "slot": 20,
   "jp": "つくってください",
-  "en": "",
-  "status": "todo"
+  "en": "has been built.",
+  "status": "done"
  },
  {
   "id": "t0BA470",
@@ -690,8 +690,8 @@
   ],
   "slot": 20,
   "jp": "ダイナセンターに",
-  "en": "",
-  "status": "todo"
+  "en": "To the Dyna Center:",
+  "status": "done"
  },
  {
   "id": "t0BA484",
@@ -701,8 +701,8 @@
   ],
   "slot": 20,
   "jp": "てんそうしますか？",
-  "en": "",
-  "status": "todo"
+  "en": "Send it?",
+  "status": "done"
  },
  {
   "id": "t0BA498",
@@ -712,8 +712,8 @@
   ],
   "slot": 20,
   "jp": "てんそうしました",
-  "en": "",
-  "status": "todo"
+  "en": "Sent it.",
+  "status": "done"
  },
  {
   "id": "t0BA4AC",
@@ -722,8 +722,8 @@
   ],
   "slot": 20,
   "jp": "あきらめますか？",
-  "en": "",
-  "status": "todo"
+  "en": "Give it up?",
+  "status": "done"
  },
  {
   "id": "t0BA4C0",
@@ -732,8 +732,8 @@
   ],
   "slot": 20,
   "jp": "{C2}でばっぐモード改",
-  "en": "",
-  "status": "todo"
+  "en": "{C2}Debug Mode Kai",
+  "status": "done"
  },
  {
   "id": "t0BA4D4",
@@ -743,8 +743,8 @@
   ],
   "slot": 24,
   "jp": "{C2}アトリビュートオフ",
-  "en": "",
-  "status": "todo"
+  "en": "{C2}Attribute Off",
+  "status": "done"
  },
  {
   "id": "t0BA4EC",
@@ -754,8 +754,8 @@
   ],
   "slot": 24,
   "jp": "{C2}アトリビュートオン",
-  "en": "",
-  "status": "todo"
+  "en": "{C2}Attribute On",
+  "status": "done"
  },
  {
   "id": "t0BA504",
@@ -765,8 +765,8 @@
   ],
   "slot": 24,
   "jp": "{C2}アイテム＝{%03dR1}　　",
-  "en": "",
-  "status": "todo"
+  "en": "{C2}Item={%03dR1}",
+  "status": "done"
  },
  {
   "id": "t0BA51C",
@@ -788,8 +788,8 @@
   ],
   "slot": 24,
   "jp": "{C2}アイテム数＝{%03dR0}",
-  "en": "",
-  "status": "todo"
+  "en": "{C2}Items={%03dR0}",
+  "status": "done"
  },
  {
   "id": "t0BA53C",
@@ -798,8 +798,8 @@
   ],
   "slot": 20,
   "jp": "{C2}リストがめんへ",
-  "en": "",
-  "status": "todo"
+  "en": "{C2}To list screen",
+  "status": "done"
  },
  {
   "id": "t0BA550",
@@ -809,8 +809,8 @@
   ],
   "slot": 32,
   "jp": "{C2}次のイベントまで＝{%03dR0}分",
-  "en": "",
-  "status": "todo"
+  "en": "{C2}Next event in {%03dR0} min",
+  "status": "done"
  },
  {
   "id": "t0BA570",
@@ -819,8 +819,8 @@
   ],
   "slot": 8,
   "jp": "{C2}☆",
-  "en": "",
-  "status": "todo"
+  "en": "{C2}*",
+  "status": "done"
  },
  {
   "id": "t0BA578",
@@ -830,7 +830,7 @@
   "slot": 24,
   "jp": "０１２３４５６７８９",
   "en": "",
-  "status": "todo"
+  "status": "keep"
  },
  {
   "id": "t0BA590",
@@ -839,8 +839,8 @@
   ],
   "slot": 12,
   "jp": "＋{%02dR2}",
-  "en": "",
-  "status": "todo"
+  "en": "+{%02dR2}",
+  "status": "done"
  },
  {
   "id": "t0BA59C",
@@ -860,8 +860,8 @@
   ],
   "slot": 12,
   "jp": "はんよう",
-  "en": "",
-  "status": "todo"
+  "en": "General",
+  "status": "done"
  },
  {
   "id": "t0BA5B0",
@@ -870,8 +870,8 @@
   ],
   "slot": 12,
   "jp": "せんよう",
-  "en": "",
-  "status": "todo"
+  "en": "Dedicated",
+  "status": "done"
  },
  {
   "id": "t0BA5BC",
@@ -880,8 +880,8 @@
   ],
   "slot": 12,
   "jp": "アーマー",
-  "en": "",
-  "status": "todo"
+  "en": "Armor",
+  "status": "done"
  },
  {
   "id": "t0BA5C8",
@@ -890,8 +890,8 @@
   ],
   "slot": 12,
   "jp": "ウェポン",
-  "en": "",
-  "status": "todo"
+  "en": "Weapon",
+  "status": "done"
  },
  {
   "id": "t0BA5D4",
@@ -900,8 +900,8 @@
   ],
   "slot": 12,
   "jp": "すばやさ",
-  "en": "",
-  "status": "todo"
+  "en": "Speed",
+  "status": "done"
  },
  {
   "id": "t0BA5E0",
@@ -910,8 +910,8 @@
   ],
   "slot": 16,
   "jp": "ぼうぎょりょく",
-  "en": "",
-  "status": "todo"
+  "en": "Defense",
+  "status": "done"
  },
  {
   "id": "t0BA5F0",
@@ -920,8 +920,8 @@
   ],
   "slot": 16,
   "jp": "こうげきりょく",
-  "en": "",
-  "status": "todo"
+  "en": "Attack",
+  "status": "done"
  },
  {
   "id": "t0BA600",
@@ -930,8 +930,8 @@
   ],
   "slot": 16,
   "jp": "さいだいＨＰ",
-  "en": "",
-  "status": "todo"
+  "en": "Max HP",
+  "status": "done"
  },
  {
   "id": "t0BA610",
@@ -940,8 +940,8 @@
   ],
   "slot": 16,
   "jp": "しょじきん：",
-  "en": "",
-  "status": "todo"
+  "en": "Money:",
+  "status": "done"
  },
  {
   "id": "t0BA620",
@@ -950,8 +950,8 @@
   ],
   "slot": 12,
   "jp": "{%5dR0}ビット",
-  "en": "",
-  "status": "todo"
+  "en": "{%5dR0} bits",
+  "status": "done"
  },
  {
   "id": "t0BA62C",
@@ -960,8 +960,8 @@
   ],
   "slot": 12,
   "jp": "Ｒボタンで",
-  "en": "",
-  "status": "todo"
+  "en": "R Button: shows",
+  "status": "done"
  },
  {
   "id": "t0BA638",
@@ -970,8 +970,8 @@
   ],
   "slot": 24,
   "jp": "カーソルがあっている",
-  "en": "",
-  "status": "todo"
+  "en": "a description of",
+  "status": "done"
  },
  {
   "id": "t0BA650",
@@ -980,8 +980,8 @@
   ],
   "slot": 24,
   "jp": "アイテムの　せつめいを",
-  "en": "",
-  "status": "todo"
+  "en": "the item the",
+  "status": "done"
  },
  {
   "id": "t0BA668",
@@ -990,8 +990,8 @@
   ],
   "slot": 16,
   "jp": "ひょうじします",
-  "en": "",
-  "status": "todo"
+  "en": "cursor is on.",
+  "status": "done"
  },
  {
   "id": "t0BA678",
@@ -1012,8 +1012,8 @@
   ],
   "slot": 20,
   "jp": "{%dR0}／{%dR1}ページ",
-  "en": "",
-  "status": "todo"
+  "en": "Page {%dR0}/{%dR1}",
+  "status": "done"
  },
  {
   "id": "t0BA694",
@@ -1033,8 +1033,8 @@
   ],
   "slot": 16,
   "jp": "{%03dR0}／{%03dR1}",
-  "en": "",
-  "status": "todo"
+  "en": "{%03dR0}/{%03dR1}",
+  "status": "done"
  },
  {
   "id": "t0BA6AC",
@@ -1043,8 +1043,8 @@
   ],
   "slot": 12,
   "jp": "びょうき",
-  "en": "",
-  "status": "todo"
+  "en": "Sick",
+  "status": "done"
  },
  {
   "id": "t0BA6B8",
@@ -1053,8 +1053,8 @@
   ],
   "slot": 12,
   "jp": "くうふく",
-  "en": "",
-  "status": "todo"
+  "en": "Hungry",
+  "status": "done"
  },
  {
   "id": "t0BA6C4",
@@ -1063,8 +1063,8 @@
   ],
   "slot": 12,
   "jp": "けんこう",
-  "en": "",
-  "status": "todo"
+  "en": "Healthy",
+  "status": "done"
  },
  {
   "id": "t0BA6D0",
@@ -1073,8 +1073,8 @@
   ],
   "slot": 24,
   "jp": "しょじきん：{%5dR0}ビット",
-  "en": "",
-  "status": "todo"
+  "en": "Money: {%5dR0} bits",
+  "status": "done"
  },
  {
   "id": "t0BA6E8",
@@ -1083,8 +1083,8 @@
   ],
   "slot": 16,
   "jp": "マッスルボディ",
-  "en": "",
-  "status": "todo"
+  "en": "Muscle Body",
+  "status": "done"
  },
  {
   "id": "t0BA6F8",
@@ -1093,8 +1093,8 @@
   ],
   "slot": 24,
   "jp": "カーソルが　あっている",
-  "en": "",
-  "status": "todo"
+  "en": "Shows a description",
+  "status": "done"
  },
  {
   "id": "t0BA710",
@@ -1103,8 +1103,8 @@
   ],
   "slot": 24,
   "jp": "アイテムの　せつめいを",
-  "en": "",
-  "status": "todo"
+  "en": "of the item the",
+  "status": "done"
  },
  {
   "id": "t0BA728",
@@ -1113,8 +1113,8 @@
   ],
   "slot": 16,
   "jp": "ひょうじします",
-  "en": "",
-  "status": "todo"
+  "en": "cursor is on.",
+  "status": "done"
  },
  {
   "id": "t0BA738",
@@ -1124,7 +1124,7 @@
   "slot": 16,
   "jp": "　　　　　　　",
   "en": "",
-  "status": "todo"
+  "status": "keep"
  },
  {
   "id": "t0BA748",
@@ -1133,8 +1133,8 @@
   ],
   "slot": 8,
   "jp": "やめる",
-  "en": "",
-  "status": "todo"
+  "en": "Quit",
+  "status": "done"
  },
  {
   "id": "t0BA750",
@@ -1143,8 +1143,8 @@
   ],
   "slot": 8,
   "jp": "ｘ{%dR0}",
-  "en": "",
-  "status": "todo"
+  "en": "x{%dR0}",
+  "status": "done"
  },
  {
   "id": "t0BA758",
@@ -1155,8 +1155,8 @@
   ],
   "slot": 20,
   "jp": "？？？？？？？？",
-  "en": "",
-  "status": "todo"
+  "en": "????????",
+  "status": "done"
  },
  {
   "id": "t0BA76C",
@@ -1165,8 +1165,8 @@
   ],
   "slot": 12,
   "jp": "はんよう",
-  "en": "",
-  "status": "todo"
+  "en": "General",
+  "status": "done"
  },
  {
   "id": "t0BA778",
@@ -1175,8 +1175,8 @@
   ],
   "slot": 12,
   "jp": "せんよう",
-  "en": "",
-  "status": "todo"
+  "en": "Dedicated",
+  "status": "done"
  },
  {
   "id": "t0BA784",
@@ -1185,8 +1185,8 @@
   ],
   "slot": 12,
   "jp": "はんよう",
-  "en": "",
-  "status": "todo"
+  "en": "General",
+  "status": "done"
  },
  {
   "id": "t0BA790",
@@ -1195,8 +1195,8 @@
   ],
   "slot": 12,
   "jp": "せんよう",
-  "en": "",
-  "status": "todo"
+  "en": "Dedicated",
+  "status": "done"
  },
  {
   "id": "t0BA79C",
@@ -1205,8 +1205,8 @@
   ],
   "slot": 24,
   "jp": "そうびできるスタイル",
-  "en": "",
-  "status": "todo"
+  "en": "Equippable styles",
+  "status": "done"
  },
  {
   "id": "t0BA7B4",
@@ -1215,8 +1215,8 @@
   ],
   "slot": 16,
   "jp": "{%sR0}スタイル",
-  "en": "",
-  "status": "todo"
+  "en": "{%sR0} style",
+  "status": "done"
  },
  {
   "id": "t0BA7C4",
@@ -1225,8 +1225,8 @@
   ],
   "slot": 52,
   "jp": "データ　　　　　　　つれていく　　　　　　　にがす",
-  "en": "",
-  "status": "todo"
+  "en": "Data                Take                Release",
+  "status": "done"
  },
  {
   "id": "t0BA7F8",
@@ -1235,8 +1235,8 @@
   ],
   "slot": 44,
   "jp": "ほんとうに　にがしても　よろしいですか？",
-  "en": "",
-  "status": "todo"
+  "en": "Really release it?",
+  "status": "done"
  },
  {
   "id": "t0BA824",
@@ -1245,8 +1245,8 @@
   ],
   "slot": 32,
   "jp": "　　　　　はい　　　　いいえ",
-  "en": "",
-  "status": "todo"
+  "en": "          Yes         No",
+  "status": "done"
  },
  {
   "id": "t0BA844",
@@ -1255,8 +1255,8 @@
   ],
   "slot": 40,
   "jp": "すでに　３たい　つれあるいているため",
-  "en": "",
-  "status": "todo"
+  "en": "You have 3 Dyna with you,",
+  "status": "done"
  },
  {
   "id": "t0BA86C",
@@ -1265,8 +1265,8 @@
   ],
   "slot": 32,
   "jp": "これいじょう　つれていけません",
-  "en": "",
-  "status": "todo"
+  "en": "so you can't take any more.",
+  "status": "done"
  },
  {
   "id": "t0BA88C",
@@ -1275,8 +1275,8 @@
   ],
   "slot": 16,
   "jp": "うけとれます",
-  "en": "",
-  "status": "todo"
+  "en": "can be received.",
+  "status": "done"
  },
  {
   "id": "t0BA89C",
@@ -1285,8 +1285,8 @@
   ],
   "slot": 8,
   "jp": "－－",
-  "en": "",
-  "status": "todo"
+  "en": "--",
+  "status": "done"
  },
  {
   "id": "t0BA8A4",
@@ -1306,8 +1306,8 @@
   ],
   "slot": 16,
   "jp": "ダブルパイル",
-  "en": "",
-  "status": "todo"
+  "en": "Double Pile",
+  "status": "done"
  },
  {
   "id": "t0BA8BC",
@@ -1316,8 +1316,8 @@
   ],
   "slot": 20,
   "jp": "ツインスクリュー",
-  "en": "",
-  "status": "todo"
+  "en": "Twin Screw",
+  "status": "done"
  },
  {
   "id": "t0BA8D0",
@@ -1326,8 +1326,8 @@
   ],
   "slot": 16,
   "jp": "グランエレキ",
-  "en": "",
-  "status": "todo"
+  "en": "Gran Elec",
+  "status": "done"
  },
  {
   "id": "t0BA8E0",
@@ -1336,8 +1336,8 @@
   ],
   "slot": 16,
   "jp": "アースエレキ",
-  "en": "",
-  "status": "todo"
+  "en": "Earth Elec",
+  "status": "done"
  },
  {
   "id": "t0BA8F0",
@@ -1346,8 +1346,8 @@
   ],
   "slot": 12,
   "jp": "グランライ",
-  "en": "",
-  "status": "todo"
+  "en": "Gran Rai",
+  "status": "done"
  },
  {
   "id": "t0BA8FC",

@@ -110,9 +110,9 @@ def check_entry(e, budgets):
             warns.append("no measured budget")
         else:
             px, lines, variant = b
-            if variant.endswith("(guess)"):
-                # an unmeasured window is at least as wide as the JP line the original drew in it
-                px = max([px] + [line_width(line) for line in jp.split("\n")])
+            # a window is at least as wide as the JP line the original drew in it (guessed rows, and measured rows
+            # whose marker sat in a narrower placement than this text's own, e.g. {%03dR0}／{%03dR1} at 58 px)
+            px = max([px] + [line_width(line) for line in jp.split("\n")])
             ls = en.split("\n")
             if len(ls) > lines:
                 errs.append(f"{len(ls)} lines > {lines} ({variant})")

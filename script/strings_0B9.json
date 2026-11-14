@@ -2244,8 +2244,8 @@
   ],
   "slot": 12,
   "jp": "かたづける",
-  "en": "",
-  "status": "todo"
+  "en": "Clean Up",
+  "status": "done"
  },
  {
   "id": "t0B9E00",
@@ -2254,8 +2254,8 @@
   ],
   "slot": 20,
   "jp": "→グラウンド　{%sR0}",
-  "en": "",
-  "status": "todo"
+  "en": "> Ground   {%sR0}",
+  "status": "done"
  },
  {
   "id": "t0B9E14",
@@ -2264,8 +2264,8 @@
   ],
   "slot": 12,
   "jp": "せいちする",
-  "en": "",
-  "status": "todo"
+  "en": "Level",
+  "status": "done"
  },
  {
   "id": "t0B9E20",
@@ -2274,8 +2274,8 @@
   ],
   "slot": 16,
   "jp": "やまを　くずす",
-  "en": "",
-  "status": "todo"
+  "en": "Flatten Hill",
+  "status": "done"
  },
  {
   "id": "t0B9E30",
@@ -2284,8 +2284,8 @@
   ],
   "slot": 12,
   "jp": "うめたてる",
-  "en": "",
-  "status": "todo"
+  "en": "Fill In",
+  "status": "done"
  },
  {
   "id": "t0B9E3C",
@@ -2294,8 +2294,8 @@
   ],
   "slot": 16,
   "jp": "あなを　うめる",
-  "en": "",
-  "status": "todo"
+  "en": "Fill Hole",
+  "status": "done"
  },
  {
   "id": "t0B9E4C",
@@ -2304,8 +2304,8 @@
   ],
   "slot": 20,
   "jp": "→ダスト　　　{%sR0}",
-  "en": "",
-  "status": "todo"
+  "en": "> Dust      {%sR0}",
+  "status": "done"
  },
  {
   "id": "t0B9E60",
@@ -2315,8 +2315,8 @@
   ],
   "slot": 20,
   "jp": "しせつを　こわす",
-  "en": "",
-  "status": "todo"
+  "en": "Demolish",
+  "status": "done"
  },
  {
   "id": "t0B9E74",
@@ -2325,8 +2325,8 @@
   ],
   "slot": 20,
   "jp": "→ダスト　　　{%sR1}",
-  "en": "",
-  "status": "todo"
+  "en": "> Dust      {%sR1}",
+  "status": "done"
  },
  {
   "id": "t0B9E88",
@@ -2335,8 +2335,8 @@
   ],
   "slot": 20,
   "jp": "→メガハウス　{%sR0}",
-  "en": "",
-  "status": "todo"
+  "en": ">Mega House{%sR0}",
+  "status": "done"
  },
  {
   "id": "t0B9E9C",
@@ -2345,8 +2345,8 @@
   ],
   "slot": 16,
   "jp": "ぞうちくする",
-  "en": "",
-  "status": "todo"
+  "en": "Expand",
+  "status": "done"
  },
  {
   "id": "t0B9EAC",
@@ -2377,8 +2377,8 @@
   ],
   "slot": 12,
   "jp": "サブウェイ",
-  "en": "",
-  "status": "todo"
+  "en": "Subway",
+  "status": "done"
  },
  {
   "id": "t0B9EC8",
@@ -2387,8 +2387,8 @@
   ],
   "slot": 16,
   "jp": "ファクトリー",
-  "en": "",
-  "status": "todo"
+  "en": "Factory",
+  "status": "done"
  },
  {
   "id": "t0B9ED8",
@@ -2397,8 +2397,8 @@
   ],
   "slot": 12,
   "jp": "コロシアム",
-  "en": "",
-  "status": "todo"
+  "en": "Colosseum",
+  "status": "done"
  },
  {
   "id": "t0B9EE4",
@@ -2407,8 +2407,8 @@
   ],
   "slot": 20,
   "jp": "アイテム　ショップ",
-  "en": "",
-  "status": "todo"
+  "en": "Item Shop",
+  "status": "done"
  },
  {
   "id": "t0B9EF8",
@@ -2417,8 +2417,8 @@
   ],
   "slot": 8,
   "jp": "ハウス",
-  "en": "",
-  "status": "todo"
+  "en": "House",
+  "status": "done"
  },
  {
   "id": "t0B9F00",
@@ -2500,8 +2500,8 @@
   ],
   "slot": 20,
   "jp": "ーーーーーーーー",
-  "en": "",
-  "status": "todo"
+  "en": "--------",
+  "status": "done"
  },
  {
   "id": "t0B9F44",
@@ -2510,8 +2510,8 @@
   ],
   "slot": 12,
   "jp": "{%02dR0}：",
-  "en": "",
-  "status": "todo"
+  "en": "{%02dR0}:",
+  "status": "done"
  },
  {
   "id": "t0B9F50",
@@ -2520,8 +2520,8 @@
   ],
   "slot": 24,
   "jp": "デバイスの　そうびは",
-  "en": "",
-  "status": "todo"
+  "en": "To equip Devices,",
+  "status": "done"
  },
  {
   "id": "t0B9F68",
@@ -2530,8 +2530,8 @@
   ],
   "slot": 24,
   "jp": "パーティーコマンドか",
-  "en": "",
-  "status": "todo"
+  "en": "choose Party or",
+  "status": "done"
  },
  {
   "id": "t0B9F80",
@@ -2540,8 +2540,8 @@
   ],
   "slot": 24,
   "jp": "じゅうみんコマンドの",
-  "en": "",
-  "status": "todo"
+  "en": "Residents, then",
+  "status": "done"
  },
  {
   "id": "t0B9F98",
@@ -2550,8 +2550,8 @@
   ],
   "slot": 20,
   "jp": "そうびで　できます",
-  "en": "",
-  "status": "todo"
+  "en": "Equip.",
+  "status": "done"
  },
  {
   "id": "t0B9FAC",
@@ -2560,8 +2560,8 @@
   ],
   "slot": 20,
   "jp": "デバイスそざいは",
-  "en": "",
-  "status": "todo"
+  "en": "Device parts:",
+  "status": "done"
  },
  {
   "id": "t0B9FC0",
@@ -2570,8 +2570,8 @@
   ],
   "slot": 16,
   "jp": "ファクトリーで",
-  "en": "",
-  "status": "todo"
+  "en": "at the Factory,",
+  "status": "done"
  },
  {
   "id": "t0B9FD0",
@@ -2580,8 +2580,8 @@
   ],
   "slot": 24,
   "jp": "ようきゅうされたときに",
-  "en": "",
-  "status": "todo"
+  "en": "when requested,",
+  "status": "done"
  },
  {
   "id": "t0B9FE8",
@@ -2590,8 +2590,8 @@
   ],
   "slot": 20,
   "jp": "わたしてください",
-  "en": "",
-  "status": "todo"
+  "en": "hand them over.",
+  "status": "done"
  },
  {
   "id": "t0B9FFC",
@@ -2600,7 +2600,7 @@
   ],
   "slot": 20,
   "jp": "けんちくキットに",
-  "en": "",
-  "status": "todo"
+  "en": "A building kit's",
+  "status": "done"
  }
 ]
