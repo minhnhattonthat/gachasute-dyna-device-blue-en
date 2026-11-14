@@ -2,11 +2,12 @@
 
 Updated at the end of every session. Keep it to what the next session needs; history is in git.
 
-- **Phase:** 6. Translate in progress: all 45 batches merged (5285 done, 179 keep, 72 data, 0 todo); review
-  review round 1 done and fixed (r01); a few Important items left (Next 1). Tools: `tools/pairs.py`,
-  `sh tools/review_run.sh` (codex exec), `tools/show.py ID..` (print entries), brief `docs/reviewer-brief.md`.
-  Last build: `build/dynadevice_blue_en.gba` 2026-11-15 (all batches), sha1 68d1683b..., smoke ok; pilot seen in game
-  (`work/qa/p6_pilot2`, warp `intro` + `MASHA=1`, 6000 frames): English wraps cleanly, ▼ clears the last line.
+- **Phase:** 7. Insert, fit, check: not started. Phase 6 done 2026-11-15: all 45 batches merged (5285 done,
+  179 keep, 72 data, 0 todo), review round 1 fixed (r01), the remaining Important items fixed as r02
+  (`work/tl/r02.out.tsv`; codex re-review of r02 in `docs/review/r02.md`), every Minor in `docs/polish.md`.
+  Tools: `tools/pairs.py`, `sh tools/review_run.sh` (codex exec), `tools/show.py ID..` (print entries).
+  Last build: `build/dynadevice_blue_en.gba` 2026-11-15 (after r02), sha1 c6372207..., smoke ok; `batches.py check`
+  0 problems, lint 0 errors / 322 warnings.
 - **How phase 6 runs (D11):** one agent translates batches in order, itself (Orca: no helpers).
   - Batches: `work/tl/b001..b045.tsv` (gitignored, made once by `tools/batches.py split`; b001-b027 events,
     b028-b045 strings). Do NOT re-split. If work/tl/ is lost, `split` again: it numbers on and skips nothing that
@@ -25,26 +26,20 @@ Updated at the end of every session. Keep it to what the next session needs; his
   script-10 nag (warp.lua), which gets through the Gachasute walk, but it still loops later (script 365 in room 3,
   `work/qa/p6_choice6`). Fix idea: replace timed waits with event-driven segments (wait for SCRIPT n / room), or
   finish the tutorial on the original ROM, save in game, and start these scenes from that .sav (text-independent).
-- **Next:**
-  1. Review pass, first round done: 10 codex reports saved in `docs/review/gNN.md` (all files reviewed). Fixed and
-     merged as fix batch `r01` (`docs/review/r01_fixes.tsv`; ids in work/tl/r01.tsv, `merge r01 --overwrite`):
-     honorifics (Genio-sama, {name}-san, Lord Terry), Navyu contractions, s135.09 Byler kidnap line, star names
-     Segin/Chertan, the switch minigame rule (number = shock switches that way), etc. **Still open (Important):**
-     (a) s437.02-.09 "X Extra followed by Y" -> order-free wording ("when X and Y Extras come back to back");
-     (b) activity register verb "doing {%sR5}" in s493-s496, s549-s552, s565-s568, s577-s580, s585-s588 and
-     "will to do {%sR4}" in s561-s564 -> "enjoying"/"lose all interest in" per voice (g05.md);
-     (c) t0B57EC (reviewer: "the null" vs "none"; check the record in desc_view first), t0BB224 "Elem." (phase 8
-     width check, polish.md), t0B8254 weekdays (deliberate 3-letter + PAD, polish.md: waive). Fix as batch r02,
-     then move every Minor from docs/review/*.md into `docs/polish.md` (one `- [ ] id - note` line each), then
-     re-run `tools/pairs.py` + `sh tools/review_run.sh` only on changed groups if wanted. Then phase 7. Codex's
-     Windows read-only sandbox can't start a shell, so `review_run.sh` pipes brief + glossary + style + pairs on
-     stdin. Never `taskkill /IM codex.exe` (other sessions' codex): kill by PID.
-  2. Phase 7 (name entry): t0B7FE4-t0B8044 (ｇｎｙｃｕｓ＜☆↓＋ ... ｓｅｒｕｓｐｅ▽＞％, pointers 0x0D1EA8-0x0D1ED8,
-     next to the keyboard table) look like a keyboard grid; set to status keep for now, decide with the
-     keyboard layout. `tools/width.py "text" ...` prints a line's pixel width.
-  3. After all batches: review pass (fresh read-only, per file group, `assets/reviewer-brief.md`), Minors to
-     `docs/polish.md`; `tools/lint.py` 0 errors; `batches.py check` 0 problems. Then phase 7.
-- **Done (phase 6, latest session):** b044-b045: combo Extra names (Earth Rai, Bomb Mist...), status-ailment
+- **Next (phase 7, done-when: build green, width/overflow lint clean, control codes matched, `romdiff.py` shows
+  no writes outside allowed ranges):**
+  1. Wire `$SKILL/scripts/romdiff.py` into the build/check (allowed ranges: text blocks, moved-string free space up
+     to 0x749cfc, VWF at 0x7f0000, pointer tables) with the build's write log; fail on any other byte.
+  2. Lint warnings (322): sort them, fix real overflow risks, waive the rest with a reason.
+  3. Name entry: t0B7FE4-t0B8044 (ｇｎｙｃｕｓ＜☆↓＋ ... ｓｅｒｕｓｐｅ▽＞％, pointers 0x0D1EA8-0x0D1ED8, next to the
+     keyboard table 0x0D21F0) look like a keyboard grid; status keep for now. English layout with the 8-char limit;
+     species names <= 64 px and <= 16 bytes. `tools/width.py "text" ...` prints a line's pixel width.
+  4. Review notes: codex's Windows read-only sandbox can't start a shell, so `review_run.sh` pipes brief + glossary
+     + style + pairs on stdin. Never `taskkill /IM codex.exe` (other sessions' codex): kill by PID.
+- **Done (phase 6, last session):** fix batch r02 (s437.02-.09 combos "when X and Y Extras come back to back";
+  activity register verb "enjoying {%sR5}" / "warms up with {%sR5}" / "lose all interest in {%sR4}"; t0B57EC
+  `the "none"`). 31 review Minors added to `docs/polish.md`. t0BB224 "Elem." and t0B8254 weekdays stay in polish.md.
+- **Done (phase 6, session before):** b044-b045: combo Extra names (Earth Rai, Bomb Mist...), status-ailment
   words, link-battle rules and messages, Dyna Database labels, Dyna menu `<@2>Take<@10>Status<@18>Free`
   ("Release" too wide), minigame help (3 games). Blanks t0BAAB0/t0BAF84 kept. Notes in `docs/polish.md` "b044-b045".
 - **Done (phase 6, session before):** b042-b043: item/PDA/calendar/blood type/money diary, link-trade panels,

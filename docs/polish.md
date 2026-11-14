@@ -31,3 +31,36 @@ Minor issues to revisit before release (phase 9 needs every line ticked). `[ ]` 
 - [ ] t0BAF9C/t0BB0C8/t0BB180 "(^^)", "Ashibe Boy", "Iced Latte", "Shady Buyer": default names in the link
   battle / minigame screens (unsure where they show; しょうねんアシベ is a manga title parody).
 - [ ] Minigame help pages t0BB4C4-t0BB7A8 (3 games): line order assumed by pointer order, 4 lines a page.
+
+## Review round 1 Minors (phase 6, codex, docs/review/gNN.md)
+- [ ] (g01) s052.06; s057.00 - 「ふつうじゃないばあい」 means exceptions to the usual scouting result - “not-normal case(s)” sounds translated - “I'll explain the exceptions later.” / “Bingo! This is the exception I mentioned earlier.”
+- [ ] (g01) s054.00 - 「ぜんぜん かんけいないところ」 means a completely irrelevant spot, here an empty square - “somewhere totally unrelated” is unnatural in battle dialogue - “Oops, he hit a spot with nothing there...”
+- [ ] (g01) s074.12 - 「てもち アイテムを へらしてから」 asks the player to reduce their inventory - “Please have fewer items on hand” is awkward - “Please make room in your inventory, then come back to pick it up.”
+- [ ] (g01) s090.00 - 「ぶじ かんせい」 means successfully completed despite the trouble - “finished safely” suggests physical safety - “There was a little trouble, but it is complete now.”
+- [ ] (g02) s104.05 - 「オレさまの　いきざま　みとけ！」 demands that the player witness his determination - “Watch how the great me lives” sounds like a lifestyle demonstration - “I'll climb right back up! Watch the great me make my comeback!{KP}See ya!!”
+- [ ] (g02) s106.05 - 「シティのほうも　まけちゃいそう」 fears being outdone at city building too - “on the city side” is awkward - “You might outdo me at building a city too, not just in battle...”
+- [ ] (g02) s113.07 - 「ノーコメントって　やつですぅ」 invokes the stock phrase “no comment” - “it's a no comment” is unidiomatic - “...is what they told me, so I can't answer thaaat.{KP}It's a trade secret, so 'no comment,' as they saaay... Teehee!”
+- [ ] (g02) s121.06 - 「ライバルであるコイツには　わかってる」 insists his rival understands his excuse - the fronted “That...” clause makes Genio sound stiff - “Sh-shut up! My rival here knows the great me couldn't show my true power!{KP}Right!?”
+- [ ] (g02) s124.02 - 「さきほどから…できなくなってしまっている」 describes an inability continuing since earlier - “a little while ago, I suddenly cannot” mixes incompatible time frames - “The truth is... for some reason, I have been unable to connect to the Dyna Net at all since a little while ago.”
+- [ ] (g03) s128.29 - 「もう てにはいらないと きまったわけでは ない」 means obtaining it again is still possible - “it is not decided that you can never get it” is stiff translationese - “No, you may still have another chance to obtain it.”
+- [ ] (g03) s133.06 - 「バトルを うけるか」 asks whether the player accepts a challenge - “take a battle” is unnatural - “What do you say, kid... Will you accept my challenge?{KP}I'll show you what a Device made from the Giga Diamond can do.”
+- [ ] (g03) s143.25, s147.64 - 「やぼうを くいとめて」 means thwart Byler’s ambitions - “stop Byler's ambitions” is an awkward collocation - Use “Please thwart Byler's ambitions.”
+- [ ] (g04) s150.29 - 「いっきにいくよ？」 means rushing in together/in one go - “We go all at once” sounds stiff and obscures the intended rush - Suggested EN: “{%sR4}-kun... ready?{KP}Let's rush in!”
+- [ ] (g04) s152.06 - 「こんなものは・・・こうだっ！！」 accompanies a furious action against the game - “This whole thing... can go like THIS” is unnatural and weakens the tantrum - Suggested EN: “I won't allow it! Things have to go my way!{KP}Take... THIS!!”
+- [ ] (g04) s153.07, s155.10 - 「ダイナデバイスをたのしんで」 means enjoying the game Dyna Device - “the Dyna Device” makes the title sound like a physical device - Suggested EN: “You can get there by subway, so please visit if you like.{KP}Well then, please keep enjoying Dyna Device!”
+- [ ] (g04) s231.00 - 「リカバリーされました」 reports restoration - “has been recovered” sounds like a lost object was retrieved - Suggested EN: “{%sR4} has been restored.{KN}”
+- [ ] (g04) s272.01 - 「アンタのホンキはしょせんそんなもの」 taunts the player's best effort - “your ‘serious’ amounts to” is awkward English - Suggested EN: “Is that really your best, desuuu?{KN}”
+- [ ] (g04) s275.00–01 - 「このゲーム ボクのかちだ」「まだあきらめずにちょうせんしてくる？」 means “I win; will you challenge me again?” - “This game is my win” and “keep trying, not giving up” sound translated - Suggested EN: “Game over... It's done.{KP}I win.” / “Or do you still want to challenge me?{KN}”
+- [ ] (g05) s406.00 - 「なんでぇ {%sR4}かよ」 means “Oh, it's you” with disappointment - “Whaddaya want” loses the recognition beat - Suggested EN: “...Oh, it's you, {%sR4}.{KP}...Sorry, but can it wait till later?”
+- [ ] (g05) s457.01 - 「ほかの セクタタイプに かえて」 asks to change the nearby sectors - “it” disagrees with the preceding “There are ... sectors” - Suggested EN: “Could you possibly change them to another sector type?”
+- [ ] (g05) s513.00 - 「かっこいいですよね」 is friendly, polite agreement - “Is that not cool?” sounds stiff - Suggested EN: “That is pretty cool, right?”
+- [ ] (g06) s656.00, s659.00 - 「アイテムが いっぱい」: inventory capacity reached - “Your items are full” unnaturally describes the items themselves as containers - Suggested EN: “Your bag is full!”; “Your bag is full. You cannot carry any more.”
+- [ ] (g06) s667.00, s670.00 - 「だれか またせているのではないですか？」: reminder that someone is waiting - “is someone not waiting” is an awkward negative question - Suggested EN: “By the way, is someone waiting for you at the Colosseum?{KP}Please do not forget to go and see them.”
+- [ ] (g07) s719.01–s719.02 - 「ゆうしょうでのみ てにはいる」 describes the prize Dyna - “As your prize, available only…” dangles before “the Dyna Net” - “Your prize is available only to Ranking Battle champions:” / “the Dyna Net has sent you a Draco style Dyna of the {%sR1} element.{KN}”
+- [ ] (g07) s778.00 - 「さっそくですが」 introduces the next step politely - “Right away, please…” sounds like an urgent command - “Now then, please give this little one a name.”
+- [ ] (g07) s814.01 - 「そんな つよい {%sR4}に」 means a gift for the strong player - “for sooo strong {%sR4}” is unnatural English - “For someone as strooong as {%sR4}, here's a present from little old me.”
+- [ ] (g07) s814.05 - 「わたくしの がんばりに…まけちゃった」 playfully says her effort surpassed the player's - “lost…to how hard I tried” is awkward - “{%sR4} tried really haaard, too...{KP}But I tried juuust a teeny bit harder and won. Hehehe.”
+- [ ] (g08) t0B39A4 - 「ついばむ」 = peck at food - “Pick” obscures the bird’s action - suggested EN: “Peck”.
+- [ ] (g09) t0B6AF4 - 「じりょくで かいてんして」 means spinning through magnetism - “spinning by magnets” is unnatural - suggested EN: “spun by magnetism,”.
+- [ ] (g09) t0B6B68 - 「ファクトリーなどの」 means Factory and similar sectors - “Factory-like” suggests resemblance rather than including Factory itself - suggested EN: “or Factory”.
+- [ ] (g10) t0B9C44, t0B9C30, t0B9C18 - 「Ｒボタンを おすと バトルリストから はずすことが できます」 explains removal using R - Assembled English lacks a subject: “With the R Button, from the Battle List can be removed.” - `Remove it` / `from the Battle List` / `with R.`

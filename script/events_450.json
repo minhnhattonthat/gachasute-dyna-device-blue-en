@@ -436,7 +436,7 @@
   "flag": 0,
   "speaker": -1,
   "jp": "そういえば　さっき\n{%sR4}に　きいたんですが{KP}\nきょうは　{%sR5}のひ　だから\nみんなで　{%sR5}するそうですね",
-  "en": "Oh, I just heard from {%sR4}{KP}\nthat today is {%sR5} Day, so\neveryone is doing {%sR5}{KP}\ntogether.",
+  "en": "Oh, I just heard from {%sR4}{KP}\nthat today is {%sR5} Day, so\neveryone is enjoying {%sR5}{KP}\ntogether.",
   "status": "done"
  },
  {
@@ -444,7 +444,7 @@
   "flag": 0,
   "speaker": -1,
   "jp": "そういえば　さっき\n{%sR4}に　きいたんだがよ{KP}\nきょうは　{%sR5}のひ　だから\nみんなで　{%sR5}するんだってな",
-  "en": "Oh yeah, I just heard from\n{%sR4}{KP}\nthat today's {%sR5} Day, so\neverybody's doin' {%sR5}{KP}\ntogether!",
+  "en": "Oh yeah, I just heard from\n{%sR4}{KP}\nthat today's {%sR5} Day, so\neverybody's enjoyin' {%sR5}{KP}\ntogether!",
   "status": "done"
  },
  {
@@ -452,7 +452,7 @@
   "flag": 0,
   "speaker": -1,
   "jp": "そういえば　さっき\n{%sR4}に　きいたんだが{KP}\nきょうは　{%sR5}のひ　だから\nみんなで　{%sR5}するそうだな",
-  "en": "Incidentally, I just heard from\n{%sR4}{KP}\nthat today is {%sR5} Day, so\neveryone shall do {%sR5}{KP}\ntogether.",
+  "en": "Incidentally, I just heard from\n{%sR4}{KP}\nthat today is {%sR5} Day, so\neveryone shall enjoy {%sR5}{KP}\ntogether.",
   "status": "done"
  },
  {
@@ -460,7 +460,7 @@
   "flag": 0,
   "speaker": -1,
   "jp": "そういえば　さっき\n{%sR4}に　きいたんだけど{KP}\nきょうは　{%sR5}のひ　だから\nみんなで　{%sR5}するそうね",
-  "en": "Oh, I just heard from {%sR4}{KP}\nthat today's {%sR5} Day, so\neveryone's doing {%sR5}{KP}\ntogether!",
+  "en": "Oh, I just heard from {%sR4}{KP}\nthat today's {%sR5} Day, so\neveryone's enjoying {%sR5}{KP}\ntogether!",
   "status": "done"
  },
  {
