@@ -748,55 +748,55 @@
   "flag": 0,
   "speaker": -1,
   "jp": "きょうは　あなたの　たんじょうびね\nおめでとう！{KP}\nたいしたものじゃないけど\nプレゼントよ　うけとって！",
-  "en": "",
-  "status": "todo"
+  "en": "Today's your birthday, right? Happy\nbirthday!{KP}\nIt's nothing much, but here's a present for\nyou!",
+  "status": "done"
  },
  {
   "id": "s597.00",
   "flag": 0,
   "speaker": -1,
   "jp": "きょうは　{%sR4}の\nたんじょうびですね{KP}\nプレゼントは　するんですか？\nもし　プレゼントするのでしたら・・・",
-  "en": "",
-  "status": "todo"
+  "en": "Today is {%sR4}'s birthday.{KP}\nAre you giving a present? If you are...",
+  "status": "done"
  },
  {
   "id": "s597.01",
   "flag": 0,
   "speaker": -1,
   "jp": "{%sR5}などが\nよろこばれると　おもいますよ",
-  "en": "",
-  "status": "todo"
+  "en": "I think {%sR5} or something similar\nwould be appreciated.",
+  "status": "done"
  },
  {
   "id": "s598.00",
   "flag": 0,
   "speaker": -1,
   "jp": "きょうは　{%sR4}の\nたんじょうびだな{KP}\nもちろん　プレゼントは　するんだろ？\nもし　プレゼントするんだったら・・・",
-  "en": "",
-  "status": "todo"
+  "en": "Today's {%sR4}'s birthday.{KP}\nYou're givin' a present, right? If you\nare...",
+  "status": "done"
  },
  {
   "id": "s598.01",
   "flag": 0,
   "speaker": -1,
   "jp": "・・・そうだなあ　{%sR5}なんかが\nいいんじゃねえかなあ",
-  "en": "",
-  "status": "todo"
+  "en": "...Lemme think. {%sR5} or somethin'\noughta do it.",
+  "status": "done"
  },
  {
   "id": "s599.00",
   "flag": 0,
   "speaker": -1,
   "jp": "きょうは　{%sR4}の\nたんじょうびか{KP}\nプレゼントは　するのか？\nもし　プレゼントするなら・・・",
-  "en": "",
-  "status": "todo"
+  "en": "So today is {%sR4}'s birthday.{KP}\nWill you give a present? If so...",
+  "status": "done"
  },
  {
   "id": "s599.01",
   "flag": 0,
   "speaker": -1,
   "jp": "{%sR5}なんか　どうだ？\nいい　せんたくだと　おもうが",
-  "en": "",
-  "status": "todo"
+  "en": "How about {%sR5}? I believe it is a\ngood choice.",
+  "status": "done"
  }
 ]

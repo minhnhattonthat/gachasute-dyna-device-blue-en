@@ -4,960 +4,960 @@
   "flag": 0,
   "speaker": -1,
   "jp": "きょうは　{%sR4}の\nたんじょうびね{KP}\nプレゼントは　あげるの？\nもし　プレゼントするならね・・・",
-  "en": "",
-  "status": "todo"
+  "en": "Today's {%sR4}'s birthday!{KP}\nAre you giving a present? If you are...",
+  "status": "done"
  },
  {
   "id": "s600.01",
   "flag": 0,
   "speaker": -1,
   "jp": "わたしは　{%sR5}なんか\nいいと　おもうよ",
-  "en": "",
-  "status": "todo"
+  "en": "I think {%sR5} would be nice!",
+  "status": "done"
  },
  {
   "id": "s601.00",
   "flag": 0,
   "speaker": -1,
   "jp": "なぜか　いま　むしょうに\n{%sR0}が　たべたいんです・・・",
-  "en": "",
-  "status": "todo"
+  "en": "For some reason I am simply dying to eat\n{%sR0} right now...",
+  "status": "done"
  },
  {
   "id": "s601.01",
   "flag": 0,
   "speaker": -1,
   "jp": "もし　てに　はいりましたら\nわたしに　いただけませんでしょうか？",
-  "en": "",
-  "status": "todo"
+  "en": "If you happen to get some, could I please\nhave it?",
+  "status": "done"
  },
  {
   "id": "s601.02",
   "flag": 0,
   "speaker": -1,
   "jp": "もしや　それは　{%sR0}では\nありませんか！？",
-  "en": "",
-  "status": "todo"
+  "en": "Could that be... {%sR0}!?",
+  "status": "done"
  },
  {
   "id": "s601.03",
   "flag": 0,
   "speaker": -1,
   "jp": "よろしかったら　わたしに\nいただけませんでしょうか？{KP}\n{%sR0}を　あげる？\n　　　　　はい　　　　いいえ{KN}",
-  "en": "",
-  "status": "todo"
+  "en": "If you do not mind, may I have it?{KP}Give {%sR0}?\n          Yes         No{KN}",
+  "status": "done"
  },
  {
   "id": "s601.04",
   "flag": 0,
   "speaker": -1,
   "jp": "ありがとうございます！\nほしかったんですよ　これ！",
-  "en": "",
-  "status": "todo"
+  "en": "Thank you so much! I really wanted this!",
+  "status": "done"
  },
  {
   "id": "s601.05",
   "flag": 0,
   "speaker": -1,
   "jp": "おれいといっては　なんですが\nこれを　うけとってください",
-  "en": "",
-  "status": "todo"
+  "en": "It is only a small thank-you, but please\naccept this.",
+  "status": "done"
  },
  {
   "id": "s601.06",
   "flag": 0,
   "speaker": -1,
   "jp": "そうですか・・・ざんねんです{KP}\nもしも　きが　かわったら\nよろしく　おねがいします",
-  "en": "",
-  "status": "todo"
+  "en": "I see... What a shame.{KP}\nIf you change your mind, please do come\nback.",
+  "status": "done"
  },
  {
   "id": "s602.00",
   "flag": 0,
   "speaker": -1,
   "jp": "なんか　いま　むしょうに\n{%sR0}が　たべたいんだよな・・・",
-  "en": "",
-  "status": "todo"
+  "en": "Man, I'm just dyin' to eat {%sR0}\nright now...",
+  "status": "done"
  },
  {
   "id": "s602.01",
   "flag": 0,
   "speaker": -1,
   "jp": "もし　てに　はいったら\nオレに　くれねぇかな？",
-  "en": "",
-  "status": "todo"
+  "en": "If you get your hands on some, give it to\nme, yeah?",
+  "status": "done"
  },
  {
   "id": "s602.02",
   "flag": 0,
   "speaker": -1,
   "jp": "まさか　そりゃ　{%sR0}じゃ\nねぇか！？",
-  "en": "",
-  "status": "todo"
+  "en": "No way, is that {%sR0}!?",
+  "status": "done"
  },
  {
   "id": "s602.03",
   "flag": 0,
   "speaker": -1,
   "jp": "おい！　それ　オレに　くれ！　なっ？{KP}\n{%sR0}を　あげる？\n　　　　　はい　　　　いいえ{KN}",
-  "en": "",
-  "status": "todo"
+  "en": "Hey! Gimme that! C'mon!{KP}Give {%sR0}?\n          Yes         No{KN}",
+  "status": "done"
  },
  {
   "id": "s602.04",
   "flag": 0,
   "speaker": -1,
   "jp": "やったぜ！　ありがとうよ！\nほしかったんだよ　これ！",
-  "en": "",
-  "status": "todo"
+  "en": "All right! Thanks a bunch! I wanted this!",
+  "status": "done"
  },
  {
   "id": "s602.05",
   "flag": 0,
   "speaker": -1,
   "jp": "おれいといっちゃ　なんだが\nこいつを　もらってやってくれ",
-  "en": "",
-  "status": "todo"
+  "en": "It ain't much of a thank-you, but take\nthis.",
+  "status": "done"
  },
  {
   "id": "s602.06",
   "flag": 0,
   "speaker": -1,
   "jp": "ちっ・・・なんでぇ　ケチ！\nまぁ　きが　かわったら　またこいよ",
-  "en": "",
-  "status": "todo"
+  "en": "Tch... What a cheapskate!{KP}\nWell, come back if you change your mind.",
+  "status": "done"
  },
  {
   "id": "s603.00",
   "flag": 0,
   "speaker": -1,
   "jp": "いま　わたしは\n{%sR0}を　ひつようと　している",
-  "en": "",
-  "status": "todo"
+  "en": "At present, I am in need of\n{%sR0}.",
+  "status": "done"
  },
  {
   "id": "s603.01",
   "flag": 0,
   "speaker": -1,
   "jp": "もし　てに　はいったときには\nぜひ　わたしに　ゆずってほしい",
-  "en": "",
-  "status": "todo"
+  "en": "Should you come by some, I would ask that\nyou let me have it.",
+  "status": "done"
  },
  {
   "id": "s603.02",
   "flag": 0,
   "speaker": -1,
   "jp": "・・・それは・・・\n{%sR0}か？",
-  "en": "",
-  "status": "todo"
+  "en": "...That is... {%sR0}?",
+  "status": "done"
  },
  {
   "id": "s603.03",
   "flag": 0,
   "speaker": -1,
   "jp": "すまぬ・・・わたしに　ゆずってくれ{KP}\n{%sR0}を　あげる？\n　　　　　はい　　　　いいえ{KN}",
-  "en": "",
-  "status": "todo"
+  "en": "Forgive me... Let me have it.{KP}Give {%sR0}?\n          Yes         No{KN}",
+  "status": "done"
  },
  {
   "id": "s603.04",
   "flag": 0,
   "speaker": -1,
   "jp": "おんに　きるぞ\nこれを　さがしていたのだ",
-  "en": "",
-  "status": "todo"
+  "en": "I am in your debt. I was looking for this.",
+  "status": "done"
  },
  {
   "id": "s603.05",
   "flag": 0,
   "speaker": -1,
   "jp": "れいといっては　なんだが　これを　やろう",
-  "en": "",
-  "status": "todo"
+  "en": "A small token of thanks. Take this.",
+  "status": "done"
  },
  {
   "id": "s603.06",
   "flag": 0,
   "speaker": -1,
   "jp": "そうか・・・ざんねんだ{KP}\nもし　きが　かわったら\nよろしく　たのむ",
-  "en": "",
-  "status": "todo"
+  "en": "I see... A pity.{KP}\nShould you change your mind, I am\ncounting on you.",
+  "status": "done"
  },
  {
   "id": "s604.00",
   "flag": 0,
   "speaker": -1,
   "jp": "なぜか　いま　すごく\n{%sR0}が　たべたいの",
-  "en": "",
-  "status": "todo"
+  "en": "For some reason I really, really want to\neat {%sR0}.",
+  "status": "done"
  },
  {
   "id": "s604.01",
   "flag": 0,
   "speaker": -1,
   "jp": "もしも　ゲットできたら\nわたしに　ちょうだい！",
-  "en": "",
-  "status": "todo"
+  "en": "If you get some, give it to me!",
+  "status": "done"
  },
  {
   "id": "s604.02",
   "flag": 0,
   "speaker": -1,
   "jp": "もしかして　それって　{%sR0}！？{KP}\nちょうだい！　わたしに\nちょうだい！",
-  "en": "",
-  "status": "todo"
+  "en": "Wait, is that {%sR0}!?{KP}\nGimme! Give it to me!",
+  "status": "done"
  },
  {
   "id": "s604.03",
   "flag": 0,
   "speaker": -1,
   "jp": "{%sR0}を　あげる？\n　　　　　はい　　　　いいえ{KN}",
-  "en": "",
-  "status": "todo"
+  "en": "Give {%sR0}?\n          Yes         No{KN}",
+  "status": "done"
  },
  {
   "id": "s604.04",
   "flag": 0,
   "speaker": -1,
   "jp": "やったー！　ありがとう！\nほしかったのよ　これ！",
-  "en": "",
-  "status": "todo"
+  "en": "Yaaay! Thank you! I wanted this!",
+  "status": "done"
  },
  {
   "id": "s604.05",
   "flag": 0,
   "speaker": -1,
   "jp": "おれいといっては　なんだけど\nこれ　うけとって！",
-  "en": "",
-  "status": "todo"
+  "en": "It's just a little thank-you, but take\nthis!",
+  "status": "done"
  },
  {
   "id": "s604.06",
   "flag": 0,
   "speaker": -1,
   "jp": "えー・・・ざんねんだなぁ{KP}\nもしも　きが　かわったら\nまた　きてね",
-  "en": "",
-  "status": "todo"
+  "en": "Awww... That's too bad.{KP}\nIf you change your mind, come back,\nokay?",
+  "status": "done"
  },
  {
   "id": "s605.00",
   "flag": 0,
   "speaker": -1,
   "jp": "あ　ちょうどいいところに\nいらっしゃいました",
-  "en": "",
-  "status": "todo"
+  "en": "Oh, you came at just the right time.",
+  "status": "done"
  },
  {
   "id": "s605.01",
   "flag": 0,
   "speaker": -1,
   "jp": "じつは　へやの　かたづけを　していたら\nいらない{%sR0}が　でてきたんです",
-  "en": "",
-  "status": "todo"
+  "en": "I was tidying my room, and I found\n{%sR0} I do not need.",
+  "status": "done"
  },
  {
   "id": "s605.02",
   "flag": 0,
   "speaker": -1,
   "jp": "よろしかったら　もらっていって\nいただけないでしょうか？",
-  "en": "",
-  "status": "todo"
+  "en": "If you would like it, would you please take\nit?",
+  "status": "done"
  },
  {
   "id": "s605.03",
   "flag": 0,
   "speaker": -1,
   "jp": "{%sR0}を　もらう？\n　　　　　はい　　　　いいえ{KN}",
-  "en": "",
-  "status": "todo"
+  "en": "Take {%sR0}?\n          Yes         No{KN}",
+  "status": "done"
  },
  {
   "id": "s605.04",
   "flag": 0,
   "speaker": -1,
   "jp": "ありがとうございます！　はい　どうぞ！",
-  "en": "",
-  "status": "todo"
+  "en": "Thank you so much! Here you are!",
+  "status": "done"
  },
  {
   "id": "s605.05",
   "flag": 0,
   "speaker": -1,
   "jp": "そうですか・・・ざんねんです{KP}\nそれでは　これは　わたしの　ほうで\nしょぶんしてしまいますね",
-  "en": "",
-  "status": "todo"
+  "en": "I see... What a shame.{KP}\nThen I suppose I will get rid of it\nmyself.",
+  "status": "done"
  },
  {
   "id": "s606.00",
   "flag": 0,
   "speaker": -1,
   "jp": "お　ちょうどいいところに　きたじゃねぇか{KP}\nじつは　へやを　かたづけてたら\nいらない{%sR0}が　でてきてよ",
-  "en": "",
-  "status": "todo"
+  "en": "Oh, you showed up at just the right\ntime!{KP}\nI was cleanin' my room and found\n{%sR0} I don't need.",
+  "status": "done"
  },
  {
   "id": "s606.01",
   "flag": 0,
   "speaker": -1,
   "jp": "よかったら　もらっていって\nくれねぇかな？",
-  "en": "",
-  "status": "todo"
+  "en": "Want it? Take it off my hands.",
+  "status": "done"
  },
  {
   "id": "s606.02",
   "flag": 0,
   "speaker": -1,
   "jp": "{%sR0}を　もらう？\n　　　　　はい　　　　いいえ{KN}",
-  "en": "",
-  "status": "todo"
+  "en": "Take {%sR0}?\n          Yes         No{KN}",
+  "status": "done"
  },
  {
   "id": "s606.03",
   "flag": 0,
   "speaker": -1,
   "jp": "ありがとよ！　ほれ　もってけ！",
-  "en": "",
-  "status": "todo"
+  "en": "Thanks! Here, take it!",
+  "status": "done"
  },
  {
   "id": "s606.04",
   "flag": 0,
   "speaker": -1,
   "jp": "そうか・・・いらねぇか{KP}\nじゃ　これは　オレの　ほうで\nしょぶんしちまうからな",
-  "en": "",
-  "status": "todo"
+  "en": "Huh... You don't want it?{KP}\nThen I'll just get rid of it myself.",
+  "status": "done"
  },
  {
   "id": "s607.00",
   "flag": 0,
   "speaker": -1,
   "jp": "ちょうどいいところに　きたな{KP}\nじつは　へやの　かたづけを　していたのだが\nいらない{%sR0}が　でてきたのだ",
-  "en": "",
-  "status": "todo"
+  "en": "You have come at a good time.{KP}\nI was tidying my room and found\n{%sR0} I have no use for.",
+  "status": "done"
  },
  {
   "id": "s607.01",
   "flag": 0,
   "speaker": -1,
   "jp": "よかったら　もっていってくれないか？",
-  "en": "",
-  "status": "todo"
+  "en": "Would you take it, if you like?",
+  "status": "done"
  },
  {
   "id": "s607.02",
   "flag": 0,
   "speaker": -1,
   "jp": "{%sR0}を　もらう？\n　　　　　はい　　　　いいえ{KN}",
-  "en": "",
-  "status": "todo"
+  "en": "Take {%sR0}?\n          Yes         No{KN}",
+  "status": "done"
  },
  {
   "id": "s607.03",
   "flag": 0,
   "speaker": -1,
   "jp": "おんに　きるぞ・・・さあ　もっていけ",
-  "en": "",
-  "status": "todo"
+  "en": "I am in your debt... Now, take it.",
+  "status": "done"
  },
  {
   "id": "s607.04",
   "flag": 0,
   "speaker": -1,
   "jp": "そうか・・・まぁ　しかたあるまい{KP}\nでは　これは　わたしの　ほうで\nしょぶんすることにする",
-  "en": "",
-  "status": "todo"
+  "en": "I see... Well, it cannot be helped.{KP}\nThen I shall dispose of it myself.",
+  "status": "done"
  },
  {
   "id": "s608.00",
   "flag": 0,
   "speaker": -1,
   "jp": "あ　ちょうどいいとこに　きたね！{KP}\nじつは　へやの　おかたづけ　してたら\nいらない{%sR0}が　でてきたの",
-  "en": "",
-  "status": "todo"
+  "en": "Oh, you came at just the right time!{KP}\nI was tidying up my room and found\n{%sR0} I don't need.",
+  "status": "done"
  },
  {
   "id": "s608.01",
   "flag": 0,
   "speaker": -1,
   "jp": "よかったら　もらっていって",
-  "en": "",
-  "status": "todo"
+  "en": "Take it if you want!",
+  "status": "done"
  },
  {
   "id": "s608.02",
   "flag": 0,
   "speaker": -1,
   "jp": "{%sR0}を　もらう？\n　　　　　はい　　　　いいえ{KN}",
-  "en": "",
-  "status": "todo"
+  "en": "Take {%sR0}?\n          Yes         No{KN}",
+  "status": "done"
  },
  {
   "id": "s608.03",
   "flag": 0,
   "speaker": -1,
   "jp": "ありがとう！　じゃ　はい　これ！",
-  "en": "",
-  "status": "todo"
+  "en": "Thank you! Okay, here you go!",
+  "status": "done"
  },
  {
   "id": "s608.04",
   "flag": 0,
   "speaker": -1,
   "jp": "そっか・・・ざんねんだなぁ{KP}\nじゃあ　これは　わたしの　ほうで\nしょぶんしちゃうね",
-  "en": "",
-  "status": "todo"
+  "en": "Oh... That's too bad.{KP}\nThen I'll just get rid of it myself.",
+  "status": "done"
  },
  {
   "id": "s609.00",
   "flag": 0,
   "speaker": -1,
   "jp": "あ　ちょうどいいところに\nいらっしゃいました",
-  "en": "",
-  "status": "todo"
+  "en": "Oh, you came at just the right time.",
+  "status": "done"
  },
  {
   "id": "s609.01",
   "flag": 0,
   "speaker": -1,
   "jp": "じつは　へやの　かたづけを　していたら\n{%sR0}を　みつけたんです",
-  "en": "",
-  "status": "todo"
+  "en": "I was tidying my room, and I found\n{%sR0}.",
+  "status": "done"
  },
  {
   "id": "s609.02",
   "flag": 0,
   "speaker": -1,
   "jp": "よろしかったら　{%dR2}ビットで\nおゆずりしますが　どうですか？",
-  "en": "",
-  "status": "todo"
+  "en": "If you like, I could let you have it for\n{%dR2} bits. What do you say?",
+  "status": "done"
  },
  {
   "id": "s609.03",
   "flag": 0,
   "speaker": -1,
   "jp": "{%sR0}を　かう？\n　　　　　はい　　　　いいえ{KN}",
-  "en": "",
-  "status": "todo"
+  "en": "Buy {%sR0}?\n          Yes         No{KN}",
+  "status": "done"
  },
  {
   "id": "s609.04",
   "flag": 0,
   "speaker": -1,
   "jp": "ありがとうございます！　はい　どうぞ！",
-  "en": "",
-  "status": "todo"
+  "en": "Thank you so much! Here you are!",
+  "status": "done"
  },
  {
   "id": "s609.05",
   "flag": 0,
   "speaker": -1,
   "jp": "そうですか・・・ざんねんです{KP}\nそれでは　ほかの　ひとを\nあたってみることにしますね",
-  "en": "",
-  "status": "todo"
+  "en": "I see... What a shame.{KP}\nThen I will try asking someone else.",
+  "status": "done"
  },
  {
   "id": "s609.06",
   "flag": 0,
   "speaker": -1,
   "jp": "おや？　ざんねんながら　おかねが\nたりないみたいですね・・・",
-  "en": "",
-  "status": "todo"
+  "en": "Oh? I am afraid you do not seem to have\nenough money...",
+  "status": "done"
  },
  {
   "id": "s609.07",
   "flag": 0,
   "speaker": -1,
   "jp": "また　きかいが　ありましたら\nおねがいします",
-  "en": "",
-  "status": "todo"
+  "en": "If another chance comes along, please\nconsider it.",
+  "status": "done"
  },
  {
   "id": "s610.00",
   "flag": 0,
   "speaker": -1,
   "jp": "お　ちょうどいいところに　きたじゃねぇか{KP}\nじつは　へやを　かたづけてたら\n{%sR0}を　みつけたんだけどよ",
-  "en": "",
-  "status": "todo"
+  "en": "Oh, you showed up at just the right\ntime!{KP}\nI was cleanin' my room and found\n{%sR0}.",
+  "status": "done"
  },
  {
   "id": "s610.01",
   "flag": 0,
   "speaker": -1,
   "jp": "よかったら　{%dR2}ビットで\nかわねぇか？？",
-  "en": "",
-  "status": "todo"
+  "en": "Wanna buy it for {%dR2} bits??",
+  "status": "done"
  },
  {
   "id": "s610.02",
   "flag": 0,
   "speaker": -1,
   "jp": "{%sR0}を　かう？\n　　　　　はい　　　　いいえ{KN}",
-  "en": "",
-  "status": "todo"
+  "en": "Buy {%sR0}?\n          Yes         No{KN}",
+  "status": "done"
  },
  {
   "id": "s610.03",
   "flag": 0,
   "speaker": -1,
   "jp": "ありがとよ！　ほれ　もってけ！",
-  "en": "",
-  "status": "todo"
+  "en": "Thanks! Here, take it!",
+  "status": "done"
  },
  {
   "id": "s610.04",
   "flag": 0,
   "speaker": -1,
   "jp": "そうか・・・いらねぇか{KP}\nじゃ　ほかの　ヤツを\nあたってみることにするぜ",
-  "en": "",
-  "status": "todo"
+  "en": "Huh... You don't want it?{KP}\nThen I'll go find somebody else.",
+  "status": "done"
  },
  {
   "id": "s610.05",
   "flag": 0,
   "speaker": -1,
   "jp": "ん？　かねが　たりねぇみたいだぜ？\nしょうがねぇな・・・",
-  "en": "",
-  "status": "todo"
+  "en": "Hm? Looks like you ain't got enough cash.\nOh well...",
+  "status": "done"
  },
  {
   "id": "s610.06",
   "flag": 0,
   "speaker": -1,
   "jp": "まぁ　また　こんどの　きかいにでも\nよろしくたのむぜ",
-  "en": "",
-  "status": "todo"
+  "en": "Well, maybe next time, then!",
+  "status": "done"
  },
  {
   "id": "s611.00",
   "flag": 0,
   "speaker": -1,
   "jp": "ちょうどいいところに　きたな{KP}\nじつは　へやの　かたづけを　していたのだが\n{%sR0}を　みつけたのだ",
-  "en": "",
-  "status": "todo"
+  "en": "You have come at a good time.{KP}\nI was tidying my room and found\n{%sR0}.",
+  "status": "done"
  },
  {
   "id": "s611.01",
   "flag": 0,
   "speaker": -1,
   "jp": "よかったら　{%dR2}ビットで\nかわないか？",
-  "en": "",
-  "status": "todo"
+  "en": "Would you buy it for {%dR2} bits?",
+  "status": "done"
  },
  {
   "id": "s611.02",
   "flag": 0,
   "speaker": -1,
   "jp": "{%sR0}を　かう？\n　　　　　はい　　　　いいえ{KN}",
-  "en": "",
-  "status": "todo"
+  "en": "Buy {%sR0}?\n          Yes         No{KN}",
+  "status": "done"
  },
  {
   "id": "s611.03",
   "flag": 0,
   "speaker": -1,
   "jp": "おんに　きるぞ・・・さあ　もっていけ",
-  "en": "",
-  "status": "todo"
+  "en": "I am in your debt... Now, take it.",
+  "status": "done"
  },
  {
   "id": "s611.04",
   "flag": 0,
   "speaker": -1,
   "jp": "そうか・・・まぁ　しかたあるまい{KP}\nでは　ほかの　ものを\nあたってみることにする",
-  "en": "",
-  "status": "todo"
+  "en": "I see... Well, it cannot be helped.{KP}\nThen I shall try someone else.",
+  "status": "done"
  },
  {
   "id": "s611.05",
   "flag": 0,
   "speaker": -1,
   "jp": "どうやら　かねが　たりないようだな\nしかたあるまい・・・",
-  "en": "",
-  "status": "todo"
+  "en": "It seems you lack the money. It cannot be\nhelped...",
+  "status": "done"
  },
  {
   "id": "s611.06",
   "flag": 0,
   "speaker": -1,
   "jp": "また　つぎの　きかいが　あれば\nそのときは　たのむ",
-  "en": "",
-  "status": "todo"
+  "en": "Should there be another chance, I will\ncount on you then.",
+  "status": "done"
  },
  {
   "id": "s612.00",
   "flag": 0,
   "speaker": -1,
   "jp": "あ　ちょうどいいとこに　きたね！{KP}\nじつは　へやの　おかたづけ　してたら\n{%sR0}を　みつけたの",
-  "en": "",
-  "status": "todo"
+  "en": "Oh, you came at just the right time!{KP}\nI was tidying up my room and found\n{%sR0}.",
+  "status": "done"
  },
  {
   "id": "s612.01",
   "flag": 0,
   "speaker": -1,
   "jp": "よかったら　{%dR2}ビットで\nかわない？",
-  "en": "",
-  "status": "todo"
+  "en": "Want to buy it for {%dR2} bits?",
+  "status": "done"
  },
  {
   "id": "s612.02",
   "flag": 0,
   "speaker": -1,
   "jp": "{%sR0}を　かう？\n　　　　　はい　　　　いいえ{KN}",
-  "en": "",
-  "status": "todo"
+  "en": "Buy {%sR0}?\n          Yes         No{KN}",
+  "status": "done"
  },
  {
   "id": "s612.03",
   "flag": 0,
   "speaker": -1,
   "jp": "ありがとう！　じゃ　はい　これ！",
-  "en": "",
-  "status": "todo"
+  "en": "Thank you! Okay, here you go!",
+  "status": "done"
  },
  {
   "id": "s612.04",
   "flag": 0,
   "speaker": -1,
   "jp": "そっか・・・ざんねんだなぁ{KP}\nじゃあ　ほかの　ひとを\nあたってみることにするね",
-  "en": "",
-  "status": "todo"
+  "en": "Oh... That's too bad.{KP}\nThen I'll try someone else.",
+  "status": "done"
  },
  {
   "id": "s612.05",
   "flag": 0,
   "speaker": -1,
   "jp": "あ　ざんねん・・・\nおかねが　たりないみたい",
-  "en": "",
-  "status": "todo"
+  "en": "Aw, too bad... Looks like you don't have\nenough money.",
+  "status": "done"
  },
  {
   "id": "s612.06",
   "flag": 0,
   "speaker": -1,
   "jp": "また　こんど　こういうことが　あったら\nそのときは　よろしくね",
-  "en": "",
-  "status": "todo"
+  "en": "If something like this comes up again, think\nof me, okay?",
+  "status": "done"
  },
  {
   "id": "s613.00",
   "flag": 0,
   "speaker": -1,
   "jp": "もしや　それは　{%sR0}では\nありませんか！？",
-  "en": "",
-  "status": "todo"
+  "en": "Could that be... {%sR0}!?",
+  "status": "done"
  },
  {
   "id": "s613.01",
   "flag": 0,
   "speaker": -1,
   "jp": "よろしかったら　{%dR2}ビットで\nうっては　いただけないでしょうか？",
-  "en": "",
-  "status": "todo"
+  "en": "If you do not mind, would you sell it to me\nfor {%dR2} bits?",
+  "status": "done"
  },
  {
   "id": "s613.02",
   "flag": 0,
   "speaker": -1,
   "jp": "{%sR0}を　うってあげる？\n　　　　　はい　　　　いいえ{KN}",
-  "en": "",
-  "status": "todo"
+  "en": "Sell {%sR0}?\n          Yes         No{KN}",
+  "status": "done"
  },
  {
   "id": "s613.03",
   "flag": 0,
   "speaker": -1,
   "jp": "ありがとうございます！\nほしかったんですよ　これ！",
-  "en": "",
-  "status": "todo"
+  "en": "Thank you so much! I really wanted this!",
+  "status": "done"
  },
  {
   "id": "s613.04",
   "flag": 0,
   "speaker": -1,
   "jp": "{%sR4}は\n{%dR2}ビットを　てにいれた！{KN}",
-  "en": "",
-  "status": "todo"
+  "en": "{%sR4} got {%dR2} bits!{KN}",
+  "status": "done"
  },
  {
   "id": "s613.05",
   "flag": 0,
   "speaker": -1,
   "jp": "そうですか・・・ざんねんです{KP}\nもしも　きが　かわったら\nよろしく　おねがいします",
-  "en": "",
-  "status": "todo"
+  "en": "I see... What a shame.{KP}\nIf you change your mind, please do come\nback.",
+  "status": "done"
  },
  {
   "id": "s614.00",
   "flag": 0,
   "speaker": -1,
   "jp": "まさか　そりゃ　{%sR0}じゃ\nねぇか！？",
-  "en": "",
-  "status": "todo"
+  "en": "No way, is that {%sR0}!?",
+  "status": "done"
  },
  {
   "id": "s614.01",
   "flag": 0,
   "speaker": -1,
   "jp": "おい！　それ　オレに　{%dR2}ビットで\nうってくれ！　なっ？",
-  "en": "",
-  "status": "todo"
+  "en": "Hey! Sell it to me for {%dR2} bits!\nC'mon!",
+  "status": "done"
  },
  {
   "id": "s614.02",
   "flag": 0,
   "speaker": -1,
   "jp": "{%sR0}を　うってあげる？\n　　　　　はい　　　　いいえ{KN}",
-  "en": "",
-  "status": "todo"
+  "en": "Sell {%sR0}?\n          Yes         No{KN}",
+  "status": "done"
  },
  {
   "id": "s614.03",
   "flag": 0,
   "speaker": -1,
   "jp": "やったぜ！　ありがとうよ！\nほしかったんだよ　これ！",
-  "en": "",
-  "status": "todo"
+  "en": "All right! Thanks a bunch! I wanted this!",
+  "status": "done"
  },
  {
   "id": "s614.04",
   "flag": 0,
   "speaker": -1,
   "jp": "{%sR4}は\n{%dR2}ビットを　てにいれた！{KN}",
-  "en": "",
-  "status": "todo"
+  "en": "{%sR4} got {%dR2} bits!{KN}",
+  "status": "done"
  },
  {
   "id": "s614.05",
   "flag": 0,
   "speaker": -1,
   "jp": "ちっ・・・なんでぇ　ケチ！\nまぁ　きが　かわったら　またこいよ",
-  "en": "",
-  "status": "todo"
+  "en": "Tch... What a cheapskate!{KP}\nWell, come back if you change your mind.",
+  "status": "done"
  },
  {
   "id": "s615.00",
   "flag": 0,
   "speaker": -1,
   "jp": "・・・それは・・・\n{%sR0}か？",
-  "en": "",
-  "status": "todo"
+  "en": "...That is... {%sR0}?",
+  "status": "done"
  },
  {
   "id": "s615.01",
   "flag": 0,
   "speaker": -1,
   "jp": "すまぬ・・・わたしに　{%dR2}ビットで\nゆずってくれ",
-  "en": "",
-  "status": "todo"
+  "en": "Forgive me... Let me have it for {%dR2}\nbits.",
+  "status": "done"
  },
  {
   "id": "s615.02",
   "flag": 0,
   "speaker": -1,
   "jp": "{%sR0}を　うってあげる？\n　　　　　はい　　　　いいえ{KN}",
-  "en": "",
-  "status": "todo"
+  "en": "Sell {%sR0}?\n          Yes         No{KN}",
+  "status": "done"
  },
  {
   "id": "s615.03",
   "flag": 0,
   "speaker": -1,
   "jp": "おんに　きるぞ\nこれを　さがしていたのだ",
-  "en": "",
-  "status": "todo"
+  "en": "I am in your debt. I was looking for this.",
+  "status": "done"
  },
  {
   "id": "s615.04",
   "flag": 0,
   "speaker": -1,
   "jp": "{%sR4}は\n{%dR2}ビットを　てにいれた！{KN}",
-  "en": "",
-  "status": "todo"
+  "en": "{%sR4} got {%dR2} bits!{KN}",
+  "status": "done"
  },
  {
   "id": "s615.05",
   "flag": 0,
   "speaker": -1,
   "jp": "そうか・・・ざんねんだ{KP}\nもし　きが　かわったら\nよろしく　たのむ",
-  "en": "",
-  "status": "todo"
+  "en": "I see... A pity.{KP}\nShould you change your mind, I am\ncounting on you.",
+  "status": "done"
  },
  {
   "id": "s616.00",
   "flag": 0,
   "speaker": -1,
   "jp": "もしかして　それって　{%sR0}！？{KP}\nおねがい！　わたしに　{%dR2}ビットで\nうってちょうだい！",
-  "en": "",
-  "status": "todo"
+  "en": "Wait, is that {%sR0}!?{KP}\nPlease! Sell it to me for {%dR2} bits!",
+  "status": "done"
  },
  {
   "id": "s616.01",
   "flag": 0,
   "speaker": -1,
   "jp": "{%sR0}を　うってあげる？\n　　　　　はい　　　　いいえ{KN}",
-  "en": "",
-  "status": "todo"
+  "en": "Sell {%sR0}?\n          Yes         No{KN}",
+  "status": "done"
  },
  {
   "id": "s616.02",
   "flag": 0,
   "speaker": -1,
   "jp": "やったー！　ありがとう！\nほしかったのよ　これ！",
-  "en": "",
-  "status": "todo"
+  "en": "Yaaay! Thank you! I wanted this!",
+  "status": "done"
  },
  {
   "id": "s616.03",
   "flag": 0,
   "speaker": -1,
   "jp": "{%sR4}は\n{%dR2}ビットを　てにいれた！{KN}",
-  "en": "",
-  "status": "todo"
+  "en": "{%sR4} got {%dR2} bits!{KN}",
+  "status": "done"
  },
  {
   "id": "s616.04",
   "flag": 0,
   "speaker": -1,
   "jp": "えー・・・ざんねんだなぁ{KP}\nもしも　きが　かわったら\nまた　きてね",
-  "en": "",
-  "status": "todo"
+  "en": "Awww... That's too bad.{KP}\nIf you change your mind, come back,\nokay?",
+  "status": "done"
  },
  {
   "id": "s617.00",
   "flag": 0,
   "speaker": -1,
   "jp": "もしや　それは　{%sR0}では\nありませんか！？",
-  "en": "",
-  "status": "todo"
+  "en": "Could that be... {%sR0}!?",
+  "status": "done"
  },
  {
   "id": "s617.01",
   "flag": 0,
   "speaker": -1,
   "jp": "よろしかったら\nわたしの　{%sR2}と{KP}\nこうかんしては　いただけないでしょうか？",
-  "en": "",
-  "status": "todo"
+  "en": "If you do not mind,{KP}\nwould you trade it for my\n{%sR2}?",
+  "status": "done"
  },
  {
   "id": "s617.02",
   "flag": 0,
   "speaker": -1,
   "jp": "{%sR2}と　こうかんする？\n　　　　　はい　　　　いいえ{KN}",
-  "en": "",
-  "status": "todo"
+  "en": "Trade for {%sR2}?\n          Yes         No{KN}",
+  "status": "done"
  },
  {
   "id": "s617.03",
   "flag": 0,
   "speaker": -1,
   "jp": "ありがとうございます！\nほしかったんですよ　これ！{KP}\nでは　これを　うけとってください",
-  "en": "",
-  "status": "todo"
+  "en": "Thank you so much! I really wanted this!{KP}\nNow, please accept this.",
+  "status": "done"
  },
  {
   "id": "s617.04",
   "flag": 0,
   "speaker": -1,
   "jp": "そうですか・・・ざんねんです{KP}\nもしも　きが　かわったら\nよろしく　おねがいします",
-  "en": "",
-  "status": "todo"
+  "en": "I see... What a shame.{KP}\nIf you change your mind, please do come\nback.",
+  "status": "done"
  },
  {
   "id": "s618.00",
   "flag": 0,
   "speaker": -1,
   "jp": "まさか　そりゃ　{%sR0}じゃ\nねぇか！？",
-  "en": "",
-  "status": "todo"
+  "en": "No way, is that {%sR0}!?",
+  "status": "done"
  },
  {
   "id": "s618.01",
   "flag": 0,
   "speaker": -1,
   "jp": "おい！　それ\nオレの　{%sR2}と{KP}\nこうかんしてくれ！　なっ？",
-  "en": "",
-  "status": "todo"
+  "en": "Hey!{KP}\nTrade it for my {%sR2}! C'mon!",
+  "status": "done"
  },
  {
   "id": "s618.02",
   "flag": 0,
   "speaker": -1,
   "jp": "{%sR2}と　こうかんする？\n　　　　　はい　　　　いいえ{KN}",
-  "en": "",
-  "status": "todo"
+  "en": "Trade for {%sR2}?\n          Yes         No{KN}",
+  "status": "done"
  },
  {
   "id": "s618.03",
   "flag": 0,
   "speaker": -1,
   "jp": "やったぜ！　ありがとうよ！\nほしかったんだよ　これ！{KP}\nじゃ　これ　もってってくれ！",
-  "en": "",
-  "status": "todo"
+  "en": "All right! Thanks a bunch! I wanted this!{KP}\nHere, take this!",
+  "status": "done"
  },
  {
   "id": "s618.04",
   "flag": 0,
   "speaker": -1,
   "jp": "ちっ・・・なんでぇ　ケチ！\nまぁ　きが　かわったら　またこいよ",
-  "en": "",
-  "status": "todo"
+  "en": "Tch... What a cheapskate!{KP}\nWell, come back if you change your mind.",
+  "status": "done"
  },
  {
   "id": "s619.00",
   "flag": 0,
   "speaker": -1,
   "jp": "・・・それは・・・\n{%sR0}か？",
-  "en": "",
-  "status": "todo"
+  "en": "...That is... {%sR0}?",
+  "status": "done"
  },
  {
   "id": "s619.01",
   "flag": 0,
   "speaker": -1,
   "jp": "すまぬ・・・わたしの\n{%sR2}と{KP}\nこうかんしては　もらえないか？",
-  "en": "",
-  "status": "todo"
+  "en": "Forgive me...{KP}\nWould you trade it for my\n{%sR2}?",
+  "status": "done"
  },
  {
   "id": "s619.02",
   "flag": 0,
   "speaker": -1,
   "jp": "{%sR2}と　こうかんする？\n　　　　　はい　　　　いいえ{KN}",
-  "en": "",
-  "status": "todo"
+  "en": "Trade for {%sR2}?\n          Yes         No{KN}",
+  "status": "done"
  },
  {
   "id": "s619.03",
   "flag": 0,
   "speaker": -1,
   "jp": "おんに　きるぞ\nこれを　さがしていたのだ{KP}\nでは　これを　もっていけ",
-  "en": "",
-  "status": "todo"
+  "en": "I am in your debt. I was looking for this.{KP}\nNow, take this.",
+  "status": "done"
  },
  {
   "id": "s619.04",
   "flag": 0,
   "speaker": -1,
   "jp": "そうか・・・ざんねんだ{KP}\nもし　きが　かわったら\nよろしく　たのむ",
-  "en": "",
-  "status": "todo"
+  "en": "I see... A pity.{KP}\nShould you change your mind, I am\ncounting on you.",
+  "status": "done"
  },
  {
   "id": "s620.00",
   "flag": 0,
   "speaker": -1,
   "jp": "もしかして　それって　{%sR0}！？{KP}\nおねがい！　わたしの\n{%sR2}と{KP}\nこうかんしてちょうだい！",
-  "en": "",
-  "status": "todo"
+  "en": "Wait, is that {%sR0}!?{KP}\nPlease!{KP}\nTrade it for my {%sR2}!",
+  "status": "done"
  },
  {
   "id": "s620.01",
   "flag": 0,
   "speaker": -1,
   "jp": "{%sR2}と　こうかんする？\n　　　　　はい　　　　いいえ{KN}",
-  "en": "",
-  "status": "todo"
+  "en": "Trade for {%sR2}?\n          Yes         No{KN}",
+  "status": "done"
  },
  {
   "id": "s620.02",
