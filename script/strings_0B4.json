@@ -6,8 +6,8 @@
   ],
   "slot": 20,
   "jp": "ケンタルバリアＳ",
-  "en": "",
-  "status": "todo"
+  "en": "Centaur Wall S",
+  "status": "done"
  },
  {
   "id": "t0B4024",
@@ -16,8 +16,8 @@
   ],
   "slot": 20,
   "jp": "ケンタルバリアＲ",
-  "en": "",
-  "status": "todo"
+  "en": "Centaur Wall R",
+  "status": "done"
  },
  {
   "id": "t0B4038",
@@ -26,8 +26,8 @@
   ],
   "slot": 20,
   "jp": "ドラコファングＥ",
-  "en": "",
-  "status": "todo"
+  "en": "Draco Fang E",
+  "status": "done"
  },
  {
   "id": "t0B404C",
@@ -36,8 +36,8 @@
   ],
   "slot": 20,
   "jp": "ドラコファングＯ",
-  "en": "",
-  "status": "todo"
+  "en": "Draco Fang O",
+  "status": "done"
  },
  {
   "id": "t0B4060",
@@ -46,8 +46,8 @@
   ],
   "slot": 20,
   "jp": "ドラコファングＳ",
-  "en": "",
-  "status": "todo"
+  "en": "Draco Fang S",
+  "status": "done"
  },
  {
   "id": "t0B4074",
@@ -56,8 +56,8 @@
   ],
   "slot": 20,
   "jp": "ドラコファングＲ",
-  "en": "",
-  "status": "todo"
+  "en": "Draco Fang R",
+  "status": "done"
  },
  {
   "id": "t0B4088",
@@ -66,8 +66,8 @@
   ],
   "slot": 20,
   "jp": "サギタルパッドＥ",
-  "en": "",
-  "status": "todo"
+  "en": "Sagitta Pad E",
+  "status": "done"
  },
  {
   "id": "t0B409C",
@@ -76,8 +76,8 @@
   ],
   "slot": 20,
   "jp": "サギタルパッドＯ",
-  "en": "",
-  "status": "todo"
+  "en": "Sagitta Pad O",
+  "status": "done"
  },
  {
   "id": "t0B40B0",
@@ -86,8 +86,8 @@
   ],
   "slot": 20,
   "jp": "サギタルパッドＳ",
-  "en": "",
-  "status": "todo"
+  "en": "Sagitta Pad S",
+  "status": "done"
  },
  {
   "id": "t0B40C4",
@@ -96,8 +96,8 @@
   ],
   "slot": 20,
   "jp": "サギタルパッドＲ",
-  "en": "",
-  "status": "todo"
+  "en": "Sagitta Pad R",
+  "status": "done"
  },
  {
   "id": "t0B40D8",
@@ -106,8 +106,8 @@
   ],
   "slot": 20,
   "jp": "リブショルダーＥ",
-  "en": "",
-  "status": "todo"
+  "en": "Lib Shoulder E",
+  "status": "done"
  },
  {
   "id": "t0B40EC",
@@ -116,8 +116,8 @@
   ],
   "slot": 20,
   "jp": "リブショルダーＯ",
-  "en": "",
-  "status": "todo"
+  "en": "Lib Shoulder O",
+  "status": "done"
  },
  {
   "id": "t0B4100",
@@ -126,8 +126,8 @@
   ],
   "slot": 20,
   "jp": "リブショルダーＳ",
-  "en": "",
-  "status": "todo"
+  "en": "Lib Shoulder S",
+  "status": "done"
  },
  {
   "id": "t0B4114",
@@ -136,8 +136,8 @@
   ],
   "slot": 20,
   "jp": "リブショルダーＲ",
-  "en": "",
-  "status": "todo"
+  "en": "Lib Shoulder R",
+  "status": "done"
  },
  {
   "id": "t0B4128",
@@ -146,8 +146,8 @@
   ],
   "slot": 20,
   "jp": "ゲミニクヘルムＥ",
-  "en": "",
-  "status": "todo"
+  "en": "Geminic Helm E",
+  "status": "done"
  },
  {
   "id": "t0B413C",
@@ -156,8 +156,8 @@
   ],
   "slot": 20,
   "jp": "ゲミニクヘルムＯ",
-  "en": "",
-  "status": "todo"
+  "en": "Geminic Helm O",
+  "status": "done"
  },
  {
   "id": "t0B4150",
@@ -166,8 +166,8 @@
   ],
   "slot": 20,
   "jp": "ゲミニクヘルムＳ",
-  "en": "",
-  "status": "todo"
+  "en": "Geminic Helm S",
+  "status": "done"
  },
  {
   "id": "t0B4164",
@@ -176,8 +176,8 @@
   ],
   "slot": 20,
   "jp": "ゲミニクヘルムＲ",
-  "en": "",
-  "status": "todo"
+  "en": "Geminic Helm R",
+  "status": "done"
  },
  {
   "id": "t0B4178",
@@ -186,8 +186,8 @@
   ],
   "slot": 20,
   "jp": "オフィウマスクＥ",
-  "en": "",
-  "status": "todo"
+  "en": "Ophiu Mask E",
+  "status": "done"
  },
  {
   "id": "t0B418C",
@@ -196,8 +196,8 @@
   ],
   "slot": 20,
   "jp": "オフィウマスクＯ",
-  "en": "",
-  "status": "todo"
+  "en": "Ophiu Mask O",
+  "status": "done"
  },
  {
   "id": "t0B41A0",
@@ -206,8 +206,8 @@
   ],
   "slot": 20,
   "jp": "オフィウマスクＳ",
-  "en": "",
-  "status": "todo"
+  "en": "Ophiu Mask S",
+  "status": "done"
  },
  {
   "id": "t0B41B4",
@@ -216,8 +216,8 @@
   ],
   "slot": 20,
   "jp": "オフィウマスクＲ",
-  "en": "",
-  "status": "todo"
+  "en": "Ophiu Mask R",
+  "status": "done"
  },
  {
   "id": "t0B41C8",
@@ -226,8 +226,8 @@
   ],
   "slot": 20,
   "jp": "ウルスアーマーＥ",
-  "en": "",
-  "status": "todo"
+  "en": "Ursa Armor E",
+  "status": "done"
  },
  {
   "id": "t0B41DC",
@@ -236,8 +236,8 @@
   ],
   "slot": 20,
   "jp": "ウルスアーマーＯ",
-  "en": "",
-  "status": "todo"
+  "en": "Ursa Armor O",
+  "status": "done"
  },
  {
   "id": "t0B41F0",
@@ -246,8 +246,8 @@
   ],
   "slot": 20,
   "jp": "ウルスアーマーＳ",
-  "en": "",
-  "status": "todo"
+  "en": "Ursa Armor S",
+  "status": "done"
  },
  {
   "id": "t0B4204",
@@ -256,8 +256,8 @@
   ],
   "slot": 20,
   "jp": "ウルスアーマーＲ",
-  "en": "",
-  "status": "todo"
+  "en": "Ursa Armor R",
+  "status": "done"
  },
  {
   "id": "t0B4218",
@@ -266,8 +266,8 @@
   ],
   "slot": 20,
   "jp": "レープススーツＥ",
-  "en": "",
-  "status": "todo"
+  "en": "Lepus Suit E",
+  "status": "done"
  },
  {
   "id": "t0B422C",
@@ -276,8 +276,8 @@
   ],
   "slot": 20,
   "jp": "レープススーツＯ",
-  "en": "",
-  "status": "todo"
+  "en": "Lepus Suit O",
+  "status": "done"
  },
  {
   "id": "t0B4240",
@@ -286,8 +286,8 @@
   ],
   "slot": 20,
   "jp": "レープススーツＳ",
-  "en": "",
-  "status": "todo"
+  "en": "Lepus Suit S",
+  "status": "done"
  },
  {
   "id": "t0B4254",
@@ -296,8 +296,8 @@
   ],
   "slot": 20,
   "jp": "レープススーツＲ",
-  "en": "",
-  "status": "todo"
+  "en": "Lepus Suit R",
+  "status": "done"
  },
  {
   "id": "t0B4268",
@@ -306,8 +306,8 @@
   ],
   "slot": 20,
   "jp": "ボルトプレートＥ",
-  "en": "",
-  "status": "todo"
+  "en": "Bolt Plate E",
+  "status": "done"
  },
  {
   "id": "t0B427C",
@@ -316,8 +316,8 @@
   ],
   "slot": 20,
   "jp": "ボルトプレートＯ",
-  "en": "",
-  "status": "todo"
+  "en": "Bolt Plate O",
+  "status": "done"
  },
  {
   "id": "t0B4290",
@@ -326,8 +326,8 @@
   ],
   "slot": 20,
   "jp": "ボルトプレートＳ",
-  "en": "",
-  "status": "todo"
+  "en": "Bolt Plate S",
+  "status": "done"
  },
  {
   "id": "t0B42A4",
@@ -336,8 +336,8 @@
   ],
   "slot": 20,
   "jp": "ボルトプレートＲ",
-  "en": "",
-  "status": "todo"
+  "en": "Bolt Plate R",
+  "status": "done"
  },
  {
   "id": "t0B42B8",
@@ -346,8 +346,8 @@
   ],
   "slot": 20,
   "jp": "カペリオボディＥ",
-  "en": "",
-  "status": "todo"
+  "en": "Caperio Body E",
+  "status": "done"
  },
  {
   "id": "t0B42CC",
@@ -356,8 +356,8 @@
   ],
   "slot": 20,
   "jp": "カペリオボディＯ",
-  "en": "",
-  "status": "todo"
+  "en": "Caperio Body O",
+  "status": "done"
  },
  {
   "id": "t0B42E0",
@@ -366,8 +366,8 @@
   ],
   "slot": 20,
   "jp": "カペリオボディＳ",
-  "en": "",
-  "status": "todo"
+  "en": "Caperio Body S",
+  "status": "done"
  },
  {
   "id": "t0B42F4",
@@ -376,8 +376,8 @@
   ],
   "slot": 20,
   "jp": "カペリオボディＲ",
-  "en": "",
-  "status": "todo"
+  "en": "Caperio Body R",
+  "status": "done"
  },
  {
   "id": "t0B4308",
@@ -386,8 +386,8 @@
   ],
   "slot": 20,
   "jp": "アウルフェイスＥ",
-  "en": "",
-  "status": "todo"
+  "en": "Owl Face E",
+  "status": "done"
  },
  {
   "id": "t0B431C",
@@ -396,8 +396,8 @@
   ],
   "slot": 20,
   "jp": "アウルフェイスＯ",
-  "en": "",
-  "status": "todo"
+  "en": "Owl Face O",
+  "status": "done"
  },
  {
   "id": "t0B4330",
@@ -406,8 +406,8 @@
   ],
   "slot": 20,
   "jp": "アウルフェイスＳ",
-  "en": "",
-  "status": "todo"
+  "en": "Owl Face S",
+  "status": "done"
  },
  {
   "id": "t0B4344",
@@ -416,8 +416,8 @@
   ],
   "slot": 20,
   "jp": "アウルフェイスＲ",
-  "en": "",
-  "status": "todo"
+  "en": "Owl Face R",
+  "status": "done"
  },
  {
   "id": "t0B4358",
@@ -426,8 +426,8 @@
   ],
   "slot": 20,
   "jp": "オリオンヘッドＥ",
-  "en": "",
-  "status": "todo"
+  "en": "Orion Head E",
+  "status": "done"
  },
  {
   "id": "t0B436C",
@@ -436,8 +436,8 @@
   ],
   "slot": 20,
   "jp": "オリオンヘッドＯ",
-  "en": "",
-  "status": "todo"
+  "en": "Orion Head O",
+  "status": "done"
  },
  {
   "id": "t0B4380",
@@ -446,8 +446,8 @@
   ],
   "slot": 20,
   "jp": "オリオンヘッドＳ",
-  "en": "",
-  "status": "todo"
+  "en": "Orion Head S",
+  "status": "done"
  },
  {
   "id": "t0B4394",
@@ -456,8 +456,8 @@
   ],
   "slot": 20,
   "jp": "オリオンヘッドＲ",
-  "en": "",
-  "status": "todo"
+  "en": "Orion Head R",
+  "status": "done"
  },
  {
   "id": "t0B43A8",
@@ -466,8 +466,8 @@
   ],
   "slot": 20,
   "jp": "カンクルカバーＥ",
-  "en": "",
-  "status": "todo"
+  "en": "Crab Cover E",
+  "status": "done"
  },
  {
   "id": "t0B43BC",
@@ -476,8 +476,8 @@
   ],
   "slot": 20,
   "jp": "カンクルカバーＯ",
-  "en": "",
-  "status": "todo"
+  "en": "Crab Cover O",
+  "status": "done"
  },
  {
   "id": "t0B43D0",
@@ -486,8 +486,8 @@
   ],
   "slot": 20,
   "jp": "カンクルカバーＳ",
-  "en": "",
-  "status": "todo"
+  "en": "Crab Cover S",
+  "status": "done"
  },
  {
   "id": "t0B43E4",
@@ -496,8 +496,8 @@
   ],
   "slot": 20,
   "jp": "カンクルカバーＲ",
-  "en": "",
-  "status": "todo"
+  "en": "Crab Cover R",
+  "status": "done"
  },
  {
   "id": "t0B43F8",
@@ -506,8 +506,8 @@
   ],
   "slot": 20,
   "jp": "スコルプメットＥ",
-  "en": "",
-  "status": "todo"
+  "en": "Scorp Helmet E",
+  "status": "done"
  },
  {
   "id": "t0B440C",
@@ -516,8 +516,8 @@
   ],
   "slot": 20,
   "jp": "スコルプメットＯ",
-  "en": "",
-  "status": "todo"
+  "en": "Scorp Helmet O",
+  "status": "done"
  },
  {
   "id": "t0B4420",
@@ -526,8 +526,8 @@
   ],
   "slot": 20,
   "jp": "スコルプメットＳ",
-  "en": "",
-  "status": "todo"
+  "en": "Scorp Helmet S",
+  "status": "done"
  },
  {
   "id": "t0B4434",
@@ -536,8 +536,8 @@
   ],
   "slot": 20,
   "jp": "スコルプメットＲ",
-  "en": "",
-  "status": "todo"
+  "en": "Scorp Helmet R",
+  "status": "done"
  },
  {
   "id": "t0B4448",
@@ -546,8 +546,8 @@
   ],
   "slot": 20,
   "jp": "キグヌスコートＥ",
-  "en": "",
-  "status": "todo"
+  "en": "Cygnus Coat E",
+  "status": "done"
  },
  {
   "id": "t0B445C",
@@ -556,8 +556,8 @@
   ],
   "slot": 20,
   "jp": "キグヌスコートＯ",
-  "en": "",
-  "status": "todo"
+  "en": "Cygnus Coat O",
+  "status": "done"
  },
  {
   "id": "t0B4470",
@@ -566,8 +566,8 @@
   ],
   "slot": 20,
   "jp": "キグヌスコートＳ",
-  "en": "",
-  "status": "todo"
+  "en": "Cygnus Coat S",
+  "status": "done"
  },
  {
   "id": "t0B4484",
@@ -576,8 +576,8 @@
   ],
   "slot": 20,
   "jp": "キグヌスコートＲ",
-  "en": "",
-  "status": "todo"
+  "en": "Cygnus Coat R",
+  "status": "done"
  },
  {
   "id": "t0B4498",
@@ -586,8 +586,8 @@
   ],
   "slot": 20,
   "jp": "アクイラホーンＥ",
-  "en": "",
-  "status": "todo"
+  "en": "Aquila Horn E",
+  "status": "done"
  },
  {
   "id": "t0B44AC",
@@ -596,8 +596,8 @@
   ],
   "slot": 20,
   "jp": "アクイラホーンＯ",
-  "en": "",
-  "status": "todo"
+  "en": "Aquila Horn O",
+  "status": "done"
  },
  {
   "id": "t0B44C0",
@@ -606,8 +606,8 @@
   ],
   "slot": 20,
   "jp": "アクイラホーンＳ",
-  "en": "",
-  "status": "todo"
+  "en": "Aquila Horn S",
+  "status": "done"
  },
  {
   "id": "t0B44D4",
@@ -616,8 +616,8 @@
   ],
   "slot": 20,
   "jp": "アクイラホーンＲ",
-  "en": "",
-  "status": "todo"
+  "en": "Aquila Horn R",
+  "status": "done"
  },
  {
   "id": "t0B44E8",
@@ -626,8 +626,8 @@
   ],
   "slot": 20,
   "jp": "カプリコガードＥ",
-  "en": "",
-  "status": "todo"
+  "en": "Capri Guard E",
+  "status": "done"
  },
  {
   "id": "t0B44FC",
@@ -636,8 +636,8 @@
   ],
   "slot": 20,
   "jp": "カプリコガードＯ",
-  "en": "",
-  "status": "todo"
+  "en": "Capri Guard O",
+  "status": "done"
  },
  {
   "id": "t0B4510",
@@ -646,8 +646,8 @@
   ],
   "slot": 20,
   "jp": "カプリコガードＳ",
-  "en": "",
-  "status": "todo"
+  "en": "Capri Guard S",
+  "status": "done"
  },
  {
   "id": "t0B4524",
@@ -656,8 +656,8 @@
   ],
   "slot": 20,
   "jp": "カプリコガードＲ",
-  "en": "",
-  "status": "todo"
+  "en": "Capri Guard R",
+  "status": "done"
  },
  {
   "id": "t0B4538",
@@ -666,8 +666,8 @@
   ],
   "slot": 20,
   "jp": "レオプロテクトＥ",
-  "en": "",
-  "status": "todo"
+  "en": "Leo Protect E",
+  "status": "done"
  },
  {
   "id": "t0B454C",
@@ -676,8 +676,8 @@
   ],
   "slot": 20,
   "jp": "レオプロテクトＯ",
-  "en": "",
-  "status": "todo"
+  "en": "Leo Protect O",
+  "status": "done"
  },
  {
   "id": "t0B4560",
@@ -686,8 +686,8 @@
   ],
   "slot": 20,
   "jp": "レオプロテクトＳ",
-  "en": "",
-  "status": "todo"
+  "en": "Leo Protect S",
+  "status": "done"
  },
  {
   "id": "t0B4574",
@@ -696,8 +696,8 @@
   ],
   "slot": 20,
   "jp": "レオプロテクトＲ",
-  "en": "",
-  "status": "todo"
+  "en": "Leo Protect R",
+  "status": "done"
  },
  {
   "id": "t0B4588",
@@ -706,8 +706,8 @@
   ],
   "slot": 20,
   "jp": "タウロレガースＥ",
-  "en": "",
-  "status": "todo"
+  "en": "Tauro Shins E",
+  "status": "done"
  },
  {
   "id": "t0B459C",
@@ -716,8 +716,8 @@
   ],
   "slot": 20,
   "jp": "タウロレガースＯ",
-  "en": "",
-  "status": "todo"
+  "en": "Tauro Shins O",
+  "status": "done"
  },
  {
   "id": "t0B45B0",
@@ -726,8 +726,8 @@
   ],
   "slot": 20,
   "jp": "タウロレガースＳ",
-  "en": "",
-  "status": "todo"
+  "en": "Tauro Shins S",
+  "status": "done"
  },
  {
   "id": "t0B45C4",
@@ -736,8 +736,8 @@
   ],
   "slot": 20,
   "jp": "タウロレガースＲ",
-  "en": "",
-  "status": "todo"
+  "en": "Tauro Shins R",
+  "status": "done"
  },
  {
   "id": "t0B45D8",
@@ -746,8 +746,8 @@
   ],
   "slot": 20,
   "jp": "カリナフレームＥ",
-  "en": "",
-  "status": "todo"
+  "en": "Carina Frame E",
+  "status": "done"
  },
  {
   "id": "t0B45EC",
@@ -756,8 +756,8 @@
   ],
   "slot": 20,
   "jp": "カリナフレームＯ",
-  "en": "",
-  "status": "todo"
+  "en": "Carina Frame O",
+  "status": "done"
  },
  {
   "id": "t0B4600",
@@ -766,8 +766,8 @@
   ],
   "slot": 20,
   "jp": "カリナフレームＳ",
-  "en": "",
-  "status": "todo"
+  "en": "Carina Frame S",
+  "status": "done"
  },
  {
   "id": "t0B4614",
@@ -776,8 +776,8 @@
   ],
   "slot": 20,
   "jp": "カリナフレームＲ",
-  "en": "",
-  "status": "todo"
+  "en": "Carina Frame R",
+  "status": "done"
  },
  {
   "id": "t0B4628",
@@ -786,8 +786,8 @@
   ],
   "slot": 20,
   "jp": "ゼロスシールドＥ",
-  "en": "",
-  "status": "todo"
+  "en": "Zeros Shield E",
+  "status": "done"
  },
  {
   "id": "t0B463C",
@@ -796,8 +796,8 @@
   ],
   "slot": 20,
   "jp": "ゼロスシールドＯ",
-  "en": "",
-  "status": "todo"
+  "en": "Zeros Shield O",
+  "status": "done"
  },
  {
   "id": "t0B4650",
@@ -806,8 +806,8 @@
   ],
   "slot": 20,
   "jp": "ゼロスシールドＳ",
-  "en": "",
-  "status": "todo"
+  "en": "Zeros Shield S",
+  "status": "done"
  },
  {
   "id": "t0B4664",
@@ -816,8 +816,8 @@
   ],
   "slot": 20,
   "jp": "ゼロスシールドＲ",
-  "en": "",
-  "status": "todo"
+  "en": "Zeros Shield R",
+  "status": "done"
  },
  {
   "id": "t0B4678",
@@ -826,8 +826,8 @@
   ],
   "slot": 20,
   "jp": "メタラシールドＥ",
-  "en": "",
-  "status": "todo"
+  "en": "Metala Shield E",
+  "status": "done"
  },
  {
   "id": "t0B468C",
@@ -836,8 +836,8 @@
   ],
   "slot": 20,
   "jp": "メタラシールドＯ",
-  "en": "",
-  "status": "todo"
+  "en": "Metala Shield O",
+  "status": "done"
  },
  {
   "id": "t0B46A0",
@@ -846,8 +846,8 @@
   ],
   "slot": 20,
   "jp": "メタラシールドＳ",
-  "en": "",
-  "status": "todo"
+  "en": "Metala Shield S",
+  "status": "done"
  },
  {
   "id": "t0B46B4",
@@ -856,8 +856,8 @@
   ],
   "slot": 20,
   "jp": "メタラシールドＲ",
-  "en": "",
-  "status": "todo"
+  "en": "Metala Shield R",
+  "status": "done"
  },
  {
   "id": "t0B46C8",
@@ -866,8 +866,8 @@
   ],
   "slot": 20,
   "jp": "ゴストシールドＥ",
-  "en": "",
-  "status": "todo"
+  "en": "Ghost Shield E",
+  "status": "done"
  },
  {
   "id": "t0B46DC",
@@ -876,8 +876,8 @@
   ],
   "slot": 20,
   "jp": "ゴストシールドＯ",
-  "en": "",
-  "status": "todo"
+  "en": "Ghost Shield O",
+  "status": "done"
  },
  {
   "id": "t0B46F0",
@@ -886,8 +886,8 @@
   ],
   "slot": 20,
   "jp": "ゴストシールドＳ",
-  "en": "",
-  "status": "todo"
+  "en": "Ghost Shield S",
+  "status": "done"
  },
  {
   "id": "t0B4704",
@@ -896,8 +896,8 @@
   ],
   "slot": 20,
   "jp": "ゴストシールドＲ",
-  "en": "",
-  "status": "todo"
+  "en": "Ghost Shield R",
+  "status": "done"
  },
  {
   "id": "t0B4718",
@@ -906,8 +906,8 @@
   ],
   "slot": 20,
   "jp": "ディアシールドＥ",
-  "en": "",
-  "status": "todo"
+  "en": "Dia Shield E",
+  "status": "done"
  },
  {
   "id": "t0B472C",
@@ -916,8 +916,8 @@
   ],
   "slot": 20,
   "jp": "ディアシールドＯ",
-  "en": "",
-  "status": "todo"
+  "en": "Dia Shield O",
+  "status": "done"
  },
  {
   "id": "t0B4740",
@@ -926,8 +926,8 @@
   ],
   "slot": 20,
   "jp": "ディアシールドＳ",
-  "en": "",
-  "status": "todo"
+  "en": "Dia Shield S",
+  "status": "done"
  },
  {
   "id": "t0B4754",
@@ -936,8 +936,8 @@
   ],
   "slot": 20,
   "jp": "ディアシールドＲ",
-  "en": "",
-  "status": "todo"
+  "en": "Dia Shield R",
+  "status": "done"
  },
  {
   "id": "t0B4768",
@@ -946,8 +946,8 @@
   ],
   "slot": 20,
   "jp": "エコロシールドＥ",
-  "en": "",
-  "status": "todo"
+  "en": "Ecolo Shield E",
+  "status": "done"
  },
  {
   "id": "t0B477C",
@@ -956,8 +956,8 @@
   ],
   "slot": 20,
   "jp": "エコロシールドＯ",
-  "en": "",
-  "status": "todo"
+  "en": "Ecolo Shield O",
+  "status": "done"
  },
  {
   "id": "t0B4790",
@@ -966,8 +966,8 @@
   ],
   "slot": 20,
   "jp": "エコロシールドＳ",
-  "en": "",
-  "status": "todo"
+  "en": "Ecolo Shield S",
+  "status": "done"
  },
  {
   "id": "t0B47A4",
@@ -976,8 +976,8 @@
   ],
   "slot": 20,
   "jp": "エコロシールドＲ",
-  "en": "",
-  "status": "todo"
+  "en": "Ecolo Shield R",
+  "status": "done"
  },
  {
   "id": "t0B47B8",
@@ -986,8 +986,8 @@
   ],
   "slot": 20,
   "jp": "バグズシールドＥ",
-  "en": "",
-  "status": "todo"
+  "en": "Bugs Shield E",
+  "status": "done"
  },
  {
   "id": "t0B47CC",

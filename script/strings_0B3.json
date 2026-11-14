@@ -2340,8 +2340,8 @@
   ],
   "slot": 16,
   "jp": "プラグインＷ１",
-  "en": "",
-  "status": "todo"
+  "en": "Plug-in W1",
+  "status": "done"
  },
  {
   "id": "t0B3CE8",
@@ -2350,8 +2350,8 @@
   ],
   "slot": 16,
   "jp": "クロックアップ",
-  "en": "",
-  "status": "todo"
+  "en": "Clock Up",
+  "status": "done"
  },
  {
   "id": "t0B3CF8",
@@ -2360,8 +2360,8 @@
   ],
   "slot": 16,
   "jp": "ドレスアップ",
-  "en": "",
-  "status": "todo"
+  "en": "Dress Up",
+  "status": "done"
  },
  {
   "id": "t0B3D08",
@@ -2370,8 +2370,8 @@
   ],
   "slot": 16,
   "jp": "ビルドアップ",
-  "en": "",
-  "status": "todo"
+  "en": "Build Up",
+  "status": "done"
  },
  {
   "id": "t0B3D18",
@@ -2380,8 +2380,8 @@
   ],
   "slot": 16,
   "jp": "メモリアップ",
-  "en": "",
-  "status": "todo"
+  "en": "Memory Up",
+  "status": "done"
  },
  {
   "id": "t0B3D28",
@@ -2390,8 +2390,8 @@
   ],
   "slot": 16,
   "jp": "マルチワクチン",
-  "en": "",
-  "status": "todo"
+  "en": "Multi Vaccine",
+  "status": "done"
  },
  {
   "id": "t0B3D38",
@@ -2400,8 +2400,8 @@
   ],
   "slot": 12,
   "jp": "パッチＶ３",
-  "en": "",
-  "status": "todo"
+  "en": "Patch V3",
+  "status": "done"
  },
  {
   "id": "t0B3D44",
@@ -2410,8 +2410,8 @@
   ],
   "slot": 12,
   "jp": "パッチＶ２",
-  "en": "",
-  "status": "todo"
+  "en": "Patch V2",
+  "status": "done"
  },
  {
   "id": "t0B3D50",
@@ -2420,8 +2420,8 @@
   ],
   "slot": 12,
   "jp": "パッチＶ１",
-  "en": "",
-  "status": "todo"
+  "en": "Patch V1",
+  "status": "done"
  },
  {
   "id": "t0B3D5C",
@@ -2430,8 +2430,8 @@
   ],
   "slot": 20,
   "jp": "ギガダイヤモンド",
-  "en": "",
-  "status": "todo"
+  "en": "Giga Diamond",
+  "status": "done"
  },
  {
   "id": "t0B3D70",
@@ -2440,8 +2440,8 @@
   ],
   "slot": 20,
   "jp": "アースエメラルド",
-  "en": "",
-  "status": "todo"
+  "en": "Earth Emerald",
+  "status": "done"
  },
  {
   "id": "t0B3D84",
@@ -2450,8 +2450,8 @@
   ],
   "slot": 20,
   "jp": "サンダートパーズ",
-  "en": "",
-  "status": "todo"
+  "en": "Bolt Topaz",
+  "status": "done"
  },
  {
   "id": "t0B3D98",
@@ -2460,8 +2460,8 @@
   ],
   "slot": 20,
   "jp": "アクアサファイア",
-  "en": "",
-  "status": "todo"
+  "en": "Aqua Sapphire",
+  "status": "done"
  },
  {
   "id": "t0B3DAC",
@@ -2470,8 +2470,8 @@
   ],
   "slot": 20,
   "jp": "メガフレアルビー",
-  "en": "",
-  "status": "todo"
+  "en": "Flare Ruby",
+  "status": "done"
  },
  {
   "id": "t0B3DC0",
@@ -2480,8 +2480,8 @@
   ],
   "slot": 20,
   "jp": "ピュアクリスタル",
-  "en": "",
-  "status": "todo"
+  "en": "Pure Crystal",
+  "status": "done"
  },
  {
   "id": "t0B3DD4",
@@ -2490,8 +2490,8 @@
   ],
   "slot": 16,
   "jp": "トランスＭＣ",
-  "en": "",
-  "status": "todo"
+  "en": "Trans MC",
+  "status": "done"
  },
  {
   "id": "t0B3DE4",
@@ -2500,8 +2500,8 @@
   ],
   "slot": 16,
   "jp": "ストロングＡ",
-  "en": "",
-  "status": "todo"
+  "en": "Strong A",
+  "status": "done"
  },
  {
   "id": "t0B3DF4",
@@ -2510,8 +2510,8 @@
   ],
   "slot": 12,
   "jp": "ミプスＶＲ",
-  "en": "",
-  "status": "todo"
+  "en": "Mips VR",
+  "status": "done"
  },
  {
   "id": "t0B3E00",
@@ -2520,8 +2520,8 @@
   ],
   "slot": 12,
   "jp": "スーパーＨ",
-  "en": "",
-  "status": "todo"
+  "en": "Super H",
+  "status": "done"
  },
  {
   "id": "t0B3E0C",
@@ -2530,8 +2530,8 @@
   ],
   "slot": 12,
   "jp": "ドラゴンＢ",
-  "en": "",
-  "status": "todo"
+  "en": "Dragon B",
+  "status": "done"
  },
  {
   "id": "t0B3E18",
@@ -2540,8 +2540,8 @@
   ],
   "slot": 12,
   "jp": "チタニウム",
-  "en": "",
-  "status": "todo"
+  "en": "Titanium",
+  "status": "done"
  },
  {
   "id": "t0B3E24",
@@ -2550,8 +2550,8 @@
   ],
   "slot": 16,
   "jp": "アルミニウム",
-  "en": "",
-  "status": "todo"
+  "en": "Aluminum",
+  "status": "done"
  },
  {
   "id": "t0B3E34",
@@ -2560,8 +2560,8 @@
   ],
   "slot": 16,
   "jp": "マグネシウム",
-  "en": "",
-  "status": "todo"
+  "en": "Magnesium",
+  "status": "done"
  },
  {
   "id": "t0B3E44",
@@ -2570,8 +2570,8 @@
   ],
   "slot": 12,
   "jp": "Ｂトゥース",
-  "en": "",
-  "status": "todo"
+  "en": "B-Tooth",
+  "status": "done"
  },
  {
   "id": "t0B3E50",
@@ -2580,8 +2580,8 @@
   ],
   "slot": 12,
   "jp": "ＩＲＤＡ",
-  "en": "",
-  "status": "todo"
+  "en": "IrDA",
+  "status": "done"
  },
  {
   "id": "t0B3E5C",
@@ -2590,8 +2590,8 @@
   ],
   "slot": 16,
   "jp": "Ｃフラッシュ",
-  "en": "",
-  "status": "todo"
+  "en": "C-Flash",
+  "status": "done"
  },
  {
   "id": "t0B3E6C",
@@ -2600,8 +2600,8 @@
   ],
   "slot": 12,
   "jp": "ジャケット",
-  "en": "",
-  "status": "todo"
+  "en": "Jacket",
+  "status": "done"
  },
  {
   "id": "t0B3E78",
@@ -2610,8 +2610,8 @@
   ],
   "slot": 12,
   "jp": "クレードル",
-  "en": "",
-  "status": "todo"
+  "en": "Cradle",
+  "status": "done"
  },
  {
   "id": "t0B3E84",
@@ -2620,8 +2620,8 @@
   ],
   "slot": 12,
   "jp": "スタイラス",
-  "en": "",
-  "status": "todo"
+  "en": "Stylus",
+  "status": "done"
  },
  {
   "id": "t0B3E90",
@@ -2630,8 +2630,8 @@
   ],
   "slot": 16,
   "jp": "かみがみのみず",
-  "en": "",
-  "status": "todo"
+  "en": "Godly Water",
+  "status": "done"
  },
  {
   "id": "t0B3EA0",
@@ -2640,8 +2640,8 @@
   ],
   "slot": 16,
   "jp": "まほうのキノコ",
-  "en": "",
-  "status": "todo"
+  "en": "Moon Shroom",
+  "status": "done"
  },
  {
   "id": "t0B3EB0",
@@ -2650,8 +2650,8 @@
   ],
   "slot": 20,
   "jp": "かがやくきんぞく",
-  "en": "",
-  "status": "todo"
+  "en": "Shiny Metal",
+  "status": "done"
  },
  {
   "id": "t0B3EC4",
@@ -2660,8 +2660,8 @@
   ],
   "slot": 16,
   "jp": "ふしぎないし",
-  "en": "",
-  "status": "todo"
+  "en": "Mystic Stone",
+  "status": "done"
  },
  {
   "id": "t0B3ED4",
@@ -2670,8 +2670,8 @@
   ],
   "slot": 20,
   "jp": "きれいなたましい",
-  "en": "",
-  "status": "todo"
+  "en": "Pure Soul",
+  "status": "done"
  },
  {
   "id": "t0B3EE8",
@@ -2680,8 +2680,8 @@
   ],
   "slot": 20,
   "jp": "ほのかなひとだま",
-  "en": "",
-  "status": "todo"
+  "en": "Faint Ghostfire",
+  "status": "done"
  },
  {
   "id": "t0B3EFC",
@@ -2690,8 +2690,8 @@
   ],
   "slot": 20,
   "jp": "まぼろしのリンゴ",
-  "en": "",
-  "status": "todo"
+  "en": "Phantom Apple",
+  "status": "done"
  },
  {
   "id": "t0B3F10",
@@ -2700,8 +2700,8 @@
   ],
   "slot": 16,
   "jp": "ひかりのイチゴ",
-  "en": "",
-  "status": "todo"
+  "en": "Glow Berry",
+  "status": "done"
  },
  {
   "id": "t0B3F20",
@@ -2710,8 +2710,8 @@
   ],
   "slot": 20,
   "jp": "こんごうひりょう",
-  "en": "",
-  "status": "todo"
+  "en": "Rich Fertilizer",
+  "status": "done"
  },
  {
   "id": "t0B3F34",
@@ -2720,8 +2720,8 @@
   ],
   "slot": 16,
   "jp": "あめのしずく",
-  "en": "",
-  "status": "todo"
+  "en": "Raindrops",
+  "status": "done"
  },
  {
   "id": "t0B3F44",
@@ -2730,8 +2730,8 @@
   ],
   "slot": 16,
   "jp": "ローヤルゼリー",
-  "en": "",
-  "status": "todo"
+  "en": "Royal Jelly",
+  "status": "done"
  },
  {
   "id": "t0B3F54",
@@ -2740,8 +2740,8 @@
   ],
   "slot": 12,
   "jp": "はなのみつ",
-  "en": "",
-  "status": "todo"
+  "en": "Nectar",
+  "status": "done"
  },
  {
   "id": "t0B3F60",
@@ -2750,8 +2750,8 @@
   ],
   "slot": 20,
   "jp": "やまもりこざかな",
-  "en": "",
-  "status": "todo"
+  "en": "Fish Heap",
+  "status": "done"
  },
  {
   "id": "t0B3F74",
@@ -2760,8 +2760,8 @@
   ],
   "slot": 16,
   "jp": "プランクトン",
-  "en": "",
-  "status": "todo"
+  "en": "Plankton",
+  "status": "done"
  },
  {
   "id": "t0B3F84",
@@ -2770,8 +2770,8 @@
   ],
   "slot": 16,
   "jp": "キリキリバッタ",
-  "en": "",
-  "status": "todo"
+  "en": "Chirpy Hopper",
+  "status": "done"
  },
  {
   "id": "t0B3F94",
@@ -2780,8 +2780,8 @@
   ],
   "slot": 20,
   "jp": "ちいさいいもむし",
-  "en": "",
-  "status": "todo"
+  "en": "Tiny Grub",
+  "status": "done"
  },
  {
   "id": "t0B3FA8",
@@ -2790,8 +2790,8 @@
   ],
   "slot": 20,
   "jp": "ほしくさブロック",
-  "en": "",
-  "status": "todo"
+  "en": "Hay Block",
+  "status": "done"
  },
  {
   "id": "t0B3FBC",
@@ -2800,8 +2800,8 @@
   ],
   "slot": 12,
   "jp": "かれススキ",
-  "en": "",
-  "status": "todo"
+  "en": "Dry Pampas",
+  "status": "done"
  },
  {
   "id": "t0B3FC8",
@@ -2810,8 +2810,8 @@
   ],
   "slot": 16,
   "jp": "ほねつきにく",
-  "en": "",
-  "status": "todo"
+  "en": "Meat on Bone",
+  "status": "done"
  },
  {
   "id": "t0B3FD8",
@@ -2820,8 +2820,8 @@
   ],
   "slot": 16,
   "jp": "こまぎれのにく",
-  "en": "",
-  "status": "todo"
+  "en": "Chopped Meat",
+  "status": "done"
  },
  {
   "id": "t0B3FE8",
@@ -2830,8 +2830,8 @@
   ],
   "slot": 20,
   "jp": "ケンタルバリアＥ",
-  "en": "",
-  "status": "todo"
+  "en": "Centaur Wall E",
+  "status": "done"
  },
  {
   "id": "t0B3FFC",
@@ -2840,7 +2840,7 @@
   ],
   "slot": 20,
   "jp": "ケンタルバリアＯ",
-  "en": "",
-  "status": "todo"
+  "en": "Centaur Wall O",
+  "status": "done"
  }
 ]
