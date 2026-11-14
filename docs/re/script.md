@@ -9,6 +9,8 @@ dispatch loop 0x0801E5DA; each handler gets `&pc`, advances it, returns nonzero 
 - **Runtime check**: `tools/lua/opstep.lua` logs (op, pc, new pc) for every op the game runs; `script.py verify
   --logs work/qa/ops` checks each logged pc is an op start of the parse and each step equals the parsed length
   (or the jump target). Runs: `tools/debug/opstep_run.py SCENE..`.
+- Run 2026-11-15 (15 scenes: intro, menu, e7-e56, s152, s153, r35-r147; host memory pressure killed the rest):
+  2152 distinct ops checked, 0 problems. Opcodes not yet seen at runtime were checked statically instead.
 - 2824 message ops, 574 jumps.
 - Static: lengths read from the handlers (pc register `adds #2` chain up to the `str` back to `[r0]`).
 
