@@ -141,3 +141,11 @@ Binding for every translator and reviewer. Agents propose additions in reports; 
   カプリコガード Capri Guard, レオプロテクト Leo Protect, タウロレガース Tauro Shins, カリナフレーム Carina Frame,
   ゼロス/メタラ/ゴスト/ディア/エコロシールド Zeros/Metala/Ghost/Dia/Ecolo Shield. Styles: "Sagittarius style",
   "Ursa Major style", "Taurus style" (constellation Latin, D10). Food: "<Type> types'" / "favorite." / "top favorite!".
+- b030 shields: Bugs/Shell/Buddy/Tetra/Igna Shield. Weapon names (descriptions): Centauro Pile, Centaur Lance,
+  Centa Javelin, Draco Shower/Loop/Screw, Libra Breaker/Spread/Shot, Lepus Wing/Assault/Hammer, Carina
+  Rapier/Chop/Pistol, Auriga Vulcan/Antenna, Orion Vise/Rifle, Cygnus Needle/Ray, Aquila Buster/Claw, Capri
+  Wind/Wave, Leo Cluster/Wasp, Gemini Knuckle, Ophiu Star, Bootes Blazer, Cassiopeia Eye, Plasma Cancer, Scorp
+  Hunter, Gatling Gun, Missile Hat, Missile Pod, Shoulder Gun, Scissor Shot, Energy Bowl, Machine Gun, Photon
+  Blast. Styles: "<Latin constellation> style" (Centaurus, Draco, Libra, Gemini, Ophiuchus, Lepus, Bootes,
+  Cassiopeia, Auriga, Orion, Cancer, Scorpius, Cygnus, Aquila, Capricornus, Leo, Carina). Elements in
+  descriptions: Fire-/Water-/Thunder-/Earth-element.

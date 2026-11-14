@@ -38,9 +38,10 @@ translated literally and losing its punch; character quirks flattened to neutral
   b029 changed the parts pattern to "Igarm types and" / "Zero-E types'" / "dedicated Devices" / "need this part."
   (the 2nd type line is shared with food records: "<Type> types'" / "favorite." / "top favorite!"), and
   metal to "Sturdy." / "Very heavy." Armor records: [style][Armor Device][L3][L4]; element variants
-  "Fire-element" / "<name>". Open for later batches: t0B0D5C should read "Its smooth surface" (+ "deflects
-  attacks."); t0B185C sits in "Very light, so" / [t0B185C] / "it suits big" / "weapons and such." (e.g. "worn
-  on the back,").
+  "Fire-element" / "<name>". Weapon records (b030): [style][Weapon Device][effect line][name], e.g.
+  "Freezes foes:"-style effect lines (t0B1B18-t0B1FA8) must read before a bare device name ("Draco Shower");
+  base records read L3+L4 as a sentence. Mount lines are bare adjectives ("Back-mounted" / "Missile Pod").
+  Open: t0B19FC (ミサイルを うちだす) follows "12 rounds in all:" -> e.g. "a missile launcher."
 - Dyna body types (b028): イグアーム Igarm, テトロトップ Tetrotop, シェルブック Shellbook, バーディス Birdis,
   キックバグ Kickbug, ゼロイー Zero-E, デュアロン Dualon, エコロード Ecoroad, メタボール Metaball, ゴストフリー Ghostfree.
 - An entry with any `\n` is not wrapped by the tool: lay out every line yourself and put `\n` after `{KP}` before

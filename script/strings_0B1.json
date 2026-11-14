@@ -6,8 +6,8 @@
   ],
   "slot": 24,
   "jp": "ばんのうがた　ミサイル",
-  "en": "",
-  "status": "todo"
+  "en": "all-round missiles.",
+  "status": "done"
  },
  {
   "id": "t0B1018",
@@ -21,8 +21,8 @@
   ],
   "slot": 16,
   "jp": "ケンタウランス",
-  "en": "",
-  "status": "todo"
+  "en": "Centaur Lance",
+  "status": "done"
  },
  {
   "id": "t0B1028",
@@ -36,8 +36,8 @@
   ],
   "slot": 16,
   "jp": "ドラコループ",
-  "en": "",
-  "status": "todo"
+  "en": "Draco Loop",
+  "status": "done"
  },
  {
   "id": "t0B1038",
@@ -47,8 +47,8 @@
   ],
   "slot": 24,
   "jp": "ひだりてに　とりつける",
-  "en": "",
-  "status": "todo"
+  "en": "Left-hand mounted",
+  "status": "done"
  },
  {
   "id": "t0B1050",
@@ -62,8 +62,8 @@
   ],
   "slot": 20,
   "jp": "リブラスプレッド",
-  "en": "",
-  "status": "todo"
+  "en": "Libra Spread",
+  "status": "done"
  },
  {
   "id": "t0B1064",
@@ -72,8 +72,8 @@
   ],
   "slot": 24,
   "jp": "いっきに　あびせかける",
-  "en": "",
-  "status": "todo"
+  "en": "particles all at once.",
+  "status": "done"
  },
  {
   "id": "t0B107C",
@@ -82,8 +82,8 @@
   ],
   "slot": 24,
   "jp": "こまかい　りゅうしを",
-  "en": "",
-  "status": "todo"
+  "en": "Showers fine",
+  "status": "done"
  },
  {
   "id": "t0B1094",
@@ -97,8 +97,8 @@
   ],
   "slot": 20,
   "jp": "レープスアサルト",
-  "en": "",
-  "status": "todo"
+  "en": "Lepus Assault",
+  "status": "done"
  },
  {
   "id": "t0B10A8",
@@ -107,8 +107,8 @@
   ],
   "slot": 24,
   "jp": "あつかいやすい　ガン",
-  "en": "",
-  "status": "todo"
+  "en": "that's easy to use.",
+  "status": "done"
  },
  {
   "id": "t0B10C0",
@@ -117,8 +117,8 @@
   ],
   "slot": 24,
   "jp": "はんどうが　すくなく",
-  "en": "",
-  "status": "todo"
+  "en": "Low recoil: a gun",
+  "status": "done"
  },
  {
   "id": "t0B10D8",
@@ -132,8 +132,8 @@
   ],
   "slot": 20,
   "jp": "アウリガバルカン",
-  "en": "",
-  "status": "todo"
+  "en": "Auriga Vulcan",
+  "status": "done"
  },
  {
   "id": "t0B10EC",
@@ -142,8 +142,8 @@
   ],
   "slot": 24,
   "jp": "シンプルだが　たかい",
-  "en": "",
-  "status": "todo"
+  "en": "Simple, but has",
+  "status": "done"
  },
  {
   "id": "t0B1104",
@@ -157,8 +157,8 @@
   ],
   "slot": 16,
   "jp": "オリオンバイス",
-  "en": "",
-  "status": "todo"
+  "en": "Orion Vise",
+  "status": "done"
  },
  {
   "id": "t0B1114",
@@ -167,8 +167,8 @@
   ],
   "slot": 24,
   "jp": "てきを　はさむ　アーム",
-  "en": "",
-  "status": "todo"
+  "en": "arms pinch the foe.",
+  "status": "done"
  },
  {
   "id": "t0B112C",
@@ -177,8 +177,8 @@
   ],
   "slot": 24,
   "jp": "ものすごい　ちからで",
-  "en": "",
-  "status": "todo"
+  "en": "With huge force,",
+  "status": "done"
  },
  {
   "id": "t0B1144",
@@ -192,8 +192,8 @@
   ],
   "slot": 20,
   "jp": "キグヌスニードル",
-  "en": "",
-  "status": "todo"
+  "en": "Cygnus Needle",
+  "status": "done"
  },
  {
   "id": "t0B1158",
@@ -202,8 +202,8 @@
   ],
   "slot": 20,
   "jp": "ほこる　ミサイル",
-  "en": "",
-  "status": "todo"
+  "en": "a mighty missile.",
+  "status": "done"
  },
  {
   "id": "t0B116C",
@@ -212,8 +212,8 @@
   ],
   "slot": 24,
   "jp": "たかい　はかいりょくを",
-  "en": "",
-  "status": "todo"
+  "en": "Packs huge power:",
+  "status": "done"
  },
  {
   "id": "t0B1184",
@@ -227,8 +227,8 @@
   ],
   "slot": 20,
   "jp": "アクイラバスター",
-  "en": "",
-  "status": "todo"
+  "en": "Aquila Buster",
+  "status": "done"
  },
  {
   "id": "t0B1198",
@@ -237,8 +237,8 @@
   ],
   "slot": 20,
   "jp": "すべてを　つらぬく",
-  "en": "",
-  "status": "todo"
+  "en": "pierce everything.",
+  "status": "done"
  },
  {
   "id": "t0B11AC",
@@ -247,8 +247,8 @@
   ],
   "slot": 24,
   "jp": "２つの　ハイレーザーが",
-  "en": "",
-  "status": "todo"
+  "en": "Twin high lasers",
+  "status": "done"
  },
  {
   "id": "t0B11C4",
@@ -262,8 +262,8 @@
   ],
   "slot": 20,
   "jp": "カプリコウインド",
-  "en": "",
-  "status": "todo"
+  "en": "Capri Wind",
+  "status": "done"
  },
  {
   "id": "t0B11D8",
@@ -272,8 +272,8 @@
   ],
   "slot": 24,
   "jp": "エネルギーを　うちだす",
-  "en": "",
-  "status": "todo"
+  "en": "energy blasts.",
+  "status": "done"
  },
  {
   "id": "t0B11F0",
@@ -282,8 +282,8 @@
   ],
   "slot": 24,
   "jp": "うすく　あっしゅくした",
-  "en": "",
-  "status": "todo"
+  "en": "Fires thin, dense",
+  "status": "done"
  },
  {
   "id": "t0B1208",
@@ -297,8 +297,8 @@
   ],
   "slot": 16,
   "jp": "レオクラスター",
-  "en": "",
-  "status": "todo"
+  "en": "Leo Cluster",
+  "status": "done"
  },
  {
   "id": "t0B1218",
@@ -307,8 +307,8 @@
   ],
   "slot": 24,
   "jp": "はんげきを　ゆるさない",
-  "en": "",
-  "status": "todo"
+  "en": "allows no counter.",
+  "status": "done"
  },
  {
   "id": "t0B1230",
@@ -317,8 +317,8 @@
   ],
   "slot": 24,
   "jp": "はげしい　れんしゃで",
-  "en": "",
-  "status": "todo"
+  "en": "Fierce rapid fire",
+  "status": "done"
  },
  {
   "id": "t0B1248",
@@ -332,8 +332,8 @@
   ],
   "slot": 16,
   "jp": "カリナチョップ",
-  "en": "",
-  "status": "todo"
+  "en": "Carina Chop",
+  "status": "done"
  },
  {
   "id": "t0B1258",
@@ -342,8 +342,8 @@
   ],
   "slot": 24,
   "jp": "てきを　なぐりつける",
-  "en": "",
-  "status": "todo"
+  "en": "hard arms.",
+  "status": "done"
  },
  {
   "id": "t0B1270",
@@ -352,8 +352,8 @@
   ],
   "slot": 20,
   "jp": "かたい　アームで",
-  "en": "",
-  "status": "todo"
+  "en": "Punches foes with",
+  "status": "done"
  },
  {
   "id": "t0B1284",
@@ -367,8 +367,8 @@
   ],
   "slot": 20,
   "jp": "ケンタジャベリン",
-  "en": "",
-  "status": "todo"
+  "en": "Centa Javelin",
+  "status": "done"
  },
  {
   "id": "t0B1298",
@@ -378,8 +378,8 @@
   ],
   "slot": 24,
   "jp": "ながく　するどい　ヤリ",
-  "en": "",
-  "status": "todo"
+  "en": "long, sharp spear.",
+  "status": "done"
  },
  {
   "id": "t0B12B0",
@@ -408,8 +408,8 @@
   ],
   "slot": 24,
   "jp": "ケンタウルススタイル",
-  "en": "",
-  "status": "todo"
+  "en": "Centaurus style",
+  "status": "done"
  },
  {
   "id": "t0B12C8",
@@ -423,8 +423,8 @@
   ],
   "slot": 20,
   "jp": "ドラコスクリュー",
-  "en": "",
-  "status": "todo"
+  "en": "Draco Screw",
+  "status": "done"
  },
  {
   "id": "t0B12DC",
@@ -434,8 +434,8 @@
   ],
   "slot": 20,
   "jp": "ほそみの　ドリル",
-  "en": "",
-  "status": "todo"
+  "en": "slim drill.",
+  "status": "done"
  },
  {
   "id": "t0B12F0",
@@ -445,8 +445,8 @@
   ],
   "slot": 24,
   "jp": "みぎてに　とりつける",
-  "en": "",
-  "status": "todo"
+  "en": "Right-hand mounted",
+  "status": "done"
  },
  {
   "id": "t0B1308",
@@ -475,8 +475,8 @@
   ],
   "slot": 20,
   "jp": "ドラコースタイル",
-  "en": "",
-  "status": "todo"
+  "en": "Draco style",
+  "status": "done"
  },
  {
   "id": "t0B131C",
@@ -490,8 +490,8 @@
   ],
   "slot": 16,
   "jp": "リブラショット",
-  "en": "",
-  "status": "todo"
+  "en": "Libra Shot",
+  "status": "done"
  },
  {
   "id": "t0B132C",
@@ -500,8 +500,8 @@
   ],
   "slot": 24,
   "jp": "たいりょうに　うちだす",
-  "en": "",
-  "status": "todo"
+  "en": "in great numbers.",
+  "status": "done"
  },
  {
   "id": "t0B1344",
@@ -510,8 +510,8 @@
   ],
   "slot": 20,
   "jp": "ビームカッターを",
-  "en": "",
-  "status": "todo"
+  "en": "Fires beam cutters",
+  "status": "done"
  },
  {
   "id": "t0B1358",
@@ -540,8 +540,8 @@
   ],
   "slot": 16,
   "jp": "リブラスタイル",
-  "en": "",
-  "status": "todo"
+  "en": "Libra style",
+  "status": "done"
  },
  {
   "id": "t0B1368",
@@ -555,8 +555,8 @@
   ],
   "slot": 16,
   "jp": "ゲミニナックル",
-  "en": "",
-  "status": "todo"
+  "en": "Gemini Knuckle",
+  "status": "done"
  },
  {
   "id": "t0B1378",
@@ -565,8 +565,8 @@
   ],
   "slot": 24,
   "jp": "ナックルを　うちだす",
-  "en": "",
-  "status": "todo"
+  "en": "at the enemy.",
+  "status": "done"
  },
  {
   "id": "t0B1390",
@@ -575,8 +575,8 @@
   ],
   "slot": 24,
   "jp": "てきに　むけて　２つの",
-  "en": "",
-  "status": "todo"
+  "en": "Fires twin knuckles",
+  "status": "done"
  },
  {
   "id": "t0B13A8",
@@ -595,8 +595,8 @@
   ],
   "slot": 16,
   "jp": "ゲミニスタイル",
-  "en": "",
-  "status": "todo"
+  "en": "Gemini style",
+  "status": "done"
  },
  {
   "id": "t0B13B8",
@@ -610,8 +610,8 @@
   ],
   "slot": 20,
   "jp": "オフィウクスター",
-  "en": "",
-  "status": "todo"
+  "en": "Ophiu Star",
+  "status": "done"
  },
  {
   "id": "t0B13CC",
@@ -620,8 +620,8 @@
   ],
   "slot": 20,
   "jp": "ふんさいする　ぶき",
-  "en": "",
-  "status": "todo"
+  "en": "an iron ball.",
+  "status": "done"
  },
  {
   "id": "t0B13E0",
@@ -630,8 +630,8 @@
   ],
   "slot": 24,
   "jp": "てっきゅうで　てきを",
-  "en": "",
-  "status": "todo"
+  "en": "Smashes foes with",
+  "status": "done"
  },
  {
   "id": "t0B13F8",
@@ -650,8 +650,8 @@
   ],
   "slot": 24,
   "jp": "オフィウクススタイル",
-  "en": "",
-  "status": "todo"
+  "en": "Ophiuchus style",
+  "status": "done"
  },
  {
   "id": "t0B1410",
@@ -665,8 +665,8 @@
   ],
   "slot": 20,
   "jp": "レープスハンマー",
-  "en": "",
-  "status": "todo"
+  "en": "Lepus Hammer",
+  "status": "done"
  },
  {
   "id": "t0B1424",
@@ -675,8 +675,8 @@
   ],
   "slot": 24,
   "jp": "たたきつぶす　ハンマー",
-  "en": "",
-  "status": "todo"
+  "en": "with a hammer.",
+  "status": "done"
  },
  {
   "id": "t0B143C",
@@ -685,8 +685,8 @@
   ],
   "slot": 24,
   "jp": "あらゆる　そうこうを",
-  "en": "",
-  "status": "todo"
+  "en": "Smashes any armor",
+  "status": "done"
  },
  {
   "id": "t0B1454",
@@ -715,8 +715,8 @@
   ],
   "slot": 20,
   "jp": "レープススタイル",
-  "en": "",
-  "status": "todo"
+  "en": "Lepus style",
+  "status": "done"
  },
  {
   "id": "t0B1468",
@@ -730,8 +730,8 @@
   ],
   "slot": 20,
   "jp": "ボーツブレイザー",
-  "en": "",
-  "status": "todo"
+  "en": "Bootes Blazer",
+  "status": "done"
  },
  {
   "id": "t0B147C",
@@ -740,8 +740,8 @@
   ],
   "slot": 24,
   "jp": "しゅつりょくの　ビーム",
-  "en": "",
-  "status": "todo"
+  "en": "high output.",
+  "status": "done"
  },
  {
   "id": "t0B1494",
@@ -750,8 +750,8 @@
   ],
   "slot": 24,
   "jp": "ひじょうに　おおきな",
-  "en": "",
-  "status": "todo"
+  "en": "A beam with very",
+  "status": "done"
  },
  {
   "id": "t0B14AC",
@@ -770,8 +770,8 @@
   ],
   "slot": 20,
   "jp": "ボーティススタイル",
-  "en": "",
-  "status": "todo"
+  "en": "Bootes style",
+  "status": "done"
  },
  {
   "id": "t0B14C0",
@@ -785,8 +785,8 @@
   ],
   "slot": 16,
   "jp": "カシオペアアイ",
-  "en": "",
-  "status": "todo"
+  "en": "Cassiopeia Eye",
+  "status": "done"
  },
  {
   "id": "t0B14D0",
@@ -795,8 +795,8 @@
   ],
   "slot": 24,
   "jp": "いっきに　たたみかける",
-  "en": "",
-  "status": "todo"
+  "en": "pound away at once.",
+  "status": "done"
  },
  {
   "id": "t0B14E8",
@@ -805,8 +805,8 @@
   ],
   "slot": 24,
   "jp": "２つの　ガトリングで",
-  "en": "",
-  "status": "todo"
+  "en": "Twin Gatling guns",
+  "status": "done"
  },
  {
   "id": "t0B1500",
@@ -820,8 +820,8 @@
   ],
   "slot": 20,
   "jp": "カシオペアスタイル",
-  "en": "",
-  "status": "todo"
+  "en": "Cassiopeia style",
+  "status": "done"
  },
  {
   "id": "t0B1514",
@@ -835,8 +835,8 @@
   ],
   "slot": 20,
   "jp": "アウリガアンテナ",
-  "en": "",
-  "status": "todo"
+  "en": "Auriga Antenna",
+  "status": "done"
  },
  {
   "id": "t0B1528",
@@ -845,8 +845,8 @@
   ],
   "slot": 24,
   "jp": "ぞうふくさせて　うつ",
-  "en": "",
-  "status": "todo"
+  "en": "power as it fires.",
+  "status": "done"
  },
  {
   "id": "t0B1540",
@@ -855,8 +855,8 @@
   ],
   "slot": 24,
   "jp": "アンテナで　いりょくを",
-  "en": "",
-  "status": "todo"
+  "en": "Antennas boost its",
+  "status": "done"
  },
  {
   "id": "t0B1558",
@@ -880,8 +880,8 @@
   ],
   "slot": 20,
   "jp": "アウリガスタイル",
-  "en": "",
-  "status": "todo"
+  "en": "Auriga style",
+  "status": "done"
  },
  {
   "id": "t0B156C",
@@ -895,8 +895,8 @@
   ],
   "slot": 20,
   "jp": "オリオンライフル",
-  "en": "",
-  "status": "todo"
+  "en": "Orion Rifle",
+  "status": "done"
  },
  {
   "id": "t0B1580",
@@ -905,8 +905,8 @@
   ],
   "slot": 24,
   "jp": "とても　たかい　ガン",
-  "en": "",
-  "status": "todo"
+  "en": "high accuracy.",
+  "status": "done"
  },
  {
   "id": "t0B1598",
@@ -915,8 +915,8 @@
   ],
   "slot": 20,
   "jp": "めいちゅうりつが",
-  "en": "",
-  "status": "todo"
+  "en": "A gun with very",
+  "status": "done"
  },
  {
   "id": "t0B15AC",
@@ -940,8 +940,8 @@
   ],
   "slot": 20,
   "jp": "オリオンスタイル",
-  "en": "",
-  "status": "todo"
+  "en": "Orion style",
+  "status": "done"
  },
  {
   "id": "t0B15C0",
@@ -955,8 +955,8 @@
   ],
   "slot": 20,
   "jp": "プラズマカンケル",
-  "en": "",
-  "status": "todo"
+  "en": "Plasma Cancer",
+  "status": "done"
  },
  {
   "id": "t0B15D4",
@@ -965,8 +965,8 @@
   ],
   "slot": 20,
   "jp": "あつめて　うちだす",
-  "en": "",
-  "status": "todo"
+  "en": "energy and fires it.",
+  "status": "done"
  },
  {
   "id": "t0B15E8",
@@ -975,8 +975,8 @@
   ],
   "slot": 24,
   "jp": "プラズマエネルギーを",
-  "en": "",
-  "status": "todo"
+  "en": "Gathers plasma",
+  "status": "done"
  },
  {
   "id": "t0B1600",
@@ -995,8 +995,8 @@
   ],
   "slot": 20,
   "jp": "カンケールスタイル",
-  "en": "",
-  "status": "todo"
+  "en": "Cancer style",
+  "status": "done"
  },
  {
   "id": "t0B1614",
@@ -1010,8 +1010,8 @@
   ],
   "slot": 20,
   "jp": "スコルプハンター",
-  "en": "",
-  "status": "todo"
+  "en": "Scorp Hunter",
+  "status": "done"
  },
  {
   "id": "t0B1628",
@@ -1020,8 +1020,8 @@
   ],
   "slot": 24,
   "jp": "ぜんぶで　１２はつもの",
-  "en": "",
-  "status": "todo"
+  "en": "12 rounds in all:",
+  "status": "done"
  },
  {
   "id": "t0B1640",
@@ -1040,8 +1040,8 @@
   ],
   "slot": 24,
   "jp": "スコルピウススタイル",
-  "en": "",
-  "status": "todo"
+  "en": "Scorpius style",
+  "status": "done"
  },
  {
   "id": "t0B1658",
@@ -1055,8 +1055,8 @@
   ],
   "slot": 16,
   "jp": "キグヌスレイ",
-  "en": "",
-  "status": "todo"
+  "en": "Cygnus Ray",
+  "status": "done"
  },
  {
   "id": "t0B1668",
@@ -1065,8 +1065,8 @@
   ],
   "slot": 24,
   "jp": "モデルにした　レーザー",
-  "en": "",
-  "status": "todo"
+  "en": "on sunlight.",
+  "status": "done"
  },
  {
   "id": "t0B1680",
@@ -1075,8 +1075,8 @@
   ],
   "slot": 20,
   "jp": "たいようこうせんを",
-  "en": "",
-  "status": "todo"
+  "en": "A laser modeled",
+  "status": "done"
  },
  {
   "id": "t0B1694",
@@ -1100,8 +1100,8 @@
   ],
   "slot": 20,
   "jp": "キグヌススタイル",
-  "en": "",
-  "status": "todo"
+  "en": "Cygnus style",
+  "status": "done"
  },
  {
   "id": "t0B16A8",
@@ -1115,8 +1115,8 @@
   ],
   "slot": 16,
   "jp": "アクイラクロー",
-  "en": "",
-  "status": "todo"
+  "en": "Aquila Claw",
+  "status": "done"
  },
  {
   "id": "t0B16B8",
@@ -1125,8 +1125,8 @@
   ],
   "slot": 24,
   "jp": "てきを　ひきさく　ツメ",
-  "en": "",
-  "status": "todo"
+  "en": "claws rip foes.",
+  "status": "done"
  },
  {
   "id": "t0B16D0",
@@ -1135,8 +1135,8 @@
   ],
   "slot": 24,
   "jp": "こうそくで　とびまわり",
-  "en": "",
-  "status": "todo"
+  "en": "Flies at high speed;",
+  "status": "done"
  },
  {
   "id": "t0B16E8",
@@ -1160,8 +1160,8 @@
   ],
   "slot": 20,
   "jp": "アクイラスタイル",
-  "en": "",
-  "status": "todo"
+  "en": "Aquila style",
+  "status": "done"
  },
  {
   "id": "t0B16FC",
@@ -1175,8 +1175,8 @@
   ],
   "slot": 20,
   "jp": "カプリコウェーブ",
-  "en": "",
-  "status": "todo"
+  "en": "Capri Wave",
+  "status": "done"
  },
  {
   "id": "t0B1710",
@@ -1185,8 +1185,8 @@
   ],
   "slot": 20,
   "jp": "てきを　うちくだく",
-  "en": "",
-  "status": "todo"
+  "en": "waves of light.",
+  "status": "done"
  },
  {
   "id": "t0B1724",
@@ -1195,8 +1195,8 @@
   ],
   "slot": 20,
   "jp": "ひかりの　はどうで",
-  "en": "",
-  "status": "todo"
+  "en": "Smashes foes with",
+  "status": "done"
  },
  {
   "id": "t0B1738",
@@ -1225,8 +1225,8 @@
   ],
   "slot": 24,
   "jp": "カプリコルヌススタイル",
-  "en": "",
-  "status": "todo"
+  "en": "Capricornus style",
+  "status": "done"
  },
  {
   "id": "t0B1750",
@@ -1240,8 +1240,8 @@
   ],
   "slot": 12,
   "jp": "レオワスプ",
-  "en": "",
-  "status": "todo"
+  "en": "Leo Wasp",
+  "status": "done"
  },
  {
   "id": "t0B175C",
@@ -1250,8 +1250,8 @@
   ],
   "slot": 24,
   "jp": "いっきに　おそいかかる",
-  "en": "",
-  "status": "todo"
+  "en": "all at once.",
+  "status": "done"
  },
  {
   "id": "t0B1774",
@@ -1260,8 +1260,8 @@
   ],
   "slot": 24,
   "jp": "１０はつの　ミサイルが",
-  "en": "",
-  "status": "todo"
+  "en": "10 missiles strike",
+  "status": "done"
  },
  {
   "id": "t0B178C",
@@ -1285,8 +1285,8 @@
   ],
   "slot": 16,
   "jp": "レオスタイル",
-  "en": "",
-  "status": "todo"
+  "en": "Leo style",
+  "status": "done"
  },
  {
   "id": "t0B179C",
@@ -1300,8 +1300,8 @@
   ],
   "slot": 16,
   "jp": "カリナピストル",
-  "en": "",
-  "status": "todo"
+  "en": "Carina Pistol",
+  "status": "done"
  },
  {
   "id": "t0B17AC",
@@ -1311,8 +1311,8 @@
   ],
   "slot": 24,
   "jp": "はかいりょくを　もつ",
-  "en": "",
-  "status": "todo"
+  "en": "huge firepower.",
+  "status": "done"
  },
  {
   "id": "t0B17C4",
@@ -1321,8 +1321,8 @@
   ],
   "slot": 20,
   "jp": "こがただが　たかい",
-  "en": "",
-  "status": "todo"
+  "en": "Small, but has",
+  "status": "done"
  },
  {
   "id": "t0B17D8",
@@ -1351,8 +1351,8 @@
   ],
   "slot": 16,
   "jp": "カリナスタイル",
-  "en": "",
-  "status": "todo"
+  "en": "Carina style",
+  "status": "done"
  },
  {
   "id": "t0B17E8",
@@ -1366,8 +1366,8 @@
   ],
   "slot": 16,
   "jp": "ガトリングガン",
-  "en": "",
-  "status": "todo"
+  "en": "Gatling Gun",
+  "status": "done"
  },
  {
   "id": "t0B17F8",
@@ -1376,8 +1376,8 @@
   ],
   "slot": 24,
   "jp": "てきに　あびせる　ガン",
-  "en": "",
-  "status": "todo"
+  "en": "foes with bullets.",
+  "status": "done"
  },
  {
   "id": "t0B1810",
@@ -1386,8 +1386,8 @@
   ],
   "slot": 24,
   "jp": "たいりょうの　タマを",
-  "en": "",
-  "status": "todo"
+  "en": "A gun that sprays",
+  "status": "done"
  },
  {
   "id": "t0B1828",
@@ -1401,8 +1401,8 @@
   ],
   "slot": 16,
   "jp": "ミサイルハット",
-  "en": "",
-  "status": "todo"
+  "en": "Missile Hat",
+  "status": "done"
  },
  {
   "id": "t0B1838",
@@ -1411,8 +1411,8 @@
   ],
   "slot": 20,
   "jp": "あたまに　かぶる",
-  "en": "",
-  "status": "todo"
+  "en": "Head-mounted",
+  "status": "done"
  },
  {
   "id": "t0B184C",
@@ -1428,8 +1428,8 @@
   ],
   "slot": 16,
   "jp": "ミサイルポッド",
-  "en": "",
-  "status": "todo"
+  "en": "Missile Pod",
+  "status": "done"
  },
  {
   "id": "t0B185C",
@@ -1439,8 +1439,8 @@
   ],
   "slot": 20,
   "jp": "せなかに　せおう",
-  "en": "",
-  "status": "todo"
+  "en": "Back-mounted",
+  "status": "done"
  },
  {
   "id": "t0B1870",
@@ -1454,8 +1454,8 @@
   ],
   "slot": 16,
   "jp": "ショルダーガン",
-  "en": "",
-  "status": "todo"
+  "en": "Shoulder Gun",
+  "status": "done"
  },
  {
   "id": "t0B1880",
@@ -1464,8 +1464,8 @@
   ],
   "slot": 24,
   "jp": "こがたの　ビームガン",
-  "en": "",
-  "status": "todo"
+  "en": "small beam guns.",
+  "status": "done"
  },
  {
   "id": "t0B1898",
@@ -1475,8 +1475,8 @@
   ],
   "slot": 24,
   "jp": "りょうかたに　つける",
-  "en": "",
-  "status": "todo"
+  "en": "On both shoulders:",
+  "status": "done"
  },
  {
   "id": "t0B18B0",
@@ -1490,8 +1490,8 @@
   ],
   "slot": 16,
   "jp": "シザーショット",
-  "en": "",
-  "status": "todo"
+  "en": "Scissor Shot",
+  "status": "done"
  },
  {
   "id": "t0B18C0",
@@ -1500,8 +1500,8 @@
   ],
   "slot": 24,
   "jp": "うちだす　かわったガン",
-  "en": "",
-  "status": "todo"
+  "en": "fires it. Weird gun!",
+  "status": "done"
  },
  {
   "id": "t0B18D8",
@@ -1510,8 +1510,8 @@
   ],
   "slot": 24,
   "jp": "ビームを　はさみこんで",
-  "en": "",
-  "status": "todo"
+  "en": "Grips a beam, then",
+  "status": "done"
  },
  {
   "id": "t0B18F0",
@@ -1525,8 +1525,8 @@
   ],
   "slot": 16,
   "jp": "エナジーボウル",
-  "en": "",
-  "status": "todo"
+  "en": "Energy Bowl",
+  "status": "done"
  },
  {
   "id": "t0B1900",
@@ -1535,8 +1535,8 @@
   ],
   "slot": 24,
   "jp": "たんぱつ　ビームほう",
-  "en": "",
-  "status": "todo"
+  "en": "one-shot beam gun.",
+  "status": "done"
  },
  {
   "id": "t0B1918",
@@ -1545,8 +1545,8 @@
   ],
   "slot": 20,
   "jp": "こうしゅつりょくの",
-  "en": "",
-  "status": "todo"
+  "en": "A high-output",
+  "status": "done"
  },
  {
   "id": "t0B192C",
@@ -1561,8 +1561,8 @@
   ],
   "slot": 12,
   "jp": "マシンガン",
-  "en": "",
-  "status": "todo"
+  "en": "Machine Gun",
+  "status": "done"
  },
  {
   "id": "t0B1938",
@@ -1571,8 +1571,8 @@
   ],
   "slot": 24,
   "jp": "れんしゃされる　ガン",
-  "en": "",
-  "status": "todo"
+  "en": "in rapid fire.",
+  "status": "done"
  },
  {
   "id": "t0B1950",
@@ -1581,8 +1581,8 @@
   ],
   "slot": 24,
   "jp": "だんがんが　こうそくで",
-  "en": "",
-  "status": "todo"
+  "en": "Bullets fly out fast",
+  "status": "done"
  },
  {
   "id": "t0B1968",
@@ -1596,8 +1596,8 @@
   ],
   "slot": 20,
   "jp": "フォトンブラスト",
-  "en": "",
-  "status": "todo"
+  "en": "Photon Blast",
+  "status": "done"
  },
  {
   "id": "t0B197C",

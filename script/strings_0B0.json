@@ -280,7 +280,7 @@
   ],
   "slot": 24,
   "jp": "おおきめの　ぶきなどを",
-  "en": "it suits big",
+  "en": "and other big",
   "status": "done"
  },
  {
@@ -290,7 +290,7 @@
   ],
   "slot": 24,
   "jp": "ひじょうに　かるいため",
-  "en": "Very light, so",
+  "en": "Very light. For",
   "status": "done"
  },
  {
@@ -1775,8 +1775,8 @@
   ],
   "slot": 20,
   "jp": "なめらかな　めんで",
-  "en": "",
-  "status": "todo"
+  "en": "Its smooth surface",
+  "status": "done"
  },
  {
   "id": "t0B0D70",
@@ -1789,8 +1789,8 @@
   ],
   "slot": 16,
   "jp": "バグズシールド",
-  "en": "",
-  "status": "todo"
+  "en": "Bugs Shield",
+  "status": "done"
  },
  {
   "id": "t0B0D80",
@@ -1799,8 +1799,8 @@
   ],
   "slot": 20,
   "jp": "かさねた　シールド",
-  "en": "",
-  "status": "todo"
+  "en": "into a shield.",
+  "status": "done"
  },
  {
   "id": "t0B0D94",
@@ -1809,8 +1809,8 @@
   ],
   "slot": 20,
   "jp": "うすい　そうこうを",
-  "en": "",
-  "status": "todo"
+  "en": "Thin plates layered",
+  "status": "done"
  },
  {
   "id": "t0B0DA8",
@@ -1823,8 +1823,8 @@
   ],
   "slot": 16,
   "jp": "シェルシールド",
-  "en": "",
-  "status": "todo"
+  "en": "Shell Shield",
+  "status": "done"
  },
  {
   "id": "t0B0DB8",
@@ -1833,8 +1833,8 @@
   ],
   "slot": 20,
   "jp": "かわった　シールド",
-  "en": "",
-  "status": "todo"
+  "en": "an unusual shield.",
+  "status": "done"
  },
  {
   "id": "t0B0DCC",
@@ -1843,8 +1843,8 @@
   ],
   "slot": 24,
   "jp": "あたまに　とりつける",
-  "en": "",
-  "status": "todo"
+  "en": "Head-mounted:",
+  "status": "done"
  },
  {
   "id": "t0B0DE4",
@@ -1857,8 +1857,8 @@
   ],
   "slot": 16,
   "jp": "バディシールド",
-  "en": "",
-  "status": "todo"
+  "en": "Buddy Shield",
+  "status": "done"
  },
  {
   "id": "t0B0DF4",
@@ -1867,8 +1867,8 @@
   ],
   "slot": 24,
   "jp": "じょうぶな　シールド",
-  "en": "",
-  "status": "todo"
+  "en": "a sturdy shield.",
+  "status": "done"
  },
  {
   "id": "t0B0E0C",
@@ -1877,8 +1877,8 @@
   ],
   "slot": 20,
   "jp": "ひじょうに　かるく",
-  "en": "",
-  "status": "todo"
+  "en": "Very light, yet",
+  "status": "done"
  },
  {
   "id": "t0B0E20",
@@ -1891,8 +1891,8 @@
   ],
   "slot": 16,
   "jp": "テトラシールド",
-  "en": "",
-  "status": "todo"
+  "en": "Tetra Shield",
+  "status": "done"
  },
  {
   "id": "t0B0E30",
@@ -1901,8 +1901,8 @@
   ],
   "slot": 24,
   "jp": "とりつける　シールド",
-  "en": "",
-  "status": "todo"
+  "en": "the front legs' base.",
+  "status": "done"
  },
  {
   "id": "t0B0E48",
@@ -1911,8 +1911,8 @@
   ],
   "slot": 24,
   "jp": "まえあしの　つけねに",
-  "en": "",
-  "status": "todo"
+  "en": "Shield mounted at",
+  "status": "done"
  },
  {
   "id": "t0B0E60",
@@ -1954,8 +1954,8 @@
   ],
   "slot": 20,
   "jp": "だいちぞくせいの",
-  "en": "",
-  "status": "todo"
+  "en": "Earth-element",
+  "status": "done"
  },
  {
   "id": "t0B0E74",
@@ -1997,8 +1997,8 @@
   ],
   "slot": 20,
   "jp": "かみなりぞくせいの",
-  "en": "",
-  "status": "todo"
+  "en": "Thunder-element",
+  "status": "done"
  },
  {
   "id": "t0B0E88",
@@ -2040,8 +2040,8 @@
   ],
   "slot": 16,
   "jp": "みずぞくせいの",
-  "en": "",
-  "status": "todo"
+  "en": "Water-element",
+  "status": "done"
  },
  {
   "id": "t0B0E98",
@@ -2054,8 +2054,8 @@
   ],
   "slot": 16,
   "jp": "イグナシールド",
-  "en": "",
-  "status": "todo"
+  "en": "Igna Shield",
+  "status": "done"
  },
  {
   "id": "t0B0EA8",
@@ -2097,8 +2097,8 @@
   ],
   "slot": 20,
   "jp": "ほのおぞくせいの",
-  "en": "",
-  "status": "todo"
+  "en": "Fire-element",
+  "status": "done"
  },
  {
   "id": "t0B0EBC",
@@ -2107,8 +2107,8 @@
   ],
   "slot": 20,
   "jp": "こがたの　シールド",
-  "en": "",
-  "status": "todo"
+  "en": "small shield.",
+  "status": "done"
  },
  {
   "id": "t0B0ED0",
@@ -2117,8 +2117,8 @@
   ],
   "slot": 20,
   "jp": "かたに　とりつける",
-  "en": "",
-  "status": "todo"
+  "en": "Shoulder-mounted",
+  "status": "done"
  },
  {
   "id": "t0B0EE4",
@@ -2277,8 +2277,8 @@
   ],
   "slot": 20,
   "jp": "アーマーデバイス",
-  "en": "",
-  "status": "todo"
+  "en": "Armor Device",
+  "status": "done"
  },
  {
   "id": "t0B0EF8",
@@ -2292,8 +2292,8 @@
   ],
   "slot": 20,
   "jp": "ケンタウロパイル",
-  "en": "",
-  "status": "todo"
+  "en": "Centauro Pile",
+  "status": "done"
  },
  {
   "id": "t0B0F0C",
@@ -2302,8 +2302,8 @@
   ],
   "slot": 20,
   "jp": "ハイパワーレーザー",
-  "en": "",
-  "status": "todo"
+  "en": "a high-power laser.",
+  "status": "done"
  },
  {
   "id": "t0B0F20",
@@ -2312,8 +2312,8 @@
   ],
   "slot": 24,
   "jp": "すべてを　なぎはらう",
-  "en": "",
-  "status": "todo"
+  "en": "Sweeps all away:",
+  "status": "done"
  },
  {
   "id": "t0B0F38",
@@ -2327,8 +2327,8 @@
   ],
   "slot": 16,
   "jp": "ドラコシャワー",
-  "en": "",
-  "status": "todo"
+  "en": "Draco Shower",
+  "status": "done"
  },
  {
   "id": "t0B0F48",
@@ -2337,8 +2337,8 @@
   ],
   "slot": 12,
   "jp": "まきちらす",
-  "en": "",
-  "status": "todo"
+  "en": "a wide area.",
+  "status": "done"
  },
  {
   "id": "t0B0F54",
@@ -2347,8 +2347,8 @@
   ],
   "slot": 24,
   "jp": "こうはんいに　ビームを",
-  "en": "",
-  "status": "todo"
+  "en": "Scatters beams over",
+  "status": "done"
  },
  {
   "id": "t0B0F6C",
@@ -2362,8 +2362,8 @@
   ],
   "slot": 20,
   "jp": "リブラブレイカー",
-  "en": "",
-  "status": "todo"
+  "en": "Libra Breaker",
+  "status": "done"
  },
  {
   "id": "t0B0F80",
@@ -2372,8 +2372,8 @@
   ],
   "slot": 24,
   "jp": "レーザーとして　うつ",
-  "en": "",
-  "status": "todo"
+  "en": "electrons as a laser.",
+  "status": "done"
  },
  {
   "id": "t0B0F98",
@@ -2382,8 +2382,8 @@
   ],
   "slot": 24,
   "jp": "かそくさせた　でんしを",
-  "en": "",
-  "status": "todo"
+  "en": "Fires accelerated",
+  "status": "done"
  },
  {
   "id": "t0B0FB0",
@@ -2397,8 +2397,8 @@
   ],
   "slot": 20,
   "jp": "レープスウイング",
-  "en": "",
-  "status": "todo"
+  "en": "Lepus Wing",
+  "status": "done"
  },
  {
   "id": "t0B0FC4",
@@ -2407,8 +2407,8 @@
   ],
   "slot": 20,
   "jp": "とぶことが　できる",
-  "en": "",
-  "status": "todo"
+  "en": "it lets you fly.",
+  "status": "done"
  },
  {
   "id": "t0B0FD8",
@@ -2417,8 +2417,8 @@
   ],
   "slot": 24,
   "jp": "せなかに　とりつけると",
-  "en": "",
-  "status": "todo"
+  "en": "Worn on the back,",
+  "status": "done"
  },
  {
   "id": "t0B0FF0",
@@ -2432,7 +2432,7 @@
   ],
   "slot": 16,
   "jp": "カリナレイピア",
-  "en": "",
-  "status": "todo"
+  "en": "Carina Rapier",
+  "status": "done"
  }
 ]
