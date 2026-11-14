@@ -1,6 +1,6 @@
 # Debug tool: story flags, events, script start (phase 2)
 
-Tool: `tools/debug/warp.lua` + `tools/debug/scenes.tsv` (kinds: boot, newgame, script, event, field). Command in
+Tool: `tools/debug/warp.lua` + `tools/debug/scenes.tsv` (kinds: boot, newgame, script, event, field, menu, fscript, mode). Command in
 AGENTS.md. Each warp logs `WARP <stage>`, `SCRIPT <n> lr=.. room=..`, `ARRIVED <scene>`, and `TEXT <ptr>` for every
 string the message drawer gets (text-coverage source for phase 8).
 
@@ -50,6 +50,29 @@ string the message drawer gets (text-coverage source for phase 8).
   swaps 633 for any script: the script's text shows in the reception, but shop/colosseum/factory UIs are native code
   entered from their buildings, so those scripts give greeting text only.
 - Shop texts: 690 item shop, 705 colosseum, 723-741 device development, 762-772 travelling merchant, 275 game over.
+
+## Game modes and the leftover debug menu (verified 2026-11-14, kind `mode`, 55 rows)
+- Top-level mode: u32 **0x03001AD0** (+ a per-mode byte at 0x03001830[mode]); set by `set_mode(r0 mode, r1)` at
+  0x08002C1C. Dispatcher **0x08004DB8**: mode 0 = power-on init then mode 29 (logo); modes 1..50 index the jump
+  table **0x08004DF0**, each case starts that mode's task via 0x080028A4(task). Writing the mode var mid-task does
+  nothing; kind `mode` replaces the dispatcher's first pick (r0 at **0x08004DD4**) at a cold boot.
+- Modes (cold boot, so no profile/party/items: lists are empty): 1 date prompt, 2-8 PDA apps (profile card, lists,
+  calendar, schedule, calculator), 9 Dyna Pad frame, 10/14/47 field (house room), 11 Dyna status, 12 garbage (needs
+  data), 13 ダイナカスタマイズ, 15 アイテムオークション, 16 Dyna list shop, 17 アイテムばいきゃく, 18 subway demo,
+  19 blank, 20 kept kits, 21 かいはつじょうきょう, 22 colosseum crowd, 23 shop list + sector map, 24/43 めいしこうかん,
+  25/26/38 none, 27 3D field, 28/35 ダイナはいち, 29 logo, 30-32 link (TSUUSIN), 33 チームへんせい, 34 roulette,
+  36 ゲット list, 37 battle (garbage without setup), 39 title, 40/42 minigame titles, 41 minigame level select,
+  44 profile form, 45 PDA page, 46 opening movie (then 39), 47 map test, 48 battle test (CASE=), 49 DATA VIEW,
+  **50 = "AGB SYSTEM DEBUG MENU"** (strings at 0x0AF6F0, code 0x08008820..0x0800AD9C).
+- Debug menu rows (cursor starts on row 1, wraps): 0 GAME START 1 PDA SYSTEM 2 MONSTER CITY (CITY SETUP MENU: map,
+  money, monster num, scenario; A on START = a game in the city) 3 BATTLE SYSTEM (BATTLE SETUP MENU; up + A =
+  BATTLE START, a real battle) 4 TACTICS (MONSTER SET MENU) 5 TSUUSIN (TOOL MONSTER SET MENU) 6 RASTER TUSIN
+  (title) 7 ETC (first entry = item auction) 8 WORLD MAP (battle board) 9 SUBWAY DEMO 10 COLO EVENT DEMO
+  (フリーバトル) 11 MINI GAME = n (right changes n) 12 TEST2 13 TEST1 14 SOUND MENU 15 DATA VIEW.
+  The CITY SETUP `SCENARIO = %03d` field is a possible chapter warp (not tried yet).
+- Text: no staff names exist as SJIS text (no スタッフ/ディレクター strings); the sound test lists a スタッフロール
+  BGM, so credits, if any, are graphics. Script 153 (epilogue) ends at once when hijacked; the ending chain is in
+  the event pick after 0x0801EDFE (flags 0x4F-0x54 with room 0x13 -> event 0x4F, then more cases), not decoded.
 
 ## Field and menus (open, older notes)
 - After the tutorial skip the player has no Dynas, and a visiting challenger (script 791, from 0x080654A2 when

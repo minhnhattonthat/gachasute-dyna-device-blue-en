@@ -120,6 +120,25 @@ L.on_exec(EVENT_PICK, EVENT_PICK, function()
   end
 end)
 
+-- kind "mode": arg "N[ route]". The top-level dispatcher (0x08004DB8) picks the task for game mode N
+-- (u32 0x03001AD0, jump table 0x08004DF0, modes 1..50; docs/re/debug.md). Its first pick (logo, mode 29) is replaced
+-- by mode N at a cold boot, so the screen starts with no profile, party or items. Mode 50 = the leftover
+-- "AGB SYSTEM DEBUG MENU"; the route then picks its entries.
+local MODE_VAR, MODE_PICK = 0x03001AD0, 0x08004DD4
+local modeForced = false
+L.on_exec(MODE_PICK, MODE_PICK, function()
+  if scene.kind ~= "mode" or modeForced then return end
+  modeForced = true
+  local want = tonumber(scene.arg:match("^%s*(%d+)"))
+  local route = scene.arg:match("^%s*%d+%s+(.+)$")
+  emu.write32(MODE_VAR, want, MEM)
+  emu.write(0x03001830 + want, 1, MEM)
+  emu.setState({ ["cpu.r0"] = want })
+  set_stage("done")
+  play(parse_route("1 -;" .. (route or "60 -")))
+  arriveAfterRoute = true
+end)
+
 local dateSeen = false
 L.on_exec(DATE_PROMPT, DATE_PROMPT, function()
   if not dateSeen and scene.kind == "boot" and scene.arg == "date" then
@@ -248,4 +267,8 @@ L.on_frame(function(n)
     elseif FINISH then L.finish(0) end
   end
   if arrived and n > arrived and (MASHA or 0) > 0 and (n - arrived) % 40 == 0 then L.press("a", 6) end
+  if n % 30 == 0 then  -- log top-level mode changes ("MODE n")
+    local m = emu.read32(MODE_VAR, MEM)
+    if m ~= lastMode then L.log(string.format("MODE %d f%d", m, n)); lastMode = m end
+  end
 end)

@@ -39,3 +39,56 @@ e40	event	40	900	story event 40: script 113 (reception)
 e56	event	56	900	story event 56: script 129 (city)
 s152	script	152	900	hijack: script 152, final battle aftermath (rival loses)
 s153	script	153	900	hijack: script 153, epilogue
+debug_menu	mode	50	60	leftover AGB SYSTEM DEBUG MENU (mode 50 forced at boot); cursor starts on PDA SYSTEM
+dbg_city_setup	mode	50 10 -;6 down;20 -;6 a;200 -	60	debug menu > MONSTER CITY: CITY SETUP MENU (map, money, monster num, scenario)
+dbg_city_start	mode	50 10 -;6 down;20 -;6 a;200 -;6 a;900 -	60	debug menu > CITY SETUP > START: game starts in the city (ようこそ ダイナシティへ)
+dbg_battle_setup	mode	50 10 -;6 down;20 -;6 down;20 -;6 a;200 -	60	debug menu > BATTLE SYSTEM: BATTLE SETUP MENU
+dbg_battle	mode	50 10 -;6 down;20 -;6 down;20 -;6 a;200 -;6 up;20 -;6 a;900 -	60	debug menu > BATTLE SETUP > BATTLE START: a battle (1P vs COM)
+dbg_tactics	mode	50 10 -;6 down;20 -;6 down;20 -;6 down;20 -;6 a;300 -	60	debug menu > TACTICS SYSTEM: MONSTER SET MENU
+dbg_tsuusin	mode	50 10 -;6 down;20 -;6 down;20 -;6 down;20 -;6 down;20 -;6 a;300 -	60	debug menu > TSUUSIN SELECT: TOOL MONSTER SET MENU
+dbg_etc	mode	50 10 -;6 down;20 -;6 down;20 -;6 down;20 -;6 down;20 -;6 down;20 -;6 down;20 -;6 a;300 -	60	debug menu > ETC: submenu list
+dbg_etc_auction	mode	50 10 -;6 down;20 -;6 down;20 -;6 down;20 -;6 down;20 -;6 down;20 -;6 down;20 -;6 a;200 -;6 a;400 -	60	debug menu > ETC > first entry: item auction (アイテムオークション)
+dbg_world_map	mode	50 10 -;6 down;20 -;6 down;20 -;6 down;20 -;6 down;20 -;6 down;20 -;6 down;20 -;6 down;20 -;6 a;400 -	60	debug menu > WORLD MAP: battle board map
+dbg_colo_free	mode	50 10 -;6 down;20 -;6 down;20 -;6 down;20 -;6 down;20 -;6 down;20 -;6 down;20 -;6 down;20 -;6 down;20 -;6 down;20 -;6 a;400 -	60	debug menu > COLO EVENT DEMO: free battle (フリーバトル)
+dbg_minigame_n	mode	50 10 -;6 up;20 -;6 up;20 -;6 up;20 -;6 up;20 -;6 up;20 -;6 up;20 -;6 right;30 -;6 a;600 -	60	debug menu > MINI GAME = 1 > A: minigame level select (レベル1-3)
+dbg_sound	mode	50 10 -;6 up;20 -;6 up;20 -;6 up;20 -;6 a;300 -	60	debug menu > SOUND MENU
+mode_pda_boot	mode	1	600	mode 1: boot date prompt (きょうの ひづけを…), the game's first screen after the logo
+mode_pda_profile	mode	2	600	mode 2: PDA profile / address card
+mode_pda_memo	mode	3	600	mode 3: PDA list page
+mode_pda_calendar	mode	4	600	mode 4: PDA calendar (2000年 0月)
+mode_pda_schedule	mode	5	600	mode 5: PDA day schedule
+mode_pda_list	mode	6	600	mode 6: PDA list page 2
+mode_pda_calc	mode	7	600	mode 7: PDA calculator
+mode_pda_calendar2	mode	8	600	mode 8: PDA calendar with weekdays (新暦)
+mode_dynapad	mode	9	600	mode 9: Dyna Pad device frame
+mode_field	mode	10	600	mode 10: field (house room, empty profile)
+mode_dyna_status	mode	11	600	mode 11: Dyna status / equip table
+mode_customize	mode	13	600	mode 13: ダイナカスタマイズ (Dyna customise)
+mode_auction	mode	15	600	mode 15: アイテムオークション (item auction shop)
+mode_dyna_shop	mode	16	600	mode 16: Dyna list shop
+mode_item_sell	mode	17	600	mode 17: アイテムばいきゃく (item sell)
+mode_subway	mode	18	600	mode 18: subway train demo
+mode_kit	mode	20	600	mode 20: あずかっている…キット (kept kits)
+mode_dev_status	mode	21	600	mode 21: かいはつじょうきょう (device development status)
+mode_colo_event	mode	22	600	mode 22: colosseum event (crowd scene)
+mode_shop_list	mode	23	600	mode 23: shop list with sector map
+mode_card	mode	24	600	mode 24: めいしこうかん (business-card exchange)
+mode_battle_field	mode	27	600	mode 27: 3D battle field
+mode_placement	mode	28	600	mode 28: ダイナはいち (battle placement)
+mode_link_select	mode	30	600	mode 30: TSUUSIN MODE SELECT (link)
+mode_link	mode	31	600	mode 31: link screen
+mode_link_check	mode	32	600	mode 32: せつぞくかくにん (link check)
+mode_team	mode	33	600	mode 33: チームへんせい (team formation)
+mode_roulette	mode	34	600	mode 34: battle roulette (dial)
+mode_get	mode	36	600	mode 36: ゲット list (battle rewards)
+mode_title	mode	39	600	mode 39: title screen
+mode_minigame_a	mode	40	600	mode 40: minigame title (ゲームスタート / おわる)
+mode_minigame_level	mode	41	600	mode 41: minigame level select (レベル1-3)
+mode_minigame_b	mode	42	600	mode 42: minigame title 2
+mode_card2	mode	43	600	mode 43: めいしこうかん 2
+mode_form	mode	44	60	mode 44: profile form, empty (mode 1 = date prompt goes here at boot; idle it returns to mode 50)
+mode_pda_45	mode	45	600	mode 45: PDA page
+mode_opening	mode	46	1500	mode 46: opening movie (Dyna Pad, device cards, green spec panels), then the title (mode 39) at ~4700 frames
+mode_map_test	mode	47	600	mode 47: map test (house room)
+mode_battle_test	mode	48	600	mode 48: battle test (CASE=)
+mode_data_view	mode	49	600	mode 49: DATA VIEW

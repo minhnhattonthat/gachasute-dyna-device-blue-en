@@ -20,7 +20,7 @@ from skill import SKILL  # noqa: E402
 ROM = ROOT / "rom" / "Gachasute! Dyna Device Blue (Japan).gba"
 SCENES = ROOT / "tools" / "debug" / "scenes.tsv"
 # frame budget per kind: the warp stops itself at the hold shot; this is only the ceiling
-BUDGET = {"boot": 4000, "newgame": 5000, "script": 9000, "event": 12000, "field": 12000, "menu": 32000, "fscript": 33000}
+BUDGET = {"boot": 4000, "newgame": 5000, "script": 9000, "event": 12000, "field": 12000, "menu": 32000, "fscript": 33000, "mode": 4500}
 
 
 def scenes():
@@ -64,7 +64,8 @@ def main():
         if bad:
             sys.exit(f"unknown scene(s): {' '.join(bad)}")
         rows = [r for r in rows if r[0] in a.names]
-    out, states = Path(a.out), Path(a.states)
+    # absolute: the warp saves its state from Mesen, whose working folder is tools/mesen
+    out, states = Path(a.out).resolve(), Path(a.states).resolve()
     states.mkdir(parents=True, exist_ok=True)
     # longest first so the menu replays (about 26k frames) don't trail at the end
     rows.sort(key=lambda r: -BUDGET.get(r[1], 12000))
