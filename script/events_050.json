@@ -84,7 +84,7 @@
   "flag": 0,
   "speaker": 1,
   "jp": "ふつうじゃない　ばあいっていうのは\nあとでまた　せつめいするね",
-  "en": "I'll explain the not-normal cases later.",
+  "en": "I'll explain the exceptions later.",
   "status": "done"
  },
  {
@@ -116,7 +116,7 @@
   "flag": 0,
   "speaker": 1,
   "jp": "あらら　ぜんぜん　かんけいないところに\nきたわね・・・",
-  "en": "Oh my, he hit somewhere\ntotally unrelated...",
+  "en": "Oops, he hit a spot with nothing there...",
   "status": "done"
  },
  {
@@ -180,7 +180,7 @@
   "flag": 0,
   "speaker": 1,
   "jp": "ビンゴ！　さっき　いってた\nふつうじゃないばあいが　これよ",
-  "en": "Bingo! This is the not-normal\ncase I mentioned earlier.",
+  "en": "Bingo! This is the exception\nI mentioned earlier.",
   "status": "done"
  },
  {
@@ -228,7 +228,7 @@
   "flag": 0,
   "speaker": 1,
   "jp": "うーん・・・ていさつするということを\nしらないのかしら・・・",
-  "en": "Hmm... Maybe they don't\nknow about scouting...",
+  "en": "Hmm... Does he even\nknow he can scout...?",
   "status": "done"
  },
  {
@@ -684,7 +684,7 @@
   "flag": 0,
   "speaker": 4,
   "jp": "てもち　アイテムを　へらしてから\nひきとりにきてください",
-  "en": "Please have fewer items on hand,\nthen come back to pick it up.",
+  "en": "Please make room in your bag,\nthen come back to pick it up.",
   "status": "done"
  },
  {
@@ -1076,7 +1076,7 @@
   "flag": 0,
   "speaker": 4,
   "jp": "ちょっと　トラブルも　ありましたが\nぶじ　かんせいですね",
-  "en": "There was a little trouble,\nbut it is finished safely.",
+  "en": "There was a little trouble,\nbut it is complete now.",
   "status": "done"
  },
  {

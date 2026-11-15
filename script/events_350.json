@@ -532,7 +532,7 @@
   "flag": 0,
   "speaker": -1,
   "jp": "ん？　{%sR4}か・・・\nどうした？　なにか　たのみごとか？",
-  "en": "Hm? {%sR4}...{KP}\nWhat's up? Need a favor?",
+  "en": "Hm? {%sR4}...{KP}\nWhat is it? Have you\ncome to ask a favor?",
   "status": "done"
  }
 ]

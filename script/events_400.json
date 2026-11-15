@@ -52,7 +52,7 @@
   "flag": 0,
   "speaker": -1,
   "jp": "・・・なんでぇ　{%sR4}かよ\n・・・わりぃけど　またにしてくんねぇかな",
-  "en": "...Whaddaya want, {%sR4}?{KP}\n...Sorry, but can it wait till later?",
+  "en": "...Oh, it's you, {%sR4}.{KP}\n...Sorry, but can it wait till later?",
   "status": "done"
  },
  {
@@ -580,7 +580,7 @@
   "flag": 0,
   "speaker": -1,
   "jp": "エクストラの　なかには　こうげきに\nついかこうかが　つくものも　あるぞ",
-  "en": "Some Extras add an\nextra effect to attacks.",
+  "en": "Some Extras even give\nyour attacks an extra kick!",
   "status": "done"
  },
  {
@@ -940,7 +940,7 @@
   "flag": 0,
   "speaker": -1,
   "jp": "わたしたち　ダイナには　それぞれ\nタイプごとに　あいしょうが　あるの",
-  "en": "We Dyna each get along better or worse{KP}\nwith others, depending on type.",
+  "en": "You know, how well we Dyna get along{KP}\ndepends on our types.",
   "status": "done"
  },
  {
@@ -1068,7 +1068,7 @@
   "flag": 0,
   "speaker": -1,
   "jp": "わたしたち　ダイナには　それぞれ\nタイプごとに　あいしょうが　あるの",
-  "en": "We Dyna each get along better or worse{KP}\nwith others, depending on type.",
+  "en": "You know, how well we Dyna get along{KP}\ndepends on our types.",
   "status": "done"
  },
  {

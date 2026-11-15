@@ -124,7 +124,7 @@
   "flag": 0,
   "speaker": 4,
   "jp": "それでは　まず　あなたの　データから\nダイナを　よびだしてみましょう{KP}\nガチャステの　まえで\nＡボタンを　おしてください",
-  "en": "First, let's call up a Dyna\nfrom your own data.{KP}\nPlease stand in front of the\nGachasute and press the A Button.",
+  "en": "First, let us call up a\nDyna from your own data.{KP}\nPlease stand in front of the\nGachasute and press the A Button.",
   "status": "done"
  },
  {
@@ -252,7 +252,7 @@
   "flag": 0,
   "speaker": 4,
   "jp": "いっしょに　おともだちの　ダイナを\nもらうことができる　と　いうものです{KP}\nこれは　じっさいに　やってみましょう",
-  "en": "you also get one of your friend's Dyna.{KP}\nLet's actually try this one.",
+  "en": "you also get one of your friend's Dyna.{KP}\nLet us actually try it.",
   "status": "done"
  },
  {
@@ -420,7 +420,7 @@
   "flag": 0,
   "speaker": 4,
   "jp": "・・・さて　つぎは　ダイナシティの\nつくりかたに　ついての　せつめいですね{KP}\nでは　とりあえず　そとに　でてみましょう",
-  "en": "...Now, next I will explain\nhow to build your Dyna City.{KP}\nFor now, let's step outside.",
+  "en": "...Now, next I will explain\nhow to build your Dyna City.{KP}\nFor now, let us step outside.",
   "status": "done"
  },
  {
@@ -436,7 +436,7 @@
   "flag": 0,
   "speaker": 4,
   "jp": "となりに　いえが　たっていますよね？{KP}\nあれが　あなたと　{%sR5}の\nいえに　なります",
-  "en": "There is a house standing\nright next door, isn't there?{KP}\nThat will be the house for\nyou and {%sR5}.",
+  "en": "Do you see the house\nstanding right next door?{KP}\nThat will be the house for\nyou and {%sR5}.",
   "status": "done"
  },
  {
@@ -468,7 +468,7 @@
   "flag": 0,
   "speaker": 4,
   "jp": "では　ためしに　いえを　たててみましょう{KP}\nすぐ　そこの　セクタに　むかって\nＡボタンを　おしてみてください",
-  "en": "Let's try building a house.{KP}\nPlease face the sector right over\nthere and press the A Button.",
+  "en": "Let us try building a house.{KP}\nPlease face the sector right over\nthere and press the A Button.",
   "status": "done"
  },
  {
@@ -476,7 +476,7 @@
   "flag": 0,
   "speaker": 4,
   "jp": "はい　いえが　たちました{KP}\nそれでは　ちょっと\nなかに　はいってみましょう",
-  "en": "There we are! The house is built.{KP}\nNow, let's step inside for a moment.",
+  "en": "There we are! The house is built.{KP}\nNow, let us step inside for a moment.",
   "status": "done"
  },
  {
@@ -492,7 +492,7 @@
   "flag": 0,
   "speaker": 4,
   "jp": "それでは　このいえに　ダイナを\nすまわせてみましょう",
-  "en": "Now, let's have a Dyna\nmove into this house.",
+  "en": "Now, let us have a Dyna\nmove into this house.",
   "status": "done"
  },
  {
@@ -548,7 +548,7 @@
   "flag": 0,
   "speaker": 4,
   "jp": "れんしゅうなので　こわしてしまいましょう{KP}\nいえを　こわすには　すんでいる\nダイナを{KP}\nそとに　つれださなければなりません",
-  "en": "this was just practice,\nso let's knock it down.{KP}\nTo knock down a house, you must first\ntake the Dyna living there outside.",
+  "en": "this was just practice,\nso let us knock it down.{KP}\nTo knock down a house, you must first\ntake the Dyna living there outside.",
   "status": "done"
  },
  {
@@ -564,7 +564,7 @@
   "flag": 0,
   "speaker": 4,
   "jp": "それでは　そとに　でましょう",
-  "en": "Now then, let's go outside.",
+  "en": "Now then, let us go outside.",
   "status": "done"
  },
  {
@@ -1124,7 +1124,7 @@
   "flag": 0,
   "speaker": 4,
   "jp": "このままでは　まわりに　わるい\nえいきょうを　あたえるので{KP}\nきれいに　かたづけておきましょう",
-  "en": "Left like this, it has a bad\neffect on its surroundings,{KP}\nso let's clean it up.",
+  "en": "Left like this, it has a bad\neffect on its surroundings,{KP}\nso let us clean it up.",
   "status": "done"
  },
  {
@@ -1556,7 +1556,7 @@
   "flag": 0,
   "speaker": 1,
   "jp": "つぎからは　じぶんで　かんがえながら\nたたかってみてね{KP}\nコロシアムで　フリーバトルを　していけば",
-  "en": "From now on, try fighting\nwhile thinking for yourself.{KP}\nIf you keep having Free\nBattles at the Colosseum,",
+  "en": "Next time, try coming up\nwith your own battle plans!{KP}\nIf you keep having Free\nBattles at the Colosseum,",
   "status": "done"
  },
  {

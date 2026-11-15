@@ -52,7 +52,7 @@
   "flag": 0,
   "speaker": 4,
   "jp": "アイテムが　いっぱいです！{KN}",
-  "en": "Your items are full!{KN}",
+  "en": "Your bag is full!{KN}",
   "status": "done"
  },
  {
@@ -76,7 +76,7 @@
   "flag": 0,
   "speaker": 4,
   "jp": "アイテムが　いっぱいで　もちきれません",
-  "en": "Your items are full. You\ncannot carry any more.",
+  "en": "Your bag is full. You\ncannot carry any more.",
   "status": "done"
  },
  {
@@ -140,7 +140,7 @@
   "flag": 0,
   "speaker": 4,
   "jp": "そういえば　コロシアムに　だれか\nまたせているのではないですか？{KP}\nわすれずに　いってあげてくださいね",
-  "en": "By the way, is someone not\nwaiting for you at the Colosseum?{KP}\nPlease do not forget to go.",
+  "en": "By the way, is someone waiting\nfor you at the Colosseum?{KP}\nPlease do not forget\nto go and see them.",
   "status": "done"
  },
  {
@@ -180,7 +180,7 @@
   "flag": 0,
   "speaker": 4,
   "jp": "そういえば　コロシアムに　だれか\nまたせているのではないですか？{KP}\nわすれずに　いってあげてくださいね",
-  "en": "By the way, is someone not\nwaiting for you at the Colosseum?{KP}\nPlease do not forget to go.",
+  "en": "By the way, is someone waiting\nfor you at the Colosseum?{KP}\nPlease do not forget\nto go and see them.",
   "status": "done"
  },
  {
@@ -252,7 +252,7 @@
   "flag": 0,
   "speaker": 4,
   "jp": "そういえば　コロシアムに　だれか\nまたせているのではないですか？{KP}\nわすれずに　いってあげてくださいね",
-  "en": "By the way, aren't you keeping\nsomeone waiting at the Colosseum?{KP}\nPlease do not forget\nto go and see them.",
+  "en": "By the way, is someone waiting\nfor you at the Colosseum?{KP}\nPlease do not forget\nto go and see them.",
   "status": "done"
  },
  {
@@ -316,7 +316,7 @@
   "flag": 0,
   "speaker": 4,
   "jp": "そういえば　コロシアムに　だれか\nまたせているのではないですか？{KP}\nわすれずに　いってあげてくださいね",
-  "en": "By the way, aren't you keeping\nsomeone waiting at the Colosseum?{KP}\nPlease do not forget\nto go and see them.",
+  "en": "By the way, is someone waiting\nfor you at the Colosseum?{KP}\nPlease do not forget\nto go and see them.",
   "status": "done"
  },
  {

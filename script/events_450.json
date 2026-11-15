@@ -124,7 +124,7 @@
   "flag": 0,
   "speaker": -1,
   "jp": "なんとか　ほかの　セクタタイプに\nかえては　もらえないでしょうか？{KP}\nたとえば　{%sR5}の\nセクタに　なったりすると　うれしいです",
-  "en": "Could you possibly change\nit to another sector type?{KP}\nI would be very happy with\n{%sR5} sectors, for example.",
+  "en": "Could you possibly change\nthem to another sector type?{KP}\nI would be very happy with\n{%sR5} sectors, for example.",
   "status": "done"
  },
  {

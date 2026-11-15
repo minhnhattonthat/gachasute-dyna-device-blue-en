@@ -284,7 +284,7 @@
   "flag": 0,
   "speaker": 6,
   "jp": "アンタの　ホンキは　しょせん\nそんなものなのデスかァー？{KN}",
-  "en": "Is that all your \"serious\"\namounts to, desuuu?{KN}",
+  "en": "Is that really your best, desuuu?{KN}",
   "status": "done"
  },
  {
@@ -324,7 +324,7 @@
   "flag": 0,
   "speaker": 17,
   "jp": "ゲームオーバー・・・おわったね\nこのゲーム　ボクの　かちだ",
-  "en": "Game over... It's done.{KP}\nThis game is my win.",
+  "en": "Game over... It's done.{KP}\nI win.",
   "status": "done"
  },
  {
@@ -332,7 +332,7 @@
   "flag": 0,
   "speaker": 17,
   "jp": "それとも　まだ　あきらめずに\nちょうせんしてくる？{KN}",
-  "en": "Or are you going to keep trying,{KP}\nnot giving up?{KN}",
+  "en": "Or do you still want to challenge me?{KN}",
   "status": "done"
  },
  {

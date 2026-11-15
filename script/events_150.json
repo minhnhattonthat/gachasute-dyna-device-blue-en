@@ -236,7 +236,7 @@
   "flag": 0,
   "speaker": 1,
   "jp": "{%sR4}くん・・・いい？\nいっきに　いくよ？",
-  "en": "{%sR4}-kun... ready?{KP}\nWe go all at once, okay?",
+  "en": "{%sR4}-kun... ready?{KP}\nLet's rush in!",
   "status": "done"
  },
  {
@@ -508,7 +508,7 @@
   "flag": 0,
   "speaker": 17,
   "jp": "ゆるさない！　ボクの　おもいどおりに\nならないなんて　ゆるさない！{KP}\nこんなものは・・・こうだっ！！",
-  "en": "I won't allow it! I won't allow things{KP}\nnot to go the way I want!{KP}\nThis whole thing... can go like THIS!!",
+  "en": "I won't allow it! Things\nhave to go the way I want!{KP}\nTake... THIS!!",
   "status": "done"
  },
  {
@@ -1028,7 +1028,7 @@
   "flag": 0,
   "speaker": 4,
   "jp": "ちかてつから　いけますので\nよろしかったら　ごりようください{KP}\nそれでは　これからも　ダイナデバイスを\nたのしんでいってくださいね",
-  "en": "You can get there by subway,\nso please use it if you like.{KP}\nWell then, please keep\nenjoying the Dyna Device!",
+  "en": "You can get there by subway,\nso please visit if you like.{KP}\nWell then, please keep\nenjoying Dyna Device!",
   "status": "done"
  },
  {
@@ -1124,7 +1124,7 @@
   "flag": 0,
   "speaker": 4,
   "jp": "ちかてつから　いけますので\nよろしかったら　ごりようください{KP}\nそれでは　これからも　ダイナデバイスを\nたのしんでいってくださいね",
-  "en": "You can get there by subway,\nso please use it if you like.{KP}\nWell then, please keep\nenjoying the Dyna Device!",
+  "en": "You can get there by subway,\nso please visit if you like.{KP}\nWell then, please keep\nenjoying Dyna Device!",
   "status": "done"
  },
  {

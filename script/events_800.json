@@ -468,7 +468,7 @@
   "flag": 0,
   "speaker": 15,
   "jp": "そんな　つよい　{%sR4}にぃ\nわたくしからの　プレゼントでぇす",
-  "en": "So here's a present from little old\nme for sooo strong {%sR4}.",
+  "en": "For someone as strooong\nas {%sR4}, here's a{KP}\npresent from little old me.",
   "status": "done"
  },
  {
@@ -500,7 +500,7 @@
   "flag": 0,
   "speaker": 15,
   "jp": "{%sR4}も　がんばったんだけどぉ{KP}\nわたくしの　がんばりにぃ　ちょぉっと\nまけちゃったねぇ　へへへ",
-  "en": "{%sR4} tried really haaard, too...{KP}\nbut lost juuust a teeny bit\nto how hard I tried. Hehehe.",
+  "en": "{%sR4} tried really haaard, too...{KP}\nBut I tried juuust a teeny\nbit harder and won. Hehehe.",
   "status": "done"
  },
  {

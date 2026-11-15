@@ -300,7 +300,7 @@
   "flag": 0,
   "speaker": 4,
   "jp": "しょうひんとして　ランキングバトル\nゆうしょうでのみ　てにはいる",
-  "en": "As your prize, available only\nto Ranking Battle champions,",
+  "en": "Your prize, available only\nto Ranking Battle champions:",
   "status": "done"
  },
  {
@@ -508,7 +508,7 @@
   "flag": 0,
   "speaker": 4,
   "jp": "つれていって　データをとってもらう\nひつようがあります",
-  "en": "so that they can take its data.",
+  "en": "so that they can collect its data.",
   "status": "done"
  },
  {
@@ -796,7 +796,7 @@
   "flag": 0,
   "speaker": 4,
   "jp": "では　ダイナのデータを\nとりおわるまで　すこし　まちましょう",
-  "en": "Now, let us wait a little while they\nfinish taking the Dyna's data.",
+  "en": "Now, let us wait a little while they\nfinish collecting the Dyna's data.",
   "status": "done"
  },
  {
@@ -820,7 +820,7 @@
   "flag": 0,
   "speaker": 4,
   "jp": "では　ダイナのデータを\nとりおわるまで　すこし　まちましょう",
-  "en": "Now, let us wait a little while they\nfinish taking the Dyna's data.",
+  "en": "Now, let us wait a little while they\nfinish collecting the Dyna's data.",
   "status": "done"
  },
  {
@@ -844,7 +844,7 @@
   "flag": 0,
   "speaker": 4,
   "jp": "では　ダイナのデータを\nとりおわるまで　すこし　まちましょう",
-  "en": "Now, let us wait a little while they\nfinish taking the Dyna's data.",
+  "en": "Now, let us wait a little while they\nfinish collecting the Dyna's data.",
   "status": "done"
  },
  {

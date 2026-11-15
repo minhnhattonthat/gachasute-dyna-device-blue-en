@@ -1961,7 +1961,7 @@
   ],
   "slot": 24,
   "jp": "はずすことが　できます",
-  "en": "can be removed.",
+  "en": "whenever you like.",
   "status": "done"
  },
  {
@@ -1972,7 +1972,7 @@
   ],
   "slot": 20,
   "jp": "バトルリストから",
-  "en": "from the Battle List",
+  "en": "off the Battle List",
   "status": "done"
  },
  {
@@ -1982,7 +1982,7 @@
   ],
   "slot": 20,
   "jp": "Ｒボタンを　おすと",
-  "en": "With the R Button,",
+  "en": "Press R to take it",
   "status": "done"
  },
  {

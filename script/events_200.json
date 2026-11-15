@@ -252,7 +252,7 @@
   "flag": 0,
   "speaker": -1,
   "jp": "{%sR4}は　リカバリーされました{KN}",
-  "en": "{%sR4} has been recovered.{KN}",
+  "en": "{%sR4} has been restored.{KN}",
   "status": "done"
  },
  {
