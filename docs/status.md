@@ -2,23 +2,20 @@
 
 Updated at the end of every session. Keep it to what the next session needs; history is in git.
 
-- **Phase:** 7. Insert, fit, check: not started. Phase 6 done 2026-11-15: all 45 batches merged (5285 done,
-  179 keep, 72 data, 0 todo), review round 1 fixed (r01), the remaining Important items fixed as r02
-  (`work/tl/r02.out.tsv`; codex re-review of r02 in `docs/review/r02.md`), every Minor in `docs/polish.md`.
-  Tools: `tools/pairs.py`, `sh tools/review_run.sh` (codex exec), `tools/show.py ID..` (print entries).
-  Last build: `build/dynadevice_blue_en.gba` 2026-11-15 (after r02), sha1 c6372207..., smoke ok; `batches.py check`
-  0 problems, lint 0 errors / 322 warnings.
-- **How phase 6 runs (D11):** one agent translates batches in order, itself (Orca: no helpers).
-  - Batches: `work/tl/b001..b045.tsv` (gitignored, made once by `tools/batches.py split`; b001-b027 events,
-    b028-b045 strings). Do NOT re-split. If work/tl/ is lost, `split` again: it numbers on and skips nothing that
-    is merged (merged entries are status done).
-  - Per batch: read `cut -f1,2,5 work/tl/bNNN.tsv` (via ctx_execute, ~50 lines at a time), write
-    `work/tl/bNNN.out.tsv` with the Write tool, `python -X utf8 tools/batches.py merge bNNN` (checks first:
-    codes, widths via lint, glossary), commit. Brief: `docs/translator-brief.md`; voices: `docs/style-reference.md`.
-  - Messages are written as paragraphs ({KP} between pages); the tool wraps them to 188/176 px, 2 lines a page.
-    Choice lines are manual (`\n` in the entry) with `<@N>` JP-column markers.
-  - Context: one worker gets through ~3-4 batches after setup; hand back at ~150k with `worker_done --outcome
-    failed`, body "context limit, resume from docs/status.md".
+- **Phase:** 8. QA in the emulator: not started. Phase 7 done 2026-11-15: build green with the romdiff gate,
+  lint 0 errors / 0 warnings, control codes matched (lint), 46 tests ok. Last build: `build/dynadevice_blue_en.gba`
+  2026-11-15 (after r05), sha1 7e6922ea..., smoke ok; write log `build/dynadevice_blue_en.writes.txt` (3177 writes).
+- **Text fixes go through fix batches:** `work/tl/rNN.tsv` (ids) + `rNN.out.tsv` (id TAB paragraph, `{KP}` between
+  pages, no `\n` unless a choice line), `python -X utf8 tools/batches.py merge rNN --overwrite`. Last: r05.
+  Messages are paragraphs; `batches.wrap` fills 188/176 px, 2 lines a page, and balances the lines (no widows).
+  `tools/show.py ID..` prints entries; `tools/width.py "text"` a line's px. Re-review: `tools/pairs.py`, then
+  `sh tools/review_run.sh NAME:NN` (codex exec, inputs on stdin); triage under the report in `docs/review/`.
+- **Phase 7 checks (keep them green):** `tools/romwrite.py` (every build write logged; build fails on wrong
+  original bytes, overwritten/overlapping writes, unlogged bytes, or a write outside `tools/allowed_ranges.txt` +
+  the extracted pointer words); `tests/test_romwrite.py` (English build passes the gate, every string with English
+  written, no stale pointer to a moved string, no branch into the VWF hook span); lint stub-last-line rule.
+  `jp_left.py build/... --sjis --gba-ptrs --known tools/jp_known.txt`: 6 runs left, all in the address database
+  (0x44C754-0x702BB4, see "Waiting on the user").
 - **Choice lines verified in game** (scene `choice_s37`, `work/qa/p6_s37/sheet.png`): `<@5>Yes<@11>No` puts the
   cursor just left of "Yes"; `<@N>` columns work as designed.
 - **Debug-tool bug found (fix before phase 8):** every `menu`/`fscript`/`dmode` scene (38) replays the timed
@@ -26,16 +23,23 @@ Updated at the end of every session. Keep it to what the next session needs; his
   script-10 nag (warp.lua), which gets through the Gachasute walk, but it still loops later (script 365 in room 3,
   `work/qa/p6_choice6`). Fix idea: replace timed waits with event-driven segments (wait for SCRIPT n / room), or
   finish the tutorial on the original ROM, save in game, and start these scenes from that .sav (text-independent).
-- **Next (phase 7, done-when: build green, width/overflow lint clean, control codes matched, `romdiff.py` shows
-  no writes outside allowed ranges):**
-  1. Wire `$SKILL/scripts/romdiff.py` into the build/check (allowed ranges: text blocks, moved-string free space up
-     to 0x749cfc, VWF at 0x7f0000, pointer tables) with the build's write log; fail on any other byte.
-  2. Lint warnings (322): sort them, fix real overflow risks, waive the rest with a reason.
-  3. Name entry: t0B7FE4-t0B8044 (ｇｎｙｃｕｓ＜☆↓＋ ... ｓｅｒｕｓｐｅ▽＞％, pointers 0x0D1EA8-0x0D1ED8, next to the
-     keyboard table 0x0D21F0) look like a keyboard grid; status keep for now. English layout with the 8-char limit;
-     species names <= 64 px and <= 16 bytes. `tools/width.py "text" ...` prints a line's pixel width.
-  4. Review notes: codex's Windows read-only sandbox can't start a shell, so `review_run.sh` pipes brief + glossary
-     + style + pairs on stdin. Never `taskkill /IM codex.exe` (other sessions' codex): kill by PID.
+- **Next (phase 8, done-when in SKILL.md):**
+  1. Fix the debug-tool bug above first (menu/fscript/dmode scenes), then `tools/debug/regen.py --jobs 4`.
+  2. Tours through changed scenes with contact sheets, `qa_gate.py init/check`, verdicts by a fresh read-only pass
+     (no subagents in Orca: do it yourself or `codex exec`). Text coverage (`textcover.py`), `inkbox.py` on every
+     choice and centred menu box.
+  3. Graphics text (`docs/re/graphics.md`): ポーズ, opening movie spec panels, menu bar / item submenu / form labels,
+     name-entry keyboard tabs + field labels (かな/カナ/ABC..., なまえ/ニックネーム/せいべつ, START けってい; scene
+     `keyboard`, `work/qa/p7_kb/hold.png`), staff roll (mode 22, kana not SJIS).
+  4. In-game checks listed in `docs/polish.md` (calendar weekday row "Sun", Dyna Database "Element: thunder",
+     field build headers, help pages, link panels...). Timed cutscenes: English pages must finish typing.
+  5. Name entry (D12): full-width Latin pages kept; check a typed name round trip (form -> messages -> save/load).
+     t0B7FE4-t0B8044 (ｇｎｙｃｕｓ..., pointers 0x0D1EA8-0x0D1ED8) are still `keep`: find what shows them.
+- **Done (phase 7, this session):** phase-6 review fixes (r03: s438-s440 combos, t0BB224 "Element: {%sR0}";
+  glossary weekdays Sun..Sat, D13; g09 Critical none; codex re-review of r01+r03 in `docs/review/r03.md`, its
+  items fixed as r04); romdiff gate + tests; balanced wrap (r05, 1620 messages re-laid out, 376 widows gone);
+  lint warnings 322 -> 0 (messages' `{KP}` count no longer warned: they are re-paginated paragraphs).
+- **Review notes:** never `taskkill /IM codex.exe` (other sessions' codex): kill by PID.
 - **Done (phase 6, last session):** fix batch r02 (s437.02-.09 combos "when X and Y Extras come back to back";
   activity register verb "enjoying {%sR5}" / "warms up with {%sR5}" / "lose all interest in {%sR4}"; t0B57EC
   `the "none"`). 31 review Minors added to `docs/polish.md`. t0BB224 "Elem." and t0B8254 weekdays stay in polish.md.
@@ -74,8 +78,8 @@ Updated at the end of every session. Keep it to what the next session needs; his
   (`docs/re/windows.md`, `docs/re/budgets.tsv`: 152 measured rows; registers `{%sRn}` = 64 px). `%` can't be text.
 - **Done (earlier phases):** recon (`docs/re/`), debug warp (`tools/debug/warp.lua`, 147 scenes), identity build,
   extract (`script/`: 2824 messages `sSSS.KK`, 2712 strings `tOOOOOO`; 5305 todo, 159 keep, 72 data).
-- **Later phases need:** name entry (phase 7): keyboard rows (`data` entries, table 0x0D21F0) need an English
-  layout with the 8-char limit; English species names <= 64 px and <= 16 bytes; the address DB reader (record
+- **Later phases need:** name entry decided (D12: game's full-width Latin pages, 8 chars = 64 px; every Dyna,
+  type and name-list string is <= 64 px and <= 16 bytes, checked phase 7); the address DB reader (record
   sizes 16/10/20 bytes). Graphics text: ポーズ, opening movie spec panels, menu bar / item submenu / form labels
   (docs/re/graphics.md), and the **staff roll** (mode 22): its kana are not SJIS, find their encoding or tiles.
 - **Known debug-tool gaps (non-blocking):** field battle placement has no known "done" input; the debug menu's
