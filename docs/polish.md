@@ -32,6 +32,9 @@ Minor issues to revisit before release (phase 9 needs every line ticked). `[ ]` 
 - [ ] t0B9700-t0B970C: ／ページ drawn one glyph per cell -> "/" "P" "a" "ge"; may look spaced out.
 - [x] t0B8254 weekday row: "Sun"+3 PAD per day (the code copies 6 bytes a day, 0x0801FFA4). 3 letters is the
   ruling now (glossary b042 line updated, phase-6 review); the in-game look is a phase-8 calendar check.
+- [ ] Money diary week view (`mode_pda_schedule`, worker 15 shot): the day cells' weekday words are clipped to
+  ~10 px ("Mc", "Tι", "Wε"; "Fr" / "Sa" fit) and the "Su" cell shows a stray "3": find the string and its window
+  (2 letters max, or 1-letter forms), and the header "200５年" (big 5 drawn over 年: same in JP?).
 - [ ] t0B9D9C/t0B9DE0 field build rows "> Hole"/"> Land" + register at col 6: what the register holds.
 - [ ] t0B8150/t0B8158 "{name} got" / "{item}!": real width of that window.
 - [ ] t0B9944 date prompt: fields padded to JP cols 6/10 so the cursor should sit over them; check.

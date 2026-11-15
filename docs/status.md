@@ -6,10 +6,28 @@ Updated at the end of every session. Keep it to what the next session needs; his
   profile form, keyboard, PDA home + wheel / address book / calendar / money diary / calculator / memo / timetable
   / save dialog / link menu / link check / title screen / Customize Dyna / Team Setup / Place Dyna / minigames /
   Dyna get + naming / battle results / fortune box / item shop / Dyna Center / auction / device list / dev status /
-  free battle / resident map / card trade / tactics battle board done). Phase 7 done 2026-11-15. Last build:
-  `build/dynadevice_blue_en.gba` 2026-11-15 (worker 14), sha1 2eca3dc2..., smoke ok, check.py ok (56 tests), lint
+  free battle / resident map / card trade / tactics battle board / staff roll done). Phase 7 done 2026-11-15. Last
+  build: `build/dynadevice_blue_en.gba` 2026-11-15 (worker 15), sha1 a5a5c9a7..., check.py ok (58 tests), lint
   0/0 (137 strings wider than JP under guessed budgets: `lint.py --guess`, `docs/review/guess_wide.txt`).
-- **Latest session (2026-11-15, worker 14):** masha-2 sweep still alive (pid 25948, 100 runs in `work/qa/cover/m2/`;
+- **Latest session (2026-11-15, worker 15, handed off at the context budget):** **Staff roll in English** (docs/re/
+  graphics.md "Staff roll"): OBJ charset 0432534 + the PAT at 0x432D44 (11 cards); new `tools/credits.py` draws
+  an English charset and a new PAT that gfx.apply writes into free space (archive word 0x0EFEB4); names Western
+  order, Hepburn (D1/D2). Seen in game over the whole roll: `work/qa/credits_en/` (f*.png every 300 frames).
+  `gfx.distinct` looped for ever on a PLT with 8+ repeats (that is why `gfx.py export 0432534` hung): fixed + test.
+  **Survey finished** (111/111 + credits_mid/gameover in `work/qa/survey_c/`); `blockscan.py --all` over all of it
+  is in `work/qa/blockscan_all.txt`; triage (greyscale sheets of every not-redrawn block): all art except
+  **0215E74** (PDA calendar charset: gradient 16x16 年 月 ( ) の 予 定, weekday kanji 日月火水木金土 at y48 x144+,
+  boxed 無し / 毎週 / 月 / 年 at y96, a small yellow おわる box at y24 x136) and **021C414** (money diary: ( ) 日月火
+  水木金土, small 年). Seen JP on the English build (fresh shots in `work/qa/warp/`): calendar header "2000年 0月" +
+  weekday row, money diary "12月31日 (土)", errand screen red おわる button. Note 月/日 double as date units and
+  weekdays in 021C414: check whether the code uses the same tile before choosing "/" (the errand screen already
+  shows dates as 2000/00/00). New polish line: money-diary week-view weekday words clipped. **Careful:**
+  `regen.py` defaults to the ORIGINAL ROM and writes `work/states/`: always pass `--rom build/dynadevice_blue_en.gba`
+  (this worker overwrote 9 states that way and re-made them on the English build). masha-2 sweep (pid 25948) still
+  running, 152 runs in `work/qa/cover/m2/`; `cover.py report` at hand-off: 2524/5536 shown or waived.
+  Next: redraw 0215E74 / 021C414 kanji + おわる, then the old graphics rows left (01EA6B4, 01EE624 r6-7, 024D4B4
+  buttons, all unseen), then phase-8 steps 2, 4, 5.
+- **Session before (2026-11-15, worker 14):** masha-2 sweep still alive (pid 25948, 100 runs in `work/qa/cover/m2/`;
   same rule as below). **Tactics battle board reached and in English** (docs/re/graphics.md "Tactics battle
   board"): debug TACTICS SYSTEM with one monster (the A on MONSTER NUMBER is what makes TACT START work); new
   scenes `tact_place`, `tact_confirm`, `tact_cmd`, `tact_enemy`, `tact_move`, `tact_status` (shots in
