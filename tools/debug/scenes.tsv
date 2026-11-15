@@ -149,3 +149,5 @@ mode_battle_test	mode	48	600	mode 48: battle test (CASE=)
 mode_data_view	mode	49	600	mode 49: DATA VIEW
 choice_yesno	fscript	37	150	Yurie's colosseum Yes/No choice (script 37 opens on it): checks choice-line layout
 choice_s37	script	37 120 -;6 a;60 -;6 a;60 -;6 a;60 -	300	hijack at the tutorial start: script 37 (Yurie's Yes/No), no tutorial route; choice layout check
+keyboard_select	boot	keyboard|6 right;20 -;6 a;30 -;6 a;30 -;6 select;60 -	200	name-entry keyboard: type かか, then SELECT (what へんかん does)
+keyboard_kanji	boot	keyboard|40 -;6 r;80 -	200	name-entry keyboard: L to the kanji tab (page buttons)

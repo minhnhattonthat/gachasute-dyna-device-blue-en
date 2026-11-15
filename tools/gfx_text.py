@@ -104,7 +104,114 @@ ATLASES = {
             ("your details.", tiles(8, 19, 30), "left"),
         ],
     },
+    # Name-entry keyboard (OBJ, block 020BDD4, block tile n = OBJ tile n; scene keyboard_select, OAM at f1260).
+    # Outlined art, so "redraw" boxes (atlas px): the old lettering is cleared and rebuilt from the background,
+    # then the English is drawn. Tabs (ink 1, game palette shows it dark): normal tabs x6-31, 9-row pitch from y1;
+    # selected tabs x38-63 (かな y0, the rest y16 + 8k). Their background is a per-pixel vote over the 6 tabs of a
+    # state. START/SELECT sub-words けってい / へんかん (ink 1, shadow 15): copy C x128-159 is on screen, copies
+    # A (x4-37) and B (x43-80) are the pressed states. 前のページ / 次のページ: ink 4, shadow 14.
+    0x20BDD4: {
+        "redraw": (
+            [(t, (8, y, 30, y + 9), "vote:normal", 1, None, "vwf", dy)
+             for t, y, dy in (("Hira", 1, 1), ("Kata", 10, 1), ("Sym", 37, 0), ("Kanji", 46, 0))]
+            + [(t, (39, y, 63, y + 8), "vote:selected", 1, None, "vwf", dy)
+               for t, y, dy in (("Hira", 0, 1), ("Kata", 16, 1), ("Sym", 40, 0), ("Kanji", 48, 0))]
+            + [("OK", (125, 51, 157, 58), "row", 1, 15, "mini", 1),
+               ("CONVERT", (125, 69, 157, 76), "row", 1, 15, "mini", 1),
+               ("OK", (5, 59, 36, 66), "row", 1, 15, "mini", 1),
+               ("CONVERT", (5, 78, 36, 85), "row", 1, 15, "mini", 1),
+               ("OK", (45, 68, 78, 74), "row", 1, 15, "mini", 0),
+               ("CONVERT", (45, 85, 78, 88), "row", 1, 15, "mini", 0),   # cut at row 88 like the original
+               ("Prev Page", (177, 36, 232, 46), "row", 4, 14, "vwf", 1),
+               ("Next Page", (184, 51, 240, 62), "row", 4, 14, "vwf", 2),
+               ("Prev Page", (177, 69, 232, 79), "row", 4, 14, "vwf", 1),
+               ("Next Page", (184, 84, 240, 95), "row", 4, 14, "vwf", 2)]),
+        "votes": {
+            "normal": [(8, 1 + 9 * k) for k in range(6)],
+            "selected": [(39, 0)] + [(39, 16 + 8 * k) for k in range(5)],
+        },
+        "clear": {1: {1, 15}, 4: {4, 14, 12}},
+    },
 }
+
+# 3x5 caps for the small sub-labels under START / SELECT (N is 4 wide).
+MINI = {
+    "C": ["###", "#..", "#..", "#..", "###"],
+    "O": ["###", "#.#", "#.#", "#.#", "###"],
+    "N": ["#..#", "##.#", "#.##", "#..#", "#..#"],
+    "V": ["#.#", "#.#", "#.#", "#.#", ".#."],
+    "E": ["###", "#..", "##.", "#..", "###"],
+    "R": ["##.", "#.#", "##.", "#.#", "#.#"],
+    "T": ["###", ".#.", ".#.", ".#.", ".#."],
+    "K": ["#.#", "#.#", "##.", "#.#", "#.#"],
+}
+
+
+def glyph_pixels(text, font):
+    """[(x, y)] ink pixels of `text` from x 0, and its width."""
+    out, x = [], 0
+    if font == "mini":
+        for ch in text:
+            g = MINI[ch]
+            out += [(x + gx, gy) for gy, row in enumerate(g) for gx, c in enumerate(row) if c == "#"]
+            x += len(g[0]) + 1
+        return out, x - 1
+    f = vwf.font()
+    for ch in text:
+        adv, rows = f[ch]
+        out += [(x + gx, gy) for gy, bits in enumerate(rows) for gx in range(adv - 1) if bits & (0x80 >> gx)]
+        x += adv
+    return out, x - 1
+
+
+def redraw(a, spec):
+    """Outlined labels: clear the old lettering in each box, rebuild the background, draw the English."""
+    clear = spec.get("clear", {})
+    boxes = spec["redraw"]
+    vote_bg = {}
+    for name, origins in spec.get("votes", {}).items():
+        x0, y0, x1, y1 = next(b for _, b, f, *_ in boxes if f == "vote:" + name)
+        ink = next(i for _, _, f, i, *_ in boxes if f == "vote:" + name)
+        bg = {}
+        for dy in range(y1 - y0):
+            for dx in range(x1 - x0):
+                vals = [a.px[(oy + dy) * a.W + ox + dx] for ox, oy in origins]
+                vals = [v for v in vals if v not in clear.get(ink, {ink})] or vals
+                bg[dx, dy] = max(set(vals), key=vals.count)
+        vote_bg[name] = bg
+    for text, (x0, y0, x1, y1), fill, ink, shadow, font, dy in boxes:
+        kill = clear.get(ink, {ink})
+        if fill.startswith("vote:"):
+            bg = vote_bg[fill[5:]]
+            for y in range(y0, y1):
+                for x in range(x0, x1):
+                    a.px[y * a.W + x] = bg[x - x0, y - y0]
+        else:   # row: each lettering pixel takes its nearest non-lettering neighbour in the row
+            for y in range(y0, y1):
+                row = [a.px[y * a.W + x] for x in range(x0, x1)]
+                keep = [i for i, v in enumerate(row) if v not in kill]
+                if not keep:
+                    continue
+                for i, v in enumerate(row):
+                    if v in kill:
+                        j = min(keep, key=lambda k: (abs(k - i), k))
+                        a.px[y * a.W + x0 + i] = row[j]
+        pix, w = glyph_pixels(text, font)
+        room = x1 - x0 - (1 if shadow is not None else 0)
+        if w > room:
+            raise ValueError(f"{text!r} is {w} px, box {x0}-{x1} holds {room}")
+        ox = x0 + (room - w + 1) // 2
+        oy = y0 + dy
+        ink_at = {(ox + px_, oy + py) for px_, py in pix}
+        if shadow is not None:
+            for x, y in ink_at:
+                for sx, sy in ((1, 0), (0, 1), (1, 1)):
+                    p = (x + sx, y + sy)
+                    if p not in ink_at and x0 <= p[0] < x1 and y0 <= p[1] < y1:
+                        a.px[p[1] * a.W + p[0]] = shadow
+        for x, y in ink_at:
+            if y < y1:
+                a.px[y * a.W + x] = ink
 
 
 class Atlas:
@@ -199,6 +306,8 @@ def render(rom, off):
         draw_text(a, text, len(columns) * 8, TEXT_Y, lambda x, y, c=columns: strip_cell(c, x, y))
     for text, columns, *align in spec.get("rows", []):   # caps rows 0-6, descenders row 7
         draw_text(a, text, len(columns) * 8, 0, row_cell(text, columns), *(align or ["centre"]), ink=ink)
+    if "redraw" in spec:
+        redraw(a, spec)
     return a.image()
 
 

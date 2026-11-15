@@ -59,6 +59,18 @@ its font at run time (dialogue, the boot date prompt, the profile popup) is stri
   registration popup ("Let's register as a user. / Please enter your details."). Open: the other sentences of
   02124B4 (PDA address book: delete prompt, add-address tab, reset/erase data button): find their scenes first.
 
+## Name-entry keyboard (block 020BDD4, OBJ)
+- All OBJ: block tile n = OBJ tile n (VRAM 0x10000), 2D mapping; OAM at scene `keyboard_select` f1260.
+  Normal tabs = atlas x0-31 y0-55 (two 32x32 sprites), 9-row pitch from y1; the selected tab is a 32x8/32x16
+  sprite from x32-63 (かな y0, the rest y16+8k). START/SELECT on screen = copy C (x128-159, sprites 32x64 + 32x16
+  at tile 0,16 / 8,16); copies A (x4-37) and B (x43-80) are pressed states (B's SELECT is cut at row 88 in the art).
+  前のページ / 次のページ (x160-255, two copies each) are not on the profile-name keyboard: its kanji tab is not
+  reachable (L stops at Sym, R does nothing; kanji come from SELECT conversion, candidates in the right box).
+- **Done 2026-11-15:** tabs Hira / Kata / Sym / Kanji (ABC, 123 kept), START "OK", SELECT "CONVERT" (3x5 caps,
+  `gfx_text.MINI`), "Prev Page" / "Next Page" (`gfx_text.py` "redraw" boxes: the old lettering is cleared, the
+  background rebuilt by a row-wise nearest fill or a per-pixel vote over the six tabs, then ink + shadow drawn).
+  In game: `work/qa/warp/keyboard_select/hold.png`. Page buttons seen in the atlas only (`work/gfx/en/020BDD4_x4.png`).
+
 ## Rows (ROM offset of the ECD block)
 | Offset | Sheet | Japanese | Gloss | Kind |
 |---|---|---|---|---|

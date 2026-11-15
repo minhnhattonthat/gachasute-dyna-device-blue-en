@@ -61,9 +61,8 @@ Updated at the end of every session. Keep it to what the next session needs; his
      choice and centred menu box.
   3. Graphics text (`docs/re/graphics.md`). **Field menu (01E30D4) and profile form (020EB44 labels, 02124B4
      popup) done**; form leftovers: おわる button, two tiny boxed words 7,17-24 of 020EB44, the other 02124B4
-     sentences (PDA address book). Next rows: name-entry keyboard (020BDD4: tabs かな/カナ/ABC/123/きごう/かんじ in
-     two states, START けってい / SELECT へんかん x3, 前のページ/次のページ: bold outlined art, more than one ink),
-     020B0F4 (なまえ/ばしょ/すること/イベント/カスタム: PDA schedule headers), PDA home labels, fortune box,
+     sentences (PDA address book). **Name-entry keyboard 020BDD4 done** (tabs, START OK / SELECT CONVERT, page
+     buttons; `gfx_text.py` "redraw" boxes for outlined art; docs/re/graphics.md). Next rows: 020B0F4 (なまえ/ばしょ/すること/イベント/カスタム: PDA schedule headers), PDA home labels, fortune box,
      title logo, then the sheet rows. Same method: regen the scene on the
      original ROM with ppu_every.lua, find the BG map (search ROM for the u16 tile sequence: menu maps were raw
      `SCR\0` blocks after the palette), add an ATLASES entry to gfx_text.py. Older notes: **Pipeline (2026-11-15):** every ECD block is reached through
