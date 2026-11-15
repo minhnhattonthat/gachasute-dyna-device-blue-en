@@ -28,7 +28,7 @@
   "flag": 0,
   "speaker": 11,
   "jp": "もうしわけありませんが\nアイテムを　おもちでは　ないようです",
-  "en": "I'm terribly sorry, but it seems you don't\nhave any items.",
+  "en": "I'm terribly sorry, but it seems\nyou don't have any items.",
   "status": "done"
  },
  {
@@ -116,7 +116,7 @@
   "flag": 0,
   "speaker": 12,
   "jp": "さんかできる　ダイナが　３たいに\nみたないので　さんかできません！",
-  "en": "You have fewer than 3 Dyna that can take\npart, so you can't enter!",
+  "en": "You have fewer than 3 Dyna that\ncan take part, so you can't enter!",
   "status": "done"
  },
  {
@@ -124,7 +124,7 @@
   "flag": 0,
   "speaker": 12,
   "jp": "でんどういり　していない　ダイナを\n３たい　よういしてください！",
-  "en": "Please get 3 Dyna ready that aren't in the\nHall of Fame!",
+  "en": "Please get 3 Dyna ready that\naren't in the Hall of Fame!",
   "status": "done"
  },
  {
@@ -140,7 +140,7 @@
   "flag": 0,
   "speaker": 12,
   "jp": "{%sR0}さんは\nランク{%dR2}になりました！",
-  "en": "{%sR0}-san, you are now rank\n{%dR2}!",
+  "en": "{%sR0}-san, you\nare now rank {%dR2}!",
   "status": "done"
  },
  {
@@ -148,7 +148,7 @@
   "flag": 0,
   "speaker": 12,
   "jp": "しょうきんの　{%dR1}ビットです！\nつぎも　がんばってください！",
-  "en": "Here is your prize of {%dR1} bits! Good\nluck next time too!",
+  "en": "Here is your prize of {%dR1}\nbits! Good luck next time too!",
   "status": "done"
  },
  {
@@ -156,7 +156,7 @@
   "flag": 0,
   "speaker": 12,
   "jp": "しゅつじょうわくに　でんどういりした\nダイナが　はいっています！",
-  "en": "A Dyna in the Hall of Fame is in one of\nyour entry slots!",
+  "en": "A Dyna in the Hall of Fame\nis in one of your entry slots!",
   "status": "done"
  },
  {
@@ -196,7 +196,7 @@
   "flag": 0,
   "speaker": 4,
   "jp": "ランキングバトル　ベスト５いり\nおめでとうございます！",
-  "en": "Congratulations on placing in the top 5 of\nthe Ranking Battle!",
+  "en": "Congratulations on placing in\nthe top 5 of the Ranking Battle!",
   "status": "done"
  },
  {
@@ -204,7 +204,7 @@
   "flag": 0,
   "speaker": 4,
   "jp": "しょうひんとして　ファクトリキットが\nダイナネットから　おくられてきました",
-  "en": "As your prize, a Factory Kit has been sent\nfrom the Dyna Net.",
+  "en": "As your prize, a Factory Kit has\nbeen sent from the Dyna Net.",
   "status": "done"
  },
  {
@@ -212,7 +212,7 @@
   "flag": 0,
   "speaker": 4,
   "jp": "ファクトリキットは　ダイナセンターで\nあずかっていますので",
-  "en": "The Dyna Center is keeping the Factory Kit\nfor you,",
+  "en": "The Dyna Center is keeping\nthe Factory Kit for you,",
   "status": "done"
  },
  {
@@ -220,7 +220,7 @@
   "flag": 0,
   "speaker": 4,
   "jp": "ひつようなときは　こちらから\nひきだしていってくださいね{KN}",
-  "en": "so please withdraw it from there whenever\nyou need it.{KN}",
+  "en": "so please withdraw it from\nthere whenever you need it.{KN}",
   "status": "done"
  },
  {
@@ -228,7 +228,7 @@
   "flag": 0,
   "speaker": 4,
   "jp": "ランキングバトル　ベスト１０いり\nおめでとうございます！",
-  "en": "Congratulations on placing in the top 10 of\nthe Ranking Battle!",
+  "en": "Congratulations on placing in the\ntop 10 of the Ranking Battle!",
   "status": "done"
  },
  {
@@ -236,7 +236,7 @@
   "flag": 0,
   "speaker": 4,
   "jp": "しょうひんとして　ショップキットが\nダイナネットから　おくられてきました",
-  "en": "As your prize, a Shop Kit has been sent\nfrom the Dyna Net.",
+  "en": "As your prize, a Shop Kit has\nbeen sent from the Dyna Net.",
   "status": "done"
  },
  {
@@ -244,7 +244,7 @@
   "flag": 0,
   "speaker": 4,
   "jp": "ショップキットは　ダイナセンターで\nあずかっていますので",
-  "en": "The Dyna Center is keeping the Shop Kit\nfor you,",
+  "en": "The Dyna Center is keeping\nthe Shop Kit for you,",
   "status": "done"
  },
  {
@@ -252,7 +252,7 @@
   "flag": 0,
   "speaker": 4,
   "jp": "ひつようなときは　こちらから\nひきだしていってくださいね{KN}",
-  "en": "so please withdraw it from there whenever\nyou need it.{KN}",
+  "en": "so please withdraw it from\nthere whenever you need it.{KN}",
   "status": "done"
  },
  {
@@ -260,7 +260,7 @@
   "flag": 0,
   "speaker": 4,
   "jp": "ランキングバトル　ベスト１５いり\nおめでとうございます！",
-  "en": "Congratulations on placing in the top 15 of\nthe Ranking Battle!",
+  "en": "Congratulations on placing in the\ntop 15 of the Ranking Battle!",
   "status": "done"
  },
  {
@@ -268,7 +268,7 @@
   "flag": 0,
   "speaker": 4,
   "jp": "しょうひんとして　コロシアムキットが\nダイナネットから　おくられてきました",
-  "en": "As your prize, a Colosseum Kit has been\nsent from the Dyna Net.",
+  "en": "As your prize, a Colosseum Kit\nhas been sent from the Dyna Net.",
   "status": "done"
  },
  {
@@ -276,7 +276,7 @@
   "flag": 0,
   "speaker": 4,
   "jp": "コロシアムキットは　ダイナセンターで\nあずかっていますので",
-  "en": "The Dyna Center is keeping the Colosseum\nKit for you,",
+  "en": "The Dyna Center is keeping\nthe Colosseum Kit for you,",
   "status": "done"
  },
  {
@@ -284,7 +284,7 @@
   "flag": 0,
   "speaker": 4,
   "jp": "ひつようなときは　こちらから\nひきだしていってくださいね{KN}",
-  "en": "so please withdraw it from there whenever\nyou need it.{KN}",
+  "en": "so please withdraw it from\nthere whenever you need it.{KN}",
   "status": "done"
  },
  {
@@ -292,7 +292,7 @@
   "flag": 0,
   "speaker": 4,
   "jp": "ランキングバトル　ゆうしょう\nおめでとうございます！",
-  "en": "Congratulations on winning the Ranking\nBattle!",
+  "en": "Congratulations on winning\nthe Ranking Battle!",
   "status": "done"
  },
  {
@@ -300,7 +300,7 @@
   "flag": 0,
   "speaker": 4,
   "jp": "しょうひんとして　ランキングバトル\nゆうしょうでのみ　てにはいる",
-  "en": "As your prize, available only to Ranking\nBattle champions,",
+  "en": "As your prize, available only\nto Ranking Battle champions,",
   "status": "done"
  },
  {
@@ -324,7 +324,7 @@
   "flag": 0,
   "speaker": 4,
   "jp": "{%sR1}は　ダイナセンターで\nあずかっていますので",
-  "en": "The Dyna Center is keeping {%sR1}\nfor you,",
+  "en": "The Dyna Center is keeping\n{%sR1} for you,",
   "status": "done"
  },
  {
@@ -332,7 +332,7 @@
   "flag": 0,
   "speaker": 4,
   "jp": "ひつようなときは　こちらから\nひきだしていってくださいね",
-  "en": "so please withdraw it from there whenever\nyou need it.",
+  "en": "so please withdraw it from\nthere whenever you need it.",
   "status": "done"
  },
  {
@@ -340,7 +340,7 @@
   "flag": 0,
   "speaker": 4,
   "jp": "なお　ランキングバトルで\nゆうしょうした　ダイナには",
-  "en": "Also, a Dyna that wins the Ranking\nBattle",
+  "en": "Also, a Dyna that wins\nthe Ranking Battle",
   "status": "done"
  },
  {
@@ -348,7 +348,7 @@
   "flag": 0,
   "speaker": 4,
   "jp": "その　えいよを　たたえて\nゆうしゃの　おうかんが　おくられます",
-  "en": "receives the Hero's Crown in honor of its\nachievement.",
+  "en": "receives the Hero's Crown\nin honor of its achievement.",
   "status": "done"
  },
  {
@@ -356,7 +356,7 @@
   "flag": 0,
   "speaker": 4,
   "jp": "このつぎに　ランキングバトルに\nさんかするときには",
-  "en": "The next time you enter the Ranking\nBattle,",
+  "en": "The next time you enter\nthe Ranking Battle,",
   "status": "done"
  },
  {
@@ -364,7 +364,7 @@
   "flag": 0,
   "speaker": 4,
   "jp": "また　さいしょから　チャレンジすることに\nなるのですが",
-  "en": "you will be starting the challenge over\nfrom the beginning,",
+  "en": "you will be starting the challenge\nover from the beginning,",
   "status": "done"
  },
  {
@@ -372,7 +372,7 @@
   "flag": 0,
   "speaker": 4,
   "jp": "いちど　おうかんを　うけとった\nダイナは　もう　さんかできません",
-  "en": "and a Dyna that has received the crown\ncan no longer take part.",
+  "en": "and a Dyna that has received the\ncrown can no longer take part.",
   "status": "done"
  },
  {
@@ -380,7 +380,7 @@
   "flag": 0,
   "speaker": 4,
   "jp": "あたらしい　ダイナで　また\nゆうしょうを　めざしてください",
-  "en": "Please aim for victory again with a new\nDyna.",
+  "en": "Please aim for victory\nagain with a new Dyna.",
   "status": "done"
  },
  {
@@ -388,7 +388,7 @@
   "flag": 0,
   "speaker": 4,
   "jp": "ランキングバトル　ゆうしょう\nおめでとうございます！",
-  "en": "Congratulations on winning the Ranking\nBattle!",
+  "en": "Congratulations on winning\nthe Ranking Battle!",
   "status": "done"
  },
  {
@@ -396,7 +396,7 @@
   "flag": 0,
   "speaker": 4,
   "jp": "ゆうしょうすると　ほんらい\nレアダイナが　もらえるのですが",
-  "en": "Normally the champion receives a rare\nDyna,",
+  "en": "Normally the champion\nreceives a rare Dyna,",
   "status": "done"
  },
  {
@@ -404,7 +404,7 @@
   "flag": 0,
   "speaker": 4,
   "jp": "げんざい　このシティには　げんかいまで\nダイナが　とうろくされているため",
-  "en": "but this city already has as many Dyna\nregistered as it can hold,",
+  "en": "but this city already has as many\nDyna registered as it can hold,",
   "status": "done"
  },
  {
@@ -412,7 +412,7 @@
   "flag": 0,
   "speaker": 4,
   "jp": "もうしわけありませんが　こんかいは\nしょうきんのみとさせていただきます",
-  "en": "so I am afraid this time the prize will be\nmoney only.",
+  "en": "so I am afraid this time the\nprize will be money only.",
   "status": "done"
  },
  {
@@ -428,7 +428,7 @@
   "flag": 0,
   "speaker": 4,
   "jp": "なお　ランキングバトルで\nゆうしょうした　ダイナには",
-  "en": "Also, a Dyna that wins the Ranking\nBattle",
+  "en": "Also, a Dyna that wins\nthe Ranking Battle",
   "status": "done"
  },
  {
@@ -436,7 +436,7 @@
   "flag": 0,
   "speaker": 4,
   "jp": "その　えいよを　たたえて\nゆうしゃの　おうかんが　おくられます",
-  "en": "receives the Hero's Crown in honor of its\nachievement.",
+  "en": "receives the Hero's Crown\nin honor of its achievement.",
   "status": "done"
  },
  {
@@ -444,7 +444,7 @@
   "flag": 0,
   "speaker": 4,
   "jp": "このつぎに　ランキングバトルに\nさんかするときには",
-  "en": "The next time you enter the Ranking\nBattle,",
+  "en": "The next time you enter\nthe Ranking Battle,",
   "status": "done"
  },
  {
@@ -452,7 +452,7 @@
   "flag": 0,
   "speaker": 4,
   "jp": "また　さいしょから　チャレンジすることに\nなるのですが",
-  "en": "you will be starting the challenge over\nfrom the beginning,",
+  "en": "you will be starting the challenge\nover from the beginning,",
   "status": "done"
  },
  {
@@ -460,7 +460,7 @@
   "flag": 0,
   "speaker": 4,
   "jp": "いちど　おうかんを　うけとった\nダイナは　もう　さんかできません",
-  "en": "and a Dyna that has received the crown\ncan no longer take part.",
+  "en": "and a Dyna that has received the\ncrown can no longer take part.",
   "status": "done"
  },
  {
@@ -468,7 +468,7 @@
   "flag": 0,
   "speaker": 4,
   "jp": "あたらしい　ダイナで　また\nゆうしょうを　めざしてください",
-  "en": "Please aim for victory again with a new\nDyna.",
+  "en": "Please aim for victory\nagain with a new Dyna.",
   "status": "done"
  },
  {
@@ -476,7 +476,7 @@
   "flag": 0,
   "speaker": 13,
   "jp": "このファクトリーに\nなにか　ようですか？",
-  "en": "Is there something you need at this\nFactory?",
+  "en": "Is there something you\nneed at this Factory?",
   "status": "done"
  },
  {
@@ -492,7 +492,7 @@
   "flag": 0,
   "speaker": 13,
   "jp": "どの　ダイナのぶそうを\nかいはつしますか？",
-  "en": "Which Dyna's equipment shall we\ndevelop?",
+  "en": "Which Dyna's equipment\nshall we develop?",
   "status": "done"
  },
  {
@@ -500,7 +500,7 @@
   "flag": 0,
   "speaker": 4,
   "jp": "かいはつを　いらいするときには　デバイスを\nかいはつしてほしい　ダイナを",
-  "en": "When you request development, you need\nto bring along the Dyna you want a{KP}\nDevice developed for",
+  "en": "When you request development,\nyou need to bring along the Dyna{KP}\nyou want a Device developed for",
   "status": "done"
  },
  {
@@ -516,7 +516,7 @@
   "flag": 0,
   "speaker": 4,
   "jp": "くれぐれも　デバイスを\nかいはつしてもらいたい　ダイナを",
-  "en": "Please be very careful not to forget to\nbring along the Dyna",
+  "en": "Please be very careful not to\nforget to bring along the Dyna",
   "status": "done"
  },
  {
@@ -532,7 +532,7 @@
   "flag": 0,
   "speaker": 4,
   "jp": "では　あなたが　いま　つれている\nダイナのなかから{KP}\nデバイスを　かいはつしてほしい\nダイナを　えらんでください",
-  "en": "Now, from the Dyna you have with you\nright now,{KP}\nplease choose the Dyna you want a Device\ndeveloped for.",
+  "en": "Now, from the Dyna you\nhave with you right now,{KP}\nplease choose the Dyna you\nwant a Device developed for.",
   "status": "done"
  },
  {
@@ -548,7 +548,7 @@
   "flag": 0,
   "speaker": 13,
   "jp": "かいはつしきんが　ふそくしています{KP}\nかいはつをつづけるには{%dR4}ビット\nひつようです",
-  "en": "We're short on development funds.{KP}\nTo keep developing, we need {%dR4}\nbits.",
+  "en": "We're short on development funds.{KP}\nTo keep developing,\nwe need {%dR4} bits.",
   "status": "done"
  },
  {
@@ -564,7 +564,7 @@
   "flag": 0,
   "speaker": 13,
   "jp": "かいはつしきんが　ふそくしています{KP}\nかいはつをつづけるには{%dR4}ビット\nひつようです",
-  "en": "We're short on development funds.{KP}\nTo keep developing, we need {%dR4}\nbits.",
+  "en": "We're short on development funds.{KP}\nTo keep developing,\nwe need {%dR4} bits.",
   "status": "done"
  },
  {
@@ -572,7 +572,7 @@
   "flag": 0,
   "speaker": 13,
   "jp": "ぶきのざいりょうが　ふそくしています{KP}\nかいはつをつづけるには\n{%sR4}がひつようです",
-  "en": "We're short on weapon materials.{KP}\nTo keep developing, we need\n{%sR4}.",
+  "en": "We're short on weapon materials.{KP}\nTo keep developing, we\nneed {%sR4}.",
   "status": "done"
  },
  {
@@ -588,7 +588,7 @@
   "flag": 0,
   "speaker": 13,
   "jp": "ぶきのざいりょうが　ふそくしています{KP}\nかいはつをつづけるには\n{%sR4}がひつようです",
-  "en": "We're short on weapon materials.{KP}\nTo keep developing, we need\n{%sR4}.",
+  "en": "We're short on weapon materials.{KP}\nTo keep developing, we\nneed {%sR4}.",
   "status": "done"
  },
  {
@@ -604,7 +604,7 @@
   "flag": 0,
   "speaker": 13,
   "jp": "げんざい　あいている　かいはつラインが\nありません",
-  "en": "There are no free development lines right\nnow.",
+  "en": "There are no free\ndevelopment lines right now.",
   "status": "done"
  },
  {
@@ -636,7 +636,7 @@
   "flag": 0,
   "speaker": 4,
   "jp": "ダイナを　えらんだら\nしょきとうしとして　わたす　きんがくを",
-  "en": "Once you choose a Dyna, you decide how\nmuch to hand over as the starting{KP}\ninvestment:",
+  "en": "Once you choose a Dyna, you\ndecide how much to hand over{KP}\nas the starting investment:",
   "status": "done"
  },
  {
@@ -652,7 +652,7 @@
   "flag": 0,
   "speaker": 4,
   "jp": "ここは　れんしゅうですので　わたしが\n１００ビット　わたしておきますね",
-  "en": "This is just practice, so I will hand over\n100 bits for you.",
+  "en": "This is just practice, so I will\nhand over 100 bits for you.",
   "status": "done"
  },
  {
@@ -708,7 +708,7 @@
   "flag": 0,
   "speaker": 13,
   "jp": "かいはつじょうきょうを　えらんで\nデバイスを　うけとってください",
-  "en": "Please choose Check Status and collect\nyour Device.",
+  "en": "Please choose Check Status\nand collect your Device.",
   "status": "done"
  },
  {
@@ -756,7 +756,7 @@
   "flag": 0,
   "speaker": 13,
   "jp": "{%sR4}の　かいはつが\nしゅうりょうしたので　おわたしします",
-  "en": "Development of {%sR4} is finished,\nso here you go.",
+  "en": "Development of {%sR4}\nis finished, so here you go.",
   "status": "done"
  },
  {
@@ -772,7 +772,7 @@
   "flag": 0,
   "speaker": 13,
   "jp": "{%sR4}の　かいはつが\nしゅうりょうしましたが",
-  "en": "Development of {%sR4} is finished,\nbut",
+  "en": "Development of\n{%sR4} is finished, but",
   "status": "done"
  },
  {
@@ -780,7 +780,7 @@
   "flag": 0,
   "speaker": 13,
   "jp": "もちものが　いっぱいなので　どこかで\nうるか　すてるかしてきてください",
-  "en": "your bag is full, so please go sell or throw\nsomething away.",
+  "en": "your bag is full, so please go\nsell or throw something away.",
   "status": "done"
  },
  {
@@ -796,7 +796,7 @@
   "flag": 0,
   "speaker": 4,
   "jp": "では　ダイナのデータを\nとりおわるまで　すこし　まちましょう",
-  "en": "Now, let us wait a little while they finish\ntaking the Dyna's data.",
+  "en": "Now, let us wait a little while they\nfinish taking the Dyna's data.",
   "status": "done"
  },
  {
@@ -804,7 +804,7 @@
   "flag": 0,
   "speaker": 13,
   "jp": "データが　とれましたので　けんきゅうを\nかいしします",
-  "en": "We've got the data, so we'll begin our\nresearch.",
+  "en": "We've got the data, so\nwe'll begin our research.",
   "status": "done"
  },
  {
@@ -820,7 +820,7 @@
   "flag": 0,
   "speaker": 4,
   "jp": "では　ダイナのデータを\nとりおわるまで　すこし　まちましょう",
-  "en": "Now, let us wait a little while they finish\ntaking the Dyna's data.",
+  "en": "Now, let us wait a little while they\nfinish taking the Dyna's data.",
   "status": "done"
  },
  {
@@ -828,7 +828,7 @@
   "flag": 0,
   "speaker": 13,
   "jp": "データが　とれましたので　けんきゅうを\nかいしします",
-  "en": "We've got the data, so we'll begin our\nresearch.",
+  "en": "We've got the data, so\nwe'll begin our research.",
   "status": "done"
  },
  {
@@ -844,7 +844,7 @@
   "flag": 0,
   "speaker": 4,
   "jp": "では　ダイナのデータを\nとりおわるまで　すこし　まちましょう",
-  "en": "Now, let us wait a little while they finish\ntaking the Dyna's data.",
+  "en": "Now, let us wait a little while they\nfinish taking the Dyna's data.",
   "status": "done"
  },
  {
@@ -852,7 +852,7 @@
   "flag": 0,
   "speaker": 13,
   "jp": "データが　とれましたので　けんきゅうを\nかいしします",
-  "en": "We've got the data, so we'll begin our\nresearch.",
+  "en": "We've got the data, so\nwe'll begin our research.",
   "status": "done"
  },
  {
@@ -860,7 +860,7 @@
   "flag": 0,
   "speaker": 4,
   "jp": "{%sR4}さん　きこえますか？\nわたしです　ナビュウです",
-  "en": "{%sR4}-san, can you hear me? It is\nme, Navyu.",
+  "en": "{%sR4}-san, can you\nhear me? It is me, Navyu.",
   "status": "done"
  },
  {
@@ -868,7 +868,7 @@
   "flag": 0,
   "speaker": 4,
   "jp": "〒{%02dR0}―{%02dR1}の　ファクトリーから\n{%sR4}さんに　むけて",
-  "en": "The Factory at {%02dR0}-{%02dR1} has sent you,\n{%sR4}-san,",
+  "en": "The Factory at {%02dR0}-{%02dR1} has\nsent you, {%sR4}-san,",
   "status": "done"
  },
  {
@@ -892,7 +892,7 @@
   "flag": 0,
   "speaker": 4,
   "jp": "げんじょういじのために　かいはつようの\nマシンに　ムリを　させてしまっています",
-  "en": "Just to keep things as they are, the\ndevelopment machines are being pushed{KP}\ntoo hard.",
+  "en": "Just to keep things as they\nare, the development machines{KP}\nare being pushed too hard.",
   "status": "done"
  },
  {
@@ -900,7 +900,7 @@
   "flag": 0,
   "speaker": 4,
   "jp": "このままでは　あんぜんが　たもてず\nじこが　おこってしまうかもしれません",
-  "en": "If this goes on, they cannot keep it safe,\nand there may be an accident.",
+  "en": "If this goes on, they cannot keep it\nsafe, and there may be an accident.",
   "status": "done"
  },
  {
@@ -908,7 +908,7 @@
   "flag": 0,
   "speaker": 4,
   "jp": "できましたら　かいはつちゅうしの\nきょかを　いただきたくおもいます",
-  "en": "If possible, they would like your permission\nto cancel the development.",
+  "en": "If possible, they would like your\npermission to cancel the development.",
   "status": "done"
  },
  {
@@ -948,7 +948,7 @@
   "flag": 0,
   "speaker": 4,
   "jp": "もしも　あとから　かいはつを\nちゅうしさせたくなったばあいは",
-  "en": "If you decide later that you want the\ndevelopment cancelled,",
+  "en": "If you decide later that you\nwant the development cancelled,",
   "status": "done"
  },
  {
@@ -956,7 +956,7 @@
   "flag": 0,
   "speaker": 4,
   "jp": "ファクトリーまで　いって\nそのように　しじしてください{KP}\nそれでは",
-  "en": "please go to the Factory and tell them\nso.{KP}\nWell then.",
+  "en": "please go to the\nFactory and tell them so.{KP}\nWell then.",
   "status": "done"
  },
  {
@@ -964,7 +964,7 @@
   "flag": 0,
   "speaker": 4,
   "jp": "ファクトリーで　ばくはつじこが\nはっせいしました！{KP}\nしゅういの　セクタが\nはかいされてしまったようです！",
-  "en": "There has been an explosion at the\nFactory!{KP}\nIt seems the surrounding sectors were\ndestroyed!",
+  "en": "There has been an\nexplosion at the Factory!{KP}\nIt seems the surrounding\nsectors were destroyed!",
   "status": "done"
  },
  {
@@ -972,7 +972,7 @@
   "flag": 0,
   "speaker": 4,
   "jp": "{%sR4}さん　きこえますか？\nわたしです　ナビュウです{KP}\nダイナシティの　ていきほうこくの　じかんが\nきましたので　ほうこくします",
-  "en": "{%sR4}-san, can you hear me? It is\nme, Navyu.{KP}\nIt is time for Dyna City's regular report, so\nhere it is.",
+  "en": "{%sR4}-san, can you\nhear me? It is me, Navyu.{KP}\nIt is time for Dyna City's\nregular report, so here it is.",
   "status": "done"
  },
  {
@@ -980,7 +980,7 @@
   "flag": 0,
   "speaker": 4,
   "jp": "げんざい　ダイナシティに　くらしている\nダイナの　かずは　{%dR0}たい",
-  "en": "Number of Dyna now living in Dyna City:\n{%dR0}.",
+  "en": "Number of Dyna now living\nin Dyna City: {%dR0}.",
   "status": "done"
  },
  {
@@ -996,7 +996,7 @@
   "flag": 0,
   "speaker": 4,
   "jp": "げんざい　ダイナシティの　なかに\nそんざいしている　いえのかずは　{%dR2}けん",
-  "en": "Number of houses now standing in Dyna\nCity: {%dR2}.",
+  "en": "Number of houses now standing\nin Dyna City: {%dR2}.",
   "status": "done"
  },
  {
@@ -1012,7 +1012,7 @@
   "flag": 0,
   "speaker": 4,
   "jp": "よって　こんかいの　ボーナスビットは\n{%dR5}ビットと　なりました！",
-  "en": "So this time, your bonus comes to\n{%dR5} bits!",
+  "en": "So this time, your bonus\ncomes to {%dR5} bits!",
   "status": "done"
  },
  {
@@ -1020,7 +1020,7 @@
   "flag": 0,
   "speaker": 4,
   "jp": "このダイナシティの　げんざいの\nひょうかポイントは・・・",
-  "en": "This Dyna City's current rating points\nare...",
+  "en": "This Dyna City's current\nrating points are...",
   "status": "done"
  },
  {
@@ -1028,7 +1028,7 @@
   "flag": 0,
   "speaker": 4,
   "jp": "{%dR1}ポイントで\nランクは　でんどういりです！",
-  "en": "{%dR1} points, and its rank is Hall of\nFame!",
+  "en": "{%dR1} points, and\nits rank is Hall of Fame!",
   "status": "done"
  },
  {
@@ -1036,7 +1036,7 @@
   "flag": 0,
   "speaker": 4,
   "jp": "ついに　でんどういりですね\nおめでとうございます",
-  "en": "You have finally made the Hall of Fame.\nCongratulations!",
+  "en": "You have finally made the\nHall of Fame. Congratulations!",
   "status": "done"
  },
  {
@@ -1044,7 +1044,7 @@
   "flag": 0,
   "speaker": 4,
   "jp": "でんどういりの　あいだは　ていきほうこくの\nたびに　ギガダイヤモンドを　さしあげます",
-  "en": "While you are in the Hall of Fame, I will\ngive you a Giga Diamond with every{KP}\nregular report.",
+  "en": "While you are in the Hall of Fame,\nI will give you a Giga Diamond{KP}\nwith every regular report.",
   "status": "done"
  },
  {
@@ -1060,7 +1060,7 @@
   "flag": 0,
   "speaker": 4,
   "jp": "それでは　また　つぎの\nていきほうこくまで　がんばってくださいね",
-  "en": "Well then, please keep up the good work\nuntil the next regular report.",
+  "en": "Well then, please keep up the good\nwork until the next regular report.",
   "status": "done"
  },
  {
@@ -1068,7 +1068,7 @@
   "flag": 0,
   "speaker": 4,
   "jp": "このダイナシティの　げんざいの\nひょうかポイントは・・・",
-  "en": "This Dyna City's current rating points\nare...",
+  "en": "This Dyna City's current\nrating points are...",
   "status": "done"
  },
  {
@@ -1084,7 +1084,7 @@
   "flag": 0,
   "speaker": 4,
   "jp": "すごいですね　いうことなしです{KP}\nこれは　Ｓランクの　かたに\nたまに　でる　ボーナスです",
-  "en": "Amazing. There is nothing more to ask\nfor!{KP}\nThis is a bonus that S-rank cities get once\nin a while.",
+  "en": "Amazing. There is\nnothing more to ask for!{KP}\nThis is a bonus that S-rank\ncities get once in a while.",
   "status": "done"
  },
  {
@@ -1092,7 +1092,7 @@
   "flag": 0,
   "speaker": 4,
   "jp": "あとは　すべての　スタイルの\nすべての　ぞくせい・・・",
-  "en": "All that is left is every element of every\nstyle...",
+  "en": "All that is left is every\nelement of every style...",
   "status": "done"
  },
  {
@@ -1100,7 +1100,7 @@
   "flag": 0,
   "speaker": 4,
   "jp": "１５０しゅるいの　ダイナが\nすんでいれば　いよいよ　でんどういりです",
-  "en": "Once all 150 kinds of Dyna live here, you\nwill finally make the Hall of Fame.",
+  "en": "Once all 150 kinds of Dyna live here,\nyou will finally make the Hall of Fame.",
   "status": "done"
  },
  {
@@ -1108,7 +1108,7 @@
   "flag": 0,
   "speaker": 4,
   "jp": "みちのりは　こんなんですが\nあなたなら　きっとできますよ",
-  "en": "The road is a hard one, but I am sure you\ncan do it.",
+  "en": "The road is a hard one, but\nI am sure you can do it.",
   "status": "done"
  },
  {
@@ -1116,7 +1116,7 @@
   "flag": 0,
   "speaker": 4,
   "jp": "それでは　また　つぎの\nていきほうこくまで　がんばってくださいね",
-  "en": "Well then, please keep up the good work\nuntil the next regular report.",
+  "en": "Well then, please keep up the good\nwork until the next regular report.",
   "status": "done"
  },
  {
@@ -1124,7 +1124,7 @@
   "flag": 0,
   "speaker": 4,
   "jp": "このダイナシティの　げんざいの\nひょうかポイントは・・・",
-  "en": "This Dyna City's current rating points\nare...",
+  "en": "This Dyna City's current\nrating points are...",
   "status": "done"
  },
  {
@@ -1140,7 +1140,7 @@
   "flag": 0,
   "speaker": 4,
   "jp": "すごいですね　いうことなしです{KP}\nあとは　すべての　スタイルの\nすべての　ぞくせい・・・",
-  "en": "Amazing. There is nothing more to ask\nfor!{KP}\nAll that is left is every element of every\nstyle...",
+  "en": "Amazing. There is\nnothing more to ask for!{KP}\nAll that is left is every\nelement of every style...",
   "status": "done"
  },
  {
@@ -1148,7 +1148,7 @@
   "flag": 0,
   "speaker": 4,
   "jp": "１５０しゅるいの　ダイナが\nすんでいれば　いよいよ　でんどういりです",
-  "en": "Once all 150 kinds of Dyna live here, you\nwill finally make the Hall of Fame.",
+  "en": "Once all 150 kinds of Dyna live here,\nyou will finally make the Hall of Fame.",
   "status": "done"
  },
  {
@@ -1156,7 +1156,7 @@
   "flag": 0,
   "speaker": 4,
   "jp": "みちのりは　こんなんですが\nあなたなら　きっとできますよ",
-  "en": "The road is a hard one, but I am sure you\ncan do it.",
+  "en": "The road is a hard one, but\nI am sure you can do it.",
   "status": "done"
  },
  {
@@ -1164,7 +1164,7 @@
   "flag": 0,
   "speaker": 4,
   "jp": "それでは　また　つぎの\nていきほうこくまで　がんばってくださいね",
-  "en": "Well then, please keep up the good work\nuntil the next regular report.",
+  "en": "Well then, please keep up the good\nwork until the next regular report.",
   "status": "done"
  },
  {
@@ -1172,7 +1172,7 @@
   "flag": 0,
   "speaker": 4,
   "jp": "このダイナシティの　げんざいの\nひょうかポイントは・・・",
-  "en": "This Dyna City's current rating points\nare...",
+  "en": "This Dyna City's current\nrating points are...",
   "status": "done"
  },
  {
@@ -1188,7 +1188,7 @@
   "flag": 0,
   "speaker": 4,
   "jp": "かなり　かいてきで　すみよいシティだと\nいえるとおもいます",
-  "en": "I would say it is a very comfortable,\npleasant city to live in.",
+  "en": "I would say it is a very\ncomfortable, pleasant city to live in.",
   "status": "done"
  },
  {
@@ -1204,7 +1204,7 @@
   "flag": 0,
   "speaker": 4,
   "jp": "シティに　すんでいれば　さらに　うえの\nＳランクと　なることができます",
-  "en": "live in the city, you can reach the even\nhigher rank of S.",
+  "en": "live in the city, you can reach\nthe even higher rank of S.",
   "status": "done"
  },
  {
@@ -1212,7 +1212,7 @@
   "flag": 0,
   "speaker": 4,
   "jp": "それでは　また　つぎの\nていきほうこくまで　がんばってくださいね",
-  "en": "Well then, please keep up the good work\nuntil the next regular report.",
+  "en": "Well then, please keep up the good\nwork until the next regular report.",
   "status": "done"
  },
  {
@@ -1220,7 +1220,7 @@
   "flag": 0,
   "speaker": 4,
   "jp": "このダイナシティの　げんざいの\nひょうかポイントは・・・",
-  "en": "This Dyna City's current rating points\nare...",
+  "en": "This Dyna City's current\nrating points are...",
   "status": "done"
  },
  {
@@ -1236,7 +1236,7 @@
   "flag": 0,
   "speaker": 4,
   "jp": "そこそこ　すみよいシティだと　おもいますが\nまだまだ　なおすべきところも　おおいです",
-  "en": "It is a fairly pleasant city, I think, but\nthere is still a lot to fix.",
+  "en": "It is a fairly pleasant city, I think,\nbut there is still a lot to fix.",
   "status": "done"
  },
  {
@@ -1244,7 +1244,7 @@
   "flag": 0,
   "speaker": 4,
   "jp": "それでは　また　つぎの\nていきほうこくまで　がんばってくださいね",
-  "en": "Well then, please keep up the good work\nuntil the next regular report.",
+  "en": "Well then, please keep up the good\nwork until the next regular report.",
   "status": "done"
  },
  {
@@ -1252,7 +1252,7 @@
   "flag": 0,
   "speaker": 4,
   "jp": "このダイナシティの　げんざいの\nひょうかポイントは・・・",
-  "en": "This Dyna City's current rating points\nare...",
+  "en": "This Dyna City's current\nrating points are...",
   "status": "done"
  },
  {
@@ -1268,7 +1268,7 @@
   "flag": 0,
   "speaker": 4,
   "jp": "あまり　よくない　じょうたいです{KP}\nもうすこし　シティのなかを\nよくみてまわってみてください",
-  "en": "Things are not going very well.{KP}\nPlease take a closer look around the\ncity.",
+  "en": "Things are not going very well.{KP}\nPlease take a closer\nlook around the city.",
   "status": "done"
  },
  {
@@ -1276,7 +1276,7 @@
   "flag": 0,
   "speaker": 4,
   "jp": "それでは　また　つぎの\nていきほうこくまで　がんばってくださいね",
-  "en": "Well then, please keep up the good work\nuntil the next regular report.",
+  "en": "Well then, please keep up the good\nwork until the next regular report.",
   "status": "done"
  },
  {
@@ -1284,7 +1284,7 @@
   "flag": 0,
   "speaker": 4,
   "jp": "このダイナシティの　げんざいの\nひょうかポイントは・・・",
-  "en": "This Dyna City's current rating points\nare...",
+  "en": "This Dyna City's current\nrating points are...",
   "status": "done"
  },
  {
@@ -1300,7 +1300,7 @@
   "flag": 0,
   "speaker": 4,
   "jp": "ダイナたちが　くらしていくには\nもんだいが　おおい　シティです",
-  "en": "This city has a lot of problems for the\nDyna living in it.",
+  "en": "This city has a lot of problems\nfor the Dyna living in it.",
   "status": "done"
  },
  {
@@ -1308,7 +1308,7 @@
   "flag": 0,
   "speaker": 4,
   "jp": "いますぐ　なんとかしないと\nたいへんなことに　なるかもしれません",
-  "en": "If you do not do something right away,\nthings may get very bad.",
+  "en": "If you do not do something right\naway, things may get very bad.",
   "status": "done"
  },
  {
@@ -1316,7 +1316,7 @@
   "flag": 0,
   "speaker": 4,
   "jp": "それでは　また　つぎの\nていきほうこくまで　がんばってくださいね",
-  "en": "Well then, please keep up the good work\nuntil the next regular report.",
+  "en": "Well then, please keep up the good\nwork until the next regular report.",
   "status": "done"
  },
  {
@@ -1340,7 +1340,7 @@
   "flag": 0,
   "speaker": 4,
   "jp": "ダイナパッドの　アドレスちょうに\nどんどん　データを　インプットして",
-  "en": "Please keep entering data into your Dyna\nPad's address book,",
+  "en": "Please keep entering data into\nyour Dyna Pad's address book,",
   "status": "done"
  },
  {
@@ -1348,7 +1348,7 @@
   "flag": 0,
   "speaker": 4,
   "jp": "ガチャステから　ダイナを\nもっと　たくさん　ゲットしてください",
-  "en": "and get lots more Dyna from the\nGachasute.",
+  "en": "and get lots more Dyna\nfrom the Gachasute.",
   "status": "done"
  },
  {
@@ -1356,7 +1356,7 @@
   "flag": 0,
   "speaker": 4,
   "jp": "それでは　また　つぎの\nていきほうこくまで　がんばってくださいね",
-  "en": "Well then, please keep up the good work\nuntil the next regular report.",
+  "en": "Well then, please keep up the good\nwork until the next regular report.",
   "status": "done"
  },
  {
@@ -1372,7 +1372,7 @@
   "flag": 0,
   "speaker": 4,
   "jp": "マウンテンタイプの　セクタどうしは\nとなりあうと　つながってしまうので",
-  "en": "Mountain sectors join up when they are\nnext to each other,",
+  "en": "Mountain sectors join up when\nthey are next to each other,",
   "status": "done"
  },
  {
@@ -1388,7 +1388,7 @@
   "flag": 0,
   "speaker": 4,
   "jp": "また　バーディスタイプの\nダイナに　のって",
-  "en": "Also, when you are riding a Dyna of the\nBirdis type",
+  "en": "Also, when you are riding\na Dyna of the Birdis type",
   "status": "done"
  },
  {
@@ -1412,7 +1412,7 @@
   "flag": 0,
   "speaker": 4,
   "jp": "マウンテンの　セクタの　なかに\nとじこめられてしまいます",
-  "en": "you will be shut inside the Mountain\nsector.",
+  "en": "you will be shut inside\nthe Mountain sector.",
   "status": "done"
  },
  {
@@ -1420,7 +1420,7 @@
   "flag": 0,
   "speaker": 4,
   "jp": "そうすると　いまのように\nここに　てんそうされてしまって",
-  "en": "When that happens, you get sent back\nhere, like just now,",
+  "en": "When that happens, you get\nsent back here, like just now,",
   "status": "done"
  },
  {
@@ -1428,7 +1428,7 @@
   "flag": 0,
   "speaker": 4,
   "jp": "つれている　ダイナの\nきげんが　わるくなってしまいます{KP}\nこんごは　きをつけてくださいね",
-  "en": "and the Dyna you have with you get\ngrumpy.{KP}\nPlease be careful from now on.",
+  "en": "and the Dyna you have\nwith you get grumpy.{KP}\nPlease be careful from now on.",
   "status": "done"
  }
 ]

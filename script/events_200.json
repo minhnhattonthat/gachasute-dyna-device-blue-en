@@ -84,7 +84,7 @@
   "flag": 0,
   "speaker": -1,
   "jp": "ジョーカーは　てきエリアの　データを\nみることが　できません{KN}",
-  "en": "The Joker can't view the enemy area\ndata.{KN}",
+  "en": "The Joker can't view\nthe enemy area data.{KN}",
   "status": "done"
  },
  {
@@ -132,7 +132,7 @@
   "flag": 0,
   "speaker": -1,
   "jp": "{%dR4}Ｐは　{%sR5}を　おこなったようです{KN}",
-  "en": "P{%dR4} seems to have used\n{%sR5}.{KN}",
+  "en": "P{%dR4} seems to have\nused {%sR5}.{KN}",
   "status": "done"
  },
  {
@@ -164,7 +164,7 @@
   "flag": 0,
   "speaker": -1,
   "jp": "{%dR4}ばんの　ダイナの　トラップを\nセットしなおします{KN}",
-  "en": "Resetting the trap for Dyna No.\n{%dR4}.{KN}",
+  "en": "Resetting the trap for\nDyna No. {%dR4}.{KN}",
   "status": "done"
  },
  {
@@ -228,7 +228,7 @@
   "flag": 0,
   "speaker": -1,
   "jp": "ゴーストプレイヤーは　てきエリアを\nみることが　できません{KN}",
-  "en": "The Ghost Player can't view the enemy\narea.{KN}",
+  "en": "The Ghost Player can't\nview the enemy area.{KN}",
   "status": "done"
  },
  {
@@ -324,7 +324,7 @@
   "flag": 0,
   "speaker": -1,
   "jp": "てきの　ダイナを　こちらの\nダイナ　{%dR4}たいが　はっけん！{KN}",
-  "en": "{%dR4} of our Dyna spotted an enemy\nDyna!{KN}",
+  "en": "{%dR4} of our Dyna\nspotted an enemy Dyna!{KN}",
   "status": "done"
  },
  {
@@ -332,7 +332,7 @@
   "flag": 0,
   "speaker": -1,
   "jp": "どうやら　てきの　ダイナは\nなにもないところに　おりたようだ・・・{KN}",
-  "en": "It seems the enemy Dyna landed where\nthere was nothing...{KN}",
+  "en": "It seems the enemy Dyna landed\nwhere there was nothing...{KN}",
   "status": "done"
  },
  {
@@ -372,7 +372,7 @@
   "flag": 0,
   "speaker": -1,
   "jp": "とくしゅのうりょくを　つかう\nダイナを　せんたくしてください{KN}",
-  "en": "Please choose the Dyna to use a special\nability.{KN}",
+  "en": "Please choose the Dyna\nto use a special ability.{KN}",
   "status": "done"
  },
  {
@@ -380,7 +380,7 @@
   "flag": 0,
   "speaker": -1,
   "jp": "{%sR4}は　えんごこうげきの\nかまえに　はいりました{KN}",
-  "en": "{%sR4} got ready to give a\nSupport Attack.{KN}",
+  "en": "{%sR4} got ready\nto give a Support Attack.{KN}",
   "status": "done"
  },
  {
@@ -396,7 +396,7 @@
   "flag": 0,
   "speaker": -1,
   "jp": "さいごの　１たいの　ダイナは\nえんごこうげきの　かまえに　はいれません{KN}",
-  "en": "Your last Dyna can't get ready to give a\nSupport Attack.{KN}",
+  "en": "Your last Dyna can't get ready\nto give a Support Attack.{KN}",
   "status": "done"
  },
  {

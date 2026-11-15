@@ -100,7 +100,7 @@
   "flag": 0,
   "speaker": 3,
   "jp": "よくは　わからないけど　いまの　こえの\nぬしが　くろまくみたいだね",
-  "en": "I'm not really sure, but it looks like{KP}\nthat voice just now belongs to the\nmastermind.",
+  "en": "I'm not really sure, but it looks like{KP}\nthat voice just now\nbelongs to the mastermind.",
   "status": "done"
  },
  {
@@ -108,7 +108,7 @@
   "flag": 0,
   "speaker": 2,
   "jp": "なんでもいいぜ！\nいまのヤツの　いばしょを　さがそう{KP}\nそいつを　たおせば　おわりなんだろ？",
-  "en": "Whatever! Let's find out where that guy\nis.{KP}\nBeat him, and it's all over, right?",
+  "en": "Whatever! Let's find\nout where that guy is.{KP}\nBeat him, and it's all over, right?",
   "status": "done"
  },
  {
@@ -164,7 +164,7 @@
   "flag": 0,
   "speaker": 2,
   "jp": "なにぃ？　オレさまぬきで　いこうってのか？",
-  "en": "What? You're going without the great\nme?",
+  "en": "What? You're going\nwithout the great me?",
   "status": "done"
  },
  {
@@ -204,7 +204,7 @@
   "flag": 0,
   "speaker": 1,
   "jp": "あははっ　ゲニオくん！{KP}\nあなたたちを　しんらいしてるからこそ\nだいじな　ともだちを　まかしていくんだから",
-  "en": "Ahaha, Genio-kun!{KP}\nIt's because we trust you guys{KP}\nthat we're leaving our precious friend with\nyou.",
+  "en": "Ahaha, Genio-kun!{KP}\nIt's because we trust you guys{KP}\nthat we're leaving our\nprecious friend with you.",
   "status": "done"
  },
  {
@@ -260,7 +260,7 @@
   "flag": 0,
   "speaker": 17,
   "jp": "そう　ここが　ダイナネットを　かんりする\nばしょ・・・ダイナサーバーだよ{KP}\nいまや　このバイラーシティの　いちぶに\nなっちゃったけどね",
-  "en": "That's right. This is the place that runs the\nDyna Net...{KP}\nthe Dyna Server.{KP}\nThough it's part of Byler City now.",
+  "en": "That's right. This is the place\nthat runs the Dyna Net...{KP}\nthe Dyna Server.{KP}\nThough it's part of Byler City now.",
   "status": "done"
  },
  {
@@ -292,7 +292,7 @@
   "flag": 0,
   "speaker": 17,
   "jp": "ボクはね　このゲームで　さいきょうの\nマスターに　なりたいんだ{KP}\n・・・どんな　てを　つかってもね",
-  "en": "You see, I want to be the strongest\nMaster{KP}\nin this game...{KP}\n...by any means necessary.",
+  "en": "You see, I want to be\nthe strongest Master{KP}\nin this game...{KP}\n...by any means necessary.",
   "status": "done"
  },
  {
@@ -300,7 +300,7 @@
   "flag": 0,
   "speaker": 17,
   "jp": "だから　バイラーの　３にんを　つかって\nほかの　やつらの　シティを　ふういんして{KP}\nぜんぶ　うばって　この　バイラーシティを\nどんどん　おおきくしたのさ",
-  "en": "So I used the three Byler to seal everyone\nelse's Cities,{KP}\ntake them all, and make this Byler City{KP}\nbigger and bigger.",
+  "en": "So I used the three Byler to\nseal everyone else's Cities,{KP}\ntake them all, and make this Byler City{KP}\nbigger and bigger.",
   "status": "done"
  },
  {
@@ -316,7 +316,7 @@
   "flag": 0,
   "speaker": 17,
   "jp": "みんな　どうかしたかい？\nたしかに　キミが　ゲームから{KP}\nしばらく　ぬけだせなくなったのは\nよそうがいだったけど",
-  "en": "What about everyone?{KP}\nSure, I didn't expect that you{KP}\nwouldn't be able to leave the game for a\nwhile,",
+  "en": "What about everyone?{KP}\nSure, I didn't expect that you{KP}\nwouldn't be able to leave\nthe game for a while,",
   "status": "done"
  },
  {
@@ -324,7 +324,7 @@
   "flag": 0,
   "speaker": 17,
   "jp": "じっさいに　ケガを　したひとは\nいないはずだよ",
-  "en": "but nobody should actually have been\nhurt.",
+  "en": "but nobody should\nactually have been hurt.",
   "status": "done"
  },
  {
@@ -348,7 +348,7 @@
   "flag": 0,
   "speaker": 17,
   "jp": "しらなかったのかい？　ジョルナは\nキミたちのような　マスターじゃないよ{KP}\nジョルナは　もともと　このボクが\nつくったんだ",
-  "en": "Didn't you know? Jorna isn't a Master like\nyou.{KP}\nI made Jorna in the first place.",
+  "en": "Didn't you know? Jorna\nisn't a Master like you.{KP}\nI made Jorna in the first place.",
   "status": "done"
  },
  {
@@ -356,7 +356,7 @@
   "flag": 0,
   "speaker": 17,
   "jp": "シグマも　テリーも　バイラーの\nメンバーは　ボクが　つくったのさ{KP}\nダイナサーバーの　ちからを\nつかってね",
-  "en": "Sigma, Terry... I made all the members of\nByler.{KP}\nUsing the power of the Dyna Server.",
+  "en": "Sigma, Terry... I made\nall the members of Byler.{KP}\nUsing the power of the Dyna Server.",
   "status": "done"
  },
  {
@@ -388,7 +388,7 @@
   "flag": 0,
   "speaker": 1,
   "jp": "たしかに　もう・・・\nバトルするしか　ないみたいね・・・{KP}\n・・・・・・",
-  "en": "I guess... there really is nothing left to do\nbut battle...{KP}\n......",
+  "en": "I guess... there really is\nnothing left to do but battle...{KP}\n......",
   "status": "done"
  },
  {
@@ -476,7 +476,7 @@
   "flag": 0,
   "speaker": 17,
   "jp": "くそっ・・・もういちどだ！　ダイナネットの\nシステムを　リセットして　やりなおすんだ！",
-  "en": "Dang it... One more time! I'll reset the Dyna\nNet system{KP}\nand start over!",
+  "en": "Dang it... One more time! I'll\nreset the Dyna Net system{KP}\nand start over!",
   "status": "done"
  },
  {
@@ -580,7 +580,7 @@
   "flag": 0,
   "speaker": 5,
   "jp": "つい　さっき　ジョルナからの\nきんきゅうしんごうを　キャッチしたんだ{KP}\nそれで　かけつけてきたら　ダイナサーバーに\nしんにゅうしゃがいるのに　きづいてね",
-  "en": "Just a moment ago, we picked up an\nemergency signal from Jorna.{KP}\nWe rushed over and found an intruder in\nthe Dyna Server.",
+  "en": "Just a moment ago, we picked up\nan emergency signal from Jorna.{KP}\nWe rushed over and found an\nintruder in the Dyna Server.",
   "status": "done"
  },
  {
@@ -588,7 +588,7 @@
   "flag": 0,
   "speaker": 5,
   "jp": "いそいで　げんじつせかいのほうでも\nしんにゅうしゃを　しらべてもらったのさ{KP}\nあぶないところだったよ",
-  "en": "We hurried and had the intruder traced in\nthe real world too.{KP}\nThat was a close call.",
+  "en": "We hurried and had the intruder\ntraced in the real world too.{KP}\nThat was a close call.",
   "status": "done"
  },
  {
@@ -596,7 +596,7 @@
   "flag": 0,
   "speaker": 5,
   "jp": "ここで　まにあわずに　システムを\nリセットされていたら{KP}\nかれは　きっと　キミに　かつまで\nリセットして　やりなおしていただろうからね",
-  "en": "If we hadn't made it in time and he'd reset\nthe system,{KP}\nI'm sure he'd have kept resetting{KP}\nand starting over until he beat you.",
+  "en": "If we hadn't made it in time\nand he'd reset the system,{KP}\nI'm sure he'd have kept resetting{KP}\nand starting over until he beat you.",
   "status": "done"
  },
  {
@@ -604,7 +604,7 @@
   "flag": 0,
   "speaker": 5,
   "jp": "かれの　つくりあげた　バイラーシティは\nもう　ダイナネットから　けしたから{KP}\nとりあえずは　へいわになったと\nいえるだろう",
-  "en": "The Byler City he built has already been\nerased from the Dyna Net,{KP}\nso for now, I think we can say{KP}\npeace has returned.",
+  "en": "The Byler City he built has already\nbeen erased from the Dyna Net,{KP}\nso for now, I think we can say{KP}\npeace has returned.",
   "status": "done"
  },
  {
@@ -620,7 +620,7 @@
   "flag": 0,
   "speaker": 5,
   "jp": "どうしたんだい？　かんがえこんじゃって？",
-  "en": "What's the matter? You're lost in\nthought.",
+  "en": "What's the matter?\nYou're lost in thought.",
   "status": "done"
  },
  {
@@ -628,7 +628,7 @@
   "flag": 0,
   "speaker": 1,
   "jp": "あ　いえ・・・たしかに　へいわになって\nうれしいんですけど　いざ　なってみたら",
-  "en": "Oh, no... I'm really glad there's peace now,\nbut now that it's here...",
+  "en": "Oh, no... I'm really glad there's\npeace now, but now that it's here...",
   "status": "done"
  },
  {
@@ -636,7 +636,7 @@
   "flag": 0,
   "speaker": 1,
   "jp": "へいわじゃないときも　ドキドキワクワクして\nけっこう　よかったなぁ・・・",
-  "en": "those times when there wasn't peace were\nthrilling and exciting,{KP}\nand kind of fun too...",
+  "en": "those times when there wasn't\npeace were thrilling and exciting,{KP}\nand kind of fun too...",
   "status": "done"
  },
  {
@@ -652,7 +652,7 @@
   "flag": 0,
   "speaker": 5,
   "jp": "はっはっは　たいくつだったら\nたいくつだって　いってくれ{KP}\nそれを　なんとかするのも　ボクらの\nしごとのうちだから",
-  "en": "Hahaha! If you get bored, just tell us\nyou're bored.{KP}\nDoing something about that is part of our\njob too.",
+  "en": "Hahaha! If you get bored,\njust tell us you're bored.{KP}\nDoing something about that\nis part of our job too.",
   "status": "done"
  },
  {
@@ -676,7 +676,7 @@
   "flag": 0,
   "speaker": 1,
   "jp": "あのひとの　つくった　バイラーシティは\nけしたって　いってましたよね？{KP}\n・・・じゃあ・・・",
-  "en": "You said the Byler City that person built\nwas erased, right?{KP}\n...Then...",
+  "en": "You said the Byler City that\nperson built was erased, right?{KP}\n...Then...",
   "status": "done"
  },
  {
@@ -708,7 +708,7 @@
   "flag": 0,
   "speaker": 1,
   "jp": "たしかに　あのコは　ゲームの　なかだけの\nそんざいかもしれないです・・・",
-  "en": "Sure, maybe she only exists inside the\ngame...",
+  "en": "Sure, maybe she only\nexists inside the game...",
   "status": "done"
  },
  {
@@ -732,7 +732,7 @@
   "flag": 0,
   "speaker": 3,
   "jp": "テリーが　きえたときに\nもしやと　おもったけど・・・",
-  "en": "When Terry vanished, I had a hunch,\nbut...",
+  "en": "When Terry vanished,\nI had a hunch, but...",
   "status": "done"
  },
  {
@@ -740,7 +740,7 @@
   "flag": 0,
   "speaker": 3,
   "jp": "やはり　バイラーの　３にんは\nマスターなんかじゃなかったんだ{KP}\nバイラーシティの・・・ゲームのなかだけの\n・・・そんざいだったのか・・・",
-  "en": "the three from Byler weren't Masters after\nall.{KP}\nThey only existed in Byler City...{KP}\ninside the game...",
+  "en": "the three from Byler\nweren't Masters after all.{KP}\nThey only existed in Byler City...{KP}\ninside the game...",
   "status": "done"
  },
  {
@@ -764,7 +764,7 @@
   "flag": 0,
   "speaker": 5,
   "jp": "バイラーシティは　ダイナサーバーを\nあくようして　インチキを　おこない{KP}\nきょだいに　つくりあげられた\nあってはならない　シティだ",
-  "en": "Byler City was built huge by cheating,{KP}\nabusing the Dyna Server.{KP}\nIt's a City that should never have\nexisted.",
+  "en": "Byler City was built huge by cheating,{KP}\nabusing the Dyna Server.{KP}\nIt's a City that should\nnever have existed.",
   "status": "done"
  },
  {
@@ -772,7 +772,7 @@
   "flag": 0,
   "speaker": 5,
   "jp": "あのシティは　けさなければならないし\nあのシティに　かんけいしている　データも{KP}\nいちど　すべて　ダイナネットから\nけさなければならないだろう",
-  "en": "That City has to be erased, and all the\ndata connected to it{KP}\nwill have to be erased from the Dyna\nNet,{KP}\nat least once.",
+  "en": "That City has to be erased,\nand all the data connected to it{KP}\nwill have to be erased\nfrom the Dyna Net,{KP}\nat least once.",
   "status": "done"
  },
  {
@@ -796,7 +796,7 @@
   "flag": 0,
   "speaker": 3,
   "jp": "・・・たしかに　バイラーシティに　かんする\nデータを　のこすのは　きけんでしょう{KP}\nダイナネットの　あんぜんのために\nけさなければならないのも　わかります",
-  "en": "...It's true that keeping any Byler City data\nwould be dangerous.{KP}\nI understand that it has to be erased{KP}\nto keep the Dyna Net safe.",
+  "en": "...It's true that keeping any Byler\nCity data would be dangerous.{KP}\nI understand that it has to be erased{KP}\nto keep the Dyna Net safe.",
   "status": "done"
  },
  {
@@ -804,7 +804,7 @@
   "flag": 0,
   "speaker": 3,
   "jp": "でも　ぼくたちが　まっているということは\nおぼえていてください",
-  "en": "But please remember that we'll be\nwaiting.",
+  "en": "But please remember\nthat we'll be waiting.",
   "status": "done"
  },
  {
@@ -828,7 +828,7 @@
   "flag": 0,
   "speaker": 5,
   "jp": "かのじょが　しらせてくれたからこそ\nこんかいの　じけんも　かいけつしたのだし{KP}\nなんとか　ふっかつさせられないか\nしらべてみよう",
-  "en": "This case was only solved because she told\nus about it.{KP}\nWe'll look into whether{KP}\nthere's some way to bring her back.",
+  "en": "This case was only solved\nbecause she told us about it.{KP}\nWe'll look into whether{KP}\nthere's some way to bring her back.",
   "status": "done"
  },
  {
@@ -836,7 +836,7 @@
   "flag": 0,
   "speaker": 5,
   "jp": "かならず　ふっかつさせられるという\nやくそくは　ちょっと　できないが・・・{KP}\nあまり　きたいしないで\nまっていてくれるかい",
-  "en": "I can't exactly promise that we'll definitely\nbring her back...{KP}\nso try not to get your hopes up too\nmuch,{KP}\nand wait for us, okay?",
+  "en": "I can't exactly promise that\nwe'll definitely bring her back...{KP}\nso try not to get your\nhopes up too much,{KP}\nand wait for us, okay?",
   "status": "done"
  },
  {
@@ -860,7 +860,7 @@
   "flag": 0,
   "speaker": 5,
   "jp": "うん　じゃあ　キミたち{KP}\nいまは　ダイナネットが　ふあんていで\nゲームデータが　こわれるかもしれないから",
-  "en": "Good. Now then, kids,{KP}\nthe Dyna Net is unstable right now,{KP}\nand your game data could get\ncorrupted,",
+  "en": "Good. Now then, kids,{KP}\nthe Dyna Net is unstable right now,{KP}\nand your game data\ncould get corrupted,",
   "status": "done"
  },
  {
@@ -868,7 +868,7 @@
   "flag": 0,
   "speaker": 5,
   "jp": "すまないが　いちど　ゲームを\nおわらせてくれるかい？{KP}\nあした　キミたちが　がっこうから\nかえってくるころには",
-  "en": "so I'm sorry, but would you end the game\nfor now?{KP}\nBy the time you get home from school\ntomorrow,",
+  "en": "so I'm sorry, but would you\nend the game for now?{KP}\nBy the time you get home\nfrom school tomorrow,",
   "status": "done"
  },
  {
@@ -876,7 +876,7 @@
   "flag": 0,
   "speaker": 5,
   "jp": "なんとか　あそべるレベルに\nなおしておくよ",
-  "en": "we'll have it fixed up well enough to\nplay.",
+  "en": "we'll have it fixed up\nwell enough to play.",
   "status": "done"
  },
  {
@@ -900,7 +900,7 @@
   "flag": 0,
   "speaker": 3,
   "jp": "じゃあ　シティの　つくりなおしは\nあしたからだね{KP}\nやすみじかんに　みんなの　めいしデータ{KP}\nもらいにいくから　よろしく！",
-  "en": "So rebuilding our Cities starts tomorrow,\nhuh.{KP}\nAt recess I'm coming round for everyone's\ncard data,{KP}\nso be ready!",
+  "en": "So rebuilding our Cities\nstarts tomorrow, huh.{KP}\nAt recess I'm coming round\nfor everyone's card data,{KP}\nso be ready!",
   "status": "done"
  },
  {
@@ -916,7 +916,7 @@
   "flag": 0,
   "speaker": 1,
   "jp": "・・・って　ゲームの　なかだっけ？\nあはははっ{KP}\nでも　ここで　あったことを\nわたしたち　みんな　おぼえてて",
-  "en": "...Wait, that was inside the game, wasn't it?\nAhahaha!{KP}\nBut we'll all remember what happened\nhere,",
+  "en": "...Wait, that was inside the\ngame, wasn't it? Ahahaha!{KP}\nBut we'll all remember\nwhat happened here,",
   "status": "done"
  },
  {
@@ -924,7 +924,7 @@
   "flag": 0,
   "speaker": 1,
   "jp": "あした　がっこうで　あったら\nきっと　おなじ　はなしが　できる・・・{KP}\nそうかんがえたら　これって",
-  "en": "and when we meet at school tomorrow,{KP}\nwe'll be able to talk about the same\nthings...{KP}\nWhen you think about it that way,",
+  "en": "and when we meet at school tomorrow,{KP}\nwe'll be able to talk\nabout the same things...{KP}\nWhen you think about it that way,",
   "status": "done"
  },
  {
@@ -932,7 +932,7 @@
   "flag": 0,
   "speaker": 1,
   "jp": "げんじつに　みんなで　あそびにいった\nおもいでと　なんにも　かわらないよね？{KP}\nなんか　ふしぎだね・・・",
-  "en": "it's no different from memories of all of\nus{KP}\ngoing out to play together for real,\nright?{KP}\nKind of strange, huh...",
+  "en": "it's no different from\nmemories of all of us{KP}\ngoing out to play\ntogether for real, right?{KP}\nKind of strange, huh...",
   "status": "done"
  },
  {
@@ -956,7 +956,7 @@
   "flag": 0,
   "speaker": 1,
   "jp": "わたしと　イッパくんの　シティが\nそれなりに　おおきくなったころに{KP}\nまた　たいかいやろうよ！",
-  "en": "Once Ippa-kun's City and mine have grown\npretty big,{KP}\nlet's have another tournament!",
+  "en": "Once Ippa-kun's City and\nmine have grown pretty big,{KP}\nlet's have another tournament!",
   "status": "done"
  },
  {
@@ -972,7 +972,7 @@
   "flag": 0,
   "speaker": 4,
   "jp": "{%sR4}さん\nほんじつも　ダイナデバイスを",
-  "en": "{%sR4}-san, thank you for playing\nDyna Device",
+  "en": "{%sR4}-san, thank\nyou for playing Dyna Device",
   "status": "done"
  },
  {
@@ -988,7 +988,7 @@
   "flag": 0,
   "speaker": 4,
   "jp": "でも　こういうことは　キチンとしないと\nわたし　おこられてしまうんですよ{KP}\n・・・そうそう！　きょう　また　システムの\nへんこうが　あって",
-  "en": "But if I do not do these things properly,{KP}\nI get scolded, you see.{KP}\n...Oh, yes! There was another change to the\nsystem today,",
+  "en": "But if I do not do these things properly,{KP}\nI get scolded, you see.{KP}\n...Oh, yes! There was another\nchange to the system today,",
   "status": "done"
  },
  {
@@ -996,7 +996,7 @@
   "flag": 0,
   "speaker": 4,
   "jp": "コロシアムで　ランキングバトルが\nできるようになったんですよ",
-  "en": "and now you can take part in Ranking\nBattles at the Colosseum.",
+  "en": "and now you can take part in\nRanking Battles at the Colosseum.",
   "status": "done"
  },
  {
@@ -1004,7 +1004,7 @@
   "flag": 0,
   "speaker": 4,
   "jp": "どんどん　かちすすんでいくことで\nあなたの　ランキングを　あげていって{KP}\nナンバー１を　めざす　バトルなんです",
-  "en": "The more battles you win, the higher your\nranking goes,{KP}\nand you aim for Number 1.",
+  "en": "The more battles you win,\nthe higher your ranking goes,{KP}\nand you aim for Number 1.",
   "status": "done"
  },
  {
@@ -1020,7 +1020,7 @@
   "flag": 0,
   "speaker": 4,
   "jp": "それと　もうひとつ\nせんじつの　さいごの　たたかいを{KP}\nいつでも　たいけんできる\nアトラクションも　オープンしました",
-  "en": "And one more thing:{KP}\nan attraction has opened where you can\nrelive{KP}\nthe final battle from the other day\nanytime.",
+  "en": "And one more thing:{KP}\nan attraction has opened\nwhere you can relive{KP}\nthe final battle from\nthe other day anytime.",
   "status": "done"
  },
  {
@@ -1028,7 +1028,7 @@
   "flag": 0,
   "speaker": 4,
   "jp": "ちかてつから　いけますので\nよろしかったら　ごりようください{KP}\nそれでは　これからも　ダイナデバイスを\nたのしんでいってくださいね",
-  "en": "You can get there by subway, so please\nuse it if you like.{KP}\nWell then, please keep enjoying the Dyna\nDevice!",
+  "en": "You can get there by subway,\nso please use it if you like.{KP}\nWell then, please keep\nenjoying the Dyna Device!",
   "status": "done"
  },
  {
@@ -1044,7 +1044,7 @@
   "flag": 0,
   "speaker": 4,
   "jp": "{%sR4}さん\nほんじつも　ダイナデバイスを",
-  "en": "{%sR4}-san, thank you for playing\nDyna Device",
+  "en": "{%sR4}-san, thank\nyou for playing Dyna Device",
   "status": "done"
  },
  {
@@ -1068,7 +1068,7 @@
   "flag": 0,
   "speaker": 4,
   "jp": "せんじつの　じけんを　かいけつしたときに\nシティの　ランクが{KP}\nＡランクいじょうでしたので{KP}\nダイナネットから　コロシアムキットが\nおくられてきたんです",
-  "en": "When you solved the case the other\nday,{KP}\nyour City's rank was A or higher,{KP}\nso the Dyna Net sent you a Colosseum\nKit.",
+  "en": "When you solved the\ncase the other day,{KP}\nyour City's rank was A or higher,{KP}\nso the Dyna Net sent\nyou a Colosseum Kit.",
   "status": "done"
  },
  {
@@ -1076,7 +1076,7 @@
   "flag": 0,
   "speaker": 4,
   "jp": "こちらで　あずかっていますので\nひつようなときは　ひきだしてくださいね{KN}",
-  "en": "I am keeping it for you here, so please\nwithdraw it{KP}\nwhenever you need it.{KN}",
+  "en": "I am keeping it for you\nhere, so please withdraw it{KP}\nwhenever you need it.{KN}",
   "status": "done"
  },
  {
@@ -1084,7 +1084,7 @@
   "flag": 0,
   "speaker": 4,
   "jp": "・・・そうそう！　きょう　また　システムの\nへんこうが　あって",
-  "en": "...Oh, yes! There was another change to the\nsystem today,",
+  "en": "...Oh, yes! There was another\nchange to the system today,",
   "status": "done"
  },
  {
@@ -1092,7 +1092,7 @@
   "flag": 0,
   "speaker": 4,
   "jp": "コロシアムで　ランキングバトルが\nできるようになったんですよ",
-  "en": "and now you can take part in Ranking\nBattles at the Colosseum.",
+  "en": "and now you can take part in\nRanking Battles at the Colosseum.",
   "status": "done"
  },
  {
@@ -1100,7 +1100,7 @@
   "flag": 0,
   "speaker": 4,
   "jp": "どんどん　かちすすんでいくことで\nあなたの　ランキングを　あげていって{KP}\nナンバー１を　めざす　バトルなんです",
-  "en": "The more battles you win, the higher your\nranking goes,{KP}\nand you aim for Number 1.",
+  "en": "The more battles you win,\nthe higher your ranking goes,{KP}\nand you aim for Number 1.",
   "status": "done"
  },
  {
@@ -1116,7 +1116,7 @@
   "flag": 0,
   "speaker": 4,
   "jp": "それと　もうひとつ\nせんじつの　さいごの　たたかいを{KP}\nいつでも　たいけんできる\nアトラクションも　オープンしました",
-  "en": "And one more thing:{KP}\nan attraction has opened where you can\nrelive{KP}\nthe final battle from the other day\nanytime.",
+  "en": "And one more thing:{KP}\nan attraction has opened\nwhere you can relive{KP}\nthe final battle from\nthe other day anytime.",
   "status": "done"
  },
  {
@@ -1124,7 +1124,7 @@
   "flag": 0,
   "speaker": 4,
   "jp": "ちかてつから　いけますので\nよろしかったら　ごりようください{KP}\nそれでは　これからも　ダイナデバイスを\nたのしんでいってくださいね",
-  "en": "You can get there by subway, so please\nuse it if you like.{KP}\nWell then, please keep enjoying the Dyna\nDevice!",
+  "en": "You can get there by subway,\nso please use it if you like.{KP}\nWell then, please keep\nenjoying the Dyna Device!",
   "status": "done"
  },
  {
@@ -1140,7 +1140,7 @@
   "flag": 0,
   "speaker": -1,
   "jp": "こうげきポイントの　まわりに　{%dR4}たいの\nてきの　ダイナを　かくにん！{KN}",
-  "en": "{%dR4} enemy Dyna spotted around the\nattack point!{KN}",
+  "en": "{%dR4} enemy Dyna spotted\naround the attack point!{KN}",
   "status": "done"
  },
  {
@@ -1148,7 +1148,7 @@
   "flag": 0,
   "speaker": -1,
   "jp": "こうげきポイントと　その　まわりに\nてきの　ダイナは　いなかった・・・{KN}",
-  "en": "No enemy Dyna at or around the attack\npoint...{KN}",
+  "en": "No enemy Dyna at or\naround the attack point...{KN}",
   "status": "done"
  },
  {
@@ -1180,7 +1180,7 @@
   "flag": 0,
   "speaker": -1,
   "jp": "てきの　{%sR4}の\nダブルアタック！{KN}",
-  "en": "Double Attack by the enemy\n{%sR4}!{KN}",
+  "en": "Double Attack by the\nenemy {%sR4}!{KN}",
   "status": "done"
  },
  {
@@ -1196,7 +1196,7 @@
   "flag": 0,
   "speaker": -1,
   "jp": "てきの　{%sR4}の\nワンサイドアタック！{KN}",
-  "en": "One-Sided Attack by the enemy\n{%sR4}!{KN}",
+  "en": "One-Sided Attack by the\nenemy {%sR4}!{KN}",
   "status": "done"
  },
  {
@@ -1292,7 +1292,7 @@
   "flag": 0,
   "speaker": -1,
   "jp": "{%sR4}に\nワクチンプログラムを　おくります{KN}",
-  "en": "Sending a vaccine program to\n{%sR4}.{KN}",
+  "en": "Sending a vaccine program\nto {%sR4}.{KN}",
   "status": "done"
  },
  {
@@ -1300,7 +1300,7 @@
   "flag": 0,
   "speaker": -1,
   "jp": "{%sR4}の　からだから\nどくが　ぬけた！{KN}",
-  "en": "The poison has left {%sR4}'s\nbody!{KN}",
+  "en": "The poison has left\n{%sR4}'s body!{KN}",
   "status": "done"
  },
  {
@@ -1348,7 +1348,7 @@
   "flag": 0,
   "speaker": -1,
   "jp": "{%sR4}の　からだの\nしびれが　とれた！{KN}",
-  "en": "The numbness left {%sR4}'s\nbody!{KN}",
+  "en": "The numbness left\n{%sR4}'s body!{KN}",
   "status": "done"
  },
  {
@@ -1388,7 +1388,7 @@
   "flag": 0,
   "speaker": -1,
   "jp": "{%dR4}ばんの　ダイナの\nトラップを　セットしてください{KN}",
-  "en": "Please set the trap for Dyna No.\n{%dR4}.{KN}",
+  "en": "Please set the trap\nfor Dyna No. {%dR4}.{KN}",
   "status": "done"
  },
  {
@@ -1396,7 +1396,7 @@
   "flag": 0,
   "speaker": -1,
   "jp": "{%dR4}ばんの　ダイナの\n{%dR5}こめのトラップを　セットしてください{KN}",
-  "en": "For Dyna No. {%dR4}, please set trap No.\n{%dR5}.{KN}",
+  "en": "For Dyna No. {%dR4},\nplease set trap No. {%dR5}.{KN}",
   "status": "done"
  },
  {
@@ -1412,7 +1412,7 @@
   "flag": 0,
   "speaker": -1,
   "jp": "このターンに　じっこうする　コマンドを\nせんたくしてください{KN}",
-  "en": "Please choose the command to carry out\nthis turn.{KN}",
+  "en": "Please choose the command\nto carry out this turn.{KN}",
   "status": "done"
  },
  {
@@ -1420,7 +1420,7 @@
   "flag": 0,
   "speaker": -1,
   "jp": "ていさつしたい　ポイントを　\nえらんでください{KN}",
-  "en": "Please choose the point you want to\nscout.{KN}",
+  "en": "Please choose the point\nyou want to scout.{KN}",
   "status": "done"
  },
  {
@@ -1428,7 +1428,7 @@
   "flag": 0,
   "speaker": -1,
   "jp": "このエリアには　ダイナ　{%dR4}たい\nトラップ　{%dR5}こが　そんざいするようです{KN}",
-  "en": "There seem to be {%dR4} Dyna and\n{%dR5} traps in this area.{KN}",
+  "en": "There seem to be {%dR4} Dyna\nand {%dR5} traps in this area.{KN}",
   "status": "done"
  },
  {

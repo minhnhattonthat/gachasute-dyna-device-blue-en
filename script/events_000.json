@@ -28,7 +28,7 @@
   "flag": 0,
   "speaker": 4,
   "jp": "ようこそ　ダイナシティへ！{KP}\nこのたびは　ダイナパッドを\nおかいあげいただきまして{KP}\nまことにありがとうございます",
-  "en": "Welcome to Dyna City!{KP}\nThank you very much for purchasing a\nDyna Pad!",
+  "en": "Welcome to Dyna City!{KP}\nThank you very much for\npurchasing a Dyna Pad!",
   "status": "done"
  },
  {
@@ -36,7 +36,7 @@
   "flag": 0,
   "speaker": 4,
   "jp": "わたしは　この　ダイナシティで\nあなたの　おてつだいをさせていただく{KP}\nナビュウというものです{KP}\nそれでは　この　ダイナデバイスという\nゲームについて　せつめいします",
-  "en": "I am Navyu, and I will be assisting you\nhere in Dyna City.{KP}\nNow, let me explain this game called Dyna\nDevice.",
+  "en": "I am Navyu, and I will be\nassisting you here in Dyna City.{KP}\nNow, let me explain this\ngame called Dyna Device.",
   "status": "done"
  },
  {
@@ -52,7 +52,7 @@
   "flag": 0,
   "speaker": 4,
   "jp": "ダイナとは　このせかいに　そんざいする\nふしぎな　いきものたちのことです",
-  "en": "Dyna are the mysterious creatures that\nlive in this world.",
+  "en": "Dyna are the mysterious\ncreatures that live in this world.",
   "status": "done"
  },
  {
@@ -60,7 +60,7 @@
   "flag": 0,
   "speaker": 4,
   "jp": "みなさんが　めざす\nとりあえずの　もくひょうは{KP}\nダイナたちが　たのしく　くらせる\nうつくしいシティを　つくること！",
-  "en": "Your first goal, for now, is to build a\nbeautiful city where Dyna can live{KP}\nhappily!",
+  "en": "Your first goal, for now,\nis to build a beautiful city{KP}\nwhere Dyna can live happily!",
   "status": "done"
  },
  {
@@ -68,7 +68,7 @@
   "flag": 0,
   "speaker": 4,
   "jp": "ていきてきに　ダイナネットが\nシティに　てんすうを　つけて{KP}\nあなたには　Ｄランクから　Ａランクまでの\nひょうかが　つきます",
-  "en": "Every so often, the Dyna Net will score\nyour city{KP}\nand give you a rating from D Rank up to A\nRank.",
+  "en": "Every so often, the Dyna\nNet will score your city{KP}\nand give you a rating\nfrom D Rank up to A Rank.",
   "status": "done"
  },
  {
@@ -76,7 +76,7 @@
   "flag": 0,
   "speaker": 4,
   "jp": "ちなみに　ダイナネットというのは\nダイナパッドから　せつぞくできる{KP}\nネットワークシステムの　ことです",
-  "en": "By the way, the Dyna Net is a network\nsystem{KP}\nthat you can connect to from your Dyna\nPad.",
+  "en": "By the way, the Dyna\nNet is a network system{KP}\nthat you can connect\nto from your Dyna Pad.",
   "status": "done"
  },
  {
@@ -84,7 +84,7 @@
   "flag": 0,
   "speaker": 4,
   "jp": "てんすうは　きほんてきに　きげんが　いい\nダイナが　おおいと　たかくなり{KP}\nきげんが　わるい　ダイナが\nおおいと　ひくくなります",
-  "en": "As a rule, your score goes up when you\nhave lots of Dyna in a good mood,{KP}\nand down when you have lots of Dyna in a\nbad mood.",
+  "en": "As a rule, your score goes up when\nyou have lots of Dyna in a good mood,{KP}\nand down when you have\nlots of Dyna in a bad mood.",
   "status": "done"
  },
  {
@@ -92,7 +92,7 @@
   "flag": 0,
   "speaker": 4,
   "jp": "もちろん　あなたのシティですから\nすきなように　つくって　いいのですが{KP}\nなにをすればいいか　わからなくなったときは\nＡランクを　めざすと　いいとおもいます",
-  "en": "Of course, it is your city, so you may build\nit however you like.{KP}\nBut whenever you are not sure what to\ndo, aiming for A Rank is a good idea.",
+  "en": "Of course, it is your city, so you\nmay build it however you like.{KP}\nBut whenever you are not sure what\nto do, aiming for A Rank is a good idea.",
   "status": "done"
  },
  {
@@ -100,7 +100,7 @@
   "flag": 0,
   "speaker": 4,
   "jp": "では　さいしょに　ダイナの\nふやしかたについて　せつめいします{KP}\nこの　ダイナセンターの　なかの　みぎがわに",
-  "en": "First, let me explain how to get more\nDyna.{KP}\nOn the right side of this Dyna Center...",
+  "en": "First, let me explain\nhow to get more Dyna.{KP}\nOn the right side of this Dyna Center...",
   "status": "done"
  },
  {
@@ -108,7 +108,7 @@
   "flag": 0,
   "speaker": 4,
   "jp": "ガチャステーション　りゃくして\nガチャステという　マシンがあります",
-  "en": "...is a machine called the Gacha Station, or\n\"Gachasute\" for short.",
+  "en": "...is a machine called the Gacha\nStation, or \"Gachasute\" for short.",
   "status": "done"
  },
  {
@@ -124,7 +124,7 @@
   "flag": 0,
   "speaker": 4,
   "jp": "それでは　まず　あなたの　データから\nダイナを　よびだしてみましょう{KP}\nガチャステの　まえで\nＡボタンを　おしてください",
-  "en": "First, let's call up a Dyna from your own\ndata.{KP}\nPlease stand in front of the Gachasute and\npress the A Button.",
+  "en": "First, let's call up a Dyna\nfrom your own data.{KP}\nPlease stand in front of the\nGachasute and press the A Button.",
   "status": "done"
  },
  {
@@ -132,7 +132,7 @@
   "flag": 0,
   "speaker": 4,
   "jp": "{%sR5}ですか・・・\nいいなまえですね",
-  "en": "{%sR5}, is it...? What a nice\nname.",
+  "en": "{%sR5}, is\nit...? What a nice name.",
   "status": "done"
  },
  {
@@ -140,7 +140,7 @@
   "flag": 0,
   "speaker": 4,
   "jp": "いま　この{%sR5}が\nあなたの　データから　うまれたように{KP}\nダイナは　ひとの　データから\nうまれます",
-  "en": "Just as {%sR5} was born from your\ndata,{KP}\nDyna are born from people's data.",
+  "en": "Just as {%sR5}\nwas born from your data,{KP}\nDyna are born from people's data.",
   "status": "done"
  },
  {
@@ -156,7 +156,7 @@
   "flag": 0,
   "speaker": 4,
   "jp": "つまり　１０しゅるいの　タイプを\nこまかくわけると{KP}\n３０しゅるいの　スタイルになる\nというわけなんです",
-  "en": "In other words, if you break the 10 types\ndown,{KP}\nyou get 30 styles in all.",
+  "en": "In other words, if you\nbreak the 10 types down,{KP}\nyou get 30 styles in all.",
   "status": "done"
  },
  {
@@ -164,7 +164,7 @@
   "flag": 0,
   "speaker": 4,
   "jp": "まず　さいしょは　じぶんが　つれている\nダイナが{KP}\nなにタイプの　なにスタイルなのかを\nおぼえるようにしてみてください",
-  "en": "To start with, try to remember the type\nand style{KP}\nof each Dyna you have with you.",
+  "en": "To start with, try to\nremember the type and style{KP}\nof each Dyna you have with you.",
   "status": "done"
  },
  {
@@ -172,7 +172,7 @@
   "flag": 0,
   "speaker": 4,
   "jp": "タイプ　スタイルとは　べつに\nダイナには　ぞくせいも　つきます{KP}\nぞくせいは　ほのお　みず　かみなり　だいち\nそして　ぞくせいなしの　５しゅるいです",
-  "en": "Apart from type and style, Dyna also have\nan element.{KP}\nThere are 5 elements: fire, water, thunder,\nearth, and no element.",
+  "en": "Apart from type and style,\nDyna also have an element.{KP}\nThere are 5 elements: fire, water,\nthunder, earth, and no element.",
   "status": "done"
  },
  {
@@ -180,7 +180,7 @@
   "flag": 0,
   "speaker": 4,
   "jp": "ぞくせいは　バトルを　するときに\nおおきく　えいきょうしてきます{KP}\nくわしくは　また　つぎの　きかいに\nせつめいしますね",
-  "en": "Elements make a big difference in battle.{KP}\nI will explain them in more detail another\ntime.",
+  "en": "Elements make a big difference in battle.{KP}\nI will explain them in\nmore detail another time.",
   "status": "done"
  },
  {
@@ -188,7 +188,7 @@
   "flag": 0,
   "speaker": 4,
   "jp": "では　はなしを　もどします{KP}\nダイナの　ふやしかたは\nこれから　せつめいする　３とおり",
-  "en": "Now, back to the subject.{KP}\nThere are 3 ways to get more Dyna, which\nI will now explain.",
+  "en": "Now, back to the subject.{KP}\nThere are 3 ways to get more\nDyna, which I will now explain.",
   "status": "done"
  },
  {
@@ -196,7 +196,7 @@
   "flag": 0,
   "speaker": 4,
   "jp": "１つめは　このダイナパッドの\nアドレスちょうの　データを{KP}\nダイナセンターの　ガチャステに\nてんそうする　ほうほう",
-  "en": "The first way is to send address book data\nfrom this Dyna Pad{KP}\nto the Gachasute in the Dyna Center.",
+  "en": "The first way is to send address\nbook data from this Dyna Pad{KP}\nto the Gachasute in the Dyna Center.",
   "status": "done"
  },
  {
@@ -204,7 +204,7 @@
   "flag": 0,
   "speaker": 4,
   "jp": "このときに　ひつような　データは\nなまえと　たんじょうびの{KP}\n２つの　データが　かきこまれている\nアドレスデータです",
-  "en": "The data you need is an address entry{KP}\nwith two things filled in: a name and a\nbirthday.",
+  "en": "The data you need is an address entry{KP}\nwith two things filled in:\na name and a birthday.",
   "status": "done"
  },
  {
@@ -212,7 +212,7 @@
   "flag": 0,
   "speaker": 4,
   "jp": "ちなみに　おなじアドレスから　なんたいでも\nダイナを　うみだすことが　できます{KP}\nただし　おなじアドレスからは\nおなじスタイルの　ダイナしか　うまれません",
-  "en": "By the way, you can create as many Dyna\nas you like from the same address.{KP}\nHowever, the same address will only ever\ngive Dyna of the same style.",
+  "en": "By the way, you can create as many\nDyna as you like from the same address.{KP}\nHowever, the same address will only\never give Dyna of the same style.",
   "status": "done"
  },
  {
@@ -228,7 +228,7 @@
   "flag": 0,
   "speaker": 4,
   "jp": "そこから　アドレスを　えらんで\nデータを　にゅうりょくしてください",
-  "en": "From there, choose Address and enter your\ndata.",
+  "en": "From there, choose Address\nand enter your data.",
   "status": "done"
  },
  {
@@ -236,7 +236,7 @@
   "flag": 0,
   "speaker": 4,
   "jp": "１ども　ダイナを\nよびだしたことのない　データは{KP}\nきいろい　もじで　ひょうじされて\nいますので　おぼえておいてください",
-  "en": "Please remember that data which has never\nbeen used to call up a Dyna{KP}\nis shown in yellow letters.",
+  "en": "Please remember that data which has\nnever been used to call up a Dyna{KP}\nis shown in yellow letters.",
   "status": "done"
  },
  {
@@ -244,7 +244,7 @@
   "flag": 0,
   "speaker": 4,
   "jp": "２つめは　おともだちから　アドレスデータを\nめいしこうかんで　もらうほうほう{KP}\nおともだちから　つうしんメニューの\nめいしこうかんで　データを　うけとると",
-  "en": "The second way is to receive address data\nfrom friends by trading cards.{KP}\nWhen you receive data from a friend\nthrough Card Trade in the Link menu,",
+  "en": "The second way is to receive address\ndata from friends by trading cards.{KP}\nWhen you receive data from a friend\nthrough Card Trade in the Link menu,",
   "status": "done"
  },
  {
@@ -260,7 +260,7 @@
   "flag": 0,
   "speaker": 4,
   "jp": "はい　めいしの　こうかんを\nかんりょうしました",
-  "en": "There we are! The card trade is\ncomplete.",
+  "en": "There we are! The\ncard trade is complete.",
   "status": "done"
  },
  {
@@ -268,7 +268,7 @@
   "flag": 0,
   "speaker": 4,
   "jp": "そして　いま　わたしの　めいしが\nおくられたのと　どうじに{KP}\nこのダイナセンターに　ダイナ\n{%sR5}が　おくられました",
-  "en": "And at the same moment my card was\nsent,{KP}\nthe Dyna {%sR5} was sent to this\nDyna Center.",
+  "en": "And at the same moment\nmy card was sent,{KP}\nthe Dyna {%sR5} was\nsent to this Dyna Center.",
   "status": "done"
  },
  {
@@ -276,7 +276,7 @@
   "flag": 0,
   "speaker": 4,
   "jp": "つまり　わたしの　データから　うまれた\nダイナと　いうわけですね",
-  "en": "In other words, it is a Dyna born from my\ndata.",
+  "en": "In other words, it is a\nDyna born from my data.",
   "status": "done"
  },
  {
@@ -284,7 +284,7 @@
   "flag": 0,
   "speaker": 4,
   "jp": "めいしこうかんや　つうしんこうかんで\nもらった　ダイナは{KP}\nほかの　うまれかたの　ダイナよりも\nすこし　つよく　そだつように　なっていて",
-  "en": "Dyna you receive through card trades or\nlink trades{KP}\ngrow up a little stronger than Dyna born in\nother ways,",
+  "en": "Dyna you receive through\ncard trades or link trades{KP}\ngrow up a little stronger than\nDyna born in other ways,",
   "status": "done"
  },
  {
@@ -292,7 +292,7 @@
   "flag": 0,
   "speaker": 4,
   "jp": "なまえの　ひょうじも　みずいろに　なります{KP}\nまた　めいしこうかんで　もらう　ダイナには\nとくべつに　デバイスが　１つ　ついてきます",
-  "en": "and their names are shown in light blue.{KP}\nAlso, a Dyna received in a card trade\ncomes with one bonus Device.",
+  "en": "and their names are shown in light blue.{KP}\nAlso, a Dyna received in a card\ntrade comes with one bonus Device.",
   "status": "done"
  },
  {
@@ -300,7 +300,7 @@
   "flag": 0,
   "speaker": 4,
   "jp": "いまの　めいしこうかんは　れんしゅうなので\nデバイスは　ついていませんが{KP}\nつうじょう　じぶんと　おなじバージョンとの\nめいしこうかんでは　アーマーデバイス",
-  "en": "This card trade was just practice, so there\nis no Device this time.{KP}\nNormally, a card trade with the same\nversion gives an Armor Device,",
+  "en": "This card trade was just practice,\nso there is no Device this time.{KP}\nNormally, a card trade with the\nsame version gives an Armor Device,",
   "status": "done"
  },
  {
@@ -308,7 +308,7 @@
   "flag": 0,
   "speaker": 4,
   "jp": "ちがうバージョンとの　めいしこうかんでは\nウェポンデバイスが　ついてきますので{KP}\nぜひ　いろいろな　おともだちと\nめいしこうかんしてみてくださいね",
-  "en": "and a card trade with a different version\ngives a Weapon Device.{KP}\nSo please do trade cards with lots of\ndifferent friends!",
+  "en": "and a card trade with a different\nversion gives a Weapon Device.{KP}\nSo please do trade cards\nwith lots of different friends!",
   "status": "done"
  },
  {
@@ -316,7 +316,7 @@
   "flag": 0,
   "speaker": 4,
   "jp": "ちなみに　アーマーとは　ぼうぐ\nウェポンとは　ぶきのことです{KP}\nそれと　このダイナは　さしあげますが",
-  "en": "By the way, \"armor\" means protective\ngear, and \"weapon\" means, well,{KP}\nweapons.{KP}\nAlso, you may keep this Dyna, but...",
+  "en": "By the way, \"armor\" means\nprotective gear, and \"weapon\"{KP}\nmeans, well, weapons.{KP}\nAlso, you may keep this Dyna, but...",
   "status": "done"
  },
  {
@@ -324,7 +324,7 @@
   "flag": 0,
   "speaker": 4,
   "jp": "わたしの　おくった　アドレスデータのほうは\nさくじょさせて　いただきますね{KP}\nいちおう　そういう　きまりに\nなっておりますので　ごりょうしょうください",
-  "en": "the address data I sent you will be\ndeleted.{KP}\nThose are the rules, I'm afraid, so I hope\nyou understand.",
+  "en": "the address data I sent\nyou will be deleted.{KP}\nThose are the rules, I'm afraid,\nso I hope you understand.",
   "status": "done"
  },
  {
@@ -332,7 +332,7 @@
   "flag": 0,
   "speaker": 4,
   "jp": "あたらしく　ふえた　ダイナや\nシティで　ちからつきたダイナは{KP}\nこの　ダイナセンターで　あずかっています",
-  "en": "Newly added Dyna, and Dyna that collapse\nin the city,{KP}\nare looked after here at the Dyna\nCenter.",
+  "en": "Newly added Dyna, and Dyna\nthat collapse in the city,{KP}\nare looked after here\nat the Dyna Center.",
   "status": "done"
  },
  {
@@ -340,7 +340,7 @@
   "flag": 0,
   "speaker": 4,
   "jp": "しかし　ここは　ダイナにとって\nあまり　いいかんきょうでは　ありません",
-  "en": "However, this is not a very nice place for\nDyna to be.",
+  "en": "However, this is not a very\nnice place for Dyna to be.",
   "status": "done"
  },
  {
@@ -348,7 +348,7 @@
   "flag": 0,
   "speaker": 4,
   "jp": "ですから　ここにいる　ダイナは\nできるだけ　はやく　つれだしてあげてください",
-  "en": "So please take the Dyna here out as soon\nas you can.",
+  "en": "So please take the Dyna\nhere out as soon as you can.",
   "status": "done"
  },
  {
@@ -356,7 +356,7 @@
   "flag": 0,
   "speaker": 4,
   "jp": "つれだしかたは　わたしに　はなしかけて\nダイナリストを　ひょうじしてから",
-  "en": "To take one out, talk to me and bring up\nthe Dyna List,",
+  "en": "To take one out, talk to me\nand bring up the Dyna List,",
   "status": "done"
  },
  {
@@ -364,7 +364,7 @@
   "flag": 0,
   "speaker": 4,
   "jp": "つれだしたい　ダイナを　えらんで\nつれていくを　えらんでください",
-  "en": "choose the Dyna you want to take out,\nthen choose Take.",
+  "en": "choose the Dyna you want to\ntake out, then choose Take.",
   "status": "done"
  },
  {
@@ -372,7 +372,7 @@
   "flag": 0,
   "speaker": 4,
   "jp": "では　わたしが　おくった　ダイナを\nつれだしてみてください",
-  "en": "Now, try taking out the Dyna I sent\nyou.",
+  "en": "Now, try taking out\nthe Dyna I sent you.",
   "status": "done"
  },
  {
@@ -388,7 +388,7 @@
   "flag": 0,
   "speaker": 4,
   "jp": "え？　ダイナを　ふやす\n３つめの　ほうほう　ですか？",
-  "en": "Pardon? The third way to get more\nDyna?",
+  "en": "Pardon? The third way\nto get more Dyna?",
   "status": "done"
  },
  {
@@ -396,7 +396,7 @@
   "flag": 0,
   "speaker": 4,
   "jp": "それは　じぶんで　さがしてみてください\nあ　でも　１つだけ　ヒントを　さしあげます",
-  "en": "That one you will have to find for\nyourself. Ah, but I will give you just one{KP}\nhint.",
+  "en": "That one you will have to\nfind for yourself. Ah, but I{KP}\nwill give you just one hint.",
   "status": "done"
  },
  {
@@ -404,7 +404,7 @@
   "flag": 0,
   "speaker": 4,
   "jp": "ダイナは　データからだけではなく\nダイナからも　うまれる・・・",
-  "en": "Dyna are born not only from data... but\nfrom Dyna, too...",
+  "en": "Dyna are born not only from\ndata... but from Dyna, too...",
   "status": "done"
  },
  {
@@ -412,7 +412,7 @@
   "flag": 0,
   "speaker": 4,
   "jp": "これが　３つめの　ほうほうの　ヒントです{KP}\nまぁ　ダイナシティを　つくっていくうちに\nきっと　きがつくと　おもいますよ",
-  "en": "That is your hint for the third way.{KP}\nWell, I am sure you will notice it as you\nbuild your Dyna City.",
+  "en": "That is your hint for the third way.{KP}\nWell, I am sure you will notice\nit as you build your Dyna City.",
   "status": "done"
  },
  {
@@ -420,7 +420,7 @@
   "flag": 0,
   "speaker": 4,
   "jp": "・・・さて　つぎは　ダイナシティの\nつくりかたに　ついての　せつめいですね{KP}\nでは　とりあえず　そとに　でてみましょう",
-  "en": "...Now, next I will explain how to build your\nDyna City.{KP}\nFor now, let's step outside.",
+  "en": "...Now, next I will explain\nhow to build your Dyna City.{KP}\nFor now, let's step outside.",
   "status": "done"
  },
  {
@@ -428,7 +428,7 @@
   "flag": 0,
   "speaker": 4,
   "jp": "これが　あなたが　これから　ダイナシティを\nつくっていく　とちです",
-  "en": "This is the land where you will be building\nyour Dyna City.",
+  "en": "This is the land where you\nwill be building your Dyna City.",
   "status": "done"
  },
  {
@@ -436,7 +436,7 @@
   "flag": 0,
   "speaker": 4,
   "jp": "となりに　いえが　たっていますよね？{KP}\nあれが　あなたと　{%sR5}の\nいえに　なります",
-  "en": "There is a house standing right next door,\nisn't there?{KP}\nThat will be the house for you and\n{%sR5}.",
+  "en": "There is a house standing\nright next door, isn't there?{KP}\nThat will be the house for\nyou and {%sR5}.",
   "status": "done"
  },
  {
@@ -444,7 +444,7 @@
   "flag": 0,
   "speaker": 4,
   "jp": "いえのなかは　あとで　みてもらうとして\nまず　いえの　たてかたを　せつめいしますね{KP}\nまわりを　みて　わかると　おもいますが",
-  "en": "You can look inside the house later. First,\nlet me explain how to build houses.{KP}\nIf you look around, I think you can\nsee...",
+  "en": "You can look inside the house later.\nFirst, let me explain how to build houses.{KP}\nIf you look around,\nI think you can see...",
   "status": "done"
  },
  {
@@ -452,7 +452,7 @@
   "flag": 0,
   "speaker": 4,
   "jp": "このとちには　まっすぐな　どうろが\nたてと　よこに　たくさん　とおっています{KP}\nこの　どうろに　かこまれた\nしかくいばしょを　セクタと　いいます",
-  "en": "...that this land is crossed by lots of\nstraight roads, up and down and side to{KP}\nside.{KP}\nEach square space surrounded by these\nroads is called a sector.",
+  "en": "...that this land is crossed\nby lots of straight roads, up{KP}\nand down and side to side.{KP}\nEach square space surrounded\nby these roads is called a sector.",
   "status": "done"
  },
  {
@@ -460,7 +460,7 @@
   "flag": 0,
   "speaker": 4,
   "jp": "あなたは　このセクタのなかに\nいえを　たてたり　あなを　ほったりして{KP}\nじぶんなりの　ダイナシティを\nつくっていくことになります",
-  "en": "You will build houses, dig holes, and so on\ninside these sectors{KP}\nto make a Dyna City all your own.",
+  "en": "You will build houses, dig holes,\nand so on inside these sectors{KP}\nto make a Dyna City all your own.",
   "status": "done"
  },
  {
@@ -468,7 +468,7 @@
   "flag": 0,
   "speaker": 4,
   "jp": "では　ためしに　いえを　たててみましょう{KP}\nすぐ　そこの　セクタに　むかって\nＡボタンを　おしてみてください",
-  "en": "Let's try building a house.{KP}\nPlease face the sector right over there\nand press the A Button.",
+  "en": "Let's try building a house.{KP}\nPlease face the sector right over\nthere and press the A Button.",
   "status": "done"
  },
  {
@@ -484,7 +484,7 @@
   "flag": 0,
   "speaker": 4,
   "jp": "このように　たてたばかりの　いえは\nだれも　すんでいない　じょうたいです",
-  "en": "As you can see, a newly built house has no\none living in it.",
+  "en": "As you can see, a newly built\nhouse has no one living in it.",
   "status": "done"
  },
  {
@@ -492,7 +492,7 @@
   "flag": 0,
   "speaker": 4,
   "jp": "それでは　このいえに　ダイナを\nすまわせてみましょう",
-  "en": "Now, let's have a Dyna move into this\nhouse.",
+  "en": "Now, let's have a Dyna\nmove into this house.",
   "status": "done"
  },
  {
@@ -500,7 +500,7 @@
   "flag": 0,
   "speaker": 4,
   "jp": "いえのなかで　Ａボタンを\nおしてみてください",
-  "en": "Please press the A Button inside the\nhouse.",
+  "en": "Please press the A\nButton inside the house.",
   "status": "done"
  },
  {
@@ -508,7 +508,7 @@
   "flag": 0,
   "speaker": 4,
   "jp": "いま　つれている　２たいの\nダイナのうち",
-  "en": "Of the 2 Dyna you have with you right\nnow,",
+  "en": "Of the 2 Dyna you have\nwith you right now,",
   "status": "done"
  },
  {
@@ -524,7 +524,7 @@
   "flag": 0,
   "speaker": 4,
   "jp": "{%sR5}に\nすんでもらうことにします",
-  "en": "so we will have {%sR5} live\nhere.",
+  "en": "so we will have\n{%sR5} live here.",
   "status": "done"
  },
  {
@@ -532,7 +532,7 @@
   "flag": 0,
   "speaker": 4,
   "jp": "それでは{%sR5}を　えらんで\nＡボタンを　おしてください",
-  "en": "Now, please choose {%sR5} and\npress the A Button.",
+  "en": "Now, please choose {%sR5}\nand press the A Button.",
   "status": "done"
  },
  {
@@ -540,7 +540,7 @@
   "flag": 0,
   "speaker": 4,
   "jp": "これで　このいえは\n{%sR5}の　いえに　なりました{KP}\n・・・で　せっかく　つくった\nいえなのですが・・・",
-  "en": "And now this house belongs to\n{%sR5}.{KP}\n...Having gone to the trouble of building it,\nthough...",
+  "en": "And now this house\nbelongs to {%sR5}.{KP}\n...Having gone to the trouble\nof building it, though...",
   "status": "done"
  },
  {
@@ -548,7 +548,7 @@
   "flag": 0,
   "speaker": 4,
   "jp": "れんしゅうなので　こわしてしまいましょう{KP}\nいえを　こわすには　すんでいる\nダイナを{KP}\nそとに　つれださなければなりません",
-  "en": "this was just practice, so let's knock it\ndown.{KP}\nTo knock down a house, you must first\ntake the Dyna living there outside.",
+  "en": "this was just practice,\nso let's knock it down.{KP}\nTo knock down a house, you must first\ntake the Dyna living there outside.",
   "status": "done"
  },
  {
@@ -580,7 +580,7 @@
   "flag": 0,
   "speaker": 4,
   "jp": "これで　すっかり　もとどおりですね{KP}\nだいたい　このようなかんじで　シティの\nかたちを　つくっていくことになります",
-  "en": "And everything is back the way it was.{KP}\nThis is roughly how you will shape your\ncity.",
+  "en": "And everything is back the way it was.{KP}\nThis is roughly how you\nwill shape your city.",
   "status": "done"
  },
  {
@@ -588,7 +588,7 @@
   "flag": 0,
   "speaker": 4,
   "jp": "さいしょのうちは　おもいつくままに\nやってみて",
-  "en": "At first, just try whatever comes to\nmind,",
+  "en": "At first, just try\nwhatever comes to mind,",
   "status": "done"
  },
  {
@@ -596,7 +596,7 @@
   "flag": 0,
   "speaker": 4,
   "jp": "もんだいが　はっせいしたら\nたいしょしていくといいでしょう{KP}\nそとに　いるときに　Ｒボタンを　おすと\nシティぜんたいの　マップが　でますので",
-  "en": "and deal with problems as they come up.{KP}\nIf you press the R Button while you are\noutside, a map of the whole city{KP}\nappears,",
+  "en": "and deal with problems as they come up.{KP}\nIf you press the R Button\nwhile you are outside, a map{KP}\nof the whole city appears,",
   "status": "done"
  },
  {
@@ -604,7 +604,7 @@
   "flag": 0,
   "speaker": 4,
   "jp": "もんだいが　はっせいしている　ばしょを\nさがしたりするのに　やくだててください",
-  "en": "so please use it to find the places where\nproblems have come up.",
+  "en": "so please use it to find the places\nwhere problems have come up.",
   "status": "done"
  },
  {
@@ -612,7 +612,7 @@
   "flag": 0,
   "speaker": 4,
   "jp": "それと　てはじめに　これを\nおわたししておきます",
-  "en": "Also, to get you started, I will give you\nthis.",
+  "en": "Also, to get you started,\nI will give you this.",
   "status": "done"
  },
  {
@@ -628,7 +628,7 @@
   "flag": 0,
   "speaker": 4,
   "jp": "これは　アイテムショップを　たてるために\nひつような　アイテム　ショップキットです{KP}\nこの　ショップキットを　もっていれば",
-  "en": "This is a Shop Kit, the item you need to\nbuild an item shop.{KP}\nAs long as you have this Shop Kit,",
+  "en": "This is a Shop Kit, the item\nyou need to build an item shop.{KP}\nAs long as you have this Shop Kit,",
   "status": "done"
  },
  {
@@ -636,7 +636,7 @@
   "flag": 0,
   "speaker": 4,
   "jp": "しせつを　たてるときの　リストで\nショップが　えらべるようになります{KP}\nショップには　デバイスそざいのみせ\nエサのみせ　クスリのみせと",
-  "en": "you can choose Shop from the list when\nbuilding a facility.{KP}\nThere are 4 kinds of shop: a Device parts\nshop, a food shop, a medicine shop,",
+  "en": "you can choose Shop from the\nlist when building a facility.{KP}\nThere are 4 kinds of shop: a Device parts\nshop, a food shop, a medicine shop,",
   "status": "done"
  },
  {
@@ -644,7 +644,7 @@
   "flag": 0,
   "speaker": 4,
   "jp": "なんでもやの　４つの　しゅるいが　あって\nたてるまで　どれに　なるかは　わかりません{KP}\nさいしょは　つれている　ダイナが\nおなかを　すかせたときに",
-  "en": "and a general store, and you will not know\nwhich one you get until it is built.{KP}\nAt first, so you can buy food when your\nDyna get hungry,",
+  "en": "and a general store, and you will not\nknow which one you get until it is built.{KP}\nAt first, so you can buy food\nwhen your Dyna get hungry,",
   "status": "done"
  },
  {
@@ -652,7 +652,7 @@
   "flag": 0,
   "speaker": 4,
   "jp": "エサが　かえるように　エサのみせか\nなんでもやを　たてると　いいでしょう{KP}\nねらっていないショップに\nなってしまったばあいは",
-  "en": "it is a good idea to build a food shop or a\ngeneral store.{KP}\nIf you end up with a shop you did not\nwant,",
+  "en": "it is a good idea to build a\nfood shop or a general store.{KP}\nIf you end up with a\nshop you did not want,",
   "status": "done"
  },
  {
@@ -660,7 +660,7 @@
   "flag": 0,
   "speaker": 4,
   "jp": "なんどでも　こわして\nたてなおしてみてください{KP}\nそれと　この　ショップキットは　ショップを\nたてると　なくなってしまいますが",
-  "en": "just knock it down and build it again as\nmany times as you like.{KP}\nAlso, the Shop Kit is used up when you\nbuild a shop, but",
+  "en": "just knock it down and build it\nagain as many times as you like.{KP}\nAlso, the Shop Kit is used up\nwhen you build a shop, but",
   "status": "done"
  },
  {
@@ -668,7 +668,7 @@
   "flag": 0,
   "speaker": 4,
   "jp": "ショップを　こわしたときに\nかいしゅうすることが　できます",
-  "en": "you get it back when you knock the shop\ndown.",
+  "en": "you get it back when you\nknock the shop down.",
   "status": "done"
  },
  {
@@ -676,7 +676,7 @@
   "flag": 0,
   "speaker": 4,
   "jp": "つまり　１この　ショップキットからは\n１けんの　ショップしか　たてられませんが",
-  "en": "In other words, one Shop Kit can only build\none shop at a time, but",
+  "en": "In other words, one Shop Kit can\nonly build one shop at a time, but",
   "status": "done"
  },
  {
@@ -692,7 +692,7 @@
   "flag": 0,
   "speaker": 4,
   "jp": "どうじに　いくつもの　ショップを\nたてられるようになる　と　いうわけです",
-  "en": "you will be able to have several shops at\nonce.",
+  "en": "you will be able to have\nseveral shops at once.",
   "status": "done"
  },
  {
@@ -700,7 +700,7 @@
   "flag": 0,
   "speaker": 4,
   "jp": "しせつを　たてるための　キットには\nほかにも　しゅるいが　いくつか　ありますが{KP}\nみんな　おなじように　１この　キットで\n１けんの　しせつが　たてられて",
-  "en": "There are a few other kinds of kits for\nbuilding facilities.{KP}\nThey all work the same way: one kit builds\none facility,",
+  "en": "There are a few other kinds\nof kits for building facilities.{KP}\nThey all work the same way:\none kit builds one facility,",
   "status": "done"
  },
  {
@@ -708,7 +708,7 @@
   "flag": 0,
   "speaker": 4,
   "jp": "こわすと　かいしゅうできるように\nなっていて　なくなるということが　ないので{KP}\nなんどでも　つくりなおして　りそうの\nシティを　つくっていってください",
-  "en": "and you get the kit back when you knock\nthe facility down, so it is never lost.{KP}\nPlease rebuild as often as you like to make\nyour ideal city.",
+  "en": "and you get the kit back when you knock\nthe facility down, so it is never lost.{KP}\nPlease rebuild as often as you\nlike to make your ideal city.",
   "status": "done"
  },
  {
@@ -716,7 +716,7 @@
   "flag": 0,
   "speaker": 4,
   "jp": "ダイナの　いえである　ハウスは　キットが\nなくても　たてることが　できますから{KP}\nひつようなときには　どんどん\nたててくださいね",
-  "en": "Houses, where Dyna live, can be built\nwithout any kit,{KP}\nso please build as many as you need.",
+  "en": "Houses, where Dyna live,\ncan be built without any kit,{KP}\nso please build as many as you need.",
   "status": "done"
  },
  {
@@ -724,7 +724,7 @@
   "flag": 0,
   "speaker": 4,
   "jp": "それと　もうひとつ　シティの　なかを\nあちこち　いどうするときに{KP}\nべんりな　ダイナについて\nせつめいしておきます",
-  "en": "There is one more thing. Let me tell you\nabout Dyna that are handy{KP}\nfor getting around the city.",
+  "en": "There is one more thing. Let me\ntell you about Dyna that are handy{KP}\nfor getting around the city.",
   "status": "done"
  },
  {
@@ -732,7 +732,7 @@
   "flag": 0,
   "speaker": 4,
   "jp": "ダイナの　なかには\nそとに　でているときに　Ｌボタンを　おすと{KP}\nせなかに　のって　いどうすることができる\nタイプが　３タイプ　そんざいします",
-  "en": "Among the Dyna, there are 3 types that,\nwhen you press the L Button outside,{KP}\nwill let you ride on their backs to get\naround.",
+  "en": "Among the Dyna, there are 3 types that,\nwhen you press the L Button outside,{KP}\nwill let you ride on their\nbacks to get around.",
   "status": "done"
  },
  {
@@ -740,7 +740,7 @@
   "flag": 0,
   "speaker": 4,
   "jp": "４ほんあしの　テトロトップタイプは\nふつうよりも　はやい　いどう{KP}\nみずの　いきもの　シェルブックタイプは\nみずのうえの　いどう",
-  "en": "The four-legged Tetrotop type moves\nfaster than normal.{KP}\nThe Shellbook type, a water creature, can\ntravel over water.",
+  "en": "The four-legged Tetrotop type\nmoves faster than normal.{KP}\nThe Shellbook type, a water\ncreature, can travel over water.",
   "status": "done"
  },
  {
@@ -748,7 +748,7 @@
   "flag": 0,
   "speaker": 4,
   "jp": "そらをとぶ　バーディスタイプは\nたてものも　いわやまも　こえての　いどう{KP}\nもし　これらの　ダイナが　なかまに\nいたら　ぜひ　いちど　のってみてください",
-  "en": "The flying Birdis type can travel over\nbuildings and even rocky mountains.{KP}\nIf you have any of these Dyna on your\nteam, please do try riding one.",
+  "en": "The flying Birdis type can travel over\nbuildings and even rocky mountains.{KP}\nIf you have any of these Dyna on\nyour team, please do try riding one.",
   "status": "done"
  },
  {
@@ -756,7 +756,7 @@
   "flag": 0,
   "speaker": 4,
   "jp": "それでは　わたしは　このへんで\nダイナセンターに　もどります{KP}\nじかんが　ありましたら　ぜひ\nＢボタンで　でる　メニューの",
-  "en": "Well, I will head back to the Dyna Center\nnow.{KP}\nIf you have time, please press the B\nButton to open the menu",
+  "en": "Well, I will head back to\nthe Dyna Center now.{KP}\nIf you have time, please press\nthe B Button to open the menu",
   "status": "done"
  },
  {
@@ -764,7 +764,7 @@
   "flag": 0,
   "speaker": 4,
   "jp": "データベースの　なかに　ある\nキーワードを　よんでみてください{KP}\nきっと　このさき　しっておくと\nやくにたつと　おもいますよ",
-  "en": "and read the Keywords in the Database.{KP}\nI am sure they will come in handy later\non.",
+  "en": "and read the Keywords in the Database.{KP}\nI am sure they will\ncome in handy later on.",
   "status": "done"
  },
  {
@@ -772,7 +772,7 @@
   "flag": 0,
   "speaker": 4,
   "jp": "あ！　そうそう　ダイナセンターでは\nアイテムの　オークションも　やってますので{KP}\nおかねに　よゆうが　でてきましたら\nぜひぜひ　ごりようください",
-  "en": "Oh! That reminds me, the Dyna Center also\nholds item auctions,{KP}\nso once you have some money to spare,\nplease do take part!",
+  "en": "Oh! That reminds me, the Dyna\nCenter also holds item auctions,{KP}\nso once you have some money\nto spare, please do take part!",
   "status": "done"
  },
  {
@@ -780,7 +780,7 @@
   "flag": 0,
   "speaker": 4,
   "jp": "では　がんばって　いいダイナシティを\nつくってくださいね",
-  "en": "Now, good luck building a wonderful Dyna\nCity!",
+  "en": "Now, good luck building\na wonderful Dyna City!",
   "status": "done"
  },
  {
@@ -788,7 +788,7 @@
   "flag": 0,
   "speaker": 4,
   "jp": "ガチャステの　まえで\nＡボタンを　おしてください",
-  "en": "Please press the A Button in front of the\nGachasute.",
+  "en": "Please press the A Button\nin front of the Gachasute.",
   "status": "done"
  },
  {
@@ -796,7 +796,7 @@
   "flag": 0,
   "speaker": 4,
   "jp": "ガチャステは　このへやの\nみぎがわに　ある　マシンです",
-  "en": "The Gachasute is the machine on the right\nside of this room.",
+  "en": "The Gachasute is the machine\non the right side of this room.",
   "status": "done"
  },
  {
@@ -804,7 +804,7 @@
   "flag": 0,
   "speaker": 4,
   "jp": "ガチャステの　まえに　たって\nＡボタンを　おすと",
-  "en": "When you stand in front of the Gachasute\nand press the A Button,",
+  "en": "When you stand in front of the\nGachasute and press the A Button,",
   "status": "done"
  },
  {
@@ -812,7 +812,7 @@
   "flag": 0,
   "speaker": 4,
   "jp": "げんざい　アドレスちょうに　はいっている\nデータの　リストが　でます",
-  "en": "a list of the data now in your address\nbook appears.",
+  "en": "a list of the data now in\nyour address book appears.",
   "status": "done"
  },
  {
@@ -820,7 +820,7 @@
   "flag": 0,
   "speaker": 4,
   "jp": "それでは　あなたの　データを　えらんで\nＡボタンを　おしてください",
-  "en": "Now, please choose your own data and\npress the A Button.",
+  "en": "Now, please choose your own\ndata and press the A Button.",
   "status": "done"
  },
  {
@@ -828,7 +828,7 @@
   "flag": 0,
   "speaker": 4,
   "jp": "ガチャステの　まえで\nＡボタンを　おしてください",
-  "en": "Please press the A Button in front of the\nGachasute.",
+  "en": "Please press the A Button\nin front of the Gachasute.",
   "status": "done"
  },
  {
@@ -836,7 +836,7 @@
   "flag": 0,
   "speaker": 4,
   "jp": "ガチャステは　このへやの\nみぎがわに　ある　マシンです",
-  "en": "The Gachasute is the machine on the right\nside of this room.",
+  "en": "The Gachasute is the machine\non the right side of this room.",
   "status": "done"
  },
  {
@@ -844,7 +844,7 @@
   "flag": 0,
   "speaker": 4,
   "jp": "ガチャステの　まえに　たって\nＡボタンを　おすと",
-  "en": "When you stand in front of the Gachasute\nand press the A Button,",
+  "en": "When you stand in front of the\nGachasute and press the A Button,",
   "status": "done"
  },
  {
@@ -852,7 +852,7 @@
   "flag": 0,
   "speaker": 4,
   "jp": "げんざい　アドレスちょうに　はいっている\nデータの　リストが　でます",
-  "en": "a list of the data now in your address\nbook appears.",
+  "en": "a list of the data now in\nyour address book appears.",
   "status": "done"
  },
  {
@@ -860,7 +860,7 @@
   "flag": 0,
   "speaker": 4,
   "jp": "それでは　あなたの　データを　えらんで\nＡボタンを　おしてください",
-  "en": "Now, please choose your own data and\npress the A Button.",
+  "en": "Now, please choose your own\ndata and press the A Button.",
   "status": "done"
  },
  {
@@ -900,7 +900,7 @@
   "flag": 0,
   "speaker": 4,
   "jp": "すぐ　そこの　セクタに　むかって\nＡボタンを　おしてみてください{KP}\nそうすると　セクタを　かきかえるための\nメニューが　ひょうじされます",
-  "en": "Please face the sector right over there\nand press the A Button.{KP}\nA menu for changing the sector will\nappear.",
+  "en": "Please face the sector right over\nthere and press the A Button.{KP}\nA menu for changing\nthe sector will appear.",
   "status": "done"
  },
  {
@@ -908,7 +908,7 @@
   "flag": 0,
   "speaker": 4,
   "jp": "これが　げんざい　この　セクタに\nたいして　あなたが　できることです",
-  "en": "These are the things you can do with this\nsector right now.",
+  "en": "These are the things you can\ndo with this sector right now.",
   "status": "done"
  },
  {
@@ -916,7 +916,7 @@
   "flag": 0,
   "speaker": 4,
   "jp": "みぎがわの　すうじは　ひつような　ビット\nここでの　おかねのような　ものです",
-  "en": "The numbers on the right are the bits\nneeded. Bits are like money here.",
+  "en": "The numbers on the right are the\nbits needed. Bits are like money here.",
   "status": "done"
  },
  {
@@ -924,7 +924,7 @@
   "flag": 0,
   "speaker": 4,
   "jp": "こんかいは　れんしゅうですから\nビットが　なくても　できますので",
-  "en": "This time is just practice, so you can do it\nwithout any bits.",
+  "en": "This time is just practice, so\nyou can do it without any bits.",
   "status": "done"
  },
  {
@@ -932,7 +932,7 @@
   "flag": 0,
   "speaker": 4,
   "jp": "まず　せいちするを　えらんで　セクタを\nグラウンドに　してください",
-  "en": "First, choose Level to turn the sector into\nGround.",
+  "en": "First, choose Level to turn\nthe sector into Ground.",
   "status": "done"
  },
  {
@@ -940,7 +940,7 @@
   "flag": 0,
   "speaker": 4,
   "jp": "まず　せいちするを　えらんで　セクタを\nグラウンドに　してください{KP}\nそうしなければ　しせつを\nたてることが　できません",
-  "en": "First, choose Level to turn the sector into\nGround.{KP}\nOtherwise, you cannot build any facilities.",
+  "en": "First, choose Level to turn\nthe sector into Ground.{KP}\nOtherwise, you cannot build any facilities.",
   "status": "done"
  },
  {
@@ -948,7 +948,7 @@
   "flag": 0,
   "speaker": 4,
   "jp": "これが　げんざい　この　セクタに\nたいして　あなたが　できることです",
-  "en": "These are the things you can do with this\nsector right now.",
+  "en": "These are the things you can\ndo with this sector right now.",
   "status": "done"
  },
  {
@@ -956,7 +956,7 @@
   "flag": 0,
   "speaker": 4,
   "jp": "みぎがわの　すうじは　ひつような　ビット\nここでの　おかねのような　ものです",
-  "en": "The numbers on the right are the bits\nneeded. Bits are like money here.",
+  "en": "The numbers on the right are the\nbits needed. Bits are like money here.",
   "status": "done"
  },
  {
@@ -964,7 +964,7 @@
   "flag": 0,
   "speaker": 4,
   "jp": "こんかいは　れんしゅうですから\nビットが　なくても　できますので",
-  "en": "This time is just practice, so you can do it\nwithout any bits.",
+  "en": "This time is just practice, so\nyou can do it without any bits.",
   "status": "done"
  },
  {
@@ -972,7 +972,7 @@
   "flag": 0,
   "speaker": 4,
   "jp": "まず　せいちするを　えらんで　セクタを\nグラウンドに　してください",
-  "en": "First, choose Level to turn the sector into\nGround.",
+  "en": "First, choose Level to turn\nthe sector into Ground.",
   "status": "done"
  },
  {
@@ -988,7 +988,7 @@
   "flag": 0,
   "speaker": 4,
   "jp": "たてることができる　しせつが\nひょうじされました{KP}\nでは　ハウスを　えらんでください",
-  "en": "The facilities you can build are now\nshown.{KP}\nPlease choose House.",
+  "en": "The facilities you can\nbuild are now shown.{KP}\nPlease choose House.",
   "status": "done"
  },
  {
@@ -996,7 +996,7 @@
   "flag": 0,
   "speaker": 4,
   "jp": "ここでは　ハウスを　えらんでください{KP}\nダイナが　くらす　いえを\nたてることができます",
-  "en": "Please choose House here.{KP}\nIt lets you build a home for Dyna to live\nin.",
+  "en": "Please choose House here.{KP}\nIt lets you build a home\nfor Dyna to live in.",
   "status": "done"
  },
  {
@@ -1004,7 +1004,7 @@
   "flag": 0,
   "speaker": 4,
   "jp": "いえのなかで\nＡボタンを　おしてみてください{KP}\nすんでもらう　ダイナを\nえらぶ　がめんに　うつります",
-  "en": "Please try pressing the A Button inside the\nhouse.{KP}\nIt takes you to the screen for choosing a\nDyna to live here.",
+  "en": "Please try pressing the A\nButton inside the house.{KP}\nIt takes you to the screen for\nchoosing a Dyna to live here.",
   "status": "done"
  },
  {
@@ -1012,7 +1012,7 @@
   "flag": 0,
   "speaker": 4,
   "jp": "いえのなかで\nＡボタンを　おしてみてください{KP}\nすんでもらう　ダイナを\nえらぶ　がめんに　うつります",
-  "en": "Please try pressing the A Button inside the\nhouse.{KP}\nIt takes you to the screen for choosing a\nDyna to live here.",
+  "en": "Please try pressing the A\nButton inside the house.{KP}\nIt takes you to the screen for\nchoosing a Dyna to live here.",
   "status": "done"
  },
  {
@@ -1020,7 +1020,7 @@
   "flag": 0,
   "speaker": 4,
   "jp": "{%sR5}を　えらんで\nＡボタンを　おしてください",
-  "en": "Please choose {%sR5} and press\nthe A Button.",
+  "en": "Please choose {%sR5}\nand press the A Button.",
   "status": "done"
  },
  {
@@ -1028,7 +1028,7 @@
   "flag": 0,
   "speaker": 4,
   "jp": "そうすると　{%sR5}が\nこのいえで　くらすようになります",
-  "en": "Then {%sR5} will live in this\nhouse.",
+  "en": "Then {%sR5}\nwill live in this house.",
   "status": "done"
  },
  {
@@ -1036,7 +1036,7 @@
   "flag": 0,
   "speaker": 4,
   "jp": "{%sR5}に\nはなしかけて　いえから　つれだしてください",
-  "en": "Please talk to {%sR5} and take it\nout of the house.",
+  "en": "Please talk to {%sR5}\nand take it out of the house.",
   "status": "done"
  },
  {
@@ -1052,7 +1052,7 @@
   "flag": 0,
   "speaker": 4,
   "jp": "{%sR5}に\nはなしかけて　いえから　つれだしてください",
-  "en": "Please talk to {%sR5} and take it\nout of the house.",
+  "en": "Please talk to {%sR5}\nand take it out of the house.",
   "status": "done"
  },
  {
@@ -1068,7 +1068,7 @@
   "flag": 0,
   "speaker": 4,
   "jp": "いえを　たてた　セクタにむかって\nＡボタンを　おしてみてください",
-  "en": "Please face the sector where you built the\nhouse and press the A Button.",
+  "en": "Please face the sector where you built\nthe house and press the A Button.",
   "status": "done"
  },
  {
@@ -1076,7 +1076,7 @@
   "flag": 0,
   "speaker": 4,
   "jp": "そうすると　セクタを　かきかえるための\nメニューが　ひょうじされます",
-  "en": "A menu for changing the sector will\nappear.",
+  "en": "A menu for changing\nthe sector will appear.",
   "status": "done"
  },
  {
@@ -1084,7 +1084,7 @@
   "flag": 0,
   "speaker": 4,
   "jp": "それでは　こわすを　えらんで\nＡボタンを　おしてください",
-  "en": "Now, please choose Demolish and press the\nA Button.",
+  "en": "Now, please choose Demolish\nand press the A Button.",
   "status": "done"
  },
  {
@@ -1092,7 +1092,7 @@
   "flag": 0,
   "speaker": 4,
   "jp": "こわすを　えらんで　このいえを\nこわしてしまってください",
-  "en": "Please choose Demolish and knock this\nhouse down.",
+  "en": "Please choose Demolish and\nknock this house down.",
   "status": "done"
  },
  {
@@ -1100,7 +1100,7 @@
   "flag": 0,
   "speaker": 4,
   "jp": "そうすると　このセクタの　タイプが\nダストに　かわります",
-  "en": "The sector's type will then change to\nDust.",
+  "en": "The sector's type will\nthen change to Dust.",
   "status": "done"
  },
  {
@@ -1116,7 +1116,7 @@
   "flag": 0,
   "speaker": 4,
   "jp": "こわしたあとの　セクタは　ごらんのように\nきたない　ダストに　なってしまいます",
-  "en": "As you can see, a sector turns into dirty\nDust after demolition.",
+  "en": "As you can see, a sector turns\ninto dirty Dust after demolition.",
   "status": "done"
  },
  {
@@ -1124,7 +1124,7 @@
   "flag": 0,
   "speaker": 4,
   "jp": "このままでは　まわりに　わるい\nえいきょうを　あたえるので{KP}\nきれいに　かたづけておきましょう",
-  "en": "Left like this, it has a bad effect on its\nsurroundings,{KP}\nso let's clean it up.",
+  "en": "Left like this, it has a bad\neffect on its surroundings,{KP}\nso let's clean it up.",
   "status": "done"
  },
  {
@@ -1140,7 +1140,7 @@
   "flag": 0,
   "speaker": 4,
   "jp": "そうすると　セクタを　かきかえるための\nメニューが　ひょうじされます",
-  "en": "A menu for changing the sector will\nappear.",
+  "en": "A menu for changing\nthe sector will appear.",
   "status": "done"
  },
  {
@@ -1148,7 +1148,7 @@
   "flag": 0,
   "speaker": 4,
   "jp": "それでは　かたづけるを　えらんで\nＡボタンを　おしてください",
-  "en": "Now, please choose Clean Up and press the\nA Button.",
+  "en": "Now, please choose Clean\nUp and press the A Button.",
   "status": "done"
  },
  {
@@ -1156,7 +1156,7 @@
   "flag": 0,
   "speaker": 4,
   "jp": "かたづけるを　えらんで　このセクタを\nかたづけてしまってください",
-  "en": "Please choose Clean Up to clear this\nsector.",
+  "en": "Please choose Clean\nUp to clear this sector.",
   "status": "done"
  },
  {
@@ -1164,7 +1164,7 @@
   "flag": 0,
   "speaker": 4,
   "jp": "そうすると　このセクタの　タイプが\nランドに　かわります",
-  "en": "The sector's type will then change to\nLand.",
+  "en": "The sector's type will\nthen change to Land.",
   "status": "done"
  },
  {
@@ -1172,7 +1172,7 @@
   "flag": 0,
   "speaker": 4,
   "jp": "ここでは　しせつをたてるを\nえらんでください{KP}\nそうすると　たてられる　しせつの\nリストが　ひょうじされます",
-  "en": "Please choose Build here.{KP}\nA list of the facilities you can build will\nappear.",
+  "en": "Please choose Build here.{KP}\nA list of the facilities\nyou can build will appear.",
   "status": "done"
  },
  {
@@ -1188,7 +1188,7 @@
   "flag": 0,
   "speaker": 1,
   "jp": "ダイナデバイス　プレイしてたら\nマスターの　リストに",
-  "en": "I was playing Dyna Device, and in the list\nof Masters",
+  "en": "I was playing Dyna Device,\nand in the list of Masters",
   "status": "done"
  },
  {
@@ -1196,7 +1196,7 @@
   "flag": 0,
   "speaker": 1,
   "jp": "{%sR4}って　あったから\nちょっと　のぞきにきてみたのよ",
-  "en": "I saw \"{%sR4},\" so I came by to\ntake a peek.",
+  "en": "I saw \"{%sR4},\" so\nI came by to take a peek.",
   "status": "done"
  },
  {
@@ -1204,7 +1204,7 @@
   "flag": 0,
   "speaker": 1,
   "jp": "{%sR4}くんも\nダイナデバイスを",
-  "en": "If you started playing Dyna Device too,\n{%sR4}-kun,",
+  "en": "If you started playing Dyna\nDevice too, {%sR4}-kun,",
   "status": "done"
  },
  {
@@ -1228,7 +1228,7 @@
   "flag": 0,
   "speaker": 1,
   "jp": "じゃあ　まだ　ダイナを　つかっての\nバトルとかって　したことないんでしょ？",
-  "en": "So I bet you've never had a battle with\nyour Dyna yet, right?",
+  "en": "So I bet you've never had a\nbattle with your Dyna yet, right?",
   "status": "done"
  },
  {
@@ -1236,7 +1236,7 @@
   "flag": 0,
   "speaker": 1,
   "jp": "よし！　えーと　あれは　たしか・・・\n・・・あった！",
-  "en": "Okay! Umm, I'm pretty sure I had... ...Found\nit!",
+  "en": "Okay! Umm, I'm pretty\nsure I had... ...Found it!",
   "status": "done"
  },
  {
@@ -1244,7 +1244,7 @@
   "flag": 0,
   "speaker": 1,
   "jp": "はい　これ！　バトルコロシアムを\nつくるのにひつような　コロシアムキットよ",
-  "en": "Here, take this! It's a Colosseum Kit, the\nthing you need to build a Battle{KP}\nColosseum.",
+  "en": "Here, take this! It's a Colosseum\nKit, the thing you need to{KP}\nbuild a Battle Colosseum.",
   "status": "done"
  },
  {
@@ -1252,7 +1252,7 @@
   "flag": 0,
   "speaker": 1,
   "jp": "え？　いいのいいの\nこれ　ここのシティで　ひろったものだから",
-  "en": "Huh? Nah, it's fine! I just picked it up here\nin your city.",
+  "en": "Huh? Nah, it's fine! I just\npicked it up here in your city.",
   "status": "done"
  },
  {
@@ -1260,7 +1260,7 @@
   "flag": 0,
   "speaker": 1,
   "jp": "さっき　ここにくるまでに　あるいてたら\nぐうぜん　みつけたのよ",
-  "en": "I found it by chance while I was walking\nover here.",
+  "en": "I found it by chance while\nI was walking over here.",
   "status": "done"
  },
  {
@@ -1268,7 +1268,7 @@
   "flag": 0,
   "speaker": 1,
   "jp": "・・・なんで　おちてたのかは\nわからないけど",
-  "en": "...No idea why it was just lying around,\nthough.",
+  "en": "...No idea why it was just\nlying around, though.",
   "status": "done"
  },
  {
@@ -1284,7 +1284,7 @@
   "flag": 0,
   "speaker": 1,
   "jp": "あれ？　これいじょう\nもちきれないみたいだね{KP}\nじゃあ　わたし　ここで　まってるから\nアイテムを　へらしてから　またきてね",
-  "en": "Huh? Looks like you can't carry any\nmore.{KP}\nI'll wait here, so come back once you've\ngot fewer items.",
+  "en": "Huh? Looks like you\ncan't carry any more.{KP}\nI'll wait here, so come back\nonce you've got fewer items.",
   "status": "done"
  },
  {
@@ -1292,7 +1292,7 @@
   "flag": 0,
   "speaker": 1,
   "jp": "ここにするのね？\nじゃあ　とりあえず{KP}\nバトルに　さんかさせたい\nダイナを　つれてくるか",
-  "en": "So you're building it here? Okay, first{KP}\nbring along the Dyna you want to enter in\nbattles,",
+  "en": "So you're building it here? Okay, first{KP}\nbring along the Dyna you\nwant to enter in battles,",
   "status": "done"
  },
  {
@@ -1308,7 +1308,7 @@
   "flag": 0,
   "speaker": 1,
   "jp": "バトルリストに　とうろくしてきてね{KP}\nあ・・・リストとうろくっていうのは　いえに\nすんでいる　ダイナと　はなして",
-  "en": "and sign it up on the Battle List.{KP}\nOh... signing up means you talk to a Dyna\nliving in a house",
+  "en": "and sign it up on the Battle List.{KP}\nOh... signing up means you talk\nto a Dyna living in a house",
   "status": "done"
  },
  {
@@ -1316,7 +1316,7 @@
   "flag": 0,
   "speaker": 1,
   "jp": "バトルリストとうろくっていう　コマンドを\nえらぶと　できるのよ{KP}\nとうろくすると　メニューの\nじゅうみんで　みられる　リストで",
-  "en": "and pick the command called Battle List\nEntry.{KP}\nOnce it's signed up, in the list you see\nunder Residents in the menu,",
+  "en": "and pick the command\ncalled Battle List Entry.{KP}\nOnce it's signed up, in the list you\nsee under Residents in the menu,",
   "status": "done"
  },
  {
@@ -1324,7 +1324,7 @@
   "flag": 0,
   "speaker": 1,
   "jp": "ＢＴっていう　マークが　ついて\nいっしょに　つれあるいていなくても{KP}\nコロシアムと　つうしんたいせんで\nバトルに　さんかさせられるように　なるの",
-  "en": "it gets a mark that says \"BT,\" and even if\nit's not walking with you,{KP}\nit can take part in battles at the\nColosseum and in link battles.",
+  "en": "it gets a mark that says \"BT,\" and\neven if it's not walking with you,{KP}\nit can take part in battles at\nthe Colosseum and in link battles.",
   "status": "done"
  },
  {
@@ -1332,7 +1332,7 @@
   "flag": 0,
   "speaker": 1,
   "jp": "とうろくできる　かずは　１６たいまで！\nもし　いっぱいで　とうろくできないってときは{KP}\nメニューの　じゅうみんから\nステータスを　えらんで",
-  "en": "You can sign up to 16 Dyna! If it's full and\nyou can't sign one up,{KP}\ngo to Residents in the menu, choose\nStatus,",
+  "en": "You can sign up to 16 Dyna! If\nit's full and you can't sign one up,{KP}\ngo to Residents in the\nmenu, choose Status,",
   "status": "done"
  },
  {
@@ -1340,7 +1340,7 @@
   "flag": 0,
   "speaker": 1,
   "jp": "バトルリストから　はずしたい\nダイナを　えらんでから{KP}\nＲボタンを　おして　リストから　はずして\nあきが　できたところで　とうろくしてね",
-  "en": "pick the Dyna you want to take off the\nBattle List,{KP}\npress the R Button to remove it, and sign\nup the new one once there's room.",
+  "en": "pick the Dyna you want to\ntake off the Battle List,{KP}\npress the R Button to remove it, and\nsign up the new one once there's room.",
   "status": "done"
  },
  {
@@ -1348,7 +1348,7 @@
   "flag": 0,
   "speaker": 1,
   "jp": "でも　いくら　たくさん　とうろくしていても\nコロシアムと　つうしんたいせん　いがいでは{KP}\nつれあるいている　ダイナだけで\nたたかうしかないから　きをつけてね",
-  "en": "But no matter how many you sign up,\noutside the Colosseum and link battles{KP}\nyou can only fight with the Dyna walking\nwith you, so be careful!",
+  "en": "But no matter how many you sign up,\noutside the Colosseum and link battles{KP}\nyou can only fight with the Dyna\nwalking with you, so be careful!",
   "status": "done"
  },
  {
@@ -1356,7 +1356,7 @@
   "flag": 0,
   "speaker": 1,
   "jp": "あと　こんかい　バトルに　ダイナを\n３たい　つかいたいから",
-  "en": "Also, I want to use 3 Dyna in this\nbattle,",
+  "en": "Also, I want to use\n3 Dyna in this battle,",
   "status": "done"
  },
  {
@@ -1364,7 +1364,7 @@
   "flag": 0,
   "speaker": 1,
   "jp": "つれてるダイナと　リストに\nとうろくされた　ダイナが",
-  "en": "so make sure the Dyna with you and the\nDyna signed up on the list",
+  "en": "so make sure the Dyna with you\nand the Dyna signed up on the list",
   "status": "done"
  },
  {
@@ -1388,7 +1388,7 @@
   "flag": 0,
   "speaker": 1,
   "jp": "じゃあ　バトルに　さんかさせたい\nダイナを　つれてくるか",
-  "en": "Then bring along the Dyna you want to\nenter in battles,",
+  "en": "Then bring along the Dyna\nyou want to enter in battles,",
   "status": "done"
  },
  {
@@ -1428,7 +1428,7 @@
   "flag": 0,
   "speaker": 1,
   "jp": "これが　ダイナどうしの\nバトルを　おこなう　コロシアムよ",
-  "en": "This is the Colosseum, where Dyna battle\neach other.",
+  "en": "This is the Colosseum, where\nDyna battle each other.",
   "status": "done"
  },
  {
@@ -1436,7 +1436,7 @@
   "flag": 0,
   "speaker": 1,
   "jp": "ここでは　ダイナネットに　つないでいる\nたいせんあいてと　たたかう{KP}\nフリーバトルが　おこなえるの",
-  "en": "Here you can have Free Battles{KP}\nagainst opponents connected to the Dyna\nNet.",
+  "en": "Here you can have Free Battles{KP}\nagainst opponents\nconnected to the Dyna Net.",
   "status": "done"
  },
  {
@@ -1452,7 +1452,7 @@
   "flag": 0,
   "speaker": 1,
   "jp": "あの　うけつけのひとに　はなしかけて\nフリーバトルを　えらんでみて",
-  "en": "so talk to the receptionist over there and\nchoose Free Battle.",
+  "en": "so talk to the receptionist over\nthere and choose Free Battle.",
   "status": "done"
  },
  {
@@ -1460,7 +1460,7 @@
   "flag": 0,
   "speaker": 1,
   "jp": "・・・あれ？　バトルに　つかえる\nダイナ　３たい　いないんじゃない？",
-  "en": "...Huh? You don't have 3 Dyna you can\nbattle with, do you?",
+  "en": "...Huh? You don't have 3 Dyna\nyou can battle with, do you?",
   "status": "done"
  },
  {
@@ -1468,7 +1468,7 @@
   "flag": 0,
   "speaker": 1,
   "jp": "えっとね・・・３たい　つかっての\nバトルの　せつめいを　したいから",
-  "en": "Well, see... I want to explain battles using 3\nDyna,",
+  "en": "Well, see... I want to explain\nbattles using 3 Dyna,",
   "status": "done"
  },
  {
@@ -1476,7 +1476,7 @@
   "flag": 0,
   "speaker": 1,
   "jp": "つれてるのと　リストとうろくされてるのが\nあわせて　３たいいじょうに　して{KP}\nそれから　また　こえ　かけてね",
-  "en": "so make sure the ones with you and the\nones signed up on the list add up to 3{KP}\nor more,{KP}\nthen come talk to me again.",
+  "en": "so make sure the ones with\nyou and the ones signed up on{KP}\nthe list add up to 3 or more,{KP}\nthen come talk to me again.",
   "status": "done"
  },
  {
@@ -1484,7 +1484,7 @@
   "flag": 0,
   "speaker": 1,
   "jp": "やったー！　かったわ！{KP}\nまだまだ　おぼえると　ベンリなことは\nあるけど　だいたい　こんなカンジかな",
-  "en": "Yaaay! We won!{KP}\nThere's still more handy stuff to learn, but\nthat's about the gist of it.",
+  "en": "Yaaay! We won!{KP}\nThere's still more handy stuff to\nlearn, but that's about the gist of it.",
   "status": "done"
  },
  {
@@ -1492,7 +1492,7 @@
   "flag": 0,
   "speaker": 1,
   "jp": "そうそう！　つかわなかった　コマンドの\nせつめいだけ　かんたんに　しておくね",
-  "en": "Oh, right! I'll just quickly explain the\ncommands we didn't use.",
+  "en": "Oh, right! I'll just quickly explain\nthe commands we didn't use.",
   "status": "done"
  },
  {
@@ -1508,7 +1508,7 @@
   "flag": 0,
   "speaker": 1,
   "jp": "あ・・・でも　ＨＰは\nかいふくできないから　ちゅういしてね",
-  "en": "Oh... but it can't restore HP, so be\ncareful.",
+  "en": "Oh... but it can't restore\nHP, so be careful.",
   "status": "done"
  },
  {
@@ -1516,7 +1516,7 @@
   "flag": 0,
   "speaker": 1,
   "jp": "いどうは　じぶんの　じんちに　はいちした\nダイナを　うごかせる　コマンドよ",
-  "en": "Move is a command that lets you move a\nDyna you placed in your own area.",
+  "en": "Move is a command that lets you move\na Dyna you placed in your own area.",
   "status": "done"
  },
  {
@@ -1524,7 +1524,7 @@
   "flag": 0,
   "speaker": 1,
   "jp": "いどうすると　あいてが　それまで\nていさつして　えていた　データを{KP}\nけすこともできて　べんりなんだけど",
-  "en": "Moving also erases the data your opponent\ngot from scouting so far,{KP}\nwhich is really handy, but",
+  "en": "Moving also erases the data your\nopponent got from scouting so far,{KP}\nwhich is really handy, but",
   "status": "done"
  },
  {
@@ -1532,7 +1532,7 @@
   "flag": 0,
   "speaker": 1,
   "jp": "１かい　いどうすると　そのあと３ターンの\nあいだは　いどうできなくなっちゃうの{KP}\nおぼえておいてね",
-  "en": "once you move, you can't move again for\nthe next 3 turns.{KP}\nKeep that in mind!",
+  "en": "once you move, you can't move\nagain for the next 3 turns.{KP}\nKeep that in mind!",
   "status": "done"
  },
  {
@@ -1548,7 +1548,7 @@
   "flag": 0,
   "speaker": 1,
   "jp": "と　いうかんじで\nだいたい　バトルについては　わかった？",
-  "en": "So that's how it goes. Do you pretty much\nget battles now?",
+  "en": "So that's how it goes. Do you\npretty much get battles now?",
   "status": "done"
  },
  {
@@ -1556,7 +1556,7 @@
   "flag": 0,
   "speaker": 1,
   "jp": "つぎからは　じぶんで　かんがえながら\nたたかってみてね{KP}\nコロシアムで　フリーバトルを　していけば",
-  "en": "From now on, try fighting while thinking for\nyourself.{KP}\nIf you keep having Free Battles at the\nColosseum,",
+  "en": "From now on, try fighting\nwhile thinking for yourself.{KP}\nIf you keep having Free\nBattles at the Colosseum,",
   "status": "done"
  },
  {
@@ -1564,7 +1564,7 @@
   "flag": 0,
   "speaker": 1,
   "jp": "どんどん　ダイナは\nレベルアップして　つよくなるから",
-  "en": "your Dyna will keep leveling up and getting\nstronger.",
+  "en": "your Dyna will keep leveling\nup and getting stronger.",
   "status": "done"
  },
  {
@@ -1572,7 +1572,7 @@
   "flag": 0,
   "speaker": 1,
   "jp": "そうしたら　こんどは　わたしと\nたいせんしましょ　たのしみにしてるからね{KP}\nじゃあ　またねー",
-  "en": "Then next time, let's battle each other! I'm\nlooking forward to it!{KP}\nOkay, see you laterrr!",
+  "en": "Then next time, let's battle each\nother! I'm looking forward to it!{KP}\nOkay, see you laterrr!",
   "status": "done"
  },
  {
@@ -1580,7 +1580,7 @@
   "flag": 0,
   "speaker": 1,
   "jp": "じゃ　とりあえず　どこか\nたてたいところに　コロシアム　たててね",
-  "en": "Well, go build a Colosseum wherever you\nwant to put one.",
+  "en": "Well, go build a Colosseum\nwherever you want to put one.",
   "status": "done"
  },
  {
@@ -1588,7 +1588,7 @@
   "flag": 0,
   "speaker": 1,
   "jp": "あれ？　これいじょう\nもちきれないみたいだね{KP}\nじゃあ　わたし　ここで　まってるから\nアイテムを　へらしてから　またきてね",
-  "en": "Huh? Looks like you can't carry any\nmore.{KP}\nI'll wait here, so come back once you've\ngot fewer items.",
+  "en": "Huh? Looks like you\ncan't carry any more.{KP}\nI'll wait here, so come back\nonce you've got fewer items.",
   "status": "done"
  },
  {
@@ -1604,7 +1604,7 @@
   "flag": 0,
   "speaker": 1,
   "jp": "じゃあ　バトルに　さんかさせたい\nダイナを　つれてくるか",
-  "en": "Then bring along the Dyna you want to\nenter in battles,",
+  "en": "Then bring along the Dyna\nyou want to enter in battles,",
   "status": "done"
  },
  {
@@ -1620,7 +1620,7 @@
   "flag": 0,
   "speaker": 1,
   "jp": "バトルリストに　とうろくしてきてね{KP}\nあと　こんかい　バトルに　ダイナを\n３たい　つかいたいから",
-  "en": "and sign it up on the Battle List.{KP}\nAlso, I want to use 3 Dyna in this\nbattle,",
+  "en": "and sign it up on the Battle List.{KP}\nAlso, I want to use\n3 Dyna in this battle,",
   "status": "done"
  },
  {
@@ -1628,7 +1628,7 @@
   "flag": 0,
   "speaker": 1,
   "jp": "つれてるダイナと　リストに\nとうろくされた　ダイナが",
-  "en": "so make sure the Dyna with you and the\nDyna signed up on the list",
+  "en": "so make sure the Dyna with you\nand the Dyna signed up on the list",
   "status": "done"
  },
  {
@@ -1652,7 +1652,7 @@
   "flag": 0,
   "speaker": 1,
   "jp": "これが　ダイナどうしの\nバトルを　おこなう　コロシアムよ",
-  "en": "This is the Colosseum, where Dyna battle\neach other.",
+  "en": "This is the Colosseum, where\nDyna battle each other.",
   "status": "done"
  },
  {
@@ -1660,7 +1660,7 @@
   "flag": 0,
   "speaker": 1,
   "jp": "ここでは　ダイナネットに　つないでいる\nたいせんあいてと　たたかう{KP}\nフリーバトルが　おこなえるの",
-  "en": "Here you can have Free Battles{KP}\nagainst opponents connected to the Dyna\nNet.",
+  "en": "Here you can have Free Battles{KP}\nagainst opponents\nconnected to the Dyna Net.",
   "status": "done"
  },
  {
@@ -1676,7 +1676,7 @@
   "flag": 0,
   "speaker": 1,
   "jp": "あの　うけつけのひとに　はなしかけて\nフリーバトルを　えらんでみて",
-  "en": "so talk to the receptionist over there and\nchoose Free Battle.",
+  "en": "so talk to the receptionist over\nthere and choose Free Battle.",
   "status": "done"
  },
  {
@@ -1684,7 +1684,7 @@
   "flag": 0,
   "speaker": 1,
   "jp": "・・・あれ？　バトルに　つかえる\nダイナ　３たい　いないんじゃない？",
-  "en": "...Huh? You don't have 3 Dyna you can\nbattle with, do you?",
+  "en": "...Huh? You don't have 3 Dyna\nyou can battle with, do you?",
   "status": "done"
  },
  {
@@ -1692,7 +1692,7 @@
   "flag": 0,
   "speaker": 1,
   "jp": "えっとね・・・３たい　つかっての\nバトルの　せつめいを　したいから",
-  "en": "Well, see... I want to explain battles using 3\nDyna,",
+  "en": "Well, see... I want to explain\nbattles using 3 Dyna,",
   "status": "done"
  },
  {
@@ -1700,7 +1700,7 @@
   "flag": 0,
   "speaker": 1,
   "jp": "つれてるのと　リストとうろくされてるのが\nあわせて　３たいいじょうに　して{KP}\nそれから　また　こえ　かけてね",
-  "en": "so make sure the ones with you and the\nones signed up on the list add up to 3{KP}\nor more,{KP}\nthen come talk to me again.",
+  "en": "so make sure the ones with\nyou and the ones signed up on{KP}\nthe list add up to 3 or more,{KP}\nthen come talk to me again.",
   "status": "done"
  },
  {
@@ -1716,7 +1716,7 @@
   "flag": 0,
   "speaker": 1,
   "jp": "あの　うけつけのひとに　はなしかけて\nフリーバトルを　えらんでみて",
-  "en": "so talk to the receptionist over there and\nchoose Free Battle.",
+  "en": "so talk to the receptionist over\nthere and choose Free Battle.",
   "status": "done"
  },
  {
@@ -1724,7 +1724,7 @@
   "flag": 0,
   "speaker": 1,
   "jp": "まず　さいしょに　することは\nダイナの　チームを　くむこと！",
-  "en": "The first thing to do is put together a\nteam of Dyna!",
+  "en": "The first thing to do is put\ntogether a team of Dyna!",
   "status": "done"
  },
  {
@@ -1732,7 +1732,7 @@
   "flag": 0,
   "speaker": 1,
   "jp": "さいしょは　いま　つれてる\nダイナで　チームが　くまれてるから",
-  "en": "At first, your team is made of the Dyna\nyou have with you,",
+  "en": "At first, your team is made of\nthe Dyna you have with you,",
   "status": "done"
  },
  {
@@ -1740,7 +1740,7 @@
   "flag": 0,
   "speaker": 1,
   "jp": "バトルリストの　ダイナと\nいれかえたりして",
-  "en": "so swap some with Dyna from the Battle\nList",
+  "en": "so swap some with Dyna\nfrom the Battle List",
   "status": "done"
  },
  {
@@ -1748,7 +1748,7 @@
   "flag": 0,
   "speaker": 1,
   "jp": "こんかいの　バトルで　つかいたい\nチームを　つくってね",
-  "en": "and make the team you want for this\nbattle.",
+  "en": "and make the team you\nwant for this battle.",
   "status": "done"
  },
  {
@@ -1756,7 +1756,7 @@
   "flag": 0,
   "speaker": 1,
   "jp": "あと　チームは　じぶんの　このみで\n１たいとか　２たいでも　くめるんだけど",
-  "en": "You can also make a team of just 1 or 2\nDyna if you like,",
+  "en": "You can also make a team of\njust 1 or 2 Dyna if you like,",
   "status": "done"
  },
  {
@@ -1764,7 +1764,7 @@
   "flag": 0,
   "speaker": 1,
   "jp": "こんかいは　れんしゅうのために\n３たいで　くんでみて",
-  "en": "but this time, for practice, make one with\n3.",
+  "en": "but this time, for\npractice, make one with 3.",
   "status": "done"
  },
  {
@@ -1772,7 +1772,7 @@
   "flag": 0,
   "speaker": 1,
   "jp": "フリーバトルを　えらぶと\nダイナネットに　せつぞくされて",
-  "en": "When you choose Free Battle, you connect\nto the Dyna Net",
+  "en": "When you choose Free Battle,\nyou connect to the Dyna Net",
   "status": "done"
  },
  {
@@ -1780,7 +1780,7 @@
   "flag": 0,
   "speaker": 1,
   "jp": "じどうてきに　たいせんあいてを\nさがしてくれるの{KP}\n・・・あら？　ゲニオくんだわ",
-  "en": "and it finds you an opponent\nautomatically.{KP}\n...Oh? It's Genio-kun!",
+  "en": "and it finds you an\nopponent automatically.{KP}\n...Oh? It's Genio-kun!",
   "status": "done"
  },
  {
@@ -1788,7 +1788,7 @@
   "flag": 0,
   "speaker": 1,
   "jp": "ゲニオくんも　ダイナネットに\nつないでたのね・・・よーし！",
-  "en": "So Genio-kun is on the Dyna Net too...\nAlright!",
+  "en": "So Genio-kun is on the\nDyna Net too... Alright!",
   "status": "done"
  },
  {
@@ -1796,7 +1796,7 @@
   "flag": 0,
   "speaker": 1,
   "jp": "ゲニオくんだったら　しょしんしゃの\nれんしゅうには　もってこいよ",
-  "en": "Genio-kun is perfect practice for a\nbeginner.",
+  "en": "Genio-kun is perfect\npractice for a beginner.",
   "status": "done"
  },
  {
@@ -1804,7 +1804,7 @@
   "flag": 0,
   "speaker": 1,
   "jp": "わたしが　アドバイスするから\nかるく　ひねっちゃいましょう",
-  "en": "I'll give you advice, so let's beat him with\none hand tied behind our backs!",
+  "en": "I'll give you advice, so let's beat him\nwith one hand tied behind our backs!",
   "status": "done"
  },
  {
@@ -1820,7 +1820,7 @@
   "flag": 0,
   "speaker": 1,
   "jp": "チームが　きまったら\nつぎは　じぶんの　エリアへの　はいちよ",
-  "en": "Once your team is set, next you place them\nin your area.",
+  "en": "Once your team is set, next\nyou place them in your area.",
   "status": "done"
  },
  {
@@ -1828,7 +1828,7 @@
   "flag": 0,
   "speaker": 1,
   "jp": "このゲームの　バトルは　おたがいの\nエリアに　はいちした　ダイナを{KP}\nさがして　こうげきするという　ものなの",
-  "en": "In this game's battles, you search for the\nDyna placed in each other's areas{KP}\nand attack them.",
+  "en": "In this game's battles, you search for\nthe Dyna placed in each other's areas{KP}\nand attack them.",
   "status": "done"
  },
  {
@@ -1836,7 +1836,7 @@
   "flag": 0,
   "speaker": 1,
   "jp": "とりあえず　わたしの　いうように\nはいちしてみてくれる？",
-  "en": "For now, could you try placing them the\nway I tell you?",
+  "en": "For now, could you try placing\nthem the way I tell you?",
   "status": "done"
  },
  {
@@ -1916,7 +1916,7 @@
   "flag": 0,
   "speaker": 1,
   "jp": "さあ　ついに　バトルの　はじまりよ{KP}\nじゃあ　さいしょに　エリアと　はいけいの\nいろに　ついて　せつめいするね",
-  "en": "Here it is, the battle's finally starting!{KP}\nFirst, I'll explain the colors of the areas\nand the background.",
+  "en": "Here it is, the battle's finally starting!{KP}\nFirst, I'll explain the colors of\nthe areas and the background.",
   "status": "done"
  },
  {
@@ -1924,7 +1924,7 @@
   "flag": 0,
   "speaker": 1,
   "jp": "ダイナが　のっている　エリアと\nそのうしろに　ながれている　はいけいには{KP}\nみどりと　あかの　２しょくの\nパターンが　あるの",
-  "en": "The areas the Dyna stand on and the\nbackground scrolling behind them{KP}\ncome in two color patterns: green and\nred.",
+  "en": "The areas the Dyna stand on and\nthe background scrolling behind them{KP}\ncome in two color\npatterns: green and red.",
   "status": "done"
  },
  {
@@ -1932,7 +1932,7 @@
   "flag": 0,
   "speaker": 1,
   "jp": "エリアは　じぶんのエリアが　みどり\nあいてのエリアが　あかに　なっていて{KP}\nみどりの　はいけいは　じぶんのターンで\nあかの　はいけいは　あいてのターンね",
-  "en": "Your area is green and your opponent's\narea is red.{KP}\nA green background means it's your turn,\nand red means it's theirs.",
+  "en": "Your area is green and\nyour opponent's area is red.{KP}\nA green background means it's your\nturn, and red means it's theirs.",
   "status": "done"
  },
  {
@@ -1940,7 +1940,7 @@
   "flag": 0,
   "speaker": 1,
   "jp": "では　まずは　てきエリアの　ようすを\nていさつ・・・と　いきますか",
-  "en": "Now, shall we start by scouting out the\nenemy area?",
+  "en": "Now, shall we start by\nscouting out the enemy area?",
   "status": "done"
  },
  {
@@ -1948,7 +1948,7 @@
   "flag": 0,
   "speaker": 1,
   "jp": "いきなり　カンで　せめこんでも　いいけど\nワナに　かかっちゃったりしたら　ヤだしね{KP}\nじゃ　ていさつを　えらんでみて",
-  "en": "We could charge in on a hunch, but getting\ncaught in a trap would stink.{KP}\nSo, choose Scout.",
+  "en": "We could charge in on a hunch, but\ngetting caught in a trap would stink.{KP}\nSo, choose Scout.",
   "status": "done"
  },
  {
@@ -1956,7 +1956,7 @@
   "flag": 0,
   "speaker": -1,
   "jp": "このターンに　じっこうする　コマンドを\nせんたくしてください{KN}",
-  "en": "Please choose the command to carry out\nthis turn.{KN}",
+  "en": "Please choose the command\nto carry out this turn.{KN}",
   "status": "done"
  },
  {
@@ -1964,7 +1964,7 @@
   "flag": 0,
   "speaker": 1,
   "jp": "えらぶのは　ていさつだってば！{KP}\n・・・もう　わたしの　いったこと\nわすれちゃったの？",
-  "en": "I said choose Scout!{KP}\n...Did you forget what I told you\nalready?",
+  "en": "I said choose Scout!{KP}\n...Did you forget what\nI told you already?",
   "status": "done"
  },
  {
@@ -1972,7 +1972,7 @@
   "flag": 0,
   "speaker": -1,
   "jp": "このターンに　じっこうする　コマンドを\nせんたくしてください{KN}",
-  "en": "Please choose the command to carry out\nthis turn.{KN}",
+  "en": "Please choose the command\nto carry out this turn.{KN}",
   "status": "done"
  }
 ]

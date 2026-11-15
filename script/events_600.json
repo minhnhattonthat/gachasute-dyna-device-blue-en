@@ -20,7 +20,7 @@
   "flag": 0,
   "speaker": -1,
   "jp": "なぜか　いま　むしょうに\n{%sR0}が　たべたいんです・・・",
-  "en": "For some reason I am simply dying to eat\n{%sR0} right now...",
+  "en": "For some reason I am simply dying\nto eat {%sR0} right now...",
   "status": "done"
  },
  {
@@ -28,7 +28,7 @@
   "flag": 0,
   "speaker": -1,
   "jp": "もし　てに　はいりましたら\nわたしに　いただけませんでしょうか？",
-  "en": "If you happen to get some, could I please\nhave it?",
+  "en": "If you happen to get some,\ncould I please have it?",
   "status": "done"
  },
  {
@@ -60,7 +60,7 @@
   "flag": 0,
   "speaker": -1,
   "jp": "おれいといっては　なんですが\nこれを　うけとってください",
-  "en": "It is only a small thank-you, but please\naccept this.",
+  "en": "It is only a small thank-you,\nbut please accept this.",
   "status": "done"
  },
  {
@@ -68,7 +68,7 @@
   "flag": 0,
   "speaker": -1,
   "jp": "そうですか・・・ざんねんです{KP}\nもしも　きが　かわったら\nよろしく　おねがいします",
-  "en": "I see... What a shame.{KP}\nIf you change your mind, please do come\nback.",
+  "en": "I see... What a shame.{KP}\nIf you change your mind,\nplease do come back.",
   "status": "done"
  },
  {
@@ -76,7 +76,7 @@
   "flag": 0,
   "speaker": -1,
   "jp": "なんか　いま　むしょうに\n{%sR0}が　たべたいんだよな・・・",
-  "en": "Man, I'm just dyin' to eat {%sR0}\nright now...",
+  "en": "Man, I'm just dyin' to eat\n{%sR0} right now...",
   "status": "done"
  },
  {
@@ -84,7 +84,7 @@
   "flag": 0,
   "speaker": -1,
   "jp": "もし　てに　はいったら\nオレに　くれねぇかな？",
-  "en": "If you get your hands on some, give it to\nme, yeah?",
+  "en": "If you get your hands on\nsome, give it to me, yeah?",
   "status": "done"
  },
  {
@@ -116,7 +116,7 @@
   "flag": 0,
   "speaker": -1,
   "jp": "おれいといっちゃ　なんだが\nこいつを　もらってやってくれ",
-  "en": "It ain't much of a thank-you, but take\nthis.",
+  "en": "It ain't much of a\nthank-you, but take this.",
   "status": "done"
  },
  {
@@ -132,7 +132,7 @@
   "flag": 0,
   "speaker": -1,
   "jp": "いま　わたしは\n{%sR0}を　ひつようと　している",
-  "en": "At present, I am in need of\n{%sR0}.",
+  "en": "At present, I am in\nneed of {%sR0}.",
   "status": "done"
  },
  {
@@ -140,7 +140,7 @@
   "flag": 0,
   "speaker": -1,
   "jp": "もし　てに　はいったときには\nぜひ　わたしに　ゆずってほしい",
-  "en": "Should you come by some, I would ask that\nyou let me have it.",
+  "en": "Should you come by some, I would\nask that you let me have it.",
   "status": "done"
  },
  {
@@ -180,7 +180,7 @@
   "flag": 0,
   "speaker": -1,
   "jp": "そうか・・・ざんねんだ{KP}\nもし　きが　かわったら\nよろしく　たのむ",
-  "en": "I see... A pity.{KP}\nShould you change your mind, I am\ncounting on you.",
+  "en": "I see... A pity.{KP}\nShould you change your\nmind, I am counting on you.",
   "status": "done"
  },
  {
@@ -188,7 +188,7 @@
   "flag": 0,
   "speaker": -1,
   "jp": "なぜか　いま　すごく\n{%sR0}が　たべたいの",
-  "en": "For some reason I really, really want to\neat {%sR0}.",
+  "en": "For some reason I really, really\nwant to eat {%sR0}.",
   "status": "done"
  },
  {
@@ -228,7 +228,7 @@
   "flag": 0,
   "speaker": -1,
   "jp": "おれいといっては　なんだけど\nこれ　うけとって！",
-  "en": "It's just a little thank-you, but take\nthis!",
+  "en": "It's just a little\nthank-you, but take this!",
   "status": "done"
  },
  {
@@ -236,7 +236,7 @@
   "flag": 0,
   "speaker": -1,
   "jp": "えー・・・ざんねんだなぁ{KP}\nもしも　きが　かわったら\nまた　きてね",
-  "en": "Awww... That's too bad.{KP}\nIf you change your mind, come back,\nokay?",
+  "en": "Awww... That's too bad.{KP}\nIf you change your\nmind, come back, okay?",
   "status": "done"
  },
  {
@@ -260,7 +260,7 @@
   "flag": 0,
   "speaker": -1,
   "jp": "よろしかったら　もらっていって\nいただけないでしょうか？",
-  "en": "If you would like it, would you please take\nit?",
+  "en": "If you would like it,\nwould you please take it?",
   "status": "done"
  },
  {
@@ -284,7 +284,7 @@
   "flag": 0,
   "speaker": -1,
   "jp": "そうですか・・・ざんねんです{KP}\nそれでは　これは　わたしの　ほうで\nしょぶんしてしまいますね",
-  "en": "I see... What a shame.{KP}\nThen I suppose I will get rid of it\nmyself.",
+  "en": "I see... What a shame.{KP}\nThen I suppose I will\nget rid of it myself.",
   "status": "done"
  },
  {
@@ -292,7 +292,7 @@
   "flag": 0,
   "speaker": -1,
   "jp": "お　ちょうどいいところに　きたじゃねぇか{KP}\nじつは　へやを　かたづけてたら\nいらない{%sR0}が　でてきてよ",
-  "en": "Oh, you showed up at just the right\ntime!{KP}\nI was cleanin' my room and found\n{%sR0} I don't need.",
+  "en": "Oh, you showed up at\njust the right time!{KP}\nI was cleanin' my room and found\n{%sR0} I don't need.",
   "status": "done"
  },
  {
@@ -372,7 +372,7 @@
   "flag": 0,
   "speaker": -1,
   "jp": "あ　ちょうどいいとこに　きたね！{KP}\nじつは　へやの　おかたづけ　してたら\nいらない{%sR0}が　でてきたの",
-  "en": "Oh, you came at just the right time!{KP}\nI was tidying up my room and found\n{%sR0} I don't need.",
+  "en": "Oh, you came at just the right time!{KP}\nI was tidying up my room and\nfound {%sR0} I don't need.",
   "status": "done"
  },
  {
@@ -420,7 +420,7 @@
   "flag": 0,
   "speaker": -1,
   "jp": "じつは　へやの　かたづけを　していたら\n{%sR0}を　みつけたんです",
-  "en": "I was tidying my room, and I found\n{%sR0}.",
+  "en": "I was tidying my room, and\nI found {%sR0}.",
   "status": "done"
  },
  {
@@ -428,7 +428,7 @@
   "flag": 0,
   "speaker": -1,
   "jp": "よろしかったら　{%dR2}ビットで\nおゆずりしますが　どうですか？",
-  "en": "If you like, I could let you have it for\n{%dR2} bits. What do you say?",
+  "en": "If you like, I could let you have it\nfor {%dR2} bits. What do you say?",
   "status": "done"
  },
  {
@@ -460,7 +460,7 @@
   "flag": 0,
   "speaker": -1,
   "jp": "おや？　ざんねんながら　おかねが\nたりないみたいですね・・・",
-  "en": "Oh? I am afraid you do not seem to have\nenough money...",
+  "en": "Oh? I am afraid you do not\nseem to have enough money...",
   "status": "done"
  },
  {
@@ -468,7 +468,7 @@
   "flag": 0,
   "speaker": -1,
   "jp": "また　きかいが　ありましたら\nおねがいします",
-  "en": "If another chance comes along, please\nconsider it.",
+  "en": "If another chance comes\nalong, please consider it.",
   "status": "done"
  },
  {
@@ -476,7 +476,7 @@
   "flag": 0,
   "speaker": -1,
   "jp": "お　ちょうどいいところに　きたじゃねぇか{KP}\nじつは　へやを　かたづけてたら\n{%sR0}を　みつけたんだけどよ",
-  "en": "Oh, you showed up at just the right\ntime!{KP}\nI was cleanin' my room and found\n{%sR0}.",
+  "en": "Oh, you showed up at\njust the right time!{KP}\nI was cleanin' my room\nand found {%sR0}.",
   "status": "done"
  },
  {
@@ -516,7 +516,7 @@
   "flag": 0,
   "speaker": -1,
   "jp": "ん？　かねが　たりねぇみたいだぜ？\nしょうがねぇな・・・",
-  "en": "Hm? Looks like you ain't got enough cash.\nOh well...",
+  "en": "Hm? Looks like you ain't\ngot enough cash. Oh well...",
   "status": "done"
  },
  {
@@ -532,7 +532,7 @@
   "flag": 0,
   "speaker": -1,
   "jp": "ちょうどいいところに　きたな{KP}\nじつは　へやの　かたづけを　していたのだが\n{%sR0}を　みつけたのだ",
-  "en": "You have come at a good time.{KP}\nI was tidying my room and found\n{%sR0}.",
+  "en": "You have come at a good time.{KP}\nI was tidying my room\nand found {%sR0}.",
   "status": "done"
  },
  {
@@ -572,7 +572,7 @@
   "flag": 0,
   "speaker": -1,
   "jp": "どうやら　かねが　たりないようだな\nしかたあるまい・・・",
-  "en": "It seems you lack the money. It cannot be\nhelped...",
+  "en": "It seems you lack the\nmoney. It cannot be helped...",
   "status": "done"
  },
  {
@@ -580,7 +580,7 @@
   "flag": 0,
   "speaker": -1,
   "jp": "また　つぎの　きかいが　あれば\nそのときは　たのむ",
-  "en": "Should there be another chance, I will\ncount on you then.",
+  "en": "Should there be another\nchance, I will count on you then.",
   "status": "done"
  },
  {
@@ -588,7 +588,7 @@
   "flag": 0,
   "speaker": -1,
   "jp": "あ　ちょうどいいとこに　きたね！{KP}\nじつは　へやの　おかたづけ　してたら\n{%sR0}を　みつけたの",
-  "en": "Oh, you came at just the right time!{KP}\nI was tidying up my room and found\n{%sR0}.",
+  "en": "Oh, you came at just the right time!{KP}\nI was tidying up my room\nand found {%sR0}.",
   "status": "done"
  },
  {
@@ -628,7 +628,7 @@
   "flag": 0,
   "speaker": -1,
   "jp": "あ　ざんねん・・・\nおかねが　たりないみたい",
-  "en": "Aw, too bad... Looks like you don't have\nenough money.",
+  "en": "Aw, too bad... Looks like you\ndon't have enough money.",
   "status": "done"
  },
  {
@@ -636,7 +636,7 @@
   "flag": 0,
   "speaker": -1,
   "jp": "また　こんど　こういうことが　あったら\nそのときは　よろしくね",
-  "en": "If something like this comes up again, think\nof me, okay?",
+  "en": "If something like this comes\nup again, think of me, okay?",
   "status": "done"
  },
  {
@@ -652,7 +652,7 @@
   "flag": 0,
   "speaker": -1,
   "jp": "よろしかったら　{%dR2}ビットで\nうっては　いただけないでしょうか？",
-  "en": "If you do not mind, would you sell it to me\nfor {%dR2} bits?",
+  "en": "If you do not mind, would you\nsell it to me for {%dR2} bits?",
   "status": "done"
  },
  {
@@ -684,7 +684,7 @@
   "flag": 0,
   "speaker": -1,
   "jp": "そうですか・・・ざんねんです{KP}\nもしも　きが　かわったら\nよろしく　おねがいします",
-  "en": "I see... What a shame.{KP}\nIf you change your mind, please do come\nback.",
+  "en": "I see... What a shame.{KP}\nIf you change your mind,\nplease do come back.",
   "status": "done"
  },
  {
@@ -700,7 +700,7 @@
   "flag": 0,
   "speaker": -1,
   "jp": "おい！　それ　オレに　{%dR2}ビットで\nうってくれ！　なっ？",
-  "en": "Hey! Sell it to me for {%dR2} bits!\nC'mon!",
+  "en": "Hey! Sell it to me for\n{%dR2} bits! C'mon!",
   "status": "done"
  },
  {
@@ -748,7 +748,7 @@
   "flag": 0,
   "speaker": -1,
   "jp": "すまぬ・・・わたしに　{%dR2}ビットで\nゆずってくれ",
-  "en": "Forgive me... Let me have it for {%dR2}\nbits.",
+  "en": "Forgive me... Let me have\nit for {%dR2} bits.",
   "status": "done"
  },
  {
@@ -780,7 +780,7 @@
   "flag": 0,
   "speaker": -1,
   "jp": "そうか・・・ざんねんだ{KP}\nもし　きが　かわったら\nよろしく　たのむ",
-  "en": "I see... A pity.{KP}\nShould you change your mind, I am\ncounting on you.",
+  "en": "I see... A pity.{KP}\nShould you change your\nmind, I am counting on you.",
   "status": "done"
  },
  {
@@ -820,7 +820,7 @@
   "flag": 0,
   "speaker": -1,
   "jp": "えー・・・ざんねんだなぁ{KP}\nもしも　きが　かわったら\nまた　きてね",
-  "en": "Awww... That's too bad.{KP}\nIf you change your mind, come back,\nokay?",
+  "en": "Awww... That's too bad.{KP}\nIf you change your\nmind, come back, okay?",
   "status": "done"
  },
  {
@@ -836,7 +836,7 @@
   "flag": 0,
   "speaker": -1,
   "jp": "よろしかったら\nわたしの　{%sR2}と{KP}\nこうかんしては　いただけないでしょうか？",
-  "en": "If you do not mind,{KP}\nwould you trade it for my\n{%sR2}?",
+  "en": "If you do not mind,{KP}\nwould you trade it for\nmy {%sR2}?",
   "status": "done"
  },
  {
@@ -860,7 +860,7 @@
   "flag": 0,
   "speaker": -1,
   "jp": "そうですか・・・ざんねんです{KP}\nもしも　きが　かわったら\nよろしく　おねがいします",
-  "en": "I see... What a shame.{KP}\nIf you change your mind, please do come\nback.",
+  "en": "I see... What a shame.{KP}\nIf you change your mind,\nplease do come back.",
   "status": "done"
  },
  {
@@ -916,7 +916,7 @@
   "flag": 0,
   "speaker": -1,
   "jp": "すまぬ・・・わたしの\n{%sR2}と{KP}\nこうかんしては　もらえないか？",
-  "en": "Forgive me...{KP}\nWould you trade it for my\n{%sR2}?",
+  "en": "Forgive me...{KP}\nWould you trade it for\nmy {%sR2}?",
   "status": "done"
  },
  {
@@ -940,7 +940,7 @@
   "flag": 0,
   "speaker": -1,
   "jp": "そうか・・・ざんねんだ{KP}\nもし　きが　かわったら\nよろしく　たのむ",
-  "en": "I see... A pity.{KP}\nShould you change your mind, I am\ncounting on you.",
+  "en": "I see... A pity.{KP}\nShould you change your\nmind, I am counting on you.",
   "status": "done"
  },
  {
@@ -972,7 +972,7 @@
   "flag": 0,
   "speaker": -1,
   "jp": "えー・・・ざんねんだなぁ{KP}\nもしも　きが　かわったら\nまた　きてね",
-  "en": "Awww... That's too bad.{KP}\nIf you change your mind, come back,\nokay?",
+  "en": "Awww... That's too bad.{KP}\nIf you change your\nmind, come back, okay?",
   "status": "done"
  },
  {
@@ -980,7 +980,7 @@
   "flag": 0,
   "speaker": -1,
   "jp": "もうしわけありませんが　いまは\nだれとも　はなしを　したくありません",
-  "en": "I am sorry, but I do not wish to talk to\nanyone right now.",
+  "en": "I am sorry, but I do not wish\nto talk to anyone right now.",
   "status": "done"
  },
  {
@@ -996,7 +996,7 @@
   "flag": 0,
   "speaker": -1,
   "jp": "え？　なかなおりしてほしくて　わざわざ\nきてくださったのですか？",
-  "en": "Huh? You came all this way because you\nwant us to make up?",
+  "en": "Huh? You came all this way\nbecause you want us to make up?",
   "status": "done"
  },
  {
@@ -1004,7 +1004,7 @@
   "flag": 0,
   "speaker": -1,
   "jp": "そうですか・・・すみません\nごめいわくを　おかけしました",
-  "en": "I see... I am sorry. I have caused you\ntrouble.",
+  "en": "I see... I am sorry. I\nhave caused you trouble.",
   "status": "done"
  },
  {
@@ -1012,7 +1012,7 @@
   "flag": 0,
   "speaker": -1,
   "jp": "{%sR0}に　わたしが\nあやまっていたと　つたえてください",
-  "en": "Please tell {%sR0} that I said I am\nsorry.",
+  "en": "Please tell {%sR0}\nthat I said I am sorry.",
   "status": "done"
  },
  {
@@ -1020,7 +1020,7 @@
   "flag": 0,
   "speaker": -1,
   "jp": "ちょくせつ　はなしづらいので\nよろしくおねがいします",
-  "en": "It is hard to say it face to face, so I am\ncounting on you.",
+  "en": "It is hard to say it face to\nface, so I am counting on you.",
   "status": "done"
  },
  {
@@ -1036,7 +1036,7 @@
   "flag": 0,
   "speaker": -1,
   "jp": "わかりました　わたしも　あやまって\nなかなおりすることにします",
-  "en": "All right. I will apologize too, and we will\nmake up.",
+  "en": "All right. I will apologize\ntoo, and we will make up.",
   "status": "done"
  },
  {
@@ -1044,7 +1044,7 @@
   "flag": 0,
   "speaker": -1,
   "jp": "ほんとうに　ごめいわくを　おかけして\nもうしわけありませんでした",
-  "en": "I am truly sorry for all the trouble I\ncaused you.",
+  "en": "I am truly sorry for all\nthe trouble I caused you.",
   "status": "done"
  },
  {
@@ -1052,7 +1052,7 @@
   "flag": 0,
   "speaker": -1,
   "jp": "すまねぇが　いまは　だれとも\nくちを　ききたくねぇんだ",
-  "en": "Sorry, but I don't wanna talk to anybody\nright now.",
+  "en": "Sorry, but I don't wanna\ntalk to anybody right now.",
   "status": "done"
  },
  {
@@ -1068,7 +1068,7 @@
   "flag": 0,
   "speaker": -1,
   "jp": "なに？　なかなおりしてほしくて\nわざわざ　きたってのか？",
-  "en": "What? You came all this way 'cause you\nwant us to make up?",
+  "en": "What? You came all this way\n'cause you want us to make up?",
   "status": "done"
  },
  {
@@ -1076,7 +1076,7 @@
   "flag": 0,
   "speaker": -1,
   "jp": "そうか・・・すまねぇな\nめいわく　かけちまったぜ",
-  "en": "I see... Sorry. I put you to a lot of\ntrouble.",
+  "en": "I see... Sorry. I put\nyou to a lot of trouble.",
   "status": "done"
  },
  {
@@ -1092,7 +1092,7 @@
   "flag": 0,
   "speaker": -1,
   "jp": "ちょくせつ　はなしづれぇから\nよろしくたのむぜ",
-  "en": "It's hard to say it to their face, so I'm\ncountin' on you.",
+  "en": "It's hard to say it to their\nface, so I'm countin' on you.",
   "status": "done"
  },
  {
@@ -1108,7 +1108,7 @@
   "flag": 0,
   "speaker": -1,
   "jp": "わかった　オレも　あやまって\nなかなおりすることにするぜ",
-  "en": "Okay. I'll say sorry too, and we'll make\nup.",
+  "en": "Okay. I'll say sorry\ntoo, and we'll make up.",
   "status": "done"
  },
  {
@@ -1124,7 +1124,7 @@
   "flag": 0,
   "speaker": -1,
   "jp": "すまないが　いまは　だれとも\nはなしを　するきはない",
-  "en": "Forgive me, but I have no wish to speak\nwith anyone now.",
+  "en": "Forgive me, but I have no\nwish to speak with anyone now.",
   "status": "done"
  },
  {
@@ -1132,7 +1132,7 @@
   "flag": 0,
   "speaker": -1,
   "jp": "これは　わたしと\n{%sR0}の　もんだいなのだ・・・",
-  "en": "This is a matter between me and\n{%sR0}...",
+  "en": "This is a matter between\nme and {%sR0}...",
   "status": "done"
  },
  {
@@ -1140,7 +1140,7 @@
   "flag": 0,
   "speaker": -1,
   "jp": "・・・なかなおりしてほしくて　わざわざ\nきただと？",
-  "en": "...You came all this way to have us\nreconcile?",
+  "en": "...You came all this way\nto have us reconcile?",
   "status": "done"
  },
  {
@@ -1164,7 +1164,7 @@
   "flag": 0,
   "speaker": -1,
   "jp": "ちょくせつ　はなしづらいのでな\nよろしくたのむ",
-  "en": "It is difficult to say directly. I am counting\non you.",
+  "en": "It is difficult to say directly.\nI am counting on you.",
   "status": "done"
  },
  {
@@ -1172,7 +1172,7 @@
   "flag": 0,
   "speaker": -1,
   "jp": "そうか・・・{%sR0}が\nそんなことを・・・",
-  "en": "I see... {%sR0} said such a\nthing...",
+  "en": "I see... {%sR0}\nsaid such a thing...",
   "status": "done"
  },
  {
@@ -1180,7 +1180,7 @@
   "flag": 0,
   "speaker": -1,
   "jp": "わかった　わたしも　あやまって\nなかなおりすることにする",
-  "en": "Very well. I too shall apologize and\nreconcile.",
+  "en": "Very well. I too shall\napologize and reconcile.",
   "status": "done"
  },
  {
@@ -1188,7 +1188,7 @@
   "flag": 0,
   "speaker": -1,
   "jp": "ほんとうに　めいわくを　かけて\nすまなかったな",
-  "en": "I am truly sorry for the trouble I\ncaused.",
+  "en": "I am truly sorry for\nthe trouble I caused.",
   "status": "done"
  },
  {
@@ -1196,7 +1196,7 @@
   "flag": 0,
   "speaker": -1,
   "jp": "わるいけど　いまは　だれとも\nはなしを　したくない　きぶんなのよね",
-  "en": "Sorry, but I'm just not in the mood to talk\nto anyone right now.",
+  "en": "Sorry, but I'm just not in the\nmood to talk to anyone right now.",
   "status": "done"
  },
  {
@@ -1204,7 +1204,7 @@
   "flag": 0,
   "speaker": -1,
   "jp": "これは　わたしと\n{%sR0}の　もんだいなんだから・・・",
-  "en": "This is between me and {%sR0},\nokay...?",
+  "en": "This is between me and\n{%sR0}, okay...?",
   "status": "done"
  },
  {
@@ -1212,7 +1212,7 @@
   "flag": 0,
   "speaker": -1,
   "jp": "え？　なかなおりしてほしくて　わざわざ\nきてくれたの？",
-  "en": "Huh? You came all this way because you\nwant us to make up?",
+  "en": "Huh? You came all this way\nbecause you want us to make up?",
   "status": "done"
  },
  {
@@ -1228,7 +1228,7 @@
   "flag": 0,
   "speaker": -1,
   "jp": "{%sR0}に　わたしが\nあやまってたって　つたえてくれないかな？",
-  "en": "Could you tell {%sR0} I said I'm\nsorry?",
+  "en": "Could you tell {%sR0}\nI said I'm sorry?",
   "status": "done"
  },
  {
@@ -1252,7 +1252,7 @@
   "flag": 0,
   "speaker": -1,
   "jp": "わかった　わたしも　あやまって\nなかなおりすることにするよ",
-  "en": "Okay. I'll say sorry too, and we'll make\nup.",
+  "en": "Okay. I'll say sorry\ntoo, and we'll make up.",
   "status": "done"
  },
  {
@@ -1268,7 +1268,7 @@
   "flag": 0,
   "speaker": -1,
   "jp": "{%sR4}さんの　かぞくや\nおともだちを　ぜひ　ダイナパッドの",
-  "en": "{%sR4}-san, please do use your\nDyna Pad",
+  "en": "{%sR4}-san, please\ndo use your Dyna Pad",
   "status": "done"
  },
  {
@@ -1276,7 +1276,7 @@
   "flag": 0,
   "speaker": -1,
   "jp": "アドレスちょうに　ニックネームつきで\nとうろくしてください",
-  "en": "to enter your family and friends in its\naddress book, with nicknames.",
+  "en": "to enter your family and friends in\nits address book, with nicknames.",
   "status": "done"
  },
  {
@@ -1292,7 +1292,7 @@
   "flag": 0,
   "speaker": -1,
   "jp": "きっと　このシティが　もっと\nおもしろくなると　おもいますよ",
-  "en": "but I am sure this city will become even\nmore fun.",
+  "en": "but I am sure this city will\nbecome even more fun.",
   "status": "done"
  },
  {
@@ -1308,7 +1308,7 @@
   "flag": 0,
   "speaker": -1,
   "jp": "アドレスちょうに　ニックネームつきで\nとうろくしてみてくれ",
-  "en": "to put your family and friends in its\naddress book, with nicknames.",
+  "en": "to put your family and friends in\nits address book, with nicknames.",
   "status": "done"
  },
  {
@@ -1316,7 +1316,7 @@
   "flag": 0,
   "speaker": -1,
   "jp": "すぐに　なにかが　かわっては\nみえないかも　しれないけどよ",
-  "en": "You might not see anything change right\naway,",
+  "en": "You might not see anything\nchange right away,",
   "status": "done"
  },
  {
@@ -1332,7 +1332,7 @@
   "flag": 0,
   "speaker": -1,
   "jp": "{%sR4}の　かぞくや\nともだちを　ダイナパッドの",
-  "en": "{%sR4}, you would do well to use\nyour Dyna Pad",
+  "en": "{%sR4}, you would\ndo well to use your Dyna Pad",
   "status": "done"
  },
  {
@@ -1340,7 +1340,7 @@
   "flag": 0,
   "speaker": -1,
   "jp": "アドレスちょうに　ニックネームつきで\nとうろくしてみると　いい",
-  "en": "to enter your family and friends in its\naddress book, with nicknames.",
+  "en": "to enter your family and friends in\nits address book, with nicknames.",
   "status": "done"
  },
  {
@@ -1356,7 +1356,7 @@
   "flag": 0,
   "speaker": -1,
   "jp": "きっと　このシティが　もっと\nおもしろくなることだろう",
-  "en": "but this city will surely become more\ninteresting.",
+  "en": "but this city will surely\nbecome more interesting.",
   "status": "done"
  },
  {
@@ -1364,7 +1364,7 @@
   "flag": 0,
   "speaker": -1,
   "jp": "{%sR4}さんの　かぞくや\nおともだちを　ぜひ　ダイナパッドの",
-  "en": "{%sR4}-san, you should totally use\nyour Dyna Pad",
+  "en": "{%sR4}-san, you should\ntotally use your Dyna Pad",
   "status": "done"
  },
  {
@@ -1372,7 +1372,7 @@
   "flag": 0,
   "speaker": -1,
   "jp": "アドレスちょうに　ニックネームつきで\nとうろくしてみて！",
-  "en": "to put your family and friends in its\naddress book, with nicknames!",
+  "en": "to put your family and friends in\nits address book, with nicknames!",
   "status": "done"
  },
  {
@@ -1380,7 +1380,7 @@
   "flag": 0,
   "speaker": -1,
   "jp": "すぐには　かわったことが\nわからないかも　しれないけど",
-  "en": "You might not notice any change right\naway,",
+  "en": "You might not notice\nany change right away,",
   "status": "done"
  },
  {
@@ -1388,7 +1388,7 @@
   "flag": 0,
   "speaker": -1,
   "jp": "きっと　このシティが　もっと\nおもしろくなると　おもうよ！",
-  "en": "but I'm sure this city will get even more\nfun!",
+  "en": "but I'm sure this city\nwill get even more fun!",
   "status": "done"
  },
  {
@@ -1396,7 +1396,7 @@
   "flag": 0,
   "speaker": -1,
   "jp": "なんだか　いえのなかに　いるのにも\nあきてきてしまいました・・・",
-  "en": "I am getting rather tired of staying in the\nhouse...",
+  "en": "I am getting rather tired\nof staying in the house...",
   "status": "done"
  },
  {
@@ -1404,7 +1404,7 @@
   "flag": 0,
   "speaker": -1,
   "jp": "わたしも　たまには　そとに\nつれていっていただきたいものです",
-  "en": "I would love to be taken outside once in a\nwhile.",
+  "en": "I would love to be taken\noutside once in a while.",
   "status": "done"
  },
  {
@@ -1412,7 +1412,7 @@
   "flag": 0,
   "speaker": -1,
   "jp": "なんか　いえのなかに　いるのにも\nあきてきちまったんだよなぁ・・・",
-  "en": "Man, I'm gettin' sick of bein' stuck in the\nhouse...",
+  "en": "Man, I'm gettin' sick of\nbein' stuck in the house...",
   "status": "done"
  },
  {
@@ -1420,7 +1420,7 @@
   "flag": 0,
   "speaker": -1,
   "jp": "オレも　たまには　そとに\nつれていってもらいてぇぜ",
-  "en": "I wanna get taken outside once in a while\ntoo!",
+  "en": "I wanna get taken outside\nonce in a while too!",
   "status": "done"
  },
  {
@@ -1436,7 +1436,7 @@
   "flag": 0,
   "speaker": -1,
   "jp": "わたしも　たまには　そとに\nつれていってほしいものだな",
-  "en": "I too would like to be taken outside now\nand then.",
+  "en": "I too would like to be\ntaken outside now and then.",
   "status": "done"
  },
  {
@@ -1444,7 +1444,7 @@
   "flag": 0,
   "speaker": -1,
   "jp": "なんか　いえのなかに　いるのも\nあきてきちゃったなー・・・",
-  "en": "I'm getting kind of bored of being in the\nhouse...",
+  "en": "I'm getting kind of bored\nof being in the house...",
   "status": "done"
  },
  {
@@ -1460,7 +1460,7 @@
   "flag": 0,
   "speaker": 4,
   "jp": "すみません　まだ　あたらしく\nわかったことは　ないんです{KP}\nかのじょを　たすける　ほうほうも\nまだ　みつかっていません",
-  "en": "I am sorry, but I have not found out\nanything new yet.{KP}\nI have not found a way to save her yet,\neither.",
+  "en": "I am sorry, but I have not\nfound out anything new yet.{KP}\nI have not found a way\nto save her yet, either.",
   "status": "done"
  },
  {
@@ -1476,7 +1476,7 @@
   "flag": 0,
   "speaker": 4,
   "jp": "どうですか　なれてきましたか？",
-  "en": "How is it going? Are you getting used to\nthings?",
+  "en": "How is it going? Are you\ngetting used to things?",
   "status": "done"
  },
  {
@@ -1484,7 +1484,7 @@
   "flag": 0,
   "speaker": 4,
   "jp": "まだまだ　ダイナシティと　よぶには\nダイナが　すくないですよね",
-  "en": "There are still too few Dyna to call this a\nDyna City, are there not?",
+  "en": "There are still too few Dyna to call\nthis a Dyna City, are there not?",
   "status": "done"
  },
  {
@@ -1492,7 +1492,7 @@
   "flag": 0,
   "speaker": 4,
   "jp": "アドレスちょうに　かぞくや\nおともだちの　データを　いれてみたり",
-  "en": "Try entering your family's and friends' data\nin the address book,",
+  "en": "Try entering your family's and\nfriends' data in the address book,",
   "status": "done"
  },
  {
@@ -1500,7 +1500,7 @@
   "flag": 0,
   "speaker": 4,
   "jp": "めいしこうかんをしたりして\nダイナをふやして{KP}\nここから　どんどん　ダイナシティに\nつれだしてあげてください",
-  "en": "or trade cards to increase your Dyna,{KP}\nand bring lots of them out from here into\nyour Dyna City.",
+  "en": "or trade cards to increase your Dyna,{KP}\nand bring lots of them out\nfrom here into your Dyna City.",
   "status": "done"
  },
  {
@@ -1540,7 +1540,7 @@
   "flag": 0,
   "speaker": 4,
   "jp": "げんざい　こちらで　あずかっている\nけんちくキットは　ありません",
-  "en": "We are not holding any building kits for\nyou at the moment.",
+  "en": "We are not holding any building\nkits for you at the moment.",
   "status": "done"
  },
  {
@@ -1548,7 +1548,7 @@
   "flag": 0,
   "speaker": 4,
   "jp": "では　げんざい　こちらで　あずかっている\nダイナを　ひょうじします",
-  "en": "Then I will show you the Dyna we are\nholding for you.",
+  "en": "Then I will show you the\nDyna we are holding for you.",
   "status": "done"
  },
  {
@@ -1556,7 +1556,7 @@
   "flag": 0,
   "speaker": 4,
   "jp": "げんざい　こちらで　あずかっている\nダイナは　いません",
-  "en": "We are not holding any Dyna for you at\nthe moment.",
+  "en": "We are not holding any Dyna\nfor you at the moment.",
   "status": "done"
  },
  {
@@ -1596,7 +1596,7 @@
   "flag": 0,
   "speaker": 4,
   "jp": "この　ダイナは　けんこうなので\nちりょうする　ひつようが　ありません",
-  "en": "This Dyna is healthy, so it does not need\ntreatment.",
+  "en": "This Dyna is healthy, so it\ndoes not need treatment.",
   "status": "done"
  },
  {

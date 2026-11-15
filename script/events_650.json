@@ -12,7 +12,7 @@
   "flag": 0,
   "speaker": 4,
   "jp": "Ａボタンを　おすと　１００ビットずつ\nにゅうさつかかくに　うわのせできます{KN}",
-  "en": "Press the A Button to raise your bid by\n100 bits.{KN}",
+  "en": "Press the A Button to\nraise your bid by 100 bits.{KN}",
   "status": "done"
  },
  {
@@ -60,7 +60,7 @@
   "flag": 0,
   "speaker": 4,
   "jp": "ひきだしたい　けんちくキットを\nえらんでください{KN}",
-  "en": "Choose the building kit you want to\nwithdraw.{KN}",
+  "en": "Choose the building kit\nyou want to withdraw.{KN}",
   "status": "done"
  },
  {
@@ -76,7 +76,7 @@
   "flag": 0,
   "speaker": 4,
   "jp": "アイテムが　いっぱいで　もちきれません",
-  "en": "Your items are full. You cannot carry any\nmore.",
+  "en": "Your items are full. You\ncannot carry any more.",
   "status": "done"
  },
  {
@@ -84,7 +84,7 @@
   "flag": 0,
   "speaker": 4,
   "jp": "その　けんちくキットは\nげんざい　あずかっておりません",
-  "en": "We are not holding that building kit for you\nat the moment.",
+  "en": "We are not holding that building\nkit for you at the moment.",
   "status": "done"
  },
  {
@@ -92,7 +92,7 @@
   "flag": 0,
   "speaker": -1,
   "jp": "「{%sR0}」の　データから{KP}\n{%sR1}スタイルの\nダイナが　たんじょうした！",
-  "en": "From the data for \"{%sR0}\",{KP}\na Dyna of the {%sR1} style was\nborn!",
+  "en": "From the data for \"{%sR0}\",{KP}\na Dyna of the {%sR1}\nstyle was born!",
   "status": "done"
  },
  {
@@ -108,7 +108,7 @@
   "flag": 0,
   "speaker": 4,
   "jp": "いま　たんじょうした　{%sR0}は\nこちらで　あずかっておきます{KP}\nなるべくはやめに　ひきとりに\nきてくださいね",
-  "en": "We will hold the newborn {%sR0}\nfor you here.{KP}\nPlease come and pick it up as soon as you\ncan.",
+  "en": "We will hold the newborn\n{%sR0} for you here.{KP}\nPlease come and pick it\nup as soon as you can.",
   "status": "done"
  },
  {
@@ -124,7 +124,7 @@
   "flag": 0,
   "speaker": 4,
   "jp": "もっともっと　じゅうみんを　ふやして\nにぎやかなシティに　してくださいね",
-  "en": "Please bring in more and more residents\nand make it a lively city.",
+  "en": "Please bring in more and more\nresidents and make it a lively city.",
   "status": "done"
  },
  {
@@ -132,7 +132,7 @@
   "flag": 0,
   "speaker": 4,
   "jp": "おひまでしたら　ダイナたちと\nおはなしでも　してきては　いかがですか？",
-  "en": "If you have time, why not go and chat\nwith the Dyna?",
+  "en": "If you have time, why not\ngo and chat with the Dyna?",
   "status": "done"
  },
  {
@@ -140,7 +140,7 @@
   "flag": 0,
   "speaker": 4,
   "jp": "そういえば　コロシアムに　だれか\nまたせているのではないですか？{KP}\nわすれずに　いってあげてくださいね",
-  "en": "By the way, is someone not waiting for you\nat the Colosseum?{KP}\nPlease do not forget to go.",
+  "en": "By the way, is someone not\nwaiting for you at the Colosseum?{KP}\nPlease do not forget to go.",
   "status": "done"
  },
  {
@@ -148,7 +148,7 @@
   "flag": 0,
   "speaker": 4,
   "jp": "どうやら　このシティに　ふしんな\nじんぶつが　しんにゅうしているようです",
-  "en": "It seems a suspicious person has slipped\ninto this city.",
+  "en": "It seems a suspicious person\nhas slipped into this city.",
   "status": "done"
  },
  {
@@ -156,7 +156,7 @@
   "flag": 0,
   "speaker": 4,
   "jp": "もうしわけありませんが　ちょっと\nようすをみてきて　もらえませんか？",
-  "en": "I am sorry, but could you go and take a\nlook?",
+  "en": "I am sorry, but could\nyou go and take a look?",
   "status": "done"
  },
  {
@@ -164,7 +164,7 @@
   "flag": 0,
   "speaker": 4,
   "jp": "そういえば　ユリエさんに　たいかいに\nさそわれたそうですね",
-  "en": "By the way, I hear Yurie-san invited you\nto a tournament.",
+  "en": "By the way, I hear Yurie-san\ninvited you to a tournament.",
   "status": "done"
  },
  {
@@ -172,7 +172,7 @@
   "flag": 0,
   "speaker": 4,
   "jp": "シティの　みんなで　おうえんしています\nがんばってきてくださいね",
-  "en": "Everyone in the city is cheering for you.\nPlease do your best!",
+  "en": "Everyone in the city is cheering\nfor you. Please do your best!",
   "status": "done"
  },
  {
@@ -180,7 +180,7 @@
   "flag": 0,
   "speaker": 4,
   "jp": "そういえば　コロシアムに　だれか\nまたせているのではないですか？{KP}\nわすれずに　いってあげてくださいね",
-  "en": "By the way, is someone not waiting for you\nat the Colosseum?{KP}\nPlease do not forget to go.",
+  "en": "By the way, is someone not\nwaiting for you at the Colosseum?{KP}\nPlease do not forget to go.",
   "status": "done"
  },
  {
@@ -196,7 +196,7 @@
   "flag": 0,
   "speaker": 4,
   "jp": "バトルの　じゅんびが　できたところで\nこえを　かけてみては　どうでしょうか？",
-  "en": "Why not talk to her once you are ready\nfor battle?",
+  "en": "Why not talk to her once\nyou are ready for battle?",
   "status": "done"
  },
  {
@@ -204,7 +204,7 @@
   "flag": 0,
   "speaker": 4,
   "jp": "そういえば　ユリエさんに　たいかいに\nさそわれたそうですね",
-  "en": "By the way, I hear Yurie-san invited you\nto a tournament.",
+  "en": "By the way, I hear Yurie-san\ninvited you to a tournament.",
   "status": "done"
  },
  {
@@ -212,7 +212,7 @@
   "flag": 0,
   "speaker": 4,
   "jp": "シティの　みんなで　おうえんしています\nがんばってきてくださいね",
-  "en": "Everyone in the city is cheering for you.\nPlease do your best!",
+  "en": "Everyone in the city is cheering\nfor you. Please do your best!",
   "status": "done"
  },
  {
@@ -220,7 +220,7 @@
   "flag": 0,
   "speaker": 4,
   "jp": "すみませんが　ダイナたちや\nシティの　ようすを　しらべながら",
-  "en": "I am sorry to ask, but please look into how\nthe Dyna and the city are doing,",
+  "en": "I am sorry to ask, but please look into\nhow the Dyna and the city are doing,",
   "status": "done"
  },
  {
@@ -228,7 +228,7 @@
   "flag": 0,
   "speaker": 4,
   "jp": "なんとか　げんいんを　つきとめて\nここに　れんらくに　きてください",
-  "en": "find the cause somehow, and come back\nhere to let me know.",
+  "en": "find the cause somehow, and\ncome back here to let me know.",
   "status": "done"
  },
  {
@@ -236,7 +236,7 @@
   "flag": 0,
   "speaker": 4,
   "jp": "まだ　ほかにも　ぬいぐるみは\nかくされているようです",
-  "en": "It seems there are still more stuffed toys\nhidden somewhere.",
+  "en": "It seems there are still more\nstuffed toys hidden somewhere.",
   "status": "done"
  },
  {
@@ -252,7 +252,7 @@
   "flag": 0,
   "speaker": 4,
   "jp": "そういえば　コロシアムに　だれか\nまたせているのではないですか？{KP}\nわすれずに　いってあげてくださいね",
-  "en": "By the way, aren't you keeping someone\nwaiting at the Colosseum?{KP}\nPlease do not forget to go and see\nthem.",
+  "en": "By the way, aren't you keeping\nsomeone waiting at the Colosseum?{KP}\nPlease do not forget\nto go and see them.",
   "status": "done"
  },
  {
@@ -260,7 +260,7 @@
   "flag": 0,
   "speaker": 4,
   "jp": "このひと・・・バトルに　かなり\nじしんが　あるみたいです",
-  "en": "This person... seems quite confident in\nbattle.",
+  "en": "This person... seems\nquite confident in battle.",
   "status": "done"
  },
  {
@@ -268,7 +268,7 @@
   "flag": 0,
   "speaker": 4,
   "jp": "こちらも　しっかり　じゅんびしてから\nたたかいを　いどみましょう",
-  "en": "Let us get fully prepared before we take\nup the challenge.",
+  "en": "Let us get fully prepared before\nwe take up the challenge.",
   "status": "done"
  },
  {
@@ -276,7 +276,7 @@
   "flag": 0,
   "speaker": 4,
   "jp": "とにかく　サブウェイに　はいれば\nイッパさんと　ごうりゅう　できるはずです",
-  "en": "In any case, once you enter the subway,\nyou should be able to meet up with{KP}\nIppa-san.",
+  "en": "In any case, once you enter\nthe subway, you should be{KP}\nable to meet up with Ippa-san.",
   "status": "done"
  },
  {
@@ -284,7 +284,7 @@
   "flag": 0,
   "speaker": 4,
   "jp": "バイラーシティは　きけんなところです\nきをつけて　いってきてくださいね",
-  "en": "Byler City is a dangerous place. Please be\ncareful out there.",
+  "en": "Byler City is a dangerous place.\nPlease be careful out there.",
   "status": "done"
  },
  {
@@ -292,7 +292,7 @@
   "flag": 0,
   "speaker": 4,
   "jp": "ジョルナさんは　ぶじでしょうか\nしんぱいです・・・",
-  "en": "I wonder if Jorna-san is all right... I am\nworried...",
+  "en": "I wonder if Jorna-san is\nall right... I am worried...",
   "status": "done"
  },
  {
@@ -300,7 +300,7 @@
   "flag": 0,
   "speaker": 4,
   "jp": "ここで　みなさん　まっていますので\nじゅんびを　ととのえてきてください",
-  "en": "Everyone is waiting here, so please go and\nget ready.",
+  "en": "Everyone is waiting here,\nso please go and get ready.",
   "status": "done"
  },
  {
@@ -308,7 +308,7 @@
   "flag": 0,
   "speaker": 4,
   "jp": "おひまでしたら　ダイナたちと\nおはなしでも　してきては　いかがですか？",
-  "en": "If you have some free time, why not go\nand chat with the Dyna?",
+  "en": "If you have some free time, why\nnot go and chat with the Dyna?",
   "status": "done"
  },
  {
@@ -316,7 +316,7 @@
   "flag": 0,
   "speaker": 4,
   "jp": "そういえば　コロシアムに　だれか\nまたせているのではないですか？{KP}\nわすれずに　いってあげてくださいね",
-  "en": "By the way, aren't you keeping someone\nwaiting at the Colosseum?{KP}\nPlease do not forget to go and see\nthem.",
+  "en": "By the way, aren't you keeping\nsomeone waiting at the Colosseum?{KP}\nPlease do not forget\nto go and see them.",
   "status": "done"
  },
  {
@@ -324,7 +324,7 @@
   "flag": 0,
   "speaker": 4,
   "jp": "そういえば　きょうは　たいかいが\nひらかれるんでしたね",
-  "en": "Oh yes, the tournament is being held\ntoday, is it not?",
+  "en": "Oh yes, the tournament is\nbeing held today, is it not?",
   "status": "done"
  },
  {
@@ -332,7 +332,7 @@
   "flag": 0,
   "speaker": 4,
   "jp": "じゅんびが　できたら　ちかてつから\nかいじょうに　むかってくださいね",
-  "en": "When you are ready, please head to the\nvenue by subway.",
+  "en": "When you are ready, please\nhead to the venue by subway.",
   "status": "done"
  },
  {
@@ -340,7 +340,7 @@
   "flag": 0,
   "speaker": 4,
   "jp": "さきほど　おつたえしたとおり\nヒビの　はいった　セクタが　あります",
-  "en": "As I told you earlier, there is a sector with\na crack in it.",
+  "en": "As I told you earlier, there\nis a sector with a crack in it.",
   "status": "done"
  },
  {
@@ -348,7 +348,7 @@
   "flag": 0,
   "speaker": 4,
   "jp": "じしんを　ふせぐために　セクタを\nうめたてて　ヒビを　けしてください",
-  "en": "To prevent an earthquake, please fill in\nthe sector and get rid of the crack.",
+  "en": "To prevent an earthquake, please fill\nin the sector and get rid of the crack.",
   "status": "done"
  },
  {
@@ -356,7 +356,7 @@
   "flag": 0,
   "speaker": 4,
   "jp": "さきほど　おつたえしたとおり\nみずが　わきだしている　セクタが　あります",
-  "en": "As I told you earlier, there is a sector with\nwater springing up.",
+  "en": "As I told you earlier, there is a\nsector with water springing up.",
   "status": "done"
  },
  {
@@ -364,7 +364,7 @@
   "flag": 0,
   "speaker": 4,
   "jp": "こうずいを　ふせぐために　セクタを\nうめたてて　わきみずを　けしてください",
-  "en": "To prevent a flood, please fill in the\nsector and get rid of the spring.",
+  "en": "To prevent a flood, please fill in\nthe sector and get rid of the spring.",
   "status": "done"
  },
  {
@@ -372,7 +372,7 @@
   "flag": 0,
   "speaker": 4,
   "jp": "さきほど　おつたえしたとおり　きけんな\nじょうたいの　ファクトリーが　あります",
-  "en": "As I told you earlier, there is a Factory in\na dangerous state.",
+  "en": "As I told you earlier, there is\na Factory in a dangerous state.",
   "status": "done"
  },
  {
@@ -380,7 +380,7 @@
   "flag": 0,
   "speaker": 4,
   "jp": "かいはつが　とまっている　ラインを\nストップさせるか",
-  "en": "Please either stop the line whose\ndevelopment has stalled,",
+  "en": "Please either stop the line\nwhose development has stalled,",
   "status": "done"
  },
  {
@@ -388,7 +388,7 @@
   "flag": 0,
   "speaker": 4,
   "jp": "かいはつを　とめている　げんいんを\nとりのぞいてください",
-  "en": "or remove whatever is holding the\ndevelopment up.",
+  "en": "or remove whatever is\nholding the development up.",
   "status": "done"
  },
  {
@@ -396,7 +396,7 @@
   "flag": 0,
   "speaker": 4,
   "jp": "さきほど　おつたえしたとおり　シティの\nえいせいじょうたいが　よくありません",
-  "en": "As I told you earlier, the city's sanitation is\nnot good.",
+  "en": "As I told you earlier, the\ncity's sanitation is not good.",
   "status": "done"
  },
  {
@@ -404,7 +404,7 @@
   "flag": 0,
   "speaker": 4,
   "jp": "ダストの　セクタが　あるようでしたら\nかたづけるようにしてください",
-  "en": "If there are any Dust sectors, please Clean\nUp.",
+  "en": "If there are any Dust\nsectors, please Clean Up.",
   "status": "done"
  },
  {
@@ -412,7 +412,7 @@
   "flag": 0,
   "speaker": 4,
   "jp": "さきほど　おつたえしたとおり\nあばれだしそうな　ダイナが　います",
-  "en": "As I told you earlier, there is a Dyna that\nlooks ready to go wild.",
+  "en": "As I told you earlier, there is a\nDyna that looks ready to go wild.",
   "status": "done"
  },
  {
@@ -420,7 +420,7 @@
   "flag": 0,
   "speaker": 4,
   "jp": "あばれださないうちに　いちど　そとに\nつれだしてあげてください",
-  "en": "Please take it outside once before it starts\nrampaging.",
+  "en": "Please take it outside once\nbefore it starts rampaging.",
   "status": "done"
  },
  {
@@ -436,7 +436,7 @@
   "flag": 0,
   "speaker": 4,
   "jp": "ダイナたちを\nきょうかしておいてください",
-  "en": "so please train up your Dyna in the\nmeantime.",
+  "en": "so please train up your\nDyna in the meantime.",
   "status": "done"
  },
  {
@@ -444,7 +444,7 @@
   "flag": 0,
   "speaker": 4,
   "jp": "いま　このシティに　おきゃくさまが\nいらしているようですね{KP}\nそちらの　ようじは\nもう　おすみなんですか？",
-  "en": "It seems a guest is visiting this city right\nnow.{KP}\nHave you finished your business with them\nyet?",
+  "en": "It seems a guest is\nvisiting this city right now.{KP}\nHave you finished your\nbusiness with them yet?",
   "status": "done"
  },
  {
@@ -532,7 +532,7 @@
   "flag": 0,
   "speaker": 11,
   "jp": "おや？　もちものが　いっぱいで\nこれいじょう　もちきれないようですね・・・{KP}\nてもちの　アイテムを　へらしてから\nまた　いらしてください",
-  "en": "Oh? Your bag is full, so it seems you can't\ncarry any more.{KP}\nPlease come back after you've cut down on\nthe items you're holding.",
+  "en": "Oh? Your bag is full, so it\nseems you can't carry any more.{KP}\nPlease come back after you've cut\ndown on the items you're holding.",
   "status": "done"
  },
  {

@@ -94,9 +94,52 @@ def pad_cols(line):
     return out + line[pos:]
 
 
+def _limit(i, n):
+    """Pixel limit of line i of n in a paragraph: a page's second line and the paragraph's last line hold the ▼."""
+    return lint.LAST_PX if i % 2 or i == n - 1 else lint.LINE_PX
+
+
+def _balance(words, n):
+    """Split words into exactly n lines within their limits, as even as possible (least sum of squared slack
+    against LINE_PX): no one-word widow under a full line. None if they don't fit."""
+    if n < 2:
+        return None
+    w = {}
+
+    def width(a, b):
+        if (a, b) not in w:
+            w[a, b] = lint.line_width(" ".join(words[a:b]))
+        return w[a, b]
+
+    inf = float("inf")
+    cost = [[inf] * (len(words) + 1) for _ in range(n + 1)]
+    back = [[0] * (len(words) + 1) for _ in range(n + 1)]
+    cost[0][0] = 0
+    for i in range(1, n + 1):
+        for b in range(i, len(words) + 1):
+            for a in range(i - 1, b):
+                if cost[i - 1][a] == inf:
+                    continue
+                px = width(a, b)
+                if px > _limit(i - 1, n):
+                    continue
+                c = cost[i - 1][a] + (lint.LINE_PX - px) ** 2
+                if c < cost[i][b]:
+                    cost[i][b], back[i][b] = c, a
+    if cost[n][len(words)] == inf:
+        return None
+    lines, b = [], len(words)
+    for i in range(n, 0, -1):
+        a = back[i][b]
+        lines.append(" ".join(words[a:b]))
+        b = a
+    return lines[::-1]
+
+
 def wrap(text):
     """A message authored as paragraphs (no \\n): {KP} splits pages, words fill lines of LINE_PX, a page's last
-    line LAST_PX, and a page that needs a third line continues on a new page."""
+    line LAST_PX, and a page that needs a third line continues on a new page. The line count is the greedy fill's;
+    the words are then spread evenly over those lines (_balance), so no line ends up holding one stray word."""
     pages = []
     for para in re.split(r"\{KP\}", text):
         words, lines, cur = para.split(), [], ""
@@ -116,6 +159,7 @@ def wrap(text):
             while k > 1 and lint.line_width(" ".join(last[:k])) > lint.LINE_PX:
                 k -= 1
             lines[-1:] = [" ".join(last[:k]), " ".join(last[k:])]
+        lines = _balance(words, len(lines)) or lines
         pages += ["\n".join(lines[i:i + 2]) for i in range(0, len(lines), 2)]
     return "{KP}\n".join(pages)
 

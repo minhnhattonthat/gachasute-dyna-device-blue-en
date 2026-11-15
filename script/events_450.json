@@ -4,7 +4,7 @@
   "flag": 0,
   "speaker": -1,
   "jp": "なぁ？　となりに　{%sR4}タイプの\nヤツが　すんでるだろ？{KP}\nオレはな　{%sR4}タイプが\nどうも　きにくわねぇんだよ",
-  "en": "Hey, one of them {%sR4} types\nlives next door, right?{KP}\nThing is, I can't stand {%sR4}\ntypes.",
+  "en": "Hey, one of them {%sR4}\ntypes lives next door, right?{KP}\nThing is, I can't stand\n{%sR4} types.",
   "status": "done"
  },
  {
@@ -12,7 +12,7 @@
   "flag": 0,
   "speaker": -1,
   "jp": "あいつのいえと　オレのいえは\nちかくにしないでもらえねぇかな？",
-  "en": "Think you could keep their house away\nfrom mine?",
+  "en": "Think you could keep their\nhouse away from mine?",
   "status": "done"
  },
  {
@@ -20,7 +20,7 @@
   "flag": 0,
   "speaker": -1,
   "jp": "ここの　となりに　{%sR4}タイプが\nすんでいるな？{KP}\nわたしは　{%sR4}タイプとは\nあわないのだ",
-  "en": "A Dyna of the {%sR4} type lives\nnext door, does it not?{KP}\nI do not get on with {%sR4}\ntypes.",
+  "en": "A Dyna of the {%sR4}\ntype lives next door, does it not?{KP}\nI do not get on with\n{%sR4} types.",
   "status": "done"
  },
  {
@@ -28,7 +28,7 @@
   "flag": 0,
   "speaker": -1,
   "jp": "すみやかに　わたしのいえと　あのいえの\nばしょを　とおくに　はなしてもらいたい",
-  "en": "Move my house and that house far apart\nat once.",
+  "en": "Move my house and that\nhouse far apart at once.",
   "status": "done"
  },
  {
@@ -36,7 +36,7 @@
   "flag": 0,
   "speaker": -1,
   "jp": "ここの　となりに　{%sR4}タイプの\nひとが　すんでるでしょ？{KP}\nわたしねぇ　{%sR4}タイプって\nどうも　にがてなのよねー・・・",
-  "en": "Someone of the {%sR4} type lives\nnext door, right?{KP}\nI'm just not good with {%sR4}\ntypes...",
+  "en": "Someone of the {%sR4}\ntype lives next door, right?{KP}\nI'm just not good with\n{%sR4} types...",
   "status": "done"
  },
  {
@@ -44,7 +44,7 @@
   "flag": 0,
   "speaker": -1,
   "jp": "ねぇ　わたしのいえと　あのひとのいえ\nばしょ　はなしてもらえないかな？",
-  "en": "Hey, could you move my house away from\ntheirs?",
+  "en": "Hey, could you move my\nhouse away from theirs?",
   "status": "done"
  },
  {
@@ -52,7 +52,7 @@
   "flag": 0,
   "speaker": -1,
   "jp": "ここの　いえに　{%sR4}タイプの\nかたが　すんでらしゃいますよね？{KP}\nじつは　わたし　{%sR4}タイプが\nどうも　にがてなんです・・・",
-  "en": "Someone of the {%sR4} type lives\nin this house too, yes?{KP}\nTo be honest, I do not get along with\n{%sR4} types...",
+  "en": "Someone of the {%sR4}\ntype lives in this house too, yes?{KP}\nTo be honest, I do not get\nalong with {%sR4} types...",
   "status": "done"
  },
  {
@@ -60,7 +60,7 @@
   "flag": 0,
   "speaker": -1,
   "jp": "なんとか　わたしのいえと　あのかたのいえは\nべつにしてもらえないでしょうか？",
-  "en": "Could you somehow give me a house of my\nown?",
+  "en": "Could you somehow give\nme a house of my own?",
   "status": "done"
  },
  {
@@ -68,7 +68,7 @@
   "flag": 0,
   "speaker": -1,
   "jp": "なぁ？　ここに　{%sR4}タイプの\nヤツが　すんでるだろ？{KP}\nオレはな　{%sR4}タイプが\nどうも　きにくわねぇんだよ",
-  "en": "Hey, one of them {%sR4} types\nlives here too, right?{KP}\nThing is, I can't stand {%sR4}\ntypes.",
+  "en": "Hey, one of them {%sR4}\ntypes lives here too, right?{KP}\nThing is, I can't stand\n{%sR4} types.",
   "status": "done"
  },
  {
@@ -76,7 +76,7 @@
   "flag": 0,
   "speaker": -1,
   "jp": "あいつのいえと　オレのいえは\nいっしょにしないでもらえねぇかな？",
-  "en": "Think you could not stick me in the same\nhouse with 'em?",
+  "en": "Think you could not stick me\nin the same house with 'em?",
   "status": "done"
  },
  {
@@ -84,7 +84,7 @@
   "flag": 0,
   "speaker": -1,
   "jp": "ここの　いえに　{%sR4}タイプが\nすんでいるな？{KP}\nわたしは　{%sR4}タイプとは\nあわないのだ",
-  "en": "A Dyna of the {%sR4} type lives in\nthis house too, does it not?{KP}\nI do not get on with {%sR4}\ntypes.",
+  "en": "A Dyna of the {%sR4} type\nlives in this house too, does it not?{KP}\nI do not get on with\n{%sR4} types.",
   "status": "done"
  },
  {
@@ -100,7 +100,7 @@
   "flag": 0,
   "speaker": -1,
   "jp": "ここの　いえに　{%sR4}タイプの\nひとが　すんでるでしょ？{KP}\nわたしねぇ　{%sR4}タイプって\nどうも　にがてなのよねー・・・",
-  "en": "Someone of the {%sR4} type lives\nin this house too, right?{KP}\nI'm just not good with {%sR4}\ntypes...",
+  "en": "Someone of the {%sR4}\ntype lives in this house too, right?{KP}\nI'm just not good with\n{%sR4} types...",
   "status": "done"
  },
  {
@@ -116,7 +116,7 @@
   "flag": 0,
   "speaker": -1,
   "jp": "ここの　まわりに　{%sR4}の\nセクタが　ありますよね？{KP}\nじつは　わたし　{%sR4}の\nセクタが　にがてなんです・・・",
-  "en": "There are {%sR4} sectors near\nhere, yes?{KP}\nTo be honest, I do not like {%sR4}\nsectors...",
+  "en": "There are {%sR4}\nsectors near here, yes?{KP}\nTo be honest, I do not like\n{%sR4} sectors...",
   "status": "done"
  },
  {
@@ -124,7 +124,7 @@
   "flag": 0,
   "speaker": -1,
   "jp": "なんとか　ほかの　セクタタイプに\nかえては　もらえないでしょうか？{KP}\nたとえば　{%sR5}の\nセクタに　なったりすると　うれしいです",
-  "en": "Could you possibly change it to another\nsector type?{KP}\nI would be very happy with {%sR5}\nsectors, for example.",
+  "en": "Could you possibly change\nit to another sector type?{KP}\nI would be very happy with\n{%sR5} sectors, for example.",
   "status": "done"
  },
  {
@@ -132,7 +132,7 @@
   "flag": 0,
   "speaker": -1,
   "jp": "ここの　まわりに　{%sR4}の\nセクタが　あるだろ？{KP}\nオレはな　{%sR4}の　セクタとは\nどうにも　あわねぇんだよ",
-  "en": "There's {%sR4} sectors round here,\nright?{KP}\nThing is, me and {%sR4} sectors\njust don't mix.",
+  "en": "There's {%sR4}\nsectors round here, right?{KP}\nThing is, me and {%sR4}\nsectors just don't mix.",
   "status": "done"
  },
  {
@@ -140,7 +140,7 @@
   "flag": 0,
   "speaker": -1,
   "jp": "なんとかして　ほかの　セクタタイプに\nかえてくれねぇかな？{KP}\nオレは　{%sR5}の\nセクタとか　すきだぜ",
-  "en": "Can't you change 'em to some other sector\ntype?{KP}\nMe, I like {%sR5} sectors and\nstuff.",
+  "en": "Can't you change 'em to\nsome other sector type?{KP}\nMe, I like {%sR5}\nsectors and stuff.",
   "status": "done"
  },
  {
@@ -148,7 +148,7 @@
   "flag": 0,
   "speaker": -1,
   "jp": "ここの　まわりに　{%sR4}の\nセクタが　あるな？{KP}\nわたしは　{%sR4}の　セクタとは\nあわないのだ",
-  "en": "There are {%sR4} sectors around\nhere, are there not?{KP}\nI do not get on with {%sR4}\nsectors.",
+  "en": "There are {%sR4} sectors\naround here, are there not?{KP}\nI do not get on with\n{%sR4} sectors.",
   "status": "done"
  },
  {
@@ -156,7 +156,7 @@
   "flag": 0,
   "speaker": -1,
   "jp": "すみやかに　ほかの　セクタタイプに\nへんこうしてもらいたい{KP}\nちなみに　わたしに　あっているのは\n{%sR5}の　セクタなどだ",
-  "en": "Change them to another sector type at\nonce.{KP}\nFor reference, {%sR5} sectors and\nthe like suit me.",
+  "en": "Change them to another\nsector type at once.{KP}\nFor reference, {%sR5}\nsectors and the like suit me.",
   "status": "done"
  },
  {
@@ -164,7 +164,7 @@
   "flag": 0,
   "speaker": -1,
   "jp": "ここの　まわりに　{%sR4}の\nセクタが　あるでしょ？{KP}\nわたし　{%sR4}の　セクタって\nどうも　にがてなのよねー・・・",
-  "en": "There are {%sR4} sectors around\nhere, right?{KP}\nI'm just not good with {%sR4}\nsectors...",
+  "en": "There are {%sR4}\nsectors around here, right?{KP}\nI'm just not good with\n{%sR4} sectors...",
   "status": "done"
  },
  {
@@ -172,7 +172,7 @@
   "flag": 0,
   "speaker": -1,
   "jp": "ねぇ　ほかの　セクタタイプに\nかえてもらえないかな？{KP}\nそうねぇ・・・{%sR5}の\nセクタとかだと　うれしいな",
-  "en": "Hey, could you change them to another\nsector type?{KP}\nHmm... {%sR5} sectors would make\nme happy!",
+  "en": "Hey, could you change them\nto another sector type?{KP}\nHmm... {%sR5} sectors\nwould make me happy!",
   "status": "done"
  },
  {
@@ -180,7 +180,7 @@
   "flag": 0,
   "speaker": -1,
   "jp": "さっき　このいえのまえで\n{%sR4}を　みかけました{KP}\nどうやら　{%sR5}を\nしにきていたみたいでしたね",
-  "en": "I saw {%sR4} in front of this house\na moment ago.{KP}\nIt looks like they came over for\n{%sR5}.",
+  "en": "I saw {%sR4} in front\nof this house a moment ago.{KP}\nIt looks like they came\nover for {%sR5}.",
   "status": "done"
  },
  {
@@ -188,7 +188,7 @@
   "flag": 0,
   "speaker": -1,
   "jp": "さっき　このいえのまえで\n{%sR4}を　みかけたぜ{KP}\nどうも　{%sR5}を\nしにきたみたいだったな",
-  "en": "I saw {%sR4} in front of this house\njust now.{KP}\nLooks like they came over for\n{%sR5}.",
+  "en": "I saw {%sR4} in\nfront of this house just now.{KP}\nLooks like they came\nover for {%sR5}.",
   "status": "done"
  },
  {
@@ -196,7 +196,7 @@
   "flag": 0,
   "speaker": -1,
   "jp": "さっき　このいえのまえで\n{%sR4}を　みかけたぞ{KP}\nどうやら　{%sR5}を\nしにきていたようだな",
-  "en": "I saw {%sR4} in front of this house\na moment ago.{KP}\nThey seem to have come for\n{%sR5}.",
+  "en": "I saw {%sR4} in front\nof this house a moment ago.{KP}\nThey seem to have\ncome for {%sR5}.",
   "status": "done"
  },
  {
@@ -204,7 +204,7 @@
   "flag": 0,
   "speaker": -1,
   "jp": "さっき　このいえのまえで\n{%sR4}を　みかけたわ{KP}\nなんか　{%sR5}を\nしにきてたみたいね",
-  "en": "I saw {%sR4} in front of this house\njust now.{KP}\nLooks like they came over for\n{%sR5} or something.",
+  "en": "I saw {%sR4} in\nfront of this house just now.{KP}\nLooks like they came over for\n{%sR5} or something.",
   "status": "done"
  },
  {
@@ -212,7 +212,7 @@
   "flag": 0,
   "speaker": -1,
   "jp": "さっき　このいえのまえで\n{%sR3}を　みかけました{KP}\nどうやら　{%sR4}と\n{%sR5}していたようです",
-  "en": "I saw {%sR3} in front of this house\na moment ago.{KP}\nIt seems they were with {%sR4},\nbusy with {%sR5}.",
+  "en": "I saw {%sR3} in front\nof this house a moment ago.{KP}\nIt seems they were with {%sR4},\nbusy with {%sR5}.",
   "status": "done"
  },
  {
@@ -220,7 +220,7 @@
   "flag": 0,
   "speaker": -1,
   "jp": "さっき　このいえのまえで\n{%sR3}を　みかけたぜ{KP}\nどうも　{%sR4}と\n{%sR5}してたみたいだな",
-  "en": "I saw {%sR3} in front of this house\njust now.{KP}\nLooks like they were with {%sR4},\nbusy with {%sR5}.",
+  "en": "I saw {%sR3} in\nfront of this house just now.{KP}\nLooks like they were with {%sR4},\nbusy with {%sR5}.",
   "status": "done"
  },
  {
@@ -228,7 +228,7 @@
   "flag": 0,
   "speaker": -1,
   "jp": "さっき　このいえのまえで\n{%sR3}を　みかけたぞ{KP}\nどうやら　{%sR4}と\n{%sR5}していたようだな",
-  "en": "I saw {%sR3} in front of this house\na moment ago.{KP}\nThey seem to have been with\n{%sR4}, busy with{KP}\n{%sR5}.",
+  "en": "I saw {%sR3} in front\nof this house a moment ago.{KP}\nThey seem to have been\nwith {%sR4},{KP}\nbusy with {%sR5}.",
   "status": "done"
  },
  {
@@ -236,7 +236,7 @@
   "flag": 0,
   "speaker": -1,
   "jp": "さっき　このいえのまえで\n{%sR3}を　みかけたわ{KP}\nなんか　{%sR4}と\n{%sR5}してたみたいだったわ",
-  "en": "I saw {%sR3} in front of this house\njust now.{KP}\nLooks like they were with {%sR4},\nbusy with {%sR5} or something.",
+  "en": "I saw {%sR3} in\nfront of this house just now.{KP}\nLooks like they were with {%sR4},\nbusy with {%sR5} or something.",
   "status": "done"
  },
  {
@@ -244,7 +244,7 @@
   "flag": 0,
   "speaker": -1,
   "jp": "さっき　このいえのまえで\n{%sR3}を　みかけました{KP}\nそういえば　あのひとって\n{%sR4}と　なかがいいらしいですね",
-  "en": "I saw {%sR3} in front of this house\na moment ago.{KP}\nCome to think of it, I hear they get along\nwell with {%sR4}.",
+  "en": "I saw {%sR3} in front\nof this house a moment ago.{KP}\nCome to think of it, I hear they\nget along well with {%sR4}.",
   "status": "done"
  },
  {
@@ -252,7 +252,7 @@
   "flag": 0,
   "speaker": -1,
   "jp": "さっき　このいえのまえで\n{%sR3}を　みかけたぜ{KP}\nそういえば　あいつ\n{%sR4}と　なかがいいんだってな",
-  "en": "I saw {%sR3} in front of this house\njust now.{KP}\nCome to think of it, I hear they're buddies\nwith {%sR4}.",
+  "en": "I saw {%sR3} in\nfront of this house just now.{KP}\nCome to think of it, I hear they're\nbuddies with {%sR4}.",
   "status": "done"
  },
  {
@@ -260,7 +260,7 @@
   "flag": 0,
   "speaker": -1,
   "jp": "さっき　このいえのまえで\n{%sR3}を　みかけたぞ{KP}\nそういえば　あいつは\n{%sR4}と　なかがいいらしいな",
-  "en": "I saw {%sR3} in front of this house\na moment ago.{KP}\nCome to think of it, they are said to be on\ngood terms with {%sR4}.",
+  "en": "I saw {%sR3} in front\nof this house a moment ago.{KP}\nCome to think of it, they are said to\nbe on good terms with {%sR4}.",
   "status": "done"
  },
  {
@@ -268,7 +268,7 @@
   "flag": 0,
   "speaker": -1,
   "jp": "さっき　このいえのまえで\n{%sR3}を　みかけたわ{KP}\nそういえば　あのひとって\n{%sR4}と　なかよしなんだって",
-  "en": "I saw {%sR3} in front of this house\njust now.{KP}\nCome to think of it, I hear they're best\nfriends with {%sR4}!",
+  "en": "I saw {%sR3} in\nfront of this house just now.{KP}\nCome to think of it, I hear they're\nbest friends with {%sR4}!",
   "status": "done"
  },
  {
@@ -276,7 +276,7 @@
   "flag": 0,
   "speaker": -1,
   "jp": "さっき　このいえのまえで\n{%sR3}を　みかけました{KP}\nあのひとって　{%sR4}と\nライバルかんけいらしいですね",
-  "en": "I saw {%sR3} in front of this house\na moment ago.{KP}\nApparently they and {%sR4} are\nrivals.",
+  "en": "I saw {%sR3} in front\nof this house a moment ago.{KP}\nApparently they and\n{%sR4} are rivals.",
   "status": "done"
  },
  {
@@ -284,7 +284,7 @@
   "flag": 0,
   "speaker": -1,
   "jp": "さっき　このいえのまえで\n{%sR3}を　みかけたぜ{KP}\nあいつ　{%sR4}と\nライバルかんけいなんだってな",
-  "en": "I saw {%sR3} in front of this house\njust now.{KP}\nWord is, they and {%sR4} are\nrivals.",
+  "en": "I saw {%sR3} in\nfront of this house just now.{KP}\nWord is, they and\n{%sR4} are rivals.",
   "status": "done"
  },
  {
@@ -292,7 +292,7 @@
   "flag": 0,
   "speaker": -1,
   "jp": "さっき　このいえのまえで\n{%sR3}を　みかけたぞ{KP}\nあいつは　{%sR4}と\nライバルかんけいらしいな",
-  "en": "I saw {%sR3} in front of this house\na moment ago.{KP}\nThey and {%sR4} are said to be\nrivals.",
+  "en": "I saw {%sR3} in front\nof this house a moment ago.{KP}\nThey and {%sR4}\nare said to be rivals.",
   "status": "done"
  },
  {
@@ -300,7 +300,7 @@
   "flag": 0,
   "speaker": -1,
   "jp": "さっき　このいえのまえで\n{%sR3}を　みかけたわ{KP}\nあのひとって　{%sR4}と\nライバルかんけいなんだって",
-  "en": "I saw {%sR3} in front of this house\njust now.{KP}\nI hear they and {%sR4} are\nrivals!",
+  "en": "I saw {%sR3} in\nfront of this house just now.{KP}\nI hear they and\n{%sR4} are rivals!",
   "status": "done"
  },
  {
@@ -308,7 +308,7 @@
   "flag": 0,
   "speaker": -1,
   "jp": "ウワサに　きいたんですが\nじつは　{%sR3}は・・・{KP}\n{%sR4}で　{%sR5}\nするのが　シュミなんだそうです",
-  "en": "I heard a rumor... It seems\n{%sR3}...{KP}\nloves going to {%sR4} for\n{%sR5}.",
+  "en": "I heard a rumor... It\nseems {%sR3}...{KP}\nloves going to {%sR4}\nfor {%sR5}.",
   "status": "done"
  },
  {
@@ -316,7 +316,7 @@
   "flag": 0,
   "speaker": -1,
   "jp": "ウワサに　きいたんだけどよ\nじつは　{%sR3}は・・・{KP}\n{%sR4}で　{%sR5}\nするのが　シュミらしいぜ",
-  "en": "I heard a rumor, see... Turns out\n{%sR3}...{KP}\nloves going to {%sR4} for\n{%sR5}!",
+  "en": "I heard a rumor, see...\nTurns out {%sR3}...{KP}\nloves going to {%sR4}\nfor {%sR5}!",
   "status": "done"
  },
  {
@@ -324,7 +324,7 @@
   "flag": 0,
   "speaker": -1,
   "jp": "ウワサに　きいたんだが\nじつは　{%sR3}は・・・{KP}\n{%sR4}で　{%sR5}\nするのが　シュミなんだそうだ",
-  "en": "I heard a rumor... It seems\n{%sR3}...{KP}\nloves going to {%sR4} for\n{%sR5}.",
+  "en": "I heard a rumor... It\nseems {%sR3}...{KP}\nloves going to {%sR4}\nfor {%sR5}.",
   "status": "done"
  },
  {
@@ -332,7 +332,7 @@
   "flag": 0,
   "speaker": -1,
   "jp": "ウワサに　きいたんだけど\nじつは　{%sR3}って・・・{KP}\n{%sR4}で　{%sR5}\nするのが　シュミなんですって",
-  "en": "I heard a rumor... Guess what?\n{%sR3}...{KP}\nloves going to {%sR4} for\n{%sR5}!",
+  "en": "I heard a rumor... Guess\nwhat? {%sR3}...{KP}\nloves going to {%sR4}\nfor {%sR5}!",
   "status": "done"
  },
  {
@@ -340,7 +340,7 @@
   "flag": 0,
   "speaker": -1,
   "jp": "ウワサに　きいたんですが\nじつは　{%sR4}は・・・{KP}\n{%sR4}キックという　\nひっさつわざを　もっているらしいですよ",
-  "en": "I heard a rumor... It seems\n{%sR4}...{KP}\nhas a special move called the\n{%sR4} Kick!",
+  "en": "I heard a rumor... It\nseems {%sR4}...{KP}\nhas a special move called\nthe {%sR4} Kick!",
   "status": "done"
  },
  {
@@ -348,7 +348,7 @@
   "flag": 0,
   "speaker": -1,
   "jp": "ウワサに　きいたんだけどよ\nじつは　{%sR4}は・・・{KP}\n{%sR4}キックという　\nひっさつわざを　もっているらしいぜ",
-  "en": "I heard a rumor, see... Turns out\n{%sR4}...{KP}\nhas a special move called the\n{%sR4} Kick!",
+  "en": "I heard a rumor, see...\nTurns out {%sR4}...{KP}\nhas a special move called\nthe {%sR4} Kick!",
   "status": "done"
  },
  {
@@ -356,7 +356,7 @@
   "flag": 0,
   "speaker": -1,
   "jp": "ウワサに　きいたんだが\nじつは　{%sR4}は・・・{KP}\n{%sR4}キックという　\nひっさつわざを　もっているらしいな",
-  "en": "I heard a rumor... It seems\n{%sR4}...{KP}\nhas a special move called the\n{%sR4} Kick.",
+  "en": "I heard a rumor... It\nseems {%sR4}...{KP}\nhas a special move called\nthe {%sR4} Kick.",
   "status": "done"
  },
  {
@@ -364,7 +364,7 @@
   "flag": 0,
   "speaker": -1,
   "jp": "ウワサに　きいたんだけど\nじつは　{%sR4}って・・・{KP}\n{%sR4}キックという　\nひっさつわざを　もっているらしいわ",
-  "en": "I heard a rumor... Guess what?\n{%sR4}...{KP}\nhas a special move called the\n{%sR4} Kick!",
+  "en": "I heard a rumor... Guess\nwhat? {%sR4}...{KP}\nhas a special move called\nthe {%sR4} Kick!",
   "status": "done"
  },
  {
@@ -372,7 +372,7 @@
   "flag": 0,
   "speaker": -1,
   "jp": "ウワサに　きいたんですが\nじつは　{%sR4}は・・・{KP}\n{%sR5}あつめに　\nこっているらしいですよ",
-  "en": "I heard a rumor... It seems\n{%sR4}...{KP}\nis really into collecting {%sR5}.",
+  "en": "I heard a rumor... It\nseems {%sR4}...{KP}\nis really into collecting {%sR5}.",
   "status": "done"
  },
  {
@@ -380,7 +380,7 @@
   "flag": 0,
   "speaker": -1,
   "jp": "ウワサに　きいたんだけどよ\nじつは　{%sR4}は・・・{KP}\n{%sR5}あつめに　\nこってるらしいぜ",
-  "en": "I heard a rumor, see... Turns out\n{%sR4}...{KP}\nis really into collectin' {%sR5}!",
+  "en": "I heard a rumor, see...\nTurns out {%sR4}...{KP}\nis really into collectin' {%sR5}!",
   "status": "done"
  },
  {
@@ -388,7 +388,7 @@
   "flag": 0,
   "speaker": -1,
   "jp": "ウワサに　きいたんだが\nじつは　{%sR4}は・・・{KP}\n{%sR5}あつめに　\nこっているらしいな",
-  "en": "I heard a rumor... It seems\n{%sR4}...{KP}\nis quite devoted to collecting\n{%sR5}.",
+  "en": "I heard a rumor... It\nseems {%sR4}...{KP}\nis quite devoted to\ncollecting {%sR5}.",
   "status": "done"
  },
  {
@@ -396,7 +396,7 @@
   "flag": 0,
   "speaker": -1,
   "jp": "ウワサに　きいたんだけど\nじつは　{%sR4}って・・・{KP}\n{%sR5}あつめに　\nこってるらしいわ",
-  "en": "I heard a rumor... Guess what?\n{%sR4}...{KP}\nis really into collecting {%sR5}!",
+  "en": "I heard a rumor... Guess\nwhat? {%sR4}...{KP}\nis really into collecting {%sR5}!",
   "status": "done"
  },
  {
@@ -404,7 +404,7 @@
   "flag": 0,
   "speaker": -1,
   "jp": "ウワサに　きいたんですが\nじつは　{%sR4}は・・・{KP}\nむかし　{%sR5}たいかいで\nゆうしょうしたことが　あるらしいです",
-  "en": "I heard a rumor... It seems\n{%sR4}...{KP}\nonce won the {%sR5}\ntournament.",
+  "en": "I heard a rumor... It\nseems {%sR4}...{KP}\nonce won the\n{%sR5} tournament.",
   "status": "done"
  },
  {
@@ -412,7 +412,7 @@
   "flag": 0,
   "speaker": -1,
   "jp": "ウワサに　きいたんだけどよ\nじつは　{%sR4}は・・・{KP}\nむかし　{%sR5}たいかいで\nゆうしょうしたことが　あるんだとよ",
-  "en": "I heard a rumor, see... Turns out\n{%sR4}...{KP}\nonce won the {%sR5}\ntournament!",
+  "en": "I heard a rumor, see...\nTurns out {%sR4}...{KP}\nonce won the\n{%sR5} tournament!",
   "status": "done"
  },
  {
@@ -420,7 +420,7 @@
   "flag": 0,
   "speaker": -1,
   "jp": "ウワサに　きいたんだが\nじつは　{%sR4}は・・・{KP}\nむかし　{%sR5}たいかいで\nゆうしょうしたことが　あるそうだ",
-  "en": "I heard a rumor... It seems\n{%sR4}...{KP}\nonce won the {%sR5}\ntournament.",
+  "en": "I heard a rumor... It\nseems {%sR4}...{KP}\nonce won the\n{%sR5} tournament.",
   "status": "done"
  },
  {
@@ -428,7 +428,7 @@
   "flag": 0,
   "speaker": -1,
   "jp": "ウワサに　きいたんだけど\nじつは　{%sR4}って・・・{KP}\nむかし　{%sR5}たいかいで\nゆうしょうしたことが　あるんだって",
-  "en": "I heard a rumor... Guess what?\n{%sR4}...{KP}\nonce won the {%sR5}\ntournament!",
+  "en": "I heard a rumor... Guess\nwhat? {%sR4}...{KP}\nonce won the\n{%sR5} tournament!",
   "status": "done"
  },
  {
@@ -436,7 +436,7 @@
   "flag": 0,
   "speaker": -1,
   "jp": "そういえば　さっき\n{%sR4}に　きいたんですが{KP}\nきょうは　{%sR5}のひ　だから\nみんなで　{%sR5}するそうですね",
-  "en": "Oh, I just heard from {%sR4}{KP}\nthat today is {%sR5} Day, so\neveryone is enjoying {%sR5}{KP}\ntogether.",
+  "en": "Oh, I just heard from {%sR4}{KP}\nthat today is {%sR5}\nDay, so everyone is enjoying{KP}\n{%sR5} together.",
   "status": "done"
  },
  {
@@ -444,7 +444,7 @@
   "flag": 0,
   "speaker": -1,
   "jp": "そういえば　さっき\n{%sR4}に　きいたんだがよ{KP}\nきょうは　{%sR5}のひ　だから\nみんなで　{%sR5}するんだってな",
-  "en": "Oh yeah, I just heard from\n{%sR4}{KP}\nthat today's {%sR5} Day, so\neverybody's enjoyin' {%sR5}{KP}\ntogether!",
+  "en": "Oh yeah, I just heard\nfrom {%sR4}{KP}\nthat today's {%sR5}\nDay, so everybody's enjoyin'{KP}\n{%sR5} together!",
   "status": "done"
  },
  {
@@ -452,7 +452,7 @@
   "flag": 0,
   "speaker": -1,
   "jp": "そういえば　さっき\n{%sR4}に　きいたんだが{KP}\nきょうは　{%sR5}のひ　だから\nみんなで　{%sR5}するそうだな",
-  "en": "Incidentally, I just heard from\n{%sR4}{KP}\nthat today is {%sR5} Day, so\neveryone shall enjoy {%sR5}{KP}\ntogether.",
+  "en": "Incidentally, I just heard\nfrom {%sR4}{KP}\nthat today is {%sR5}\nDay, so everyone shall enjoy{KP}\n{%sR5} together.",
   "status": "done"
  },
  {
@@ -460,7 +460,7 @@
   "flag": 0,
   "speaker": -1,
   "jp": "そういえば　さっき\n{%sR4}に　きいたんだけど{KP}\nきょうは　{%sR5}のひ　だから\nみんなで　{%sR5}するそうね",
-  "en": "Oh, I just heard from {%sR4}{KP}\nthat today's {%sR5} Day, so\neveryone's enjoying {%sR5}{KP}\ntogether!",
+  "en": "Oh, I just heard from {%sR4}{KP}\nthat today's {%sR5}\nDay, so everyone's enjoying{KP}\n{%sR5} together!",
   "status": "done"
  },
  {
@@ -468,7 +468,7 @@
   "flag": 0,
   "speaker": -1,
   "jp": "そういえば　さっき\n{%sR4}に　あいましたよ{KP}\nなんでも　でんせつの　{%sR5}を\nさがす　たびに　でるのだそうです",
-  "en": "Oh, I met {%sR4} a little while\nago.{KP}\nIt seems they are setting off on a journey\nto find the legendary {%sR5}.",
+  "en": "Oh, I met {%sR4}\na little while ago.{KP}\nIt seems they are setting off on a journey\nto find the legendary {%sR5}.",
   "status": "done"
  },
  {
@@ -476,7 +476,7 @@
   "flag": 0,
   "speaker": -1,
   "jp": "そういえば　さっき\n{%sR4}に　あったぜ{KP}\nなんでも　でんせつの　{%sR5}を\nさがす　たびに　でるんだとよ",
-  "en": "Oh yeah, I ran into {%sR4} just\nnow.{KP}\nSays they're headin' off on a journey to\nfind the legendary {%sR5}!",
+  "en": "Oh yeah, I ran into\n{%sR4} just now.{KP}\nSays they're headin' off on a journey\nto find the legendary {%sR5}!",
   "status": "done"
  },
  {
@@ -484,7 +484,7 @@
   "flag": 0,
   "speaker": -1,
   "jp": "そういえば　さっき\n{%sR4}に　あったぞ{KP}\nなんでも　でんせつの　{%sR5}を\nさがす　たびに　でるのだそうだ",
-  "en": "Incidentally, I met {%sR4} a\nmoment ago.{KP}\nIt seems they are setting off on a journey\nto find the legendary {%sR5}.",
+  "en": "Incidentally, I met\n{%sR4} a moment ago.{KP}\nIt seems they are setting off on a journey\nto find the legendary {%sR5}.",
   "status": "done"
  }
 ]

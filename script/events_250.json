@@ -76,7 +76,7 @@
   "flag": 0,
   "speaker": -1,
   "jp": "ダイナ　または　トラップが\nそんざいする　ポイントを　みぬいた！{KN}",
-  "en": "Found the points where a Dyna or trap\nis!{KN}",
+  "en": "Found the points where\na Dyna or trap is!{KN}",
   "status": "done"
  },
  {
@@ -92,7 +92,7 @@
   "flag": 0,
   "speaker": -1,
   "jp": "{%sR4}は\nとくしゅコマンドはつかえません{KN}",
-  "en": "{%sR4} can't use the Special\ncommand.{KN}",
+  "en": "{%sR4} can't\nuse the Special command.{KN}",
   "status": "done"
  },
  {
@@ -100,7 +100,7 @@
   "flag": 0,
   "speaker": -1,
   "jp": "ステータスを　みたい　ダイナを\nせんたくしてください{KN}",
-  "en": "Please choose the Dyna whose status you\nwant to see.{KN}",
+  "en": "Please choose the Dyna whose\nstatus you want to see.{KN}",
   "status": "done"
  },
  {
@@ -180,7 +180,7 @@
   "flag": 0,
   "speaker": 2,
   "jp": "がははは！　やはり　このあいだの　けっかは\nなにかの　まちがいだったようだな！",
-  "en": "Gahahaha! Looks like last time's result was\nsome kind of mistake after all!",
+  "en": "Gahahaha! Looks like last time's result\nwas some kind of mistake after all!",
   "status": "done"
  },
  {
@@ -188,7 +188,7 @@
   "flag": 0,
   "speaker": 2,
   "jp": "もうちょい　マシな　デバイスつけて\nでなおしてこい！{KN}",
-  "en": "Go put on some better Devices and come\nback!{KN}",
+  "en": "Go put on some better\nDevices and come back!{KN}",
   "status": "done"
  },
  {
@@ -196,7 +196,7 @@
   "flag": 0,
   "speaker": 6,
   "jp": "フヒヒヒヒヒ！　ビビッて　ソンしたデス！\nアンタ　ヨワい！　ヨワすぎデス！",
-  "en": "Fuhihihihihi! I got scared for nothing,\ndesu!{KP}\nYou're weak! Way too weak, desu!",
+  "en": "Fuhihihihihi! I got scared\nfor nothing, desu!{KP}\nYou're weak! Way too weak, desu!",
   "status": "done"
  },
  {
@@ -220,7 +220,7 @@
   "flag": 0,
   "speaker": 9,
   "jp": "また　さらに　ダイナを　そだてて\nリベンジに　くることを　きたいしましょう！{KN}",
-  "en": "Let's hope to see this player raise their\nDyna even more{KP}\nand come back for revenge!{KN}",
+  "en": "Let's hope to see this player\nraise their Dyna even more{KP}\nand come back for revenge!{KN}",
   "status": "done"
  },
  {
@@ -236,7 +236,7 @@
   "flag": 0,
   "speaker": 7,
   "jp": "なんどやっても　おなじだと　おもうけどぉ\n・・・・・・まだ　やるぅ？{KN}",
-  "en": "I think it'll be the same no matter how\nmany times you try, but...{KP}\n......still want to gooo?{KN}",
+  "en": "I think it'll be the same no matter\nhow many times you try, but...{KP}\n......still want to gooo?{KN}",
   "status": "done"
  },
  {
@@ -284,7 +284,7 @@
   "flag": 0,
   "speaker": 6,
   "jp": "アンタの　ホンキは　しょせん\nそんなものなのデスかァー？{KN}",
-  "en": "Is that all your \"serious\" amounts to,\ndesuuu?{KN}",
+  "en": "Is that all your \"serious\"\namounts to, desuuu?{KN}",
   "status": "done"
  },
  {
@@ -308,7 +308,7 @@
   "flag": 0,
   "speaker": 8,
   "jp": "・・・チッ　てこずらせやがって・・・\nこれで　ちからの　さが　わかっただろう",
-  "en": "...Tch. You gave me some trouble...{KP}\nNow you know the difference in our\nstrength.",
+  "en": "...Tch. You gave me some trouble...{KP}\nNow you know the\ndifference in our strength.",
   "status": "done"
  },
  {
@@ -348,7 +348,7 @@
   "flag": 0,
   "speaker": -1,
   "jp": "{%sR4}は　えんごこうげきの\nかまえを　ときました！{KN}",
-  "en": "{%sR4} dropped its Support Attack\nstance!{KN}",
+  "en": "{%sR4} dropped\nits Support Attack stance!{KN}",
   "status": "done"
  },
  {
@@ -372,7 +372,7 @@
   "flag": 0,
   "speaker": -1,
   "jp": "{%sR4}には\nかなり　きいているようだ！{KN}",
-  "en": "It seems very effective on\n{%sR4}!{KN}",
+  "en": "It seems very effective\non {%sR4}!{KN}",
   "status": "done"
  },
  {
@@ -380,7 +380,7 @@
   "flag": 0,
   "speaker": -1,
   "jp": "{%sR4}には\nこうかが　イマイチのようだ・・・{KN}",
-  "en": "It doesn't seem very effective on\n{%sR4}...{KN}",
+  "en": "It doesn't seem very\neffective on {%sR4}...{KN}",
   "status": "done"
  },
  {
@@ -388,7 +388,7 @@
   "flag": 0,
   "speaker": -1,
   "jp": "{%sR4}には\nまったく　きいていないようだ・・・{KN}",
-  "en": "It seems to have no effect on\n{%sR4}...{KN}",
+  "en": "It seems to have no\neffect on {%sR4}...{KN}",
   "status": "done"
  },
  {
@@ -420,7 +420,7 @@
   "flag": 0,
   "speaker": -1,
   "jp": "{%sR4}に\nドクが　まわってゆく・・・{KN}",
-  "en": "The poison is spreading through\n{%sR4}...{KN}",
+  "en": "The poison is spreading\nthrough {%sR4}...{KN}",
   "status": "done"
  },
  {

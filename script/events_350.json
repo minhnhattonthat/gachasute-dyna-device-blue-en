@@ -4,7 +4,7 @@
   "flag": 0,
   "speaker": -1,
   "jp": "{%sR4}を　こわしましたが\nアイテムを　これいじょう　もちきれないため{KP}\n{%sR5}は　ダイナセンターに\nてんそうされました{KP}\nてもちアイテムに　よゆうが　あるときに\nひきとりに　きてください",
-  "en": "You destroyed {%sR4}, but you\ncan't carry any more items,{KP}\nso {%sR5} was sent to the Dyna\nCenter.{KP}\nPlease come pick it up when you have room\nfor more items.",
+  "en": "You destroyed {%sR4}, but\nyou can't carry any more items,{KP}\nso {%sR5} was\nsent to the Dyna Center.{KP}\nPlease come pick it up when\nyou have room for more items.",
   "status": "done"
  },
  {
@@ -12,7 +12,7 @@
   "flag": 0,
   "speaker": -1,
   "jp": "{%sR4}が　こわされましたが\nアイテムを　これいじょう　もちきれないため{KP}\n{%sR5}は　ダイナセンターに\nてんそうされました{KP}\nてもちアイテムに　よゆうが　あるときに\nひきとりに　きてください",
-  "en": "{%sR4} was destroyed, but you\ncan't carry any more items,{KP}\nso {%sR5} was sent to the Dyna\nCenter.{KP}\nPlease come pick it up when you have room\nfor more items.",
+  "en": "{%sR4} was destroyed, but\nyou can't carry any more items,{KP}\nso {%sR5} was\nsent to the Dyna Center.{KP}\nPlease come pick it up when\nyou have room for more items.",
   "status": "done"
  },
  {
@@ -100,7 +100,7 @@
   "flag": 0,
   "speaker": -1,
   "jp": "{%sR4}を　つれていくことに　しました",
-  "en": "You decided to take {%sR4}\nalong.",
+  "en": "You decided to take\n{%sR4} along.",
   "status": "done"
  },
  {
@@ -116,7 +116,7 @@
   "flag": 0,
   "speaker": -1,
   "jp": "{%sR4}を　バトルリストに\nついかしました",
-  "en": "{%sR4} was added to the Battle\nList.",
+  "en": "{%sR4} was\nadded to the Battle List.",
   "status": "done"
  },
  {
@@ -132,7 +132,7 @@
   "flag": 0,
   "speaker": -1,
   "jp": "{%sR4}は　バトルリストに\nはいることを　いやがっています{KP}\nきげんが　よくならないと　リストに\nとうろくすることは　できません",
-  "en": "{%sR4} doesn't want to join the\nBattle List.{KP}\nYou can't enter it in the list until its mood\nimproves.",
+  "en": "{%sR4} doesn't\nwant to join the Battle List.{KP}\nYou can't enter it in the\nlist until its mood improves.",
   "status": "done"
  },
  {
@@ -140,7 +140,7 @@
   "flag": 0,
   "speaker": -1,
   "jp": "このダイナは　すでに\nバトルリストに　とうろくされています",
-  "en": "This Dyna is already entered in the Battle\nList.",
+  "en": "This Dyna is already\nentered in the Battle List.",
   "status": "done"
  },
  {
@@ -164,7 +164,7 @@
   "flag": 0,
   "speaker": -1,
   "jp": "ダイナを　１たいも　つれないで\nダイナシティを　あるくことは　できません",
-  "en": "You can't walk around Dyna City without\ntaking at least 1 Dyna.",
+  "en": "You can't walk around Dyna City\nwithout taking at least 1 Dyna.",
   "status": "done"
  },
  {
@@ -212,7 +212,7 @@
   "flag": 0,
   "speaker": -1,
   "jp": "このダイナシティには　これいじょう\nダイナを　とうろくできないため",
-  "en": "No more Dyna can be registered in this\nDyna City,",
+  "en": "No more Dyna can be\nregistered in this Dyna City,",
   "status": "done"
  },
  {
@@ -220,7 +220,7 @@
   "flag": 0,
   "speaker": -1,
   "jp": "げんざい　ガチャステの　ごりようは\nていしさせていただいております",
-  "en": "we have suspended your use of Gachasute\nfor now.",
+  "en": "we have suspended your\nuse of Gachasute for now.",
   "status": "done"
  },
  {
@@ -228,7 +228,7 @@
   "flag": 0,
   "speaker": -1,
   "jp": "ダイナを　にがしてから\nまた　ごりようください",
-  "en": "Please release a Dyna and then come\nagain.",
+  "en": "Please release a Dyna\nand then come again.",
   "status": "done"
  },
  {
@@ -244,7 +244,7 @@
   "flag": 0,
   "speaker": -1,
   "jp": "サブウェイの　セクタが　２ついじょう\nないと　しようできません",
-  "en": "You can't use this unless you have at least\n2 Subway sectors.",
+  "en": "You can't use this unless you\nhave at least 2 Subway sectors.",
   "status": "done"
  },
  {
@@ -260,7 +260,7 @@
   "flag": 0,
   "speaker": -1,
   "jp": "どの　ダイナに\n{%sR0}を　あげますか？",
-  "en": "Which Dyna will you give {%sR0}\nto?",
+  "en": "Which Dyna will you give\n{%sR0} to?",
   "status": "done"
  },
  {
@@ -276,7 +276,7 @@
   "flag": 0,
   "speaker": -1,
   "jp": "{%sR0}に\n{%sR1}を　あたえた！",
-  "en": "Fed {%sR0} some\n{%sR1}!",
+  "en": "Fed {%sR0}\nsome {%sR1}!",
   "status": "done"
  },
  {
@@ -284,7 +284,7 @@
   "flag": 0,
   "speaker": -1,
   "jp": "{%sR1}は　すこし\nおなかが　ふくれたようだ",
-  "en": "{%sR1} seems to be a little\nfuller.",
+  "en": "{%sR1} seems\nto be a little fuller.",
   "status": "done"
  },
  {
@@ -324,7 +324,7 @@
   "flag": 0,
   "speaker": -1,
   "jp": "{%sR0}に\n{%sR1}を　あたえた！",
-  "en": "Fed {%sR0} some\n{%sR1}!",
+  "en": "Fed {%sR0}\nsome {%sR1}!",
   "status": "done"
  },
  {
@@ -372,7 +372,7 @@
   "flag": 0,
   "speaker": -1,
   "jp": "どのダイナに\n{%sR0}を　つかいますか？",
-  "en": "Which Dyna will you use {%sR0}\non?",
+  "en": "Which Dyna will you use\n{%sR0} on?",
   "status": "done"
  },
  {
@@ -404,7 +404,7 @@
   "flag": 0,
   "speaker": -1,
   "jp": "このアイテムは　１レベルあたり\n１かいしか　つかうことができません{KP}\nレベルを　あげてから　つかってください",
-  "en": "This item can only be used once per\nlevel.{KP}\nPlease raise the level before using it.",
+  "en": "This item can only be\nused once per level.{KP}\nPlease raise the level before using it.",
   "status": "done"
  },
  {
@@ -444,7 +444,7 @@
   "flag": 0,
   "speaker": -1,
   "jp": "どのデバイスに\n{%sR0}を　つかいますか？",
-  "en": "Which Device will you use {%sR0}\non?",
+  "en": "Which Device will you\nuse {%sR0} on?",
   "status": "done"
  },
  {
@@ -452,7 +452,7 @@
   "flag": 0,
   "speaker": -1,
   "jp": "{%sR0}の　プラスポイントは\nもう　げんかいまで　あげられています",
-  "en": "{%sR0}'s Plus Points are already\nmaxed out.",
+  "en": "{%sR0}'s Plus Points\nare already maxed out.",
   "status": "done"
  },
  {
@@ -460,7 +460,7 @@
   "flag": 0,
   "speaker": -1,
   "jp": "{%sR0}の　プラスポイントが\n{%dR1}ポイント　あがった！",
-  "en": "{%sR0}'s Plus Points went up by\n{%dR1}!",
+  "en": "{%sR0}'s Plus Points\nwent up by {%dR1}!",
   "status": "done"
  },
  {

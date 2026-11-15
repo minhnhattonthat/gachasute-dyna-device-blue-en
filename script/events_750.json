@@ -12,7 +12,7 @@
   "flag": 0,
   "speaker": 4,
   "jp": "ウォータータイプの　セクタどうしは\nとなりあうと　つながってしまうので",
-  "en": "Water sectors join up when they are next\nto each other,",
+  "en": "Water sectors join up when\nthey are next to each other,",
   "status": "done"
  },
  {
@@ -28,7 +28,7 @@
   "flag": 0,
   "speaker": 4,
   "jp": "また　バーディスや　シェルブックタイプの\nダイナに　のって",
-  "en": "Also, when you are riding a Dyna of the\nBirdis type or Shellbook type",
+  "en": "Also, when you are riding a Dyna of\nthe Birdis type or Shellbook type",
   "status": "done"
  },
  {
@@ -60,7 +60,7 @@
   "flag": 0,
   "speaker": 4,
   "jp": "そうすると　いまのように\nここに　てんそうされてしまって",
-  "en": "When that happens, you get sent back\nhere, like just now,",
+  "en": "When that happens, you get\nsent back here, like just now,",
   "status": "done"
  },
  {
@@ -68,7 +68,7 @@
   "flag": 0,
   "speaker": 4,
   "jp": "つれている　ダイナの\nきげんが　わるくなってしまいます{KP}\nこんごは　きをつけてくださいね",
-  "en": "and the Dyna you have with you get\ngrumpy.{KP}\nPlease be careful from now on.",
+  "en": "and the Dyna you have\nwith you get grumpy.{KP}\nPlease be careful from now on.",
   "status": "done"
  },
  {
@@ -76,7 +76,7 @@
   "flag": 0,
   "speaker": -1,
   "jp": "{%sR0}は　ちからつきて\nダイナセンターに　てんそうされました",
-  "en": "{%sR0} collapsed and was sent to\nthe Dyna Center.",
+  "en": "{%sR0} collapsed and\nwas sent to the Dyna Center.",
   "status": "done"
  },
  {
@@ -84,7 +84,7 @@
   "flag": 0,
   "speaker": -1,
   "jp": "{%sR0}は　ちからつきて\nダイナセンターに　てんそうされました",
-  "en": "{%sR0} collapsed and was sent to\nthe Dyna Center.",
+  "en": "{%sR0} collapsed and\nwas sent to the Dyna Center.",
   "status": "done"
  },
  {
@@ -92,7 +92,7 @@
   "flag": 0,
   "speaker": -1,
   "jp": "これにより　〒{%02dR1}－{%02dR2}　ハウスは\nあきやに　なりました",
-  "en": "Because of this, the House at {%02dR1}-{%02dR2} is\nnow empty.",
+  "en": "Because of this, the House\nat {%02dR1}-{%02dR2} is now empty.",
   "status": "done"
  },
  {
@@ -108,7 +108,7 @@
   "flag": 0,
   "speaker": 4,
   "jp": "ダイナシティを　ダイナなしで\nあるくのは　たいへん　キケンなので",
-  "en": "Walking around Dyna City without a Dyna is\nvery dangerous,",
+  "en": "Walking around Dyna City without\na Dyna is very dangerous,",
   "status": "done"
  },
  {
@@ -116,7 +116,7 @@
   "flag": 0,
   "speaker": 4,
   "jp": "もうしわけありませんが　ここへ\nかってに　てんそうさせていただきました",
-  "en": "I am sorry, but I took the liberty of\nbringing you back here.",
+  "en": "I am sorry, but I took the\nliberty of bringing you back here.",
   "status": "done"
  },
  {
@@ -124,7 +124,7 @@
   "flag": 0,
   "speaker": 4,
   "jp": "そのときの　むりな　てんそうが\nげんいんで　データが　いちぶ　こわれて",
-  "en": "That forced transfer damaged part of your\ndata,",
+  "en": "That forced transfer\ndamaged part of your data,",
   "status": "done"
  },
  {
@@ -132,7 +132,7 @@
   "flag": 0,
   "speaker": 4,
   "jp": "てもちビットが　はんぶんに\nなってしまったようなのですが",
-  "en": "and it seems the bits you were carrying\nwere cut in half.",
+  "en": "and it seems the bits you\nwere carrying were cut in half.",
   "status": "done"
  },
  {
@@ -140,7 +140,7 @@
   "flag": 0,
   "speaker": 4,
   "jp": "きんきゅうじたいだったので\nおゆるしください",
-  "en": "It was an emergency, so please forgive\nme.",
+  "en": "It was an emergency,\nso please forgive me.",
   "status": "done"
  },
  {
@@ -148,7 +148,7 @@
   "flag": 0,
   "speaker": 4,
   "jp": "さきほど　つれていた　ダイナは\nかいふくさせておきました",
-  "en": "I have healed the Dyna you had with\nyou.",
+  "en": "I have healed the\nDyna you had with you.",
   "status": "done"
  },
  {
@@ -156,7 +156,7 @@
   "flag": 0,
   "speaker": 4,
   "jp": "これからは　ダイナたちの　ＨＰが\nなくならないように　きをつけてくださいね",
-  "en": "From now on, please be careful not to let\nyour Dyna run out of HP.",
+  "en": "From now on, please be careful not\nto let your Dyna run out of HP.",
   "status": "done"
  },
  {
@@ -164,7 +164,7 @@
   "flag": 0,
   "speaker": 4,
   "jp": "{%sR4}さん　きこえますか？\nわたしです　ナビュウです",
-  "en": "{%sR4}-san, can you hear me? It is\nme, Navyu.",
+  "en": "{%sR4}-san, can you\nhear me? It is me, Navyu.",
   "status": "done"
  },
  {
@@ -172,7 +172,7 @@
   "flag": 0,
   "speaker": 4,
   "jp": "もうすぐ　スタジアムにて　こうれいの\nバトルたいかいが　おこなわれます",
-  "en": "Soon the regular battle tournament will be\nheld at the Stadium.",
+  "en": "Soon the regular battle tournament\nwill be held at the Stadium.",
   "status": "done"
  },
  {
@@ -180,7 +180,7 @@
   "flag": 0,
   "speaker": 4,
   "jp": "バトルに　さんかさせたい　ダイナの\nじゅんびは　できていますか？",
-  "en": "Are the Dyna you want to enter ready to\nbattle?",
+  "en": "Are the Dyna you want\nto enter ready to battle?",
   "status": "done"
  },
  {
@@ -188,7 +188,7 @@
   "flag": 0,
   "speaker": 4,
   "jp": "さんかさせたい　ダイナは\nつれてあるいておいてくださいね",
-  "en": "Please keep the Dyna you want to enter\nwith you as you walk around.",
+  "en": "Please keep the Dyna you want to\nenter with you as you walk around.",
   "status": "done"
  },
  {
@@ -196,7 +196,7 @@
   "flag": 0,
   "speaker": 4,
   "jp": "{%sR4}さん　きこえますか？\nわたしです　ナビュウです{KP}\nいよいよ　バトルたいかいが　はじまります！",
-  "en": "{%sR4}-san, can you hear me? It is\nme, Navyu.{KP}\nThe battle tournament is finally starting!",
+  "en": "{%sR4}-san, can you\nhear me? It is me, Navyu.{KP}\nThe battle tournament is finally starting!",
   "status": "done"
  },
  {
@@ -204,7 +204,7 @@
   "flag": 0,
   "speaker": 4,
   "jp": "スタジアムへは　ちかてつから\nいけるようになっていますので{KP}\nじゅんびができましたら　むかってくださいね",
-  "en": "You can get to the Stadium by subway,{KP}\nso please head there when you are\nready.",
+  "en": "You can get to the Stadium by subway,{KP}\nso please head there\nwhen you are ready.",
   "status": "done"
  },
  {
@@ -212,7 +212,7 @@
   "flag": 0,
   "speaker": 9,
   "jp": "さぁ！　まちにまった\nバトルたいかいの　はじまりです！",
-  "en": "All right! The battle tournament we've all\nbeen waiting for begins now!",
+  "en": "All right! The battle tournament\nwe've all been waiting for begins now!",
   "status": "done"
  },
  {
@@ -260,7 +260,7 @@
   "flag": 0,
   "speaker": 2,
   "jp": "いくぜ！　オレさまの　ほんとうの\nちからを　みせてやる！",
-  "en": "Here I come! I'll show you the true power\nof the great me!",
+  "en": "Here I come! I'll show you the\ntrue power of the great me!",
   "status": "done"
  },
  {
@@ -268,7 +268,7 @@
   "flag": 0,
   "speaker": 15,
   "jp": "ああっ　{%sR4}！\nげんきだったぁ？",
-  "en": "Ooh, {%sR4}! Have you been\nweeell?",
+  "en": "Ooh, {%sR4}!\nHave you been weeell?",
   "status": "done"
  },
  {
@@ -276,7 +276,7 @@
   "flag": 0,
   "speaker": 15,
   "jp": "わたくしぃ　{%sR4}との\nバトルってぇ・・・たのしいから　スキぃ{KP}\nじゃぁ　いっくよぉぉぉぉ！",
-  "en": "Battles with {%sR4} are sooo much\nfun... I just looove them.{KP}\nOkaaay, here I gooooo!",
+  "en": "Battles with {%sR4} are\nsooo much fun... I just looove them.{KP}\nOkaaay, here I gooooo!",
   "status": "done"
  },
  {
@@ -284,7 +284,7 @@
   "flag": 0,
   "speaker": 1,
   "jp": "{%sR4}くん\nこんどは　キミとなんだね{KP}\nよーし　ちょっと　ホンキ\nだしちゃおっかなー・・・なんてねっ",
-  "en": "{%sR4}-kun, so this time it's you,\nhuh?{KP}\nOkaaay, maybe I'll get a little serious... just\nkidding!",
+  "en": "{%sR4}-kun, so\nthis time it's you, huh?{KP}\nOkaaay, maybe I'll get a\nlittle serious... just kidding!",
   "status": "done"
  },
  {
@@ -292,7 +292,7 @@
   "flag": 0,
   "speaker": 3,
   "jp": "やぁ　{%sR4}\nつぎの　あいては　キミか",
-  "en": "Well, well, {%sR4}. So you're my\nnext opponent.",
+  "en": "Well, well, {%sR4}.\nSo you're my next opponent.",
   "status": "done"
  },
  {
@@ -300,7 +300,7 @@
   "flag": 0,
   "speaker": 3,
   "jp": "ちょうど　キミあいてに　ためしてみたい\nさくせんが　あったんだ{KP}\nさっそく　ためさせてもらうとするかな",
-  "en": "I just happen to have a strategy I've\nbeen wanting to try on you.{KP}\nI think I'll test it out right away.",
+  "en": "I just happen to have a strategy\nI've been wanting to try on you.{KP}\nI think I'll test it out right away.",
   "status": "done"
  },
  {
@@ -324,7 +324,7 @@
   "flag": 0,
   "speaker": 2,
   "jp": "どうだ　みたか！\nこれが　オレさまの　じつりょくだ！",
-  "en": "How about that! That's the real strength\nof the great me!",
+  "en": "How about that! That's the\nreal strength of the great me!",
   "status": "done"
  },
  {
@@ -348,7 +348,7 @@
   "flag": 0,
   "speaker": 15,
   "jp": "もとバイラーナンバー２の　なまえは\nだてじゃないってことでぇす{KP}\nんじゃ　また　バトルしようねぇ",
-  "en": "The name of Byler's former Number 2 isn't\njust for shooow, you know.{KP}\nLet's battle again sometiiime.",
+  "en": "The name of Byler's former Number\n2 isn't just for shooow, you know.{KP}\nLet's battle again sometiiime.",
   "status": "done"
  },
  {
@@ -356,7 +356,7 @@
   "flag": 0,
   "speaker": 1,
   "jp": "やったぁっ！\n{%sR4}くんに　かったぁ！{KP}\nうう・・・ぐうぜんだとしても\nうれしいよぉ",
-  "en": "Yaaay! I beat {%sR4}-kun!{KP}\nOoh... even if it was just luck, I'm so\nhappy!",
+  "en": "Yaaay! I beat {%sR4}-kun!{KP}\nOoh... even if it was\njust luck, I'm so happy!",
   "status": "done"
  },
  {
@@ -364,7 +364,7 @@
   "flag": 0,
   "speaker": 3,
   "jp": "よし　さくせんどおり　うまくいったな\nダイナは　ちからだけじゃ{KP}\nかてないって　わかっただろう？",
-  "en": "Good, it went just as planned. Now you see\nthat Dyna can't win{KP}\non strength alone, don't you?",
+  "en": "Good, it went just as planned.\nNow you see that Dyna can't win{KP}\non strength alone, don't you?",
   "status": "done"
  },
  {
@@ -388,7 +388,7 @@
   "flag": 0,
   "speaker": 2,
   "jp": "くそう　あと　いっぽだと　いうのに・・・\nつぎだ！　つぎこそは　おまえを　たおす！{KP}\nおれの　いきざま　みとけ！\nあばよ！",
-  "en": "Darn it, just one more step... Next time!\nNext time I'll beat you for sure!{KP}\nWatch how a real man lives! See ya!",
+  "en": "Darn it, just one more step... Next\ntime! Next time I'll beat you for sure!{KP}\nWatch how a real man lives! See ya!",
   "status": "done"
  },
  {
@@ -396,7 +396,7 @@
   "flag": 0,
   "speaker": 15,
   "jp": "うううう　つよぉおい・・・\nやっぱり　{%sR4}　つよいよぉ",
-  "en": "Ooooh, you're sooo strong... {%sR4}\nreally is strooong.",
+  "en": "Ooooh, you're sooo strong...\n{%sR4} really is strooong.",
   "status": "done"
  },
  {
@@ -404,7 +404,7 @@
   "flag": 0,
   "speaker": 15,
   "jp": "そのちょうしでぇ　また　わたくしと\nバトルするまでぇ　まけないでねぇ{KP}\nおうえんしてるよぅ　てへっ",
-  "en": "Keep it up, and don't lose till you battle me\nagaaain.{KP}\nI'm rooting for youuu. Tee-hee!",
+  "en": "Keep it up, and don't lose\ntill you battle me agaaain.{KP}\nI'm rooting for youuu. Tee-hee!",
   "status": "done"
  },
  {
@@ -412,7 +412,7 @@
   "flag": 0,
   "speaker": 1,
   "jp": "あちゃー　やっぱし　まけちゃったか・・・\nまた　つぎの　たいかいに　むけて{KP}\nしゅぎょうを　つまなくちゃ",
-  "en": "Oh no, I lost after all... I've got to train\nup{KP}\nfor the next tournament.",
+  "en": "Oh no, I lost after all...\nI've got to train up{KP}\nfor the next tournament.",
   "status": "done"
  },
  {
@@ -460,7 +460,7 @@
   "flag": 0,
   "speaker": 2,
   "jp": "いくぜ！　オレさまの　ほんとうの\nちからを　みせてやる！",
-  "en": "Here I come! I'll show you the true power\nof the great me!",
+  "en": "Here I come! I'll show you the\ntrue power of the great me!",
   "status": "done"
  },
  {
@@ -468,7 +468,7 @@
   "flag": 0,
   "speaker": 15,
   "jp": "ああっ　{%sR4}！\nげんきだったぁ？",
-  "en": "Ooh, {%sR4}! Have you been\nweeell?",
+  "en": "Ooh, {%sR4}!\nHave you been weeell?",
   "status": "done"
  },
  {
@@ -476,7 +476,7 @@
   "flag": 0,
   "speaker": 15,
   "jp": "わたくしぃ　{%sR4}との\nバトルってぇ・・・たのしいから　スキぃ{KP}\nじゃぁ　いっくよぉぉぉぉ！",
-  "en": "Battles with {%sR4} are sooo much\nfun... I just looove them.{KP}\nOkaaay, here I gooooo!",
+  "en": "Battles with {%sR4} are\nsooo much fun... I just looove them.{KP}\nOkaaay, here I gooooo!",
   "status": "done"
  },
  {
@@ -484,7 +484,7 @@
   "flag": 0,
   "speaker": 1,
   "jp": "{%sR4}くん\nこんどは　キミとなんだね{KP}\nよーし　ちょっと　ホンキ\nだしちゃおっかなー・・・なんてねっ",
-  "en": "{%sR4}-kun, so this time it's you,\nhuh?{KP}\nOkaaay, maybe I'll get a little serious... just\nkidding!",
+  "en": "{%sR4}-kun, so\nthis time it's you, huh?{KP}\nOkaaay, maybe I'll get a\nlittle serious... just kidding!",
   "status": "done"
  },
  {
@@ -492,7 +492,7 @@
   "flag": 0,
   "speaker": 3,
   "jp": "やぁ　{%sR4}\nつぎの　あいては　キミか",
-  "en": "Well, well, {%sR4}. So you're my\nnext opponent.",
+  "en": "Well, well, {%sR4}.\nSo you're my next opponent.",
   "status": "done"
  },
  {
@@ -500,7 +500,7 @@
   "flag": 0,
   "speaker": 3,
   "jp": "ちょうど　キミあいてに　ためしてみたい\nさくせんが　あったんだ{KP}\nさっそく　ためさせてもらうとするかな",
-  "en": "I just happen to have a strategy I've\nbeen wanting to try on you.{KP}\nI think I'll test it out right away.",
+  "en": "I just happen to have a strategy\nI've been wanting to try on you.{KP}\nI think I'll test it out right away.",
   "status": "done"
  },
  {
@@ -524,7 +524,7 @@
   "flag": 0,
   "speaker": 2,
   "jp": "くそう　あと　いっぽだと　いうのに・・・\nつぎだ！　つぎこそは　おまえを　たおす！{KP}\nおれの　いきざま　みとけ！\nあばよ！",
-  "en": "Darn it, just one more step... Next time!\nNext time I'll beat you for sure!{KP}\nWatch how a real man lives! See ya!",
+  "en": "Darn it, just one more step... Next\ntime! Next time I'll beat you for sure!{KP}\nWatch how a real man lives! See ya!",
   "status": "done"
  },
  {
@@ -532,7 +532,7 @@
   "flag": 0,
   "speaker": 15,
   "jp": "うううう　つよぉおい・・・\nやっぱり　{%sR4}　つよいよぉ",
-  "en": "Ooooh, you're sooo strong... {%sR4}\nreally is strooong.",
+  "en": "Ooooh, you're sooo strong...\n{%sR4} really is strooong.",
   "status": "done"
  },
  {
@@ -540,7 +540,7 @@
   "flag": 0,
   "speaker": 15,
   "jp": "そのちょうしでぇ　また　わたくしと\nバトルするまでぇ　まけないでねぇ{KP}\nおうえんしてるよぅ　てへっ",
-  "en": "Keep it up, and don't lose till you battle me\nagaaain.{KP}\nI'm rooting for youuu. Tee-hee!",
+  "en": "Keep it up, and don't lose\ntill you battle me agaaain.{KP}\nI'm rooting for youuu. Tee-hee!",
   "status": "done"
  },
  {
@@ -548,7 +548,7 @@
   "flag": 0,
   "speaker": 1,
   "jp": "あちゃー　やっぱし　まけちゃったか・・・\nまた　つぎの　たいかいに　むけて{KP}\nしゅぎょうを　つまなくちゃ",
-  "en": "Oh no, I lost after all... I've got to train\nup{KP}\nfor the next tournament.",
+  "en": "Oh no, I lost after all...\nI've got to train up{KP}\nfor the next tournament.",
   "status": "done"
  },
  {
@@ -596,7 +596,7 @@
   "flag": 0,
   "speaker": 2,
   "jp": "いくぜ！　オレさまの　ほんとうの\nちからを　みせてやる！",
-  "en": "Here I come! I'll show you the true power\nof the great me!",
+  "en": "Here I come! I'll show you the\ntrue power of the great me!",
   "status": "done"
  },
  {
@@ -604,7 +604,7 @@
   "flag": 0,
   "speaker": 15,
   "jp": "ああっ　{%sR4}！\nげんきだったぁ？",
-  "en": "Ooh, {%sR4}! Have you been\nweeell?",
+  "en": "Ooh, {%sR4}!\nHave you been weeell?",
   "status": "done"
  },
  {
@@ -612,7 +612,7 @@
   "flag": 0,
   "speaker": 15,
   "jp": "わたくしぃ　{%sR4}との\nバトルってぇ・・・たのしいから　スキぃ{KP}\nじゃぁ　いっくよぉぉぉぉ！",
-  "en": "Battles with {%sR4} are sooo much\nfun... I just looove them.{KP}\nOkaaay, here I gooooo!",
+  "en": "Battles with {%sR4} are\nsooo much fun... I just looove them.{KP}\nOkaaay, here I gooooo!",
   "status": "done"
  },
  {
@@ -620,7 +620,7 @@
   "flag": 0,
   "speaker": 1,
   "jp": "{%sR4}くん\nこんどは　キミとなんだね{KP}\nよーし　ちょっと　ホンキ\nだしちゃおっかなー・・・なんてねっ",
-  "en": "{%sR4}-kun, so this time it's you,\nhuh?{KP}\nOkaaay, maybe I'll get a little serious... just\nkidding!",
+  "en": "{%sR4}-kun, so\nthis time it's you, huh?{KP}\nOkaaay, maybe I'll get a\nlittle serious... just kidding!",
   "status": "done"
  },
  {
@@ -628,7 +628,7 @@
   "flag": 0,
   "speaker": 3,
   "jp": "やぁ　{%sR4}\nつぎの　あいては　キミか",
-  "en": "Well, well, {%sR4}. So you're my\nnext opponent.",
+  "en": "Well, well, {%sR4}.\nSo you're my next opponent.",
   "status": "done"
  },
  {
@@ -636,7 +636,7 @@
   "flag": 0,
   "speaker": 3,
   "jp": "ちょうど　キミあいてに　ためしてみたい\nさくせんが　あったんだ{KP}\nさっそく　ためさせてもらうとするかな",
-  "en": "I just happen to have a strategy I've\nbeen wanting to try on you.{KP}\nI think I'll test it out right away.",
+  "en": "I just happen to have a strategy\nI've been wanting to try on you.{KP}\nI think I'll test it out right away.",
   "status": "done"
  },
  {
@@ -660,7 +660,7 @@
   "flag": 0,
   "speaker": 2,
   "jp": "くそう　あと　いっぽだと　いうのに・・・\nつぎだ！　つぎこそは　おまえを　たおす！{KP}\nおれの　いきざま　みとけ！\nあばよ！",
-  "en": "Darn it, just one more step... Next time!\nNext time I'll beat you for sure!{KP}\nWatch how a real man lives! See ya!",
+  "en": "Darn it, just one more step... Next\ntime! Next time I'll beat you for sure!{KP}\nWatch how a real man lives! See ya!",
   "status": "done"
  },
  {
@@ -668,7 +668,7 @@
   "flag": 0,
   "speaker": 15,
   "jp": "うううう　つよぉおい・・・\nやっぱり　{%sR4}　つよいよぉ",
-  "en": "Ooooh, you're sooo strong... {%sR4}\nreally is strooong.",
+  "en": "Ooooh, you're sooo strong...\n{%sR4} really is strooong.",
   "status": "done"
  },
  {
@@ -676,7 +676,7 @@
   "flag": 0,
   "speaker": 15,
   "jp": "そのちょうしでぇ　また　わたくしと\nバトルするまでぇ　まけないでねぇ{KP}\nおうえんしてるよぅ　てへっ",
-  "en": "Keep it up, and don't lose till you battle me\nagaaain.{KP}\nI'm rooting for youuu. Tee-hee!",
+  "en": "Keep it up, and don't lose\ntill you battle me agaaain.{KP}\nI'm rooting for youuu. Tee-hee!",
   "status": "done"
  },
  {
@@ -684,7 +684,7 @@
   "flag": 0,
   "speaker": 1,
   "jp": "あちゃー　やっぱし　まけちゃったか・・・\nまた　つぎの　たいかいに　むけて{KP}\nしゅぎょうを　つまなくちゃ",
-  "en": "Oh no, I lost after all... I've got to train\nup{KP}\nfor the next tournament.",
+  "en": "Oh no, I lost after all...\nI've got to train up{KP}\nfor the next tournament.",
   "status": "done"
  },
  {
@@ -732,7 +732,7 @@
   "flag": 0,
   "speaker": 2,
   "jp": "いくぜ！　オレさまの　ほんとうの\nちからを　みせてやる！",
-  "en": "Here I come! I'll show you the true power\nof the great me!",
+  "en": "Here I come! I'll show you the\ntrue power of the great me!",
   "status": "done"
  },
  {
@@ -740,7 +740,7 @@
   "flag": 0,
   "speaker": 15,
   "jp": "ああっ　{%sR4}！\nげんきだったぁ？",
-  "en": "Ooh, {%sR4}! Have you been\nweeell?",
+  "en": "Ooh, {%sR4}!\nHave you been weeell?",
   "status": "done"
  },
  {
@@ -748,7 +748,7 @@
   "flag": 0,
   "speaker": 15,
   "jp": "わたくしぃ　{%sR4}との\nバトルってぇ・・・たのしいから　スキぃ{KP}\nじゃぁ　いっくよぉぉぉぉ！",
-  "en": "Battles with {%sR4} are sooo much\nfun... I just looove them.{KP}\nOkaaay, here I gooooo!",
+  "en": "Battles with {%sR4} are\nsooo much fun... I just looove them.{KP}\nOkaaay, here I gooooo!",
   "status": "done"
  },
  {
@@ -756,7 +756,7 @@
   "flag": 0,
   "speaker": 1,
   "jp": "{%sR4}くん\nこんどは　キミとなんだね{KP}\nよーし　ちょっと　ホンキ\nだしちゃおっかなー・・・なんてねっ",
-  "en": "{%sR4}-kun, so this time it's you,\nhuh?{KP}\nOkaaay, maybe I'll get a little serious... just\nkidding!",
+  "en": "{%sR4}-kun, so\nthis time it's you, huh?{KP}\nOkaaay, maybe I'll get a\nlittle serious... just kidding!",
   "status": "done"
  },
  {
@@ -764,7 +764,7 @@
   "flag": 0,
   "speaker": 3,
   "jp": "やぁ　{%sR4}\nつぎの　あいては　キミか",
-  "en": "Well, well, {%sR4}. So you're my\nnext opponent.",
+  "en": "Well, well, {%sR4}.\nSo you're my next opponent.",
   "status": "done"
  },
  {
@@ -772,7 +772,7 @@
   "flag": 0,
   "speaker": 3,
   "jp": "ちょうど　キミあいてに　ためしてみたい\nさくせんが　あったんだ{KP}\nさっそく　ためさせてもらうとするかな",
-  "en": "I just happen to have a strategy I've\nbeen wanting to try on you.{KP}\nI think I'll test it out right away.",
+  "en": "I just happen to have a strategy\nI've been wanting to try on you.{KP}\nI think I'll test it out right away.",
   "status": "done"
  },
  {
@@ -796,7 +796,7 @@
   "flag": 0,
   "speaker": 2,
   "jp": "くそう　あと　いっぽだと　いうのに・・・\nつぎだ！　つぎこそは　おまえを　たおす！{KP}\nおれの　いきざま　みとけ！\nあばよ！",
-  "en": "Darn it, just one more step... Next time!\nNext time I'll beat you for sure!{KP}\nWatch how a real man lives! See ya!",
+  "en": "Darn it, just one more step... Next\ntime! Next time I'll beat you for sure!{KP}\nWatch how a real man lives! See ya!",
   "status": "done"
  },
  {
@@ -804,7 +804,7 @@
   "flag": 0,
   "speaker": 15,
   "jp": "うううう　つよぉおい・・・\nやっぱり　{%sR4}　つよいよぉ",
-  "en": "Ooooh, you're sooo strong... {%sR4}\nreally is strooong.",
+  "en": "Ooooh, you're sooo strong...\n{%sR4} really is strooong.",
   "status": "done"
  },
  {
@@ -812,7 +812,7 @@
   "flag": 0,
   "speaker": 15,
   "jp": "そのちょうしでぇ　また　わたくしと\nバトルするまでぇ　まけないでねぇ{KP}\nおうえんしてるよぅ　てへっ",
-  "en": "Keep it up, and don't lose till you battle me\nagaaain.{KP}\nI'm rooting for youuu. Tee-hee!",
+  "en": "Keep it up, and don't lose\ntill you battle me agaaain.{KP}\nI'm rooting for youuu. Tee-hee!",
   "status": "done"
  },
  {
@@ -820,7 +820,7 @@
   "flag": 0,
   "speaker": 1,
   "jp": "あちゃー　やっぱし　まけちゃったか・・・\nまた　つぎの　たいかいに　むけて{KP}\nしゅぎょうを　つまなくちゃ",
-  "en": "Oh no, I lost after all... I've got to train\nup{KP}\nfor the next tournament.",
+  "en": "Oh no, I lost after all...\nI've got to train up{KP}\nfor the next tournament.",
   "status": "done"
  },
  {
@@ -836,7 +836,7 @@
   "flag": 0,
   "speaker": 9,
   "jp": "{%sR4}さん\nゆうしょう　おめでとうございます！",
-  "en": "{%sR4}-san, congratulations on\nbecoming champion!",
+  "en": "{%sR4}-san, congratulations\non becoming champion!",
   "status": "done"
  },
  {
@@ -844,7 +844,7 @@
   "flag": 0,
   "speaker": 9,
   "jp": "これは　しょうきんの　{%dR5}ビットです\nどうぞ　うけとってください！",
-  "en": "Here is your prize of {%dR5} bits. Please\ntake it!",
+  "en": "Here is your prize of\n{%dR5} bits. Please take it!",
   "status": "done"
  },
  {
@@ -860,7 +860,7 @@
   "flag": 0,
   "speaker": 9,
   "jp": "こんちは！　オイラは　シティから　シティへ\nアイテムを　うりあるく　しょうにんでーす",
-  "en": "Howdy! I'm a merchant who goes from city\nto city selling items.",
+  "en": "Howdy! I'm a merchant who goes\nfrom city to city selling items.",
   "status": "done"
  },
  {
@@ -884,7 +884,7 @@
   "flag": 0,
   "speaker": 9,
   "jp": "また　いいもの　しいれてくるから\nたのしみに　まっててね{KP}\nそんじゃ　さいならー",
-  "en": "I'll stock up on more good stuff, so look\nforward to it!{KP}\nWell, so long!",
+  "en": "I'll stock up on more good\nstuff, so look forward to it!{KP}\nWell, so long!",
   "status": "done"
  },
  {
@@ -892,7 +892,7 @@
   "flag": 0,
   "speaker": 9,
   "jp": "よっし　じゃあ　ゆっくり　みていってよ！{KN}",
-  "en": "All right, take your time and look\naround!{KN}",
+  "en": "All right, take your\ntime and look around!{KN}",
   "status": "done"
  },
  {
@@ -932,7 +932,7 @@
   "flag": 0,
   "speaker": 9,
   "jp": "あれ？　もちものが　いっぱいで\nこれいじょう　もちきれないみたいだね・・・",
-  "en": "Huh? Your bag's full, looks like you can't\ncarry any more...",
+  "en": "Huh? Your bag's full, looks\nlike you can't carry any more...",
   "status": "done"
  },
  {
@@ -972,7 +972,7 @@
   "flag": 0,
   "speaker": 9,
   "jp": "すまないけど\nアイテム　もってないみたいだね",
-  "en": "Sorry, but looks like you don't have any\nitems.",
+  "en": "Sorry, but looks like you\ndon't have any items.",
   "status": "done"
  },
  {
@@ -988,7 +988,7 @@
   "flag": 0,
   "speaker": 4,
   "jp": "{%sR4}さん　きこえますか？\nわたしです　ナビュウです",
-  "en": "{%sR4}-san, can you hear me? It is\nme, Navyu.",
+  "en": "{%sR4}-san, can you\nhear me? It is me, Navyu.",
   "status": "done"
  },
  {
@@ -996,7 +996,7 @@
   "flag": 0,
   "speaker": 4,
   "jp": "〒{%02dR0}－{%02dR1}に　すんでいる\n{%sR2}と",
-  "en": "At {%02dR0}-{%02dR1}, the Dyna couple\n{%sR2}",
+  "en": "At {%02dR0}-{%02dR1}, the Dyna\ncouple {%sR2}",
   "status": "done"
  },
  {
@@ -1012,7 +1012,7 @@
   "flag": 0,
   "speaker": 4,
   "jp": "おめでとうございます！　よかったですね\nでは　こどもの　データを　ひょうじします",
-  "en": "Congratulations! How wonderful! Now I will\nshow you the baby's data.",
+  "en": "Congratulations! How wonderful! Now\nI will show you the baby's data.",
   "status": "done"
  },
  {
@@ -1020,7 +1020,7 @@
   "flag": 0,
   "speaker": 4,
   "jp": "さっそくですが　このコに\nなまえを　つけてあげてください",
-  "en": "Right away, please give this little one a\nname.",
+  "en": "Right away, please give\nthis little one a name.",
   "status": "done"
  },
  {
@@ -1028,7 +1028,7 @@
   "flag": 0,
   "speaker": 4,
   "jp": "はい　これで　このシティへの\nとうろくは　かんりょうしました",
-  "en": "There we are! It is now registered in this\ncity.",
+  "en": "There we are! It is now\nregistered in this city.",
   "status": "done"
  },
  {
@@ -1044,7 +1044,7 @@
   "flag": 0,
   "speaker": 4,
   "jp": "つれだしたいときは\nそちらへ　むかえにいってくださいね{KP}\nそれでは",
-  "en": "so whenever you want to take it along,\nplease go and pick it up there.{KP}\nWell then.",
+  "en": "so whenever you want to take it\nalong, please go and pick it up there.{KP}\nWell then.",
   "status": "done"
  },
  {
@@ -1060,7 +1060,7 @@
   "flag": 0,
   "speaker": 11,
   "jp": "じつは　ほんじつ　なかなか　めずらしい\nスペシャルアイテムを　にゅうかいたしました{KP}\nよろしかったら　みにきてみてください",
-  "en": "As it happens, today we got in a rather\nrare special item.{KP}\nIf you like, please come and have a\nlook.",
+  "en": "As it happens, today we got\nin a rather rare special item.{KP}\nIf you like, please\ncome and have a look.",
   "status": "done"
  },
  {
@@ -1084,7 +1084,7 @@
   "flag": 0,
   "speaker": 11,
   "jp": "おかげさまで　スペシャルアイテムは\nかんばい　いたしました",
-  "en": "Thanks to you, the special item is sold\nout.",
+  "en": "Thanks to you, the\nspecial item is sold out.",
   "status": "done"
  },
  {
@@ -1092,7 +1092,7 @@
   "flag": 0,
   "speaker": 11,
   "jp": "また　ほりだしものを\nさがしてまいりますので　ごきたいください",
-  "en": "We will go hunting for more bargains, so\nplease look forward to it.",
+  "en": "We will go hunting for more bargains,\nso please look forward to it.",
   "status": "done"
  },
  {
@@ -1108,7 +1108,7 @@
   "flag": 0,
   "speaker": 11,
   "jp": "じつは　ただいまから　バーゲンセールを\nはじめます",
-  "en": "As it happens, we are starting a bargain\nsale right now.",
+  "en": "As it happens, we are starting\na bargain sale right now.",
   "status": "done"
  },
  {
@@ -1116,7 +1116,7 @@
   "flag": 0,
   "speaker": 11,
   "jp": "なんでも　はんがくですので\nよろしかったら　みにきてみてください",
-  "en": "Everything is half price, so if you like,\nplease come and have a look.",
+  "en": "Everything is half price, so if you\nlike, please come and have a look.",
   "status": "done"
  },
  {
@@ -1124,7 +1124,7 @@
   "flag": 0,
   "speaker": 11,
   "jp": "きかんげんていですので\nおはやめに　どうぞ！",
-  "en": "It's for a limited time only, so please come\nearly!",
+  "en": "It's for a limited time\nonly, so please come early!",
   "status": "done"
  },
  {
@@ -1148,7 +1148,7 @@
   "flag": 0,
   "speaker": 11,
   "jp": "また　つぎの　バーゲンセールに\nごきたいください",
-  "en": "Please look forward to our next bargain\nsale.",
+  "en": "Please look forward to\nour next bargain sale.",
   "status": "done"
  },
  {
@@ -1164,7 +1164,7 @@
   "flag": 0,
   "speaker": 11,
   "jp": "じつは　この　ダイナシティぜんたいで\nしょくりょうが　ふそくしていまして",
-  "en": "As it happens, there's a food shortage all\nover this Dyna City,",
+  "en": "As it happens, there's a food\nshortage all over this Dyna City,",
   "status": "done"
  },
  {
@@ -1172,7 +1172,7 @@
   "flag": 0,
   "speaker": 11,
   "jp": "もうしわけありませんが　しばらく\nエサの　ねだんを　あげさせていただきます",
-  "en": "so I'm sorry, but we'll be raising the price\nof food for a while.",
+  "en": "so I'm sorry, but we'll be raising\nthe price of food for a while.",
   "status": "done"
  },
  {
@@ -1180,7 +1180,7 @@
   "flag": 0,
   "speaker": 11,
   "jp": "しょくりょうぶそくが　かいけつししだい\nねだんは　もどしますので{KP}\nどうか　ごりょうしょうください",
-  "en": "Prices will go back down as soon as the\nshortage is over,{KP}\nso we hope you understand.",
+  "en": "Prices will go back down as\nsoon as the shortage is over,{KP}\nso we hope you understand.",
   "status": "done"
  },
  {
@@ -1196,7 +1196,7 @@
   "flag": 0,
   "speaker": 11,
   "jp": "ただいま　しょうりょうぶそくが\nかいけついたしました{KP}\nごめいわくを　おかけしました",
-  "en": "The food shortage has just been\nresolved.{KP}\nWe're sorry for the trouble.",
+  "en": "The food shortage has\njust been resolved.{KP}\nWe're sorry for the trouble.",
   "status": "done"
  },
  {
@@ -1204,7 +1204,7 @@
   "flag": 0,
   "speaker": 4,
   "jp": "{%sR4}さん　きこえますか？\nわたしです　ナビュウです{KP}\nどうやら　このシティに\nのらダイナが",
-  "en": "{%sR4}-san, can you hear me? It is\nme, Navyu.{KP}\nI have received word that a stray Dyna",
+  "en": "{%sR4}-san, can you\nhear me? It is me, Navyu.{KP}\nI have received word that a stray Dyna",
   "status": "done"
  },
  {
@@ -1236,7 +1236,7 @@
   "flag": 0,
   "speaker": 4,
   "jp": "いまの　のらダイナですが\nただいま　こちらに　しゅうようしました",
-  "en": "I have just taken in that stray Dyna\nhere.",
+  "en": "I have just taken in\nthat stray Dyna here.",
   "status": "done"
  },
  {
@@ -1252,7 +1252,7 @@
   "flag": 0,
   "speaker": 4,
   "jp": "このまま　ダイナネットに\nおくりかえすべきなのでしょうが",
-  "en": "I suppose I should send it back to the\nDyna Net,",
+  "en": "I suppose I should send\nit back to the Dyna Net,",
   "status": "done"
  },
  {
@@ -1284,7 +1284,7 @@
   "flag": 0,
   "speaker": 4,
   "jp": "わかりました{KP}\nそのままセンターに　のこしておきますので\nよろしくおねがいします",
-  "en": "Understood.{KP}\nI will keep it here at the Center, so please\ntake good care of it.",
+  "en": "Understood.{KP}\nI will keep it here at the Center,\nso please take good care of it.",
   "status": "done"
  },
  {
@@ -1300,7 +1300,7 @@
   "flag": 0,
   "speaker": 4,
   "jp": "そうですか・・・しかたありませんね{KP}\nそれでは　このダイナは\nダイナネットに　おくりかえします",
-  "en": "I see... It cannot be helped.{KP}\nThen I will send this Dyna back to the\nDyna Net.",
+  "en": "I see... It cannot be helped.{KP}\nThen I will send this Dyna\nback to the Dyna Net.",
   "status": "done"
  },
  {
@@ -1316,7 +1316,7 @@
   "flag": 0,
   "speaker": 4,
   "jp": "いまの　のらダイナですが\nただいま　こちらに　しゅうようしました",
-  "en": "I have just taken in that stray Dyna\nhere.",
+  "en": "I have just taken in\nthat stray Dyna here.",
   "status": "done"
  },
  {
@@ -1332,7 +1332,7 @@
   "flag": 0,
   "speaker": 4,
   "jp": "このダイナシティでは　これいじょう\nダイナを　かんりできないので",
-  "en": "This Dyna City cannot look after any more\nDyna,",
+  "en": "This Dyna City cannot\nlook after any more Dyna,",
   "status": "done"
  },
  {
@@ -1356,7 +1356,7 @@
   "flag": 0,
   "speaker": 4,
   "jp": "いまの　のらダイナですが\nこちらの　たいさくが　まにあわず",
-  "en": "As for that stray Dyna, we could not act in\ntime,",
+  "en": "As for that stray Dyna,\nwe could not act in time,",
   "status": "done"
  },
  {
@@ -1364,7 +1364,7 @@
   "flag": 0,
   "speaker": 4,
   "jp": "ネットワークの　そとの　エリアに\nにげられてしまいました・・・",
-  "en": "and it escaped to an area outside the\nnetwork...",
+  "en": "and it escaped to an area\noutside the network...",
   "status": "done"
  },
  {
@@ -1372,7 +1372,7 @@
   "flag": 0,
   "speaker": 4,
   "jp": "シティでは　いつ　なにが　おこるか\nわかりませんので　できるだけ",
-  "en": "You never know what might happen in the\ncity, so as much as you can,",
+  "en": "You never know what might happen\nin the city, so as much as you can,",
   "status": "done"
  },
  {
@@ -1380,7 +1380,7 @@
   "flag": 0,
   "speaker": 4,
   "jp": "たたかえる　ダイナを\nつれあるくようにしてくださいね{KP}\nそれでは",
-  "en": "please walk around with Dyna that can\nfight.{KP}\nWell then.",
+  "en": "please walk around with\nDyna that can fight.{KP}\nWell then.",
   "status": "done"
  },
  {
@@ -1396,7 +1396,7 @@
   "flag": 0,
   "speaker": 9,
   "jp": "バトルの　ちょうせんをしながら\nいろいろなシティを　まわっているんだ",
-  "en": "I go around all kinds of cities challenging\npeople to battles.",
+  "en": "I go around all kinds of cities\nchallenging people to battles.",
   "status": "done"
  },
  {
@@ -1412,7 +1412,7 @@
   "flag": 0,
   "speaker": 9,
   "jp": "よし！　そうこなくっちゃね！\nじゃあ　さっそく　バトルだ！　いくよ！",
-  "en": "All right! That's the spirit! Let's battle right\nnow! Here I come!",
+  "en": "All right! That's the spirit! Let's\nbattle right now! Here I come!",
   "status": "done"
  },
  {
@@ -1420,7 +1420,7 @@
   "flag": 0,
   "speaker": 9,
   "jp": "そっか・・・ざんねんだなぁ\nまた　こんど　バトルしよう！",
-  "en": "Oh... That's too bad. Let's battle some\nother time!",
+  "en": "Oh... That's too bad. Let's\nbattle some other time!",
   "status": "done"
  },
  {
@@ -1428,7 +1428,7 @@
   "flag": 0,
   "speaker": 9,
   "jp": "うわっ　キミ　つよいなぁ\nボクも　まだまだ　しゅぎょうが　たりないか",
-  "en": "Whoa, you're strong! Guess I still need a lot\nmore training.",
+  "en": "Whoa, you're strong! Guess I\nstill need a lot more training.",
   "status": "done"
  },
  {
@@ -1452,7 +1452,7 @@
   "flag": 0,
   "speaker": 9,
   "jp": "もっと　ダイナを　きたえておくから\nまた　バトルの　あいてしてくれよ！{KP}\nじゃあな！",
-  "en": "I'll train my Dyna more, so battle me again\nsometime!{KP}\nSee ya!",
+  "en": "I'll train my Dyna more, so\nbattle me again sometime!{KP}\nSee ya!",
   "status": "done"
  },
  {
@@ -1460,7 +1460,7 @@
   "flag": 0,
   "speaker": 9,
   "jp": "へへっ　いいしょうぶだったけど\nボクの　かちだね！",
-  "en": "Heh heh, that was a good match, but I\nwin!",
+  "en": "Heh heh, that was a\ngood match, but I win!",
   "status": "done"
  },
  {
@@ -1468,7 +1468,7 @@
   "flag": 0,
   "speaker": 9,
   "jp": "また　そのうち　くるから　そのときまでに\nもうちょっと　しゅぎょう　つんどいてくれ{KP}\nじゃあな！",
-  "en": "I'll be back one of these days, so get in\nsome more training before then.{KP}\nSee ya!",
+  "en": "I'll be back one of these days, so get\nin some more training before then.{KP}\nSee ya!",
   "status": "done"
  },
  {
@@ -1484,7 +1484,7 @@
   "flag": 0,
   "speaker": 10,
   "jp": "バトルの　ちょうせんをしながら\nいろいろなシティを　まわっているの",
-  "en": "I go around all kinds of cities challenging\npeople to battles.",
+  "en": "I go around all kinds of cities\nchallenging people to battles.",
   "status": "done"
  },
  {
@@ -1500,7 +1500,7 @@
   "flag": 0,
   "speaker": 10,
   "jp": "よし！　そうこなくっちゃ！\nじゃあ　さっそく　バトルしましょう！",
-  "en": "All right! That's the spirit! Let's battle right\naway!",
+  "en": "All right! That's the spirit!\nLet's battle right away!",
   "status": "done"
  },
  {
@@ -1516,7 +1516,7 @@
   "flag": 0,
   "speaker": 10,
   "jp": "あなたって　つよいのねぇ・・・\nわたしも　しゅぎょうが　たりないな・・・",
-  "en": "My, you're strong... I guess I need more\ntraining...",
+  "en": "My, you're strong... I guess\nI need more training...",
   "status": "done"
  },
  {
@@ -1540,7 +1540,7 @@
   "flag": 0,
   "speaker": 10,
   "jp": "もっと　ダイナを　きたえておくから\nまた　バトルの　あいてしてね！{KP}\nじゃあね！",
-  "en": "I'll train my Dyna more, so be my opponent\nagain sometime!{KP}\nBye-bye!",
+  "en": "I'll train my Dyna more, so be\nmy opponent again sometime!{KP}\nBye-bye!",
   "status": "done"
  },
  {
@@ -1548,7 +1548,7 @@
   "flag": 0,
   "speaker": 10,
   "jp": "ふふっ　いいしょうぶだったけど\nわたしの　かちみたいね！",
-  "en": "Fufu, that was a good match, but it looks\nlike I win!",
+  "en": "Fufu, that was a good\nmatch, but it looks like I win!",
   "status": "done"
  },
  {
@@ -1564,7 +1564,7 @@
   "flag": 0,
   "speaker": 4,
   "jp": "{%sR4}さん　きこえますか？\nわたしです　ナビュウです",
-  "en": "{%sR4}-san, can you hear me? It is\nme, Navyu.",
+  "en": "{%sR4}-san, can you\nhear me? It is me, Navyu.",
   "status": "done"
  },
  {
@@ -1572,7 +1572,7 @@
   "flag": 0,
   "speaker": 4,
   "jp": "ランダムチャットかいせんから　このシティに\nつうしんが　はいってきています{KP}\nつうしんを　きりかえます",
-  "en": "A message is coming into this city on the\nrandom chat line.{KP}\nI will switch you over.",
+  "en": "A message is coming into this\ncity on the random chat line.{KP}\nI will switch you over.",
   "status": "done"
  },
  {
@@ -1596,7 +1596,7 @@
   "flag": 0,
   "speaker": 9,
   "jp": "じゃあ　じゅんびできたら　キミの\nシティの　コロシアムに　きてくれ！{KP}\nこっちも　せつぞくして　まってるから！",
-  "en": "Then come to your city's Colosseum when\nyou're ready!{KP}\nI'll be connected and waiting!",
+  "en": "Then come to your city's\nColosseum when you're ready!{KP}\nI'll be connected and waiting!",
   "status": "done"
  },
  {
@@ -1604,7 +1604,7 @@
   "flag": 0,
   "speaker": 9,
   "jp": "そっか・・・いそがしいところ　じゃまして\nわるかったな！・・・それじゃ",
-  "en": "Oh... Sorry to bother you while you're busy!\n...See ya.",
+  "en": "Oh... Sorry to bother you\nwhile you're busy! ...See ya.",
   "status": "done"
  },
  {
@@ -1612,7 +1612,7 @@
   "flag": 0,
   "speaker": 12,
   "jp": "あ　いらっしゃいましたね！　あなたを\nバトルで　しめいしているかたが　おまちです",
-  "en": "Ah, here you are! Someone who asked to\nbattle you is waiting.",
+  "en": "Ah, here you are! Someone who\nasked to battle you is waiting.",
   "status": "done"
  },
  {
@@ -1628,7 +1628,7 @@
   "flag": 0,
   "speaker": 9,
   "jp": "まってたよ！\nじゃあ　さっそく　はじめよう！",
-  "en": "I've been waiting! Let's get started right\naway!",
+  "en": "I've been waiting! Let's\nget started right away!",
   "status": "done"
  },
  {
@@ -1636,7 +1636,7 @@
   "flag": 0,
   "speaker": 9,
   "jp": "うわっ　キミ　つよいなぁ\nボクも　まだまだ　しゅぎょうが　たりないか",
-  "en": "Whoa, you're strong! Guess I still need a lot\nmore training.",
+  "en": "Whoa, you're strong! Guess I\nstill need a lot more training.",
   "status": "done"
  },
  {
@@ -1660,7 +1660,7 @@
   "flag": 0,
   "speaker": 9,
   "jp": "もっと　ダイナを　きたえておくから\nまた　バトルの　あいてしてくれよ！{KP}\nじゃあな！",
-  "en": "I'll train my Dyna more, so battle me again\nsometime!{KP}\nSee ya!",
+  "en": "I'll train my Dyna more, so\nbattle me again sometime!{KP}\nSee ya!",
   "status": "done"
  },
  {
@@ -1668,7 +1668,7 @@
   "flag": 0,
   "speaker": 9,
   "jp": "へへっ　いいしょうぶだったけど\nボクの　かちだね！",
-  "en": "Heh heh, that was a good match, but I\nwin!",
+  "en": "Heh heh, that was a\ngood match, but I win!",
   "status": "done"
  },
  {
@@ -1676,7 +1676,7 @@
   "flag": 0,
   "speaker": 9,
   "jp": "また　そのうち　くるから　そのときまでに\nもうちょっと　しゅぎょう　つんどいてくれ{KP}\nじゃあな！",
-  "en": "I'll be back one of these days, so get in\nsome more training before then.{KP}\nSee ya!",
+  "en": "I'll be back one of these days, so get\nin some more training before then.{KP}\nSee ya!",
   "status": "done"
  },
  {
@@ -1684,7 +1684,7 @@
   "flag": 0,
   "speaker": 4,
   "jp": "{%sR4}さん　きこえますか？\nわたしです　ナビュウです",
-  "en": "{%sR4}-san, can you hear me? It is\nme, Navyu.",
+  "en": "{%sR4}-san, can you\nhear me? It is me, Navyu.",
   "status": "done"
  },
  {
@@ -1692,7 +1692,7 @@
   "flag": 0,
   "speaker": 4,
   "jp": "ランダムチャットかいせんから　このシティに\nつうしんが　はいってきています{KP}\nつうしんを　きりかえます",
-  "en": "A message is coming into this city on the\nrandom chat line.{KP}\nI will switch you over.",
+  "en": "A message is coming into this\ncity on the random chat line.{KP}\nI will switch you over.",
   "status": "done"
  },
  {
@@ -1716,7 +1716,7 @@
   "flag": 0,
   "speaker": 10,
   "jp": "じゃあ　じゅんびできたら　あなたの\nシティの　コロシアムに　きてね！{KP}\nこっちも　せつぞくして　まってるから！",
-  "en": "Then come to your city's Colosseum when\nyou're ready!{KP}\nI'll be connected and waiting!",
+  "en": "Then come to your city's\nColosseum when you're ready!{KP}\nI'll be connected and waiting!",
   "status": "done"
  },
  {
@@ -1724,7 +1724,7 @@
   "flag": 0,
   "speaker": 10,
   "jp": "そっか・・・いそがしいところ　じゃまして\nごめんね！・・・それじゃ",
-  "en": "Oh... Sorry to bother you while you're busy!\n...Bye, then.",
+  "en": "Oh... Sorry to bother you\nwhile you're busy! ...Bye, then.",
   "status": "done"
  }
 ]

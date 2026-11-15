@@ -4,7 +4,7 @@
   "flag": 0,
   "speaker": -1,
   "jp": "そういえば　さっき\n{%sR4}に　あったわ{KP}\nなんでも　でんせつの　{%sR5}を\nさがす　たびに　でるんですって",
-  "en": "Oh, I ran into {%sR4} just now.{KP}\nThey say they're going on a journey to\nfind the legendary {%sR5}!",
+  "en": "Oh, I ran into {%sR4} just now.{KP}\nThey say they're going on a journey\nto find the legendary {%sR5}!",
   "status": "done"
  },
  {
@@ -268,7 +268,7 @@
   "flag": 0,
   "speaker": -1,
   "jp": "まぁ　そういうのは\nわたしにも　わかります",
-  "en": "Well, I can understand that sort of\nthing.",
+  "en": "Well, I can understand\nthat sort of thing.",
   "status": "done"
  },
  {
@@ -300,7 +300,7 @@
   "flag": 0,
   "speaker": -1,
   "jp": "ちょっと　わたしには\nりかいできませんね・・・",
-  "en": "I am afraid I cannot quite understand\nit...",
+  "en": "I am afraid I cannot\nquite understand it...",
   "status": "done"
  },
  {
@@ -364,7 +364,7 @@
   "flag": 0,
   "speaker": -1,
   "jp": "こんげつは　１月\nいよいよ　{%04dR4}年が　はじまりましたね{KP}\nことしも　どうか　この　シティを\nよろしくおねがいしますね",
-  "en": "This month is January.{KP}\nThe year {%04dR4} has begun at last!{KP}\nI hope you will take good care of this city\nagain this year.",
+  "en": "This month is January.{KP}\nThe year {%04dR4} has begun at last!{KP}\nI hope you will take good care\nof this city again this year.",
   "status": "done"
  },
  {
@@ -372,7 +372,7 @@
   "flag": 0,
   "speaker": -1,
   "jp": "こんげつは　１月\nいよいよ　{%04dR4}年が　はじまったな！{KP}\nことしも　この　シティを\nよろしくたのむぜ！",
-  "en": "This month's January!{KP}\nThe year {%04dR4} is finally here!{KP}\nTake good care of this city again this\nyear!",
+  "en": "This month's January!{KP}\nThe year {%04dR4} is finally here!{KP}\nTake good care of this\ncity again this year!",
   "status": "done"
  },
  {
@@ -380,7 +380,7 @@
   "flag": 0,
   "speaker": -1,
   "jp": "こんげつは　１月\nいよいよ　{%04dR4}年か・・・{KP}\nことしも　ひきつづき　この　シティを\nたのむぞ",
-  "en": "This month is January.{KP}\nSo it is {%04dR4} at last...{KP}\nContinue to look after this city this\nyear.",
+  "en": "This month is January.{KP}\nSo it is {%04dR4} at last...{KP}\nContinue to look after\nthis city this year.",
   "status": "done"
  },
  {
@@ -388,7 +388,7 @@
   "flag": 0,
   "speaker": -1,
   "jp": "こんげつは　１月\nいよいよ　{%04dR4}年だね{KP}\nことしも　この　シティを　よろしくね",
-  "en": "This month's January.{KP}\nIt's finally {%04dR4}!{KP}\nTake good care of this city this year too,\nokay?",
+  "en": "This month's January.{KP}\nIt's finally {%04dR4}!{KP}\nTake good care of this\ncity this year too, okay?",
   "status": "done"
  },
  {
@@ -396,7 +396,7 @@
   "flag": 0,
   "speaker": -1,
   "jp": "こんげつは　２月\nふゆ　ほんばんといったかんじですね{KP}\nそういえば　{%sR4}に\nきいたのですが",
-  "en": "This month is February.{KP}\nWinter is in full swing.{KP}\nBy the way, I heard from\n{%sR4}...",
+  "en": "This month is February.{KP}\nWinter is in full swing.{KP}\nBy the way, I heard\nfrom {%sR4}...",
   "status": "done"
  },
  {
@@ -404,7 +404,7 @@
   "flag": 0,
   "speaker": -1,
   "jp": "この　ふゆは　ゆきの　ふる　なかを{KP}\n{%sR5}するのが　はやっていると\nいうのは　ほんとうなのでしょうか？",
-  "en": "that enjoying {%sR5} in the falling\nsnow{KP}\nis all the rage this winter. Is that true?",
+  "en": "that enjoying {%sR5}\nin the falling snow{KP}\nis all the rage this winter. Is that true?",
   "status": "done"
  }
 ]

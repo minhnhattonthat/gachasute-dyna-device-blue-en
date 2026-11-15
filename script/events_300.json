@@ -12,7 +12,7 @@
   "flag": 0,
   "speaker": -1,
   "jp": "{%sR4}は\nめを　あけていられない・・・{KN}",
-  "en": "{%sR4} can't keep its eyes\nopen...{KN}",
+  "en": "{%sR4} can't\nkeep its eyes open...{KN}",
   "status": "done"
  },
  {
@@ -84,7 +84,7 @@
   "flag": 0,
   "speaker": -1,
   "jp": "{%sR4}の　からだから\nどくが　ぬけた！{KN}",
-  "en": "The poison has left {%sR4}'s\nbody!{KN}",
+  "en": "The poison has left\n{%sR4}'s body!{KN}",
   "status": "done"
  },
  {
@@ -132,7 +132,7 @@
   "flag": 0,
   "speaker": -1,
   "jp": "{%sR4}の　からだの\nしびれが　とれた！{KN}",
-  "en": "The numbness left {%sR4}'s\nbody!{KN}",
+  "en": "The numbness left\n{%sR4}'s body!{KN}",
   "status": "done"
  },
  {
@@ -260,7 +260,7 @@
   "flag": 0,
   "speaker": 4,
   "jp": "{%sR4}さん　きこえますか？\nわたしです　ナビュウです{KP}\nげんざい　ひょうじしている　セクタに\nいじょうが　はっせいしました",
-  "en": "{%sR4}-san, can you hear me?{KP}\nIt is me, Navyu.{KP}\nSomething is wrong in the sector now on\nscreen.",
+  "en": "{%sR4}-san, can you hear me?{KP}\nIt is me, Navyu.{KP}\nSomething is wrong in the\nsector now on screen.",
   "status": "done"
  },
  {
@@ -268,7 +268,7 @@
   "flag": 0,
   "speaker": 4,
   "jp": "このままにしておくと　じしんが\nはっせいする　おそれがあります{KP}\nだいしきゅう　このセクタを　うめたてて\nヒビを　けしてしまってください",
-  "en": "If it is left like this, it may cause an\nearthquake.{KP}\nPlease fill in this sector right away and get\nrid of the cracks.",
+  "en": "If it is left like this, it\nmay cause an earthquake.{KP}\nPlease fill in this sector right\naway and get rid of the cracks.",
   "status": "done"
  },
  {
@@ -284,7 +284,7 @@
   "flag": 0,
   "speaker": 4,
   "jp": "じしんが　はっせいしました！{KP}\nいくつかの　セクタに\nひがいが　でているもようです！",
-  "en": "an earthquake has struck!{KP}\nIt looks like several sectors have been\ndamaged!",
+  "en": "an earthquake has struck!{KP}\nIt looks like several sectors\nhave been damaged!",
   "status": "done"
  },
  {
@@ -292,7 +292,7 @@
   "flag": 0,
   "speaker": 4,
   "jp": "{%sR4}さん　きこえますか？\nわたしです　ナビュウです{KP}\nげんざい　ひょうじしている　セクタに\nいじょうが　はっせいしました",
-  "en": "{%sR4}-san, can you hear me?{KP}\nIt is me, Navyu.{KP}\nSomething is wrong in the sector now on\nscreen.",
+  "en": "{%sR4}-san, can you hear me?{KP}\nIt is me, Navyu.{KP}\nSomething is wrong in the\nsector now on screen.",
   "status": "done"
  },
  {
@@ -300,7 +300,7 @@
   "flag": 0,
   "speaker": 4,
   "jp": "このままにしておくと　こうずいが\nはっせいする　おそれがあります{KP}\nだいしきゅう　このセクタを\nうめたててしまってください",
-  "en": "If it is left like this, it may cause a\nflood.{KP}\nPlease fill in this sector right away.",
+  "en": "If it is left like this,\nit may cause a flood.{KP}\nPlease fill in this sector right away.",
   "status": "done"
  },
  {
@@ -316,7 +316,7 @@
   "flag": 0,
   "speaker": 4,
   "jp": "こうずいが　はっせいしました！{KP}\nいくつかの　セクタが\nみずびたしに　なってしまったもようです！",
-  "en": "a flood has struck!{KP}\nIt looks like several sectors are under\nwater!",
+  "en": "a flood has struck!{KP}\nIt looks like several\nsectors are under water!",
   "status": "done"
  },
  {
@@ -324,7 +324,7 @@
   "flag": 0,
   "speaker": 4,
   "jp": "{%sR3}さん　きこえますか？\nわたしです　ナビュウです{KP}\n〒{%02dR4}ー{%02dR5}{%}の　ファクトリーから\nダイナセンターへ",
-  "en": "{%sR3}-san, can you hear me?{KP}\nIt is me, Navyu.{KP}\nThe Factory at {%02dR4}-{%02dR5} has sent the Dyna\nCenter",
+  "en": "{%sR3}-san, can you hear me?{KP}\nIt is me, Navyu.{KP}\nThe Factory at {%02dR4}-{%02dR5}\nhas sent the Dyna Center",
   "status": "done"
  },
  {
@@ -332,7 +332,7 @@
   "flag": 0,
   "speaker": 4,
   "jp": "きんきゅうメールが　はいりましたので\nおつたえします{KP}\nかいはつしきんが　たりないため\nこのままの　じょうたいでは",
-  "en": "an urgent e-mail, so I am passing it on.{KP}\nThey are short of development funds, and\nas things stand,",
+  "en": "an urgent e-mail, so I am passing it on.{KP}\nThey are short of development\nfunds, and as things stand,",
   "status": "done"
  },
  {
@@ -340,7 +340,7 @@
   "flag": 0,
   "speaker": 4,
   "jp": "かいはつを　つづけることが　むずかしい\nかいはつラインが　あるとのことです{KP}\nこのまま　かいはつを　つづけると\nじこを　ひきおこす　おそれがあるそうです",
-  "en": "there is a development line that will be\nhard to keep going.{KP}\nThey say that if development continues\nlike this, it could cause an accident.",
+  "en": "there is a development line\nthat will be hard to keep going.{KP}\nThey say that if development continues\nlike this, it could cause an accident.",
   "status": "done"
  },
  {
@@ -364,7 +364,7 @@
   "flag": 0,
   "speaker": 4,
   "jp": "わかりました　そのように\nファクトリーへは　れんらくしておきます{KP}\nもしも　あとから　かいはつを\nちゅうしさせたくなったばあいは",
-  "en": "Understood. I will let the Factory know.{KP}\nIf you later decide you want to stop the\ndevelopment,",
+  "en": "Understood. I will let the Factory know.{KP}\nIf you later decide you want\nto stop the development,",
   "status": "done"
  },
  {
@@ -372,7 +372,7 @@
   "flag": 0,
   "speaker": 4,
   "jp": "ファクトリーに　ちょくせつ　いって\nそのように　しじしてください{KP}\nそれでは",
-  "en": "please go to the Factory yourself and tell\nthem so.{KP}\nWell then.",
+  "en": "please go to the Factory\nyourself and tell them so.{KP}\nWell then.",
   "status": "done"
  },
  {
@@ -380,7 +380,7 @@
   "flag": 0,
   "speaker": 4,
   "jp": "{%sR3}さん　きこえますか？\nわたしです　ナビュウです{KP}\n〒{%02dR4}ー{%02dR5}の　ファクトリーから\nダイナセンターへ",
-  "en": "{%sR3}-san, can you hear me?{KP}\nIt is me, Navyu.{KP}\nThe Factory at {%02dR4}-{%02dR5} has sent the Dyna\nCenter",
+  "en": "{%sR3}-san, can you hear me?{KP}\nIt is me, Navyu.{KP}\nThe Factory at {%02dR4}-{%02dR5}\nhas sent the Dyna Center",
   "status": "done"
  },
  {
@@ -388,7 +388,7 @@
   "flag": 0,
   "speaker": 4,
   "jp": "きんきゅうメールが　はいりましたので\nおつたえします{KP}\nかいはつしざいが　たりないため\nこのままの　じょうたいでは",
-  "en": "an urgent e-mail, so I am passing it on.{KP}\nThey are short of development materials,\nand as things stand,",
+  "en": "an urgent e-mail, so I am passing it on.{KP}\nThey are short of development\nmaterials, and as things stand,",
   "status": "done"
  },
  {
@@ -396,7 +396,7 @@
   "flag": 0,
   "speaker": 4,
   "jp": "かいはつを　つづけることが　むずかしい\nかいはつラインが　あるとのことです{KP}\nこのまま　かいはつを　つづけると\nじこを　ひきおこす　おそれがあるそうです",
-  "en": "there is a development line that will be\nhard to keep going.{KP}\nThey say that if development continues\nlike this, it could cause an accident.",
+  "en": "there is a development line\nthat will be hard to keep going.{KP}\nThey say that if development continues\nlike this, it could cause an accident.",
   "status": "done"
  },
  {
@@ -420,7 +420,7 @@
   "flag": 0,
   "speaker": 4,
   "jp": "わかりました　そのように\nファクトリーへは　れんらくしておきます{KP}\nもしも　あとから　かいはつを\nちゅうしさせたくなったばあいは",
-  "en": "Understood. I will let the Factory know.{KP}\nIf you later decide you want to stop the\ndevelopment,",
+  "en": "Understood. I will let the Factory know.{KP}\nIf you later decide you want\nto stop the development,",
   "status": "done"
  },
  {
@@ -428,7 +428,7 @@
   "flag": 0,
   "speaker": 4,
   "jp": "ファクトリーに　ちょくせつ　いって\nそのように　しじしてください{KP}\nそれでは",
-  "en": "please go to the Factory yourself and tell\nthem so.{KP}\nWell then.",
+  "en": "please go to the Factory\nyourself and tell them so.{KP}\nWell then.",
   "status": "done"
  },
  {
@@ -436,7 +436,7 @@
   "flag": 0,
   "speaker": 4,
   "jp": "{%sR4}さん　きこえますか？\nわたしです　ナビュウです{KP}\nげんざい　ひょうじしている　ファクトリーで\nばくはつじこが　はっせいしたもようです！",
-  "en": "{%sR4}-san, can you hear me?{KP}\nIt is me, Navyu.{KP}\nIt seems there has been an explosion at\nthe Factory now on screen!",
+  "en": "{%sR4}-san, can you hear me?{KP}\nIt is me, Navyu.{KP}\nIt seems there has been an explosion\nat the Factory now on screen!",
   "status": "done"
  },
  {
@@ -444,7 +444,7 @@
   "flag": 0,
   "speaker": 4,
   "jp": "なお　けんきゅういんの　かたがたは\nぜんいん　ぶじとのことです{KP}\nダイナセンターに　ファクトリキットが\nとどいていますので　あずかっておきます",
-  "en": "The researchers are all safe, I am told.{KP}\nA Factory Kit has arrived at the Dyna\nCenter, so I will keep it for you.",
+  "en": "The researchers are all safe, I am told.{KP}\nA Factory Kit has arrived at the\nDyna Center, so I will keep it for you.",
   "status": "done"
  },
  {
@@ -452,7 +452,7 @@
   "flag": 0,
   "speaker": 4,
   "jp": "ひつようなときは　ひきとりにきてください",
-  "en": "Please come and pick it up when you need\nit.",
+  "en": "Please come and pick it\nup when you need it.",
   "status": "done"
  },
  {
@@ -468,7 +468,7 @@
   "flag": 0,
   "speaker": 4,
   "jp": "そうとう　ストレスが　たまっているみたいで\nこのままでは　なにを　するか　わかりません{KP}\nようすを　みにいっては　どうでしょうか？",
-  "en": "It seems to be very stressed out.{KP}\nThere is no telling what it might do like\nthis.{KP}\nWhy not go and check on it?",
+  "en": "It seems to be very stressed out.{KP}\nThere is no telling what\nit might do like this.{KP}\nWhy not go and check on it?",
   "status": "done"
  },
  {
@@ -476,7 +476,7 @@
   "flag": 0,
   "speaker": 4,
   "jp": "いちど　つれだしてあげると　わるくなった\nきげんが　かいふくするので　そのあいだに",
-  "en": "Taking it out once will improve its bad\nmood, so while it is out,",
+  "en": "Taking it out once will improve\nits bad mood, so while it is out,",
   "status": "done"
  },
  {
@@ -484,7 +484,7 @@
   "flag": 0,
   "speaker": 4,
   "jp": "きげんが　わるくなる　げんいんを　さがして\nとりのぞいてあげると　いいと　おもいます",
-  "en": "I think you should find what is putting it in\na bad mood and get rid of it.",
+  "en": "I think you should find what is putting\nit in a bad mood and get rid of it.",
   "status": "done"
  },
  {
@@ -500,7 +500,7 @@
   "flag": 0,
   "speaker": 4,
   "jp": "どうやら　きが　すんだみたいですね{KP}\nこのダイナは　いえが　こわれたので\nダイナセンターに　しゅうようされます",
-  "en": "It seems to have calmed down at last.{KP}\nIts house is wrecked, so this Dyna will be\ntaken in by the Dyna Center.",
+  "en": "It seems to have calmed down at last.{KP}\nIts house is wrecked, so this Dyna\nwill be taken in by the Dyna Center.",
   "status": "done"
  },
  {
@@ -508,7 +508,7 @@
   "flag": 0,
   "speaker": 4,
   "jp": "こんごは　ダイナたちの　きげんにも\nきをくばってあげてくださいね",
-  "en": "From now on, please keep an eye on your\nDyna's moods too.",
+  "en": "From now on, please keep an\neye on your Dyna's moods too.",
   "status": "done"
  },
  {
@@ -516,7 +516,7 @@
   "flag": 0,
   "speaker": 4,
   "jp": "{%sR4}さん　きこえますか？\nわたしです　ナビュウです{KP}\nげんざい　このシティで　ダイナを\nびょうきにする　ウィルスが　ふえています{KP}\nこのままでは　シティぜんたいに　びょうきが\nだいりゅうこうする　おそれがあります",
-  "en": "{%sR4}-san, can you hear me?{KP}\nIt is me, Navyu.{KP}\nA virus that makes Dyna sick is spreading\nin this City.{KP}\nIf this goes on, the sickness may spread\nacross the whole City.",
+  "en": "{%sR4}-san, can you hear me?{KP}\nIt is me, Navyu.{KP}\nA virus that makes Dyna\nsick is spreading in this City.{KP}\nIf this goes on, the sickness may\nspread across the whole City.",
   "status": "done"
  },
  {
@@ -524,7 +524,7 @@
   "flag": 0,
   "speaker": 4,
   "jp": "このウィルスは　ダストの　セクタが\nおおいと　ふえやすいようです{KP}\nダストの　セクタが　このシティに　ないか\nチェックしてみてください",
-  "en": "This virus seems to spread easily when\nthere are many Dust sectors.{KP}\nPlease check whether this City has any\nDust sectors.",
+  "en": "This virus seems to spread easily\nwhen there are many Dust sectors.{KP}\nPlease check whether this\nCity has any Dust sectors.",
   "status": "done"
  },
  {

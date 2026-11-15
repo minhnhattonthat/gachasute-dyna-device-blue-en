@@ -37,8 +37,13 @@ class TestRules(unittest.TestCase):
 
     def test_too_wide(self):
         self.assertTrue(self.errs(msg("あ", "H" * 40)))          # 200 px > 176 (last line)
-        self.assertEqual(self.errs(msg("あ\nい", "H" * 37 + "\nok")), [])   # 185 px <= 188 on a first line
+        self.assertEqual(self.errs(msg("あ\nい", "H" * 37 + "\nokay ok")), [])   # 185 px <= 188 on a first line
         self.assertTrue(self.errs(msg("あ\nい", "ok\n" + "H" * 36)))       # 180 px > 176 on the last line
+
+    def test_stub_last_line(self):
+        self.assertTrue(self.errs(msg("あ\nい", "A long first line here\nok.")))
+        self.assertEqual(self.errs(msg("あ{%sR4}\nい", "A long first line here\nto {%sR4}.")), [])
+        self.assertEqual(self.errs(msg("あ", "ok.")), [])                  # a one-line page is no stub
 
     def test_three_lines(self):
         self.assertTrue(self.errs(msg("あ", "a\nb\nc")))
