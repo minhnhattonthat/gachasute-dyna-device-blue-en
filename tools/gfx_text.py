@@ -295,6 +295,11 @@ ATLASES = {
         "redraw": [(t, (x, y, x + 16, y + 8), "row", [14, 13, 13, 12, 12, 11, 11], 10, "vwf", 0, WEEK_KILL)
                    for t, (x, y) in zip(WEEKDAYS, [(0, 32), (0, 40), (0, 48), (0, 56), (16, 48), (16, 56), (32, 48)])]
                   + [("/", (16, 32, 32, 48), "row", WEEK_GRAD, 10, "vwf2", 1, WEEK_KILL)]
+                  # day view (scene pda_cal_day): 16x16 weekdays 日..土 at 144 + 16k, 48 (drawn by code in the
+                  # "(月)" slot) -> Su..Sa; の予定 (48,32 48x16) -> Plans
+                  + [(t, (144 + 16 * k, 48, 160 + 16 * k, 64), "row", WEEK_GRAD, 10, "tallb", 1, WEEK_KILL)
+                     for k, t in enumerate(WEEKDAYS)]
+                  + [("Plans", (48, 32, 96, 48), "row", WEEK_GRAD, 10, "vwf2", 1, WEEK_KILL)]
                   # schedule form repeat row (scene pda_sched_d4): 16x16 boxed units 無|し, 毎 (left half shared
                   # by 毎週 / 毎月 / 毎年) + 週 / 月 / 年 right halves, ink 1 on transparent -> None, per Wk / Mo / Yr
                   + [("None", (145, 97, 172, 108), "row", 1, None, "vwf", 2, {1}),

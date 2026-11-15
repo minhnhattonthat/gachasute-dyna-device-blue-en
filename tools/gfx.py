@@ -54,6 +54,12 @@ MAP_PATCHES = [
     # the art, the 月 unit cells (row 3-4, col 21-22) go blank: "2000年 0月" -> "2000/ 0".
     (0x217F3A, [0x10D4, 0x10D5], [0x1000, 0x1000], "calendar header SCR 0217E54 row 3: no 月 unit"),
     (0x217F76, [0x10F4, 0x10F5], [0x1000, 0x1000], "calendar header SCR 0217E54 row 4: no 月 unit"),
+    # Day view header "0月 0日 (月) の予定" (raw SCR 0x2197F4): the 月 / 日 units are the 16x16 weekday glyphs, now
+    # Su..Sa: 月 -> the header's "/" (年 tiles 4,2), 日 -> blank, の予定 redrawn as "Plans": "12/31 (Mo) Plans".
+    (0x2198BE, [0x10D4, 0x10D5], [0x1082, 0x1083], "calendar day view SCR 02197F4 row 3: 月 unit -> /"),
+    (0x2198FA, [0x10F4, 0x10F5], [0x10A2, 0x10A3], "calendar day view SCR 02197F4 row 4: 月 unit -> /"),
+    (0x2198CA, [0x10D2, 0x10D3], [0x0000, 0x0000], "calendar day view SCR 02197F4 row 3: no 日 unit"),
+    (0x219906, [0x10F2, 0x10F3], [0x0000, 0x0000], "calendar day view SCR 02197F4 row 4: no 日 unit"),
 ]
 # PDA money diary dates (block 021C414; docs/re/graphics.md "Money diary dates"). Glyphs are drawn by 0x0802DF10
 # (r1 = glyph index into the table at 0x080D2590: u16 tile|pal<<12, u16 kind 0=16x16 1=8x16 2=8x8). The date units
