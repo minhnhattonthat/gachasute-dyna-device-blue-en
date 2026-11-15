@@ -11,8 +11,21 @@ Updated at the end of every session. Keep it to what the next session needs; his
   2026-11-15 (worker 23), sha1 7f22f56c..., check.py ok, lint 0/0 (137 strings wider than JP under
   guessed budgets: `lint.py --guess`, `docs/review/guess_wide.txt`). **Visual-QA gate green:** `qa_gate.py check
   work/qa/manifest.tsv work/qa/verdicts` exits 0 (197/197, build 7f22f56c = `work/qa/tour/tour_build.gba`).
-  **Left for phase 8: text coverage** (`textcover`: messages + 1083 strings, see "Next" 1) only; inkbox done.
-- **Latest session (2026-11-15, worker 23):** English tour finished (129 left scenes; `docs/tour_left.txt` had CRLF:
+  **Left for phase 8: text coverage** (`textcover`: 0 messages + 1066 strings, worker 24 entry) only; inkbox done.
+- **Latest session (2026-11-15, worker 24):** **Message coverage done**: `cover.py msgs` sweep finished, **0
+  messages unshown**; coverage 4470/5536, **1066 strings left**. Strings: UI text is copied through the expander
+  0x0801328C (r1 = source) into a stack buffer before the renderer, so new **`tools/debug/rotate.py` +
+  `tools/lua/rotate.lua`**: groups strings by pointer table (as `cover_tables.py`, gap 0x10, so neighbouring tables
+  can join), and the probe swaps r1 (`emu.setState`) / the text object pointer for the next unshown sibling whenever
+  the game draws an entry of a group with unshown strings left. The game's own code reads and draws it (often in a
+  neighbouring slot: rotation shots are coverage only, not visual QA). Test `menu_db_keyword_help`: 13 strings in one
+  run. `rotate.py --run [SCENE..]` runs every scenes.tsv scene one at a time, rewriting `work/qa/rotate_probe.lua`
+  before each (logs `work/qa/cover/rot/<scene>`, finished scenes skipped). **Stopped by Claude Code for low system
+  memory after 4 scenes** (7 Mesen of other projects, ~6 GB). Next: rerun `rotate.py --run` (check no gachasute
+  Mesen/python is alive), then `--gap 0x40` pass for tables with 0 shown (they join a neighbour), then scenes or
+  waivers (`docs/text_unshown.tsv`, reason required) for what's left; static screens give one rotation per draw, so
+  list scenes that scroll / redraw cover most. Then `textcover.py` exit 0 = phase 8 done.
+- **Session before (2026-11-15, worker 23):** English tour finished (129 left scenes; `docs/tour_left.txt` had CRLF:
   strip `\r` before passing names). **inkbox** on every choice / centred box: field submenus (01E30D4 rows are 48 px
   but the box border leaves x 3..44: "Battle Anim" 46 px and "Send Home" 44 px spilled over -> **Animation** / **Go
   Home**, margins 2/1), minigame pause box (03D5DB4: "Give up?" 36 px can't centre on the tile grid -> **Give up**
