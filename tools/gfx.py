@@ -235,7 +235,10 @@ def blocks(rom):
 # matter, the PNG is converted back by colour. 01E9764 (Dyna Customize title etc.) uses PDA OBJ palette 0 in game.
 # A PLT that repeats a colour (025E304: red in 1 6 7 8 13-15) would turn a drawn index into another one on the way
 # back from PNG, so palette_for nudges each repeat by 1 in blue (real GBA colours are multiples of 8).
-PLT_FOR = {0x1E9764: 0x22CF64}
+PLT_FOR = {0x1E9764: 0x22CF64,
+           # field-mode menu titles with no PLT of their own (the screen palette comes from code): same stand-in
+           **{o: 0x22CF64 for o in (0x1EA6B4, 0x1EA8C4, 0x1EAA04, 0x1EB9E4, 0x1ECD84, 0x1EE624, 0x1EFFF4,
+                                    0x1F4284)}}
 
 
 def distinct(cols):

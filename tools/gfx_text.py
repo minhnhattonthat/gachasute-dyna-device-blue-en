@@ -463,6 +463,12 @@ ATLASES = {
                                   ("D-Pad", [(1, 18), (2, 16), (2, 17)]),
                                   ("Start", [(2, 18), (5, 5), (5, 6)]))],
     },
+    # Item shop header (dmode 17 = scene d_item_sell; OBJ 2D at 0x10000, block 01EB9E4 22 tiles wide): ball icon c0-3,
+    # アイテムこうにゅう r0-1 c4-21 / アイテムばいきゃく r2-3 c4-21, italic f..b gradient + shadow 2 on navy 1.
+    0x1EB9E4: {
+        "redraw": [(t, (32, y, 176, y + 16), "row", TT_GRAD, 2, "vwf2", 1, TT_KILL)
+                   for t, y in (("Buy Items", 0), ("Sell Items", 16))],
+    },
     # Fortune box (boot with a save, scene `fortune`; BG1, block 0231524 32 tiles wide): きょうの うんせい r13 c12-21,
     # labels r14 after their icon tiles (c0 / c5 / c9 / c13), ink 1, 7 rows at tile y0, no shadow. gfx.FORTUNE_ROWS
     # gives Study c6-8 + c21 and Money c10-12 + c22; Health c1-4 and Lucky Dyna c14-20 stay where they were.
