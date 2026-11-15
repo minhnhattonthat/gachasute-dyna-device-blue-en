@@ -8,9 +8,21 @@ Updated at the end of every session. Keep it to what the next session needs; his
   Dyna get + naming / battle results / fortune box / item shop / Dyna Center / auction / device list / dev status /
   free battle / resident map / card trade / tactics battle board / staff roll / money diary dates / dev status
   words / field HUD status word / pause done). Phase 7 done 2026-11-15. Last build: `build/dynadevice_blue_en.gba`
-  2026-11-15 (worker 22), sha1 eb9071f3..., check.py ok, smoke ok, lint 0/0 (137 strings wider than JP under
-  guessed budgets: `lint.py --guess`, `docs/review/guess_wide.txt`).
-- **Latest session (2026-11-15, worker 22):** **Open VQA bugs (2)-(6) fixed** (verdicts in
+  2026-11-15 (worker 23), sha1 7f22f56c..., check.py ok, lint 0/0 (137 strings wider than JP under
+  guessed budgets: `lint.py --guess`, `docs/review/guess_wide.txt`). **Visual-QA gate green:** `qa_gate.py check
+  work/qa/manifest.tsv work/qa/verdicts` exits 0 (197/197, build 7f22f56c = `work/qa/tour/tour_build.gba`).
+  **Left for phase 8: text coverage** (`textcover`: messages + 1083 strings, see "Next" 1) only; inkbox done.
+- **Latest session (2026-11-15, worker 23):** English tour finished (129 left scenes; `docs/tour_left.txt` had CRLF:
+  strip `\r` before passing names). **inkbox** on every choice / centred box: field submenus (01E30D4 rows are 48 px
+  but the box border leaves x 3..44: "Battle Anim" 46 px and "Send Home" 44 px spilled over -> **Animation** / **Go
+  Home**, margins 2/1), minigame pause box (03D5DB4: "Give up?" 36 px can't centre on the tile grid -> **Give up**
+  in cells 7-11 + a 3-cell gap in "A=Yes   B=No": margins 53/53, 29/27; gfx.MINI_ROWS note). Message-window choice
+  lines (`choice_s37`, `menu_save`, `tact_confirm`) are column-laid like the JP, not centred. Re-shot `menu*` and
+  minigame scenes on the new build, `vqa_run.py` on the 136 changed sheets (chunks renamed `w23_*` so they don't
+  overwrite the old `chunk_NNN.tsv` verdicts), second look in `work/qa/verdicts/zz23*_review.tsv` (7 false
+  positives: player-typed JP names, page-spanning sentence, keyboard grid fading in, colons present, title colon).
+  Coverage sweep `cover.py msgs --hold 1500 --jobs 1` resumed (log `work/qa/cover/msgs.log`).
+- **Session before (2026-11-15, worker 22):** **Open VQA bugs (2)-(6) fixed** (verdicts in
   `work/qa/verdicts/zz_review.tsv`, shots `work/qa/fix22/`): date rows t0B90B4 / t0B8F50 / t0B98C4 spaced so the
   code-drawn 16 px digits sit in the JP cells ("2000 / 00 / 00"; lint now accepts full-width ０-９ and －, which
   encode_en keeps as game-font SJIS units), time placeholder t0B90D8 "－－:－－"; money diary week cells S M T W T
@@ -401,7 +413,6 @@ Updated at the end of every session. Keep it to what the next session needs; his
   BATTLE START (`dbg_battle`) reaches a real battle. Runs without `--sav` share `tools/mesen/Saves/<rom>.sav`.
   Warp `intro` reaches script 1 at ~f3000 (form + title first): use `--frames 6000`.
 - **Memory:** the host's AWPerformance.SCSubAgent (Dell service) held 3-7 GB; run tours one emulator at a time.
-- **Open bugs:** visual-QA bugs (2)-(6) under worker 21 above (deadline date row, money diary / schedule week
-  view weekdays, form おわる, ending_full capture).
+- **Open bugs:** none known (visual-QA bugs (2)-(6) fixed by worker 22, inkbox issues by worker 23).
 - **Waiting on the user:** (non-blocking) the address database (~2.6 MB of real Japanese place names, 0x44C754):
   default plan is Hepburn romanization from Japan Post KEN_ALL readings by postal code; see docs/re/text.md.
