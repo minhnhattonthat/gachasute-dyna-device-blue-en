@@ -147,6 +147,26 @@ ATLASES = {
                    ("Link Battle", (16, 24, 80, 32), "row", 14, ("ring", 2), "vwf", 0, set()),
                    ("Dyna Trade", (8, 32, 88, 40), "row", 14, ("ring", 2), "vwf", 0, set())],
     },
+    # Link connection screen (scenes pda_link_*: every Link menu item opens it without a cable). Headers block
+    # 03B3624 (OBJ tile r*32+c): せつぞくかくにん x32-159 y0-15 (shown at x56, orbs either side), ルールせんたく
+    # x48-159 y16-31 and バトルアニメせってい x0-159 y32-47 (both need a link partner: unseen). Lettering as the
+    # Link menu title (gradient 15..11, drop shadow 2 on navy 1).
+    0x3B3624: {
+        "grad": {15: [15, 15, 15, 14, 14, 14, 13, 13, 13, 12, 12, 12, 11, 11]},
+        "redraw": [("Link Check", (32, 0, 160, 16), "row", 15, 2, "vwf2", 1, {2, 11, 12, 13, 14, 15}),
+                   ("Select Rules", (48, 16, 160, 32), "row", 15, 2, "vwf2", 1, {2, 11, 12, 13, 14, 15}),
+                   ("Battle Animation", (0, 32, 160, 48), "row", 15, 2, "vwf2", 1, {2, 11, 12, 13, 14, 15})],
+    },
+    # Link status words, block 03B3164 (BG tiles at VRAM 0x8000 in 32-tile rows: tile r*32+c; BG1 map row 8 cols
+    # 10-18 inside the BG2 box): つながっていません = 2,3-10 + 3,10 (red 13, seen); つながっています 1,3-10 (white
+    # 15) and せつぞくちゅう 0,4-10 (yellow 14) need a partner (unseen; assumed the same 9-tile slot). Still JP and
+    # unseen: シンプル / エキスパート (4,0-9), ２３４Ｐ and the column fragments at x88-103.
+    0x3B3164: {
+        "ink": 13,
+        "rows": [("Not connected", tiles(2, 3, 10) + [(3, 10)])],
+        "redraw": [("Connecting...", (32, 0, 88, 8), "row", 14, None, "vwf", 0, {14}),
+                   ("Connected", (24, 8, 88, 16), "row", 15, None, "vwf", 0, {15})],
+    },
     # PDA Save Data dialog (OBJ, 2D mapping, block 020A4D4, ink 7 on 0; scenes pda_save / pda_saving, ppu dumps).
     # Prompt y76: 5,0-3 x56 | gap | 5,4-7 x96 | gap | 5,8-13 x136. Buttons y92 share 4-tile pieces: left = P Q R
     # (5,14-17 / 18-21 / 22-25) at x16, right = P S T R (5,14-17 / 26-29 / 30 / 22-25) at x120, so P and R are

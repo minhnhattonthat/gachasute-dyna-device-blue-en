@@ -114,6 +114,11 @@ its font at run time (dialogue, the boot date prompt, the profile popup) is stri
   Down x2, A): title "Link Menu" (`vwf2` = doubled font), bands Link Battle / Card Trade / Item Trade / Dyna
   Trade (lettered tiles replaced by the blank band tile 3,10, then gradient ink + ring). The PDA home wheel:
   Down turns it one app on (Address -> DynaDevice -> Save Data -> Link ...).
+- **Done (worker 7):** link check screen (every Link menu item opens it with no cable: scenes `pda_link_battle`
+  / `_card` / `_item` / `_dyna`): headers **03B3624** "Link Check" (seen), "Select Rules", "Battle Animation"
+  (drawn, unseen); status words **03B3164** (BG tiles, VRAM 0x8000 in 32-tile rows) "Not connected" (seen),
+  "Connected", "Connecting..." (unseen). Still JP there: シンプル / エキスパート, ２３４Ｐ. The trade screens
+  (024AF04, 024B834, 024D4B4, 024C1C4) and the link battle setup need a partner: no warp yet.
 - 020B0F4 tabs (なまえ ばしょ すること イベント カスタム) drawn as "Name / Place / To Do / Event / Custom" (map SCR
   0x20BAB4, menu-bar layout), **not yet seen in game**: archive index 2395 is loaded by 0x08023F20, reached from
   the mode 2 chain (0x08021370..) and from 0x080283B0 / 0x0802DDB0 / 0x08032834 / 0x0803B6A0. Not on the PDA
