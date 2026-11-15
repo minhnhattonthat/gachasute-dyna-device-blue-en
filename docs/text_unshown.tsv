@@ -1,0 +1,136 @@
+# id<TAB>reason: strings accepted as never shown by a coverage run (textcover.py --waive).
+# Hand-written rows here; `python -X utf8 tools/debug/cover.py waive` rewrites the block below.
+# auto
+t0AF71C	AGB SYSTEM DEBUG MENU (mode 50): leftover debug menu, no caller in play; romaji kept
+t0AF980	AGB SYSTEM DEBUG MENU (mode 50): leftover debug menu, no caller in play; romaji kept
+t0AF99C	AGB SYSTEM DEBUG MENU (mode 50): leftover debug menu, no caller in play; romaji kept
+t0AF9BC	AGB SYSTEM DEBUG MENU (mode 50): leftover debug menu, no caller in play; romaji kept
+t0AF9F4	AGB SYSTEM DEBUG MENU (mode 50): leftover debug menu, no caller in play; romaji kept
+t0AFA0C	AGB SYSTEM DEBUG MENU (mode 50): leftover debug menu, no caller in play; romaji kept
+t0AFA28	AGB SYSTEM DEBUG MENU (mode 50): leftover debug menu, no caller in play; romaji kept
+t0AFA6C	AGB SYSTEM DEBUG MENU (mode 50): leftover debug menu, no caller in play; romaji kept
+t0AFA8C	AGB SYSTEM DEBUG MENU (mode 50): leftover debug menu, no caller in play; romaji kept
+t0AFAAC	AGB SYSTEM DEBUG MENU (mode 50): leftover debug menu, no caller in play; romaji kept
+t0AFAD8	AGB SYSTEM DEBUG MENU (mode 50): leftover debug menu, no caller in play; romaji kept
+t0AFAE4	AGB SYSTEM DEBUG MENU (mode 50): leftover debug menu, no caller in play; romaji kept
+t0AFAF0	AGB SYSTEM DEBUG MENU (mode 50): leftover debug menu, no caller in play; romaji kept
+t0AFB68	AGB SYSTEM DEBUG MENU (mode 50): leftover debug menu, no caller in play; romaji kept
+t0AFBF8	blank string: nothing to show or translate
+t0AFBFC	AGB SYSTEM DEBUG MENU (mode 50): leftover debug menu, no caller in play; romaji kept
+t0AFC08	AGB SYSTEM DEBUG MENU (mode 50): leftover debug menu, no caller in play; romaji kept
+t0AFC14	AGB SYSTEM DEBUG MENU (mode 50): leftover debug menu, no caller in play; romaji kept
+t0AFC20	AGB SYSTEM DEBUG MENU (mode 50): leftover debug menu, no caller in play; romaji kept
+t0AFC2C	AGB SYSTEM DEBUG MENU (mode 50): leftover debug menu, no caller in play; romaji kept
+t0AFC38	AGB SYSTEM DEBUG MENU (mode 50): leftover debug menu, no caller in play; romaji kept
+t0AFC44	AGB SYSTEM DEBUG MENU (mode 50): leftover debug menu, no caller in play; romaji kept
+t0AFC48	AGB SYSTEM DEBUG MENU (mode 50): leftover debug menu, no caller in play; romaji kept
+t0AFC6C	AGB SYSTEM DEBUG MENU (mode 50): leftover debug menu, no caller in play; romaji kept
+t0AFC74	blank string: nothing to show or translate
+t0AFC98	AGB SYSTEM DEBUG MENU (mode 50): leftover debug menu, no caller in play; romaji kept
+t0B82AC	not text: the extractor marks it data (graphics or table bytes in the string region)
+t0B82B8	not text: the extractor marks it data (graphics or table bytes in the string region)
+t0B82C4	not text: the extractor marks it data (graphics or table bytes in the string region)
+t0B82D0	not text: the extractor marks it data (graphics or table bytes in the string region)
+t0B82DC	not text: the extractor marks it data (graphics or table bytes in the string region)
+t0B82E8	not text: the extractor marks it data (graphics or table bytes in the string region)
+t0B8310	not text: the extractor marks it data (graphics or table bytes in the string region)
+t0B8338	not text: the extractor marks it data (graphics or table bytes in the string region)
+t0B8360	not text: the extractor marks it data (graphics or table bytes in the string region)
+t0B8388	not text: the extractor marks it data (graphics or table bytes in the string region)
+t0B83B0	not text: the extractor marks it data (graphics or table bytes in the string region)
+t0B83D8	not text: the extractor marks it data (graphics or table bytes in the string region)
+t0B8400	not text: the extractor marks it data (graphics or table bytes in the string region)
+t0B8428	not text: the extractor marks it data (graphics or table bytes in the string region)
+t0B8450	not text: the extractor marks it data (graphics or table bytes in the string region)
+t0B8478	not text: the extractor marks it data (graphics or table bytes in the string region)
+t0B848C	not text: the extractor marks it data (graphics or table bytes in the string region)
+t0B84A0	not text: the extractor marks it data (graphics or table bytes in the string region)
+t0B84B4	not text: the extractor marks it data (graphics or table bytes in the string region)
+t0B84C8	not text: the extractor marks it data (graphics or table bytes in the string region)
+t0B84DC	not text: the extractor marks it data (graphics or table bytes in the string region)
+t0B84F8	not text: the extractor marks it data (graphics or table bytes in the string region)
+t0B8514	not text: the extractor marks it data (graphics or table bytes in the string region)
+t0B8530	not text: the extractor marks it data (graphics or table bytes in the string region)
+t0B854C	not text: the extractor marks it data (graphics or table bytes in the string region)
+t0B8568	not text: the extractor marks it data (graphics or table bytes in the string region)
+t0B8590	not text: the extractor marks it data (graphics or table bytes in the string region)
+t0B85B8	not text: the extractor marks it data (graphics or table bytes in the string region)
+t0B85E0	not text: the extractor marks it data (graphics or table bytes in the string region)
+t0B8608	not text: the extractor marks it data (graphics or table bytes in the string region)
+t0B86F8	not text: the extractor marks it data (graphics or table bytes in the string region)
+t0B8714	not text: the extractor marks it data (graphics or table bytes in the string region)
+t0B8730	not text: the extractor marks it data (graphics or table bytes in the string region)
+t0B874C	not text: the extractor marks it data (graphics or table bytes in the string region)
+t0B8768	not text: the extractor marks it data (graphics or table bytes in the string region)
+t0B8784	not text: the extractor marks it data (graphics or table bytes in the string region)
+t0B87AC	not text: the extractor marks it data (graphics or table bytes in the string region)
+t0B87D4	not text: the extractor marks it data (graphics or table bytes in the string region)
+t0B87FC	not text: the extractor marks it data (graphics or table bytes in the string region)
+t0B8824	not text: the extractor marks it data (graphics or table bytes in the string region)
+t0B884C	not text: the extractor marks it data (graphics or table bytes in the string region)
+t0B8874	not text: the extractor marks it data (graphics or table bytes in the string region)
+t0B889C	not text: the extractor marks it data (graphics or table bytes in the string region)
+t0B88C4	not text: the extractor marks it data (graphics or table bytes in the string region)
+t0B8914	not text: the extractor marks it data (graphics or table bytes in the string region)
+t0B8930	not text: the extractor marks it data (graphics or table bytes in the string region)
+t0B8958	not text: the extractor marks it data (graphics or table bytes in the string region)
+t0B8980	not text: the extractor marks it data (graphics or table bytes in the string region)
+t0B89A8	not text: the extractor marks it data (graphics or table bytes in the string region)
+t0B89D0	not text: the extractor marks it data (graphics or table bytes in the string region)
+t0B89F8	not text: the extractor marks it data (graphics or table bytes in the string region)
+t0B8A20	not text: the extractor marks it data (graphics or table bytes in the string region)
+t0B8A48	not text: the extractor marks it data (graphics or table bytes in the string region)
+t0B8A70	not text: the extractor marks it data (graphics or table bytes in the string region)
+t0B8A98	not text: the extractor marks it data (graphics or table bytes in the string region)
+t0B8B10	kept byte-identical: a format, digit or romaji link-debug string with no translated text
+t0B8BE0	kept byte-identical: a format, digit or romaji link-debug string with no translated text
+t0B8C24	not text: the extractor marks it data (graphics or table bytes in the string region)
+t0B8F40	not text: the extractor marks it data (graphics or table bytes in the string region)
+t0B8F44	not text: the extractor marks it data (graphics or table bytes in the string region)
+t0B8F48	not text: the extractor marks it data (graphics or table bytes in the string region)
+t0B8F70	kept byte-identical: a format, digit or romaji link-debug string with no translated text
+t0B9064	kept byte-identical: a format, digit or romaji link-debug string with no translated text
+t0B90AC	kept byte-identical: a format, digit or romaji link-debug string with no translated text
+t0B9124	kept byte-identical: a format, digit or romaji link-debug string with no translated text
+t0B91D0	blank string: nothing to show or translate
+t0B9274	kept byte-identical: a format, digit or romaji link-debug string with no translated text
+t0B928C	not text: the extractor marks it data (graphics or table bytes in the string region)
+t0B9290	not text: the extractor marks it data (graphics or table bytes in the string region)
+t0B9294	not text: the extractor marks it data (graphics or table bytes in the string region)
+t0B9574	blank string: nothing to show or translate
+t0B967C	kept byte-identical: a format, digit or romaji link-debug string with no translated text
+t0B9694	kept byte-identical: a format, digit or romaji link-debug string with no translated text
+t0B971C	kept byte-identical: a format, digit or romaji link-debug string with no translated text
+t0B9724	kept byte-identical: a format, digit or romaji link-debug string with no translated text
+t0B98EC	not text: the extractor marks it data (graphics or table bytes in the string region)
+t0B98F0	not text: the extractor marks it data (graphics or table bytes in the string region)
+t0B98F4	not text: the extractor marks it data (graphics or table bytes in the string region)
+t0B9900	kept byte-identical: a format, digit or romaji link-debug string with no translated text
+t0B9EB4	kept byte-identical: a format, digit or romaji link-debug string with no translated text
+t0B9F10	kept byte-identical: a format, digit or romaji link-debug string with no translated text
+t0B9F20	kept byte-identical: a format, digit or romaji link-debug string with no translated text
+t0BA51C	kept byte-identical: a format, digit or romaji link-debug string with no translated text
+t0BA578	kept byte-identical: a format, digit or romaji link-debug string with no translated text
+t0BA738	blank string: nothing to show or translate
+t0BA8A4	kept byte-identical: a format, digit or romaji link-debug string with no translated text
+t0BAAA0	kept byte-identical: a format, digit or romaji link-debug string with no translated text
+t0BAAA8	kept byte-identical: a format, digit or romaji link-debug string with no translated text
+t0BAAB0	blank string: nothing to show or translate
+t0BAAF0	kept byte-identical: a format, digit or romaji link-debug string with no translated text
+t0BAB20	blank string: nothing to show or translate
+t0BADEC	kept byte-identical: a format, digit or romaji link-debug string with no translated text
+t0BAF84	blank string: nothing to show or translate
+t0BB09C	kept byte-identical: a format, digit or romaji link-debug string with no translated text
+t0BB0A4	kept byte-identical: a format, digit or romaji link-debug string with no translated text
+t0BB0B0	kept byte-identical: a format, digit or romaji link-debug string with no translated text
+t0BB0BC	kept byte-identical: a format, digit or romaji link-debug string with no translated text
+t0BB144	kept byte-identical: a format, digit or romaji link-debug string with no translated text
+t0BB158	kept byte-identical: a format, digit or romaji link-debug string with no translated text
+t0BB164	kept byte-identical: a format, digit or romaji link-debug string with no translated text
+t0BB178	kept byte-identical: a format, digit or romaji link-debug string with no translated text
+t0BB17C	kept byte-identical: a format, digit or romaji link-debug string with no translated text
+t0BB3A0	kept byte-identical: a format, digit or romaji link-debug string with no translated text
+t0BB3A8	kept byte-identical: a format, digit or romaji link-debug string with no translated text
+t0BB46C	kept byte-identical: a format, digit or romaji link-debug string with no translated text
+t0BB478	kept byte-identical: a format, digit or romaji link-debug string with no translated text
+t0BB4BC	kept byte-identical: a format, digit or romaji link-debug string with no translated text

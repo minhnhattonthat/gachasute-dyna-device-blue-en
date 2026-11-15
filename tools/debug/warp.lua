@@ -4,7 +4,10 @@
 -- Globals (all optional except SCENE):
 --   SCENES  path of the scene list (default: ../debug/scenes.tsv, relative to tools/mesen, Mesen's working folder)
 --   HOLD    frames to keep running after the scene is reached (default: the scene's hold column, else 300)
---   MASHA   1 = press A every 40 frames after arrival (click through dialogue)
+--   MASHA   1 = press A every 40 frames after arrival (click through dialogue); 2 = press Down then A (takes the
+--           second choice of a Yes/No box, for branch coverage)
+--   IDLEFIN N = with FINISH, stop early once no script has run for N frames after arrival (text coverage runs,
+--           tools/debug/cover.py)
 --   GOD     reserved (battles): not wired yet
 --   FINISH  1 = stop the run once the hold shot is taken; WARP_STATE = path: save a state there, then stop
 --   (tools/debug/regen.py sets both)
@@ -270,6 +273,7 @@ L.on_exec(TEXT_DRAW, TEXT_DRAW, function()
 end)
 
 local cityFrame = nil
+local idleSince, holdDone = nil, false
 local function after_tutorial()
   -- the player stands on the city road with the tutorial's party, money and item shop sector
   if scene.kind == "fscript" then
@@ -280,8 +284,12 @@ local function after_tutorial()
     set_stage("dquit")
     play(parse_route(QUIT_ROUTE))
   else
+    -- kind "menu": arg "route", or "flags N=V ... | route": story flags set first (the Database lists show an
+    -- entry once its flag is set: keyword table 0x080D0008, +4 = flag, read by 0x080470AC)
+    local pokes, route = scene.arg:match("^%s*flags([^|]*)|%s*(.*)$")
+    for k, v in (pokes or ""):gmatch("(%d+)=(%d+)") do set_flag(tonumber(k), tonumber(v)) end
     set_stage("done")
-    play(parse_route("1 -;" .. scene.arg))
+    play(parse_route("1 -;" .. (route or scene.arg)))
     arriveAfterRoute = true
   end
 end
@@ -353,14 +361,27 @@ L.on_frame(function(n)
     end
   end
   if arriveAfterRoute and L.route_done() then arriveAfterRoute = false; arrive() end
-  if arrived and n - arrived == hold then
+  local idleFin = false
+  if arrived and (IDLEFIN or 0) > 0 and n - arrived > 60 then
+    if r16(SCR + 0x10) == 0 then
+      idleSince = idleSince or n
+      idleFin = n - idleSince >= IDLEFIN
+    else
+      idleSince = nil
+    end
+  end
+  if arrived and not holdDone and (n - arrived == hold or idleFin) then
+    holdDone = true
     L.shot("hold.png")
     L.log(string.format("HOLD done f%d", n))
     if WARP_STATE then L.save_state(WARP_STATE, function() L.finish(0) end)
     elseif FINISH then L.finish(0) end
   end
   if arrived and n > arrived and ((MASHA or 0) > 0 or (scene.kind == "resume" and scene.arg:match("mash")))
-    and (n - arrived) % 40 == 0 then L.press("a", 6) end
+    and (n - arrived) % 40 == 0 then
+    if (MASHA or 0) == 2 then L.press("down", 6); L.press("-", 4) end
+    L.press("a", 6)
+  end
   if n % 30 == 0 then  -- log top-level mode changes ("MODE n")
     local m = emu.read32(MODE_VAR, MEM)
     if m ~= lastMode then L.log(string.format("MODE %d f%d", m, n)); lastMode = m end

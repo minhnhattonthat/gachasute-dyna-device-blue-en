@@ -2,7 +2,7 @@
 
 Updated at the end of every session. Keep it to what the next session needs; history is in git.
 
-- **Phase:** 8. QA in the emulator: in progress (debug tool fixed, full regen + text coverage next). Phase 7
+- **Phase:** 8. QA in the emulator: in progress (text coverage 1735/5536, script sweep to resume). Phase 7
   done 2026-11-15; its review's Important items fixed (lint blank rule + r06 pads, guess-budget count). Last build:
   `build/dynadevice_blue_en.gba` 2026-11-15 (after r06), sha1 58b74fab..., 48 tests ok, lint 0/0 (138 strings wider
   than JP under guessed budgets: `lint.py --guess`, `docs/review/guess_wide.txt`).
@@ -26,12 +26,18 @@ Updated at the end of every session. Keep it to what the next session needs; his
   regen.py runs each job on its own ROM copy (`work/qa/warp/_roms/`) with a fresh `--sav` (an erased flash for
   the rest), and the textcover probe; the build writes `build/strings.tsv` (tools/strings_tsv.py).
 - **Next (phase 8, done-when in SKILL.md):**
-  1. Done 2026-11-15: full regen on the English build, 149/149 scenes (`work/regen_en.txt`, sheet
-     `work/qa/warp/sheet*.png`). Text coverage `textcover.py work/qa/warp build/strings.tsv`: **394/5536 shown**.
-     Close the gap: generate one `script` scene per message script (kind `script N`, hijacks the first script;
-     run with `MASHA=1` and a long hold so every page is read) for s000-s833, and string scenes per menu/shop/
-     database screen; waive debug-only and blank ids in `docs/text_unshown.tsv` with reasons. Then the original
-     ROM tour (`--rom rom/... --out work/qa/warp_jp --states work/states_jp`) for reviewers.
+  1. Text coverage, in progress. `tools/debug/cover.py`: `scripts` = one hijacked-script run per message script
+     with an unshown message (warp kind `script`, from savestate `work/states/cov_pre.mss` taken just before script
+     1, MASHA=1, stops after 300 idle frames: ~15 s a run, logs `work/qa/cover/m1/sSSS/`); `report`; `waive`
+     (auto rows in `docs/text_unshown.tsv`: data, blank, kept format/debug strings, 133 rows). The first sweep was
+     **stopped by Claude Code for low system memory** after 322 scripts (other projects' Mesen runs share the
+     machine): **1735/5536 shown or waived** (1555 messages, 2246 strings left). Resume: `cover.py scripts --jobs
+     2` (it reruns only scripts with unshown messages); then `--masha 2` (Down+A: second choice) for branches.
+     Strings: `tools/debug/cover_tables.py --unshown` groups them by pointer table. Keyword list entries show
+     when their story flag is set (table 0x080D0008 +4, flags 2 7 18 20 22 33 34 35 68): menu scenes now take
+     `flags N=V .. | route` (warp.lua) for an all-keywords Database scene (A on each entry, help pages). Then
+     item/Dyna/Device lists, Database style pages, shops. Then the original ROM tour for reviewers.
+     Earlier: full regen 149/149 scenes on the English build (`work/regen_en.txt`).
      Graphics text seen still JP: menu bar, PDA home labels, fortune box, title logo (docs/re/graphics.md rows).
   2. Tours through changed scenes with contact sheets, `qa_gate.py init/check`, verdicts by a fresh read-only pass
      (no subagents in Orca: do it yourself or `codex exec`). Text coverage (`textcover.py`), `inkbox.py` on every
