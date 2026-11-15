@@ -28,6 +28,7 @@ local function take(g)
 end
 local function pick(p, apply)
   if p == lastSet then return end  -- the hook refiring on an instruction we already redirected (after a load)
+  if ROT_WAIT and not (WARP_DONE or WARP_ARRIVED) then return end  -- rotate.py --any: keep the warp's own draws
   local g = of[p]
   if not g or g.next > #g.un then return end
   calls = calls + 1

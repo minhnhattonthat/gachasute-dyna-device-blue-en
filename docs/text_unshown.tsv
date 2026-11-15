@@ -1,5 +1,102 @@
 # id<TAB>reason: strings accepted as never shown by a coverage run (textcover.py --waive).
 # Hand-written rows here; `python -X utf8 tools/debug/cover.py waive` rewrites the block below.
+# Worker 26: situational strings no warp scene reaches (reachable in play, not proven unreachable; see
+# docs/status.md 'Waiting on the user'). 'forced draw' = rotate.py --any drew it in a foreign text slot.
+t0B80A0	item bag messages (discard / give up / send to Dyna Center when the bag is full); forced draw renders it (work/cover_any/menu_db_keyword_help)
+t0B80C0	item bag messages (discard / give up / send to Dyna Center when the bag is full); forced draw renders it (work/cover_any/menu_db_keyword_help)
+t0B80C8	item bag messages (discard / give up / send to Dyna Center when the bag is full); forced draw renders it (work/cover_any/menu_db_dyna)
+t0B80F4	item bag messages (discard / give up / send to Dyna Center when the bag is full); forced draw renders it (work/cover_any/menu_db_dyna)
+t0B8108	item bag messages (discard / give up / send to Dyna Center when the bag is full); forced draw renders it (work/cover_any/menu_db_dyna)
+t0B8134	item bag messages (discard / give up / send to Dyna Center when the bag is full); forced draw renders it (work/cover_any/menu_db_dyna)
+t0B8170	item bag messages (discard / give up / send to Dyna Center when the bag is full); forced draw renders it (work/cover_any/menu_db_dyna)
+t0B8198	item bag messages (discard / give up / send to Dyna Center when the bag is full); forced draw renders it (work/cover_any/menu_db_dyna)
+t0B81BC	item bag messages (discard / give up / send to Dyna Center when the bag is full); forced draw renders it (work/cover_any/menu_db_dyna)
+t0B81D0	item bag messages (discard / give up / send to Dyna Center when the bag is full); forced draw renders it (work/cover_any/menu_db_dyna)
+t0B81F0	item bag messages (discard / give up / send to Dyna Center when the bag is full); forced draw renders it (work/cover_any/menu_db_dyna)
+t0B8B40	keyboard word-registration prompts (Edit / Register with R); forced draw renders it (work/cover_any/menu_party)
+t0B8B78	keyboard word-registration prompts (Edit / Register with R); forced draw renders it (work/cover_any/menu_party)
+t0B8BB0	keyboard word-registration prompts (Edit / Register with R); forced draw renders it (work/cover_any/menu_party)
+t0B8BC8	keyboard word-registration prompts (Edit / Register with R); forced draw renders it (work/cover_any/menu_party)
+t0B8BE8	keyboard word-registration prompts (Edit / Register with R); forced draw renders it (work/cover_any/menu_party)
+t0B9208	money diary totals page (needs diary entries); forced draw renders it (work/cover_any/menu_party)
+t0B9218	money diary totals page (needs diary entries); forced draw renders it (work/cover_any/menu_party)
+t0B9748	LINK: Card Trade over the link cable; one emulator can't link; forced draw renders it (work/cover_any/menu_party)
+t0B9788	LINK: Card Trade over the link cable; one emulator can't link; forced draw renders it (work/cover_any/menu_party)
+t0B97B0	LINK: Card Trade over the link cable; one emulator can't link; forced draw renders it (work/cover_any/menu_party)
+t0B97D0	LINK: Card Trade over the link cable; one emulator can't link; forced draw renders it (work/cover_any/menu_party)
+t0B9840	LINK: Card Trade over the link cable; one emulator can't link; forced draw renders it (work/cover_any/menu_db_device)
+t0B9F50	Device help / factory hints, situational; forced draw renders it (work/cover_any/menu_db_device)
+t0B9F68	Device help / factory hints, situational; forced draw renders it (work/cover_any/menu_db_device)
+t0B9F80	Device help / factory hints, situational; forced draw renders it (work/cover_any/menu_db_device)
+t0B9F98	Device help / factory hints, situational; forced draw renders it (work/cover_any/menu_db_device)
+t0B9FC0	Device help / factory hints, situational; forced draw renders it (work/cover_any/menu_db_device)
+t0B9FD0	Device help / factory hints, situational; forced draw renders it (work/cover_any/menu_db_device)
+t0B9FE8	Device help / factory hints, situational; forced draw renders it (work/cover_any/menu_db_device)
+t0BA010	Device help / factory hints, situational; forced draw renders it (work/cover_any/menu_db_device)
+t0BA028	Device help / factory hints, situational; forced draw renders it (work/cover_any/menu_db_device)
+t0BA070	Device help / factory hints, situational; forced draw renders it (work/cover_any/menu_db_device)
+t0BA090	Device help / factory hints, situational; forced draw renders it (work/cover_any/menu_db_device)
+t0BA0A0	Device help / factory hints, situational; forced draw renders it (work/cover_any/menu_db_device)
+t0BA0B0	item-use result messages (feeding, HP, cure, stat items), situational; forced draw renders it (work/cover_any/menu_db_device)
+t0BA0D8	item-use result messages (feeding, HP, cure, stat items), situational; forced draw renders it (work/cover_any/menu_db_keyword)
+t0BA0E0	item-use result messages (feeding, HP, cure, stat items), situational; forced draw renders it (work/cover_any/mode_dyna_shop)
+t0BA130	item-use result messages (feeding, HP, cure, stat items), situational; forced draw renders it (work/cover_any/mode_shop_list)
+t0BA140	item-use result messages (feeding, HP, cure, stat items), situational; forced draw renders it (work/cover_any/mode_shop_list)
+t0BA158	item-use result messages (feeding, HP, cure, stat items), situational; forced draw renders it (work/cover_any/mode_shop_list)
+t0BA200	item-use result messages (feeding, HP, cure, stat items), situational; forced draw renders it (work/cover_any/mode_shop_list)
+t0BA23C	item-use result messages (feeding, HP, cure, stat items), situational; forced draw renders it (work/cover_any/mode_shop_list)
+t0BA248	item-use result messages (feeding, HP, cure, stat items), situational; forced draw renders it (work/cover_any/mode_shop_list)
+t0BA258	item-use result messages (feeding, HP, cure, stat items), situational; forced draw renders it (work/cover_any/mode_shop_list)
+t0BA268	item-use result messages (feeding, HP, cure, stat items), situational; forced draw renders it (work/cover_any/mode_shop_list)
+t0BA2D0	item-use result messages (feeding, HP, cure, stat items), situational; forced draw renders it (work/cover_any/mode_shop_list)
+t0BA2F0	item-use result messages (feeding, HP, cure, stat items), situational; not force-drawn
+t0BA308	item-use result messages (feeding, HP, cure, stat items), situational; forced draw renders it (work/cover_any/mode_shop_list)
+t0BA330	item-use result messages (feeding, HP, cure, stat items), situational; not force-drawn
+t0BA348	item-use result messages (feeding, HP, cure, stat items), situational; forced draw renders it (work/cover_any/mode_shop_list)
+t0BA370	item-use result messages (feeding, HP, cure, stat items), situational; not force-drawn
+t0BA37C	item-use result messages (feeding, HP, cure, stat items), situational; forced draw renders it (work/cover_any/mode_shop_list)
+t0BA3A0	item-use result messages (feeding, HP, cure, stat items), situational; not force-drawn
+t0BA3C8	item-use result messages (feeding, HP, cure, stat items), situational; not force-drawn
+t0BA4C0	DEBUG: 'Debug Mode Kai' overlay, debug build only; not force-drawn
+t0BA504	DEBUG: 'Debug Mode Kai' overlay, debug build only; not force-drawn
+t0BA550	DEBUG: 'Debug Mode Kai' overlay, debug build only; not force-drawn
+t0BA570	DEBUG: 'Debug Mode Kai' overlay, debug build only; not force-drawn
+t0BA5C8	Device category words, situational; not force-drawn
+t0BA5E0	Device category words, situational; not force-drawn
+t0BA5F0	Device category words, situational; not force-drawn
+t0BA600	Device category words, situational; not force-drawn
+t0BA6E8	Device attribute words in the Device detail page, situational; not force-drawn
+t0BA758	Device attribute words in the Device detail page, situational; not force-drawn
+t0BA778	Device attribute words in the Device detail page, situational; not force-drawn
+t0BA8D0	combo attack names, shown only when that combo fires in battle; not force-drawn
+t0BA8E0	combo attack names, shown only when that combo fires in battle; not force-drawn
+t0BA8F0	combo attack names, shown only when that combo fires in battle; not force-drawn
+t0BA930	combo attack names, shown only when that combo fires in battle; not force-drawn
+t0BA940	combo attack names, shown only when that combo fires in battle; not force-drawn
+t0BA950	combo attack names, shown only when that combo fires in battle; not force-drawn
+t0BA960	combo attack names, shown only when that combo fires in battle; not force-drawn
+t0BA970	combo attack names, shown only when that combo fires in battle; not force-drawn
+t0BA9A8	combo attack names, shown only when that combo fires in battle; not force-drawn
+t0BA9E8	combo attack names, shown only when that combo fires in battle; not force-drawn
+t0BA9F8	combo attack names, shown only when that combo fires in battle; not force-drawn
+t0BAA08	combo attack names, shown only when that combo fires in battle; not force-drawn
+t0BAA18	combo attack names, shown only when that combo fires in battle; not force-drawn
+t0BAA30	status ailment names, shown only when that ailment hits in battle; not force-drawn
+t0BAA50	status ailment names, shown only when that ailment hits in battle; not force-drawn
+t0BAA58	status ailment names, shown only when that ailment hits in battle; not force-drawn
+t0BAA74	status ailment names, shown only when that ailment hits in battle; not force-drawn
+t0BAAD0	battle command words, situational; not force-drawn
+t0BAB28	LINK: multiplayer link lobby (P2 / P4); one emulator can't link; not force-drawn
+t0BAB80	LINK: multiplayer link lobby (P2 / P4); one emulator can't link; not force-drawn
+t0BAD28	LINK: multiplayer link lobby (P2 / P4); one emulator can't link; not force-drawn
+t0BB0C8	status ailment names, shown only when that ailment hits in battle; not force-drawn
+t0BB0D8	status ailment names, shown only when that ailment hits in battle; not force-drawn
+t0BB100	status ailment names, shown only when that ailment hits in battle; not force-drawn
+t0BB5C8	minigame instruction page (shock switches), situational; not force-drawn
+t0BB5DC	minigame instruction page (shock switches), situational; not force-drawn
+t0BB600	minigame instruction page (shock switches), situational; not force-drawn
+t0BB648	minigame instruction page (shock switches), situational; not force-drawn
+t0BB698	minigame instruction page (shock switches), situational; not force-drawn
 # auto
 t0AF71C	AGB SYSTEM DEBUG MENU (mode 50): leftover debug menu, no caller in play; romaji kept
 t0AF980	AGB SYSTEM DEBUG MENU (mode 50): leftover debug menu, no caller in play; romaji kept

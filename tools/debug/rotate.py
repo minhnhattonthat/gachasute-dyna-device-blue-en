@@ -25,6 +25,7 @@ import cover  # noqa: E402
 OUT = ROOT / "work" / "qa" / "rotate_probe.lua"
 PROBE = ROOT / "tools" / "lua" / "rotate.lua"
 ROT = ROOT / "work" / "qa" / "cover" / "rot"
+ANY = ROOT / "work" / "cover_any"   # outside work/qa (textcover's root): forced draws are waiver evidence only
 SCENES = ROOT / "tools" / "debug" / "scenes.tsv"
 
 
@@ -54,7 +55,21 @@ def main():
                     help="run these scenes one by one (all of scenes.tsv if none named), rewriting the groups before "
                          "each so every run rotates through what is still unshown; logs in work/qa/cover/rot/<scene>")
     ap.add_argument("--redo", action="store_true", help="with --run: rerun scenes that already have a log")
+    ap.add_argument("--any", metavar="SCENE",
+                    help="forced draw: one group of every string, so the first draw in SCENE is replaced in turn by "
+                         "each unshown string (any table, foreign slot). Logs go to work/cover_any/<SCENE>, outside "
+                         "the coverage logs: evidence for waivers (renders, no crash), not coverage in context")
     a = ap.parse_args()
+    if a.any:
+        n = write(a.gap, anyall=True)
+        if n:
+            r = subprocess.run([sys.executable, "-X", "utf8", str(ROOT / "tools" / "debug" / "regen.py"), a.any,
+                                "--rom", str(cover.BUILD), "--out", str(ANY), "--states", str(ANY / "_states"),
+                                "--jobs", "1", "--probe", str(OUT)], capture_output=True, text=True, cwd=ROOT)
+            log = ANY / a.any / "log.txt"
+            k = log.read_text(encoding="utf-8", errors="replace").count("\nROT ") if log.exists() else 0
+            print(f"{a.any}: {k} forced, exit {r.returncode}")
+        return
     if a.run is None:
         write(a.gap)
         return
@@ -82,11 +97,11 @@ def main():
     write(a.gap)
 
 
-def write(gap):
+def write(gap, anyall=False):
     addr = dict(cover.strings())
-    miss = set(cover.unshown(cover.LOGS))
-    lines, n_g, n_u = ["ROT_GROUPS = {"], 0, 0
-    for g in groups(gap):
+    miss = set(cover.unshown(cover.LOGS + ([ANY] if anyall else [])))
+    lines, n_g, n_u = (["ROT_WAIT = true", "ROT_HOLD = 0"] if anyall else []) + ["ROT_GROUPS = {"], 0, 0
+    for g in ([list(addr)] if anyall else groups(gap)):
         un = [i for i in g if i in miss and i in addr]
         if not un:
             continue

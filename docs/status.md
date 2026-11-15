@@ -2,17 +2,30 @@
 
 Updated at the end of every session. Keep it to what the next session needs; history is in git.
 
-- **Phase:** 8. QA in the emulator: in progress (coverage masha-1 + masha-2 sweeps done; field menu,
-  profile form, keyboard, PDA home + wheel / address book / calendar / money diary / calculator / memo / timetable
-  / save dialog / link menu / link check / title screen / Customize Dyna / Team Setup / Place Dyna / minigames /
-  Dyna get + naming / battle results / fortune box / item shop / Dyna Center / auction / device list / dev status /
-  free battle / resident map / card trade / tactics battle board / staff roll / money diary dates / dev status
-  words / field HUD status word / pause done; text coverage 170 strings left). Phase 7 done 2026-11-15. Last build: `build/dynadevice_blue_en.gba`
-  2026-11-15 (worker 23), sha1 7f22f56c..., check.py ok, lint 0/0 (137 strings wider than JP under
-  guessed budgets: `lint.py --guess`, `docs/review/guess_wide.txt`). **Visual-QA gate green:** `qa_gate.py check
-  work/qa/manifest.tsv work/qa/verdicts` exits 0 (197/197, build 7f22f56c = `work/qa/tour/tour_build.gba`).
-  **Left for phase 8: text coverage** (`textcover`: 0 messages + 170 strings, worker 25 entry) only; inkbox done.
-- **Latest session (2026-11-15, worker 25):** **Strings 1066 -> 170 unshown** (5366/5536). `tools/lua/rotate.lua`
+- **Phase:** 9. Release: not started. Phase 8 done 2026-11-15 (worker 26): smoke ok, `qa_gate.py check
+  work/qa/manifest.tsv work/qa/verdicts` exits 0 (197/197, build 7f22f56c = `work/qa/tour/tour_build.gba`), inkbox
+  done, **text coverage gate:** `textcover.py work/qa build/strings.tsv --waive docs/text_unshown.tsv` exits 0
+  (5375 shown, 161 waived). Last build: `build/dynadevice_blue_en.gba` 2026-11-15 (worker 23), sha1 7f22f56c...,
+  check.py ok, lint 0/0 (137 strings wider than JP under guessed budgets: `lint.py --guess`,
+  `docs/review/guess_wide.txt`). Next: phase 9 per the skill (story-pass verdicts, `docs/polish.md`, `jp_left.py`,
+  debug tool off, `tools/release.py`).
+- **Waiting on the user (not blocking):** the last **95 strings are waived although reachable in play** (hand rows
+  under "Worker 26" in `docs/text_unshown.tsv`, each with its context): item bag-full / discard messages, item-use
+  results, Device help hints, keyboard word-register prompts, money diary totals, combo attack names, status
+  ailments, minigame help page, Card Trade + multiplayer link lobby (link cable: can't be emulated with one Mesen),
+  "Debug Mode Kai" (debug). No warp scene reaches them; 50 of them were force-drawn in a foreign text slot by
+  `rotate.py --any SCENE` (logs `work/cover_any/`, kept outside `work/qa` so they never count as coverage), 45 not
+  (the run was stopped for low memory). The skill wants waivers only for unreachable text: to tighten, rerun
+  `rotate.py --any <list scene>` (menu_db_device / mode_shop_list / menu_party gave 10-15 each) and/or add scenes.
+- **Latest session (2026-11-15, worker 26):** Reran `rotate.py --run --gap 0x400` over the 131 scenes left:
+  **strings 170 -> 95 unshown** (dbg_battle 31, d_center_out 6, mode_link / mode_card2 4 ...). The 95 left sit in
+  code literal pools no scene draws, so new **`rotate.py --any SCENE`**: one group of every string, `ROT_WAIT`
+  (no substitution before warp.lua's WARP_DONE: early ones broke the warp at the title) and `ROT_HOLD = 0` (the
+  rewind chain stalled in any-mode: after arrival the scene never re-entered a hooked draw, watchdog gave up);
+  one substitution per draw call, ~10-15 strings per list scene. Then waived the 95 (see Waiting on the user).
+  Gate command uses `work/qa` as the log root (`work/qa/cover` alone misses 6 strings shown only in
+  `work/qa/warp`). Background batches were again **stopped by Claude Code for low system memory** (~0.5 GB free).
+- **Session before (2026-11-15, worker 25):** **Strings 1066 -> 170 unshown** (5366/5536). `tools/lua/rotate.lua`
   now has a **rewind mode** (`ROT_HOLD`, default 3): at the first substitution it snapshots the machine
   (`emu.createSavestate` inside the exec hook), and every 3 frames reloads it and substitutes the next sibling, for
   every group drawn since the snapshot, so one draw of a list or help page covers the whole table
