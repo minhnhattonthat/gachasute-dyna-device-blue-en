@@ -95,6 +95,19 @@ its font at run time (dialogue, the boot date prompt, the profile popup) is stri
   (also on the OBJ tab copies). In game `work/qa/gfx_en/mode_pda_list`, `mode_pda_calc`.
   Open: address book 02124B4 (same tabs, アドレスのついか R band x2, セレクト データをけす buttons x2), timetable
   (mode 8: 時間割 logo, 月..土 header, ひとつ けす R band, subject icons 国.. in 022CF64?), delete prompts.
+- **Done (worker 6):** address book (scene `mode_pda_memo` = mode 3; block 02124B4): tabs A K S T N H M Y R W as the
+  memo's (identical art), R band "Add Address" (ink 4, drop shadow 14; kana shading 5/11/12 cleared per box: an
+  optional 8th "redraw" item is the box's own clear set), buttons "Select" / "Erase". The faint delete prompt
+  "Erase this data?" / "A: Erase" / "B: Keep" is drawn but **not seen**: the only entry (the player's own card)
+  can't be erased (scene `pda_addr_del` opens it instead). Same block, still JP: the form popup's later lines
+  きいろいボタンの こうもくは / すべて にゅうりょくしてください (rows 8-10, x128-255): scene `form_start`
+  (warp.lua now takes `form|ROUTE`) did not reach that page; its OAM layout is unknown.
+- **Done (worker 6):** PDA home + app labels = **block 0208654** (OBJ, block tile n = OBJ tile n; white ink 7, the
+  outline is added in game): Address, Schedule, Money, Calculator, Timetable, Music, Link, DynaDevice, Minigame,
+  Save Data, MEMO (mini caps). Only Address / DynaDevice / Save Data seen (`work/qa/gfx_en/mode_pda_profile`);
+  the others are on the Dyna Device app menu (tile runs assumed from the kana). Headers 予定 / 用事 = **block
+  0206CF4** "Plans" / "To-do" (24 px each). Found by `tools/lua/vramwrite.lua` (CPU writes into an OBJ VRAM range:
+  the decompressor wrote the label tiles at f306) + `lzss_log.lua`; vramfind missed them (VRAM tiles differ).
 - 020B0F4 tabs (なまえ ばしょ すること イベント カスタム) drawn as "Name / Place / To Do / Event / Custom" (map SCR
   0x20BAB4, menu-bar layout), **not yet seen in game**: archive index 2395 is loaded by 0x08023F20, reached from
   the mode 2 chain (0x08021370..) and from 0x080283B0 / 0x0802DDB0 / 0x08032834 / 0x0803B6A0. Not on the PDA

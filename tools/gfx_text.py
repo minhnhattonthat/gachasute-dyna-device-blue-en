@@ -104,6 +104,34 @@ ATLASES = {
             "clear": {15: {14, 15}},
         }],
     },
+    # PDA home / Dyna Device app labels (OBJ, block 0208654, block tile n = OBJ tile n; white ink 7 on 0, the game
+    # adds the dark outline). Scene mode_pda_profile OAM f930: アドレス = 32x8 at tile 5,12; ダイナデバイス = 32x8 +
+    # 16x8 at 6,20; データセーブ = 32x8 + 16x8 at 7,8: labels are whole tiles, contiguous on screen. The other app
+    # labels (unseen) are taken to be the tile runs their kana cover. おこづかい = おこづか 5,22-25 + い at 3,19.
+    0x208654: {
+        "ink": 7, "bg": 0,
+        "blank": [(3, 19)],   # the い of おこづかい: "Money" fits the four tiles
+        "rows": [
+            ("Address", tiles(5, 12, 15), "tight"),
+            ("Schedule", tiles(5, 16, 21)),
+            ("Money", tiles(5, 22, 25)),
+            ("Calculator", tiles(6, 0, 4), "tight"),
+            ("Timetable", tiles(6, 5, 9), "tight"),
+            ("Music", tiles(6, 10, 15)),
+            ("Link", tiles(6, 16, 19)),
+            ("DynaDevice", tiles(6, 20, 25), "tight"),   # "Dyna Device" is 50 px
+            ("Minigame", tiles(7, 0, 4)),
+            ("Save Data", tiles(7, 8, 13)),
+        ],
+        "redraw": [("MEMO", (144, 32, 160, 40), "row", 7, None, "mini", 2, {7})],   # メモ: two tiles
+    },
+    # PDA home panel headers (block 0206CF4, scene mode_pda_profile): 予定 in the header art x24-47 (ink 2, drop
+    # shadow 6 on 4; yellow on grey in game), 用事 as a 3-tile overlay x128-151 y8-23. 24 px each, so 用事 is
+    # "To-do" ("Errands" is 32 px).
+    0x206CF4: {
+        "redraw": [("Plans", (24, 4, 48, 14), "row", 2, 6, "vwf", 0, {2, 6}),
+                   ("To-do", (128, 12, 152, 22), "row", 2, 6, "vwf", 0, {2, 6})],
+    },
     # Profile form popup (OBJ, 2D mapping, block 02124B4, ink 7 on 5): each line is 4-tile sprites with 8 px gaps
     # the OAM leaves between them (scene form, ppu dump f1080): line 1 = 6,19-27 x56 | gap | 6,28-31 + 7,30-31 x136;
     # line 2 = 7,19-22 x32 | gap | 7,23-26 x72 | gap | 8,19-30 x112. Words break at the gaps.
@@ -116,6 +144,23 @@ ATLASES = {
             ("enter", tiles(7, 23, 26)),
             ("your details.", tiles(8, 19, 30), "left"),
         ],
+        # PDA address book (mode 2), same block: index tabs as the memo's 0225EC4 (identical art); R band
+        # アドレスのついか (ink 4, drop shadow 14 on a gradient; copy 2 at x+104, y+1); buttons セレクト (ink 1) +
+        # データをけす (ink 4), copy 2 at x+80, y+1. Kana shading 11/12 is cleared with the ink.
+        "redraw": [(t, (24 * k + 4, 1, 24 * k + 21, 10), "row", 13, ("ring", 14), "vwf", 1)
+                   for k, t in enumerate("AKSTNHMYRW")]
+                  + [("Add Address", (33, 21, 97, 30), "row", 4, 14, "vwf", 0, {4, 5, 11, 12, 14}),
+                     ("Add Address", (136, 22, 200, 31), "row", 4, 14, "vwf", 0, {4, 5, 11, 12, 14}),
+                     ("Select", (3, 101, 29, 110), "row", 1, 14, "vwf", 0),
+                     ("Select", (83, 102, 109, 111), "row", 1, 14, "vwf", 0),
+                     ("Erase", (30, 101, 77, 110), "row", 4, 14, "vwf", 0),   # "Erase Data" leaves no gap
+                     ("Erase", (110, 102, 157, 111), "row", 4, 14, "vwf", 0),
+                     # faint delete prompt (ink 7 on 5), JP word spans 5-51 61-90 101-146 / 5-59 77-147; its
+                     # screen is not seen yet (the player's own card can't be erased), so sprite gaps are unknown
+                     ("Erase this data?", (5, 36, 147, 46), "row", 7, None, "vwf", 1, {7}),
+                     ("A: Erase", (5, 50, 60, 60), "row", 7, None, "vwf", 1, {7}),
+                     ("B: Keep", (77, 50, 148, 60), "row", 7, None, "vwf", 1, {7})],
+        "clear": {13: {13, 14}, 4: {4, 11, 12, 14}, 1: {1, 14}},
     },
     # PDA schedule tabs (block 020B0F4, ink 1): map SCR 0x20BAB4 is 5 buttons of 6 columns like the menu bar,
     # caps 3,0 / 3,5 (4,0 / 4,5) shared, text in the 4 middle columns; the third button's bottom row puts 4,13
@@ -220,6 +265,7 @@ MINI = {
     "R": ["##.", "#.#", "##.", "#.#", "#.#"],
     "T": ["###", ".#.", ".#.", ".#.", ".#."],
     "K": ["#.#", "#.#", "##.", "#.#", "#.#"],
+    "M": ["#.#", "###", "###", "#.#", "#.#"],
 }
 
 
@@ -255,8 +301,8 @@ def redraw(a, spec):
                 vals = [v for v in vals if v not in clear.get(ink, {ink})] or vals
                 bg[dx, dy] = max(set(vals), key=vals.count)
         vote_bg[name] = bg
-    for text, (x0, y0, x1, y1), fill, ink, shadow, font, dy in boxes:
-        kill = clear.get(ink, {ink})
+    for text, (x0, y0, x1, y1), fill, ink, shadow, font, dy, *own in boxes:
+        kill = own[0] if own else clear.get(ink, {ink})   # optional 8th item: this box's own clear set
         if fill.startswith("vote:"):
             bg = vote_bg[fill[5:]]
             for y in range(y0, y1):
@@ -278,7 +324,7 @@ def redraw(a, spec):
         pix, w = glyph_pixels(text, font)
         ring = isinstance(shadow, tuple)   # ("ring", index): an 8-neighbour outline instead of a drop shadow
         room = x1 - x0 - (2 if ring else 1 if shadow is not None else 0)
-        if w > room:
+        if w > room + (1 if shadow is not None and not ring else 0):   # a drop shadow may be clipped at the right
             raise ValueError(f"{text!r} is {w} px, box {x0}-{x1} holds {room}")
         ox = x0 + (1 if ring else 0) + (room - w + 1) // 2
         oy = y0 + dy

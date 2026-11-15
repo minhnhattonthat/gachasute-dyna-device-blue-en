@@ -100,6 +100,8 @@ L.on_exec(FORM_INPUT, FORM_INPUT, function()
   if not formSeen then
     formSeen = true
     if scene.kind == "boot" and scene.arg == "form" then set_stage("done"); arrive(); return end
+    local froute = (scene.arg or ""):match("^form|(.+)$")   -- "form|ROUTE": ROUTE plays on the form's popup
+    if scene.kind == "boot" and froute then play(parse_route(froute)); set_stage("done"); arrive(); return end
     -- arg "keyboard" or "keyboard|ROUTE": ROUTE plays on the keyboard (e.g. type a kana, then select)
     local kb, kbroute = (scene.arg or ""):match("^(keyboard)|?(.*)$")
     if scene.kind == "boot" and kb then

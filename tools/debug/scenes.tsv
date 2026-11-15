@@ -158,3 +158,5 @@ pda_errand_add	mode	4 300 -;6 r;150 -	200	mode 4 calendar, R: add errand (icon t
 pda_sched_add	mode	4 300 -;6 l;150 -	200	mode 4 calendar, L: add schedule (icon tabs, Start / End)
 pda_errand_ra	mode	4 300 -;6 r;150 -;6 right;30 -;6 a;150 -	200	mode 4 calendar, R (add errand), Right, A
 pda_errand_d3a	mode	4 300 -;6 r;150 -;6 down;30 -;6 down;30 -;6 down;30 -;6 a;150 -	200	mode 4 calendar, R (add errand), Down x3, A
+pda_addr_del	mode	3 300 -;6 select;60 -;6 a;120 -	240	mode 3 address book, SELECT then A on the first entry (delete prompt このデータを けしても いいですか？)
+form_start	boot	form|10 -;6 a;80 -;6 b;60 -;6 down;30 -;6 down;30 -;6 down;30 -;6 down;30 -;6 down;30 -;6 down;30 -;6 down;30 -;6 down;30 -;6 down;30 -;6 a;80 -	30	profile form, START with the yellow fields empty (きいろいボタンの こうもくは すべて にゅうりょく popup?)

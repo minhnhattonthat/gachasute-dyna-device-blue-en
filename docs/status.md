@@ -2,11 +2,23 @@
 
 Updated at the end of every session. Keep it to what the next session needs; history is in git.
 
-- **Phase:** 8. QA in the emulator: in progress (script coverage sweep past s566; field menu, profile form,
-  keyboard, PDA calendar / money diary / calculator / memo graphics done). Phase 7 done 2026-11-15. Last build:
-  `build/dynadevice_blue_en.gba` 2026-11-15 (memo tabs), sha1 2a524b81..., check.py ok, lint 0/0 (137 strings
-  wider than JP under guessed budgets: `lint.py --guess`, `docs/review/guess_wide.txt`).
-- **Latest session (2026-11-15, worker 5):** sweep 4/5 had died (empty log); restarted as **sweep 6**
+- **Phase:** 8. QA in the emulator: in progress (script coverage sweep 7 past s614; field menu, profile form,
+  keyboard, PDA home / address book / calendar / money diary / calculator / memo graphics done). Phase 7 done
+  2026-11-15. Last build: `build/dynadevice_blue_en.gba` 2026-11-15 (PDA home), sha1 9068afd7..., check.py ok,
+  lint 0/0 (137 strings wider than JP under guessed budgets: `lint.py --guess`, `docs/review/guess_wide.txt`).
+- **Latest session (2026-11-15, worker 6):** sweep 6 had died with its worker: restarted as **sweep 7**
+  (`cover.py scripts --jobs 2`, log `work/qa/cover/sweep7.log`, a background job of this worker's shell, so it
+  dies when the worker ends: next worker, check `work/qa/cover/m1/` (597 dirs at hand-off) and rerun the same
+  command, then `cover.py report`). Graphics (docs/re/graphics.md "PDA screens", worker 6): address book 02124B4
+  (tabs, "Add Address", Select / Erase, delete prompt drawn but unseen), PDA home + app labels **0208654**
+  (Address, DynaDevice, Save Data seen; Schedule, Money, Calculator, Timetable, Music, Link, Minigame, MEMO on
+  the Dyna Device app menu, unseen), headers **0206CF4** "Plans" / "To-do". New: `tools/lua/vramwrite.lua`
+  (who writes an OBJ VRAM range), warp `form|ROUTE`, scenes `pda_addr_del`, `form_start`; gfx_text "redraw"
+  items take an optional own clear set; MINI has M. Next graphics: the Dyna Device app menu (find its mode: the
+  0208654 labels, check the assumed tile runs), timetable mode 8, the form popup's page 2 (02124B4 rows 8-10),
+  fortune box, title logo, then the sheet rows (graphics.md table). PDA home date panel shows "20-- 0C / 0- 0 Fri"
+  on a cold boot (no date set): check it with a save before calling it a bug.
+- **Session before (2026-11-15, worker 5):** sweep 4/5 had died (empty log); restarted as **sweep 6**
   (`cover.py scripts --jobs 2`, log `work/qa/cover/sweep6.log`), at s566 of s833 when this worker handed off
   (context limit): same rule (if `work/qa/cover/m1/` stops growing and no Mesen runs `cover`, rerun it, then
   `cover.py report`). Graphics (docs/re/graphics.md "PDA screens"): money diary 021EAA4 (the table said 021EA44),
