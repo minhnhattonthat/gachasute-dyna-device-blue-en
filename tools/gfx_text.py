@@ -552,6 +552,13 @@ ATLASES = {
         "redraw": [(t, (32, y, 176, y + 16), "row", TT_GRAD, 2, "vwf2", 1, TT_KILL)
                    for t, y in (("Buy Items", 0), ("Sell Items", 16))],
     },
+    # Dyna Center stored-Dyna menu words (block 01EA6B4, loaded by 0x080902EC in mode 14 = the Dyna Center counter;
+    # unseen: needs a stored Dyna): white (10) 8 px words on transparent, つれていく r0 c7-11, データをみる r1 c7-10,
+    # にがす r2 c7-10 -> the text Dyna menu's Take / Status / Free.
+    0x1EA6B4: {
+        "redraw": [(t, (56, y, x1, y + 8), "row", 10, None, "vwf", 1, {10}, "left")
+                   for t, y, x1 in (("Take", 0, 96), ("Status", 8, 88), ("Free", 16, 88))],
+    },
     # Dyna Center headers (OBJ 2D, block 01EAA04 30 tiles wide, same style as 01EB9E4): あずかっている けんちくキット
     # r0-1 c4-29 (dmode 20 = scene d_kit), ダイナのちりょう r2-3 c7-24 between two blue (2) blocks (scene d_dyna_shop).
     0x1EAA04: {

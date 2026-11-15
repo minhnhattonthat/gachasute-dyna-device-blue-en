@@ -217,7 +217,14 @@ has). Original ROM, `regen.py <scenes> --out work/qa/survey --probe tools/lua/pp
   Zoom Out / Zoom In buttons + Resident / Dyna / Devices. Small words are 8 px, gradient f f e e d c b at y1-7
   (gfx_text SMALL_GRAD), composed by the code from separate tile runs: each run gets its own English word.
   `blockscan.py --all` on the 32 survey scenes: their other blocks hold no JP (art, digits, 8bpp maps).
-  Still to do: 01EA6B4 small つれていく / データをみる / にがす words (unseen so far).
+  01EA6B4 (worker 17): archive index 1835, loaded by 0x080902EC from mode 14 (jump table 0x08004DF0, entry =
+  mode - 1) = the **Dyna Center counter** (scene `d_center_out`: ひきだす > ダイナ). The tutorial save stores no
+  Dyna ("げんざい こちらで あずかっている ダイナは いません"), so the つれていく / データをみる / にがす menu is
+  unseen; drawn as Take / Status / Free (white 10, 8 px, left-aligned in c7-11 / c7-10 / c7-10). To see it: get a
+  stored Dyna (RAM poke or a save with 3+ Dynas), then scene `d_center_out_a`.
+  01EE624 rows 6-7 (unseen, still JP): row 6 white 8 px words もんだいなし しきんぶそく しゅうりょう そざいぶ.. (one
+  kana per 8 px, 6-kana runs?), row 7 gradient f..b words データさいしゅう ダイナそくせい そうび.. ぶきブラ..; the
+  runs the code composes are not known yet: find them from the dev-status code (d_dev_status) before drawing.
 
 ## Tactics battle board (worker 14)
 The debug menu's TACTICS SYSTEM (MONSTER SET MENU) starts a 1-Dyna battle vs COM: Down x3 to MONSTER NUMBER,

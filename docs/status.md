@@ -7,10 +7,19 @@ Updated at the end of every session. Keep it to what the next session needs; his
   / save dialog / link menu / link check / title screen / Customize Dyna / Team Setup / Place Dyna / minigames /
   Dyna get + naming / battle results / fortune box / item shop / Dyna Center / auction / device list / dev status /
   free battle / resident map / card trade / tactics battle board / staff roll / money diary dates done). Phase 7
-  done 2026-11-15. Last build: `build/dynadevice_blue_en.gba` 2026-11-15 (worker 16), sha1 0787251e..., check.py
+  done 2026-11-15. Last build: `build/dynadevice_blue_en.gba` 2026-11-15 (worker 17), sha1 64c2403c..., check.py
   ok, smoke ok, lint 0/0 (137 strings wider than JP under guessed budgets: `lint.py --guess`,
   `docs/review/guess_wide.txt`).
-- **Latest session (2026-11-15, worker 16, handed off at the context budget):** **Money diary dates in English**
+- **Latest session (2026-11-15, worker 17, handed off at the context budget):** **PDA calendar block 0215E74 all
+  English** (docs/re/graphics.md "Money diary dates", D16): month header "2000/ 0" (static SCR 0x217E54: 年 -> "/",
+  月 cells blanked by `gfx.MAP_PATCHES`), day view "0/ 0 (Mo) Plans" (SCR 0x2197F4, 16x16 weekdays Su..Sa, の予定),
+  schedule repeat row None / per Wk / per Mo / per Yr, おわる button -> Quit (split 4x2 button: new gfx_text
+  `{"stack": [...]}` boxes). New scenes `pda_cal_day`, `pda_sched_d4(a)`, `d_center_out(_a)`. Seen: `work/qa/cal_en/`.
+  **01EA6B4** = Dyna Center counter (mode 14) stored-Dyna menu: drawn Take / Status / Free, **unseen** (tutorial
+  save stores no Dyna). **Next:** 01EE624 r6-7 small words (runs unknown, notes in graphics.md "Scene scan"),
+  024D4B4 buttons (めいしの / かくにん pieces, card trade), then phase-8 steps 2, 4, 5. masha-2 sweep: pid 25948
+  still alive at hand-off, 189 runs in `work/qa/cover/m2/`.
+- **Session before (2026-11-15, worker 16, handed off at the context budget):** **Money diary dates in English**
   (docs/re/graphics.md "Money diary dates"): code patches `gfx.DATE_PATCHES` + the glyph table moved to free space
   with a "/" entry; day view "12/31 (Sa)", month view "2000/12", weekdays Su..Sa (021C414); **calendar weekday row
   Su..Sa** (0215E74). Seen: `work/qa/gfx_en_dates/` (regen with `--states work/qa/gfx_en_dates/_states`, so

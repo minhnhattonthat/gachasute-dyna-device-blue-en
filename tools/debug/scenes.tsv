@@ -85,6 +85,8 @@ d_dyna_status	dmode	11	300	tutorial played, quit, mode 11 with real data: Dyna s
 d_customize	dmode	13	300	tutorial data, mode 13: ダイナカスタマイズ
 d_auction	dmode	15	300	tutorial data, mode 15: アイテムオークション
 d_dyna_shop	dmode	16	300	tutorial data, mode 16: Dyna list shop
+d_center_out	dmode	14 300 -;6 a;90 -;6 a;150 -	300	tutorial data, mode 14 Dyna Center counter (block 01EA6B4 via 0x080902EC), A, ひきだす
+d_center_out_a	dmode	14 300 -;6 a;90 -;6 a;150 -;6 a;120 -	300	tutorial data, mode 14 Dyna Center, ひきだす, A on the first stored Dyna
 d_item_sell	dmode	17	300	tutorial data, mode 17: アイテムばいきゃく
 d_kit	dmode	20	300	tutorial data, mode 20: kept kits
 d_dev_status	dmode	21	300	tutorial data, mode 21: かいはつじょうきょう
