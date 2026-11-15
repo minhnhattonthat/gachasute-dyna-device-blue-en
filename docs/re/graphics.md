@@ -222,9 +222,15 @@ has). Original ROM, `regen.py <scenes> --out work/qa/survey --probe tools/lua/pp
   Dyna ("げんざい こちらで あずかっている ダイナは いません"), so the つれていく / データをみる / にがす menu is
   unseen; drawn as Take / Status / Free (white 10, 8 px, left-aligned in c7-11 / c7-10 / c7-10). To see it: get a
   stored Dyna (RAM poke or a save with 3+ Dynas), then scene `d_center_out_a`.
-  01EE624 rows 6-7 (unseen, still JP): row 6 white 8 px words もんだいなし しきんぶそく しゅうりょう そざいぶ.. (one
-  kana per 8 px, 6-kana runs?), row 7 gradient f..b words データさいしゅう ダイナそくせい そうび.. ぶきブラ..; the
-  runs the code composes are not known yet: find them from the dev-status code (d_dev_status) before drawing.
+  01EE624 rows 6-7 (**done, worker 18, seen**): sprites from PAT 01EF514 (found by `tools/pat.py`-scanning every PAT
+  for the Project frame's tiles). Status frames 17-20 = 17 + slot +3: もんだいなし c0-5 "No Issues", しきんぶそく
+  c6-9 + c10-11 and そざいぶ c18-21 + the same c10-11 (shared ぶそく) -> the shared piece moved to the front
+  (`gfx.MAP_PATCHES` x swaps) = "Low" + " Funds" / " Parts", しゅうりょう c12-17 "Complete". Frame 21 = detail
+  page info panel: データさいしゅダイナ r7 c2-11 "Source Dyna", そうびタ / ぶそうタ r7 c16-19 / c20-23 + shared イプ
+  r6 c22-23 "Equip Type" / "Arms Type", ぞくせい r7 c12-15 "Element". Project data: `tools/lua/devproj.lua` fakes
+  four lines (0x02008960 + 0x64 * line, +0 in use, +1/+2 key 0x0E/0x10, slots of 24 bytes from +4); scene
+  `d_dev_status` + that probe shows the four words, `d_dev_proj_c` + probe the panel (`work/qa/gfx_en/d_dev_status_proj`,
+  `d_dev_proj_c`).
 
 ## Tactics battle board (worker 14)
 The debug menu's TACTICS SYSTEM (MONSTER SET MENU) starts a 1-Dyna battle vs COM: Down x3 to MONSTER NUMBER,

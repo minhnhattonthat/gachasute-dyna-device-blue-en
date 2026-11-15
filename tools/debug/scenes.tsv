@@ -90,6 +90,7 @@ d_center_out_a	dmode	14 300 -;6 a;90 -;6 a;150 -;6 a;120 -	300	tutorial data, mo
 d_item_sell	dmode	17	300	tutorial data, mode 17: アイテムばいきゃく
 d_kit	dmode	20	300	tutorial data, mode 20: kept kits
 d_dev_status	dmode	21	300	tutorial data, mode 21: かいはつじょうきょう
+d_dev_proj_c	dmode	21 300 -;6 down;20 -;6 down;20 -;6 a;150 -	300	mode 21 + A on Project C; with --probe tools/lua/devproj.lua (fake projects): detail page + info panel (Source Dyna, Equip / Arms Type, Element). d_dev_status with that probe shows the 4 status words
 d_shop_list	dmode	23	300	tutorial data, mode 23: shop list with sector map
 d_placement	dmode	28	300	tutorial data, mode 28: ダイナはいち
 d_team	dmode	33	300	tutorial data, mode 33: チームへんせい

@@ -587,10 +587,21 @@ ATLASES = {
     },
     # Device development status (scene d_dev_status; same layout, block 01EE624 24 tiles wide): header かいはつ
     # じょうきょう r0-1 / r2-3 c4-13; プロジェクト r4 c0-5 (16 px, gradient + shadow 2), its letter A-D r4 c6-9 is
-    # Latin already. Small words r6-7 (もんだいなし, しきんぶそく ...) not seen yet.
+    # Latin already. Small words r6-7 come from PAT 01EF514 (tools/pat.py): status frames 17-20 (white 10, x64-111):
+    # もんだいなし c0-5, しきんぶそく c6-9 + c10-11, そざいぶ c18-21 + the same c10-11 (ぶそく shared), しゅうりょう c12-17;
+    # gfx.MAP_PATCHES puts the shared c10-11 first in frames 18-19, so it reads "Low" + " Funds" / " Parts". Frame 21
+    # panel (gradient): データさいしゅダイナ r7 c2-11, そうびタ r7 c16-19 / ぶそうタ r7 c20-23 + shared イプ r6 c22-23,
+    # ぞくせい r7 c12-15. Seen with tools/lua/devproj.lua (fake projects).
     0x1EE624: {
         "redraw": [("Dev. Status", [(32, 0, 112, 16), (32, 16, 112, 32)], "row", TT_GRAD, 2, "vwf2", 1, TT_KILL),
-                   ("Project", (0, 32, 48, 48), "row", TT_GRAD, 2, "tall", 2, TT_KILL, "left")],
+                   ("Project", (0, 32, 48, 48), "row", TT_GRAD, 2, "tall", 2, TT_KILL, "left")]
+        + [(t, box, "row", 10, None, "vwf", 1, {10}, *al) for t, box, *al in (
+            ("No Issues", (0, 48, 48, 56)), ("Low", (80, 48, 96, 56), "right"), (" Funds", (48, 48, 80, 56), "left"),
+            (" Parts", (144, 48, 176, 56), "left"), ("Complete", (96, 48, 144, 56)))]
+        + [(t, box, "row", SMALL_GRAD, None, "vwf", 1, SMALL_KILL, *al) for t, box, *al in (
+            ("Source Dyna", (16, 56, 96, 64), "left"), ("Element", (96, 56, 128, 64), "right"),
+            ("Equip Type", [(128, 56, 160, 64), (176, 48, 192, 56)], "right"),
+            ("Arms Type", [(160, 56, 192, 64), (176, 48, 192, 56)], "right"))],
     },
     # Free battle (scene dbg_colo_free; block 01EFFF4 25 tiles wide): フリーバトル r0-1 c13-24 (screen x72-167; the
     # balls cover the ends, so the narrower tall font).

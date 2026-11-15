@@ -50,6 +50,12 @@ MAP_PATCHES = [
     (0x25F0BA + 6, [0x3000], [0x300A], "PAT 025F094 Move title: 32x16 r0 c0 -> r0 c10"),
     (0x25F156 + 2, [9], [0xFFE9], "PAT 025F134 frame 0 (L Status, pal 1): repeated ス x 9 -> -23"),
     (0x25F188 + 2, [9], [0xFFE9], "PAT 025F134 frame 1 (L Status, pal 2): repeated ス x 9 -> -23"),
+    # Dev status words (block 01EE624, PAT 01EF514 frames 18-19; tools/gfx_text.py): しきんぶそく / そざいぶそく share
+    # their tail c10-11 (16x8 at x96); swap it to the front so the shared piece is "Low": "Low Funds", "Low Parts".
+    (0x1EF97E + 2, [96], [64], "PAT 01EF514 frame 18 (Low Funds): shared 16x8 r6 c10 x 96 -> 64"),
+    (0x1EF986 + 2, [64], [80], "PAT 01EF514 frame 18 (Low Funds): 32x8 r6 c6 x 64 -> 80"),
+    (0x1EF998 + 2, [96], [64], "PAT 01EF514 frame 19 (Low Parts): shared 16x8 r6 c10 x 96 -> 64"),
+    (0x1EF9A0 + 2, [64], [80], "PAT 01EF514 frame 19 (Low Parts): 32x8 r6 c18 x 64 -> 80"),
     # PDA calendar month header (raw SCR at 0x217E54, 30x20 words from +8; block 0215E74 tiles): 年 becomes "/" in
     # the art, the 月 unit cells (row 3-4, col 21-22) go blank: "2000年 0月" -> "2000/ 0".
     (0x217F3A, [0x10D4, 0x10D5], [0x1000, 0x1000], "calendar header SCR 0217E54 row 3: no 月 unit"),
