@@ -6,7 +6,13 @@ Updated at the end of every session. Keep it to what the next session needs; his
   field menu + profile form graphics done). Phase 7 done 2026-11-15. Last build: `build/dynadevice_blue_en.gba`
   2026-11-15 (form graphics), sha1 ce7675b7..., smoke ok, 53 tests ok, lint 0/0 (138 strings wider than JP under
   guessed budgets: `lint.py --guess`, `docs/review/guess_wide.txt`).
-- **Latest session (2026-11-15, worker 2):** profile form labels (Name, Nickname, Gender, Address, Home Tel.,
+- **Latest session (2026-11-15, worker 3):** name-entry keyboard (OBJ block 020BDD4) in English: tabs Hira / Kata /
+  ABC / 123 / Sym / Kanji, START "OK", SELECT "CONVERT", Prev Page / Next Page (`gfx_text.py` "redraw" boxes for
+  outlined art; scenes `keyboard_select`, `keyboard_kanji` = boot keyboard + a route after `|`). Coverage sweep 4
+  (`cover.py scripts --jobs 2`, log `work/qa/cover/sweep4.log`) was **left running in the background** at s472 when
+  this worker handed off (context limit): if `work/qa/cover/m1/` keeps growing, let it finish; if no Mesen runs
+  `cover`, rerun the same command (finished runs are skipped), then `cover.py report`.
+- **Session before (2026-11-15, worker 2):** profile form labels (Name, Nickname, Gender, Address, Home Tel.,
   Mobile Tel., Email, Birthday, Blood Type; block 020EB44) and the registration popup (OBJ block 02124B4) in
   English (`work/qa/gfx_en/form*/`); notes in docs/re/graphics.md "Profile form". New `tools/bgmap.py` (which
   screen cells of each BG show a block's tiles, from a ppu dump; `--full` for the whole map), scene `form_scroll`,
