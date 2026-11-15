@@ -104,6 +104,27 @@ ATLASES = {
             ("your details.", tiles(8, 19, 30), "left"),
         ],
     },
+    # PDA schedule tabs (block 020B0F4, ink 1): map SCR 0x20BAB4 is 5 buttons of 6 columns like the menu bar,
+    # caps 3,0 / 3,5 (4,0 / 4,5) shared, text in the 4 middle columns; the third button's bottom row puts 4,13
+    # before 4,12. Original kana at band y 4-10.
+    0x20B0F4: {
+        "text_y": 4,
+        "labels": [
+            ("Name", strip(tiles(3, 1, 4), tiles(4, 1, 4))),
+            ("Place", strip(tiles(3, 6, 9), tiles(4, 6, 9))),
+            ("To Do", strip(tiles(3, 10, 13), [(4, 10), (4, 11), (4, 13), (4, 12)])),
+            ("Event", strip(tiles(3, 14, 17), tiles(4, 14, 17))),
+            ("Custom", strip(tiles(3, 18, 21), tiles(4, 18, 21))),
+        ],
+    },
+    # PDA calendar L/R header (block 0219CB4, scene mode_pda_calendar): white ink 3 with a full outline 14 on a
+    # grey gradient, two copies (the second +112/+104 px right, 1 px lower). Glossary 予定/用事 = Plans/Errands.
+    0x219CB4: {
+        "redraw": [(t, box, "rowmode", 3, ("ring", 14), "vwf", 1)
+                   for t, box in (("Add Plan", (20, 4, 80, 13)), ("Add Plan", (132, 5, 192, 14)),
+                                  ("Add Errand", (37, 20, 97, 29)), ("Add Errand", (141, 21, 201, 30)))],
+        "clear": {3: {3, 11, 12, 13, 14}},   # 11-13: the kana's shading
+    },
     # Name-entry keyboard (OBJ, block 020BDD4, block tile n = OBJ tile n; scene keyboard_select, OAM at f1260).
     # Outlined art, so "redraw" boxes (atlas px): the old lettering is cleared and rebuilt from the background,
     # then the English is drawn. Tabs (ink 1, game palette shows it dark): normal tabs x6-31, 9-row pitch from y1;
@@ -192,20 +213,27 @@ def redraw(a, spec):
                 keep = [i for i, v in enumerate(row) if v not in kill]
                 if not keep:
                     continue
+                kept = [row[k] for k in keep]
+                common = max(set(kept), key=kept.count)   # "rowmode": a vertical gradient, one colour a row
                 for i, v in enumerate(row):
                     if v in kill:
                         j = min(keep, key=lambda k: (abs(k - i), k))
-                        a.px[y * a.W + x0 + i] = row[j]
+                        a.px[y * a.W + x0 + i] = common if fill == "rowmode" else row[j]
         pix, w = glyph_pixels(text, font)
-        room = x1 - x0 - (1 if shadow is not None else 0)
+        ring = isinstance(shadow, tuple)   # ("ring", index): an 8-neighbour outline instead of a drop shadow
+        room = x1 - x0 - (2 if ring else 1 if shadow is not None else 0)
         if w > room:
             raise ValueError(f"{text!r} is {w} px, box {x0}-{x1} holds {room}")
-        ox = x0 + (room - w + 1) // 2
+        ox = x0 + (1 if ring else 0) + (room - w + 1) // 2
         oy = y0 + dy
         ink_at = {(ox + px_, oy + py) for px_, py in pix}
+        if ring:
+            shadow = shadow[1]
         if shadow is not None:
+            offsets = ([(sx, sy) for sx in (-1, 0, 1) for sy in (-1, 0, 1) if sx or sy] if ring
+                       else ((1, 0), (0, 1), (1, 1)))
             for x, y in ink_at:
-                for sx, sy in ((1, 0), (0, 1), (1, 1)):
+                for sx, sy in offsets:
                     p = (x + sx, y + sy)
                     if p not in ink_at and x0 <= p[0] < x1 and y0 <= p[1] < y1:
                         a.px[p[1] * a.W + p[0]] = shadow
@@ -303,7 +331,7 @@ def render(rom, off):
                     if a.get(t, x, y) == ink:
                         a.set(t, x, y, bg)
     for text, columns in spec.get("labels", []):
-        draw_text(a, text, len(columns) * 8, TEXT_Y, lambda x, y, c=columns: strip_cell(c, x, y))
+        draw_text(a, text, len(columns) * 8, spec.get("text_y", TEXT_Y), lambda x, y, c=columns: strip_cell(c, x, y))
     for text, columns, *align in spec.get("rows", []):   # caps rows 0-6, descenders row 7
         draw_text(a, text, len(columns) * 8, 0, row_cell(text, columns), *(align or ["centre"]), ink=ink)
     if "redraw" in spec:

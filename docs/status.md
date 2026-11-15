@@ -2,11 +2,17 @@
 
 Updated at the end of every session. Keep it to what the next session needs; history is in git.
 
-- **Phase:** 8. QA in the emulator: in progress (text coverage 1952/5536, script sweep to resume past s451;
-  field menu + profile form graphics done). Phase 7 done 2026-11-15. Last build: `build/dynadevice_blue_en.gba`
-  2026-11-15 (form graphics), sha1 ce7675b7..., smoke ok, 53 tests ok, lint 0/0 (138 strings wider than JP under
-  guessed budgets: `lint.py --guess`, `docs/review/guess_wide.txt`).
-- **Latest session (2026-11-15, worker 3):** name-entry keyboard (OBJ block 020BDD4) in English: tabs Hira / Kata /
+- **Phase:** 8. QA in the emulator: in progress (script coverage sweep past s492; field menu, profile form,
+  keyboard, PDA calendar header graphics done). Phase 7 done 2026-11-15. Last build: `build/dynadevice_blue_en.gba`
+  2026-11-15 (calendar header), sha1 77ebf0ac..., smoke ok, check.py ok, lint 0/0 (138 strings wider than JP
+  under guessed budgets: `lint.py --guess`, `docs/review/guess_wide.txt`).
+- **Latest session (2026-11-15, worker 4):** sweep 4 had died at s473 (no Mesen running): restarted as sweep 5
+  (`cover.py scripts --jobs 2`, log `work/qa/cover/sweep5.log`), at s492 when this worker handed off; same rule as
+  below (if `work/qa/cover/m1/` stops growing and no Mesen runs `cover`, rerun it, then `cover.py report`). Graphics:
+  PDA calendar header 0219CB4 "Add Plan" / "Add Errand" in game; 020B0F4 tabs drawn but their screen not found;
+  PDA screen survey + new scenes (docs/re/graphics.md "PDA screens"). `gfx_text.py`: `text_y` per atlas, redraw
+  shadow `("ring", idx)` = full outline, fill `rowmode` (row's commonest colour, for vertical gradients).
+- **Session before (2026-11-15, worker 3):** name-entry keyboard (OBJ block 020BDD4) in English: tabs Hira / Kata /
   ABC / 123 / Sym / Kanji, START "OK", SELECT "CONVERT", Prev Page / Next Page (`gfx_text.py` "redraw" boxes for
   outlined art; scenes `keyboard_select`, `keyboard_kanji` = boot keyboard + a route after `|`). Coverage sweep 4
   (`cover.py scripts --jobs 2`, log `work/qa/cover/sweep4.log`) was **left running in the background** at s472 when
@@ -68,7 +74,9 @@ Updated at the end of every session. Keep it to what the next session needs; his
   3. Graphics text (`docs/re/graphics.md`). **Field menu (01E30D4) and profile form (020EB44 labels, 02124B4
      popup) done**; form leftovers: おわる button, two tiny boxed words 7,17-24 of 020EB44, the other 02124B4
      sentences (PDA address book). **Name-entry keyboard 020BDD4 done** (tabs, START OK / SELECT CONVERT, page
-     buttons; `gfx_text.py` "redraw" boxes for outlined art; docs/re/graphics.md). Next rows: 020B0F4 (なまえ/ばしょ/すること/イベント/カスタム: PDA schedule headers), PDA home labels, fortune box,
+     buttons; `gfx_text.py` "redraw" boxes for outlined art; docs/re/graphics.md). **Calendar header 0219CB4 done.** Next rows: find
+     020B0F4's screen (drawn, unseen: graphics.md "PDA screens"), the other PDA apps (money diary 021EA44,
+     timetable, calculator, memo, address-book index tabs; all warpable by mode), PDA home labels, fortune box,
      title logo, then the sheet rows. Same method: regen the scene on the
      original ROM with ppu_every.lua, find the BG map (search ROM for the u16 tile sequence: menu maps were raw
      `SCR\0` blocks after the palette), add an ATLASES entry to gfx_text.py. Older notes: **Pipeline (2026-11-15):** every ECD block is reached through

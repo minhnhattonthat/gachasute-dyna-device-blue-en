@@ -71,6 +71,21 @@ its font at run time (dialogue, the boot date prompt, the profile popup) is stri
   background rebuilt by a row-wise nearest fill or a per-pixel vote over the six tabs, then ink + shadow drawn).
   In game: `work/qa/warp/keyboard_select/hold.png`. Page buttons seen in the atlas only (`work/gfx/en/020BDD4_x4.png`).
 
+## PDA screens (2026-11-15, worker 4)
+- Debug modes 2-8 + 45 show the PDA apps from a cold boot (`work/qa/pda/modes.png`): address book (index tabs
+  ア..ワ, セレクト データをけす, アドレスのついか R: 02124B4), calendar (L よていのついか / R ようじのついか,
+  月火水木金土 header), money diary (mode 5: つかったお金ついか / もらったお金ついか, 021EA44), timetable (mode 8:
+  時間割, ひとつけす, 月火水木金土), calculator (mode 7: やりなおし, 税込み), memo (mode 6: あたらしく かく). PDA home
+  (boot with `work/states/tutorial_jp.sav`, ~f1350): アドレス / ダイナデバイス / データセーブ / 予定 / 用事.
+  Scenes `pda_money`, `pda_errand_add`, `pda_sched_add` (icon tabs, おわる) added.
+- **Done:** calendar header 0219CB4 "Add Plan" / "Add Errand" (both copies; outlined white ink 3, ring 14, fill
+  `rowmode`), in game `work/qa/warp/mode_pda_calendar/hold.png`. Open in the same block: the faint delete prompt
+  (このデータを けしても いいですか？ / けす＝Aボタン けさない＝Bボタン, ink 7 on 5): find its screen.
+- 020B0F4 tabs (なまえ ばしょ すること イベント カスタム) drawn as "Name / Place / To Do / Event / Custom" (map SCR
+  0x20BAB4, menu-bar layout), **not yet seen in game**: archive index 2395 is loaded by 0x08023F20, reached from
+  the mode 2 chain (0x08021370..) and from 0x080283B0 / 0x0802DDB0 / 0x08032834 / 0x0803B6A0. Not on the PDA
+  home, address book, calendar add-plan / add-errand screens. Next: a Lua exec hook on 0x08023F20 in those modes.
+
 ## Rows (ROM offset of the ECD block)
 | Offset | Sheet | Japanese | Gloss | Kind |
 |---|---|---|---|---|
