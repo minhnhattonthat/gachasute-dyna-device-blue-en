@@ -7,8 +7,8 @@ Errors (every entry with "en"):
   - register codes ({%sR4} ...) and {KN} match the Japanese, in order; colour codes too (strings);
   - messages: at most 2 lines per page, each line <= LINE_PX, a page's last line <= LAST_PX (the ▼ arrow);
   - strings: each line <= the entry's budget from docs/re/budgets.tsv when it has one.
-Warnings (--warn prints them): {KP} count differs from the Japanese (extra pages are fine, but check), a string
-with no measured budget yet.
+Warnings (--warn prints them): a string's {KP} count differs from the Japanese (messages are re-paginated
+paragraphs, so not for them), a string with no measured budget yet.
 A register code counts as REG_PX[kind] pixels (names: the longest English name the register can hold).
 """
 import argparse
@@ -28,23 +28,28 @@ REG_PX = {"s": 64, "d": 8}                       # %sRn: any name, 8 full-width 
                                                  # docs/re/windows.md §String registers); %dRn: per digit (SJIS)
 REG = re.compile(r"\{%(0?)(\d*)([sdXx])(R\d)?\}")
 TAGS = re.compile(r"\{%[^{}]*\}|\{KN\}|\{C\d\}")
+# registers known to hold only a few words: (entry id, register) -> those words (counted at the longest one)
+REG_WORDS = {
+    ("t0BB224", "R0"): ["earth", "thunder", "water", "fire", "none"],   # Dyna Database element (t0B3C0C-t0B3C30)
+}
 
 
-def reg_width(m):
+def reg_width(m, entry_id=None):
     kind, digits = m[3], m[2]
     if kind == "s":
-        return REG_PX["s"]
+        words = REG_WORDS.get((entry_id, m[4]))
+        return max(vwf.width(w) for w in words) if words else REG_PX["s"]
     return REG_PX["d"] * (int(digits) if digits else 5)
 
 
-def line_width(line):
+def line_width(line, entry_id=None):
     px = 0
     pos = 0
     for m in re.finditer(r"\{[^{}]*\}|\[([0-9A-Fa-f]{2})\]", line):
         px += vwf.width(line[pos:m.start()])
         r = REG.fullmatch(m.group())
         if r:
-            px += reg_width(r)
+            px += reg_width(r, entry_id)
         elif m[1] is not None:      # [XX] raw byte: an ASCII glyph at its width, half an SJIS cell otherwise
             b = int(m[1], 16)
             px += vwf.char_width(chr(b)) if 0x20 <= b < 0x7F else 0 if b == vwf.PAD else vwf.CELL // 2
@@ -93,7 +98,8 @@ def check_entry(e, budgets):
     want = [t for t in TAGS.findall(jp) if t != "{%}"]
     if TAGS.findall(en) != want:
         errs.append(f"codes {TAGS.findall(en)} != JP {want}")
-    if en.count("{KP}") != jp.count("{KP}"):
+    # messages are written as paragraphs and re-paginated by batches.py's wrap, so their page count may differ
+    if en.count("{KP}") != jp.count("{KP}") and not e["id"].startswith("s"):
         warns.append(f"{{KP}} x{en.count('{KP}')} vs JP x{jp.count('{KP}')}")
     if e["id"].startswith("s"):
         for pi, page in enumerate(pages(en)):
@@ -117,7 +123,7 @@ def check_entry(e, budgets):
             if len(ls) > lines:
                 errs.append(f"{len(ls)} lines > {lines} ({variant})")
             for line in ls:
-                w = line_width(line)
+                w = line_width(line, e["id"])
                 if w > px:
                     errs.append(f"{w} px > {px} ({variant}): {line!r}")
     return errs, warns

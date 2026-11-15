@@ -343,7 +343,7 @@
   ],
   "slot": 16,
   "jp": "{C2}{%sR0}ぞくせい",
-  "en": "{C2}Elem. {%sR0}",
+  "en": "{C2}Element: {%sR0}",
   "status": "done"
  },
  {

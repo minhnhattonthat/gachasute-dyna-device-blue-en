@@ -1196,7 +1196,7 @@
   "flag": 0,
   "speaker": -1,
   "jp": "たとえば　フレアと　ヒートの\nエクストラが　れんぞくしたばあい{KP}\nヤケドの　ついかこうかが\nかならず　はっせいするんだぜ",
-  "en": "Like, a \"Flare\" Extra then a \"Heat\"\nExtra{KP}\nalways sets off a burn effect!",
+  "en": "Like, \"Flare\" and \"Heat\" Extras back to\nback{KP}\nalways set off a burn effect!",
   "status": "done"
  },
  {
@@ -1204,7 +1204,7 @@
   "flag": 0,
   "speaker": -1,
   "jp": "たとえば　アクアと　アイスの\nエクストラが　れんぞくしたばあい{KP}\nこおりの　ついかこうかが\nかならず　はっせいするんだぜ",
-  "en": "Like, an \"Aqua\" Extra then an \"Ice\"\nExtra{KP}\nalways sets off a freeze effect!",
+  "en": "Like, \"Aqua\" and \"Ice\" Extras back to\nback{KP}\nalways set off a freeze effect!",
   "status": "done"
  },
  {
@@ -1212,7 +1212,7 @@
   "flag": 0,
   "speaker": -1,
   "jp": "たとえば　アクアと　ボルトの\nエクストラが　れんぞくしたばあい{KP}\nかんでんの　ついかこうかが\nかならず　はっせいするんだぜ",
-  "en": "Like, an \"Aqua\" Extra then a \"Bolt\"\nExtra{KP}\nalways sets off a shock effect!",
+  "en": "Like, \"Aqua\" and \"Bolt\" Extras back to\nback{KP}\nalways set off a shock effect!",
   "status": "done"
  },
  {
@@ -1220,7 +1220,7 @@
   "flag": 0,
   "speaker": -1,
   "jp": "たとえば　ミストと　サンドの\nエクストラが　れんぞくしたばあい{KP}\nめつぶしの　ついかこうかが\nかならず　はっせいするんだぜ",
-  "en": "Like, a \"Mist\" Extra then a \"Sand\" Extra{KP}\nalways sets off a blinding effect!",
+  "en": "Like, \"Mist\" and \"Sand\" Extras back to\nback{KP}\nalways set off a blinding effect!",
   "status": "done"
  },
  {
@@ -1228,7 +1228,7 @@
   "flag": 0,
   "speaker": -1,
   "jp": "たとえば　アイスと　ボムの\nエクストラが　れんぞくしたばあい{KP}\nあいてを　そくしさせる　こうかが\nはっせいすることが　あるんだぜ",
-  "en": "Like, an \"Ice\" Extra then a \"Bomb\"\nExtra{KP}\ncan sometimes take the other guy out in\none shot!",
+  "en": "Like, \"Ice\" and \"Bomb\" Extras back to\nback{KP}\ncan sometimes take the other guy out in\none shot!",
   "status": "done"
  },
  {
@@ -1236,7 +1236,7 @@
   "flag": 0,
   "speaker": -1,
   "jp": "たとえば　グランと　ボムの\nエクストラが　れんぞくしたばあい{KP}\nあいての　ぶきデバイスを　ひとつ\nしようできなくすることが　あるんだぜ",
-  "en": "Like, a \"Gran\" Extra then a \"Bomb\"\nExtra{KP}\ncan sometimes knock out one of the other\nguy's weapon Devices!",
+  "en": "Like, \"Gran\" and \"Bomb\" Extras back to\nback{KP}\ncan sometimes knock out one of the other\nguy's weapon Devices!",
   "status": "done"
  },
  {
@@ -1244,7 +1244,7 @@
   "flag": 0,
   "speaker": -1,
   "jp": "たとえば　フレアと　ボムの\nエクストラが　れんぞくしたばあい{KP}\nあいての　ぼうぐデバイスを　ひとつ\nしようできなくすることが　あるんだぜ",
-  "en": "Like, a \"Flare\" Extra then a \"Bomb\"\nExtra{KP}\ncan sometimes knock out one of the other\nguy's armor Devices!",
+  "en": "Like, \"Flare\" and \"Bomb\" Extras back to\nback{KP}\ncan sometimes knock out one of the other\nguy's armor Devices!",
   "status": "done"
  },
  {
@@ -1252,7 +1252,7 @@
   "flag": 0,
   "speaker": -1,
   "jp": "たとえば　エレキと　アースの\nエクストラが　れんぞくしたばあい{KP}\nあいてを　しばらくのあいだ\nきぜつさせることが　あるんだぜ",
-  "en": "Like, an \"Elec\" Extra then an \"Earth\"\nExtra{KP}\ncan sometimes stun the other guy for a\nwhile!",
+  "en": "Like, \"Elec\" and \"Earth\" Extras back to\nback{KP}\ncan sometimes stun the other guy for a\nwhile!",
   "status": "done"
  },
  {
@@ -1276,7 +1276,7 @@
   "flag": 0,
   "speaker": -1,
   "jp": "たとえば　フレアと　ヒートの\nエクストラが　れんぞくしたばあい{KP}\nヤケドの　ついかこうかが\nかならず　はっせいするのだ",
-  "en": "For instance, a \"Flare\" Extra followed by a\n\"Heat\" Extra{KP}\nwill always trigger a burn effect.",
+  "en": "For instance, \"Flare\" and \"Heat\" Extras\nused back to back{KP}\nwill always trigger a burn effect.",
   "status": "done"
  },
  {
@@ -1284,7 +1284,7 @@
   "flag": 0,
   "speaker": -1,
   "jp": "たとえば　アクアと　アイスの\nエクストラが　れんぞくしたばあい{KP}\nこおりの　ついかこうかが\nかならず　はっせいするのだ",
-  "en": "For instance, an \"Aqua\" Extra followed by\nan \"Ice\" Extra{KP}\nwill always trigger a freeze effect.",
+  "en": "For instance, \"Aqua\" and \"Ice\" Extras used\nback to back{KP}\nwill always trigger a freeze effect.",
   "status": "done"
  },
  {
@@ -1292,7 +1292,7 @@
   "flag": 0,
   "speaker": -1,
   "jp": "たとえば　アクアと　ボルトの\nエクストラが　れんぞくしたばあい{KP}\nかんでんの　ついかこうかが\nかならず　はっせいするのだ",
-  "en": "For instance, an \"Aqua\" Extra followed by\na \"Bolt\" Extra{KP}\nwill always trigger a shock effect.",
+  "en": "For instance, \"Aqua\" and \"Bolt\" Extras used\nback to back{KP}\nwill always trigger a shock effect.",
   "status": "done"
  },
  {
@@ -1300,7 +1300,7 @@
   "flag": 0,
   "speaker": -1,
   "jp": "たとえば　ミストと　サンドの\nエクストラが　れんぞくしたばあい{KP}\nめつぶしの　ついかこうかが\nかならず　はっせいするのだ",
-  "en": "For instance, a \"Mist\" Extra followed by a\n\"Sand\" Extra{KP}\nwill always trigger a blinding effect.",
+  "en": "For instance, \"Mist\" and \"Sand\" Extras used\nback to back{KP}\nwill always trigger a blinding effect.",
   "status": "done"
  },
  {
@@ -1308,7 +1308,7 @@
   "flag": 0,
   "speaker": -1,
   "jp": "たとえば　アイスと　ボムの\nエクストラが　れんぞくしたばあい{KP}\nあいてを　そくしさせる　こうかが\nはっせいすることが　あるのだ",
-  "en": "For instance, an \"Ice\" Extra followed by a\n\"Bomb\" Extra{KP}\nmay knock the opponent out in one go.",
+  "en": "For instance, \"Ice\" and \"Bomb\" Extras used\nback to back{KP}\nmay knock the opponent out in one go.",
   "status": "done"
  },
  {
@@ -1316,7 +1316,7 @@
   "flag": 0,
   "speaker": -1,
   "jp": "たとえば　グランと　ボムの\nエクストラが　れんぞくしたばあい{KP}\nあいての　ぶきデバイスを　ひとつ\nしようできなくすることが　あるのだ",
-  "en": "For instance, a \"Gran\" Extra followed by a\n\"Bomb\" Extra{KP}\nmay disable one of the opponent's weapon\nDevices.",
+  "en": "For instance, \"Gran\" and \"Bomb\" Extras\nused back to back{KP}\nmay disable one of the opponent's weapon\nDevices.",
   "status": "done"
  },
  {
@@ -1324,7 +1324,7 @@
   "flag": 0,
   "speaker": -1,
   "jp": "たとえば　フレアと　ボムの\nエクストラが　れんぞくしたばあい{KP}\nあいての　ぼうぐデバイスを　ひとつ\nしようできなくすることが　あるのだ",
-  "en": "For instance, a \"Flare\" Extra followed by a\n\"Bomb\" Extra{KP}\nmay disable one of the opponent's armor\nDevices.",
+  "en": "For instance, \"Flare\" and \"Bomb\" Extras\nused back to back{KP}\nmay disable one of the opponent's armor\nDevices.",
   "status": "done"
  },
  {
@@ -1332,7 +1332,7 @@
   "flag": 0,
   "speaker": -1,
   "jp": "たとえば　エレキと　アースの\nエクストラが　れんぞくしたばあい{KP}\nあいてを　しばらくのあいだ\nきぜつさせることが　あるのだ",
-  "en": "For instance, an \"Elec\" Extra followed by\nan \"Earth\" Extra{KP}\nmay stun the opponent for a while.",
+  "en": "For instance, \"Elec\" and \"Earth\" Extras\nused back to back{KP}\nmay stun the opponent for a while.",
   "status": "done"
  },
  {
@@ -1356,7 +1356,7 @@
   "flag": 0,
   "speaker": -1,
   "jp": "たとえば　フレアと　ヒートの\nエクストラが　れんぞくしたばあい{KP}\nヤケドの　ついかこうかが\nかならず　はっせいするのよ",
-  "en": "Like, a \"Flare\" Extra and then a \"Heat\"\nExtra{KP}\nalways trigger a burn effect, you know.",
+  "en": "Like, \"Flare\" and \"Heat\" Extras back to\nback{KP}\nalways trigger a burn effect, you know.",
   "status": "done"
  },
  {
@@ -1364,7 +1364,7 @@
   "flag": 0,
   "speaker": -1,
   "jp": "たとえば　アクアと　アイスの\nエクストラが　れんぞくしたばあい{KP}\nこおりの　ついかこうかが\nかならず　はっせいするのよ",
-  "en": "Like, an \"Aqua\" Extra and then an \"Ice\"\nExtra{KP}\nalways trigger a freeze effect, you\nknow.",
+  "en": "Like, \"Aqua\" and \"Ice\" Extras back to\nback{KP}\nalways trigger a freeze effect, you\nknow.",
   "status": "done"
  },
  {
@@ -1372,7 +1372,7 @@
   "flag": 0,
   "speaker": -1,
   "jp": "たとえば　アクアと　ボルトの\nエクストラが　れんぞくしたばあい{KP}\nかんでんの　ついかこうかが\nかならず　はっせいするのよ",
-  "en": "Like, an \"Aqua\" Extra and then a \"Bolt\"\nExtra{KP}\nalways trigger a shock effect, you know.",
+  "en": "Like, \"Aqua\" and \"Bolt\" Extras back to\nback{KP}\nalways trigger a shock effect, you know.",
   "status": "done"
  },
  {
@@ -1380,7 +1380,7 @@
   "flag": 0,
   "speaker": -1,
   "jp": "たとえば　ミストと　サンドの\nエクストラが　れんぞくしたばあい{KP}\nめつぶしの　ついかこうかが\nかならず　はっせいするのよ",
-  "en": "Like, a \"Mist\" Extra and then a \"Sand\"\nExtra{KP}\nalways trigger a blinding effect, you\nknow.",
+  "en": "Like, \"Mist\" and \"Sand\" Extras back to\nback{KP}\nalways trigger a blinding effect, you\nknow.",
   "status": "done"
  },
  {
@@ -1388,7 +1388,7 @@
   "flag": 0,
   "speaker": -1,
   "jp": "たとえば　アイスと　ボムの\nエクストラが　れんぞくしたばあい{KP}\nあいてを　そくしさせる　こうかが\nはっせいすることが　あるのよ",
-  "en": "Like, an \"Ice\" Extra and then a \"Bomb\"\nExtra{KP}\ncan sometimes knock the opponent out in\none go!",
+  "en": "Like, \"Ice\" and \"Bomb\" Extras back to\nback{KP}\ncan sometimes knock the opponent out in\none go!",
   "status": "done"
  },
  {
@@ -1396,7 +1396,7 @@
   "flag": 0,
   "speaker": -1,
   "jp": "たとえば　グランと　ボムの\nエクストラが　れんぞくしたばあい{KP}\nあいての　ぶきデバイスを　ひとつ\nしようできなくすることが　あるのよ",
-  "en": "Like, a \"Gran\" Extra and then a \"Bomb\"\nExtra{KP}\ncan sometimes disable one of the\nopponent's weapon Devices!",
+  "en": "Like, \"Gran\" and \"Bomb\" Extras back to\nback{KP}\ncan sometimes disable one of the\nopponent's weapon Devices!",
   "status": "done"
  },
  {
@@ -1404,7 +1404,7 @@
   "flag": 0,
   "speaker": -1,
   "jp": "たとえば　フレアと　ボムの\nエクストラが　れんぞくしたばあい{KP}\nあいての　ぼうぐデバイスを　ひとつ\nしようできなくすることが　あるのよ",
-  "en": "Like, a \"Flare\" Extra and then a \"Bomb\"\nExtra{KP}\ncan sometimes disable one of the\nopponent's armor Devices!",
+  "en": "Like, \"Flare\" and \"Bomb\" Extras back to\nback{KP}\ncan sometimes disable one of the\nopponent's armor Devices!",
   "status": "done"
  },
  {
@@ -1412,7 +1412,7 @@
   "flag": 0,
   "speaker": -1,
   "jp": "たとえば　エレキと　アースの\nエクストラが　れんぞくしたばあい{KP}\nあいてを　しばらくのあいだ\nこうどうふのうにすることが　あるのよ",
-  "en": "Like, an \"Elec\" Extra and then an \"Earth\"\nExtra{KP}\ncan sometimes leave the opponent unable\nto act for a while!",
+  "en": "Like, \"Elec\" and \"Earth\" Extras back to\nback{KP}\ncan sometimes leave the opponent unable\nto act for a while!",
   "status": "done"
  },
  {

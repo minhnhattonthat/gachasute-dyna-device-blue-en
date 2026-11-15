@@ -179,7 +179,8 @@ Binding for every translator and reviewer. Agents propose additions in reports; 
   holy, hard, fertilizer, sea(food), honey, bug, grass. ひとだま -> ghostfire; ねんりき -> Mind Power;
   えんごこうげき -> Support Attack; ていさつ -> Scout. Dyna plural stays "Dyna".
 - b042 UI: dates "{%04dR2}/{%02dR3}/" + "{%02dR4}" (placeholders "20--/", "--/--"), times "{%02dR0}:{%02dR1}~"
-  ("--:--~"), weekdays Su Mo Tu We Th Fr Sa (2 letters), 円 -> "yen", button help "A Button: Use" style,
+  ("--:--~"), weekdays Sun Mon Tue Wed Thu Fri Sat (3 letters + 3 PAD, 6 bytes a day as the code copies;
+  the usual English short form, and narrower than the JP （日） cell; 2-letter "Su" dropped as needless), 円 -> "yen", button help "A Button: Use" style,
   はい/いいえ -> Yes/No at the JP columns, ひんし/びょうき/くうふく/けんこう -> KO/Sick/Hungry/Healthy, 予定/用事 ->
   Plans/Errands, BGM -> "Theme" (Defeat/Victory/Triumph/Crisis/Happy/Sad Theme), Normal/Boss/Last Battle 1/2,
   めいしこうかん -> Card Trade, つうしん -> link ("Linking...", "Waiting for link"), バトルリスト -> Battle List.

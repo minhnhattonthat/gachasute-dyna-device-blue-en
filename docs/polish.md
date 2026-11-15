@@ -16,7 +16,8 @@ Minor issues to revisit before release (phase 9 needs every line ticked). `[ ]` 
 - [ ] Line order of multi-line help/panel fragments was assumed to follow pointer order (ascending table address);
   check the link-trade panel (t0B9424-t0B9664), party help (t0B9B64-t0B9D84), PDA help (t0B99A8-t0B9A88).
 - [ ] t0B9700-t0B970C: ／ページ drawn one glyph per cell -> "/" "P" "a" "ge"; may look spaced out.
-- [ ] t0B8254 weekday row: "Sun"+3 PAD per day (the code copies 6 bytes a day, 0x0801FFA4).
+- [x] t0B8254 weekday row: "Sun"+3 PAD per day (the code copies 6 bytes a day, 0x0801FFA4). 3 letters is the
+  ruling now (glossary b042 line updated, phase-6 review); the in-game look is a phase-8 calendar check.
 - [ ] t0B9D9C/t0B9DE0 field build rows "> Hole"/"> Land" + register at col 6: what the register holds.
 - [ ] t0B8150/t0B8158 "{name} got" / "{item}!": real width of that window.
 - [ ] t0B9944 date prompt: fields padded to JP cols 6/10 so the cursor should sit over them; check.
@@ -24,8 +25,8 @@ Minor issues to revisit before release (phase 9 needs every line ticked). `[ ]` 
 - [ ] Kept JP (code slices them): calendar digit rows t0B8F78/t0B9124, digits t0B967C, "／" t0B9694.
 
 ## b044-b045 (phase 6)
-- [ ] t0BB224 "{C2}Elem. {%sR0}" (Dyna Database): abbreviated because lint counts the register as 64 px; it only
-  holds element words (longest "thunder"), so "Element {%sR0}" probably fits: check in game, then raise the budget.
+- [x] t0BB224 "{C2}Elem. {%sR0}" (Dyna Database): now "{C2}Element: {%sR0}" (71 px); lint counts this register
+  at its longest element word (`tools/lint.py` REG_WORDS). Phase 8: look at it in the Dyna Database.
 - [ ] t0BB280 "<@2>Take<@10>Status<@18>Free": "Release" (as in t0BA7C4 / t0BB2AC) overruns 168 px at col 18.
 - [ ] t0BAF6C "Linking...<@10>" + kept blank t0BAF84 (11 cells): check the link status line clears.
 - [ ] t0BAF9C/t0BB0C8/t0BB180 "(^^)", "Ashibe Boy", "Iced Latte", "Shady Buyer": default names in the link
