@@ -4,11 +4,26 @@ Updated at the end of every session. Keep it to what the next session needs; his
 
 - **Phase:** 8. QA in the emulator: in progress (coverage masha-1 sweep done, masha-2 sweep running; field menu,
   profile form, keyboard, PDA home + wheel / address book / calendar / money diary / calculator / memo / timetable
-  / save dialog / link menu / link check / title screen / Customize Dyna / Team Setup / Place Dyna / minigames
-  graphics done). Phase 7 done 2026-11-15. Last build: `build/dynadevice_blue_en.gba` 2026-11-15 (worker 10),
-  sha1 4863e5cb..., check.py ok, lint 0/0 (137 strings wider than JP under guessed budgets: `lint.py --guess`,
-  `docs/review/guess_wide.txt`).
-- **Latest session (2026-11-15, worker 10):** the masha-2 sweep had died after 6 runs: restarted (`cover.py scripts
+  / save dialog / link menu / link check / title screen / Customize Dyna / Team Setup / Place Dyna / minigames /
+  Dyna get + naming / battle results graphics done). Phase 7 done 2026-11-15. Last build:
+  `build/dynadevice_blue_en.gba` 2026-11-15 (worker 11), sha1 3e7fb6eb..., check.py ok, lint 0/0 (137 strings
+  wider than JP under guessed budgets: `lint.py --guess`, `docs/review/guess_wide.txt`).
+- **Latest session (2026-11-15, worker 11, handed off near the context limit):** the masha-2 sweep had died
+  again (49 runs): restarted (`cover.py scripts --masha 2 --jobs 1`, log `work/qa/cover/sweep_m2c.log`, 67 runs in
+  `work/qa/cover/m2/` at hand-off; a background job of this worker's shell: next worker, if no python runs
+  `cover.py`, rerun it, then `cover.py report`). **Dyna get / naming 0203D14 in English** (mode 45 + A presses
+  walks the 0x080D2B48 state machine; scenes `dyna_new` = NEW! panel: Type / Style / Element, "This is your
+  first Dyna of this style & element!"; `dyna_name` = "Please give this Dyna a name." over the keyboard).
+  **Battle results 03B9D84** (scene `d_get`): Results, Dyna Left, Wipeout Turn, Win / Lose / Draw. New
+  `tools/blockfind.py DUMP_PREFIX` lists the IMG blocks a ppu dump shows: the quick way to find a screen's block
+  (`regen.py SCENE --out D --probe tools/lua/ppu_every.lua`, then blockfind on the last dump). gfx_text redraw
+  boxes take a 9th item "left". Still JP, noted: the naming keyboard's R box "あぁ" (small-kana toggle) is not
+  in 020BDD4 or any string (likely the charset 0215E74). Debug battle (`dbg_battle`) has no tile-drawn JP: the
+  command menu 0250924 is on another battle screen (field battle board?). Next graphics: 0250924, the rest of
+  025E304 (placement states), 020B0F4's screen, fortune box, 01E9764 full-inventory popup, the remaining sheet
+  rows (01EA6B4.. 01F4284, 024AF04.. 024D4B4 link trade, 03B7F64 turn counter); a scan of every scene with
+  ppu_every + blockfind would list JP blocks not yet in `gfx/`.
+- **Session before (2026-11-15, worker 10):** the masha-2 sweep had died after 6 runs: restarted (`cover.py scripts
   --masha 2 --jobs 1`, log `work/qa/cover/sweep_m2b.log`, a background job of this worker's shell: next worker,
   if no Mesen of this repo runs `cover`, rerun it, then `cover.py report`). **Minigame graphics in English**
   (docs/re/graphics.md "Minigames"): blocks 03D5DB4 + 03D7FD4, 27 SCR rows re-laid by `gfx.MINI_ROWS`
