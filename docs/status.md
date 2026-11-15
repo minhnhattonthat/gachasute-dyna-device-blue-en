@@ -21,7 +21,13 @@ Updated at the end of every session. Keep it to what the next session needs; his
   Queen / Jack / Ghost, 024AF04 Item Trade, 024B834 Dyna Trade + Your / Their / Items / Dyna (layouts from their
   PAT frames). Graphics rows left: 01EA6B4 (unseen small words), 01EE624 r6-7 and 024D4B4 buttons (unseen); then
   the ppu_every survey of the other `scenes.tsv` scenes + `blockscan.py --all`, chapter cards, game over, credits,
-  phase-8 steps 2, 4, 5.
+  phase-8 steps 2, 4, 5. **Survey started at hand-off** (background job of this worker's shell, original ROM, 111
+  scenes in `work/qa/survey_todo.txt`, log `work/qa/survey_run2.log`, dumps into `work/qa/survey/<scene>`, states
+  kept out of `work/states/` via `--states work/qa/survey/_states`): when its log says "N/111 scenes reached" (or
+  no regen.py runs), run `python -X utf8 tools/blockscan.py work/qa/survey/* --all` and redraw every JP block it
+  lists that is not in `gfx/` (rerun the same regen command for scenes missing a dir; finished ones can be
+  skipped by trimming the list). Never run a survey without `--states`: it overwrites `work/states/` with
+  original-ROM states.
 - **Session before (2026-11-15, worker 13, handed off near the context limit):** masha-2 sweep still alive (pid
   25948, `work/qa/cover/m2/` 98 runs; same rule: if no python runs `cover.py`, rerun `cover.py scripts --masha 2
   --jobs 1`, then `cover.py report`). **In English, seen in game** (`work/qa/gfx_en/<scene>/hold.png`): 01ECD84
