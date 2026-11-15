@@ -63,6 +63,22 @@ class Gfx(unittest.TestCase):
             self.assertEqual(list(struct.unpack_from(f"<{len(old)}H", self.rom, off)), old, why)
             self.assertEqual(len(old), len(new), why)
 
+    def test_minigame_words_have_their_own_tiles(self):
+        """Every small English word's tiles are shown by the re-laid minigame maps, no word shares a tile with
+        another, and no kana tile the code writes beside numbers (てん, ふん, びょう) is reused for a word."""
+        import gfx_text
+        rows = gfx.mini_patches(self.rom)   # raises if a JP row or SCR header differs
+        shown = {v & 0x3FF for _, _, new, _ in rows for v in new}
+        seen = {}
+        for text, tl in gfx_text.MINI_WORDS:
+            for t in tl:
+                self.assertNotIn(t, seen, f"{text!r} and {seen.get(t)!r} share tile {t}")
+                seen[t] = text
+                if text and len(tl) > 1:
+                    self.assertIn(32 * t[0] + t[1], shown, f"{text!r} tile {t} is on no map")
+        for code_tile in ((3, 0), (3, 1), (3, 2), (3, 3), (3, 4), (5, 19)):
+            self.assertNotIn(code_tile, gfx._S5)
+
     def test_menu_labels_on_maps_and_committed_png_current(self):
         import gfx_text
         img = gfx_text.render(self.rom, MENU)   # raises if a label is too wide or hits a blank column

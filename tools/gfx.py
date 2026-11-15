@@ -107,6 +107,105 @@ def title_patches(rom):
     return out
 
 
+# Minigame screens (docs/re/graphics.md "Minigames"): raw SCR maps (header 'SCR\0', u8 0, u8 w, u8 h, u8 0, then
+# w*h u16 words = 32 * atlas row + atlas col | pal << 12) for blocks 03D5DB4 (big words + small charset) and 03D7FD4
+# (help header + small words). Full map rows: (SCR offset, row, JP tiles, English tiles, why); tiles are (row, col)
+# or None for blank word 0. The JP tiles are checked, the palette bits are kept from the row's first JP tile.
+_ = None
+_G = [(8, 11), (8, 12), (8, 13), (4, 26), (8, 14), (8, 15)]   # ゲーム -> "Game" over the same 6 tiles
+_GB = [(9, 11), (9, 12), (9, 13), (5, 26), (9, 14), (9, 15)]
+_S5 = [(3, 5), (3, 6), (3, 7), (3, 9), (3, 10), (3, 11)] + [(4, c) for c in range(16)] + [(5, c) for c in range(19)] \
+    + [(6, c) for c in range(5)]   # 03D5DB4 small kana tiles freed for English words (gfx_text MINI_WORDS order)
+MINI_ROWS = [
+    (0x3D6DF4, 1, [_] + _G+ [(8, c) for c in range(16, 24)], [_, _] + _G + [(8, c) for c in range(16, 22)] + [_],
+     "title button Game Start"),
+    (0x3D6DF4, 2, [_] + _GB + [(9, c) for c in range(16, 24)], [_, _] + _GB + [(9, c) for c in range(16, 22)] + [_],
+     "title button Game Start (bottom)"),
+    (0x3D7A04, 1, [_] + _G+ [(4, c) for c in range(20, 28)], [_, _] + _G + [(4, c) for c in range(20, 26)] + [_],
+     "Game Over (4,26 now belongs to Game)"),
+    (0x3D7A04, 2, [_] + _GB + [(5, c) for c in range(20, 28)], [_, _] + _GB + [(5, c) for c in range(20, 26)] + [_],
+     "Game Over (bottom)"),
+    (0x3D7954, 1, [_] * 4 + [(8, c) for c in range(16, 23)] + [(8, 24)],
+     [_] * 5 + [(8, c) for c in range(16, 22)] + [(8, 24)], "Start!"),
+    (0x3D7954, 2, [_] * 4 + [(9, c) for c in range(16, 23)] + [(9, 24)],
+     [_] * 5 + [(9, c) for c in range(16, 22)] + [(9, 24)], "Start! (bottom)"),
+    (0x3D79A4, 1, [_] * 2 + [(8, c) for c in range(11)] + [(8, 24)], [_] * 3 + [(8, c) for c in range(9)] + [(8, 24), _],
+     "Time Up!"),
+    (0x3D79A4, 2, [_] * 2 + [(9, c) for c in range(11)] + [(9, 24)], [_] * 3 + [(9, c) for c in range(9)] + [(9, 24), _],
+     "Time Up! (bottom)"),
+    (0x3D71D4, 0, [(5, 5), (3, 1), (5, 7), (5, 0), (5, 17), _, (5, 3), (6, 3), (5, 4)],
+     [_] + _S5[0:3] + _S5[3:6] + [_, _], "げんざいの きろく -> High Score"),
+    (0x3D71F4, 0, [(5, 14), (5, 4), (3, 0), (3, 1)], _S5[3:6] + [_], "とくてん -> Score"),
+    (0x3D7204, 0, [(4, 3), (4, 12), (4, 0), (4, 6), (4, 1), (4, 11)], _S5[6:12], "クリアタイム -> Clear Time"),
+    (0x3D7224, 0, [(5, 8), (3, 1), (5, 3), (6, 3), (5, 4), (3, 9), (3, 9)], _S5[12:19], "しんきろく！！ -> New Record!"),
+    (0x3D7244, 0, [(5, 6), (3, 1), (5, 2), (5, 0), _, (3, 0), (5, 16), (5, 18), (5, 0), (5, 13), (5, 11), _,
+                   (3, 5), (3, 6), (3, 7)], _S5[19:25] + [_] * 9, "こんかい てにはいった ビット -> Bits Earned"),
+    (0x3D7274, 0, [(5, 5), (3, 1), (5, 7), (5, 0), _, (6, 2), (5, 13), (3, 0), (5, 0), (6, 4), _, (3, 5), (3, 6),
+                   (3, 7)], _S5[25:30] + [_] * 9, "げんざい もっている ビット -> Your Bits"),
+    (0x3D7364, 1, [_] * 4 + [(4, 2), (4, 8), (4, 0), (3, 6), (4, 9), (5, 8), (6, 1), (5, 9), (5, 2), (3, 10)] + [_] * 3,
+     [_] * 6 + _S5[30:35] + [_] * 6, "ギブアップしますか？ -> Give up?"),
+    (0x3D7364, 3, [_, (5, 18), (5, 0), (3, 8), (7, 0), (4, 10), (4, 6), (4, 15), _, (5, 0), (5, 0), (5, 1), (3, 8),
+                   (7, 1), (4, 10), (4, 6), (4, 15)],
+     [_] * 3 + [(7, 0), (3, 8)] + _S5[35:37] + [_, _, (7, 1), (3, 8)] + _S5[37:39] + [_] * 4, "A=Yes  B=No"),
+    (0x3D7474, 1, [_, (5, 15), (5, 17), (4, 14), (6, 0), (4, 13), (5, 16), _, (5, 12), (3, 3), (3, 4), (5, 10), (3, 1),
+                   (5, 8), (6, 1), (5, 9), (5, 2), (3, 10)],
+     [_] * 5 + _S5[39:46] + [_] * 6, "どのレベルに ちょうせんしますか？ -> Which level?"),
+    # block 03D7FD4: title / level-select R legend and the how-to-play page labels
+    (0x3D8704, 0, [_, (0, 1), (0, 2), (0, 3), (0, 4), (0, 5), _, (0, 6), (0, 7), (0, 8), _, (0, 9), (0, 10), (0, 11),
+                   (0, 12), _, (0, 13), (0, 14), (0, 15), (0, 16), (0, 5), _, (0, 17), (0, 18), (1, 16), (1, 17),
+                   (1, 18), (2, 16), (0, 7), _],
+     [_] * 8 + [(0, c) for c in range(1, 6)] + [_] + [(0, c) for c in range(6, 13)] + [_] * 9,
+     "R line: Rボタンを おすと ゲームの せつめいを ひょうじします -> R Button  How to Play"),
+    (0x3D8754, 0, [(0, 1), (0, 2), (0, 3), (0, 4)] + [_] * 5, [(0, c) for c in range(1, 6)] + [_] * 4,
+     "level select legend: Rボタン -> R Button"),
+    (0x3D8754, 1, [(0, 9), (0, 10), (0, 11), (0, 12), _, (0, 13), (0, 14), (0, 15), (0, 16)],
+     [(0, c) for c in range(6, 13)] + [_, _], "level select legend: ゲームの せつめい -> How to Play"),
+    # how-to-play page SCR 3D8784 (30x20): (row, first col) segments
+    (0x3D8784, (4, 3), [(2, 17), (1, 16), (2, 18), (5, 5), (1, 16), (5, 5), (1, 16)],
+     [(0, c) for c in range(13, 18)] + [_, _], "そうさほうほう -> Controls"),
+    (0x3D8784, (5, 3), [(5, 13)] * 7, [(5, 13)] * 5 + [_, _], "Controls underline: 5 tiles"),
+    (0x3D8784, (4, 20), [(5, 6), (0, 10), (5, 6)], [(0, 18), (1, 16), (1, 17)], "ルール -> Rules"),
+    (0x3D8784, (6, 1), [(5, 14), (1, 17), (5, 7), (1, 16), (1, 17), (5, 8), (0, 10)],
+     [(5, 14), (1, 18), (2, 16), (2, 17), _, _, _], "[+] じゅうじキー -> D-Pad"),
+    (0x3D8784, (9, 1), [(5, 15), (5, 9), (0, 2), (0, 3), (0, 4), _], [(5, 15), (5, 9)] + [(0, c) for c in range(2, 6)],
+     "[A] Aボタン -> A Button"),
+    (0x3D8784, (12, 1), [(5, 16), (5, 10), (0, 2), (0, 3), (0, 4), _],
+     [(5, 16), (5, 10)] + [(0, c) for c in range(2, 6)], "[B] Bボタン -> B Button"),
+    (0x3D8784, (15, 1), [(5, 17), (5, 11), (0, 3), (0, 10), (5, 12)], [(5, 17), (2, 18), (5, 5), (5, 6), _],
+     "[o] スタート -> Start"),
+]
+
+
+def mini_patches(rom):
+    """MAP_PATCHES-style rows for MINI_ROWS (checks each SCR header and its JP tiles)."""
+    out = []
+    for off, at, old, new, why in MINI_ROWS:
+        if rom[off:off + 4] != b"SCR\0":
+            raise ValueError(f"{off:#x}: no SCR header ({why})")
+        w, h = rom[off + 5], rom[off + 6]
+        row, col = at if isinstance(at, tuple) else (at, 0)
+        if len(old) != len(new) or col + len(old) > w or row >= h or (col == 0 and len(old) != w and not
+                                                                          isinstance(at, tuple)):
+            raise ValueError(f"{off:#x} row {row}: {len(old)}/{len(new)} tiles for a {w}x{h} map ({why})")
+        e = off + 8 + 2 * (row * w + col)
+        words = list(struct.unpack_from(f"<{len(old)}H", rom, e))
+        got = [None if v & 0x3FF == 0 else divmod(v & 0x3FF, 32) for v in words]
+        if got != old:
+            raise ValueError(f"{off:#x} row {row}: JP tiles {got} differ from {old} ({why})")
+        # palette bits per word (an icon may use another palette than the text beside it): the tile's own JP word
+        # if it was in the row, else the JP word at that place, else the nearest JP tile to the left
+        own = {t: v & 0xF000 for t, v in zip(got, words) if t}
+
+        def pal(i, t):
+            if t in own:
+                return own[t]
+            j = next(j for j in list(range(i, -1, -1)) + list(range(i, len(words))) if got[j])
+            return words[j] & 0xF000
+        out.append((e, words, [0 if t is None else pal(i, t) | (32 * t[0] + t[1]) for i, t in enumerate(new)],
+                    f"minigame {why}"))
+    return out
+
+
 def archive_words(rom):
     """-> {block offset: [ROM offset of each archive word pointing at it]}."""
     n = struct.unpack_from("<I", rom, ARC)[0] // 4
@@ -224,6 +323,7 @@ def apply(rom, out, free, log=None, limit=None):
         return free
     title = title_patches(rom) if (GFX / "0449734.png").exists() else []
     title += tt_patches(rom) if (GFX / "022CF64.png").exists() else []
+    title += mini_patches(rom) if (GFX / "03D5DB4.png").exists() else []
     for off, old, new, why in MAP_PATCHES + title:
         if list(struct.unpack_from(f"<{len(old)}H", rom, off)) != old:
             raise ValueError(f"gfx map patch {off:#x}: original words differ ({why})")

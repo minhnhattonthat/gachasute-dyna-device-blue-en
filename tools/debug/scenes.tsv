@@ -174,3 +174,10 @@ pda_up6	mode	2 300 -;6 up;30 -;6 up;30 -;6 up;30 -;6 up;30 -;6 up;30 -;6 up;30 -
 pda_tt_a	mode	8 300 -;6 a;150 -	200	mode 8 timetable, A on a cell: subject palette (時間割設定パレット, block 022CF64)
 pda_tt_r	mode	8 300 -;6 r;150 -	200	mode 8 timetable, R (ひとつ けす: erase one)
 pda_down4	mode	2 300 -;6 down;30 -;6 down;30 -;6 down;30 -;6 down;30 -	200	mode 2 PDA home, Down x4 (wheel labels 0208654)
+mini_help	mode	40 300 -;6 r;150 -	200	mode 40 minigame title, R: how-to-play page (header 03D7FD4)
+mini_start	mode	40 300 -;6 a;200 -	300	mode 40 minigame title, A on ゲームスタート (level select / game start, 03D5DB4)
+mini_play	mode	40 300 -;6 a;200 -;6 a;400 -	400	mode 40 minigame, A twice: in game (とくてん / のこりじかん, 03D5DB4)
+mini_help_b	mode	42 300 -;6 r;150 -	200	mode 42 minigame title 2, R: how-to-play page
+mini_pause	mode	40 300 -;6 a;100 -;6 start;120 -	200	mode 40 minigame, A then START: pause (ギブアップしますか？ はい=Aボタン いいえ=Bボタン)
+mini_giveup	mode	40 300 -;6 a;100 -;6 start;120 -;6 a;300 -	300	mode 40 minigame, START then A: give up (results: Bits Earned / Your Bits)
+mini_long	mode	40 300 -;6 a;3600 -	300	mode 40 minigame, A then wait: Start!, Game Over / results (Bits Earned, Your Bits, New Record!)

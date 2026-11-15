@@ -50,6 +50,18 @@ TT_KILL = {2, 11, 12, 13, 14, 15}
 TT_SUBJECTS = ["Jpn", "Ari", "Sci", "Soc", "Mth", "Eng", "Hlth", "PE",
                "Tec", "HEc", "Crf", "Art", "Mus", "JpH", "WHi", "Geo",
                "Chm", "Phy", "Civ", "Eth", "Bio", None, "Clb", "Act"]
+# Minigame blocks 03D5DB4 / 03D7FD4: lettering inks and clear sets (big title-style words, HUD words, small charset)
+MINI_BIG = {11, 12, 13, 14, 15, 1}
+MINI_HUD = [15, 15, 15, 14, 14, 14, 13, 13, 12, 12, 12, 11, 11, 11]
+MINI_HUDK = {11, 12, 13, 14, 15, 2}
+MINI_SMALL = [15, 14, 14, 13, 13, 12, 12, 12]
+MINI_SMALLK = {12, 13, 14, 15}
+_S5 = gfx._S5
+MINI_WORDS = [("High", _S5[0:3]), ("Score", _S5[3:6]), ("Clear Time", _S5[6:12]), ("New Record!", _S5[12:19]),
+              ("Bits Earned", _S5[19:25]), ("Your Bits", _S5[25:30]), ("Give up?", _S5[30:35]), ("Yes", _S5[35:37]),
+              ("No", _S5[37:39]), ("Which level?", _S5[39:46]),
+              ("", [(3, 0)]), ("", [(3, 1)]), ("s", [(3, 2)]), ("", [(3, 3)]), ("", [(3, 4)]), ("m", [(5, 19)])]
+MINI_BOX = {"No": 10}   # "B=No": keep it next to the "=" tile
 ATLASES = {
     MENU_BAR: {
         # 1,21 gets the frame-only tile 4,12 (bottom col 1 of a 6-col button) and becomes the Database button's.
@@ -368,6 +380,50 @@ ATLASES = {
                      for i, t in enumerate(TT_SUBJECTS) if t]
                   + [("Cmt", (240, 50, 256, 62), "row", 15, 1, "vwf", 2, {15, 1})],
         "mode_skip": {3: {3, 11, 12, 14}},
+    },
+    # Minigames (modes 40-42; BG0, docs/re/graphics.md "Minigames"; tools/gfx.py MINI_ROWS re-lays the SCR maps).
+    # Block 03D5DB4 (29 tiles wide, VRAM row stride 32): big words in white f..b gradient + shadow 1 (the game swaps
+    # palettes: blue on the title, pink for Game Over), HUD words with shadow 2, and a small 7-row charset (f e e d
+    # d c c, no shadow) whose kana tiles carry the small English words (gfx._S5 order); kana the code writes beside
+    # numbers become "m" / "s" (00ふん00びょう -> 00m 00s) or blank (0てん -> 0: "0pt" read as "Opt").
+    0x3D5DB4: {
+        "redraw": [("Game", [(88, 64, 112, 80), (208, 32, 216, 48), (112, 64, 128, 80)], "row", TT_GRAD, 1, "vwf2", 0,
+                    MINI_BIG),
+                   ("Start", (128, 64, 176, 80), "row", TT_GRAD, 1, "vwf2", 0, MINI_BIG),
+                   ("", (176, 64, 192, 80), "row", TT_GRAD, 1, "vwf2", 0, MINI_BIG),
+                   ("Clear", (144, 16, 192, 32), "row", TT_GRAD, 1, "vwf2", 0, MINI_BIG),
+                   ("Quit", (192, 16, 224, 32), "row", TT_GRAD, 1, "vwf2", 0, MINI_BIG),   # やめ
+                   ("Over", (160, 32, 208, 48), "row", TT_GRAD, 1, "vwf2", 0, MINI_BIG),
+                   ("", (216, 32, 224, 48), "row", TT_GRAD, 1, "vwf2", 0, MINI_BIG),
+                   ("Level", (128, 48, 173, 64), "row", TT_GRAD, 1, "vwf2", 0, MINI_BIG),   # flush left: digit
+                   ("", (173, 48, 176, 64), "row", TT_GRAD, 1, "vwf2", 0, MINI_BIG),        # tiles follow
+                   ("Time Up", (0, 64, 72, 80), "row", TT_GRAD, 1, "vwf2", 0, MINI_BIG),
+                   ("", (72, 64, 88, 80), "row", TT_GRAD, 1, "vwf2", 0, MINI_BIG),
+                   ("Quit", (176, 0, 224, 16), "row", TT_GRAD, 1, "vwf2", 0, MINI_BIG),     # おわる
+                   ("Score", (96, 0, 128, 16), "row", MINI_HUD, 2, "tall", 1, MINI_HUDK),
+                   ("Time Left", (128, 0, 176, 16), "row", MINI_HUD, 2, "tall", 1, MINI_HUDK)],
+        "screens": [{"cells": [[29 * r + c for r, c in tl]],
+                     # clear the whole run first, then draw in a box that may be narrower (flush-left words)
+                     "redraw": [("", (0, 0, 8 * len(tl), 8), "row", MINI_SMALL, None, "vwf", 0, MINI_SMALLK),
+                                (t, (0, 0, MINI_BOX.get(t, 8 * len(tl)), 8), "row", MINI_SMALL, None, "vwf", 0,
+                                 MINI_SMALLK)]}
+                    for t, tl in MINI_WORDS],
+    },
+    # Block 03D7FD4 (19 tiles wide): help header ミニゲーム[1-3]の あそびかた (BG0 rows 1-2: atlas r1-2 c0-9, digit
+    # c10-15, の r3-4 c6-7, あそびかた r3-4 c8-18) and the small words of the title R line, the level-select legend
+    # and the help page labels (3D8704 / 3D8754 / 3D8784 in gfx.MINI_ROWS).
+    0x3D7FD4: {
+        "redraw": [("Minigame", (0, 8, 80, 24), "row", TT_GRAD, 1, "vwf2", 0, MINI_BIG),
+                   (":", (48, 24, 64, 40), "row", TT_GRAD, 1, "tallb", 1, MINI_BIG),
+                   ("How to Play", (64, 24, 152, 40), "row", TT_GRAD, 1, "tallb", 1, MINI_BIG)],
+        "screens": [{"cells": [[19 * r + c for r, c in tl]],
+                     "redraw": [(t, (0, 0, 8 * len(tl), 8), "row", MINI_SMALL, None, "vwf", 0, MINI_SMALLK)]}
+                    for t, tl in (("Button", [(0, 2), (0, 3), (0, 4), (0, 5)]),
+                                  ("How to Play", [(0, c) for c in range(6, 13)]),
+                                  ("Controls", [(0, c) for c in range(13, 18)]),
+                                  ("Rules", [(0, 18), (1, 16), (1, 17)]),
+                                  ("D-Pad", [(1, 18), (2, 16), (2, 17)]),
+                                  ("Start", [(2, 18), (5, 5), (5, 6)]))],
     },
     # Title screen (OBJ 2D, block 0449734, block tile n = OBJ tile n; scene mode_title). The logo stays JP (D5).
     # Copyright (rows 12-13 c0-12, screen x68 y140) and the blinking スタートボタンを おしてください (r12-13 c13-28,

@@ -148,11 +148,25 @@ its font at run time (dialogue, the boot date prompt, the profile popup) is stri
 - **Palette gotcha (worker 9):** a PLT that repeats a colour turned drawn indices into other ones on the PNG round
   trip (025E304 pale 7 -> navy 1; latent in 020EB44 / 02124B4 / 0219CB4). `gfx.palette_for` now nudges repeats
   (`gfx.distinct`) and `gfx_text.render` fails if any drawn index would not come back.
-- **Minigames (next):** block 03D5DB4 is the minigame UI charset: small kana + 12 Latin capitals composed by maps
-  (げんざいの きろく, Ｎてん, Rボタンを おすと ゲームの せつめいを ひょうじします on the title, scene
-  `mode_minigame_a`), big words とくてん, のこりじかん, おわる, クリア, やめ, オーバー, レベル123, タイムアップ,
-  ゲームスタート！ (BG, maps not found yet). 03D7FD4 = help header ミニゲーム１２３ のあそびかた + the R line + button
-  legend.
+- **Minigames (done, worker 10):** all BG0, char base 0x4000. Block 03D5DB4 (29 tiles wide) sits at VRAM 0x9800
+  and 03D7FD4 (19 wide) at 0x9400 (help page) or 0x6000 (title / level select), both with a **32-tile row stride**,
+  so map word = 32 * atlas row + col | pal << 12 (`bgmap.py DUMP 9800`, rows exact). Every word is a raw SCR map
+  at 0x3D6D64-0x3D8784 (header `SCR\0`, u8 0, w, h, 0; then w*h u16): ゲームスタート 3D6DF4, おわる 3D6E64,
+  ゲームクリア 3D7194, げんざいの きろく 3D71D4, とくてん 3D71F4, クリアタイム 3D7204, しんきろく！！ 3D7224,
+  こんかい てにはいった ビット 3D7244, げんざい もっている ビット 3D7274, ギブアップしますか？ / はい=Aボタン
+  いいえ=Bボタン 3D7364, どのレベルに ちょうせんしますか？ 3D7474, レベル1-3 3D7524/64/A4, スタート！ 3D7954,
+  タイムアップ！ 3D79A4, ゲームオーバー 3D7A04, title R line 3D8704, level-select legend 3D8754, help page 3D8784
+  (そうさほうほう, ルール, じゅうじキー, A/Bボタン, スタート). ゲーム is one 6-tile prefix 8,11-13 + 4,26 + 8,14-15
+  shared by Start / Clear / Over (4,26 was also inside オーバー). The code writes て ん (3,0-1) after the title
+  score and ふ ん / び ょ う (5,19, 3,1-4) after the level-select times (0x08002402 via 0x08002A9D; probe
+  `regen.py ... --probe` with an on_write hook on the BG0 cells). English: `gfx.MINI_ROWS` re-lays the maps,
+  `gfx_text` draws big words in vwf2 (Game / Start / Clear / Over / Level / Time Up / Quit; HUD Score / Time
+  Left in `tall`), the small words as VWF runs on freed kana tiles (`gfx._S5`: High, Score, Clear Time, New
+  Record!, Bits Earned, Your Bits, Give up?, Yes, No, Which level?), code kana -> "m", "s" or blank (00m 00s; the
+  title score is the bare number). Header: "Minigame N : How to Play". Seen in game (scenes `mode_minigame_a`,
+  `mode_minigame_level`, `mini_help`, `mini_help_b`, `mini_play`, `mini_pause`, `mini_long` = Start! at f870):
+  `work/qa/mini_en/`. **Drawn, unseen:** Game Clear, Time Up!, New Record!, Clear Time, Bits Earned / Your Bits,
+  やめ -> Quit (the results need a real score: a dead player goes back to the title).
 - **Title block 0449734 (worker 7 survey):** logo stays JP (D5: no official English logo). Text in it,
   scene `mode_title` (OBJ 2D, OBJ tile n = block tile n, ppu dump f930): copyright ©2002 スマイルソフト = rows
   12-13 c0-12 (outlined 16 px glyphs in shades 2-5), OAM x68 / x76 / x108 / x140 at y140; エンブレム label = r12

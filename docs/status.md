@@ -4,11 +4,22 @@ Updated at the end of every session. Keep it to what the next session needs; his
 
 - **Phase:** 8. QA in the emulator: in progress (coverage masha-1 sweep done, masha-2 sweep running; field menu,
   profile form, keyboard, PDA home + wheel / address book / calendar / money diary / calculator / memo / timetable
-  / save dialog / link menu / link check / title screen / Customize Dyna / Team Setup / Place Dyna graphics done).
-  Phase 7 done 2026-11-15. Last build: `build/dynadevice_blue_en.gba` 2026-11-15 (worker 9), sha1 bc8f038a...,
-  check.py ok, lint 0/0 (137 strings wider than JP under guessed budgets: `lint.py --guess`,
+  / save dialog / link menu / link check / title screen / Customize Dyna / Team Setup / Place Dyna / minigames
+  graphics done). Phase 7 done 2026-11-15. Last build: `build/dynadevice_blue_en.gba` 2026-11-15 (worker 10),
+  sha1 4863e5cb..., check.py ok, lint 0/0 (137 strings wider than JP under guessed budgets: `lint.py --guess`,
   `docs/review/guess_wide.txt`).
-- **Latest session (2026-11-15, worker 9, handed off at the context limit):** sweep 9 had died at s728: sweep 10
+- **Latest session (2026-11-15, worker 10):** the masha-2 sweep had died after 6 runs: restarted (`cover.py scripts
+  --masha 2 --jobs 1`, log `work/qa/cover/sweep_m2b.log`, a background job of this worker's shell: next worker,
+  if no Mesen of this repo runs `cover`, rerun it, then `cover.py report`). **Minigame graphics in English**
+  (docs/re/graphics.md "Minigames"): blocks 03D5DB4 + 03D7FD4, 27 SCR rows re-laid by `gfx.MINI_ROWS`
+  (title Game Start / Quit / High Score / R Button How to Play, level select Which level? / Level 1-3 / 00m 00s,
+  help header + Controls / Rules / D-Pad / A Button / B Button / Start, HUD Score / Time Left, Start!, Game Over,
+  Give up? A=Yes B=No); results words drawn but unseen (need a scoring run). Text fix r08: t0BB4FC "(The timer
+  won't stop.)". New scenes `mini_help`, `mini_help_b`, `mini_start`, `mini_play`, `mini_pause`, `mini_giveup`,
+  `mini_long`; test `test_minigame_words_have_their_own_tiles`. Next graphics: the rest of 025E304 (placement
+  states: add scenes), 0203D14 Dyna naming, battle 0250924, 020B0F4's screen, fortune box, 01E9764 full-inventory
+  popup, then the remaining sheet rows (01EA6B4.. 01F4284, 024AF04.. 024D4B4 link trade, 03B7F64 turn counter).
+- **Session before (2026-11-15, worker 9, handed off at the context limit):** sweep 9 had died at s728: sweep 10
   finished the masha-1 pass (**2522/5536 shown or waived; 778 messages, 2236 strings unshown**, `cover.py report`).
   **Masha-2 sweep started** (`cover.py scripts --masha 2 --jobs 1`, log `work/qa/cover/sweep_m2.log`, a
   background job of this worker's shell: next worker, if no Mesen of this repo runs `cover`, rerun the same command
