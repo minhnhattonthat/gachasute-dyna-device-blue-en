@@ -16,7 +16,12 @@ Updated at the end of every session. Keep it to what the next session needs; his
   blocks surveyed (`tools/rawimg_sheet.py`): no other Japanese. Notes: docs/re/graphics.md "Raw IMG blocks".
   Probes: `vramwrite.lua` now logs regs + stack callers, `mapwrite.lua` takes `MW_VAL` (exact word) / `MW_TO`.
   Gotcha: `regen.py` defaults to the original ROM; pass `--rom build/dynadevice_blue_en.gba` for English shots.
-  The worker-18 English tour had died at 35/198 scenes (its build is stale now anyway).
+  The worker-18 English tour had died at 35/198 scenes (its build is stale now anyway). **English tour on build
+  bc6b43c7** (`work/qa/tour/tour_build.gba`, `--jobs 2`) was **stopped by Claude Code for low system memory at
+  125/198 scenes** (another project's 5 Mesen share the machine; ~3 GB free). Resume with only the scenes that
+  have no `work/qa/tour/<scene>/hold.png` (regen.py redoes every named scene): `regen.py <missing..> --rom
+  work/qa/tour/tour_build.gba --out work/qa/tour --states work/qa/tour/_states --jobs 1`. **Next:** finish that,
+  JP tour, `qa_gate.py init/todo`, `tools/vqa_run.py`, as listed under worker 18 below.
 - **Session before (2026-11-15, worker 18, handed off at the context budget):** **Dev status small words 01EE624
   r6-7 in English and seen** (PAT 01EF514 frames 17-21; graphics.md "Scene scan"): No Issues / Low Funds / Low Parts
   / Complete (shared piece moved first by PAT x patches) + detail-page panel Source Dyna / Equip Type / Arms Type /
