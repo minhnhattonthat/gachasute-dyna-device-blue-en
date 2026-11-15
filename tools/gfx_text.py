@@ -609,10 +609,12 @@ ATLASES = {
         "redraw": [("Free Battle", (104, 0, 200, 16), "row", TT_GRAD, 2, "tallb", 1, TT_KILL)],
     },
     # Card trade (scenes mode_card, mode_card2; OBJ, block 024D4B4 20 tiles wide, OBJ tile 32 * row + col): header
-    # めいしこうかん = r0-1 c4-11 then r2-3 c4-11 (screen x4-131; navy from x40 in r0-1). Buttons めいしの.. r0-1
-    # c13-19 / じぶんの r2 c12-17 (link screens) unseen, still JP.
+    # めいしこうかん = r0-1 c4-11 then r2-3 c4-11 (screen x4-131; navy from x40 in r0-1). Button めいしのかくにん R =
+    # PAT 024DD84 frames 0-1 (pal 1 / 2): r0-1 c12-15, c16-19, r2-3 c12-15, c16 side by side (screen x16-119); its
+    # lettering (ink 4, shadow 2, f glints) sits on a striped 5..8 gradient: "row" fill keeps the stripes.
     0x24D4B4: {
-        "redraw": [("Card Trade", [(40, 0, 96, 16), (32, 16, 96, 32)], "row", TT_GRAD, 2, "vwf2", 1, TT_KILL)],
+        "redraw": [("Card Trade", [(40, 0, 96, 16), (32, 16, 96, 32)], "row", TT_GRAD, 2, "vwf2", 1, TT_KILL),
+                   ("Check Cards", [(112, 2, 160, 12), (96, 18, 124, 28)], "row", 4, 2, "vwf", 1, {2, 4, 15})],
     },
     # Card trade panels (BG1 char 0x8000, block 024C1C4 27 tiles wide, tile 32 * row + col): アドレスデータ = cells
     # 2,3-6 + 3,3-5, ダイナ = 3,6 + 4,3-4 (8 px kana, gradient f f f e e d c at y0-6 on transparent).
