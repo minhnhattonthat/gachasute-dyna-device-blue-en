@@ -6,10 +6,20 @@ Updated at the end of every session. Keep it to what the next session needs; his
   profile form, keyboard, PDA home + wheel / address book / calendar / money diary / calculator / memo / timetable
   / save dialog / link menu / link check / title screen / Customize Dyna / Team Setup / Place Dyna / minigames /
   Dyna get + naming / battle results / fortune box / item shop / Dyna Center / auction / device list / dev status /
-  free battle / resident map / card trade / tactics battle board / staff roll done). Phase 7 done 2026-11-15. Last
-  build: `build/dynadevice_blue_en.gba` 2026-11-15 (worker 15), sha1 a5a5c9a7..., check.py ok (58 tests), lint
-  0/0 (137 strings wider than JP under guessed budgets: `lint.py --guess`, `docs/review/guess_wide.txt`).
-- **Latest session (2026-11-15, worker 15, handed off at the context budget):** **Staff roll in English** (docs/re/
+  free battle / resident map / card trade / tactics battle board / staff roll / money diary dates done). Phase 7
+  done 2026-11-15. Last build: `build/dynadevice_blue_en.gba` 2026-11-15 (worker 16), sha1 0787251e..., check.py
+  ok, smoke ok, lint 0/0 (137 strings wider than JP under guessed budgets: `lint.py --guess`,
+  `docs/review/guess_wide.txt`).
+- **Latest session (2026-11-15, worker 16, handed off at the context budget):** **Money diary dates in English**
+  (docs/re/graphics.md "Money diary dates"): code patches `gfx.DATE_PATCHES` + the glyph table moved to free space
+  with a "/" entry; day view "12/31 (Sa)", month view "2000/12", weekdays Su..Sa (021C414); **calendar weekday row
+  Su..Sa** (0215E74). Seen: `work/qa/gfx_en_dates/` (regen with `--states work/qa/gfx_en_dates/_states`, so
+  `work/states/` untouched). New `tools/lua/mapwrite.lua` (who writes a tile number into a map or queue, with the
+  stack's return addresses). **Next:** the calendar header "2000年 0月" (0215E74: 年 4,2 + 月 6,20, builder not
+  found yet: start from the VRAM write pc 0x08002462 / lr 0x0800560F, notes in graphics.md), boxed 無し / 毎週 /
+  月 / 年 + おわる in 0215E74 (errand screen), then 01EA6B4, 01EE624 r6-7, 024D4B4 buttons, then phase-8 steps 2,
+  4, 5. masha-2 sweep (pid 25948) still alive at hand-off, 159 runs in `work/qa/cover/m2/`.
+- **Session before (2026-11-15, worker 15, handed off at the context budget):** **Staff roll in English** (docs/re/
   graphics.md "Staff roll"): OBJ charset 0432534 + the PAT at 0x432D44 (11 cards); new `tools/credits.py` draws
   an English charset and a new PAT that gfx.apply writes into free space (archive word 0x0EFEB4); names Western
   order, Hepburn (D1/D2). Seen in game over the whole roll: `work/qa/credits_en/` (f*.png every 300 frames).

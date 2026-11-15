@@ -64,6 +64,10 @@ MINI_WORDS = [("High", _S5[0:3]), ("Score", _S5[3:6]), ("Clear Time", _S5[6:12])
               ("No", _S5[37:39]), ("Which level?", _S5[39:46]),
               ("", [(3, 0)]), ("", [(3, 1)]), ("s", [(3, 2)]), ("", [(3, 3)]), ("", [(3, 4)]), ("m", [(5, 19)])]
 MINI_BOX = {"No": 10}   # "B=No": keep it next to the "=" tile
+# PDA calendar / money diary weekday glyphs (glossary weekdays: Sun..Sat, two letters where a glyph is 16 px)
+WEEKDAYS = ["Su", "Mo", "Tu", "We", "Th", "Fr", "Sa"]
+WEEK_GRAD = [14, 14, 14, 13, 13, 13, 13, 12, 12, 12, 12, 11, 11, 11]
+WEEK_KILL = {10, 11, 12, 13, 14}
 ATLASES = {
     MENU_BAR: {
         # 1,21 gets the frame-only tile 4,12 (bottom col 1 of a 6-col button) and becomes the Database button's.
@@ -273,6 +277,23 @@ ATLASES = {
                                     ("", (108, 32, 112, 40)), ("", (174, 32, 184, 40)))],   # kana tails
         "clear": {3: {3, 5, 8, 12, 14}},
         "mode_skip": {3: {3, 5, 12, 14}},
+    },
+    # PDA money diary charset (BG, block 021C414; glyph table 0x080D2590, gfx.DATE_PATCHES): 16x16 weekdays 日..土
+    # at x144 + 16k y24 (row gradient 14 13 12 11, shadow 10 below) -> Su..Sa; the free 2x2 tiles 3,14-4,15 get a
+    # big "/" (glyph 22, the day view's month unit); the small 年 (7,28) becomes a small "/" ("2000/12").
+    0x21C414: {
+        "redraw": [(t, (144 + 16 * k, 24, 160 + 16 * k, 40), "row", WEEK_GRAD, 10, "tallb", 1, WEEK_KILL)
+                   for k, t in enumerate(WEEKDAYS)]
+                  + [("/", (112, 24, 128, 40), "row", WEEK_GRAD, 10, "vwf2", 1, WEEK_KILL),
+                     ("/", (224, 56, 232, 64), "row", [15, 14, 14, 13, 13, 12, 12], None, "vwf", 1, {12, 13, 14, 15})],
+    },
+    # PDA calendar charset (BG, block 0215E74): the weekday row under the month header is 16x8 glyphs (日 0,32
+    # 月 0,40 火 0,48 水 0,56 木 16,48 金 16,56 土 32,48; rows 14 13 13 12 12 11 11, shadow 10 below) -> Su..Sa.
+    # Still JP: the header's 年 (16,32) and 月 (= the 16x16 weekday 月 at 160,48), の予定: need the code (see
+    # docs/re/graphics.md "Money diary dates").
+    0x215E74: {
+        "redraw": [(t, (x, y, x + 16, y + 8), "row", [14, 13, 13, 12, 12, 11, 11], 10, "vwf", 0, WEEK_KILL)
+                   for t, (x, y) in zip(WEEKDAYS, [(0, 32), (0, 40), (0, 48), (0, 56), (16, 48), (16, 56), (32, 48)])],
     },
     # PDA calculator (mode 7) + memo R header (OBJ, block 02280B4, OBJ tile 32*row + col at VRAM 0x10000). Button
     # words are separate sprites on transparent 0 laid over the 64 px buttons (OAM f600: やりなおし = atlas

@@ -51,6 +51,23 @@ MAP_PATCHES = [
     (0x25F156 + 2, [9], [0xFFE9], "PAT 025F134 frame 0 (L Status, pal 1): repeated ス x 9 -> -23"),
     (0x25F188 + 2, [9], [0xFFE9], "PAT 025F134 frame 1 (L Status, pal 2): repeated ス x 9 -> -23"),
 ]
+# PDA money diary dates (block 021C414; docs/re/graphics.md "Money diary dates"). Glyphs are drawn by 0x0802DF10
+# (r1 = glyph index into the table at 0x080D2590: u16 tile|pal<<12, u16 kind 0=16x16 1=8x16 2=8x8). The date units
+# 月 / 日 are the weekday glyphs 24 / 23, so they can't become "/" in the art: the unit calls change instead.
+# Day view "12月31日 (土)" -> "12/31 (Sa)": 月 -> new glyph 33, a 16x16 "/" in the free tiles 3,14-4,15 (every
+# entry 0-32 is in use, 22 = the list rows' end dot: the table moves to free space with one more entry, its only
+# pointer is the pool word 0x0802DF68), the 日 call -> nops. Month views "2000年 12月" -> "2000/12": the 月 calls
+# -> nops (the small 年 glyph is drawn as "/").
+NOP2 = [0x46C0, 0x46C0]
+GLYPHS, GLYPHS_N, GLYPHS_PTR = 0x0D2590, 33, 0x02DF68
+SLASH = [0x106E, 0x0000]   # glyph 33: tile 3,14 (0x6E) pal 1, 16x16
+DATE_PATCHES = [
+    (0x030B92, [0x2118], [0x2121], "money diary day view: 月 unit -> glyph 33 '/'"),
+    (0x030BFC, [0xF7FD, 0xF988], NOP2, "money diary day view: no 日 unit"),
+    (0x02E21E, [0xF7FF, 0xFE77], NOP2, "money diary week view: no 月 unit"),
+    (0x030408, [0xF7FD, 0xFD82], NOP2, "money diary month view: no 月 unit (1-digit month)"),
+    (0x030464, [0xF7FD, 0xFD54], NOP2, "money diary month view: no 月 unit (2-digit month)"),
+]
 # PDA timetable palette status line "月曜日 1時間目 = [icon]" (PAT at 0x22F194, block 022CF64; entries u16 size,
 # s16 x, s16 y, u16 tile, screen x = 120 + x) -> "Mon, period 1 = [icon]": weekday frames (Mon..Sat) move the
 # weekday to x84 and the 曜日 16x16 piece (now ",") to x100; digit frames (1..7) move the 時間目 32x16 piece (now
@@ -350,6 +367,7 @@ def apply(rom, out, free, log=None, limit=None):
     title += tt_patches(rom) if (GFX / "022CF64.png").exists() else []
     title += mini_patches(rom) if (GFX / "03D5DB4.png").exists() else []
     title += mini_patches(rom, FORTUNE_ROWS, "fortune") if (GFX / "0231524.png").exists() else []
+    title += DATE_PATCHES if (GFX / "021C414.png").exists() else []
     for off, old, new, why in MAP_PATCHES + title:
         if list(struct.unpack_from(f"<{len(old)}H", rom, off)) != old:
             raise ValueError(f"gfx map patch {off:#x}: original words differ ({why})")
@@ -374,6 +392,15 @@ def apply(rom, out, free, log=None, limit=None):
         romwrite.put(log, out, free, blob, f"gfx {path.stem} (moved)")
         for w in words[off]:
             romwrite.put(log, out, w, struct.pack("<I", free - ARC), f"gfx {path.stem} archive word")
+        free = (free + len(blob) + 15) & ~15
+    if (GFX / "021C414.png").exists():   # money diary glyph table + the "/" entry (DATE_PATCHES)
+        if struct.unpack_from("<I", rom, GLYPHS_PTR)[0] != 0x08000000 + GLYPHS:
+            raise ValueError("money diary glyph table pointer differs")
+        blob = rom[GLYPHS:GLYPHS + 4 * GLYPHS_N] + struct.pack("<2H", *SLASH)
+        if limit is not None and free + len(blob) > limit:
+            raise ValueError("money diary glyph table: no free space")
+        romwrite.put(log, out, free, blob, "money diary glyph table (moved, + '/')")
+        romwrite.put(log, out, GLYPHS_PTR, struct.pack("<I", 0x08000000 + free), "money diary glyph table pointer")
         free = (free + len(blob) + 15) & ~15
     if (GFX / "0432534.png").exists():   # staff roll: its English sprite frames outgrow the old PAT (credits.py)
         import credits

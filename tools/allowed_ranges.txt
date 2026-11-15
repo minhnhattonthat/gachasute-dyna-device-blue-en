@@ -1,6 +1,12 @@
 # Bytes the English build may change (hex, inclusive), read by tools/romwrite.py. The build may also rewrite every
 # pointer word the extractor lists (script/*.json "ptrs"), so those are not repeated here. Anything else -> build fails.
 0049AC-0049B3   VWF hook: ldr r1,[pc]; bx r1; .word renderer (tools/vwf.py HOOK_AT)
+02E21E-02E221   money diary week view: 月 unit call nopped (tools/gfx.py DATE_PATCHES)
+030408-03040B   money diary month view: 月 unit call nopped (DATE_PATCHES)
+030464-030467   money diary month view: 月 unit call nopped (DATE_PATCHES)
+02DF68-02DF6B   money diary glyph table pointer -> moved table with a '/' entry (tools/gfx.py GLYPHS_PTR)
+030B92-030B93   money diary day view: 月 unit glyph 24 -> 33 (DATE_PATCHES)
+030BFC-030BFF   money diary day view: 日 unit call nopped (DATE_PATCHES)
 0E7FA4-0EFF33   graphics archive offset words (tools/gfx.py: a relocated block's words)
 0EFF34-44B581   ECD blocks (tools/gfx.py: an edited block written in its old slot)
 44C0A0-44C309   title PAT frames 3-12: planet name OAM entries (tools/gfx.py TITLE_NAMES)

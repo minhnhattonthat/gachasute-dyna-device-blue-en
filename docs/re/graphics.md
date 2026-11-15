@@ -256,6 +256,27 @@ palette 2): title r13 c12-21, labels r14 (icon tiles c0 / c5 / c9 / c13 kept), i
 (c10-12 + c22); r14 c21-31 were flat. English: Today's Fortune / Health / Study / Money / Lucky Dyna (the Dyna
 itself is a sprite). Rows 11-13 c0-11 / c24-31 hold glyph-like tiles no map of this screen uses: left alone.
 
+## Money diary dates (block 021C414) + calendar weekday row (block 0215E74), worker 16
+- **021C414 (BG, char base 0x8000 in the money scenes):** glyphs are drawn by **0x0802DF10** (r0 BG, r1 glyph, r2 x
+  cell, r3 y cell) from a table at **0x080D2590** (33 entries: u16 tile|pal<<12, u16 kind 0=16x16 1=8x16 2=8x8;
+  0-9 big digits, 10-19 small digits, 20-21 list markers, 22 = the list rows' end dot, 23-29 weekdays 日..土, 30
+  small 年, 31-32 ( )). Its only pointer is the pool word 0x0802DF68. The date units are the weekday glyphs
+  (月 = 24, 日 = 23), passed as literals: 0x08030B92 / 0x08030BF6 (day view "12月31日 (土)", 32 calls listed by
+  `disasm.py xref ROM 0802DF10`), 0x0802E218 (week view), 0x08030402 / 0x0803045E (month view). Found with
+  `tools/lua/mapwrite.lua` (who writes a tile number into a map / the 0x03002450 tile queue, with the stack's
+  return addresses).
+- **Done:** `gfx.DATE_PATCHES` + the moved table (one more entry, 33 = 16x16 "/" in the free tiles 3,14-4,15):
+  day view "12/31 (Sa)", the 日 call and the month views' 月 calls nopped, small 年 drawn as "/" ("2000/12"),
+  weekdays Su..Sa (`tallb`). Seen: `work/qa/gfx_en_dates/dates_x2.png` (scenes `pda_money`, `pda_money_r`,
+  `pda_money_rr`). The week view's year shows "200" + "/" on top of the last digit: the original overlaps too.
+- **0215E74 (calendar, BG1 char base 0x8000 in `mode_pda_calendar`):** the weekday row is 16x8 glyphs (日 0,32
+  月 0,40 火 0,48 水 0,56 木 16,48 金 16,56 土 32,48) -> Su..Sa, seen. **Still JP:** the header "2000年 0月": 年 =
+  tile 4,2 (16x16, x16 y32) and 月 = the 16x16 weekday 月 at 6,20 (x160 y48; the 16x16 weekdays 6,18-31 and
+  の予定 4,6-11 are on a screen not yet seen, likely the calendar day view). Its map words are not queued through
+  0x03002450 (mapwrite on that queue and on EWRAM caught nothing; the VRAM write at f304 is pc 0x08002462,
+  lr 0x0800560F): find the builder from there, then the same fix (年 -> "/", 月 unit -> nothing or a copy).
+  Also still JP in 0215E74: boxed 無し / 毎週 / 月 / 年 (y96) and the small おわる box (y24 x136).
+
 ## Rows (ROM offset of the ECD block)
 | Offset | Sheet | Japanese | Gloss | Kind |
 |---|---|---|---|---|
