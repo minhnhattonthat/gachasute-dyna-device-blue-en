@@ -70,11 +70,13 @@ local stage, stageFrame = "boot", 0
 local arrived = nil
 local function set_stage(s)
   stage, stageFrame = s, L.frame
+  if s == "done" then WARP_DONE = true end  -- rotate.lua may snapshot from here on (the warp's RAM writes are over)
   L.log(string.format("WARP %s f%d", s, L.frame))
 end
 local function arrive()
   if arrived then return end
   arrived = L.frame
+  WARP_ARRIVED = true  -- read by tools/lua/rotate.lua: rewinds before this would undo the warp's own RAM writes
   L.log(string.format("ARRIVED %s f%d", scene.name, L.frame))
   L.shot("arrived.png")
 end
@@ -397,7 +399,8 @@ L.on_frame(function(n)
       idleSince = nil
     end
   end
-  if arrived and not holdDone and (n - arrived == hold or idleFin) then
+  -- ROT_BUSY: tools/lua/rotate.lua is still rewinding through a table's siblings; keep holding until it is done
+  if arrived and not holdDone and (n - arrived >= hold or idleFin) and not (ROT_BUSY and ROT_BUSY()) then
     holdDone = true
     L.shot("hold.png")
     L.log(string.format("HOLD done f%d", n))
