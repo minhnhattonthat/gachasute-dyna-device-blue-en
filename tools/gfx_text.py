@@ -81,16 +81,18 @@ ATLASES = {
             ("Database", strip(tiles(0, 20, 23) + [(2, 22), (2, 23)],
                                tiles(1, 20, 23) + [(3, 22), (3, 23)])),
         ],
+        # Submenu rows are 6 tiles (48 px) but the box border leaves x 3..44 of the row: keep each word <= 40 px
+        # ("Battle Anim" 46 and "Send Home" 44 spilled over the border, worker 23 inkbox check).
         "rows": [
             ("Save", mid(tiles(2, 0, 3))),
-            ("Battle Anim", tiles(4, 18, 22) + [(3, 20)]),
+            ("Animation", tiles(4, 18, 22) + [(3, 20)]),
             ("Quit", mid(tiles(2, 5, 8))),
             ("Use", mid(tiles(2, 9, 12))),
             ("Sort", mid(tiles(2, 14, 17))),
             ("Discard", mid(tiles(2, 19, 21) + [(3, 21)])),
             ("Status", mid(tiles(3, 0, 3))),          # Party and Residents
             ("Equip", mid(tiles(3, 6, 9))),           # Party and Residents
-            ("Send Home", tiles(3, 10, 15)),
+            ("Go Home", tiles(3, 10, 15)),
             ("Release", mid(tiles(3, 16, 19))),       # Party and Residents
             ("Map", mid(tiles(4, 0, 3))),
             ("Dyna", mid(tiles(4, 4, 7))),
