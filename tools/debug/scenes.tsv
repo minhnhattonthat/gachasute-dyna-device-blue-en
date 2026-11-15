@@ -163,6 +163,8 @@ pda_money_r	mode	5 300 -;6 r;120 -	200	mode 5 money diary month view, R (こん�
 pda_money_rr	mode	5 300 -;6 r;120 -;6 r;120 -	200	mode 5 money diary month view, R twice
 pda_errand_add	mode	4 300 -;6 r;150 -	200	mode 4 calendar, R: add errand (icon tabs, Set deadline, おわる)
 pda_sched_add	mode	4 300 -;6 l;150 -	200	mode 4 calendar, L: add schedule (icon tabs, Start / End)
+pda_sched_d4	mode	4 300 -;6 l;150 -;6 down;30 -;6 down;30 -;6 down;30 -;6 down;30 -;6 down;30 -;6 down;30 -	200	mode 4 calendar, L (add schedule), Down x6 (rows below the memo)
+pda_sched_d4a	mode	4 300 -;6 l;150 -;6 down;30 -;6 down;30 -;6 down;30 -;6 down;30 -;6 down;30 -;6 down;30 -;6 a;60 -	200	mode 4 calendar, L (add schedule), Down x6, A
 pda_errand_ra	mode	4 300 -;6 r;150 -;6 right;30 -;6 a;150 -	200	mode 4 calendar, R (add errand), Right, A
 pda_errand_d3a	mode	4 300 -;6 r;150 -;6 down;30 -;6 down;30 -;6 down;30 -;6 a;150 -	200	mode 4 calendar, R (add errand), Down x3, A
 pda_addr_del	mode	3 300 -;6 select;60 -;6 a;120 -	240	mode 3 address book, SELECT then A on the first entry (delete prompt このデータを けしても いいですか？)

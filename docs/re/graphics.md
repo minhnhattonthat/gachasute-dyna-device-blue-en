@@ -275,7 +275,14 @@ itself is a sprite). Rows 11-13 c0-11 / c24-31 hold glyph-like tiles no map of t
   の予定 4,6-11 are on a screen not yet seen, likely the calendar day view). Its map words are not queued through
   0x03002450 (mapwrite on that queue and on EWRAM caught nothing; the VRAM write at f304 is pc 0x08002462,
   lr 0x0800560F): find the builder from there, then the same fix (年 -> "/", 月 unit -> nothing or a copy).
-  Also still JP in 0215E74: boxed 無し / 毎週 / 月 / 年 (y96) and the small おわる box (y24 x136).
+- **Done (worker 17):** the header is a static raw SCR at **0x217E54** (`SCR\0`, 30x20 words from +8; the 8 SCRs
+  0x2174D4-0x2197F4 are the calendar / form screens), only the digits are code (BG0). 年 (4,2) is used by that
+  SCR alone -> big "/"; the 月 cells (row 3-4 col 21-22) blanked by `gfx.MAP_PATCHES`: "2000/ 0" (the 1-digit
+  month slot leaves the original's gap). Schedule form repeat row (scene `pda_sched_d4`, Down x6 after L): 16x16
+  units copied by code into BG2 tiles, 無|し (144,96 + 160,96), 毎 (176,96, left half of 毎週 / 毎月 / 毎年), 週 / 月
+  / 年 right halves (192 / 208 / 224) -> None, per + Wk / Mo / Yr (D16). おわる button (errand + schedule forms) is
+  a 4x2 tile button split in the atlas: top row 3 col 17-20 (136,24), bottom row 11 col 19-22 (152,88) -> Quit
+  (gfx_text `{"stack": [...]}` boxes). Seen: `work/qa/cal_en/`.
 
 ## Rows (ROM offset of the ECD block)
 | Offset | Sheet | Japanese | Gloss | Kind |

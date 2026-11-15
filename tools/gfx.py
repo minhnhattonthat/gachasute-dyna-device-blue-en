@@ -50,6 +50,10 @@ MAP_PATCHES = [
     (0x25F0BA + 6, [0x3000], [0x300A], "PAT 025F094 Move title: 32x16 r0 c0 -> r0 c10"),
     (0x25F156 + 2, [9], [0xFFE9], "PAT 025F134 frame 0 (L Status, pal 1): repeated ス x 9 -> -23"),
     (0x25F188 + 2, [9], [0xFFE9], "PAT 025F134 frame 1 (L Status, pal 2): repeated ス x 9 -> -23"),
+    # PDA calendar month header (raw SCR at 0x217E54, 30x20 words from +8; block 0215E74 tiles): 年 becomes "/" in
+    # the art, the 月 unit cells (row 3-4, col 21-22) go blank: "2000年 0月" -> "2000/ 0".
+    (0x217F3A, [0x10D4, 0x10D5], [0x1000, 0x1000], "calendar header SCR 0217E54 row 3: no 月 unit"),
+    (0x217F76, [0x10F4, 0x10F5], [0x1000, 0x1000], "calendar header SCR 0217E54 row 4: no 月 unit"),
 ]
 # PDA money diary dates (block 021C414; docs/re/graphics.md "Money diary dates"). Glyphs are drawn by 0x0802DF10
 # (r1 = glyph index into the table at 0x080D2590: u16 tile|pal<<12, u16 kind 0=16x16 1=8x16 2=8x8). The date units

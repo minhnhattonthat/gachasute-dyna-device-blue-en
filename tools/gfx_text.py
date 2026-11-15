@@ -289,11 +289,20 @@ ATLASES = {
     },
     # PDA calendar charset (BG, block 0215E74): the weekday row under the month header is 16x8 glyphs (日 0,32
     # 月 0,40 火 0,48 水 0,56 木 16,48 金 16,56 土 32,48; rows 14 13 13 12 12 11 11, shadow 10 below) -> Su..Sa.
-    # Still JP: the header's 年 (16,32) and 月 (= the 16x16 weekday 月 at 160,48), の予定: need the code (see
-    # docs/re/graphics.md "Money diary dates").
+    # Month header "2000年 0月" (static SCR 0x217E54, digits on BG0): 年 (16,32, only the header uses it) -> a big
+    # "/", the 月 cells (the 16x16 weekday 月 at 160,48) are blanked in the SCR by gfx.MAP_PATCHES: "2000/12".
     0x215E74: {
         "redraw": [(t, (x, y, x + 16, y + 8), "row", [14, 13, 13, 12, 12, 11, 11], 10, "vwf", 0, WEEK_KILL)
-                   for t, (x, y) in zip(WEEKDAYS, [(0, 32), (0, 40), (0, 48), (0, 56), (16, 48), (16, 56), (32, 48)])],
+                   for t, (x, y) in zip(WEEKDAYS, [(0, 32), (0, 40), (0, 48), (0, 56), (16, 48), (16, 56), (32, 48)])]
+                  + [("/", (16, 32, 32, 48), "row", WEEK_GRAD, 10, "vwf2", 1, WEEK_KILL)]
+                  # schedule form repeat row (scene pda_sched_d4): 16x16 boxed units 無|し, 毎 (left half shared
+                  # by 毎週 / 毎月 / 毎年) + 週 / 月 / 年 right halves, ink 1 on transparent -> None, per Wk / Mo / Yr
+                  + [("None", (145, 97, 172, 108), "row", 1, None, "vwf", 2, {1}),
+                     ("per", (177, 97, 192, 108), "row", 1, None, "vwf", 2, {1})]
+                  + [(t, (x, 97, x + 12, 108), "row", 1, None, "vwf", 2, {1}, "right")
+                     for t, x in (("Wk", 192), ("Mo", 208), ("Yr", 224))]
+                  # おわる button (errand / schedule forms): 4x2 tiles, top row at 136,24, bottom row at 152,88
+                  + [("Quit", {"stack": [(136, 24, 168, 32), (152, 88, 184, 96)]}, "row", 1, None, "vwf", 5, {1})],
     },
     # PDA calculator (mode 7) + memo R header (OBJ, block 02280B4, OBJ tile 32*row + col at VRAM 0x10000). Button
     # words are separate sprites on transparent 0 laid over the 64 px buttons (OAM f600: やりなおし = atlas
@@ -708,6 +717,23 @@ def redraw(a, spec):
                     for x in range(x0, x1):
                         a.px[(y0 + y) * a.W + x] = strip.px[y * strip.W + ox + x - x0]
                 ox += x1 - x0
+            continue
+        if isinstance(item[1], dict):   # {"stack": boxes}: atlas boxes of one width shown one above the other
+            segs = item[1]["stack"]
+            w = segs[0][2] - segs[0][0]
+            strip = type("Strip", (), {})()
+            strip.W = w
+            strip.px = []
+            for x0, y0, x1, y1 in segs:
+                for y in range(y0, y1):
+                    strip.px += a.px[y * a.W + x0:y * a.W + x1]
+            h = len(strip.px) // w
+            redraw(strip, {**spec, "redraw": [(item[0], (0, 0, w, h)) + tuple(item[2:])], "votes": {}})
+            oy = 0
+            for x0, y0, x1, y1 in segs:
+                for y in range(y0, y1):
+                    a.px[y * a.W + x0:y * a.W + x1] = strip.px[(oy + y - y0) * w:(oy + y - y0 + 1) * w]
+                oy += y1 - y0
             continue
         text, (x0, y0, x1, y1), fill, ink, shadow, font, dy, *own = item
         # ink may be a list: this box's own per-glyph-row gradient (another box may use the same index flat);
