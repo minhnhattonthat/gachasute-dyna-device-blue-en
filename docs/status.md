@@ -7,12 +7,29 @@ Updated at the end of every session. Keep it to what the next session needs; his
   / save dialog / link menu / link check / title screen / Customize Dyna / Team Setup / Place Dyna / minigames /
   Dyna get + naming / battle results / fortune box / item shop / Dyna Center / auction / device list / dev status /
   free battle / resident map / card trade / tactics battle board / staff roll / money diary dates / dev status
-  words / field HUD status word / pause done). Phase 7 done 2026-11-15. Last build: `build/dynadevice_blue_en.gba`
+  words / field HUD status word / pause done; text coverage 170 strings left). Phase 7 done 2026-11-15. Last build: `build/dynadevice_blue_en.gba`
   2026-11-15 (worker 23), sha1 7f22f56c..., check.py ok, lint 0/0 (137 strings wider than JP under
   guessed budgets: `lint.py --guess`, `docs/review/guess_wide.txt`). **Visual-QA gate green:** `qa_gate.py check
   work/qa/manifest.tsv work/qa/verdicts` exits 0 (197/197, build 7f22f56c = `work/qa/tour/tour_build.gba`).
-  **Left for phase 8: text coverage** (`textcover`: 0 messages + 1066 strings, worker 24 entry) only; inkbox done.
-- **Latest session (2026-11-15, worker 24):** **Message coverage done**: `cover.py msgs` sweep finished, **0
+  **Left for phase 8: text coverage** (`textcover`: 0 messages + 170 strings, worker 25 entry) only; inkbox done.
+- **Latest session (2026-11-15, worker 25):** **Strings 1066 -> 170 unshown** (5366/5536). `tools/lua/rotate.lua`
+  now has a **rewind mode** (`ROT_HOLD`, default 3): at the first substitution it snapshots the machine
+  (`emu.createSavestate` inside the exec hook), and every 3 frames reloads it and substitutes the next sibling, for
+  every group drawn since the snapshot, so one draw of a list or help page covers the whole table
+  (menu_db_keyword_help alone: 878 -> 337). Snapshots only after warp.lua's `WARP_DONE` (stage "done": a rewind past
+  its RAM writes stalls the warp), rewinds only after `WARP_ARRIVED` and the route is done; warp.lua waits on
+  `ROT_BUSY()` before the hold shot; watchdog gives up a stalled chain (a sibling in the wrong slot can crash the
+  game: hold shots of rotation runs are coverage only). New third hook **0x08013D18** (text slot setter, r2 = string):
+  description boxes (item / shop / sell / DB help) take lines from the flat table 0x0BDAE8 through it. Use **`--gap
+  0x400`** (joins the split description / Device-name tables). `rotate.py --redo` now moves the old log to
+  `work/qa/cover/rot/_prev/<scene>-N/` (a redo overwrote menu_items_discard and lost ~46 strings before this).
+  **Sweep `rotate.py --run --gap 0x400` stopped by Claude Code for low system memory** after 56 scenes (other
+  projects' Mesen; ~0.5 GB free): **131 scenes left**, rerun the same command (scenes with a log are skipped; r2's
+  partial log is `log.partial`). Left (`work/qa/cover/unshown_now.txt` is an older 284 list): mostly code-referenced
+  UI messages (item use results 0x48xxx-0x4Axxx, Dyna Center take/release 0x090xxx, card trade 0x039xxx, link
+  0x0E42xx, debug "Debug Mode Kai" 0x0554xx = waive as debug), Device names 0C2864, combo names 0D6340, status
+  ailments 0E3FA4. Then scenes or waivers (`docs/text_unshown.tsv`, reason required), `textcover.py` exit 0 = done.
+- **Session before (2026-11-15, worker 24):** **Message coverage done**: `cover.py msgs` sweep finished, **0
   messages unshown**; coverage 4470/5536, **1066 strings left**. Strings: UI text is copied through the expander
   0x0801328C (r1 = source) into a stack buffer before the renderer, so new **`tools/debug/rotate.py` +
   `tools/lua/rotate.lua`**: groups strings by pointer table (as `cover_tables.py`, gap 0x10, so neighbouring tables

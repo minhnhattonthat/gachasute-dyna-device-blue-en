@@ -63,6 +63,13 @@ def main():
     for s in names:
         if not a.redo and (ROT / s / "log.txt").exists():
             continue
+        old = ROT / s / "log.txt"
+        if old.exists():  # --redo: keep the old log (cover.py rglobs log.txt), so a rerun never loses coverage
+            k = 1
+            while (ROT / "_prev" / f"{s}-{k}").exists():
+                k += 1
+            (ROT / "_prev" / f"{s}-{k}").mkdir(parents=True)
+            old.replace(ROT / "_prev" / f"{s}-{k}" / "log.txt")
         if write(a.gap) == 0:
             print("nothing left to rotate")
             return
