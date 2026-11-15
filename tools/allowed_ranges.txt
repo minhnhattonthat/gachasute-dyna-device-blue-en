@@ -9,7 +9,10 @@
 030BFC-030BFF   money diary day view: 日 unit call nopped (DATE_PATCHES)
 0E7FA4-0EFF33   graphics archive offset words (tools/gfx.py: a relocated block's words)
 0EFF34-44B581   ECD blocks (tools/gfx.py: an edited block written in its old slot)
-44C0A0-44C309   title PAT frames 3-12: planet name OAM entries (tools/gfx.py TITLE_NAMES)
+44B584-44BA33   title PAT 0x1FDA (Red): PRESS START + planet name OAM entries (tools/gfx.py title_patches)
+44BA54-44BF03   title PAT 0x1FDC (Red): same
+44BF24-44C313   title PAT 0x1FDE (Blue): same
+44C334-44C723   title PAT 0x1FE0 (Blue): same
 024AD8-024AD9   PDA address book postal scan: record stride 23 -> 11 (tools/addrdb.py STRIDE_AT)
 024B28-024B2F   PDA address book postal lookup: hook to the English builder (addrdb.HOOK_AT)
 03B748-03B749   profile form postal scan: record stride 23 -> 11 (addrdb.STRIDE_AT)

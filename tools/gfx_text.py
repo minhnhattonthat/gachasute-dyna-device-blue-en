@@ -654,15 +654,17 @@ ATLASES = {
     # Copyright (rows 12-13 c0-12, screen x68 y140) and the blinking スタートボタンを おしてください (r12-13 c13-28,
     # four 32x16 at x57 y123) are 7-row strokes in ink 5, side neighbours 3, corners 4, on transparent 0. The
     # emblem label エンブレム is the strip r12 c30-31 + r13 c29-31 (screen x72-111 y102; r12 c29 = the bar's cap),
-    # white 15 on bar blue 2. Planet names: tools/gfx.py TITLE_NAMES (rows 10-11 repainted, one run per name).
+    # white 15 on bar blue 2. Planet names: tools/gfx.py TITLE_NAMES (rows 10-11 c0-23 and the PRESS START tiles
+    # r12-13 c13-16 / c25-28 cleared, one run per name; rows 10-11 c24-31 are Dino Device Red's badge, kept).
     0x449734: {
         # each bar: n tiles of blue 2, the JP bars' end corners 3 4 at its top and bottom rows
-        "paint": [(0, 80, 256, 96, 0)] + [r for _, _, row, col, n in gfx.TITLE_NAMES for r in (
+        "paint": [(0, 80, 192, 96, 0), (104, 96, 136, 112, 0), (200, 96, 232, 112, 0)]
+        + [r for _, _, row, col, n in gfx.TITLE_NAMES for r in (
             (8 * col, 8 * row, 8 * (col + n), 8 * row + 8, 2),
             *[(8 * (col + n) - 2 + i, 8 * row + y, 8 * (col + n) - 1 + i, 8 * row + y + 1, 3 + i)
               for i in (0, 1) for y in (0, 7)])],
         "redraw": [("SMILESOFT", (40, 103, 104, 112), "row", 5, ("ring2", 3, 4), "vwf", 1),
-                   ("PRESS START", (104, 103, 232, 112), "row", 5, ("ring2", 3, 4), "vwf", 1)]
+                   ("PRESS START", (136, 103, 200, 112), "row", 5, ("ring2", 3, 4), "vwf", 1)]
                   + [(name, (8 * col, 8 * row, 8 * (col + n) - 2, 8 * row + 8), "row", 15, None, "vwf", 0,
                       set()) for _, name, row, col, n in gfx.TITLE_NAMES],
         "clear": {5: {2, 3, 4, 5}},

@@ -9,7 +9,8 @@ tour's recorded ROM, work/qa/tour/tour_build.gba, is replaced by this build firs
 tour ran on this build or `qa_gate.py waive` names it) -> textcover.py (logs carried over by id with tools/cover_remap.py into work/qa/cover/remap, waivers
 docs/text_unshown.tsv) -> no unticked line in docs/polish.md -> no template placeholder in README.md -> debug tool off
 -> patch -> re-apply to a clean original and compare -> zip. Output: release/Gachasute_Dyna_Device_Blue_EN_v<version>.zip
-(patch + README.txt); refuses to overwrite an existing version without --force. Never publishes anything.
+(patch + README.txt), and with rom/Gachasute! Dino Device Red (Japan).gba present also
+release/Gachasute_Dino_Device_Red_EN_v<version>.zip (tools/red.py; smoke-booted too); refuses to overwrite an existing version without --force. Never publishes anything.
 """
 import argparse
 import hashlib
@@ -20,6 +21,9 @@ import sys
 import zipfile
 import zlib
 from pathlib import Path
+
+sys.path.insert(0, str(Path(__file__).resolve().parent))
+import red  # noqa: E402
 
 ROOT = Path(__file__).resolve().parent.parent
 ORIG = ROOT / "rom/Gachasute! Dyna Device Blue (Japan).gba"
@@ -93,16 +97,16 @@ def debug_off(orig, built):
     print("== debug tool off: warp is an external Lua script; plain build, mode dispatcher as the original")
 
 
-README_TXT = """Gachasute! Dyna Device Blue (GBA) - English translation patch v{ver}
-=====================================================================
+README_TXT = """{game} (GBA) - English translation patch v{ver}
+{rule}
 
-Unofficial English fan translation of Gachasute! Dyna Device Blue (Game Boy Advance, Smilesoft, 2002).
-No ROM is included and none will be provided: patch your own dump.
+Unofficial English fan translation of {game} (Game Boy Advance, Smilesoft, 2002).
+No ROM is included and none will be provided: patch your own dump.{other}
 
 How to patch
 ------------
 1. Get a clean dump of the Japanese game:
-     No-Intro: Gachasute! Dyna Device Blue (Japan)
+     No-Intro: {game} (Japan)
      File size: {o[size]} bytes
      CRC32:  {o[crc32]}
      MD5:    {o[md5]}
@@ -172,19 +176,39 @@ def main():
     orig, built = ORIG.read_bytes(), BUILT.read_bytes()
     debug_off(orig, built)
     REL.mkdir(exist_ok=True)
-    step("patch", PY + [s / "bps.py", "make", ORIG, BUILT, patch])
-    check = REL / f"{name}.check.gba"
-    step("re-apply", PY + [s / "bps.py", "apply", ORIG, patch, check])
-    if check.read_bytes() != built:
-        sys.exit("release stopped: re-applied patch differs from the build")
-    check.unlink()
-    o, n = hashes(orig), hashes(built)
-    readme_txt = README_TXT.format(ver=a.version, o=o, n=n, patch=patch.name)
-    with zipfile.ZipFile(zpath, "w", zipfile.ZIP_DEFLATED) as z:
-        z.write(patch, patch.name)
-        z.writestr("README.txt", readme_txt.replace("\n", "\r\n"))
-    print(f"== done: {zpath.relative_to(ROOT)} ({zpath.stat().st_size} bytes): {patch.name} "
-          f"({patch.stat().st_size} bytes) + README.txt; patched CRC32 {n['crc32']} SHA-1 {n['sha1']}")
+    targets = [("Gachasute! Dyna Device Blue", ORIG, BUILT, built, patch, zpath)]
+    if red.RED_JP.is_file():
+        # Dino Device Red: the same build plus Red's 4 version bytes (tools/red.py), its own patch and zip
+        red_built = red.derive(orig, red.RED_JP.read_bytes(), built)
+        if red.RED_EN.read_bytes() != red_built:
+            sys.exit(f"release stopped: {red.RED_EN.relative_to(ROOT)} is not derived from this build (rerun build.py)")
+        step("smoke (Red)", PY + [s / "emu.py", red.RED_EN, "--out", ROOT / "work/qa/release_smoke_red", "--route",
+                                  ROOT / "tools/routes/boot.txt", "--smoke"])
+        rname = f"Gachasute_Dino_Device_Red_EN_v{a.version}"
+        targets.append(("Gachasute! Dino Device Red", red.RED_JP, red.RED_EN, red_built, REL / f"{rname}.bps",
+                        REL / f"{rname}.zip"))
+    else:
+        print(f"== no {red.RED_JP.relative_to(ROOT)}: Blue patch only")
+    for game, src, out_path, out, p, zp in targets:
+        if (p.exists() or zp.exists()) and not a.force:
+            sys.exit(f"{p.name} / {zp.name} already exist; pass --force to overwrite")
+        step(f"patch ({game})", PY + [s / "bps.py", "make", src, out_path, p])
+        check = p.with_suffix(".check.gba")
+        step(f"re-apply ({game})", PY + [s / "bps.py", "apply", src, p, check])
+        if check.read_bytes() != out:
+            sys.exit(f"release stopped: re-applied {p.name} differs from the build")
+        check.unlink()
+        o, n = hashes(src.read_bytes()), hashes(out)
+        twin = [g for g, *_ in targets if g != game]
+        other = (f"\nThe same translation exists for {twin[0]}: use the patch made for your version." if twin else "")
+        title = f"{game} (GBA) - English translation patch v{a.version}"
+        readme_txt = README_TXT.format(ver=a.version, o=o, n=n, patch=p.name, game=game, rule="=" * len(title),
+                                       other=other)
+        with zipfile.ZipFile(zp, "w", zipfile.ZIP_DEFLATED) as z:
+            z.write(p, p.name)
+            z.writestr("README.txt", readme_txt.replace("\n", "\r\n"))
+        print(f"== done: {zp.relative_to(ROOT)} ({zp.stat().st_size} bytes): {p.name} "
+              f"({p.stat().st_size} bytes) + README.txt; patched CRC32 {n['crc32']} SHA-1 {n['sha1']}")
     return 0
 
 

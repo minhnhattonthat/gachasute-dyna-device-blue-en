@@ -124,9 +124,12 @@ its font at run time (dialogue, the boot date prompt, the profile popup) is stri
   gfx_text `("ring2", 3, 4)`), the 10 planet names. Names: the title's PAT animation at 0x44BF24 (u32 offsets at
   +8; frame = s16 count + 8-byte entries u16 size code|0x2000, s16 x, s16 y, u16 tile|pal<<12, screen x = 120 + x)
   frames 3-12 = one planet each: symbol, emblem label (4 pieces), name = 32x8 at x8 + 8x8 at x40 + cap 413 at x48.
-  English (gfx.TITLE_NAMES, patched by gfx.title_patches): one run of 5-7 tiles per name in rows 10-11 (all 64
-  tiles: the RED logo's bottom rows 10-11 c24-29 are not on any Blue title frame), second piece 8x8/16x8/32x8, cap
-  at x 8 + 8n (Capuchipean: two 32x8, the 8th tile transparent under the cap). Only Terioranus is seen on a cold
+  English (gfx.TITLE_NAMES, patched by gfx.title_patches in all four title PATs: 0x1FDA / 0x1FDC Dino Device Red,
+  badge 8x4 at r8 c24; 0x1FDE / 0x1FE0 Blue, badge r4 c24): one run of 4-7 tiles per name in tiles neither badge
+  uses (rows 10-11 c0-23, plus r12 c13-16 once frame 1's outer PRESS START pieces repeat the middle ones), second
+  piece 8x8/16x8 at x 40 or a 32x8 at x 32 over the first piece's last tile (7 tiles), cap at x 8 + 8n; a 4-tile
+  name's x 40 entry is a second cap. v1.0/v1.1 used rows 10-11 c24-29 and patched only 0x1FDE, which broke Red's
+  title (docs/decisions.md D22). Only Terioranus is seen on a cold
   boot (the emblem comes from the save): `tools/title_frames.py` draws all 10 frames from the build
   (`work/qa/gfx_en/title_frames.png`). PRESS START blinks: `tools/lua/shotwhen.lua` shoots every 10 frames once
   its tile is in OAM. Survey notes below.

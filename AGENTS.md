@@ -14,7 +14,7 @@ Skill: translate-retro-game (Claude Code: plugin, enabled in .claude/settings.js
 - Hooks: `git config core.hooksPath tools/hooks` once per clone.
 
 ## Paths
-- Original ROM: `rom/Gachasute! Dyna Device Blue (Japan).gba` (gitignored; SHA-1 in `rom.sha1`, checked by `tools/check_rom.py`). Emulator: this repo's own MesenCE in `tools/mesen/` (release 2.2.1, https://github.com/nesdev-org/MesenCE/releases/download/2.2.1/Mesen_2.2.1_Windows.zip; gitignored; BIOS `tools/mesen/Firmware/gba_bios.bin`, SHA-1 300c20df…; settings copy in `tools/emu-config/`). Savestates: `work/states/`.
+- Original ROM: `rom/Gachasute! Dyna Device Blue (Japan).gba` (gitignored; SHA-1 in `rom.sha1`, checked by `tools/check_rom.py`). Optional `rom/Gachasute! Dino Device Red (Japan).gba`: build.py also writes `build/dinodevice_red_en.gba` = Blue build + Red's 4 version bytes (`tools/red.py`, D22). Emulator: this repo's own MesenCE in `tools/mesen/` (release 2.2.1, https://github.com/nesdev-org/MesenCE/releases/download/2.2.1/Mesen_2.2.1_Windows.zip; gitignored; BIOS `tools/mesen/Firmware/gba_bios.bin`, SHA-1 300c20df…; settings copy in `tools/emu-config/`). Savestates: `work/states/`.
 - Text: `script/` (JSON, one file per block). Tables: `tbl/`. Glossary: `glossary.md`. RE notes index: `docs/re/README.md`. Fonts and their licences: `docs/fonts.md`.
 
 ## Rulings

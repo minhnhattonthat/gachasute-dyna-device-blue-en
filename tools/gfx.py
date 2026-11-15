@@ -114,37 +114,74 @@ def tt_patches(rom):
         raise ValueError(f"timetable PAT: {len(out)} entries found, expected 33")
     return out
 
-# Title screen planet name (block 0449734, OBJ 2D, OBJ tile n = block tile n). Sprite frames 3-12 of the title's
-# PAT animation at 0x44BF24 (u32 offsets from it at +8) each hold 8 OAM entries (u16 size code | 0x2000, s16 x,
-# s16 y, u16 tile | pal << 12); the name is a 32x8 piece at x 8, a second piece at x 40 and the bar's end cap
-# (tile 413) at x 48, all 40 px bars in JP. English: (frame, name, atlas tile row, first column, tiles): a 32x8 +
-# 8x8 / 16x8 / 32x8 piece, the cap at x 8 + 8 * tiles; 7 tiles = two 32x8 pieces whose last tile is left
-# transparent under the cap. tools/gfx_text.py paints the runs.
-TITLE_ANIM = 0x44BF24
+# Title screen planet name (block 0449734, OBJ 2D, OBJ tile n = block tile n). Four PAT animations share the
+# block (u32 frame offsets from each at +8): archive 0x1FDA / 0x1FDC are Dino Device Red's (version flag
+# 0x080BC41C = 0; its badge is the 8x4 piece at r8 c24, so rows 10-11 c24-31 are Red logo), 0x1FDE / 0x1FE0 Blue's
+# (badge r4 c24). Frames 0-2 (logo, copyright + PRESS START, copyright) and the planet frames 3-12 are otherwise
+# the same in all four; Red's frame 12 lists its 8 entries four times. Each planet frame holds 8 OAM entries
+# (u16 size code | 0x2000, s16 x, s16 y, u16 tile | pal << 12); the name is a 32x8 piece at x 8, a second piece at
+# x 40 and the bar's end cap (tile 413) at x 48, all 40 px bars in JP. English: (frame, name, atlas tile row,
+# first column, tiles): a 32x8 piece + 8x8 / 16x8 at x 40 (5 / 6 tiles) or a 32x8 at x 32 over the first piece's
+# last tile (7 tiles, no blank 8th tile), the cap at x 8 + 8 * tiles; 4 tiles = the x 40 entry becomes a second
+# copy of the cap. Free tiles in both versions: rows 10-11 c0-23 and, with PRESS START on its middle 8 columns
+# (TITLE_PRESS), r12-13 c13-16 / c25-28. tools/gfx_text.py paints the runs.
+TITLE_ANIM = 0x44BF24   # Blue's first animation (tools/title_frames.py)
+TITLE_ANIMS = [0x44B584, 0x44BA54, 0x44BF24, 0x44C334]
 TITLE_NAMES = [
-    (3, "Terioranus", 10, 8, 6), (4, "Sigmazon", 10, 20, 5), (5, "Capuchipean", 10, 0, 7),
-    (6, "Bisaios", 10, 25, 5), (7, "Jornaturn", 10, 14, 6), (8, "Parmoon", 11, 0, 5), (9, "Plutario", 11, 5, 5),
-    (10, "Mercurie", 11, 10, 5), (11, "Byjupiter", 11, 15, 5), (12, "Zaurak", 11, 20, 5),
+    (3, "Terioranus", 10, 7, 6), (4, "Sigmazon", 10, 19, 5), (5, "Capuchipean", 10, 0, 7),
+    (6, "Bisaios", 12, 13, 4), (7, "Jornaturn", 10, 13, 6), (8, "Parmoon", 11, 0, 5), (9, "Plutario", 11, 5, 5),
+    (10, "Mercurie", 11, 10, 5), (11, "Byjupiter", 11, 15, 5), (12, "Zaurak", 11, 20, 4),
 ]
-SIZE_CODE = {5: 0x00, 6: 0x41, 7: 0x52}   # second piece: 8x8, 16x8, 32x8
+# second piece per name length: (size code, x, tile offset from the run's start)
+SECOND = {4: (0x00, None, None), 5: (0x00, 40, 4), 6: (0x41, 40, 4), 7: (0x52, 32, 3)}
+# frame 1: the English PRESS START (atlas c17-24) needs only the middle two of the four 32x16 pieces (c13 at x -63,
+# c17 at x -31, c21 at x 1, c25 at x 33); the outer two become copies of their neighbours, freeing c13-16 / c25-28
+TITLE_PRESS = {(13, -63): (17, -31), (25, 33): (21, 1)}
+
+
+def _frame(rom, anim, frame):
+    p = anim + struct.unpack_from("<I", rom, anim + 8 + 4 * frame)[0]
+    n = struct.unpack_from("<h", rom, p)[0]
+    return [p + 2 + 8 * i for i in range(n)]
 
 
 def title_patches(rom):
-    """MAP_PATCHES-style rows for the planet name entries of title frames 3-12."""
+    """MAP_PATCHES-style rows for PRESS START (frame 1) and the planet name entries (frames 3-12), all 4 animations."""
     out = []
-    for frame, name, row, col, n in TITLE_NAMES:
-        p = TITLE_ANIM + struct.unpack_from("<I", rom, TITLE_ANIM + 8 + 4 * frame)[0]
-        if struct.unpack_from("<h", rom, p)[0] != 8:
-            raise ValueError(f"title frame {frame}: expected 8 OAM entries")
-        start = 32 * row + col
-        ents = {struct.unpack_from("<h", rom, p + 4 + 8 * i)[0]: p + 2 + 8 * i for i in range(8)}
-        for x, attr, nx, tile in ((8, None, 8, start), (40, SIZE_CODE[n], 40, start + 4), (48, None, 8 + 8 * n, 413)):
-            e = ents[x]
+    for anim in TITLE_ANIMS:
+        hits = 0
+        for e in _frame(rom, anim, 1):
             old = list(struct.unpack_from("<4H", rom, e))
-            new = [old[0] if attr is None else (old[0] & 0xFF00) | attr, nx, old[2], (old[3] & 0xFC00) | tile]
-            if x == 48 and old[3] & 0x3FF != 413:
-                raise ValueError(f"title frame {frame}: no end cap at x 48")
-            out.append((e, old, new, f"title frame {frame} {name}: piece at x {x}"))
+            t, x = old[3] & 0x3FF, struct.unpack("<h", struct.pack("<H", old[1]))[0]
+            if t // 32 == 12 and (t % 32, x) in TITLE_PRESS:
+                nc, nx = TITLE_PRESS[t % 32, x]
+                out.append((e, old, [old[0], nx & 0xFFFF, old[2], (old[3] & 0xFC00) | (32 * 12 + nc)],
+                            f"title {anim:#x} frame 1 PRESS START piece c{t % 32} -> c{nc}"))
+                hits += 1
+        if hits != 2:
+            raise ValueError(f"title {anim:#x} frame 1: {hits} outer PRESS START pieces, expected 2")
+        for frame, name, row, col, n in TITLE_NAMES:
+            ents = _frame(rom, anim, frame)
+            if not ents or len(ents) % 8:
+                raise ValueError(f"title {anim:#x} frame {frame}: {len(ents)} OAM entries, expected 8 per copy")
+            start = 32 * row + col
+            code, x2, off2 = SECOND[n]
+            for e in ents:
+                old = list(struct.unpack_from("<4H", rom, e))
+                x = old[1]
+                if x == 8:
+                    new = [old[0], 8, old[2], (old[3] & 0xFC00) | start]
+                elif x == 40 and x2 is None:   # 4 tiles: a second cap over the real one
+                    new = [(old[0] & 0xFF00) | code, 8 + 8 * n, old[2], (old[3] & 0xFC00) | 413]
+                elif x == 40:
+                    new = [(old[0] & 0xFF00) | code, x2, old[2], (old[3] & 0xFC00) | (start + off2)]
+                elif x == 48:
+                    if old[3] & 0x3FF != 413:
+                        raise ValueError(f"title {anim:#x} frame {frame}: no end cap at x 48")
+                    new = [old[0], 8 + 8 * n, old[2], old[3]]
+                else:
+                    continue
+                out.append((e, old, new, f"title {anim:#x} frame {frame} {name}: piece at x {x}"))
     return out
 
 

@@ -11,15 +11,16 @@ helps most.
 
 ## Base ROM
 
-| | |
-|---|---|
-| No-Intro name | Gachasute! Dyna Device Blue (Japan) |
-| Size | 8388608 bytes |
-| CRC32 | EB9F6F11 |
-| MD5 | 5cc9b8d313d1ee5ea7c994dc18f85b95 |
-| SHA-1 | eac296b55bea162df72e417a501be70060bd1337 |
+| | Blue | Red |
+|---|---|---|
+| No-Intro name | Gachasute! Dyna Device Blue (Japan) | Gachasute! Dino Device Red (Japan) |
+| Size | 8388608 bytes | 8388608 bytes |
+| CRC32 | EB9F6F11 | DDA5EC5E |
+| MD5 | 5cc9b8d313d1ee5ea7c994dc18f85b95 | 23a1a8685d67405271f297f5a042fa23 |
+| SHA-1 | eac296b55bea162df72e417a501be70060bd1337 | 9086aa71d23a753cf0e307a37d56c61c3805adb6 |
 
-The patched ROM's CRC32 and SHA-1 are in the release zip's README. Start from a cold boot (no savestates from the
+Each version has its own patch (a Blue patch refuses a Red dump). The two ROMs differ only in their header and a
+version flag, so both get the same translation. The patched ROM's CRC32 and SHA-1 are in the release zip's README. Start from a cold boot (no savestates from the
 Japanese version). Tested in Mesen 2.2.1 (GBA core) with the official BIOS.
 
 ## Translation status
@@ -62,7 +63,8 @@ git clone https://github.com/minhnhattonthat/gachasute-dyna-device-blue-en
 cd gachasute-dyna-device-blue-en
 # copy your dump to: rom/Gachasute! Dyna Device Blue (Japan).gba
 #   (8388608 bytes, SHA-1 eac296b55bea162df72e417a501be70060bd1337; the build refuses any other dump, see rom.sha1)
-python -X utf8 tools/build.py                          # -> build/dynadevice_blue_en.gba
+# optional: rom/Gachasute! Dino Device Red (Japan).gba (SHA-1 9086aa71d23a753cf0e307a37d56c61c3805adb6)
+python -X utf8 tools/build.py                          # -> build/dynadevice_blue_en.gba (+ dinodevice_red_en.gba)
 python -X utf8 tools/check.py                          # tests + text lint
 ```
 

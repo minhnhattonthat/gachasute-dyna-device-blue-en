@@ -7,7 +7,7 @@ import strtab
 from text import decode, encode, tags
 
 ROOT = Path(__file__).resolve().parents[1]
-ROMS = list((ROOT / "rom").glob("*.gba"))
+ROMS = [p for p in [ROOT / "rom" / "Gachasute! Dyna Device Blue (Japan).gba"] if p.exists()]   # not Red's dump
 
 
 class Codec(unittest.TestCase):

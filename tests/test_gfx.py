@@ -8,7 +8,7 @@ import ecd
 import gfx
 
 ROOT = Path(__file__).resolve().parents[1]
-ROMS = list((ROOT / "rom").glob("*.gba"))
+ROMS = [p for p in [ROOT / "rom" / "Gachasute! Dyna Device Blue (Japan).gba"] if p.exists()]   # not Red's dump
 MENU = 0x1E30D4   # field menu bar atlas
 
 
@@ -156,6 +156,38 @@ class Gfx(unittest.TestCase):
             for t, x in tiles(0x25F134, frame):
                 pos.setdefault(t, set()).add(x)
             self.assertTrue(all(len(v) == 1 for v in pos.values()), f"Status frame {frame}: {pos}")
+
+    def test_title_names_avoid_both_badges(self):
+        # every title PAT (Red 0x1FDA/0x1FDC, Blue 0x1FDE/0x1FE0) is patched, and after patching no name or PRESS
+        # START piece shows a tile of rows 10-11 c24-31 (Red's badge) or of the freed PRESS START columns
+        rom = bytearray(self.rom)
+        for off, _, new, _ in gfx.title_patches(self.rom):
+            struct.pack_into("<4H", rom, off, *new)
+        shapes = [[(1, 1), (2, 2), (4, 4), (8, 8)], [(2, 1), (4, 1), (4, 2), (8, 4)], [(1, 2), (1, 4), (2, 4), (4, 8)]]
+
+        def shown(anim, frame):   # {(x, tile)} of every piece right of the planet symbol (frame 1: all pieces)
+            out = set()
+            for e in gfx._frame(bytes(rom), anim, frame):
+                attr, x, _, tw = struct.unpack_from("<HhhH", rom, e)
+                if frame == 1 or x >= 8:
+                    w, h = shapes[(attr >> 6) & 3][(attr >> 4) & 3]
+                    out |= {(x, (tw & 0x3FF) + 32 * ty + tx) for ty in range(h) for tx in range(w)}
+            return out
+
+        names = {}
+        for frame in range(1, 13):
+            blue = shown(0x44BF24, frame)
+            for anim in gfx.TITLE_ANIMS:   # all four animations show the same patched pieces
+                self.assertEqual(shown(anim, frame), blue, f"{anim:#x} frame {frame}")
+            for _, t in blue:
+                r, c = divmod(t, 32)
+                if frame == 1:
+                    self.assertFalse(r in (12, 13) and (13 <= c <= 16 or 25 <= c <= 28), f"frame 1 shows r{r} c{c}")
+                else:
+                    self.assertFalse(r in (10, 11) and c >= 24, f"frame {frame} shows Red badge tile r{r} c{c}")
+                    if t != 413:
+                        names.setdefault(t, set()).add(frame)
+        self.assertEqual([t for t, f in names.items() if len(f) > 1], [], "a tile shared by two names")
 
     def test_menu_labels_on_maps_and_committed_png_current(self):
         import gfx_text

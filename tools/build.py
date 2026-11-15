@@ -1,4 +1,5 @@
-"""build.py: build build/dynadevice_blue_en.gba from the dump listed in rom.sha1.
+"""build.py: build build/dynadevice_blue_en.gba from the dump listed in rom.sha1 (and, when
+rom/Gachasute! Dino Device Red (Japan).gba is present, build/dinodevice_red_en.gba from it: tools/red.py).
 
     python -X utf8 tools/build.py [--out build/dynadevice_blue_en.gba] [--marker] [--identity] [--qa sSSS.KK=TEXT]
 
@@ -19,6 +20,7 @@ import addrdb  # noqa: E402
 import check_rom  # noqa: E402
 import gfx  # noqa: E402
 import insert  # noqa: E402
+import red  # noqa: E402
 import romwrite  # noqa: E402
 import script  # noqa: E402
 import strings_tsv  # noqa: E402
@@ -162,6 +164,10 @@ def main():
     if not a.identity and not a.marker and path.resolve() == OUT.resolve():
         n = strings_tsv.write(bytes(out))   # build/strings.tsv: text coverage ids + addresses
         print(f"build/strings.tsv: {n} ids")
+        if red.RED_JP.is_file():   # optional second dump: Dino Device Red = this build + Red's 4 version bytes
+            red.RED_EN.write_bytes(red.derive(rom, red.RED_JP.read_bytes(), bytes(out)))
+            print(f"{red.RED_EN.relative_to(ROOT)}: Dino Device Red, sha1 "
+                  f"{hashlib.sha1(red.RED_EN.read_bytes()).hexdigest()}")
     sha = hashlib.sha1(out).hexdigest()
     print(f"{path.relative_to(ROOT) if path.is_relative_to(ROOT) else path}: {len(out)} bytes, sha1 {sha}"
           f"{' (identical to the original)' if out == rom else ''}")
