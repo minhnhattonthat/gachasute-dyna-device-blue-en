@@ -160,3 +160,6 @@ pda_errand_ra	mode	4 300 -;6 r;150 -;6 right;30 -;6 a;150 -	200	mode 4 calendar,
 pda_errand_d3a	mode	4 300 -;6 r;150 -;6 down;30 -;6 down;30 -;6 down;30 -;6 a;150 -	200	mode 4 calendar, R (add errand), Down x3, A
 pda_addr_del	mode	3 300 -;6 select;60 -;6 a;120 -	240	mode 3 address book, SELECT then A on the first entry (delete prompt このデータを けしても いいですか？)
 form_start	boot	form|10 -;6 a;80 -;6 b;60 -;6 down;30 -;6 down;30 -;6 down;30 -;6 down;30 -;6 down;30 -;6 down;30 -;6 down;30 -;6 down;30 -;6 down;30 -;6 a;80 -	30	profile form, START with the yellow fields empty (きいろいボタンの こうもくは すべて にゅうりょく popup?)
+pda_link	mode	2 300 -;6 down;30 -;6 down;30 -;6 a;150 -	200	mode 2 PDA home, Down x2, A: Link menu (つうしんメニュー, block 0249C44)
+pda_save	mode	2 300 -;6 down;30 -;6 a;150 -	200	mode 2 PDA home, Down, A: Save Data dialog (すべての データを セーブします, block 020A4D4)
+pda_saving	mode	2 300 -;6 down;30 -;6 a;150 -;6 a;10 -	10	mode 2 PDA home, Save Data, A: saving (セーブちゅうです でんげん きらないでください, 020A4D4 c28-31)

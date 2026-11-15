@@ -108,6 +108,12 @@ its font at run time (dialogue, the boot date prompt, the profile popup) is stri
   the others are on the Dyna Device app menu (tile runs assumed from the kana). Headers 予定 / 用事 = **block
   0206CF4** "Plans" / "To-do" (24 px each). Found by `tools/lua/vramwrite.lua` (CPU writes into an OBJ VRAM range:
   the decompressor wrote the label tiles at f306) + `lzss_log.lua`; vramfind missed them (VRAM tiles differ).
+- **Done (worker 7):** PDA Save Data dialog **020A4D4** (scenes `pda_save`, `pda_saving` = PDA home Down, A):
+  "Save | all your | data?" (OAM gaps), "A: Save" / "B: Cancel" (the buttons share 4-tile pieces, so the shared
+  ones are blanked), "Saving..." / "Keep | the power on.". Link menu **0249C44** (scene `pda_link` = PDA home
+  Down x2, A): title "Link Menu" (`vwf2` = doubled font), bands Link Battle / Card Trade / Item Trade / Dyna
+  Trade (lettered tiles replaced by the blank band tile 3,10, then gradient ink + ring). The PDA home wheel:
+  Down turns it one app on (Address -> DynaDevice -> Save Data -> Link ...).
 - 020B0F4 tabs (なまえ ばしょ すること イベント カスタム) drawn as "Name / Place / To Do / Event / Custom" (map SCR
   0x20BAB4, menu-bar layout), **not yet seen in game**: archive index 2395 is loaded by 0x08023F20, reached from
   the mode 2 chain (0x08021370..) and from 0x080283B0 / 0x0802DDB0 / 0x08032834 / 0x0803B6A0. Not on the PDA

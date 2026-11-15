@@ -132,6 +132,40 @@ ATLASES = {
         "redraw": [("Plans", (24, 4, 48, 14), "row", 2, 6, "vwf", 0, {2, 6}),
                    ("To-do", (128, 12, 152, 22), "row", 2, 6, "vwf", 0, {2, 6})],
     },
+    # PDA Link menu (OBJ, 2D mapping, block 0249C44 = OBJ tile r*32+c; scene pda_link): title つうしんメニュー
+    # x16-143 y0-15 (12 px lettering, gradient 15..11, drop shadow 2 on navy 1) -> "Link Menu" in the doubled font.
+    # Labels = 8-tile navy bands (lines 2 at tile rows 1 and 6), lettering 8 px tall (gradient, outline 2): row 2
+    # c2-9 Item Trade, c10-17 Card Trade, row 3 c2-9 Link Battle (OAM caps 3,10-11 either side), row 4 c0-11
+    # Dyna Trade (slanted ends in c0 / c11). The lettered tiles get the blank band tile 3,10, then the English.
+    0x249C44: {
+        "copy": [((3, 10), t) for t in tiles(2, 2, 17) + tiles(3, 2, 9) + tiles(4, 1, 10)],
+        "grad": {15: [15, 15, 15, 14, 14, 14, 13, 13, 13, 12, 12, 12, 11, 11],   # title, doubled rows
+                 14: [15, 15, 14, 13, 12, 11, 11, 11]},                        # labels
+        "redraw": [("Link Menu", (16, 0, 144, 16), "row", 15, 2, "vwf2", 1, {2, 11, 12, 13, 14, 15}),
+                   ("Item Trade", (16, 16, 80, 24), "row", 14, ("ring", 2), "vwf", 0, set()),
+                   ("Card Trade", (80, 16, 144, 24), "row", 14, ("ring", 2), "vwf", 0, set()),
+                   ("Link Battle", (16, 24, 80, 32), "row", 14, ("ring", 2), "vwf", 0, set()),
+                   ("Dyna Trade", (8, 32, 88, 40), "row", 14, ("ring", 2), "vwf", 0, set())],
+    },
+    # PDA Save Data dialog (OBJ, 2D mapping, block 020A4D4, ink 7 on 0; scenes pda_save / pda_saving, ppu dumps).
+    # Prompt y76: 5,0-3 x56 | gap | 5,4-7 x96 | gap | 5,8-13 x136. Buttons y92 share 4-tile pieces: left = P Q R
+    # (5,14-17 / 18-21 / 22-25) at x16, right = P S T R (5,14-17 / 26-29 / 30 / 22-25) at x120, so P and R are
+    # blanked and each button lives in Q or S+T. Saving y76: 0,28-31 + 1,28-31 x88; y92: 2,28-31 + 4,26 x60 | gap |
+    # 3,28-31 + 4,27-31 x108. Rows 0-3 cols 0-27 are the blue panel (shared by both states).
+    0x20A4D4: {
+        "ink": 7,
+        "blank": tiles(5, 14, 17) + tiles(5, 22, 25),
+        "rows": [
+            ("Save", tiles(5, 0, 3), "right"),
+            ("all your", tiles(5, 4, 7), "tight"),
+            ("data?", tiles(5, 8, 13), "left"),
+            ("A: Save", tiles(5, 18, 21), "tight"),
+            ("B: Cancel", tiles(5, 26, 30)),
+            ("Saving...", tiles(0, 28, 31) + tiles(1, 28, 31)),
+            ("Keep", tiles(2, 28, 31) + [(4, 26)], "right"),
+            ("the power on.", tiles(3, 28, 31) + tiles(4, 27, 31), "left"),
+        ],
+    },
     # Profile form popup (OBJ, 2D mapping, block 02124B4, ink 7 on 5): each line is 4-tile sprites with 8 px gaps
     # the OAM leaves between them (scene form, ppu dump f1080): line 1 = 6,19-27 x56 | gap | 6,28-31 + 7,30-31 x136;
     # line 2 = 7,19-22 x32 | gap | 7,23-26 x72 | gap | 8,19-30 x112. Words break at the gaps.
@@ -279,11 +313,13 @@ def glyph_pixels(text, font):
             x += len(g[0]) + 1
         return out, x - 1
     f = vwf.font()
+    k = 2 if font == "vwf2" else 1   # "vwf2": every font pixel doubled, for big title lettering
     for ch in text:
         adv, rows = f[ch]
-        out += [(x + gx, gy) for gy, bits in enumerate(rows) for gx in range(adv - 1) if bits & (0x80 >> gx)]
-        x += adv
-    return out, x - 1
+        out += [(x + k * gx + sx, k * gy + sy) for gy, bits in enumerate(rows) for gx in range(adv - 1)
+                if bits & (0x80 >> gx) for sx in range(k) for sy in range(k)]
+        x += k * adv
+    return out, x - k
 
 
 def redraw(a, spec):
