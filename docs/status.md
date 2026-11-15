@@ -26,9 +26,13 @@ Updated at the end of every session. Keep it to what the next session needs; his
   regen.py runs each job on its own ROM copy (`work/qa/warp/_roms/`) with a fresh `--sav` (an erased flash for
   the rest), and the textcover probe; the build writes `build/strings.tsv` (tools/strings_tsv.py).
 - **Next (phase 8, done-when in SKILL.md):**
-  1. Full regen on the English build (`regen.py --rom build/dynadevice_blue_en.gba`) and the original
-     (`--out work/qa/warp_jp --states work/states_jp`); `textcover.py work/qa/warp build/strings.tsv` -> add scenes
-     or waive (docs/text_unshown.tsv). Graphics text seen so far still JP: menu bar, PDA home labels, fortune box.
+  1. Done 2026-11-15: full regen on the English build, 149/149 scenes (`work/regen_en.txt`, sheet
+     `work/qa/warp/sheet*.png`). Text coverage `textcover.py work/qa/warp build/strings.tsv`: **394/5536 shown**.
+     Close the gap: generate one `script` scene per message script (kind `script N`, hijacks the first script;
+     run with `MASHA=1` and a long hold so every page is read) for s000-s833, and string scenes per menu/shop/
+     database screen; waive debug-only and blank ids in `docs/text_unshown.tsv` with reasons. Then the original
+     ROM tour (`--rom rom/... --out work/qa/warp_jp --states work/states_jp`) for reviewers.
+     Graphics text seen still JP: menu bar, PDA home labels, fortune box, title logo (docs/re/graphics.md rows).
   2. Tours through changed scenes with contact sheets, `qa_gate.py init/check`, verdicts by a fresh read-only pass
      (no subagents in Orca: do it yourself or `codex exec`). Text coverage (`textcover.py`), `inkbox.py` on every
      choice and centred menu box.
