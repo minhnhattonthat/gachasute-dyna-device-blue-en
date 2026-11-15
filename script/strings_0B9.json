@@ -880,7 +880,7 @@
   ],
   "slot": 24,
   "jp": "コロシアムキットは　　",
-  "en": "Colosseum Kits     ",
+  "en": "Colosseum Kits[7F][7F][7F][7F][7F][7F][7F][7F]",
   "status": "done"
  },
  {
@@ -893,7 +893,7 @@
   ],
   "slot": 24,
   "jp": "こうかんできません　　",
-  "en": "can't be traded.   ",
+  "en": "can't be traded.[7F][7F][7F][7F][7F][7F]",
   "status": "done"
  },
  {
@@ -923,7 +923,7 @@
   ],
   "slot": 24,
   "jp": "つうしんたいきちゅう　",
-  "en": "Waiting for link    ",
+  "en": "Waiting for link[7F][7F][7F][7F][7F][7F]",
   "status": "done"
  },
  {
@@ -954,7 +954,7 @@
   ],
   "slot": 24,
   "jp": "ダイナを　えらんで　　",
-  "en": "choose a Dyna,    ",
+  "en": "choose a Dyna,[7F][7F][7F][7F][7F][7F][7F][7F]",
   "status": "done"
  },
  {
@@ -1008,7 +1008,7 @@
   ],
   "slot": 24,
   "jp": "せいこうしました　　　",
-  "en": "succeeded!         ",
+  "en": "succeeded![7F][7F][7F][7F][7F][7F][7F][7F][7F][7F][7F][7F]",
   "status": "done"
  },
  {
@@ -1019,7 +1019,7 @@
   ],
   "slot": 24,
   "jp": "アイテムこうかんに　　",
-  "en": "The item trade    ",
+  "en": "The item trade[7F][7F][7F][7F][7F][7F][7F][7F]",
   "status": "done"
  },
  {
@@ -1052,7 +1052,7 @@
   ],
   "slot": 24,
   "jp": "こうかんします　　　　",
-  "en": "will be traded.     ",
+  "en": "will be traded.[7F][7F][7F][7F][7F][7F][7F]",
   "status": "done"
  },
  {
@@ -1757,7 +1757,7 @@
   ],
   "slot": 12,
   "jp": "ひんし　",
-  "en": "KO",
+  "en": "KO[7F][7F][7F][7F][7F][7F]",
   "status": "done"
  },
  {
@@ -1767,7 +1767,7 @@
   ],
   "slot": 12,
   "jp": "びょうき",
-  "en": "Sick",
+  "en": "Sick[7F][7F][7F][7F]",
   "status": "done"
  },
  {
@@ -1777,7 +1777,7 @@
   ],
   "slot": 12,
   "jp": "くうふく",
-  "en": "Hungry",
+  "en": "Hungry[7F][7F]",
   "status": "done"
  },
  {

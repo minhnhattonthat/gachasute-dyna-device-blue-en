@@ -79,8 +79,8 @@ class EnglishBuild(unittest.TestCase):
         """No Thumb branch within 4 KB lands inside the 8 bytes the VWF hook overwrites (0x080049AC)."""
         try:
             import capstone
-        except ImportError:
-            self.skipTest("capstone not installed")
+        except ImportError:   # a required dependency: fail, never skip silently (pipeline.md §Checks)
+            self.fail("capstone not installed: pip install capstone")
         import vwf
         rom = ROMS[0].read_bytes()
         md = capstone.Cs(capstone.CS_ARCH_ARM, capstone.CS_MODE_THUMB)

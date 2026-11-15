@@ -66,6 +66,21 @@ class TestRules(unittest.TestCase):
         self.assertTrue(self.errs(e, [(0xB0000, 0xB0000, 40, 1, "test")]))
         self.assertEqual(self.errs(e, [(0xB0000, 0xB0000, 50, 1, "test")]), [])
 
+    def test_blanks(self):
+        s = lambda jp, en: {"id": "t0B0000", "jp": jp, "en": en}  # noqa: E731
+        self.assertTrue(self.errs(s("ひんし　", "KO")))                    # JP clears 4 cells, EN 1
+        self.assertTrue(self.errs(s("ひんし　", "KO  ")))                  # ends blank but covers 2 cells
+        self.assertEqual(self.errs(s("ひんし　", "KO[7F][7F][7F][7F][7F][7F]")), [])
+        self.assertTrue(self.errs(s("　　（＾＾）", "(^^)")))           # JP indent 16 px dropped
+        self.assertEqual(self.errs(s("　　（＾＾）", "    (^^)")), [])
+        self.assertEqual(self.errs(s("ＡＢ型", "AB   ")), [])                    # EN may pad where JP doesn't
+
+    def test_guess_wider(self):
+        g = [(0xB0000, 0xB0000, 88, 1, "x (guess)")]
+        self.assertTrue(lint.guess_wider({"id": "t0B0000", "jp": "あ", "en": "Hello"}, g))
+        self.assertIsNone(lint.guess_wider({"id": "t0B0000", "jp": "あいうえお", "en": "Hi"}, g))
+        self.assertIsNone(lint.guess_wider({"id": "t0B0000", "jp": "あ", "en": "Hello"}, [(0xB0000, 0xB0000, 88, 1, "x")]))
+
 
 class TestScript(unittest.TestCase):
     def test_script_clean(self):

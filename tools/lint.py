@@ -7,7 +7,10 @@ Errors (every entry with "en"):
   - register codes ({%sR4} ...) and {KN} match the Japanese, in order; colour codes too (strings);
   - messages: at most 2 lines per page, each line <= LINE_PX, a page's last line <= LAST_PX (the ▼ arrow), and
     no stub last line (< STUB_CHARS letters under another line, no register in it);
-  - strings: each line <= the entry's budget from docs/re/budgets.tsv when it has one.
+  - strings: each line <= the entry's budget from docs/re/budgets.tsv when it has one; leading blanks within one
+    space of the JP's, and a JP trailing blank (the field cleared to its width) matched by a trailing blank/[7F] and
+    at least the JP's cells (BLANK_WAIVE: ids with a reason).
+Always printed: the count of strings under a `guess` budget row that are wider than their JP (--guess lists them).
 Warnings (--warn prints them): a string's {KP} count differs from the Japanese (messages are re-paginated
 paragraphs, so not for them), a string with no measured budget yet.
 A register code counts as REG_PX[kind] pixels (names: the longest English name the register can hold).
@@ -34,6 +37,47 @@ TAGS = re.compile(r"\{%[^{}]*\}|\{KN\}|\{C\d\}")
 REG_WORDS = {
     ("t0BB224", "R0"): ["earth", "thunder", "water", "fire", "none"],   # Dyna Database element (t0B3C0C-t0B3C30)
 }
+# strings whose leading/trailing blanks may differ from the JP (id -> reason; the blank rule, pipeline.md §Checks)
+BLANK_WAIVE = {
+    "t0B8B5C": "JP indent lines ＝ up under しゅうせいする＝Ｒボタン; EN starts with the button (A/R Button:)",
+    "t0B8B94": "as t0B8B5C (B Button: Quit under R Button: Edit)",
+    "t0B8BC8": "as t0B8B5C (B Button: Quit under R Button: Register)",
+    "t0B99D4": "JP indent lines ＝ up under ぜんたい＝; EN labels (Total:/Unhappy:) differ in width, left-aligned",
+}
+BLANKS = "　 "
+
+
+def blank_px(s):
+    """Pixel width of a run of blanks (full-width space = a cell, ASCII space at its VWF width)."""
+    return sum(vwf.CELL if c == "　" else vwf.char_width(" ") for c in s)
+
+
+def field_cells(line, en):
+    """Cells a string line occupies (registers left out: the same on both sides). EN: its encoded u16 units."""
+    s = REG.sub("", line)
+    if en:
+        return (len(vwf.encode_en(s)) + 1) // 2
+    half = 0
+    for m in re.finditer(r"\{[^{}]*\}|.", s):
+        half += 2 if len(m.group()) > 1 or ord(m.group()) >= 0x80 else 1
+    return (half + 1) // 2
+
+
+def check_blanks(en, jp):
+    """Leading blanks within one space of the JP's; a JP trailing blank (a field cleared to its width) needs the
+    English to end in a blank and cover at least the JP's cells. -> list of error strings."""
+    errs = []
+    jls, els = jp.split("\n"), en.split("\n")
+    for i, (j, e) in enumerate(zip(jls, els)):
+        jl = blank_px(j[:len(j) - len(j.lstrip(BLANKS))])
+        el = blank_px(e[:len(e) - len(e.lstrip(BLANKS))])
+        if abs(jl - el) > vwf.char_width(" "):
+            errs.append(f"line {i + 1}: leading blanks {el} px vs JP {jl} px")
+        if j.rstrip(BLANKS) != j:
+            ec, jc = field_cells(e, True), field_cells(j, False)
+            if not re.search(r"( |\[7F\])$", e) or ec < jc:
+                errs.append(f"line {i + 1}: JP pads to {jc} cells (trailing blank), EN covers {ec}: {e!r}")
+    return errs
 
 
 def reg_width(m, entry_id=None):
@@ -118,6 +162,8 @@ def check_entry(e, budgets):
                     0 < len(re.sub(r"\{[^{}]*\}|\[[0-9A-Fa-f]{2}\]", "", last).strip()) < STUB_CHARS:
                 errs.append(f"page {pi + 1}: stub last line {last!r} (rewrap: batches.py balances lines)")
     else:
+        if e["id"] not in BLANK_WAIVE:
+            errs += check_blanks(en, jp)
         b = budget_for(e["id"], budgets)
         if b is None:
             warns.append("no measured budget")
@@ -136,16 +182,35 @@ def check_entry(e, budgets):
     return errs, warns
 
 
+def guess_wider(e, budgets):
+    """A string under a guessed budget row whose English is wider than its JP: the lint only proves it fits the
+    guess, so it needs a measured window or an in-game look. -> (en px, jp px, variant) or None."""
+    if not e.get("en") or e["id"].startswith("s"):
+        return None
+    b = budget_for(e["id"], budgets)
+    if not b or "guess" not in b[2]:
+        return None
+    en = max(line_width(ln, e["id"]) for ln in e["en"].split("\n"))
+    jp = max(line_width(ln) for ln in e["jp"].split("\n"))
+    return (en, jp, b[2]) if en > jp else None
+
+
 def main():
     ap = argparse.ArgumentParser()
     ap.add_argument("files", nargs="*")
     ap.add_argument("--warn", action="store_true")
+    ap.add_argument("--guess", action="store_true", help="list strings under guessed budgets wider than their JP")
     a = ap.parse_args()
     files = [Path(f) for f in a.files] or sorted(SCRIPT.glob("*.json"))
     budgets = load_budgets()
-    nerr = nwarn = 0
+    nerr = nwarn = nguess = 0
     for f in files:
         for e in json.loads(f.read_text(encoding="utf-8")):
+            g = guess_wider(e, budgets)
+            if g:
+                nguess += 1
+                if a.guess:
+                    print(f"guess {f.name} {e['id']}: EN {g[0]} px > JP {g[1]} px under {g[2]}")
             errs, warns = check_entry(e, budgets)
             for x in errs:
                 print(f"ERROR {f.name} {e['id']}: {x}")
@@ -154,7 +219,8 @@ def main():
             if a.warn:
                 for x in warns:
                     print(f"warn  {f.name} {e['id']}: {x}")
-    print(f"lint: {nerr} errors, {nwarn} warnings")
+    print(f"lint: {nerr} errors, {nwarn} warnings; {nguess} strings wider than JP under a guessed budget "
+          f"(unproven fit: measure or look in game; --guess lists them)")
     return 1 if nerr else 0
 
 
