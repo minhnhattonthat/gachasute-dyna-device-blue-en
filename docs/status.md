@@ -6,9 +6,12 @@ Updated at the end of every session. Keep it to what the next session needs; his
   and wrote `release/Gachasute_Dyna_Device_Blue_EN_v1.0.zip` (BPS 421674 bytes + README.txt; re-applied to a clean
   original = build). Release build `build/dynadevice_blue_en.gba` sha1 55ab465e..., CRC32 739D295D; smoke ok,
   check.py ok, lint 0/0, jp_left 0 runs (8 known), story gate 12/12, visual tour gate 197/197 + waiver for this
-  text-only build, textcover 5375 shown + 161 waived, polish.md all ticked. **Publishing (`gh release create`) is
-  the user's call**; nothing was published.
-- **Waiting on the user (not blocking):** publish v1.0 (zip above). Address database place names kept Japanese for
+  text-only build, textcover 5375 shown + 161 waived, polish.md all ticked. **Published 2026-11-16:** repo made
+  public (description now uses the game title), release v1.0
+  (https://github.com/minhnhattonthat/gachasute-dyna-device-blue-en/releases/tag/v1.0) with the zip (sha1
+  873f702d..., patch sha1 45b739e2...); a rebuild from HEAD reproduced build sha1 55ab465e, uploaded zip hash checked.
+  Next: player bug reports (`gh issue list --label bug`).
+- **Open (not blocking):** Address database place names kept Japanese for
   v1.0 (**D20**, known issue in both READMEs; romanizing is a v1.1 candidate). 16 round-3 story Minors deferred
   (`work/qa/story/reports/r3/`, polish.md). The last **95 strings are waived although reachable in play** (hand rows
   under "Worker 26" in `docs/text_unshown.tsv`, each with its context): item bag-full / discard messages, item-use
