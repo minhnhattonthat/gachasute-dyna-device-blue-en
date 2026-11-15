@@ -4,10 +4,21 @@ Updated at the end of every session. Keep it to what the next session needs; his
 
 - **Phase:** 8. QA in the emulator: in progress (script coverage sweep 8 running; field menu, profile form,
   keyboard, PDA home / address book / calendar / money diary / calculator / memo / save dialog / link menu /
-  link check graphics done). Phase 7 done 2026-11-15. Last build: `build/dynadevice_blue_en.gba` 2026-11-15
-  (link check), sha1 82115414..., check.py ok, lint 0/0 (137 strings wider than JP under guessed budgets:
+  link check / title screen graphics done). Phase 7 done 2026-11-15. Last build: `build/dynadevice_blue_en.gba`
+  2026-11-15 (title), sha1 98687714..., check.py ok, lint 0/0 (137 strings wider than JP under guessed budgets:
   `lint.py --guess`, `docs/review/guess_wide.txt`).
-- **Latest session (2026-11-15, worker 7):** sweep 7 had died with its worker (598 dirs): restarted as **sweep 8**
+- **Latest session (2026-11-15, worker 8):** sweep 8 had died with its worker (631 dirs): restarted as **sweep 9**
+  (`cover.py scripts --jobs 1`, log `work/qa/cover/sweep9.log`, 702+ dirs at hand-off; same rule: if no Mesen of
+  this repo runs `cover`, rerun it, then `cover.py report`). Free RAM was 0.8 GB (other projects' Mesens).
+  **Title screen 0449734 in English** (docs/re/graphics.md "PDA screens" title entry): Emblem, ©2002 SMILESOFT,
+  PRESS START, all 10 planet names (title PAT frame entries patched: `gfx.TITLE_NAMES` / `title_patches`, range
+  44C0A0-44C309 added to allowed_ranges). New: `tools/title_frames.py` (all 10 name frames from a build),
+  `tools/lua/shotwhen.lua` (shots once a tile is in OAM: blinking sprites), `tools/lua/oamword.lua` (who writes
+  an OAM attribute value), `tools/lua/animframe.lua` (sprite objects' PAT frame data). Sprite drawer 0x0800169C:
+  object +0x18 = PAT base, +0x24 = frame, +0x38 = tile base. Next graphics: 020B0F4's screen, the Dyna Device app
+  menu (0208654 labels), timetable mode 8, then the sheet rows (01E9764.. menus, 0203D14 Dyna naming, 03D7FD4
+  minigame help, battle 0250924 / 025E304, team 03B25A4 / 03B29B4).
+- **Session before (2026-11-15, worker 7):** sweep 7 had died with its worker (598 dirs): restarted as **sweep 8**
   (`cover.py scripts --jobs 1`, log `work/qa/cover/sweep8.log`, 624+ dirs in `work/qa/cover/m1/` at hand-off; a
   background job of this worker's shell: next worker, check whether a Mesen runs `cover`, else rerun the same
   command, then `cover.py report`). Graphics (docs/re/graphics.md "PDA screens"): PDA Save Data dialog 020A4D4
@@ -103,7 +114,7 @@ Updated at the end of every session. Keep it to what the next session needs; his
      `flags N=V .. | route` (warp.lua) for an all-keywords Database scene (A on each entry, help pages). Then
      item/Dyna/Device lists, Database style pages, shops. Then the original ROM tour for reviewers.
      Earlier: full regen 149/149 scenes on the English build (`work/regen_en.txt`).
-     Graphics text seen still JP: menu bar, PDA home labels, fortune box, title logo (docs/re/graphics.md rows).
+     Graphics text seen still JP: fortune box (menu bar, PDA home labels, title text since done; the logo stays JP).
   2. Tours through changed scenes with contact sheets, `qa_gate.py init/check`, verdicts by a fresh read-only pass
      (no subagents in Orca: do it yourself or `codex exec`). Text coverage (`textcover.py`), `inkbox.py` on every
      choice and centred menu box.

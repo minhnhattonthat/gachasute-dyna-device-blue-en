@@ -39,6 +39,39 @@ MAP_PATCHES = [
      "Database submenu SCR 01E38A4 row 4: Keywords in 2,13 4,8-4,11 2,18"),
 ]
 
+# Title screen planet name (block 0449734, OBJ 2D, OBJ tile n = block tile n). Sprite frames 3-12 of the title's
+# PAT animation at 0x44BF24 (u32 offsets from it at +8) each hold 8 OAM entries (u16 size code | 0x2000, s16 x,
+# s16 y, u16 tile | pal << 12); the name is a 32x8 piece at x 8, a second piece at x 40 and the bar's end cap
+# (tile 413) at x 48, all 40 px bars in JP. English: (frame, name, atlas tile row, first column, tiles): a 32x8 +
+# 8x8 / 16x8 / 32x8 piece, the cap at x 8 + 8 * tiles; 7 tiles = two 32x8 pieces whose last tile is left
+# transparent under the cap. tools/gfx_text.py paints the runs.
+TITLE_ANIM = 0x44BF24
+TITLE_NAMES = [
+    (3, "Terioranus", 10, 8, 6), (4, "Sigmazon", 10, 20, 5), (5, "Capuchipean", 10, 0, 7),
+    (6, "Bisaios", 10, 25, 5), (7, "Jornaturn", 10, 14, 6), (8, "Parmoon", 11, 0, 5), (9, "Plutario", 11, 5, 5),
+    (10, "Mercurie", 11, 10, 5), (11, "Byjupiter", 11, 15, 5), (12, "Zaurak", 11, 20, 5),
+]
+SIZE_CODE = {5: 0x00, 6: 0x41, 7: 0x52}   # second piece: 8x8, 16x8, 32x8
+
+
+def title_patches(rom):
+    """MAP_PATCHES-style rows for the planet name entries of title frames 3-12."""
+    out = []
+    for frame, name, row, col, n in TITLE_NAMES:
+        p = TITLE_ANIM + struct.unpack_from("<I", rom, TITLE_ANIM + 8 + 4 * frame)[0]
+        if struct.unpack_from("<h", rom, p)[0] != 8:
+            raise ValueError(f"title frame {frame}: expected 8 OAM entries")
+        start = 32 * row + col
+        ents = {struct.unpack_from("<h", rom, p + 4 + 8 * i)[0]: p + 2 + 8 * i for i in range(8)}
+        for x, attr, nx, tile in ((8, None, 8, start), (40, SIZE_CODE[n], 40, start + 4), (48, None, 8 + 8 * n, 413)):
+            e = ents[x]
+            old = list(struct.unpack_from("<4H", rom, e))
+            new = [old[0] if attr is None else (old[0] & 0xFF00) | attr, nx, old[2], (old[3] & 0xFC00) | tile]
+            if x == 48 and old[3] & 0x3FF != 413:
+                raise ValueError(f"title frame {frame}: no end cap at x 48")
+            out.append((e, old, new, f"title frame {frame} {name}: piece at x {x}"))
+    return out
+
 
 def archive_words(rom):
     """-> {block offset: [ROM offset of each archive word pointing at it]}."""
@@ -137,7 +170,8 @@ def apply(rom, out, free, log=None, limit=None):
     """Write every gfx/*.png into `out`. -> next free offset (16-aligned). `rom` = original image."""
     if not edits():
         return free
-    for off, old, new, why in MAP_PATCHES:
+    title = title_patches(rom) if (GFX / "0449734.png").exists() else []
+    for off, old, new, why in MAP_PATCHES + title:
         if list(struct.unpack_from(f"<{len(old)}H", rom, off)) != old:
             raise ValueError(f"gfx map patch {off:#x}: original words differ ({why})")
         romwrite.put(log, out, off, struct.pack(f"<{len(new)}H", *new), f"gfx map {why}")

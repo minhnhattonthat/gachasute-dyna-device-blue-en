@@ -119,7 +119,18 @@ its font at run time (dialogue, the boot date prompt, the profile popup) is stri
   (drawn, unseen); status words **03B3164** (BG tiles, VRAM 0x8000 in 32-tile rows) "Not connected" (seen),
   "Connected", "Connecting..." (unseen). Still JP there: シンプル / エキスパート, ２３４Ｐ. The trade screens
   (024AF04, 024B834, 024D4B4, 024C1C4) and the link battle setup need a partner: no warp yet.
-- **Title block 0449734 (worker 7, not drawn yet):** logo stays JP (D5: no official English logo). Text in it,
+- **Done (worker 8): title block 0449734** (scene `mode_title`; `work/qa/gfx_en/mode_title/hold_x3.png`,
+  `press_x3.png`): "Emblem", "©2002 SMILESOFT", blinking "PRESS START" (7-row strokes ink 5, sides 3, corners 4 =
+  gfx_text `("ring2", 3, 4)`), the 10 planet names. Names: the title's PAT animation at 0x44BF24 (u32 offsets at
+  +8; frame = s16 count + 8-byte entries u16 size code|0x2000, s16 x, s16 y, u16 tile|pal<<12, screen x = 120 + x)
+  frames 3-12 = one planet each: symbol, emblem label (4 pieces), name = 32x8 at x8 + 8x8 at x40 + cap 413 at x48.
+  English (gfx.TITLE_NAMES, patched by gfx.title_patches): one run of 5-7 tiles per name in rows 10-11 (all 64
+  tiles: the RED logo's bottom rows 10-11 c24-29 are not on any Blue title frame), second piece 8x8/16x8/32x8, cap
+  at x 8 + 8n (Capuchipean: two 32x8, the 8th tile transparent under the cap). Only Terioranus is seen on a cold
+  boot (the emblem comes from the save): `tools/title_frames.py` draws all 10 frames from the build
+  (`work/qa/gfx_en/title_frames.png`). PRESS START blinks: `tools/lua/shotwhen.lua` shoots every 10 frames once
+  its tile is in OAM. Survey notes below.
+- **Title block 0449734 (worker 7 survey):** logo stays JP (D5: no official English logo). Text in it,
   scene `mode_title` (OBJ 2D, OBJ tile n = block tile n, ppu dump f930): copyright ©2002 スマイルソフト = rows
   12-13 c0-12 (outlined 16 px glyphs in shades 2-5), OAM x68 / x76 / x108 / x140 at y140; エンブレム label = r12
   c29 (edge bar) + r12 c30-31 + r13 c29-31, OAM y102 x64-112; planet symbol 16x16 at x112; planet name y102 from

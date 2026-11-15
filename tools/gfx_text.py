@@ -307,6 +307,25 @@ ATLASES = {
         },
         "clear": {1: {1, 15}, 4: {4, 14, 12}},
     },
+    # Title screen (OBJ 2D, block 0449734, block tile n = OBJ tile n; scene mode_title). The logo stays JP (D5).
+    # Copyright (rows 12-13 c0-12, screen x68 y140) and the blinking スタートボタンを おしてください (r12-13 c13-28,
+    # four 32x16 at x57 y123) are 7-row strokes in ink 5, side neighbours 3, corners 4, on transparent 0. The
+    # emblem label エンブレム is the strip r12 c30-31 + r13 c29-31 (screen x72-111 y102; r12 c29 = the bar's cap),
+    # white 15 on bar blue 2. Planet names: tools/gfx.py TITLE_NAMES (rows 10-11 repainted, one run per name).
+    0x449734: {
+        # each bar: n tiles of blue 2, the JP bars' end corners 3 4 at its top and bottom rows
+        "paint": [(0, 80, 256, 96, 0)] + [r for _, _, row, col, n in gfx.TITLE_NAMES for r in (
+            (8 * col, 8 * row, 8 * (col + n), 8 * row + 8, 2),
+            *[(8 * (col + n) - 2 + i, 8 * row + y, 8 * (col + n) - 1 + i, 8 * row + y + 1, 3 + i)
+              for i in (0, 1) for y in (0, 7)])],
+        "redraw": [("SMILESOFT", (40, 103, 104, 112), "row", 5, ("ring2", 3, 4), "vwf", 1),
+                   ("PRESS START", (104, 103, 232, 112), "row", 5, ("ring2", 3, 4), "vwf", 1)]
+                  + [(name, (8 * col, 8 * row, 8 * (col + n) - 2, 8 * row + 8), "row", 15, None, "vwf", 0,
+                      set()) for _, name, row, col, n in gfx.TITLE_NAMES],
+        "clear": {5: {2, 3, 4, 5}},
+        "screens": [{"cells": [[414, 415, 445, 446, 447]],
+                     "redraw": [("Emblem", (0, 0, 40, 8), "row", 15, None, "vwf", 0)], "clear": {15: {15}}}],
+    },
 }
 
 # 3x5 caps for the small sub-labels under START / SELECT (N is 4 wide).
@@ -385,7 +404,15 @@ def redraw(a, spec):
         ox = x0 + (1 if ring else 0) + (room - w + 1) // 2
         oy = y0 + dy
         ink_at = {(ox + px_, oy + py) for px_, py in pix}
-        if ring:
+        if ring and shadow[0] == "ring2":   # ("ring2", orth, diag): side neighbours one colour, corners another
+            for (sx, sy), col in [((sx, sy), shadow[2]) for sx in (-1, 1) for sy in (-1, 1)] + \
+                                 [(o, shadow[1]) for o in ((-1, 0), (1, 0), (0, -1), (0, 1))]:
+                for x, y in ink_at:
+                    p = (x + sx, y + sy)
+                    if p not in ink_at and x0 <= p[0] < x1 and y0 <= p[1] < y1:
+                        a.px[p[1] * a.W + p[0]] = col
+            shadow = None
+        elif ring:
             shadow = shadow[1]
         if shadow is not None:
             offsets = ([(sx, sy) for sx in (-1, 0, 1) for sy in (-1, 0, 1) if sx or sy] if ring
@@ -480,6 +507,10 @@ def render(rom, off):
         for y in range(8):
             for x in range(8):
                 a.set(t, x, y, 0)
+    for x0, y0, x1, y1, col in spec.get("paint", []):   # plain rectangles, before any text
+        for y in range(y0, y1):
+            for x in range(x0, x1):
+                a.px[y * a.W + x] = col
     ink, bg = spec.get("ink", INK), spec.get("bg", 0)
     for _, columns in spec.get("labels", []):
         clear_strip(a, columns)

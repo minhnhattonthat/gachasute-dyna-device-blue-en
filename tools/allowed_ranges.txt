@@ -3,6 +3,7 @@
 0049AC-0049B3   VWF hook: ldr r1,[pc]; bx r1; .word renderer (tools/vwf.py HOOK_AT)
 0E7FA4-0EFF33   graphics archive offset words (tools/gfx.py: a relocated block's words)
 0EFF34-44B581   ECD blocks (tools/gfx.py: an edited block written in its old slot)
+44C0A0-44C309   title PAT frames 3-12: planet name OAM entries (tools/gfx.py TITLE_NAMES)
 0AF6D0-0BB7BF   string region: every string's slot (script/strings_*.json, in-place English)
 0BBDF0-0BBDF3   resource directory word -> script file (tools/script.py DIR_WORD)
 702BC4-747B43   script file, original slot (tools/script.py BASE..END)
