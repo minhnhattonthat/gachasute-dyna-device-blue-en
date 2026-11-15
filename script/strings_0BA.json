@@ -824,6 +824,7 @@
  },
  {
   "id": "t0BA578",
+  "notes": "full-width digit glyph table ０-９ (indexed per digit): no words",
   "ptrs": [
    "0D3978"
   ],
@@ -1118,6 +1119,7 @@
  },
  {
   "id": "t0BA738",
+  "notes": "JP blank: clears a 7-cell field; the same in English",
   "ptrs": [
    "067CC8"
   ],

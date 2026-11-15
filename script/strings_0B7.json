@@ -2112,6 +2112,7 @@
  },
  {
   "id": "t0B7FE4",
+  "notes": "name-entry glyph row (full-width Latin + symbols, kept per D12); which screen shows it: open (status Next)",
   "ptrs": [
    "0D1ED8"
   ],
@@ -2122,6 +2123,7 @@
  },
  {
   "id": "t0B7FFC",
+  "notes": "name-entry glyph row (as t0B7FE4)",
   "ptrs": [
    "0D1ECC"
   ],

@@ -8,6 +8,10 @@
 --   GOD     reserved (battles): not wired yet
 --   FINISH  1 = stop the run once the hold shot is taken; WARP_STATE = path: save a state there, then stop
 --   (tools/debug/regen.py sets both)
+--   CONT    1 = kinds menu/fscript/dmode start from a battery save made after the tutorial (emu.py --sav
+--           work/states/tutorial_jp.sav, made on the original ROM: tools/debug/mksave.py) instead of replaying the
+--           timed tutorial route, which desyncs once the English pages differ. Boot: date, fortune, PDA, title, then
+--           the field loads on the city road where the save was made.
 -- Log lines: "WARP <stage>" at each stage, "ARRIVED <scene> f<frame>" when the scene is up, "SCRIPT <n>" whenever
 -- the game starts an event script (with the caller's PC).
 
@@ -152,7 +156,15 @@ L.on_exec(RESUME_SCORE, RESUME_SCORE, function()
   local sc = scene.kind == "resume" and tonumber(scene.arg:match("score=(%d+)"))
   if sc then emu.setState({ ["cpu.r0"] = sc }) end
 end)
+local function cont_kind()
+  return (CONT or 0) > 0 and (scene.kind == "menu" or scene.kind == "fscript" or scene.kind == "dmode")
+end
 L.on_exec(RESUME_FIELD, RESUME_FIELD, function()
+  if cont_kind() and stage == "boot" then
+    L.log(string.format("FIELDINIT entry=%d f%d", emu.getState()["cpu.r4"], L.frame))
+    set_stage("cfield")
+    return
+  end
   if scene.kind ~= "resume" or resumeSet then return end
   L.log(string.format("FIELDINIT entry=%d f%d", emu.getState()["cpu.r4"], L.frame))
   resumeSet = true
@@ -258,8 +270,34 @@ L.on_exec(TEXT_DRAW, TEXT_DRAW, function()
 end)
 
 local cityFrame = nil
+local function after_tutorial()
+  -- the player stands on the city road with the tutorial's party, money and item shop sector
+  if scene.kind == "fscript" then
+    -- walk into the reception (room 15), whose load starts script 331 (lr 0x0805003B)
+    set_stage("fwalk")
+    play(parse_route("90 up;50 right;60 up;60 -"))
+  elseif scene.kind == "dmode" then
+    set_stage("dquit")
+    play(parse_route(QUIT_ROUTE))
+  else
+    set_stage("done")
+    play(parse_route("1 -;" .. scene.arg))
+    arriveAfterRoute = true
+  end
+end
 L.on_frame(function(n)
-  if stage == "tutorial" then
+  if stage == "cfield" then
+    -- continued game: wait until the city road (room 0) is idle (no script) for 120 frames; click through any
+    -- script the continue starts
+    if r16(ROOM) == 0 and r16(SCR + 0x10) == 0 then
+      if not cityFrame then cityFrame = n end
+      if n - cityFrame >= 120 then cityFrame = nil; after_tutorial() end
+    else
+      cityFrame = nil
+      if L.route_done() and n % 40 == 0 then L.press("a", 6) end
+    end
+    if n - stageFrame > 3000 then L.fail("CONT: the field never settled on the city road room=" .. r16(ROOM)) end
+  elseif stage == "tutorial" then
     -- kind "menu": play the whole tutorial (script 1) as recorded: A every 40 frames for TUT_MASH frames, then the
     -- recorded route (Gachasute walk, Dyna names, house, sector build with an item shop), ending on the city road.
     local t = n - tutStart
@@ -275,26 +313,18 @@ L.on_frame(function(n)
         L.log(string.format("WARP tutorial route ended off the city road room=%d op=%d f%d", r16(ROOM),
           r16(SCR + 0x10), n))
       end
-      if scene.kind == "fscript" then
-        -- walk into the reception (room 15), whose load starts script 331 (lr 0x0805003B)
-        set_stage("fwalk")
-        play(parse_route("90 up;50 right;60 up;60 -"))
-      elseif scene.kind == "dmode" then
-        set_stage("dquit")
-        play(parse_route(QUIT_ROUTE))
-      else
-        set_stage("done")
-        play(parse_route("1 -;" .. scene.arg))
-        arriveAfterRoute = true
-      end
+      after_tutorial()
     end
   elseif stage == "dquit" then
     if L.route_done() and n - stageFrame > 900 then L.fail("dmode: the quit route set no mode") end
   elseif stage == "fwalk" or stage == "ftalk" then
     if L.route_done() and n - stageFrame > 600 then L.fail("fscript: no script started at stage " .. stage) end
   elseif stage == "boot" then
-    -- logos and the date prompt: A every 60 frames until the profile form handler runs
-    if n % 60 == 0 and n > 300 then L.press("a", 6) end
+    -- logos and the date prompt: A every 60 frames until the profile form handler runs (CONT: on the title, mode
+    -- 39, Start instead: A there only restarts the opening)
+    if cont_kind() and emu.read32(MODE_VAR, MEM) == 39 then
+      if n % 60 == 0 then L.press("start", 6) end
+    elseif n % 60 == 0 and n > 300 then L.press("a", 6) end
   elseif stage == "form" and L.route_done() then
     set_stage("title")
   elseif stage == "title" then

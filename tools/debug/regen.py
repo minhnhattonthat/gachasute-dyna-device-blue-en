@@ -9,6 +9,8 @@ state. Writes <out>/sheet.png (all hold shots) and exits 1 if any scene failed. 
 graphics changes (states carry old code and VRAM).
 """
 import argparse
+import queue
+import shutil
 import subprocess
 import sys
 from concurrent.futures import ThreadPoolExecutor
@@ -23,6 +25,12 @@ SCENES = ROOT / "tools" / "debug" / "scenes.tsv"
 # frame budget per kind: the warp stops itself at the hold shot; this is only the ceiling
 BUDGET = {"boot": 4000, "newgame": 5000, "script": 9000, "event": 12000, "field": 12000, "menu": 32000, "fscript": 33000, "mode": 4500,
           "resume": 4500, "dmode": 28000}
+# menu, fscript and dmode scenes continue from a save made after the tutorial on the original ROM (warp.lua CONT)
+CONT_KINDS = {"menu", "fscript", "dmode"}
+CONT_BUDGET = 9000
+TUTORIAL_SAV = ROOT / "work" / "states" / "tutorial_jp.sav"
+BLANK = ROOT / "work" / "states" / "blank.sav"
+COVER_RANGES = "80AF6D0-80BB7C0,8747DA0-87F0000"   # string region, free space (moved strings)
 
 
 def scenes():
@@ -36,18 +44,44 @@ def scenes():
     return rows
 
 
-def run(rom, out, states, row, probes=()):
+def blank_sav():
+    """A fresh erased 64 KB flash: runs that need no save still get their own copy (emu.py --sav), never whatever
+    an earlier run left in tools/mesen/Saves/<rom>.sav."""
+    if not BLANK.exists():
+        BLANK.parent.mkdir(parents=True, exist_ok=True)
+        BLANK.write_bytes(b"\xff" * 0x10000)
+    return BLANK
+
+
+def run(rom, out, states, row, probes=(), slots=None):
     name, kind = row[0], row[1]
     hold = int(row[3]) if len(row) > 3 and row[3].strip() else 300
+    cont = kind in CONT_KINDS
+    if cont and not TUTORIAL_SAV.exists():
+        sys.exit(f"{TUTORIAL_SAV} missing: run tools/debug/mksave.py first")
     d = out / name
     state = states / f"{name}.mss"
-    cmd = [sys.executable, "-X", "utf8", str(Path(SKILL) / "scripts" / "emu.py"), str(rom), "--out", str(d),
-           "--script", str(ROOT / "tools" / "debug" / "warp.lua"), "--var", f"SCENE='{name}'",
-           "--var", "FINISH=1", "--var", f"WARP_STATE='{state.as_posix()}'",
-           "--frames", str(BUDGET.get(kind, 12000) + hold), "--timeout", "1200"]
-    for p in probes:
-        cmd += ["--script", str(Path(p).resolve())]
-    r = subprocess.run(cmd, capture_output=True, text=True, cwd=ROOT)
+    # Mesen keeps one battery file per ROM name: each parallel job runs its own copy of the ROM
+    slot = slots.get() if slots else None
+    try:
+        rom_run = slot or rom
+        cmd = [sys.executable, "-X", "utf8", str(Path(SKILL) / "scripts" / "emu.py"), str(rom_run), "--out", str(d),
+               "--script", str(ROOT / "tools" / "debug" / "warp.lua"), "--var", f"SCENE='{name}'",
+               "--var", "FINISH=1", "--var", f"WARP_STATE='{state.as_posix()}'",
+               "--sav", str(TUTORIAL_SAV if cont else blank_sav()),
+               "--frames", str((CONT_BUDGET if cont else BUDGET.get(kind, 12000)) + hold), "--timeout", "1200"]
+        if cont:
+            cmd += ["--var", "CONT=1"]
+        # text coverage: first-byte reads of strings (region + relocated ones in the free space); messages are
+        # logged by warp.lua's TEXT_DRAW hook. textcover.py work/qa/warp build/strings.tsv reads both.
+        cmd += ["--script", str(Path(SKILL) / "scripts" / "lua" / "probes" / "textcover.lua"),
+                "--var", f"RANGES='{COVER_RANGES}'"]
+        for p in probes:
+            cmd += ["--script", str(Path(p).resolve())]
+        r = subprocess.run(cmd, capture_output=True, text=True, cwd=ROOT)
+    finally:
+        if slot:
+            slots.put(slot)
     log = (d / "log.txt").read_text(encoding="utf-8", errors="replace") if (d / "log.txt").exists() else ""
     ok = f"ARRIVED {name} " in log and "HOLD done" in log and (d / "hold.png").exists()
     return name, ok, r.returncode, d / "hold.png"
@@ -74,14 +108,21 @@ def main():
     states.mkdir(parents=True, exist_ok=True)
     # longest first so the menu replays (about 26k frames) don't trail at the end
     rows.sort(key=lambda r: -BUDGET.get(r[1], 12000))
+    slots = queue.Queue()
+    rom_dir = out / "_roms"
+    rom_dir.mkdir(parents=True, exist_ok=True)
+    for j in range(a.jobs):
+        p = rom_dir / f"job{j}.gba"
+        shutil.copyfile(a.rom, p)
+        slots.put(p)
     with ThreadPoolExecutor(a.jobs) as ex:
-        res = list(ex.map(lambda r: run(a.rom, out, states, r, a.probe), rows))
+        res = list(ex.map(lambda r: run(a.rom, out, states, r, a.probe, slots), rows))
     # Mesen runs occasionally die under load (8 parallel menu replays: 3 exited 1 mid-route); retry those once
     retry = {n for n, ok, _, _ in res if not ok}
     if retry:
         print(f"retrying {len(retry)}: {' '.join(sorted(retry))}")
         with ThreadPoolExecutor(min(2, a.jobs)) as ex:
-            again = {t[0]: t for t in ex.map(lambda r: run(a.rom, out, states, r, a.probe),
+            again = {t[0]: t for t in ex.map(lambda r: run(a.rom, out, states, r, a.probe, slots),
                                              [r for r in rows if r[0] in retry])}
         res = [again.get(t[0], t) for t in res]
     order = {r[0]: i for i, r in enumerate(scenes())}

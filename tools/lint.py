@@ -133,6 +133,8 @@ def budget_for(entry_id, budgets):
 def check_entry(e, budgets):
     errs, warns = [], []
     en, jp = e.get("en", ""), e["jp"]
+    if e.get("status") == "keep" and not (e.get("notes") or "").strip():
+        errs.append("kept untranslated with no reason: add \"notes\" (pipeline.md §Checks)")
     if not en:
         return errs, warns
     try:

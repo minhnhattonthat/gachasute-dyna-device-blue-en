@@ -1,6 +1,7 @@
 [
  {
   "id": "t0B8014",
+  "notes": "name-entry glyph row (as t0B7FE4)",
   "ptrs": [
    "0D1EC0"
   ],
@@ -11,6 +12,7 @@
  },
  {
   "id": "t0B802C",
+  "notes": "name-entry glyph row (as t0B7FE4)",
   "ptrs": [
    "0D1EB4"
   ],
@@ -21,6 +23,7 @@
  },
  {
   "id": "t0B8044",
+  "notes": "name-entry glyph row (as t0B7FE4)",
   "ptrs": [
    "0D1EA8"
   ],
@@ -31,6 +34,7 @@
  },
  {
   "id": "t0B805C",
+  "notes": "JP blank: one full-width space that clears or spaces a field; the same in English",
   "ptrs": [
    "01B3C8",
    "01B3E8",
@@ -344,6 +348,7 @@
  },
  {
   "id": "t0B82A8",
+  "notes": "JP blank: one full-width space that clears or spaces a field; the same in English",
   "ptrs": [
    "01FD48",
    "01FF24"
@@ -1092,6 +1097,7 @@
  },
  {
   "id": "t0B8B1C",
+  "notes": "JP blank: one full-width space that clears or spaces a field; the same in English",
   "ptrs": [
    "021B9C",
    "021C6C"
@@ -1425,6 +1431,7 @@
  },
  {
   "id": "t0B8F78",
+  "notes": "calendar day numbers 1-31 in full-width digits: no words",
   "ptrs": [
    "0D2448"
   ],

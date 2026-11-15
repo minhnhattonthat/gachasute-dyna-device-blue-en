@@ -252,6 +252,7 @@
  },
  {
   "id": "t0B9124",
+  "notes": "calendar day numbers 1-31 in full-width digits: no words",
   "ptrs": [
    "0D258C"
   ],
@@ -354,6 +355,7 @@
  },
  {
   "id": "t0B91D0",
+  "notes": "JP blank: one full-width space that clears or spaces a field; the same in English",
   "ptrs": [
    "02E618",
    "02ECD8",
@@ -970,6 +972,7 @@
  },
  {
   "id": "t0B9574",
+  "notes": "JP blank: clears the 11-cell link-trade line (t0B9484-t0B95EC); the same in English",
   "ptrs": [
    "0D28CC",
    "0D28D0",
@@ -1110,6 +1113,7 @@
  },
  {
   "id": "t0B967C",
+  "notes": "full-width digit glyph table ０-９ (indexed per digit): no words",
   "ptrs": [
    "0D2994"
   ],
@@ -1120,6 +1124,7 @@
  },
  {
   "id": "t0B9694",
+  "notes": "blank field with a centred ／ separator: no words",
   "ptrs": [
    "0D2998"
   ],
@@ -1830,6 +1835,7 @@
  },
  {
   "id": "t0B9B60",
+  "notes": "JP blank: one full-width space that clears or spaces a field; the same in English",
   "ptrs": [
    "04A9F8",
    "053DEC",

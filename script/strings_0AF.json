@@ -1553,6 +1553,7 @@
  },
  {
   "id": "t0AFEE4",
+  "notes": "JP blank: one full-width space that clears or spaces a field; the same in English",
   "ptrs": [
    "0BF9D8",
    "0BF9E8",

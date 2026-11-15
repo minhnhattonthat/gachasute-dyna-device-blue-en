@@ -19,6 +19,7 @@ import check_rom  # noqa: E402
 import insert  # noqa: E402
 import romwrite  # noqa: E402
 import script  # noqa: E402
+import strings_tsv  # noqa: E402
 import vwf  # noqa: E402
 
 ROM = ROOT / "rom" / "Gachasute! Dyna Device Blue (Japan).gba"
@@ -152,6 +153,9 @@ def main():
         raise SystemExit(f"romdiff: {len(errs)} problems (write log {writes}); nothing written to {path}")
     print(f"romdiff: {len(log.rows)} writes, all inside tools/allowed_ranges.txt + pointer words, no stray bytes")
     path.write_bytes(out)
+    if not a.identity and not a.marker and path.resolve() == OUT.resolve():
+        n = strings_tsv.write(bytes(out))   # build/strings.tsv: text coverage ids + addresses
+        print(f"build/strings.tsv: {n} ids")
     sha = hashlib.sha1(out).hexdigest()
     print(f"{path.relative_to(ROOT) if path.is_relative_to(ROOT) else path}: {len(out)} bytes, sha1 {sha}"
           f"{' (identical to the original)' if out == rom else ''}")
