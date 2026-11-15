@@ -10,7 +10,13 @@ Updated at the end of every session. Keep it to what the next session needs; his
   words / field HUD status word / pause done). Phase 7 done 2026-11-15. Last build: `build/dynadevice_blue_en.gba`
   2026-11-15 (worker 19), sha1 bc6b43c7..., smoke ok, check.py ok, lint 0/0 (137 strings wider than JP under
   guessed budgets: `lint.py --guess`, `docs/review/guess_wide.txt`).
-- **Latest session (2026-11-15, worker 19):** **Field HUD status word in English** (Healthy / Hungry / Sick) and
+- **Latest session (2026-11-15, worker 20):** **English tour finished** on build bc6b43c7: 197/197 scenes in
+  `work/qa/tour/<scene>/hold.png` (scenes.tsv has a header row `name`: skip it when listing scenes). `qa_gate.py
+  init` + `todo` done: `work/qa/manifest.tsv` (197), chunks `work/qa/chunks/chunk_001..016.txt`. **JP tour stopped
+  by Claude Code for low memory at 104/198** (`work/qa/tour_jp`). **Next:** rerun the JP tour for scenes with no
+  `work/qa/tour_jp/<scene>/hold.png` only (`--jobs 1`, original ROM is the default), then `tools/vqa_run.py --jobs
+  2`, fix issues, `qa_gate.py check`.
+- **Session before (2026-11-15, worker 19):** **Field HUD status word in English** (Healthy / Hungry / Sick) and
   **field pause "Pause"**: both were raw (uncompressed) IMG blocks, now handled by `gfx.load` / `gfx.apply`
   (in place); drawn by new `tools/hud.py`; `gfx.HUD_PATCHES` re-lays status SCRs 0x710 / 0x711. All 215 raw IMG
   blocks surveyed (`tools/rawimg_sheet.py`): no other Japanese. Notes: docs/re/graphics.md "Raw IMG blocks".
