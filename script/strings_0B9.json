@@ -1387,7 +1387,8 @@
   ],
   "slot": 52,
   "jp": "このばんごうは　げんざい　つかわれて　おりません",
-  "en": "The number you dialed is not in service.",
+  "en": "The number you[7F][7F]dialed is[7F]not in service.",
+  "notes": "PDA address book address field (postal code not found): PAD [7F] puts each part in its own piece of the field's grid (16 + 10 bytes per row, tools/addrdb.py CHUNKS), else ASCII shows gaps mid-word",
   "status": "done"
  },
  {

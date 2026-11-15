@@ -900,7 +900,7 @@
   "flag": 0,
   "speaker": 4,
   "jp": "このままでは　あんぜんが　たもてず\nじこが　おこってしまうかもしれません",
-  "en": "If this goes on, they cannot keep it\nsafe, and there may be an accident.",
+  "en": "If this continues, safety cannot be\nensured, and an accident may occur.",
   "status": "done"
  },
  {
@@ -1084,7 +1084,7 @@
   "flag": 0,
   "speaker": 4,
   "jp": "すごいですね　いうことなしです{KP}\nこれは　Ｓランクの　かたに\nたまに　でる　ボーナスです",
-  "en": "Amazing. There is\nnothing more to ask for!{KP}\nThis is a bonus that S-rank\ncities get once in a while.",
+  "en": "Wonderful! I have nothing\nbut praise for your city!{KP}\nThis is a bonus that S-rank\ncities get once in a while.",
   "status": "done"
  },
  {
@@ -1140,7 +1140,7 @@
   "flag": 0,
   "speaker": 4,
   "jp": "すごいですね　いうことなしです{KP}\nあとは　すべての　スタイルの\nすべての　ぞくせい・・・",
-  "en": "Amazing. There is\nnothing more to ask for!{KP}\nAll that is left is every\nelement of every style...",
+  "en": "Wonderful! I have nothing\nbut praise for your city!{KP}\nAll that is left is every\nelement of every style...",
   "status": "done"
  },
  {

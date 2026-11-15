@@ -114,4 +114,8 @@ Minors that repeated an open (gNN) line above were fixed with it in work/tl/r09;
 - [x] (ch12) s803.01 - "Today I came because..." stiff -> "I came over to battle you today... Will you... battle me?" **Fixed (r12).**
 
 ## Story pass round 3 (phase 9, work/qa/story/reports/r3/)
-- [x] 16 Minor wording suggestions in the round-3 reports (e.g. s133.24, s142.05, s149.09). **waived: deferred to v1.1; every chapter was ok in round 3 and changing a chapter voids its verdict.**
+- [x] 16 Minor wording suggestions in the round-3 reports (e.g. s133.24, s142.05, s149.09). **Fixed (r13, v1.1, 2026-11-16)**: all 16 (18 entries) taken, s107.06 in Navyu's contraction-free register ("is it not?"), s119.02 keeps both {%sR4} (lint) as "...So now, {%sR4}-kun, I'm going to work out how I'll beat you,".
+
+## Story pass rounds 4-5 (v1.1, work/qa/story/reports/r4/, reports/ch04-06,12.md)
+- [x] Round 4 (8 chapters after r13): all ok. Taken in r14: s150.50 now echoes the new s104.10 friendship line; s149.16 = s150.02 ("I'll show you my true power!"); s408.00 "Well? What do you want?"; s808.01 "Just take it already!!" (was "get outta here"); s809.04 "I'll look forward to our battle another time". Round 5 (ch04/05/06/12 after r14): all ok.
+- [x] Fresh wording Minors from rounds 4-5: s106.17, s107.01 (ch02); s723.05, s748.xx rating line (ch10); s781.02, s783.02 (ch11); s135.04, s148.03 (ch04); s150.37, s268.00, s246-248 Support Attack stance (ch05); s340.00-01 (ch06); s803.03, s832.00 (ch12). **waived: every chapter is ok; each review round turns up new style-only Minors, so these wait for player reports or a later polish round.**

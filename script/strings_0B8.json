@@ -1087,13 +1087,14 @@
  },
  {
   "id": "t0B8B18",
+  "notes": "postal-code pad: the dash it inserts after 3 digits; the lookup converts each char by its index in t0B8AC0 (－ = 11 = 0x0B, the parser's dash), so it must stay －: ASCII '-' read as 0 and every code found its XXX-0000 record (v1.0 bug)",
   "ptrs": [
    "0219BC"
   ],
   "slot": 4,
   "jp": "－",
-  "en": "-",
-  "status": "done"
+  "en": "",
+  "status": "keep"
  },
  {
   "id": "t0B8B1C",
@@ -1215,7 +1216,8 @@
   ],
   "slot": 52,
   "jp": "このばんごうは　げんざい　つかわれて　おりません",
-  "en": "The number you dialed is not in service.",
+  "en": "The number you[7F][7F]dialed is[7F]not in service.",
+  "notes": "profile form address field (postal code not found): PAD [7F] puts each part in its own piece of the field's grid (16 + 10 bytes per row, tools/addrdb.py CHUNKS), else ASCII shows gaps mid-word",
   "status": "done"
  },
  {

@@ -124,10 +124,10 @@ PDA apps, help pages ........... translated
 Title screen, graphics text .... redrawn in English
 Staff roll ..................... redrawn in English
 Name entry ..................... English labels; the kana pages stay (names can be typed in kana or Latin)
-Postal-code town names ......... left in Japanese (real place-name database)
+Postal-code addresses ........... romanized (real place names, Hepburn)
 
-Known issues: the town names looked up from a postal code (profile / address book) stay in Japanese: they are
-a database of real Japanese place names. Some short names are cut to fit 64-pixel slots (e.g. "Flare Ruby"); PDA
+Known issues: about 4% of the postal-code town names had no published reading and were read by a dictionary, so
+a few may be misread; very long ones are split or shortened. Some short names are cut to fit 64-pixel slots (e.g. "Flare Ruby"); PDA
 timetable subjects are 3-letter abbreviations. Link-cable trading and battles were not tested (one emulator). Please report bugs at
 https://github.com/minhnhattonthat/gachasute-dyna-device-blue-en/issues (a savestate helps).
 

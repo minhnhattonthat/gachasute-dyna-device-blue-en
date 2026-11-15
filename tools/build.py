@@ -15,6 +15,7 @@ from pathlib import Path
 
 ROOT = Path(__file__).resolve().parent.parent
 sys.path.insert(0, str(ROOT / "tools"))
+import addrdb  # noqa: E402
 import check_rom  # noqa: E402
 import gfx  # noqa: E402
 import insert  # noqa: E402
@@ -63,6 +64,7 @@ def build(rom, scripts=None, english=False, entries=None, marker=False, report=N
         if report is not None:
             report["free_used_to"] = free
         vwf.apply(out, log)
+        addrdb.apply_en(rom, out, log)
     return out
 
 

@@ -10,10 +10,20 @@ Updated at the end of every session. Keep it to what the next session needs; his
   public (description now uses the game title), release v1.0
   (https://github.com/minhnhattonthat/gachasute-dyna-device-blue-en/releases/tag/v1.0) with the zip (sha1
   873f702d..., patch sha1 45b739e2...); a rebuild from HEAD reproduced build sha1 55ab465e, uploaded zip hash checked.
-  Next: player bug reports (`gh issue list --label bug`).
-- **Open (not blocking):** Address database place names kept Japanese for
-  v1.0 (**D20**, known issue in both READMEs; romanizing is a v1.1 candidate). 16 round-3 story Minors deferred
-  (`work/qa/story/reports/r3/`, polish.md). The last **95 strings are waived although reachable in play** (hand rows
+- **v1.1 (2026-11-16, not released yet):** (1) **Postal-code addresses romanized** (D21): `tools/addr_en.py`
+  (needs fugashi + unidic-lite in a venv, sources cached in `work/addr/src/`) -> `script/addr_*.tsv`;
+  `tools/addrdb.py apply_en` packs them with an ARM builder into the old slot (docs/re/text.md "Address
+  database"); `tools/debug/postal_check.py CODE..` types codes in game and compares with the model (0600001,
+  4070033, 1000005, 6128001, 0070815, 9071801 ok; PDA address book 6128001 ok). warp.lua takes `POSTAL='NNNNNNN'`.
+  (2) **v1.0 bug fixed**: the postal pad's dash t0B8B18 was ASCII '-', so every code found its XXX-0000 record
+  (prefecture + city only); now － again (test in tests/test_addrdb.py). (3) "not in service" laid out on the
+  field grid. (4) **Story**: the 16 round-3 Minors (r13, 18 entries) + 5 round-4 fixes (r14); story gate 12/12 ok
+  (rounds 4-5, `work/qa/story/verdicts/r4.tsv`, `r5.tsv`); fresh style-only Minors waived in polish.md.
+  Next: `release.py --version 1.1` (the visual tour gate needs `qa_gate.py waive` for this build: text + address
+  engine, screens in work/qa/addr), then publish v1.1 when the user says so.
+- **Open (not blocking):** ~4% of town names read by UniDic or split by machine (`src` column of
+  script/addr_town.tsv: unidic, pieces+unidic); 3040 of 120701 records still cut a word or leave < 4 typed chars.
+  The last **95 strings are waived although reachable in play** (hand rows
   under "Worker 26" in `docs/text_unshown.tsv`, each with its context): item bag-full / discard messages, item-use
   results, Device help hints, keyboard word-register prompts, money diary totals, combo attack names, status
   ailments, minigame help page, Card Trade + multiplayer link lobby (link cable: can't be emulated with one Mesen),

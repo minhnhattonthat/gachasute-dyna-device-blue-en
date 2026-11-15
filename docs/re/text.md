@@ -78,11 +78,26 @@ Header: 4 u32 LE offsets from 0x44C754: towns 0x10, prefectures 0x2A5C50, munici
   index (0-46), u16 BE municipality index (0-3355), 16-byte SJIS town name NUL-padded (empty = the code's
   catch-all), then 5 zero bytes. 69240 distinct town names.
 - Prefectures: 48 x 10 bytes (北海道, 青森県...). Municipalities: 3356 x 20 bytes (札幌市中央区...).
-- English: names are fixed-width (16 / 10 / 20 bytes); Hepburn often runs longer, so the reader's record size may
-  need changing (find the reader in phase 5).
+- Readers (verified 2026-11-16, probe `tools/lua/addrprobe.lua`, runs `work/qa/addr/`): two identical copies,
+  profile form and PDA address book ("Add Address", R on the list). Parse 0x0803B6DC / 0x08024A6C: the pad's
+  8 chars as values (digit 0-9, dash 0x0B skipped at position 3) -> number; linear scan of the towns, stride 23
+  (`adds r2,#0x17` at 0x0803B748 / 0x08024AD8), count literal 120702 (one record past the last). Builder
+  0x0803B75C / 0x08024AEC: zero a 64-byte stack buffer, copy prefecture + municipality (length from 0x08013C80,
+  which counts u16 units) + the 16-byte town, then 0x0800E12C(field, buffer) copies 27 u16 (54 bytes) into the
+  field (0xC8-byte field structs). Not found: a fixed string (t0B8BF0 / t0B9890, "not in service").
+- **The pad's dash**: the pad inserts t0B8B18 after 3 digits; each char becomes its index in t0B8AC0
+  ("０１２…９＋－…", － = 11). It must stay －: v1.0 had ASCII '-', read as 0, so every code found XXX-0000.
+- **The field on screen**: rows of 13 units (26 bytes), each drawn in two pieces by the form (8 units at x 32,
+  5 at x 160) through the coloured-string drawer 0x08013A4C; a piece starts at its own cell, so ASCII leaves a
+  gap at every piece end (the VWF lays out per piece outside message mode). Row 2 starts at byte 26.
+- **English (v1.1, decision D21)**: `tools/addrdb.py apply_en`: the same header; towns 11 bytes (code, pref,
+  municipality, u32 LE pointer to the town's ASCII name); u32 pointer tables for prefectures (+1 empty =
+  "drop it") and municipalities (+3356 short forms without -shi/-cho...); an ARM builder (hooks at 0x0803B798 /
+  0x08024B28: `ldr r0,[pc]; bx r0`, back to 0x0803B866 / 0x08024BF6) that word-wraps into the pieces (PAD 0x7F to
+  the next piece), max 52 bytes, then a space and PAD to even; the string pool, all inside the old slot (2.2 of
+  2.7 MB). Data: `tools/addr_en.py` -> `script/addr_pref.tsv`, `addr_city.tsv`, `addr_town.tsv`; check in game
+  with `tools/debug/postal_check.py CODE..` (compares the game's buffer with the Python model).
 
 ## Open questions (non-blocking)
-- The address database: tens of thousands of real place names. Plan: romanize with Hepburn from Japan Post's
-  KEN_ALL kana readings, keyed by postal code, once phase 4 maps the record format. Space: the ROM is 8 MiB and
-  can grow to 16 MiB with BPS. Where the game shows these names (profile, sector names in Dyna City) is to be
-  confirmed with the debug tool.
+- Where else the game shows the profile address (stored at 0x02000B44 after the form): the PDA home (debug mode 2)
+  does not; the address book's own cards use the same form layout.

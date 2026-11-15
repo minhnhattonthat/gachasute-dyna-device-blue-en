@@ -52,7 +52,7 @@
   "flag": 0,
   "speaker": 10,
   "jp": "もっと　ダイナを　きたえておくから\nまた　バトルの　あいてしてね！{KP}\nじゃあね！",
-  "en": "I'll train my Dyna more, so be\nmy opponent again sometime!{KP}\nBye-bye!",
+  "en": "I'll train my Dyna more, so\nlet's battle again sometime!{KP}\nBye-bye!",
   "status": "done"
  },
  {
@@ -252,7 +252,7 @@
   "flag": 0,
   "speaker": 2,
   "jp": "その　しょうこだ！\nこれを　もっていきやがれ！！",
-  "en": "Here's the proof! Take\nthis and get outta here!!",
+  "en": "Here's your proof!\nJust take it already!!",
   "status": "done"
  },
  {
@@ -348,7 +348,7 @@
   "flag": 0,
   "speaker": 3,
   "jp": "キミとの　バトルは　またの　たのしみに\nとっておくことにするよ{KP}\nそれじゃ",
-  "en": "I'll save our battle for\nanother time, then.{KP}\nSee you.",
+  "en": "I'll look forward to our\nbattle another time, then.{KP}\nSee you.",
   "status": "done"
  },
  {

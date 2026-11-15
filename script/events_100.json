@@ -452,7 +452,7 @@
   "flag": 0,
   "speaker": 1,
   "jp": "わたしたち　いつも　おともだちと\nいっしょに　たたかってるんだよ{KP}\nゆうじょうを　ちからに　かえて・・・ね！",
-  "en": "That means we're always fighting\ntogether with our friends.{KP}\nTurning friendship into power... right!",
+  "en": "That means we're always fighting\ntogether with our friends.{KP}\nOur friendship gives us strength!",
   "status": "done"
  },
  {
@@ -1076,7 +1076,7 @@
   "flag": 0,
   "speaker": 4,
   "jp": "・・・それはそうと　だいぶ　この\nダイナシティも　おおきくなってきましたね{KP}\nそろそろ　あるきまわるのも\nたいへんになってきたのではないですか？",
-  "en": "...By the way, this Dyna\nCity has grown quite large.{KP}\nIs walking around not\nstarting to become a chore?",
+  "en": "...By the way, this Dyna\nCity has grown quite large.{KP}\nGetting around on foot must be\nquite tiring by now, is it not?",
   "status": "done"
  },
  {
@@ -1916,7 +1916,7 @@
   "flag": 0,
   "speaker": 1,
   "jp": "なにしろ　{%sR4}くんは\nぜんかいの　チャンピオンなんだから{KP}\n・・・と　いうわけで　これから　どうやって\n{%sR4}くんを　たおすか",
-  "en": "After all, {%sR4}-kun,\nyou won the last tournament!{KP}\n...So now I'm going to work out\nhow I'll beat {%sR4}-kun,",
+  "en": "After all, {%sR4}-kun,\nyou won the last tournament!{KP}\n...So now, {%sR4}-kun, I'm going\nto work out how I'll beat you,",
   "status": "done"
  },
  {
@@ -3220,7 +3220,7 @@
   "flag": 0,
   "speaker": 1,
   "jp": "あああああ　もう　なんで　こう{KP}\n{%sR4}くんの　ダイナシティって\nこんなめにばっかり　あってるの？",
-  "en": "Aaargh, geez, why does{KP}\n{%sR4}-kun's Dyna City always\nget stuff like this happening to it?",
+  "en": "Aaargh, geez! Why does{KP}\nthis stuff keep happening to\nyour Dyna City, {%sR4}-kun!?",
   "status": "done"
  },
  {
@@ -3692,7 +3692,7 @@
   "flag": 0,
   "speaker": 1,
   "jp": "わたしが・・・あのダイナシティを・・・\nダイナたちを・・・{KP}\nどんなに　だいじにしてきたかなんて・・・\nなにも　わかってないくせに！",
-  "en": "How much I... cared for that\nDyna City... for those Dyna...{KP}\nYou don't understand anything about it!",
+  "en": "You have no idea... how much I\ncared for that Dyna City...{KP}\nfor those Dyna...!",
   "status": "done"
  },
  {
@@ -4700,7 +4700,7 @@
   "flag": 0,
   "speaker": 3,
   "jp": "まずい！　たぶん　これは\nじしんの　きょうりょくな　ヤツだ！",
-  "en": "Uh-oh! This must be one of those\npowerful earthquake things!",
+  "en": "Uh-oh! I think this is a\nreally powerful earthquake!",
   "status": "done"
  },
  {
@@ -5948,7 +5948,7 @@
   "flag": 0,
   "speaker": 1,
   "jp": "わたしの・・・だいじな　ともだちを・・・\nバカって　いうなぁっ！！",
-  "en": "Don't you... call my precious friend...{KP}\na fool!!",
+  "en": "She's... my dear friend...{KP}\nDon't you call her a fool!!",
   "status": "done"
  },
  {
@@ -6004,7 +6004,7 @@
   "flag": 0,
   "speaker": 8,
   "jp": "さぁ　こい！　オレの\nほんとうの　ちからを　みせてやる！",
-  "en": "Come on! I will show you my true power!",
+  "en": "Come on! I'll show you my true power!",
   "status": "done"
  }
 ]

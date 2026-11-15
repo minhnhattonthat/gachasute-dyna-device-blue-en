@@ -884,7 +884,7 @@
   "flag": 0,
   "speaker": 9,
   "jp": "また　いいもの　しいれてくるから\nたのしみに　まっててね{KP}\nそんじゃ　さいならー",
-  "en": "I'll stock up on more good\nstuff, so look forward to it!{KP}\nWell, so long!",
+  "en": "I'll bring more good stuff\nnext time, so keep an eye out!{KP}\nSee ya!",
   "status": "done"
  },
  {
@@ -1540,7 +1540,7 @@
   "flag": 0,
   "speaker": 10,
   "jp": "もっと　ダイナを　きたえておくから\nまた　バトルの　あいてしてね！{KP}\nじゃあね！",
-  "en": "I'll train my Dyna more, so be\nmy opponent again sometime!{KP}\nBye-bye!",
+  "en": "I'll train my Dyna more, so\nlet's battle again sometime!{KP}\nBye-bye!",
   "status": "done"
  },
  {

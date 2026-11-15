@@ -31,10 +31,13 @@ Japanese version). Tested in Mesen 2.2.1 (GBA core) with the official BIOS.
 | Title screen and graphics with text | Redrawn in English |
 | Name entry | English labels; the kana pages stay, names can be typed in kana or Latin letters |
 | Staff roll | Redrawn in English |
-| Town names looked up from a postal code (profile, address book) | Left in Japanese (a database of ~120,000 real place names; decision D20) |
+| Addresses looked up from a postal code (profile, address book) | Romanized (v1.1): ~120,000 real place names in Hepburn, from Japan Post's kana readings (decision D21) |
 
 Known issues: some names are cut to fit 64-pixel slots (e.g. "Flare Ruby"); PDA timetable subjects are 3-letter
-abbreviations; link-cable trading and battles were not tested (one emulator). See [Issues](../../issues).
+abbreviations; link-cable trading and battles were not tested (one emulator). Postal-code addresses: about 4% of
+the 2002 town names have no published reading and were read by a dictionary, so a few may be misread; very long
+names are split into words or shortened (the prefecture is left out when the field is too narrow). See
+[Issues](../../issues).
 
 ## What's here
 

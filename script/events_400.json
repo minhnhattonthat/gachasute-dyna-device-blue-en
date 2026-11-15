@@ -68,7 +68,7 @@
   "flag": 0,
   "speaker": -1,
   "jp": "・・・げ　{%sR4}だぁ・・・\n・・・で　なに？　なんの　よう？",
-  "en": "...Ugh, it's {%sR4}...{KP}\n...So what? What do you want?",
+  "en": "...Ugh, it's {%sR4}...{KP}\n...Well? What do you want?",
   "status": "done"
  },
  {
@@ -380,7 +380,7 @@
   "flag": 0,
   "speaker": -1,
   "jp": "しかも　そこを　あえて　２たいだけ\nすまわせるとね・・・",
-  "en": "And if you deliberately\nlet only 2 live there...",
+  "en": "And if you let just\n2 of them live there...",
   "status": "done"
  },
  {

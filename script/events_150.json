@@ -20,7 +20,7 @@
   "flag": 0,
   "speaker": 8,
   "jp": "さぁ　こい！　オレの\nほんとうの　ちからを　みせてやる！",
-  "en": "Come on! I will show you my true power!",
+  "en": "Come on! I'll show you my true power!",
   "status": "done"
  },
  {
@@ -340,7 +340,7 @@
   "flag": 0,
   "speaker": 1,
   "jp": "でも　あんなのって　ひどいよ！\nひどすぎる！",
-  "en": "But that's still awful!{KP}\nIt's way too awful!",
+  "en": "But that's still cruel!{KP}\nIt's just too cruel!",
   "status": "done"
  },
  {
@@ -404,7 +404,7 @@
   "flag": 0,
   "speaker": 1,
   "jp": "ゆうじょうを　ちからに　かえて・・・ね！{KP}\n・・・まけないで・・・かって・・・！\nみんなの　ダイナシティを　まもって！",
-  "en": "We turn friendship into strength... right!{KP}\n...Don't lose... win...!{KP}\nProtect everyone's Dyna Cities!",
+  "en": "Let friendship give you strength... okay?{KP}\n...Don't lose... win...!{KP}\nProtect everyone's Dyna Cities!",
   "status": "done"
  },
  {

@@ -1,8 +1,2 @@
-0B0024 vacated slot of moved string t0B0024; the only "pointer" is 0x4E1064 inside the address database (bytes 31000b08), a coincidence
+0B0024 vacated slot of moved string t0B0024; its "pointer" was 0x4E1064 inside the Japanese address database (bytes 31000b08), a coincidence; the English database (v1.1) no longer has it
 0B0F0C vacated slot of moved string t0B0F0C; the only "pointer" is 0x14F504 inside the graphics archive (0e0f0b08), a coincidence
-510850 address database place name (0x44C754-0x702BB4), kept Japanese under D20; its only "pointer" is a coincidence inside the database
-52887C address database place name (0x44C754-0x702BB4), kept Japanese under D20; its only "pointer" is a coincidence inside the database
-5F4C31 address database place name (0x44C754-0x702BB4), kept Japanese under D20; its only "pointer" is a coincidence inside the database
-634C24 address database place name (0x44C754-0x702BB4), kept Japanese under D20; its only "pointer" is a coincidence inside the database
-63702B address database place name (0x44C754-0x702BB4), kept Japanese under D20; its only "pointer" is a coincidence inside the database
-6A197E address database place name (0x44C754-0x702BB4), kept Japanese under D20; its only "pointer" is a coincidence inside the database

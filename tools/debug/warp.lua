@@ -98,6 +98,26 @@ end
 local FORM = parse_route("10 -;6 a;80 -;6 a;40 -;6 a;40 -;6 a;40 -;6 start;80 -;6 a;80 -;6 a;40 -;6 a;40 -;" ..
   "6 a;40 -;6 start;100 -;6 a;100 -;6 b;60 -;6 down;40 -;6 down;40 -;6 down;40 -;6 down;40 -;6 down;40 -;" ..
   "6 down;40 -;6 a;60 -")
+-- POSTAL = "4070033": also type that postal code (number pad 1 2 3 / 4 5 6 / 7 8 9 / * 0 #, cursor on 1), so the
+-- address lookup fills the address field (tools/addrdb.py); the cursor then walks on down to おわる as above.
+if POSTAL then
+  local pad = {}
+  for d = 1, 9 do pad[tostring(d)] = { (d - 1) // 3, (d - 1) % 3 } end
+  pad["0"] = { 3, 1 }
+  local steps, r, c = {}, 0, 0
+  for ch in POSTAL:gmatch("%d") do
+    local t = pad[ch]
+    while r ~= t[1] do steps[#steps + 1] = (t[1] > r) and "6 down;12 -" or "6 up;12 -"; r = r + ((t[1] > r) and 1 or -1) end
+    while c ~= t[2] do steps[#steps + 1] = (t[2] > c) and "6 right;12 -" or "6 left;12 -"; c = c + ((t[2] > c) and 1 or -1) end
+    steps[#steps + 1] = "6 a;30 -"
+  end
+  -- on the fresh form: wake the cursor (A opens the name keyboard, B closes it), Down = postal row, A = pad;
+  -- after START the cursor sits on the address row: Up Up = name row, then the usual route
+  FORM = parse_route("10 -;6 a;80 -;6 b;60 -;6 down;30 -;6 a;80 -;" .. table.concat(steps, ";") ..
+    ";6 start;120 -;6 up;30 -;6 up;30 -;6 a;80 -;6 a;40 -;6 a;40 -;6 a;40 -;6 start;80 -;6 a;80 -;6 a;40 -;" ..
+    "6 a;40 -;6 a;40 -;6 start;100 -;6 a;100 -;6 b;60 -;6 down;40 -;6 down;40 -;6 down;40 -;6 down;40 -;" ..
+    "6 down;40 -;6 down;40 -;6 a;60 -")
+end
 
 local formSeen, scriptCount, formLast = false, 0, -1
 L.on_exec(FORM_INPUT, FORM_INPUT, function()
