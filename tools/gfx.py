@@ -37,6 +37,11 @@ MAP_PATCHES = [
      "Items submenu SCR 01E3774 row 2: Sort in 2,14-2,17"),
     (0x1E38DC, [0x1FF, 0x088, 0x089, 0x08A, 0x08B, 0x1FF], [0x04D, 0x088, 0x089, 0x08A, 0x08B, 0x052],
      "Database submenu SCR 01E38A4 row 4: Keywords in 2,13 4,8-4,11 2,18"),
+    # Team setup menu SCR 0x3B2854 (block 03B25A4 tiles, word = 32 * row + col; tools/gfx_text.py draws the runs)
+    (0x3B2876, [0x08, 0x09, 0x0A, 0x27, 0x09, 0x28, 0x0A, 0x29], [0x08, 0x09, 0x0A, 0x27, 0x28, 0, 0, 0],
+     "team menu SCR 03B2854 row 1: Add/Swap in 0,8-0,10 1,7 1,8"),
+    (0x3B28A6, [0x47, 0x48, 0x49, 0], [0x29, 0x47, 0x48, 0x49], "team menu SCR 03B2854 row 3: Remove in 1,9 2,7-2,9"),
+    (0x3B28D6, [0x67, 0x68, 0x69, 0x09], [0x67, 0x68, 0x69, 0], "team menu SCR 03B2854 row 5: Done in 3,7-3,9"),
 ]
 # PDA timetable palette status line "月曜日 1時間目 = [icon]" (PAT at 0x22F194, block 022CF64; entries u16 size,
 # s16 x, s16 y, u16 tile, screen x = 120 + x) -> "Mon, period 1 = [icon]": weekday frames (Mon..Sat) move the
@@ -116,9 +121,16 @@ def blocks(rom):
     return ecd.scan(rom)
 
 
+# IMG blocks with no PLT of their own -> an IMG block whose PLT (16 distinct colours) to borrow: only the indices
+# matter, the PNG is converted back by colour. 01E9764 (Dyna Customize title etc.) uses PDA OBJ palette 0 in game.
+PLT_FOR = {0x1E9764: 0x22CF64}
+
+
 def palette_for(rom, off, bl=None):
     """-> (list of RGB, PLT offset): the first PLT block after IMG block `off` (the game stores them in pairs)."""
     bl = bl or blocks(rom)
+    if off in PLT_FOR:
+        return palette_for(rom, PLT_FOR[off], bl)
     i = [b[0] for b in bl].index(off)
     for j in range(i + 1, min(i + 4, len(bl))):
         if bl[j][3] == "PLT":

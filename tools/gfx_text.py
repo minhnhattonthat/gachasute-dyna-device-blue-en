@@ -314,6 +314,28 @@ ATLASES = {
         },
         "clear": {1: {1, 15}, 4: {4, 14, 12}},
     },
+    # Dyna Customize title (mode 13 = scene mode_customize; OBJ 2D, block 01E9764 22 tiles wide, OBJ tile 520 + 32 *
+    # row + col; no PLT: gfx.PLT_FOR). ダイナカスタマイズ = r0-1 c2-14 (screen x64-167) then r2-3 c9-13 (x168-207),
+    # timetable-logo style: gradient f..b, drop shadow 2 on navy 1.
+    0x1E9764: {
+        "redraw": [("Customize Dyna", [(16, 0, 120, 16), (72, 16, 112, 32)], "row", TT_GRAD, 2, "vwf2", 1, TT_KILL)],
+    },
+    # Team setup (mode 33 = scene mode_team). Title チームへんせい: OBJ block 03B29B4 (OBJ tile 32 * row + col),
+    # three 32x16 pieces r0-1 c5-16 = atlas x40-135, timetable-logo style. Menu words: BG0 tiles of block 03B25A4
+    # (11 tiles wide; white ink 1 on transparent, no shadow), laid out by the raw SCR at 0x3B2854 (12x7, words =
+    # 32 * row + col): ついか、いれかえ / はずす / けってい shared 12 kana tiles (r0 c8-10, r1-3 c7-9); gfx.MAP_PATCHES
+    # gives each line its own run: Add/Swap 5 tiles, Remove 4, Done 3. HP / Lv (c10 rows 1-2) are kept.
+    0x3B29B4: {
+        "redraw": [("Team Setup", (40, 0, 136, 16), "row", TT_GRAD, 2, "tallb", 1, TT_KILL)],
+    },
+    0x3B25A4: {
+        "screens": [{"cells": [[8, 9, 10, 18, 19], [20, 29, 30, 31, None], [40, 41, 42, None, None]],
+                     "redraw": [("Add/Swap", (0, 0, 40, 8), "row", 1, None, "vwf", 0),
+                                ("Remove", (0, 8, 32, 16), "row", 1, None, "vwf", 0),
+                                # the trailing space keeps Done 1 px from the edge like the others; the box
+                                # spans all 3 tiles so the old kana's right part is cleared too
+                                ("Done ", (0, 16, 24, 24), "row", 1, None, "vwf", 0)]}],
+    },
     # PDA timetable (mode 8; OBJ 2D, block 022CF64, block tile n = OBJ tile n; scenes mode_pda_calendar2, pda_tt_a).
     # Lettering f..b gradient + drop shadow 2: logo 時間割 x32-95 y0-15 (navy 1), weekday header 月..土 16x16 at
     # x96+16k, palette title 時間割設定パレット x32-175 y16-31. Status line (ink 10, shadow 2, y32-47; PAT frames
@@ -392,7 +414,11 @@ def glyph_pixels(text, font):
     for ch in text:
         adv, rows = f[ch]
         out += [(x + k * gx + sx, ky * gy + sy) for gy, bits in enumerate(rows) for gx in range(adv - 1)
-                if bits & (0x80 >> gx) for sx in range(k + bold) for sy in range(ky)]
+                if bits & (0x80 >> gx) for sx in range(k) for sy in range(ky)]
+        if bold:   # smear right, but keep 1 px counters open (m, w): only where the next 2 columns are empty
+            out += [(x + gx + 1, ky * gy + sy) for gy, bits in enumerate(rows) for gx in range(adv - 1)
+                    if bits & (0x80 >> gx) and not bits & (0x80 >> (gx + 1)) and not bits & (0x80 >> (gx + 2))
+                    for sy in range(ky)]
         x += k * adv + 2 * bold   # bold: the smear fills the font's 1 px gap, so add 2
     out = sorted(set(out))
     return out, x - k
@@ -413,7 +439,28 @@ def redraw(a, spec):
                 vals = [v for v in vals if v not in clear.get(ink, {ink})] or vals
                 bg[dx, dy] = max(set(vals), key=vals.count)
         vote_bg[name] = bg
-    for text, (x0, y0, x1, y1), fill, ink, shadow, font, dy, *own in boxes:
+    for item in boxes:
+        if isinstance(item[1], list):   # segments: atlas boxes of one height shown side by side on screen
+            segs = item[1]
+            h = segs[0][3] - segs[0][1]
+            strip = type("Strip", (), {})()
+            strip.W = sum(x1 - x0 for x0, _, x1, _ in segs)
+            strip.px = [0] * (strip.W * h)
+            ox = 0
+            for x0, y0, x1, y1 in segs:
+                for y in range(h):
+                    for x in range(x0, x1):
+                        strip.px[y * strip.W + ox + x - x0] = a.px[(y0 + y) * a.W + x]
+                ox += x1 - x0
+            redraw(strip, {**spec, "redraw": [(item[0], (0, 0, strip.W, h)) + tuple(item[2:])], "votes": {}})
+            ox = 0
+            for x0, y0, x1, y1 in segs:
+                for y in range(h):
+                    for x in range(x0, x1):
+                        a.px[(y0 + y) * a.W + x] = strip.px[y * strip.W + ox + x - x0]
+                ox += x1 - x0
+            continue
+        text, (x0, y0, x1, y1), fill, ink, shadow, font, dy, *own = item
         # ink may be a list: this box's own per-glyph-row gradient (another box may use the same index flat);
         # such a box needs its own clear set
         grad = ink if isinstance(ink, list) else spec.get("grad", {}).get(ink)
