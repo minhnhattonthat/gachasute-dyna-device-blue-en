@@ -10,7 +10,9 @@ Updated at the end of every session. Keep it to what the next session needs; his
   public (description now uses the game title), release v1.0
   (https://github.com/minhnhattonthat/gachasute-dyna-device-blue-en/releases/tag/v1.0) with the zip (sha1
   873f702d..., patch sha1 45b739e2...); a rebuild from HEAD reproduced build sha1 55ab465e, uploaded zip hash checked.
-- **v1.1 (2026-11-16, not released yet):** (1) **Postal-code addresses romanized** (D21): `tools/addr_en.py`
+- **v1.1 published 2026-11-16** (https://github.com/minhnhattonthat/gachasute-dyna-device-blue-en/releases/tag/v1.1,
+  zip sha1 cef7e0e8..., patch sha1 cbea88d8..., build sha1 7ea991d7, CRC32 C02EB037; all release.py gates passed,
+  visual tour waived for this build with the address screens re-shot). Next: player bug reports. Contents: (1) **Postal-code addresses romanized** (D21): `tools/addr_en.py`
   (needs fugashi + unidic-lite in a venv, sources cached in `work/addr/src/`) -> `script/addr_*.tsv`;
   `tools/addrdb.py apply_en` packs them with an ARM builder into the old slot (docs/re/text.md "Address
   database"); `tools/debug/postal_check.py CODE..` types codes in game and compares with the model (0600001,
@@ -19,8 +21,6 @@ Updated at the end of every session. Keep it to what the next session needs; his
   (prefecture + city only); now － again (test in tests/test_addrdb.py). (3) "not in service" laid out on the
   field grid. (4) **Story**: the 16 round-3 Minors (r13, 18 entries) + 5 round-4 fixes (r14); story gate 12/12 ok
   (rounds 4-5, `work/qa/story/verdicts/r4.tsv`, `r5.tsv`); fresh style-only Minors waived in polish.md.
-  Next: `release.py --version 1.1` (the visual tour gate needs `qa_gate.py waive` for this build: text + address
-  engine, screens in work/qa/addr), then publish v1.1 when the user says so.
 - **Open (not blocking):** ~4% of town names read by UniDic or split by machine (`src` column of
   script/addr_town.tsv: unidic, pieces+unidic); 3040 of 120701 records still cut a word or leave < 4 typed chars.
   The last **95 strings are waived although reachable in play** (hand rows
