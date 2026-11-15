@@ -509,6 +509,19 @@ ATLASES = {
     0x1EFFF4: {
         "redraw": [("Free Battle", (104, 0, 200, 16), "row", TT_GRAD, 2, "tallb", 1, TT_KILL)],
     },
+    # Card trade (scenes mode_card, mode_card2; OBJ, block 024D4B4 20 tiles wide, OBJ tile 32 * row + col): header
+    # めいしこうかん = r0-1 c4-11 then r2-3 c4-11 (screen x4-131; navy from x40 in r0-1). Buttons めいしの.. r0-1
+    # c13-19 / じぶんの r2 c12-17 (link screens) unseen, still JP.
+    0x24D4B4: {
+        "redraw": [("Card Trade", [(40, 0, 96, 16), (32, 16, 96, 32)], "row", TT_GRAD, 2, "vwf2", 1, TT_KILL)],
+    },
+    # Card trade panels (BG1 char 0x8000, block 024C1C4 27 tiles wide, tile 32 * row + col): アドレスデータ = cells
+    # 2,3-6 + 3,3-5, ダイナ = 3,6 + 4,3-4 (8 px kana, gradient f f f e e d c at y0-6 on transparent).
+    0x24C1C4: {
+        "redraw": [(t, segs, "row", [15, 15, 15, 14, 14, 13, 12], None, "vwf", 0, {12, 13, 14, 15}, "left")
+                   for t, segs in (("Address Data", [(24, 16, 56, 24), (24, 24, 48, 32)]),
+                                   ("Dyna", [(48, 24, 56, 32), (24, 32, 40, 40)]))],
+    },
     # Resident map (scenes dbg_world_map, menu_resident_map; OBJ tile 544 + 32 * row + col, block 01F4284 29 tiles
     # wide): L ズームアウト button r0-1 c11-20, ズームイン R r2-3 c11-20 (dark ink 3 with 4 shading on a 5-8
     # gradient); すんでいる r4 c11-15 + ダイナ c16-18 (shown as one 64 px label), デバイス c19-22, flat ink 12.
