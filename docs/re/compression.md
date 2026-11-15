@@ -20,7 +20,13 @@ Only one block in the whole ROM (0x0E6A58, 0x3098 bytes out); one `swi 0x12` cal
   ports it and gives back all 3114 blocks byte for byte (`python -X utf8 tools/ecd.py verify ROM`, ~30 s; the
   test checks every 8th block).
 - Block spacing: blocks sit 0-76 bytes apart (alignment/padding varies); a re-encoded block that grows must be
-  relocated with its pointer fixed (graphics phase; the pointers are not mapped yet).
+  relocated with its pointer fixed.
+- **Pointers - verified (phase 8):** resource table 0x080BBDE8 holds 3 archive pointers (0x0E7FA4 graphics,
+  0x44C754 address DB, 0x702BC4 script file). Loader 0x08003074 (r0 = archive, r1 = index):
+  `base = table[r0]; return base + base[r1]` (u32 offsets relative to the archive start, count = base[0]/4).
+  Archive 0 (0x0E7FA4) has 9004 entries and references all 3114 ECD blocks (several indices share a block).
+  Callers: 0x08003118 (decompress to a buffer, lr 0x08003163) and 0x0800308C. `tools/gfx.py` relocates a grown
+  block to free space and rewrites every archive word pointing at it (`archive_words`).
 
 ## Payloads
 | Tag | Layout |

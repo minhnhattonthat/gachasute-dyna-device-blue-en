@@ -1,6 +1,8 @@
 # Bytes the English build may change (hex, inclusive), read by tools/romwrite.py. The build may also rewrite every
 # pointer word the extractor lists (script/*.json "ptrs"), so those are not repeated here. Anything else -> build fails.
 0049AC-0049B3   VWF hook: ldr r1,[pc]; bx r1; .word renderer (tools/vwf.py HOOK_AT)
+0E7FA4-0EFF33   graphics archive offset words (tools/gfx.py: a relocated block's words)
+0EFF34-44B581   ECD blocks (tools/gfx.py: an edited block written in its old slot)
 0AF6D0-0BB7BF   string region: every string's slot (script/strings_*.json, in-place English)
 0BBDF0-0BBDF3   resource directory word -> script file (tools/script.py DIR_WORD)
 702BC4-747B43   script file, original slot (tools/script.py BASE..END)

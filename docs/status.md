@@ -42,7 +42,14 @@ Updated at the end of every session. Keep it to what the next session needs; his
   2. Tours through changed scenes with contact sheets, `qa_gate.py init/check`, verdicts by a fresh read-only pass
      (no subagents in Orca: do it yourself or `codex exec`). Text coverage (`textcover.py`), `inkbox.py` on every
      choice and centred menu box.
-  3. Graphics text (`docs/re/graphics.md`): ポーズ, opening movie spec panels, menu bar / item submenu / form labels,
+  3. Graphics text (`docs/re/graphics.md`). **Pipeline ready (2026-11-15):** every ECD block is reached through
+     archive 0 at 0x0E7FA4 (docs/re/compression.md "Pointers"); `tools/gfx.py` exports a block to PNG and
+     `gfx.apply` (called by build.py, a no-op until `gfx/<OFFSET>.png` exist) writes edited art in place or
+     relocates it (tests/test_gfx.py). Pilot = field menu bar 01E30D4: its BG0 tile lists per button are in
+     docs/re/graphics.md "Field menu bar". Next: a label generator (`tools/gfx_text.py`: label = atlas tile
+     grid + English text, drawn with fonts/vwf8.txt in ink index 1 at y 3-9 of each 16 px band), System / Items /
+     Party / Residents / Database, build, warp `menu` + `menu_items`, zoomed shot. Then the submenu words (atlas
+     rows 2-4: dump `menu_items`, `menu_party`, `menu_save` with ppudump for their tile lists). Others: ポーズ, opening movie spec panels, menu bar / item submenu / form labels,
      name-entry keyboard tabs + field labels (かな/カナ/ABC..., なまえ/ニックネーム/せいべつ, START けってい; scene
      `keyboard`, `work/qa/p7_kb/hold.png`), staff roll (mode 22, kana not SJIS).
   4. In-game checks listed in `docs/polish.md` (r06 field pads, the 138 guess-budget strings, s468 R5 width,

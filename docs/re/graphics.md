@@ -19,6 +19,23 @@ its font at run time (dialogue, the boot date prompt, the profile popup) is stri
 - Not yet covered: raw (uncompressed) tiles outside ECD, the unknown file at 0x0E7FA4, the one BIOS-LZ77 block
   at 0x0E6A58, sprites (OAM) on screens past the profile form. Extend with the debug tool's tour (phase 2/5).
 
+## Field menu bar (phase 8 pilot notes, block 01E30D4)
+- 01E30D4 is a 27x5-tile atlas (palette 01E3574; ink index 1 = white, 0 = transparent, 2-9 frame greys). It is
+  copied into BG char block 2 (VRAM tile 1541 + 32*row + col) and BG0's map (screen block 0, 2 rows, hofs 16)
+  picks atlas tiles per button. Dump: `work/qa/menu_probe/ppu_001820.*` (warp `menu`, CONT=1, ppudump DUMP_AT=1820).
+- Buttons (atlas row,col; top row / bottom row of the 16 px bar):
+  システム `0,0-0,5` / `1,0-1,5`; もちもの `0,0 0,6-0,9 0,5` / `1,0 1,6-1,9 1,5`; パーティ `0,0 0,10-0,13 0,5` /
+  `1,0 1,10-1,13 1,5` (caps 0,0 / 0,5 shared: text only in the 4 middle tiles, 32 px);
+  じゅうみん `0,14-0,19` / `1,14-1,19` (48 px); データベース `0,20-0,23 2,22 2,23` / `1,20 4,12 1,22 1,23 3,22 3,23`
+  (the map shows frame-only tile 4,12 in place of 1,21: check whether another screen uses 4,12 before drawing
+  ink into it, else move the ink of that column into rows 0-7 or patch the map).
+- Glyphs: 7 rows at atlas y 3-9 of each 16 px band (crossing the tile-row boundary at y 8); VWF caps fit.
+- Atlas rows 2-4 hold the submenu words (つかう ならびかえ すてる, データセーブ おわる, ステータス そうび
+  かえらせる にがす, マップ ダイナ キーワード デバイス, バトルアニメ...): dump their screens the same way
+  (`menu_items`, `menu_party`, `menu_save` scenes) to get their tile lists before redrawing.
+- `tools/gfx.py export OFF` writes `work/gfx/orig/OFF.png` + x4; English art goes in `gfx/OFF.png` (same size,
+  palette colours only); `gfx.apply()` (not yet called by build.py) writes it in place or relocates it.
+
 ## Rows (ROM offset of the ECD block)
 | Offset | Sheet | Japanese | Gloss | Kind |
 |---|---|---|---|---|

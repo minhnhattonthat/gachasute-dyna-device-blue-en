@@ -16,6 +16,7 @@ from pathlib import Path
 ROOT = Path(__file__).resolve().parent.parent
 sys.path.insert(0, str(ROOT / "tools"))
 import check_rom  # noqa: E402
+import gfx  # noqa: E402
 import insert  # noqa: E402
 import romwrite  # noqa: E402
 import script  # noqa: E402
@@ -58,6 +59,9 @@ def build(rom, scripts=None, english=False, entries=None, marker=False, report=N
             free, inplace, moved = insert.place_strings(out, entries, marker, free, vwf.VWF_AT, log)
             if report is not None:
                 report.update(strings_in_place=inplace, strings_moved=moved, free_used_to=free)
+        free = gfx.apply(rom, out, free, log, limit=vwf.VWF_AT)
+        if report is not None:
+            report["free_used_to"] = free
         vwf.apply(out, log)
     return out
 

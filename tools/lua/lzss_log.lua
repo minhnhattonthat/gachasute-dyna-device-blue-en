@@ -14,6 +14,8 @@ L.on_exec(0x08005680, 0x08005680, function()
   end
   local r0 = st["cpu.r0"] or st["cpu.r[0]"] or st["cpu.R0"]
   local r1 = st["cpu.r1"] or st["cpu.r[1]"] or st["cpu.R1"]
-  L.log(string.format("f%d lzss src=%s dst=%s", L.frame,
-    r0 and string.format("%08X", r0) or "?", r1 and string.format("%08X", r1) or "?"))
+  local lr = st["cpu.r14"] or st["cpu.r[14]"] or st["cpu.R14"]
+  L.log(string.format("f%d lzss src=%s dst=%s lr=%s", L.frame,
+    r0 and string.format("%08X", r0) or "?", r1 and string.format("%08X", r1) or "?",
+    lr and string.format("%08X", lr) or "?"))
 end)
