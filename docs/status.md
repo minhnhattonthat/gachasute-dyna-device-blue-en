@@ -8,9 +8,22 @@ Updated at the end of every session. Keep it to what the next session needs; his
   Dyna get + naming / battle results / fortune box / item shop / Dyna Center / auction / device list / dev status /
   free battle / resident map / card trade / tactics battle board / staff roll / money diary dates / dev status
   words / field HUD status word / pause done). Phase 7 done 2026-11-15. Last build: `build/dynadevice_blue_en.gba`
-  2026-11-15 (worker 21), sha1 3677c99c..., check.py ok, lint 0/0 (137 strings wider than JP under
+  2026-11-15 (worker 22), sha1 eb9071f3..., check.py ok, smoke ok, lint 0/0 (137 strings wider than JP under
   guessed budgets: `lint.py --guess`, `docs/review/guess_wide.txt`).
-- **Latest session (2026-11-15, worker 21):** **JP tour finished** (197/197 in `work/qa/tour_jp`). **Visual QA run
+- **Latest session (2026-11-15, worker 22):** **Open VQA bugs (2)-(6) fixed** (verdicts in
+  `work/qa/verdicts/zz_review.tsv`, shots `work/qa/fix22/`): date rows t0B90B4 / t0B8F50 / t0B98C4 spaced so the
+  code-drawn 16 px digits sit in the JP cells ("2000 / 00 / 00"; lint now accepts full-width ０-９ and －, which
+  encode_en keeps as game-font SJIS units), time placeholder t0B90D8 "－－:－－"; money diary week cells S M T W T
+  F S (**D19**: one 8 px tile per cell, table 0x0D2614; the header "200/ 12" hiding a digit matches the JP 年);
+  profile form おわる = 020EB44 tiles 7,17-24 (the "two tiny boxed words") -> Quit; `ending_full` holds at 11200
+  (English ending runs longer). Found with a pixel-shape matcher (screenshot 8x8 blocks vs VRAM tiles): worth
+  promoting to tools/ if needed again. Possible leftover: block 0224BA4 is a copy of the JP kana index tabs (ア カ
+  サ..) loaded at the same VRAM base as 020EB44 on the form: check whether any screen shows it.
+  **Text coverage sweep** (`cover.py msgs --hold 1500 --jobs 1`) restarted, reached s454+ of s833.
+  **English tour re-run on build eb9071f3** started (`work/qa/fix22/tour.log`, `--jobs 1`): when it's done,
+  `qa_gate.py init work/qa/manifest.tsv work/qa/tour --build work/qa/tour/tour_build.gba`, `todo`, review the
+  changed sheets, `check`.
+- **Session before (2026-11-15, worker 21):** **JP tour finished** (197/197 in `work/qa/tour_jp`). **Visual QA run
   over all 17 chunks** (`tools/vqa_run.py`, verdicts in `work/qa/verdicts/`); my second look is
   `work/qa/verdicts/zz_review.tsv` (newest file wins: false positives, player-typed JP names from the JP-made save,
   two-letter weekday cells = new **D17**). Fixed: minigame help note t0BB4FC " (Timer keeps going.)" (crossed the
