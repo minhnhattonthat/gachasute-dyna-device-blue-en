@@ -14,14 +14,14 @@ Updated at the end of every session. Keep it to what the next session needs; his
   over all 17 chunks** (`tools/vqa_run.py`, verdicts in `work/qa/verdicts/`); my second look is
   `work/qa/verdicts/zz_review.tsv` (newest file wins: false positives, player-typed JP names from the JP-made save,
   two-letter weekday cells = new **D17**). Fixed: minigame help note t0BB4FC " (Timer keeps going.)" (crossed the
-  frame; `work/qa/fix21/mini_help`). `qa_gate.py check`: 197 sheets, **16 not ok**, and STALE (tour on bc6b43c7).
-  **Open VQA bugs (real, graphics/code):** (1) PDA home label "To-do" -> glossary "Errands" (pda_up, pda_up3, pda_up6,
-  pda_down4, pda_save, pda_saving) and the home icon "DynaDevice" -> "Dyna Device" if it fits; (2) deadline date
+  frame; `work/qa/fix21/mini_help`). `qa_gate.py check`: 197 sheets, **8 not ok**, and STALE (tour on bc6b43c7).
+  PDA home "To-do" / "DynaDevice" labels ruled **D18** (space-limited, not bugs).
+  **Open VQA bugs (real, graphics/code):** (2) deadline date
   row on the errand/schedule add screens "20 0 0 / 0 0 /   0 0": digits and separators misplaced (pda_errand_add,
   pda_errand_ra, pda_sched_add; JP "2000年00月00日", code in `gfx.DATE_PATCHES` area, graphics.md "Money diary
   dates"); (3) money diary week view (pda_money_rr): weekday words under the dates clipped ("Sc3", "Mc") and the
-  header year "200Ч 12" garbled (the 年 tile); (4) timetable / schedule weekday headers Mon..Sat in the big font
-  look squeezed (pda_tt_r, mode_pda_calendar2, mode_pda_schedule): check zoomed, maybe fine; (5) おわる button on the
+  header year "200Ч 12" garbled (the 年 tile); (4) mode_pda_schedule: weekday words under the dates clipped (same
+  cells as (3)?); (5) おわる button on the
   profile form (mode_form, form_scroll; known form leftover); (6) `ending_full`: the English capture shows an empty
   lobby where the JP shows the ending art + credits (warp timing on the longer English text?). After fixing: re-run
   the English tour (all scenes, new build) + `qa_gate.py init --build`, re-run `vqa_run.py` on changed sheets.
@@ -30,7 +30,7 @@ Updated at the end of every session. Keep it to what the next session needs; his
   (strings.tsv address - 6), A mashed; logs `work/qa/cover/j/sSSS.KK/`. Test s748: 38/38 in 7 runs. **Full sweep
   running at hand-off** (background python of this worker's shell, log `work/qa/cover/msgs.log`; ~30 scripts done):
   before resuming, check no `cover.py msgs` python is alive, then rerun the same command (finished runs are skipped).
-  Coverage was 3709/5536 after s748. **Strings (1087 unshown)** need scenes: `cover_tables.py --unshown` (biggest:
+  Coverage 3859/5536 at hand-off (590 messages left; sweep at s122, scripts go to s833). **Strings (1087 unshown)** need scenes: `cover_tables.py --unshown` (biggest:
   food/item descriptions in the mixed table 0x0BDAE8-0x0BFAEC, referenced from code at 0x4E2A0 / 0x4E5C0 / 0x5B538
   / 0x5B568 / 0x96488 literal pools; family-word list 0CEE48; skills 0C2864; Database help pages 0D05A0 / 0D0684 /
   constellation pages 0D0CB0..). Idea: hook the ldr that indexes the table and step the index (or stock every item
@@ -384,7 +384,7 @@ Updated at the end of every session. Keep it to what the next session needs; his
   BATTLE START (`dbg_battle`) reaches a real battle. Runs without `--sav` share `tools/mesen/Saves/<rom>.sav`.
   Warp `intro` reaches script 1 at ~f3000 (form + title first): use `--frames 6000`.
 - **Memory:** the host's AWPerformance.SCSubAgent (Dell service) held 3-7 GB; run tours one emulator at a time.
-- **Open bugs:** visual-QA bugs (1)-(6) under worker 21 above (PDA "To-do"/"DynaDevice" labels, deadline date
-  row, money diary week view, form おわる, ending_full capture).
+- **Open bugs:** visual-QA bugs (2)-(6) under worker 21 above (deadline date row, money diary / schedule week
+  view weekdays, form おわる, ending_full capture).
 - **Waiting on the user:** (non-blocking) the address database (~2.6 MB of real Japanese place names, 0x44C754):
   default plan is Hepburn romanization from Japan Post KEN_ALL readings by postal code; see docs/re/text.md.
