@@ -21,15 +21,18 @@ Updated at the end of every session. Keep it to what the next session needs; his
   (prefecture + city only); now － again (test in tests/test_addrdb.py). (3) "not in service" laid out on the
   field grid. (4) **Story**: the 16 round-3 Minors (r13, 18 entries) + 5 round-4 fixes (r14); story gate 12/12 ok
   (rounds 4-5, `work/qa/story/verdicts/r4.tsv`, `r5.tsv`); fresh style-only Minors waived in polish.md.
-- **Dino Device Red support (2026-11-16, D22, not released yet):** `rom/Gachasute! Dino Device Red (Japan).gba`
+- **v1.2 published 2026-11-16** (https://github.com/minhnhattonthat/gachasute-dyna-device-blue-en/releases/tag/v1.2):
+  two zips. Blue: zip sha1 3a0b8f70..., patch sha1 95b9ce94..., build sha1 068a0450, CRC32 399C90E6. Red: zip sha1
+  3760901a..., patch sha1 154aff60..., build sha1 e4a518f4, CRC32 0FA613A9. All release.py gates passed (visual tour
+  waived for build 068a0450: only the title changed, Blue's title pixel-identical); Red smoke ok.
+- **Dino Device Red support (2026-11-16, D22, in v1.2):** `rom/Gachasute! Dino Device Red (Japan).gba`
   (sha1 9086aa71..., optional) differs from Blue in 4 bytes; build.py now also writes `build/dinodevice_red_en.gba`
   (tools/red.py) and release.py makes a second zip `Gachasute_Dino_Device_Red_EN_v<ver>.zip`. Title fix: names in
   all four title PATs, moved off Red's badge (rows 10-11 c24-31) and partly into freed PRESS START tiles; Blue's
   title stays pixel-identical (mode_title shots), Red's checked in work/qa/title3_*. Red warps checked: mode_title,
   intro, battle_place, e7, e19 match Blue's text. **Menu/fscript warps don't run on Red:** Red won't continue the
   Blue-made `work/states/tutorial_jp.sav` (the JP Red ROM stalls on the title too), so a Red save would need
-  `tools/debug/mksave.py` on the Red ROM. Next: the user picks the version number, then release.py (gates re-run;
-  the visual tour needs a waiver or re-shoot for the title change), publish only with the user.
+  `tools/debug/mksave.py` on the Red ROM. Next: player bug reports (ask which version a report is from).
 - **Open (not blocking):** ~4% of town names read by UniDic or split by machine (`src` column of
   script/addr_town.tsv: unidic, pieces+unidic); 3040 of 120701 records still cut a word or leave < 4 typed chars.
   The last **95 strings are waived although reachable in play** (hand rows
