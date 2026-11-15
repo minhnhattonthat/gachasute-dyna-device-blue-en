@@ -252,8 +252,11 @@ PLT_FOR = {0x1E9764: 0x22CF64,
 def distinct(cols):
     out = []
     for c in cols:
-        while c in out:
-            c = (c[0], c[1], c[2] + 1 if c[2] < 255 else c[2] - 1)
+        # the first free blue above, then below (a colour repeated 8+ times, as 0432534's 11 x magenta, used to
+        # bounce between 254 and 255 for ever); the upward order keeps the colours of PNGs drawn before
+        if c in out:
+            c = next((c[0], c[1], b) for b in [*range(c[2] + 1, 256), *range(c[2] - 1, -1, -1)]
+                     if (c[0], c[1], b) not in out)
         out.append(c)
     return out
 
@@ -371,6 +374,15 @@ def apply(rom, out, free, log=None, limit=None):
         romwrite.put(log, out, free, blob, f"gfx {path.stem} (moved)")
         for w in words[off]:
             romwrite.put(log, out, w, struct.pack("<I", free - ARC), f"gfx {path.stem} archive word")
+        free = (free + len(blob) + 15) & ~15
+    if (GFX / "0432534.png").exists():   # staff roll: its English sprite frames outgrow the old PAT (credits.py)
+        import credits
+        blob = credits.pat_blob()
+        if limit is not None and free + len(blob) > limit:
+            raise ValueError(f"credits PAT: no free space for {len(blob)} bytes")
+        romwrite.put(log, out, free, blob, "credits PAT (moved)")
+        for w in words[credits.PAT]:
+            romwrite.put(log, out, w, struct.pack("<I", free - ARC), "credits PAT archive word")
         free = (free + len(blob) + 15) & ~15
     return free
 

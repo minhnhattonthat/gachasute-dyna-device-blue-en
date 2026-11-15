@@ -237,6 +237,17 @@ right after the art: `tools/pat.py --scan 25F000 260500` lists every frame (size
   (`tools/lua/lzss_log.lua` over 13 scenes): it is the link battle's board (Joker etc. are link roles, s210 /
   s228). The TSBTL debug menu (`dbg_tsuusin`) TACT START goes to TSUSIN MODE SELECT, which waits for a cable.
 
+## Staff roll (mode 22, block 0432534 + PAT 0432D44, done worker 15)
+The credits are OBJ sprites, not BG text: block 0432534 (IMG 224x48 = 28x6 tiles, at OBJ VRAM 0x10000, 2D
+mapping) holds 8x16 kana glyphs (tile n over n + 32), small 8x8 dakuten pieces in row 5, digits 2 / 0 (r4 c15-16)
+and a 16x16 (c) mark (r4 c25). The words are the raw PAT at ROM 0x432D44 (archive-0 word 0x0EFEB4, right after
+the charset's PLT 0x432D14): 11 frames = 11 cards, one sprite per kana, anchor at screen 120,51, cards scroll up
+over the pictures (scenes `credits` 9600 frames, `credits_mid`). `tools/credits.py` draws an English charset
+(fonts/vwf8.txt letters, white with a 1 px black shadow, the (c) mark kept) into gfx/0432534.png and builds a new
+PAT (403 sprites, 3298 bytes; the old slot holds 0x8E0) that gfx.apply writes to free space, repointing the
+archive word. Names: Western order, Hepburn without macrons (D1/D2). Shots: `work/qa/credits_en/`.
+The palette of 0432534 repeats magenta 11 times: gfx.distinct used to loop for ever on it (fixed, tested).
+
 ## Fortune box (block 0231524, done worker 12)
 Boot with a save: date prompt, A, then きょうの うんせい (scene `fortune`, `work/qa/gfx_en/fortune/hold_x3.png`).
 BG3 = the swirl background (block rows 0-10), BG1 = the box text from SCR 0x234034 (30x20, words 32 * row + col,
@@ -290,7 +301,7 @@ itself is a sprite). Rows 11-13 c0-11 / c24-31 hold glyph-like tiles no map of t
 | 03B9D04 | sheet_019 | charset | Character set | font/charset |
 | 03D5DB4 | sheet_020 | charset | Character set | font/charset |
 | 03D7FD4 | sheet_020 | Rボタンをおすとゲームのせつめいが／ミニゲーム／のあそびかた／はじめるＡＢスタート／［断片・判読困難］ | Press R for game instructions / Minigame / How to play / Start; A, B, Start / [fragmented, unclear] | menu-label |
-| 0432534 | sheet_021 | charset | Character set | font/charset |
+| 0432534 | sheet_021 | charset (staff roll kana, done: "Staff roll") | Character set | font/charset |
 | 0449734 | sheet_021 | ガチャステ！／ダイナデバイス／ブルー／レッド／［小字判読困難］ | Gachasute! / Dyna Device / Blue / Red / [small text unclear] | title/logo |
 
 Counts by kind: menu-label 29, font/charset 10, sign/other 2, button-hint 2, title/logo 1. Total 44 blocks.

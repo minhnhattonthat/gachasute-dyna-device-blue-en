@@ -90,6 +90,34 @@ class Gfx(unittest.TestCase):
         for code_tile in ((3, 0), (3, 1), (3, 2), (3, 3), (3, 4), (5, 19)):
             self.assertNotIn(code_tile, gfx._S5)
 
+    def test_distinct_survives_many_repeats(self):
+        """0432534's PLT repeats magenta 11 times: distinct() must end and keep the first repeats' old colours."""
+        out = gfx.distinct([(248, 0, 248)] * 11)
+        self.assertEqual(len(set(out)), 11)
+        self.assertEqual(out[:3], [(248, 0, 248), (248, 0, 249), (248, 0, 250)])
+
+    def test_credits_pat_is_on_screen_and_relocated(self):
+        """Staff roll (credits.py): 11 frames like the old PAT, every 8x16 letter inside the 240 px screen (anchor
+        x 120), each glyph cell clear of the kept copyright mark, the new PAT parses back to the laid-out sprites,
+        and one archive word (the one gfx.apply repoints) reaches the old PAT."""
+        import credits
+        import pat
+        frames = credits.layout()
+        self.assertEqual(len(frames), 11)
+        for sp in frames:
+            for x, y, t, size in sp:
+                w = 16 if size == credits.SIZE_16X16 else 8
+                self.assertTrue(-120 <= x and x + w <= 120, (x, t))
+        slots = set(credits.glyphs().values())
+        self.assertNotIn((2, credits.COPY[0]), slots)
+        blob = credits.pat_blob()
+        rom = bytearray(self.rom) + bytearray(len(blob))
+        rom[len(self.rom):] = blob
+        got = pat.frames(bytes(rom), len(self.rom))
+        self.assertEqual([[(x, y, t) for _, _, _, x, y, t, _ in ents] for _, ents in got],
+                         [[(x, y, t) for x, y, t, _ in sp] for sp in frames])
+        self.assertEqual(gfx.archive_words(self.rom)[credits.PAT], [0x0EFEB4])
+
     def test_battle_board_titles_have_their_own_tiles(self):
         """With gfx.MAP_PATCHES applied, the Move title (PAT 025F094) no longer shares Place Dyna's tiles and the L
         Status frames (PAT 025F134 frames 0-1) show no tile at two x positions (the JP ス was drawn twice)."""
