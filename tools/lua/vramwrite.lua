@@ -1,6 +1,7 @@
 -- Log the first writes into an OBJ VRAM range (default: the PDA home label アドレス, OBJ tiles 172-175):
 -- frame, address, value, pc, lr, r0-r3. Run beside warp.lua: regen.py SCENE --probe tools/lua/vramwrite.lua
-local LO, HI, n = 0x06011580, 0x060115FF, 0
+-- VW_LO / VW_HI (globals, e.g. from a one-line probe listed first) pick another range.
+local LO, HI, n = tonumber(VW_LO) or 0x06011580, tonumber(VW_HI) or 0x060115FF, 0
 L.on_write(LO, HI, function(addr, value)
   if not value or value == 0 or L.frame < (tonumber(VW_FROM) or 600) then return end   -- skip clears / boot screens
   n = n + 1

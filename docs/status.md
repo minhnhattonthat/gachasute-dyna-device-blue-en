@@ -2,15 +2,41 @@
 
 Updated at the end of every session. Keep it to what the next session needs; history is in git.
 
-- **Phase:** 8. QA in the emulator: in progress (coverage masha-1 sweep done, masha-2 sweep running; field menu,
+- **Phase:** 8. QA in the emulator: in progress (coverage masha-1 + masha-2 sweeps done; field menu,
   profile form, keyboard, PDA home + wheel / address book / calendar / money diary / calculator / memo / timetable
   / save dialog / link menu / link check / title screen / Customize Dyna / Team Setup / Place Dyna / minigames /
   Dyna get + naming / battle results / fortune box / item shop / Dyna Center / auction / device list / dev status /
-  free battle / resident map / card trade / tactics battle board / staff roll / money diary dates done). Phase 7
-  done 2026-11-15. Last build: `build/dynadevice_blue_en.gba` 2026-11-15 (worker 17), sha1 64c2403c..., check.py
-  ok, smoke ok, lint 0/0 (137 strings wider than JP under guessed budgets: `lint.py --guess`,
+  free battle / resident map / card trade / tactics battle board / staff roll / money diary dates / dev status
+  words done). Phase 7 done 2026-11-15. Last build: `build/dynadevice_blue_en.gba` 2026-11-15 (worker 18), sha1
+  4753332e..., check.py ok, lint 0/0 (137 strings wider than JP under guessed budgets: `lint.py --guess`,
   `docs/review/guess_wide.txt`).
-- **Latest session (2026-11-15, worker 17, handed off at the context budget):** **PDA calendar block 0215E74 all
+- **Latest session (2026-11-15, worker 18, handed off at the context budget):** **Dev status small words 01EE624
+  r6-7 in English and seen** (PAT 01EF514 frames 17-21; graphics.md "Scene scan"): No Issues / Low Funds / Low Parts
+  / Complete (shared piece moved first by PAT x patches) + detail-page panel Source Dyna / Equip Type / Arms Type /
+  Element. New `tools/lua/devproj.lua` fakes projects (`regen.py d_dev_status|d_dev_proj_c --probe
+  tools/lua/devproj.lua`; shots `work/qa/gfx_en/d_dev_status_proj`, `d_dev_proj_c`). **Card trade button**
+  024D4B4 "Check Cards" (PAT 024DD84, link-only, unseen). Every graphics row in graphics.md is now drawn.
+  masha-2 sweep had finished: **3671/5536 shown or waived** (778 messages, 1087 strings unshown).
+  **New bug found by the visual-QA pilot: the field HUD shows "けんこう" (Healthy) twice** at the top of every field
+  scene (e.g. `work/qa/tour/colosseum_greet/hold.png`). It is not a string: block **01E5464 is a raw (uncompressed)
+  "IMG\0" block** (archive index 1803, header `IMG\0 00 0a 05 00`, 4bpp tiles from 0x1E546C: HUD frame, HP bar,
+  digits, then the status-word kana around tile 0x29+), copied to BG VRAM 0xEDC0 by the loader (lr 0x080031F5) and
+  expanded per pixel by 0x08002160 (the HUD's 4 tiles are BG0 0x3EF-0x3F2 at VRAM 0xFDE0). `gfx.py` only handles
+  ECD-compressed blocks: add raw-IMG support (export + in-place write, same palette lookup), find which status
+  words the HUD can show (other ailments: poison etc., tile runs), redraw them, check in game (`blockscan` /
+  `blockfind` skip raw blocks, so grep the archive for other raw `IMG\0` blocks with Japanese at the same time).
+  **Visual-QA gate set up:** `docs/visual-qa-brief.md` (game non-bugs listed) and new **`tools/vqa_run.py`** (one
+  read-only `codex exec` per chunk with the EN shot + its `work/qa/tour_jp` twin attached; writes
+  `work/qa/verdicts/<chunk>.tsv`; piloted on 3 scenes: works, found the HUD bug). **English tour running** at
+  hand-off (background job of this worker's shell: `regen.py --rom work/qa/tour/tour_build.gba --out work/qa/tour
+  --states work/qa/tour/_states --jobs 1`, log `work/qa/tour/regen.log`, 29/198 scenes done; one Mesen at a time,
+  1.4 GB free). `tour_build.gba` = build 4753332e. If it died, rerun the same command (it redoes every scene).
+  **Next:** fix the HUD block, rebuild, then (tour again on the new build if the HUD changed) run the JP tour
+  (`regen.py --out work/qa/tour_jp --states work/qa/tour_jp/_states --jobs 1`, original ROM is the default), then
+  `qa_gate.py init work/qa/manifest.tsv work/qa/tour --glob "hold.png" --build build/dynadevice_blue_en.gba`,
+  `qa_gate.py todo work/qa/manifest.tsv work/qa/verdicts --size 12 --out-dir work/qa/chunks`, `tools/vqa_run.py
+  --jobs 2`, fix issues, `qa_gate.py check`. Then inkbox on choice / menu boxes, textcover, steps 4-5 below.
+- **Session before (2026-11-15, worker 17, handed off at the context budget):** **PDA calendar block 0215E74 all
   English** (docs/re/graphics.md "Money diary dates", D16): month header "2000/ 0" (static SCR 0x217E54: 年 -> "/",
   月 cells blanked by `gfx.MAP_PATCHES`), day view "0/ 0 (Mo) Plans" (SCR 0x2197F4, 16x16 weekdays Su..Sa, の予定),
   schedule repeat row None / per Wk / per Mo / per Yr, おわる button -> Quit (split 4x2 button: new gfx_text
@@ -315,6 +341,6 @@ Updated at the end of every session. Keep it to what the next session needs; his
   BATTLE START (`dbg_battle`) reaches a real battle. Runs without `--sav` share `tools/mesen/Saves/<rom>.sav`.
   Warp `intro` reaches script 1 at ~f3000 (form + title first): use `--frames 6000`.
 - **Memory:** the host's AWPerformance.SCSubAgent (Dell service) held 3-7 GB; run tours one emulator at a time.
-- **Open bugs:** none.
+- **Open bugs:** field HUD status word "けんこう" still Japanese (raw IMG block 01E5464, see worker 18 above).
 - **Waiting on the user:** (non-blocking) the address database (~2.6 MB of real Japanese place names, 0x44C754):
   default plan is Hepburn romanization from Japan Post KEN_ALL readings by postal code; see docs/re/text.md.
