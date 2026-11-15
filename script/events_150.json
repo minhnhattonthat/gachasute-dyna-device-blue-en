@@ -52,7 +52,7 @@
   "flag": 0,
   "speaker": 17,
   "jp": "ジョルナみたいな　なにを　するか\nわからないような　おもしろみもないし{KP}\n・・・けしちゃうか",
-  "en": "You're not even fun,{KP}\nlike Jorna, who might do anything...{KP}\n...Maybe I'll just erase you.",
+  "en": "You're not unpredictable\nlike Jorna. She's fun...{KP}\n...Maybe I'll just erase you.",
   "status": "done"
  },
  {
@@ -308,7 +308,7 @@
   "flag": 0,
   "speaker": 1,
   "jp": "・・・そんな・・・そんなことのために\nみんな・・・",
-  "en": "...That's... for something like that,{KP}\neveryone...",
+  "en": "...All that... just for that?{KP}\nEveryone...",
   "status": "done"
  },
  {
@@ -636,7 +636,7 @@
   "flag": 0,
   "speaker": 1,
   "jp": "へいわじゃないときも　ドキドキワクワクして\nけっこう　よかったなぁ・・・",
-  "en": "those times when there wasn't\npeace were thrilling and exciting,{KP}\nand kind of fun too...",
+  "en": "things were so exciting\nwhen there was trouble...{KP}\nIt was kind of fun, too...",
   "status": "done"
  },
  {

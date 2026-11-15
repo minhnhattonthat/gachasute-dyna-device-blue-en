@@ -348,7 +348,7 @@
   "flag": 0,
   "speaker": 15,
   "jp": "もとバイラーナンバー２の　なまえは\nだてじゃないってことでぇす{KP}\nんじゃ　また　バトルしようねぇ",
-  "en": "The name of Byler's former Number\n2 isn't just for shooow, you know.{KP}\nLet's battle again sometiiime.",
+  "en": "I wasn't Byler's Number 2\nfor nooothing, you know!{KP}\nLet's battle again sometiiime.",
   "status": "done"
  },
  {
@@ -1044,7 +1044,7 @@
   "flag": 0,
   "speaker": 4,
   "jp": "つれだしたいときは\nそちらへ　むかえにいってくださいね{KP}\nそれでは",
-  "en": "so whenever you want to take it\nalong, please go and pick it up there.{KP}\nWell then.",
+  "en": "so whenever you want to take it\nalong, please go and pick it up there.{KP}\nGoodbye for now.",
   "status": "done"
  },
  {
@@ -1340,7 +1340,7 @@
   "flag": 0,
   "speaker": 4,
   "jp": "ダイナネットに\nおくりかえすことにします{KP}\nそれでは",
-  "en": "so I will send it back to the Dyna Net.{KP}\nWell then.",
+  "en": "so I will send it back to the Dyna Net.{KP}\nGoodbye for now.",
   "status": "done"
  },
  {
@@ -1380,7 +1380,7 @@
   "flag": 0,
   "speaker": 4,
   "jp": "たたかえる　ダイナを\nつれあるくようにしてくださいね{KP}\nそれでは",
-  "en": "please walk around with\nDyna that can fight.{KP}\nWell then.",
+  "en": "please walk around with\nDyna that can fight.{KP}\nGoodbye for now.",
   "status": "done"
  },
  {

@@ -100,3 +100,18 @@ Minors that repeated an open (gNN) line above were fixed with it in work/tl/r09;
 - [x] (ch10) s723.02, s742.01-s744.01 - "take the Dyna's data" -> "collect" **Fixed (r10).**
 - [x] (ch11) s758.02-s761.02 - "just one more step" spatial -> "I was so close..." **Fixed (r10).**
 - [x] (ch12) s803.01 - "Will you... be my opponent?" a bit formal for Yurie. **waived: the line ends in a column-laid Yes/No choice; Yurie is shy here and the hesitation reads.**
+
+## Story pass round 2 (phase 9, codex, work/qa/story/reports/r2/)
+- [x] (ch04, Important) s149.13 - Terry's "this so-called courage of yours" misdirects the callback to Jorna's courage -> "prove that her so-called courage was not in vain!" **Fixed (r11).**
+- [x] (ch04) s146.05, s147.16, s147.29 - stock villain "At last... we meet"; softened comeback; "Dyna Cities, I mean" -> reviewer's suggestions. **Fixed (r11).**
+- [x] (ch02) s104.08, s108.10-11 - Yurie's third-person address; Genio's passive challenge. **Fixed (r12).** s107.06 **waived: "Is walking around not starting to become a chore?" is Navyu's contraction-free register.**
+- [x] (ch03) s116.15, s119.02, s123.07, s128.27 - "in your care"; "the last champion"; "just purely wanted"; third-person address. **Fixed (r12)** (s119.02 keeps the second {%sR4}: the JP has two).
+- [x] (ch05) s150.06, s150.38, s152.22 - ambiguous Jorna comparison; mechanical shock line; formal "times when there wasn't peace". **Fixed (r12).**
+- [x] (ch06, ch12) Navyu's call sign-off "{KP}Well then." (それでは) reads unfinished -> "Goodbye for now." in all 13 lines (s341/s342/s745/s779/s789/s790/s818-s821). **Fixed (r12).**
+- [x] (ch07, ch08) s425.02, s427.00, s454.01 - cumbersome phrasing. **Fixed (r12).**
+- [x] (ch10) s719.01-02 - sentence join -> "As a prize available only to Ranking Battle champions, / a Draco style Dyna of the {%sR1} element has arrived from the Dyna Net." **Fixed (r12).**
+- [x] (ch11) s757.05 - "The name of Byler's former Number 2" -> "I wasn't Byler's Number 2 for nooothing". **Fixed (r12).**
+- [x] (ch12) s803.01 - "Today I came because..." stiff -> "I came over to battle you today... Will you... battle me?" **Fixed (r12).**
+
+## Story pass round 3 (phase 9, work/qa/story/reports/r3/)
+- [x] 16 Minor wording suggestions in the round-3 reports (e.g. s133.24, s142.05, s149.09). **waived: deferred to v1.1; every chapter was ok in round 3 and changing a chapter voids its verdict.**

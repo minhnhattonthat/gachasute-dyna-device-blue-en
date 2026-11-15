@@ -732,7 +732,7 @@
   "flag": 0,
   "speaker": -1,
   "jp": "・・・の　４しゅるいの　ショップの　うち\nどれか　１つが　たつんです",
-  "en": "...one of those 4 kinds\nof shop is what you get.",
+  "en": "...one of those 4 kinds\nof shop will be built.",
   "status": "done"
  },
  {
@@ -780,7 +780,7 @@
   "flag": 0,
   "speaker": -1,
   "jp": "{%sR4}　しっているか？\nショップキットで　ショップを　たてると",
-  "en": "{%sR4}, do you know? If\nyou build a shop with a Shop Kit,",
+  "en": "{%sR4}, did you know this?\nIf you build a shop with a Shop Kit,",
   "status": "done"
  },
  {

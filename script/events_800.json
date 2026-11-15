@@ -84,7 +84,7 @@
   "flag": 0,
   "speaker": 1,
   "jp": "きょうはね　{%sR4}と\nバトルしようとおもって　きたんだ{KP}\nあいて・・・してくれる？\n　　　　　はい　　　　いいえ{KN}",
-  "en": "Today I came because I wanted\nto battle you, {%sR4}.{KP}\nWill you... be my opponent?\n          Yes         No{KN}",
+  "en": "I came over to battle you\ntoday, {%sR4}.{KP}Will you... battle me?\n          Yes         No{KN}",
   "status": "done"
  },
  {
@@ -676,7 +676,7 @@
   "flag": 0,
   "speaker": 4,
   "jp": "このシティに　にげこんだ　はんざいしゃを\nぶじに　つかまえたそうです{KP}\nそれでは",
-  "en": "They say they have safely caught\nthe criminal who fled into this city.{KP}\nWell then.",
+  "en": "They say they have safely caught\nthe criminal who fled into this city.{KP}\nGoodbye for now.",
   "status": "done"
  },
  {
@@ -700,7 +700,7 @@
   "flag": 0,
   "speaker": 4,
   "jp": "じょうたいを　だいしきゅう\nかくにんしてください{KP}\nそれでは",
-  "en": "and the Dyna you have with you.{KP}\nWell then.",
+  "en": "and the Dyna you have with you.{KP}\nGoodbye for now.",
   "status": "done"
  },
  {
@@ -716,7 +716,7 @@
   "flag": 0,
   "speaker": 4,
   "jp": "すでに　かいふくしていますので\nはやく　むかえにきてあげてください{KP}\nそれでは",
-  "en": "It has already recovered, so\nplease come and pick it up soon.{KP}\nWell then.",
+  "en": "It has already recovered, so\nplease come and pick it up soon.{KP}\nGoodbye for now.",
   "status": "done"
  },
  {
@@ -756,7 +756,7 @@
   "flag": 0,
   "speaker": 4,
   "jp": "じょうたいを　だいしきゅう\nかくにんしてください{KP}\nそれでは",
-  "en": "and the Dyna you have with you.{KP}\nWell then.",
+  "en": "and the Dyna you have with you.{KP}\nGoodbye for now.",
   "status": "done"
  },
  {

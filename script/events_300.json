@@ -356,7 +356,7 @@
   "flag": 0,
   "speaker": 4,
   "jp": "わかりました　そのように\nファクトリーへは　れんらくしておきます{KP}\nそれでは",
-  "en": "Understood. I will let the Factory know.{KP}\nWell then.",
+  "en": "Understood. I will let the Factory know.{KP}\nGoodbye for now.",
   "status": "done"
  },
  {
@@ -372,7 +372,7 @@
   "flag": 0,
   "speaker": 4,
   "jp": "ファクトリーに　ちょくせつ　いって\nそのように　しじしてください{KP}\nそれでは",
-  "en": "please go to the Factory\nyourself and tell them so.{KP}\nWell then.",
+  "en": "please go to the Factory\nyourself and tell them so.{KP}\nGoodbye for now.",
   "status": "done"
  },
  {
@@ -412,7 +412,7 @@
   "flag": 0,
   "speaker": 4,
   "jp": "わかりました　そのように\nファクトリーへは　れんらくしておきます{KP}\nそれでは",
-  "en": "Understood. I will let the Factory know.{KP}\nWell then.",
+  "en": "Understood. I will let the Factory know.{KP}\nGoodbye for now.",
   "status": "done"
  },
  {
@@ -428,7 +428,7 @@
   "flag": 0,
   "speaker": 4,
   "jp": "ファクトリーに　ちょくせつ　いって\nそのように　しじしてください{KP}\nそれでは",
-  "en": "please go to the Factory\nyourself and tell them so.{KP}\nWell then.",
+  "en": "please go to the Factory\nyourself and tell them so.{KP}\nGoodbye for now.",
   "status": "done"
  },
  {

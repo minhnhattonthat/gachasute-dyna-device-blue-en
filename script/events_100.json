@@ -436,7 +436,7 @@
   "flag": 0,
   "speaker": 1,
   "jp": "まさか　このあいだ　はじめたばかりの\n{%sR4}くんと{KP}\nほんとうに　けっしょうで\nたたかうことに　なるなんて・・・",
-  "en": "Who'd have thought I'd really end\nup fighting in the final against{KP}\n{%sR4}-kun,\nwho only just started...",
+  "en": "I can't believe I'm really facing you\nin the final, {%sR4}-kun...{KP}\nYou only just started playing!",
   "status": "done"
  },
  {
@@ -1228,7 +1228,7 @@
   "flag": 0,
   "speaker": 2,
   "jp": "よし　それでは　きねんすべき\nエキスパートルールさいしょの　バトルを",
-  "en": "All right then! The memorable\nvery first Expert Rules battle",
+  "en": "All right then! For my momentous\nfirst Expert Rules battle,",
   "status": "done"
  },
  {
@@ -1236,7 +1236,7 @@
   "flag": 0,
   "speaker": 2,
   "jp": "わが　しゅくめいの　ライバルと\nおこなうとするか！{KP}\nじゅんびができたら　コロシアムに　こい！\nまってるからな！",
-  "en": "will be fought against my destined rival!{KP}\nCome to the Colosseum when\nyou're ready! I'll be waiting!",
+  "en": "I'll take on my destined rival!{KP}\nCome to the Colosseum when\nyou're ready! I'll be waiting!",
   "status": "done"
  },
  {
@@ -1716,7 +1716,7 @@
   "flag": 0,
   "speaker": 8,
   "jp": "いかにも　オレは　バイラーの\nテリーと　いうものだ{KP}\n・・・せんじつは　ジョルナが\nせわに　なったな",
-  "en": "That's right. I am Terry, of Byler.{KP}\n...I hear Jorna was in\nyour care the other day.",
+  "en": "That's right. I am Terry, of Byler.{KP}\n...I hear you gave Jorna quite\na welcome the other day.",
   "status": "done"
  },
  {
@@ -1916,7 +1916,7 @@
   "flag": 0,
   "speaker": 1,
   "jp": "なにしろ　{%sR4}くんは\nぜんかいの　チャンピオンなんだから{KP}\n・・・と　いうわけで　これから　どうやって\n{%sR4}くんを　たおすか",
-  "en": "After all, {%sR4}-kun,\nyou're the last champion.{KP}\n...So now I'm going to work out a plan\nfor how to beat {%sR4}-kun,",
+  "en": "After all, {%sR4}-kun,\nyou won the last tournament!{KP}\n...So now I'm going to work out\nhow I'll beat {%sR4}-kun,",
   "status": "done"
  },
  {
@@ -2388,7 +2388,7 @@
   "flag": 0,
   "speaker": 7,
   "jp": "なによぅー　べつに　いいでしょお？{KP}\nわたくしはぁ　じゅんすいにぃ　カレと\nもういっかい　バトルしたかっただけですうぅー",
-  "en": "Whaaat? It's fine, isn't iiit?{KP}\nI just purely wanted to\nbattle him one more tiiime.",
+  "en": "Whaaat? It's fine, isn't iiit?{KP}\nAll I wanted was to\nbattle him one more tiiime.",
   "status": "done"
  },
  {
@@ -3300,7 +3300,7 @@
   "flag": 0,
   "speaker": 1,
   "jp": "・・・ふぅ　これで　{%sR4}くんも\nやっと　だれにも　ジャマされずに{KP}\nダイナシティを　つくっていけそうね",
-  "en": "...Phew. Now {%sR4}-kun\ncan finally build up the Dyna City{KP}\nwithout anyone getting in the way.",
+  "en": "...Phew. Now you can finally build up\nyour Dyna City, {%sR4}-kun,{KP}\nwithout anyone getting in the way.",
   "status": "done"
  },
  {
@@ -5172,7 +5172,7 @@
   "flag": 0,
   "speaker": 14,
   "jp": "やっと・・・あえたね\n{%sR4}くん{KP}\nわたしと　バトルしよう・・・？",
-  "en": "At last... we meet,{KP}\n{%sR4}-kun.{KP}\nWill you... battle me...?",
+  "en": "Finally... I get to see you,{KP}\n{%sR4}-kun.{KP}\nWill you... battle me...?",
   "status": "done"
  },
  {
@@ -5436,7 +5436,7 @@
   "flag": 0,
   "speaker": 1,
   "jp": "・・・なんかぁぁぁ　あったのかじゃぁぁぁ\nないでしょぉぉぉおお",
-  "en": "...What do you meeean{KP}\n\"did something happennn\"...",
+  "en": "...What do you meeean,{KP}\n\"did something happennn\"?!",
   "status": "done"
  },
  {
@@ -5540,7 +5540,7 @@
   "flag": 0,
   "speaker": 3,
   "jp": "また　つくればいいじゃないか\nダイナシティは",
-  "en": "So we'll just build them again.{KP}\nDyna Cities, I mean.",
+  "en": "We can just build our Dyna\nCities again, can't we?",
   "status": "done"
  },
  {
@@ -5980,7 +5980,7 @@
   "flag": 0,
   "speaker": 8,
   "jp": "では　その　ゆうきとやらが\nムダではないことを　しょうめいしてみろ！{KP}\nゆけっ！　わがダイナよ！",
-  "en": "Then prove that this so-called\ncourage of yours is not in vain!{KP}\nGo! My Dyna!",
+  "en": "Then prove that her so-called\ncourage was not in vain!{KP}\nGo! My Dyna!",
   "status": "done"
  },
  {

@@ -6,7 +6,7 @@ Stops at the first failure, in this order: build -> tools/check.py (tests + lint
 (--sjis --gba-ptrs, intended runs in tools/jp_known.txt, only runs unchanged from the original) -> qa_gate.py check on
 every work/qa/**/manifest.tsv (visual tour and story pass; verdicts in the manifest's sibling `verdicts/`; the visual
 tour's recorded ROM, work/qa/tour/tour_build.gba, is replaced by this build first, so the gate fails STALE unless the
-tour ran on this build or `qa_gate.py waive` names it) -> textcover.py (log root work/qa, waivers
+tour ran on this build or `qa_gate.py waive` names it) -> textcover.py (logs carried over by id with tools/cover_remap.py into work/qa/cover/remap, waivers
 docs/text_unshown.tsv) -> no unticked line in docs/polish.md -> no template placeholder in README.md -> debug tool off
 -> patch -> re-apply to a clean original and compare -> zip. Output: release/Gachasute_Dyna_Device_Blue_EN_v<version>.zip
 (patch + README.txt); refuses to overwrite an existing version without --force. Never publishes anything.
@@ -161,7 +161,11 @@ def main():
     step("jp_left", PY + [s / "jp_left.py", BUILT, "--orig", ORIG, "--sjis", "--gba-ptrs",
                           "--known", ROOT / "tools/jp_known.txt"])
     gates(s)
-    step("textcover", PY + [s / "textcover.py", ROOT / "work/qa", ROOT / "build/strings.tsv",
+    # coverage logs ran on build 7f22f56c; text-only edits since moved strings, so they are carried over by id
+    # (tools/cover_remap.py -> work/qa/cover/remap/log.txt, rewritten here so it follows this build's layout)
+    remap = ROOT / "work/qa/cover/remap"
+    step("cover_remap", PY + [ROOT / "tools/cover_remap.py", remap / "strings_7f22f56c.tsv"])
+    step("textcover", PY + [s / "textcover.py", remap, ROOT / "build/strings.tsv",
                             "--waive", ROOT / "docs/text_unshown.tsv"])
     polish()
     readme()

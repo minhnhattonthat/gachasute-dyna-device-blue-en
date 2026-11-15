@@ -2,14 +2,15 @@
 
 Updated at the end of every session. Keep it to what the next session needs; history is in git.
 
-- **Phase:** 9. Release: not started. Phase 8 done 2026-11-15 (worker 26): smoke ok, `qa_gate.py check
-  work/qa/manifest.tsv work/qa/verdicts` exits 0 (197/197, build 7f22f56c = `work/qa/tour/tour_build.gba`), inkbox
-  done, **text coverage gate:** `textcover.py work/qa build/strings.tsv --waive docs/text_unshown.tsv` exits 0
-  (5375 shown, 161 waived). Last build: `build/dynadevice_blue_en.gba` 2026-11-15 (worker 23), sha1 7f22f56c...,
-  check.py ok, lint 0/0 (137 strings wider than JP under guessed budgets: `lint.py --guess`,
-  `docs/review/guess_wide.txt`). Next: phase 9 per the skill (story-pass verdicts, `docs/polish.md`, `jp_left.py`,
-  debug tool off, `tools/release.py`).
-- **Waiting on the user (not blocking):** the last **95 strings are waived although reachable in play** (hand rows
+- **Phase:** 9. Release: done 2026-11-15 (worker 27). `python -X utf8 tools/release.py --skip-build` ran every gate
+  and wrote `release/Gachasute_Dyna_Device_Blue_EN_v1.0.zip` (BPS 421674 bytes + README.txt; re-applied to a clean
+  original = build). Release build `build/dynadevice_blue_en.gba` sha1 55ab465e..., CRC32 739D295D; smoke ok,
+  check.py ok, lint 0/0, jp_left 0 runs (8 known), story gate 12/12, visual tour gate 197/197 + waiver for this
+  text-only build, textcover 5375 shown + 161 waived, polish.md all ticked. **Publishing (`gh release create`) is
+  the user's call**; nothing was published.
+- **Waiting on the user (not blocking):** publish v1.0 (zip above). Address database place names kept Japanese for
+  v1.0 (**D20**, known issue in both READMEs; romanizing is a v1.1 candidate). 16 round-3 story Minors deferred
+  (`work/qa/story/reports/r3/`, polish.md). The last **95 strings are waived although reachable in play** (hand rows
   under "Worker 26" in `docs/text_unshown.tsv`, each with its context): item bag-full / discard messages, item-use
   results, Device help hints, keyboard word-register prompts, money diary totals, combo attack names, status
   ailments, minigame help page, Card Trade + multiplayer link lobby (link cable: can't be emulated with one Mesen),
@@ -17,7 +18,19 @@ Updated at the end of every session. Keep it to what the next session needs; his
   `rotate.py --any SCENE` (logs `work/cover_any/`, kept outside `work/qa` so they never count as coverage), 45 not
   (the run was stopped for low memory). The skill wants waivers only for unreachable text: to tighten, rerun
   `rotate.py --any <list scene>` (menu_db_device / mode_shop_list / menu_party gave 10-15 each) and/or add scenes.
-- **Latest session (2026-11-15, worker 26):** Reran `rotate.py --run --gap 0x400` over the 131 scenes left:
+- **Latest session (2026-11-15, worker 27, phase 9):** **Story pass**: `docs/synopsis.md` (12 chapters by script
+  range), `tools/story.py` -> `work/qa/story/chapters/`, reviewers by `sh tools/story_review.sh chNN..` (`codex exec`
+  read-only, brief `docs/story-reviewer-brief.md`; no subagents under Orca). Round 1: 3 issue (Navyu contractions,
+  Terry's "toy Dyna" callback s149.15); round 2: ch04 issue (s149.13); round 3: all ok. Fixes in `work/tl/r09`-`r12`
+  (r09 = the 31 open (gNN) polish Minors; 109 entries in all) merged with `batches.py merge rNN --overwrite`.
+  polish.md: every line ticked (fixed / verified / waived with reason). **Coverage logs are address-based**: text
+  edits moved 2802 strings, so `tools/cover_remap.py` maps the phase-8 logs (all on build 7f22f56c, whose
+  strings.tsv was rebuilt byte-exact from commit dfa4777 into `work/qa/cover/remap/strings_7f22f56c.tsv`) by id to
+  the new layout; release.py runs it before textcover. New coverage runs on a later build need a new old-table or a
+  real rerun. `tools/release.py` (from fantastic-children-en): gates, debug-off check (no marker text, mode
+  dispatcher 0x4DB8 = original), BPS, re-apply, zip. README filled (base ROM hashes, status table). D20 added.
+  `regen.py` defaults to the JP ROM: pass `--rom build/dynadevice_blue_en.gba`.
+- **Session before (2026-11-15, worker 26):** Reran `rotate.py --run --gap 0x400` over the 131 scenes left:
   **strings 170 -> 95 unshown** (dbg_battle 31, d_center_out 6, mode_link / mode_card2 4 ...). The 95 left sit in
   code literal pools no scene draws, so new **`rotate.py --any SCENE`**: one group of every string, `ROT_WAIT`
   (no substitution before warp.lua's WARP_DONE: early ones broke the warp at the title) and `ROT_HOLD = 0` (the
