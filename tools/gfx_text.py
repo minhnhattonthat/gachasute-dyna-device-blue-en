@@ -43,6 +43,13 @@ def mid(tl):
 # 6-column buttons, so System/Items/Party draw in their 4 middle columns. Submenu maps 01E3724-01E38A4: 6 tiles a
 # row, one 8 px tile tall, the words in atlas rows 2-4; gfx.MAP_PATCHES re-lays rows (Save, Sort, Keywords).
 MENU_BAR = 0x1E30D4
+# PDA timetable (block 022CF64): 14-row gradient of the f..b lettering, the indices to clear, and the subject cells
+# in atlas order (rows 8-13, 8 cells a row; None = keep: HR is Latin already). D15: subject abbreviations.
+TT_GRAD = [15, 15, 15, 14, 14, 14, 13, 13, 12, 12, 11, 11, 11, 11]
+TT_KILL = {2, 11, 12, 13, 14, 15}
+TT_SUBJECTS = ["Jpn", "Ari", "Sci", "Soc", "Mth", "Eng", "Hlth", "PE",
+               "Tec", "HEc", "Crf", "Art", "Mus", "JpH", "WHi", "Geo",
+               "Chm", "Phy", "Civ", "Eth", "Bio", None, "Clb", "Act"]
 ATLASES = {
     MENU_BAR: {
         # 1,21 gets the frame-only tile 4,12 (bottom col 1 of a 6-col button) and becomes the Database button's.
@@ -307,6 +314,31 @@ ATLASES = {
         },
         "clear": {1: {1, 15}, 4: {4, 14, 12}},
     },
+    # PDA timetable (mode 8; OBJ 2D, block 022CF64, block tile n = OBJ tile n; scenes mode_pda_calendar2, pda_tt_a).
+    # Lettering f..b gradient + drop shadow 2: logo 時間割 x32-95 y0-15 (navy 1), weekday header 月..土 16x16 at
+    # x96+16k, palette title 時間割設定パレット x32-175 y16-31. Status line (ink 10, shadow 2, y32-47; PAT frames
+    # re-laid by gfx.MAP_PATCHES): weekday 16x16 at x16k, 曜日 x96-119 -> ",", 時間目 x184-223 -> "period", "="
+    # and the digits kept. R band ひとつ けす (two frames, x0-103 / x104-207) like the calculator's. Subjects: 32x16
+    # cells (icon + one-kanji abbreviation in yellow 15, shadow 1) at rows 8-13 + 委 at x224 y48 -> 2-4 letter
+    # abbreviations (D15), HR kept.
+    0x22CF64: {
+        "paint": [(96, 32, 120, 48, 0), (184, 32, 224, 48, 0)],   # 曜日, 時間目
+        "redraw": [("Timetable", (32, 0, 96, 16), "row", TT_GRAD, 2, "tallb", 1, TT_KILL),
+                   ("Pick a Subject", (32, 16, 176, 32), "row", TT_GRAD, 2, "vwf2", 1, TT_KILL)]
+                  + [(d, (96 + 16 * k, 0, 112 + 16 * k, 16), "row", TT_GRAD, 2, "tall", 1, TT_KILL)
+                     for k, d in enumerate(("Mon", "Tue", "Wed", "Thu", "Fri", "Sat"))]
+                  + [(d, (16 * k, 32, 16 * k + 16, 48), "row", 10, 2, "tall", 0, {10, 2})
+                     for k, d in enumerate(("Mon", "Tue", "Wed", "Thu", "Fri", "Sat"))]
+                  + [(",", (96, 32, 99, 48), "row", 10, None, "tall", 0, {10, 2}),
+                     ("period", (184, 32, 211, 48), "row", 10, 2, "tall", 0, {10, 2})]
+                  + [("Erase One", (x, 52, x + 54, 62), "rowmode", 3, ("ring", 14), "vwf", 1, {3, 11, 12, 14})
+                     for x in (33, 137)]
+                  + [(t, (32 * (i % 8) + 16, 64 + 16 * (i // 8) + 2, 32 * (i % 8) + 32, 64 + 16 * (i // 8) + 14),
+                      "row", 15, 1, "vwf", 2, {15, 1})
+                     for i, t in enumerate(TT_SUBJECTS) if t]
+                  + [("Cmt", (240, 50, 256, 62), "row", 15, 1, "vwf", 2, {15, 1})],
+        "mode_skip": {3: {3, 11, 12, 14}},
+    },
     # Title screen (OBJ 2D, block 0449734, block tile n = OBJ tile n; scene mode_title). The logo stays JP (D5).
     # Copyright (rows 12-13 c0-12, screen x68 y140) and the blinking スタートボタンを おしてください (r12-13 c13-28,
     # four 32x16 at x57 y123) are 7-row strokes in ink 5, side neighbours 3, corners 4, on transparent 0. The
@@ -352,12 +384,17 @@ def glyph_pixels(text, font):
             x += len(g[0]) + 1
         return out, x - 1
     f = vwf.font()
-    k = 2 if font == "vwf2" else 1   # "vwf2": every font pixel doubled, for big title lettering
+    # "vwf2": every font pixel doubled, for big title lettering; "tall": rows doubled only (14 px high at the
+    # 8 px font's width), "tallb": tall and one px bolder (each pixel also drawn one to the right)
+    k = 2 if font == "vwf2" else 1
+    ky = 2 if font in ("vwf2", "tall", "tallb") else 1
+    bold = 1 if font == "tallb" else 0
     for ch in text:
         adv, rows = f[ch]
-        out += [(x + k * gx + sx, k * gy + sy) for gy, bits in enumerate(rows) for gx in range(adv - 1)
-                if bits & (0x80 >> gx) for sx in range(k) for sy in range(k)]
-        x += k * adv
+        out += [(x + k * gx + sx, ky * gy + sy) for gy, bits in enumerate(rows) for gx in range(adv - 1)
+                if bits & (0x80 >> gx) for sx in range(k + bold) for sy in range(ky)]
+        x += k * adv + 2 * bold   # bold: the smear fills the font's 1 px gap, so add 2
+    out = sorted(set(out))
     return out, x - k
 
 
@@ -377,6 +414,11 @@ def redraw(a, spec):
                 bg[dx, dy] = max(set(vals), key=vals.count)
         vote_bg[name] = bg
     for text, (x0, y0, x1, y1), fill, ink, shadow, font, dy, *own in boxes:
+        # ink may be a list: this box's own per-glyph-row gradient (another box may use the same index flat);
+        # such a box needs its own clear set
+        grad = ink if isinstance(ink, list) else spec.get("grad", {}).get(ink)
+        if isinstance(ink, list):
+            ink = ink[0]
         kill = own[0] if own else clear.get(ink, {ink})   # optional 8th item: this box's own clear set
         if fill.startswith("vote:"):
             bg = vote_bg[fill[5:]]
@@ -422,8 +464,7 @@ def redraw(a, spec):
                     p = (x + sx, y + sy)
                     if p not in ink_at and x0 <= p[0] < x1 and y0 <= p[1] < y1:
                         a.px[p[1] * a.W + p[0]] = shadow
-        grad = spec.get("grad", {}).get(ink)   # per glyph row inks, for lettering with a vertical gradient
-        for x, y in ink_at:
+        for x, y in ink_at:   # grad: per glyph row inks, for lettering with a vertical gradient
             if y < y1:
                 a.px[y * a.W + x] = grad[min(y - oy, len(grad) - 1)] if grad else ink
 

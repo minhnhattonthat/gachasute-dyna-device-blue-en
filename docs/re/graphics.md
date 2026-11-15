@@ -130,6 +130,15 @@ its font at run time (dialogue, the boot date prompt, the profile popup) is stri
   boot (the emblem comes from the save): `tools/title_frames.py` draws all 10 frames from the build
   (`work/qa/gfx_en/title_frames.png`). PRESS START blinks: `tools/lua/shotwhen.lua` shoots every 10 frames once
   its tile is in OAM. Survey notes below.
+- **Done (worker 9): PDA home wheel labels 0208654 all seen** (scenes `pda_up`, `pda_up3`, `pda_up6`,
+  `pda_down4`: Calculator, Schedule, Timetable, Music, MEMO, Money, Minigame 1-3; `work/qa/gfx_en/wheel.png`).
+  A on the start app (DynaDevice, scene `pda_dyna`) opens the Dyna Pad, not an app menu.
+- **Done (worker 9): timetable 022CF64** (mode 8 = scene `mode_pda_calendar2`; `pda_tt_a` = A on a cell: the
+  subject palette; `pda_tt_r`): logo "Timetable" (`tallb` = double-height bold font), header Mon..Sat (`tall`),
+  palette title "Pick a Subject" (`vwf2`), R band "Erase One" (both frames), the 24 subjects + 委 as 3-letter
+  abbreviations (D15), status line "Mon, period 1 = [icon]": its PAT (0x22F194: weekday frames 0x22F246..,
+  digit frames 0x22F2E2 + 0x22n) re-laid by `gfx.tt_patches`. Gradient boxes take a list as ink (per-box
+  gradient). `tools/pxdump.py OFF x0 y0 x1 y1` prints a block's palette indices.
 - **Title block 0449734 (worker 7 survey):** logo stays JP (D5: no official English logo). Text in it,
   scene `mode_title` (OBJ 2D, OBJ tile n = block tile n, ppu dump f930): copyright ©2002 スマイルソフト = rows
   12-13 c0-12 (outlined 16 px glyphs in shades 2-5), OAM x68 / x76 / x108 / x140 at y140; エンブレム label = r12

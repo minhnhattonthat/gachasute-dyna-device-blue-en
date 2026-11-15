@@ -167,3 +167,10 @@ pda_link_item	mode	2 300 -;6 down;30 -;6 down;30 -;6 a;150 -;6 down;30 -;6 a;150
 pda_link_dyna	mode	2 300 -;6 down;30 -;6 down;30 -;6 a;150 -;6 down;30 -;6 right;30 -;6 a;150 -	200	Link menu, Down, Right, A: Dyna Trade
 pda_save	mode	2 300 -;6 down;30 -;6 a;150 -	200	mode 2 PDA home, Down, A: Save Data dialog (すべての データを セーブします, block 020A4D4)
 pda_saving	mode	2 300 -;6 down;30 -;6 a;150 -;6 a;10 -	10	mode 2 PDA home, Save Data, A: saving (セーブちゅうです でんげん きらないでください, 020A4D4 c28-31)
+pda_dyna	mode	2 300 -;6 a;150 -	200	mode 2 PDA home, A on the start app (DynaDevice): its app menu (0208654 labels?)
+pda_up	mode	2 300 -;6 up;30 -	200	mode 2 PDA home, Up: the wheel turned back one app
+pda_up3	mode	2 300 -;6 up;30 -;6 up;30 -;6 up;30 -	200	mode 2 PDA home, Up x3 (wheel labels 0208654)
+pda_up6	mode	2 300 -;6 up;30 -;6 up;30 -;6 up;30 -;6 up;30 -;6 up;30 -;6 up;30 -	200	mode 2 PDA home, Up x6 (wheel labels 0208654)
+pda_tt_a	mode	8 300 -;6 a;150 -	200	mode 8 timetable, A on a cell: subject palette (時間割設定パレット, block 022CF64)
+pda_tt_r	mode	8 300 -;6 r;150 -	200	mode 8 timetable, R (ひとつ けす: erase one)
+pda_down4	mode	2 300 -;6 down;30 -;6 down;30 -;6 down;30 -;6 down;30 -	200	mode 2 PDA home, Down x4 (wheel labels 0208654)

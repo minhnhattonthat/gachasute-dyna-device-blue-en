@@ -19,6 +19,9 @@ Minor issues to revisit before release (phase 9 needs every line ticked). `[ ]` 
 - [ ] s468.00 `busy with {%sR5} or something.` has 8 px spare at the 64 px R5 guess: find R5's source table
   (activity names) or shorten.
 
+- [ ] Timetable subject icons (022CF64, D15) are 3-letter abbreviations (Jpn, Ari, Hlth, HEc, JpH, Clb, Act,
+  Cmt...): full names need a wider cell or a subject name line on the palette screen (engine work).
+
 ## Unsure names
 - [ ] Star names サイド -> Said, ジャバル -> Jabal, ウナルベクサ -> Unalbeksa: no confirmed source star.
 - [ ] Byler Dyna puns (Parmoon, Bisaios, Capuchipean): check what the JP pun is once seen in game.

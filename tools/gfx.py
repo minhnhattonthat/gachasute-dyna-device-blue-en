@@ -38,6 +38,35 @@ MAP_PATCHES = [
     (0x1E38DC, [0x1FF, 0x088, 0x089, 0x08A, 0x08B, 0x1FF], [0x04D, 0x088, 0x089, 0x08A, 0x08B, 0x052],
      "Database submenu SCR 01E38A4 row 4: Keywords in 2,13 4,8-4,11 2,18"),
 ]
+# PDA timetable palette status line "月曜日 1時間目 = [icon]" (PAT at 0x22F194, block 022CF64; entries u16 size,
+# s16 x, s16 y, u16 tile, screen x = 120 + x) -> "Mon, period 1 = [icon]": weekday frames (Mon..Sat) move the
+# weekday to x84 and the 曜日 16x16 piece (now ",") to x100; digit frames (1..7) move the 時間目 32x16 piece (now
+# "period") to x106, the digit to x133 and "=" to x141 (the 時間目 and 曜日 8x16 tails are blank).
+TT_DAYS = [0x22F246, 0x22F260, 0x22F27A, 0x22F294, 0x22F2AE, 0x22F2C8]
+TT_DIGITS = [0x22F2E2 + 0x22 * n for n in range(7)]
+
+
+def tt_patches(rom):
+    out = []
+    for k, f in enumerate(TT_DAYS):
+        for i in range(3):
+            e = f + 2 + 8 * i
+            tile = struct.unpack_from("<H", rom, e + 6)[0] & 0x3FF
+            new = {128 + 2 * k: -36, 140: -20}.get(tile)
+            if new is not None:
+                old = struct.unpack_from("<h", rom, e + 2)[0]
+                out.append((e + 2, [old & 0xFFFF], [new & 0xFFFF], f"timetable weekday frame {k}: tile {tile} x"))
+    for n, f in enumerate(TT_DIGITS):
+        for i in range(4):
+            e = f + 2 + 8 * i
+            tile = struct.unpack_from("<H", rom, e + 6)[0] & 0x3FF
+            new = {144 + n: 13, 143: 21, 151: -14}.get(tile)
+            if new is not None:
+                old = struct.unpack_from("<h", rom, e + 2)[0]
+                out.append((e + 2, [old & 0xFFFF], [new & 0xFFFF], f"timetable digit frame {n}: tile {tile} x"))
+    if len(out) != 6 * 2 + 7 * 3:
+        raise ValueError(f"timetable PAT: {len(out)} entries found, expected 33")
+    return out
 
 # Title screen planet name (block 0449734, OBJ 2D, OBJ tile n = block tile n). Sprite frames 3-12 of the title's
 # PAT animation at 0x44BF24 (u32 offsets from it at +8) each hold 8 OAM entries (u16 size code | 0x2000, s16 x,
@@ -171,6 +200,7 @@ def apply(rom, out, free, log=None, limit=None):
     if not edits():
         return free
     title = title_patches(rom) if (GFX / "0449734.png").exists() else []
+    title += tt_patches(rom) if (GFX / "022CF64.png").exists() else []
     for off, old, new, why in MAP_PATCHES + title:
         if list(struct.unpack_from(f"<{len(old)}H", rom, off)) != old:
             raise ValueError(f"gfx map patch {off:#x}: original words differ ({why})")
