@@ -119,6 +119,14 @@ its font at run time (dialogue, the boot date prompt, the profile popup) is stri
   (drawn, unseen); status words **03B3164** (BG tiles, VRAM 0x8000 in 32-tile rows) "Not connected" (seen),
   "Connected", "Connecting..." (unseen). Still JP there: シンプル / エキスパート, ２３４Ｐ. The trade screens
   (024AF04, 024B834, 024D4B4, 024C1C4) and the link battle setup need a partner: no warp yet.
+- **Title block 0449734 (worker 7, not drawn yet):** logo stays JP (D5: no official English logo). Text in it,
+  scene `mode_title` (OBJ 2D, OBJ tile n = block tile n, ppu dump f930): copyright ©2002 スマイルソフト = rows
+  12-13 c0-12 (outlined 16 px glyphs in shades 2-5), OAM x68 / x76 / x108 / x140 at y140; エンブレム label = r12
+  c29 (edge bar) + r12 c30-31 + r13 c29-31, OAM y102 x64-112; planet symbol 16x16 at x112; planet name y102 from
+  x128: rows 10-11 hold the 10 names separated by 2 px bars (colour 3/4), e.g. テリオラヌス = r10 c0-4 (x0-37),
+  shown as r10 c0-3 + c4 then tile 413. Each name's tile run comes from a table (find it before fitting English:
+  Terioranus, Sigmazon, Capuchipean, Bisaios, Jornaturn, Parmoon, Plutario, Mercurie, Byjupiter, Zaurak =
+  t0B2710-t0B276C). スタートボタンを おしてください (rows 12-13, x~104-231) blinks: take dumps until it shows.
 - 020B0F4 tabs (なまえ ばしょ すること イベント カスタム) drawn as "Name / Place / To Do / Event / Custom" (map SCR
   0x20BAB4, menu-bar layout), **not yet seen in game**: archive index 2395 is loaded by 0x08023F20, reached from
   the mode 2 chain (0x08021370..) and from 0x080283B0 / 0x0802DDB0 / 0x08032834 / 0x0803B6A0. Not on the PDA

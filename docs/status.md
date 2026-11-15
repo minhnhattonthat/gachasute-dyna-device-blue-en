@@ -2,11 +2,24 @@
 
 Updated at the end of every session. Keep it to what the next session needs; history is in git.
 
-- **Phase:** 8. QA in the emulator: in progress (script coverage sweep 7 past s614; field menu, profile form,
-  keyboard, PDA home / address book / calendar / money diary / calculator / memo graphics done). Phase 7 done
-  2026-11-15. Last build: `build/dynadevice_blue_en.gba` 2026-11-15 (PDA home), sha1 9068afd7..., check.py ok,
-  lint 0/0 (137 strings wider than JP under guessed budgets: `lint.py --guess`, `docs/review/guess_wide.txt`).
-- **Latest session (2026-11-15, worker 6):** sweep 6 had died with its worker: restarted as **sweep 7**
+- **Phase:** 8. QA in the emulator: in progress (script coverage sweep 8 running; field menu, profile form,
+  keyboard, PDA home / address book / calendar / money diary / calculator / memo / save dialog / link menu /
+  link check graphics done). Phase 7 done 2026-11-15. Last build: `build/dynadevice_blue_en.gba` 2026-11-15
+  (link check), sha1 82115414..., check.py ok, lint 0/0 (137 strings wider than JP under guessed budgets:
+  `lint.py --guess`, `docs/review/guess_wide.txt`).
+- **Latest session (2026-11-15, worker 7):** sweep 7 had died with its worker (598 dirs): restarted as **sweep 8**
+  (`cover.py scripts --jobs 1`, log `work/qa/cover/sweep8.log`, 624+ dirs in `work/qa/cover/m1/` at hand-off; a
+  background job of this worker's shell: next worker, check whether a Mesen runs `cover`, else rerun the same
+  command, then `cover.py report`). Graphics (docs/re/graphics.md "PDA screens"): PDA Save Data dialog 020A4D4
+  (scenes `pda_save`, `pda_saving`), Link menu 0249C44 (`pda_link`; new `vwf2` doubled font for big titles),
+  link check screen 03B3624 headers + 03B3164 status words (`pda_link_battle` / `_card` / `_item` / `_dyna`: no
+  cable needed). Title block 0449734 surveyed, not drawn (graphics.md "Title block": emblem label, planet names,
+  copyright, Press Start; the logo itself stays JP per D5). Next graphics: title block, 020B0F4's screen, the Dyna
+  Device app menu (0208654 labels), timetable mode 8, then the sheet rows (01E9764.. menus, 0203D14 Dyna naming,
+  03D7FD4 minigame help, battle 0250924 / 025E304, team 03B25A4 / 03B29B4). Link trade screens need a partner.
+  OAM tip: `oam.py`-style decode of `ppu_*.oam.bin` (visible entries, tile -> r/c for 2D mapping) took 20 lines;
+  worth adding to tools/ next time.
+- **Session before (2026-11-15, worker 6):** sweep 6 had died with its worker: restarted as **sweep 7**
   (`cover.py scripts --jobs 2`, log `work/qa/cover/sweep7.log`, a background job of this worker's shell, so it
   dies when the worker ends: next worker, check `work/qa/cover/m1/` (597 dirs at hand-off) and rerun the same
   command, then `cover.py report`). Graphics (docs/re/graphics.md "PDA screens", worker 6): address book 02124B4
