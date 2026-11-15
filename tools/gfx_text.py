@@ -115,6 +115,9 @@ ATLASES = {
             ("Birthday", tiles(8, 24, 28)),
             ("Blood Type", tiles(7, 25, 30)),
         ],
+        # おわる button (profile form, scene form_scroll; red palette on screen): 4x2 tiles, top half 7,17-20, bottom
+        # half 7,21-24 (fill 11, border 4 / 5, ink 1) -> Quit, as the errand form's copy in 0215E74
+        "redraw": [("Quit", {"stack": [(136, 56, 168, 64), (168, 56, 200, 64)]}, "row", 1, None, "vwf", 5, {1})],
         # Memo / address-book index tabs ア..ワ: BG1 map tiles 0xBC-0xF7 = block tile - 0x80 (scene mode_pda_list,
         # ppu f600), 24 px pitch, ink 15 with drop shadow 14. The tabs share their side tiles (map row 2: bc / c4,
         # row 3: f1 / f2 repeat), so each tab's letter must stay inside its middle tile: romaji initials.

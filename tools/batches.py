@@ -70,8 +70,13 @@ def width_problems(entry, en):
     return errs
 
 
+# full-width digits and minus: drawn from the game's own font at the cell width (vwf.encode_en keeps them as SJIS
+# units), for date / time fields whose code-drawn digits sit in the JP 16 px cells (t0B90B4, t0B90D8)
+FULLWIDTH = set("０１２３４５６７８９－")
+
+
 def encodable(char):
-    return " " <= char <= "~" and char not in "%"
+    return (" " <= char <= "~" and char not in "%") or char in FULLWIDTH
 
 
 COL = re.compile(r"<@(\d+)>")

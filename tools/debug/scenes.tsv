@@ -80,7 +80,7 @@ r817	resume	86=1	900	continue, flag 86 = 1: script 817
 r153	resume	95=3	900	continue, flag 95 = 3, score <= 99: script 153, epilogue
 r155	resume	95=3 score=100	900	continue, flag 95 = 3, score > 99: script 155, epilogue (complete)
 r154	resume		900	continue, no story flag: script 154 (アトラクション しゅうりょう)
-ending_full	resume	75=1 mash	7000	final battle aftermath played with A every 40 frames into the staff roll (MASHA)
+ending_full	resume	75=1 mash	11200	final battle aftermath played with A every 40 frames into the staff roll (MASHA); English reaches the ending art + "Game Design" credit at ~11200 (JP ~7000)
 d_dyna_status	dmode	11	300	tutorial played, quit, mode 11 with real data: Dyna status / equip
 d_customize	dmode	13	300	tutorial data, mode 13: ダイナカスタマイズ
 d_auction	dmode	15	300	tutorial data, mode 15: アイテムオークション
