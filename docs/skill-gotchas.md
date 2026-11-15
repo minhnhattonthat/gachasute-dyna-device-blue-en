@@ -20,3 +20,4 @@
 - references/pipeline.md (Checks): the Claude Code Write tool strips trailing spaces from lines, so a fix-batch TSV whose English needs trailing blanks loses them silently; write such a TSV from a script, or pad with `[7F]`.
 - references/pipeline.md (Relocated strings): a flag-bit-masked word scan for moved-string pointers hits Thumb code (`0x480Bxxxx` = ldr r0,[pc]) and data; whitelist each checked coincidence rather than loosen the mask.
 - emulator-qa.md §Text coverage: a per-script hijack sweep from one pre-script savestate (emu.py --state-in) costs ~15 s a script instead of a cold boot; 4 parallel Mesen jobs plus other projects' runs got the background task reaped for low memory: use --jobs 2 on a shared machine.
+- references/emulator-qa.md: Mesen GBA ppu dumps: the io dump's BGxHOFS/VOFS can be stale (write-only regs); read the whole BG map (tools/bgmap.py --full) instead of trusting the scroll.

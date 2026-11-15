@@ -2,11 +2,18 @@
 
 Updated at the end of every session. Keep it to what the next session needs; history is in git.
 
-- **Phase:** 8. QA in the emulator: in progress (text coverage 1790/5536, script sweep to resume; field menu
-  graphics done). Phase 7 done 2026-11-15. Last build: `build/dynadevice_blue_en.gba` 2026-11-15 (menu graphics),
-  sha1 dbc3dbdd..., smoke ok, 53 tests ok, lint 0/0 (138 strings wider than JP under guessed budgets:
-  `lint.py --guess`, `docs/review/guess_wide.txt`).
-- **This session (2026-11-15, worker):** field menu bar + every submenu (System/Items/Party/Residents/Database)
+- **Phase:** 8. QA in the emulator: in progress (text coverage 1952/5536, script sweep to resume past s451;
+  field menu + profile form graphics done). Phase 7 done 2026-11-15. Last build: `build/dynadevice_blue_en.gba`
+  2026-11-15 (form graphics), sha1 ce7675b7..., smoke ok, 53 tests ok, lint 0/0 (138 strings wider than JP under
+  guessed budgets: `lint.py --guess`, `docs/review/guess_wide.txt`).
+- **Latest session (2026-11-15, worker 2):** profile form labels (Name, Nickname, Gender, Address, Home Tel.,
+  Mobile Tel., Email, Birthday, Blood Type; block 020EB44) and the registration popup (OBJ block 02124B4) in
+  English (`work/qa/gfx_en/form*/`); notes in docs/re/graphics.md "Profile form". New `tools/bgmap.py` (which
+  screen cells of each BG show a block's tiles, from a ppu dump; `--full` for the whole map), scene `form_scroll`,
+  gfx_text rows take an alignment (`left`/`right` for a word split by shared tiles or OAM gaps, `tight`) and
+  per-atlas `ink`/`bg`. Coverage sweep run 3 reached s451 (stopped by me to hand off; finished runs are kept).
+  Remember: `regen.py` defaults to the ORIGINAL ROM; pass `--rom build/dynadevice_blue_en.gba` for English shots.
+- **Session before (2026-11-15, worker):** field menu bar + every submenu (System/Items/Party/Residents/Database)
   English in game (`work/qa/gfx_en/*/hold.png`): `tools/gfx_text.py` draws labels into `gfx/01E30D4.png`,
   `gfx.MAP_PATCHES` re-lays 3 SCR rows (docs/re/graphics.md "Field menu bar"). `cover.py scripts` now skips
   scripts with a finished run at that masha (`--redo` forces): the s001-s391 runs are kept, the next resume starts
@@ -38,7 +45,9 @@ Updated at the end of every session. Keep it to what the next session needs; his
      **stopped by Claude Code for low system memory** after 322 scripts (other projects' Mesen runs share the
      machine): **1735/5536 shown or waived** (1555 messages, 2246 strings left). The second sweep (2026-11-15)
      was stopped the same way after reaching s391: **1792/5536** (1498 messages, 2246 strings left); run it with
-     `--jobs 1` when memory is short (2026-11-15: 1.8 GB free, 3 Mesen of another project running). Resume:
+     `--jobs 1` when memory is short (2026-11-15: 1.8 GB free, 3 Mesen of another project running). Third sweep
+     (`--jobs 2`, 3.9 GB free, ~1.5 scripts a minute) stopped at s451: **1952/5536** (1336 messages, 2248 strings
+     left; scripts go up to s833, so expect a few hours: start it in the background first thing). Resume:
      `cover.py scripts --jobs 1` (scripts with unshown messages and no finished run; the build is newer than
      `cov_pre.mss`, so it first remakes that state, a few minutes); then `--masha 2` (Down+A: second choice) for branches.
      Strings: `tools/debug/cover_tables.py --unshown` groups them by pointer table. Keyword list entries show
@@ -50,8 +59,12 @@ Updated at the end of every session. Keep it to what the next session needs; his
   2. Tours through changed scenes with contact sheets, `qa_gate.py init/check`, verdicts by a fresh read-only pass
      (no subagents in Orca: do it yourself or `codex exec`). Text coverage (`textcover.py`), `inkbox.py` on every
      choice and centred menu box.
-  3. Graphics text (`docs/re/graphics.md`). **Field menu (01E30D4) done**; next rows: PDA home labels, fortune
-     box, title logo, name-entry keyboard/profile form, then the sheet rows. Same method: regen the scene on the
+  3. Graphics text (`docs/re/graphics.md`). **Field menu (01E30D4) and profile form (020EB44 labels, 02124B4
+     popup) done**; form leftovers: おわる button, two tiny boxed words 7,17-24 of 020EB44, the other 02124B4
+     sentences (PDA address book). Next rows: name-entry keyboard (020BDD4: tabs かな/カナ/ABC/123/きごう/かんじ in
+     two states, START けってい / SELECT へんかん x3, 前のページ/次のページ: bold outlined art, more than one ink),
+     020B0F4 (なまえ/ばしょ/すること/イベント/カスタム: PDA schedule headers), PDA home labels, fortune box,
+     title logo, then the sheet rows. Same method: regen the scene on the
      original ROM with ppu_every.lua, find the BG map (search ROM for the u16 tile sequence: menu maps were raw
      `SCR\0` blocks after the palette), add an ATLASES entry to gfx_text.py. Older notes: **Pipeline (2026-11-15):** every ECD block is reached through
      archive 0 at 0x0E7FA4 (docs/re/compression.md "Pointers"); `tools/gfx.py` exports a block to PNG and
