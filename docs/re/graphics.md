@@ -206,6 +206,14 @@ has). Original ROM, `regen.py <scenes> --out work/qa/survey --probe tools/lua/pp
   024C1C4 + 024D4B4: `mode_card`, `mode_card2` (card trade).
 - Not in any of those scenes: 01EA6B4, 024AF04 / 024B834 (link item / Dyna trade: need a partner), 0250924, 03B7F64.
   020B0F4 only shows its window-frame tiles (form screen), not the tabs.
+- Field-mode headers (OBJ 2D at 0x10000, italic f..b gradient + shadow 2 on navy 1 = gfx_text TT_GRAD / vwf2;
+  no PLT of their own: `gfx.PLT_FOR` borrows 022CF64's for the PNG): **done (worker 12)** 01EB9E4 Buy Items /
+  Sell Items (`d_item_sell`; Buy unseen), 01EAA04 Stored Building Kits (`d_kit`) / Treat Dyna (`d_dyna_shop`: the
+  balls hide the run's ends, keep to the JP span x64-184). 01EA8C4 is the HP/Lv bar art: no Japanese.
+  Next, same style: 01ECD84 アイテムオークション header + its small word charset (auction labels), 01EE624
+  かいはつ じょうきょう header + small words (Device development status), 01EFFF4 フリーバトル header, 01F4284
+  ズームアウト / ズームイン buttons + すんでいる ダイナデバイス line, 01EA6B4 small つれていく / データをみる /
+  にがす words (unseen so far).
 
 ## Fortune box (block 0231524, done worker 12)
 Boot with a save: date prompt, A, then きょうの うんせい (scene `fortune`, `work/qa/gfx_en/fortune/hold_x3.png`).

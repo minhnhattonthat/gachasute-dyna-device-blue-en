@@ -5,9 +5,22 @@ Updated at the end of every session. Keep it to what the next session needs; his
 - **Phase:** 8. QA in the emulator: in progress (coverage masha-1 sweep done, masha-2 sweep running; field menu,
   profile form, keyboard, PDA home + wheel / address book / calendar / money diary / calculator / memo / timetable
   / save dialog / link menu / link check / title screen / Customize Dyna / Team Setup / Place Dyna / minigames /
-  Dyna get + naming / battle results graphics done). Phase 7 done 2026-11-15. Last build:
-  `build/dynadevice_blue_en.gba` 2026-11-15 (worker 11), sha1 3e7fb6eb..., check.py ok, lint 0/0 (137 strings
-  wider than JP under guessed budgets: `lint.py --guess`, `docs/review/guess_wide.txt`).
+  Dyna get + naming / battle results / fortune box / item shop / Dyna Center headers done). Phase 7 done
+  2026-11-15. Last build: `build/dynadevice_blue_en.gba` 2026-11-15 (worker 12), sha1 dcd8f784..., check.py ok
+  (55 tests), lint 0/0 (137 strings wider than JP under guessed budgets: `lint.py --guess`,
+  `docs/review/guess_wide.txt`).
+- **Latest session (2026-11-15, worker 12, handed off near the context limit):** masha-2 sweep still alive (the
+  worker-11 job, `work/qa/cover/m2/` 88 runs; same rule: if no python runs `cover.py`, rerun `cover.py scripts
+  --masha 2 --jobs 1`, then `cover.py report`). New **`tools/blockscan.py DIR..`**: which graphics-text blocks
+  each scene's ppu dumps hold (own tiles only); a 32-scene survey on the original ROM (`work/qa/survey/`) maps
+  the remaining JP blocks to scenes (docs/re/graphics.md "Scene scan"). **Fortune box 0231524 in English** (new
+  scene `fortune`: boot kind, regen.py gives it tutorial_jp.sav; `gfx.FORTUNE_ROWS` re-lays the BG1 SCR
+  0x234034; test `test_fortune_labels_have_their_own_tiles`). **Item shop 01EB9E4** Buy Items / Sell Items,
+  **Dyna Center 01EAA04** Stored Building Kits / Treat Dyna (`gfx.PLT_FOR` stand-in palette for the 01EA6B4..
+  01F4284 group). Next graphics, scenes known: 01ECD84 (`d_auction`, `d_shop_list`), 01EE624 (`d_dev_status`),
+  01EFFF4 (`dbg_colo_free`), 01F4284 (`dbg_world_map`), 024C1C4 + 024D4B4 card trade (`mode_card`); unseen:
+  01EA6B4, 0250924, 03B7F64, 024AF04 / 024B834 (link trade); then `blockscan.py --all` over every scene for
+  blocks not in the Rows table.
 - **Latest session (2026-11-15, worker 11, handed off near the context limit):** the masha-2 sweep had died
   again (49 runs): restarted (`cover.py scripts --masha 2 --jobs 1`, log `work/qa/cover/sweep_m2c.log`, 67 runs in
   `work/qa/cover/m2/` at hand-off; a background job of this worker's shell: next worker, if no python runs
