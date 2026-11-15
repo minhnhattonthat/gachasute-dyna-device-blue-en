@@ -47,6 +47,8 @@ MENU_BAR = 0x1E30D4
 # in atlas order (rows 8-13, 8 cells a row; None = keep: HR is Latin already). D15: subject abbreviations.
 TT_GRAD = [15, 15, 15, 14, 14, 14, 13, 13, 12, 12, 11, 11, 11, 11]
 TT_KILL = {2, 11, 12, 13, 14, 15}
+SMALL_GRAD = [15, 15, 14, 14, 13, 12, 11]   # field-mode small words (8 px, no shadow)
+SMALL_KILL = {11, 12, 13, 14, 15}
 TT_SUBJECTS = ["Jpn", "Ari", "Sci", "Soc", "Mth", "Eng", "Hlth", "PE",
                "Tec", "HEc", "Crf", "Art", "Mus", "JpH", "WHi", "Geo",
                "Chm", "Phy", "Civ", "Eth", "Bio", None, "Clb", "Act"]
@@ -477,6 +479,45 @@ ATLASES = {
                    ("", (56, 16, 200, 32), "row", TT_GRAD, 2, "vwf2", 1, TT_KILL),
                    ("Treat Dyna", (64, 16, 184, 32), "row", TT_GRAD, 2, "vwf2", 1, TT_KILL)],
     },
+    # Item auction + device list (scenes d_auction, d_shop_list; OBJ 2D at 0x10000, block 01ECD84 30 tiles wide, OBJ
+    # tile 32 * row + col). Header アイテムオークション = r0-1 c4-13 then r2-3 c4-13 (screen x40-199). Small words
+    # r4-6 (8 px, gradient f f e e d c b at y1-7 on transparent) are put together by the code: かいし c6-8 + かかく
+    # c9-11, しょじきん r6 c11-15, デバイス r6 c20-23 / アイテム r5 c0-3 + めいしょう r5 c4-8, ぞくせい r5 c12-15,
+    # そうびタ r5 c16-19 / ぶそうタ r6 c16-19 + イプ r4 c18-19 (shared: both right-aligned "... Type"). Each piece
+    # is its own word so other pairings (げんざい + かかく) still read. Auction, Bid, Bits, Time Left, Current: unseen.
+    0x1ECD84: {
+        "redraw": [("Item Auction", [(32, 0, 112, 16), (32, 16, 112, 32)], "row", TT_GRAD, 2, "vwf2", 1, TT_KILL)]
+        + [(t, box, "row", SMALL_GRAD, None, "vwf", 1, SMALL_KILL, *al) for t, box, *al in (
+            ("Auction", (0, 32, 48, 40)), ("Start", (48, 32, 72, 40), "right"), (" Price", (72, 32, 96, 40), "left"),
+            ("Bid", (96, 32, 136, 40)),
+            ("Item", (0, 40, 32, 48), "right"), (" Name", (32, 40, 72, 48), "left"), ("Bits", (72, 40, 96, 48)),
+            ("Element", (96, 40, 128, 48)),
+            ("Equip Type", [(128, 40, 160, 48), (144, 32, 160, 40)], "right"),
+            ("Arms Type", [(128, 48, 160, 56), (144, 32, 160, 40)], "right"),
+            ("Time Left", (0, 48, 48, 56)), ("Current", (48, 48, 80, 56)), ("Funds", (88, 48, 128, 56)),
+            ("Device", (160, 48, 192, 56), "right"))],
+    },
+    # Device development status (scene d_dev_status; same layout, block 01EE624 24 tiles wide): header かいはつ
+    # じょうきょう r0-1 / r2-3 c4-13; プロジェクト r4 c0-5 (16 px, gradient + shadow 2), its letter A-D r4 c6-9 is
+    # Latin already. Small words r6-7 (もんだいなし, しきんぶそく ...) not seen yet.
+    0x1EE624: {
+        "redraw": [("Dev. Status", [(32, 0, 112, 16), (32, 16, 112, 32)], "row", TT_GRAD, 2, "vwf2", 1, TT_KILL),
+                   ("Project", (0, 32, 48, 48), "row", TT_GRAD, 2, "tall", 2, TT_KILL, "left")],
+    },
+    # Free battle (scene dbg_colo_free; block 01EFFF4 25 tiles wide): フリーバトル r0-1 c13-24 (screen x72-167; the
+    # balls cover the ends, so the narrower tall font).
+    0x1EFFF4: {
+        "redraw": [("Free Battle", (104, 0, 200, 16), "row", TT_GRAD, 2, "tallb", 1, TT_KILL)],
+    },
+    # Resident map (scenes dbg_world_map, menu_resident_map; OBJ tile 544 + 32 * row + col, block 01F4284 29 tiles
+    # wide): L ズームアウト button r0-1 c11-20, ズームイン R r2-3 c11-20 (dark ink 3 with 4 shading on a 5-8
+    # gradient); すんでいる r4 c11-15 + ダイナ c16-18 (shown as one 64 px label), デバイス c19-22, flat ink 12.
+    0x1F4284: {
+        "redraw": [("Zoom Out", (102, 2, 160, 12), "row", 3, None, "vwf", 1, {3, 4}),
+                   ("Zoom In", (104, 18, 150, 28), "row", 3, None, "vwf", 1, {3, 4})]
+        + [(t, box, "row", 12, None, "vwf", 1, {12}, "left") for t, box in (
+            ("Resident", (88, 32, 128, 40)), ("Dyna", (128, 32, 152, 40)), ("Devices", (152, 32, 184, 40)))],
+    },
     # Fortune box (boot with a save, scene `fortune`; BG1, block 0231524 32 tiles wide): きょうの うんせい r13 c12-21,
     # labels r14 after their icon tiles (c0 / c5 / c9 / c13), ink 1, 7 rows at tile y0, no shadow. gfx.FORTUNE_ROWS
     # gives Study c6-8 + c21 and Money c10-12 + c22; Health c1-4 and Lucky Dyna c14-20 stay where they were.
@@ -594,9 +635,11 @@ def redraw(a, spec):
         grad = ink if isinstance(ink, list) else spec.get("grad", {}).get(ink)
         if isinstance(ink, list):
             ink = ink[0]
-        # optional 8th item: this box's own clear set (None = the spec's); 9th: "left" = start 1 px into the box
+        # optional 8th item: this box's own clear set (None = the spec's); 9th: "left" = start 1 px into the box,
+        # "right" = end at the box's right edge (less the shadow)
         kill = own[0] if own and own[0] is not None else clear.get(ink, {ink})
         left = len(own) > 1 and own[1] == "left"
+        right = len(own) > 1 and own[1] == "right"
         if fill.startswith("vote:"):
             bg = vote_bg[fill[5:]]
             for y in range(y0, y1):
@@ -620,7 +663,7 @@ def redraw(a, spec):
         room = x1 - x0 - (2 if ring else 1 if shadow is not None else 0)
         if w > room + (1 if shadow is not None and not ring else 0):   # a drop shadow may be clipped at the right
             raise ValueError(f"{text!r} is {w} px, box {x0}-{x1} holds {room}")
-        ox = x0 + (1 if ring else 0) + (1 if left else (room - w + 1) // 2)
+        ox = x0 + (1 if ring else 0) + (1 if left else room - w if right else (room - w + 1) // 2)
         oy = y0 + dy
         ink_at = {(ox + px_, oy + py) for px_, py in pix}
         if ring and shadow[0] == "ring2":   # ("ring2", orth, diag): side neighbours one colour, corners another

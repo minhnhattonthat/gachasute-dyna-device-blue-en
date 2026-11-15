@@ -210,10 +210,13 @@ has). Original ROM, `regen.py <scenes> --out work/qa/survey --probe tools/lua/pp
   no PLT of their own: `gfx.PLT_FOR` borrows 022CF64's for the PNG): **done (worker 12)** 01EB9E4 Buy Items /
   Sell Items (`d_item_sell`; Buy unseen), 01EAA04 Stored Building Kits (`d_kit`) / Treat Dyna (`d_dyna_shop`: the
   balls hide the run's ends, keep to the JP span x64-184). 01EA8C4 is the HP/Lv bar art: no Japanese.
-  Next, same style: 01ECD84 アイテムオークション header + its small word charset (auction labels), 01EE624
-  かいはつ じょうきょう header + small words (Device development status), 01EFFF4 フリーバトル header, 01F4284
-  ズームアウト / ズームイン buttons + すんでいる ダイナデバイス line, 01EA6B4 small つれていく / データをみる /
-  にがす words (unseen so far).
+  **Done (worker 13)**, `work/qa/gfx_en/<scene>/hold.png`: 01ECD84 Item Auction header + small words (Start /
+  Price, Funds, Device / Item + Name, Element, Equip / Arms + shared "Type" tile; auction-only words Auction, Bid,
+  Bits, Time Left, Current drawn but unseen; r6 c10 の left), 01EE624 Dev. Status + Project (its small words r6-7
+  もんだいなし / しきんぶそく ... unseen, still JP), 01EFFF4 Free Battle (tallb: the balls hide the ends), 01F4284
+  Zoom Out / Zoom In buttons + Resident / Dyna / Devices. Small words are 8 px, gradient f f e e d c b at y1-7
+  (gfx_text SMALL_GRAD), composed by the code from separate tile runs: each run gets its own English word.
+  Still to do: 01EA6B4 small つれていく / データをみる / にがす words (unseen so far).
 
 ## Fortune box (block 0231524, done worker 12)
 Boot with a save: date prompt, A, then きょうの うんせい (scene `fortune`, `work/qa/gfx_en/fortune/hold_x3.png`).
