@@ -90,6 +90,28 @@ class Gfx(unittest.TestCase):
         for code_tile in ((3, 0), (3, 1), (3, 2), (3, 3), (3, 4), (5, 19)):
             self.assertNotIn(code_tile, gfx._S5)
 
+    def test_battle_board_titles_have_their_own_tiles(self):
+        """With gfx.MAP_PATCHES applied, the Move title (PAT 025F094) no longer shares Place Dyna's tiles and the L
+        Status frames (PAT 025F134 frames 0-1) show no tile at two x positions (the JP ス was drawn twice)."""
+        import pat
+        rom = bytearray(self.rom)
+        for off, _, new, _ in gfx.MAP_PATCHES:
+            struct.pack_into(f"<{len(new)}H", rom, off, *new)
+
+        def tiles(off, frame):
+            out = []
+            for _, w, h, x, y, t, _ in pat.frames(rom, off)[frame][1]:
+                out += [(t + 32 * r + c, x + 8 * c) for r in range(h // 8) for c in range(w // 8)]
+            return out
+        place = {t for t, _ in tiles(0x25F064, 0)}
+        move = {t for t, _ in tiles(0x25F094, 0)}
+        self.assertFalse(place & move, "Move Dyna title shares tiles with Place Dyna")
+        for frame in (0, 1):
+            pos = {}
+            for t, x in tiles(0x25F134, frame):
+                pos.setdefault(t, set()).add(x)
+            self.assertTrue(all(len(v) == 1 for v in pos.values()), f"Status frame {frame}: {pos}")
+
     def test_menu_labels_on_maps_and_committed_png_current(self):
         import gfx_text
         img = gfx_text.render(self.rom, MENU)   # raises if a label is too wide or hits a blank column

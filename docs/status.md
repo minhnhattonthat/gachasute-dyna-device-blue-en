@@ -6,10 +6,23 @@ Updated at the end of every session. Keep it to what the next session needs; his
   profile form, keyboard, PDA home + wheel / address book / calendar / money diary / calculator / memo / timetable
   / save dialog / link menu / link check / title screen / Customize Dyna / Team Setup / Place Dyna / minigames /
   Dyna get + naming / battle results / fortune box / item shop / Dyna Center / auction / device list / dev status /
-  free battle / resident map / card trade done). Phase 7 done 2026-11-15. Last build: `build/dynadevice_blue_en.gba`
-  2026-11-15 (worker 13), sha1 dabda170..., check.py ok (55 tests), lint 0/0 (137 strings wider than JP under
-  guessed budgets: `lint.py --guess`, `docs/review/guess_wide.txt`).
-- **Latest session (2026-11-15, worker 13, handed off near the context limit):** masha-2 sweep still alive (pid
+  free battle / resident map / card trade / tactics battle board done). Phase 7 done 2026-11-15. Last build:
+  `build/dynadevice_blue_en.gba` 2026-11-15 (worker 14), sha1 2eca3dc2..., smoke ok, check.py ok (56 tests), lint
+  0/0 (137 strings wider than JP under guessed budgets: `lint.py --guess`, `docs/review/guess_wide.txt`).
+- **Latest session (2026-11-15, worker 14):** masha-2 sweep still alive (pid 25948, 100 runs in `work/qa/cover/m2/`;
+  same rule as below). **Tactics battle board reached and in English** (docs/re/graphics.md "Tactics battle
+  board"): debug TACTICS SYSTEM with one monster (the A on MONSTER NUMBER is what makes TACT START work); new
+  scenes `tact_place`, `tact_confirm`, `tact_cmd`, `tact_enemy`, `tact_move`, `tact_status` (shots in
+  `work/qa/gfx_en/tact_*`). 025E304 titles Move Dyna / Select Command / Enemy Area + L/R words Status / Back /
+  Enemies (PAT patches in `gfx.MAP_PATCHES`, test `test_battle_board_titles_have_their_own_tiles`); battle commands
+  are block **025D924** (the sweep table said 0250924): Attack / Scout / Cure / Move / Special. New
+  `tools/pat.py` lists PAT sprite frames (the quickest way to a sprite title's layout). **Link-only blocks drawn,
+  unseen** (no cable in Mesen; TSBTL debug menu stops at TSUSIN MODE SELECT): 03B7F64 Turn N + Joker / King /
+  Queen / Jack / Ghost, 024AF04 Item Trade, 024B834 Dyna Trade + Your / Their / Items / Dyna (layouts from their
+  PAT frames). Graphics rows left: 01EA6B4 (unseen small words), 01EE624 r6-7 and 024D4B4 buttons (unseen); then
+  the ppu_every survey of the other `scenes.tsv` scenes + `blockscan.py --all`, chapter cards, game over, credits,
+  phase-8 steps 2, 4, 5.
+- **Session before (2026-11-15, worker 13, handed off near the context limit):** masha-2 sweep still alive (pid
   25948, `work/qa/cover/m2/` 98 runs; same rule: if no python runs `cover.py`, rerun `cover.py scripts --masha 2
   --jobs 1`, then `cover.py report`). **In English, seen in game** (`work/qa/gfx_en/<scene>/hold.png`): 01ECD84
   Item Auction header + small words (Start / Price, Funds, Device + Name, Element, Equip / Arms + shared Type),

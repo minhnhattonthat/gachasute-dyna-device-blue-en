@@ -42,6 +42,14 @@ MAP_PATCHES = [
      "team menu SCR 03B2854 row 1: Add/Swap in 0,8-0,10 1,7 1,8"),
     (0x3B28A6, [0x47, 0x48, 0x49, 0], [0x29, 0x47, 0x48, 0x49], "team menu SCR 03B2854 row 3: Remove in 1,9 2,7-2,9"),
     (0x3B28D6, [0x67, 0x68, 0x69, 0x09], [0x67, 0x68, 0x69, 0], "team menu SCR 03B2854 row 5: Done in 3,7-3,9"),
+    # Battle placement sprites (block 025E304 at OBJ tile 0, PAT frames listed by tools/pat.py 25F004): the Move
+    # title ダイナ+いどう reused ダイナはいち's first 5 tiles; give it the free r0-1 c10-14 so both titles are whole
+    # English ("Place Dyna" c0-9, "Move Dyna" c10-14 + c16-20). L button ステータス repeats ス (r5 c29) at x 9:
+    # put that sprite on top of the first one (x -23, same tile) so "Status" is one 4-tile run.
+    (0x25F0B2 + 6, [0x3004], [0x300E], "PAT 025F094 Move title: 8x16 r0 c4 -> r0 c14"),
+    (0x25F0BA + 6, [0x3000], [0x300A], "PAT 025F094 Move title: 32x16 r0 c0 -> r0 c10"),
+    (0x25F156 + 2, [9], [0xFFE9], "PAT 025F134 frame 0 (L Status, pal 1): repeated ス x 9 -> -23"),
+    (0x25F188 + 2, [9], [0xFFE9], "PAT 025F134 frame 1 (L Status, pal 2): repeated ス x 9 -> -23"),
 ]
 # PDA timetable palette status line "月曜日 1時間目 = [icon]" (PAT at 0x22F194, block 022CF64; entries u16 size,
 # s16 x, s16 y, u16 tile, screen x = 120 + x) -> "Mon, period 1 = [icon]": weekday frames (Mon..Sat) move the

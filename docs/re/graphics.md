@@ -219,6 +219,24 @@ has). Original ROM, `regen.py <scenes> --out work/qa/survey --probe tools/lua/pp
   `blockscan.py --all` on the 32 survey scenes: their other blocks hold no JP (art, digits, 8bpp maps).
   Still to do: 01EA6B4 small つれていく / データをみる / にがす words (unseen so far).
 
+## Tactics battle board (worker 14)
+The debug menu's TACTICS SYSTEM (MONSTER SET MENU) starts a 1-Dyna battle vs COM: Down x3 to MONSTER NUMBER,
+Right, **A** (adds it: without that A, TACT START does nothing), Up x4, A. Scenes `tact_place` (ダイナはいち),
+`tact_confirm` (これで いいですか？), `tact_cmd` (turn 1 command menu), `tact_enemy` (R), `tact_move` (いどう),
+`tact_status` (L); a real battle follows (A on Attack, A, A: the attack animation). Sprites come from PAT blocks
+right after the art: `tools/pat.py --scan 25F000 260500` lists every frame (size code 0x00 8x8, 0x41 16x8, 0x52
+32x8, 0x66 32x16; tile word = entry + 6, x = entry + 2).
+- **025E304** (OBJ tile 32 * row + col): titles Place Dyna (c0-9), Move Dyna (JP ダイナいどう reused c0-4: the PAT
+  025F094 entries now point at the free c10-14), Select Command (r0-1 c21-23 + r2-3 c0-11), Enemy Area (r2-3
+  c12-23); L/R button words (ink 4 over shade 3): Status (r5 c29-31 + r6 c31; JP ステータス repeated ス at x 9, now
+  at x -23 under the first), Back (r4 c29-31, both buttons), Enemies (r6 c26-30: "Enemy Area" is 48 px, the run 40).
+- **025D924** (the sweep's "0250924"; loaded at OBJ 0x11C00 = rows 7-16 c0-7 of the 2D layout): command words
+  Attack / Scout / Cure / Move / Special, each its own 32x8 sprite (Special unseen: no Special Dyna in the test).
+- **03B7F64** (だい N ターン, ジョーカー / キング / クイーン / ジャック / ゴースト, 1P-4P) is archive index 7629 and is not
+  loaded by the tactics battle, dbg_battle, the link check, team, roulette, results or battle-field scenes
+  (`tools/lua/lzss_log.lua` over 13 scenes): it is the link battle's board (Joker etc. are link roles, s210 /
+  s228). The TSBTL debug menu (`dbg_tsuusin`) TACT START goes to TSUSIN MODE SELECT, which waits for a cable.
+
 ## Fortune box (block 0231524, done worker 12)
 Boot with a save: date prompt, A, then きょうの うんせい (scene `fortune`, `work/qa/gfx_en/fortune/hold_x3.png`).
 BG3 = the swirl background (block rows 0-10), BG1 = the box text from SCR 0x234034 (30x20, words 32 * row + col,
@@ -262,7 +280,7 @@ itself is a sprite). Rows 11-13 c0-11 / c24-31 hold glyph-like tiles no map of t
 | 024B834 | sheet_004 | ダイナこうかん／じぶんのあいてのダイナ | Exchange Dynas / Your Dynas / Partner’s Dynas | menu-label |
 | 024C1C4 | sheet_004 | アドレス／データ／[大型文字は一部判読不能] | Address / Data / [large lettering partly illegible] | menu-label |
 | 024D4B4 | sheet_004 | めいしこうかん／めいしの／じぶんの | Exchange business cards / Business card… / Your… | menu-label |
-| 0250924 | sheet_004 | ていさつちょう／いどう／とくしゅ／こうげき | Reconnaissance… / Move / Special / Attack | menu-label |
+| 025D924 | sheet_004 | ていさつ／ちりょう／いどう／とくしゅ／こうげき (the sweep table had it as 0250924) | Scout / Cure / Move / Special / Attack | menu-label |
 | 025E304 | sheet_004 | ダイナはいち／[判読不能]せんたく／いどう／こうげきエリア／たいきエリア | Dyna placement / Select [illegible] / Move / Attack area / Standby area | menu-label |
 | 03B25A4 | sheet_019 | ついか／はずす／［断片・判読困難］ | Add / Remove / [fragmented, unclear] | menu-label |
 | 03B29B4 | sheet_019 | チームへんせい | Team setup | menu-label |

@@ -336,11 +336,57 @@ ATLASES = {
     },
     # Battle placement (mode 28 = scene mode_placement; OBJ, block 025E304, OBJ tile 32 * row + col). Title
     # ダイナはいち = r0-1 c0-9 (x0-79, three pieces at screen x120): blue gradient 7..11, drop shadow 12, on
-    # transparent. Still JP in this block (screens not reached yet): いどう, コマンドせんたく, てきのエリア, もどる,
-    # ステータス?, てきエリア (docs/re/graphics.md).
+    # transparent. The other titles (PAT 025F004.., tools/pat.py; scenes tact_*): ダイナいどう = c0-4 + r0-1
+    # c16-20, moved to c10-14 + c16-20 by gfx.MAP_PATCHES; コマンドせんたく = r0-1 c21-23 + r2-3 c0-11 (x-20..100);
+    # てきのエリア = r2-3 c12-23. Button words (8 px, ink 4 with shade 3 under it, on the grey button): L ステータス =
+    # r5 c29-31 + r6 c31 (the repeated ス moved under the first), L/R もどる = r4 c29-31, R てきエリア = r6 c26-30.
     0x25E304: {
-        "redraw": [("Place Dyna", (0, 0, 80, 16), "row", [7, 7, 7, 8, 8, 8, 9, 9, 9, 10, 10, 11, 11, 11], 12,
-                    "tallb", 1, {7, 8, 9, 10, 11, 12})],
+        "redraw": [(t, box, "row", [7, 7, 7, 8, 8, 8, 9, 9, 9, 10, 10, 11, 11, 11], 12, "tallb", 1,
+                    {7, 8, 9, 10, 11, 12})
+                   for t, box in (("Place Dyna", (0, 0, 80, 16)),
+                                  ("Move Dyna", [(80, 0, 120, 16), (128, 0, 168, 16)]),
+                                  ("Select Command", [(168, 0, 192, 16), (0, 16, 96, 32)]),
+                                  ("Enemy Area", (96, 16, 192, 32)))]
+                  + [(t, box, "row", 4, 3, "vwf", 0, {3, 4})
+                     for t, box in (("Status", [(232, 40, 256, 48), (248, 48, 256, 56)]),
+                                    ("Back", (232, 32, 256, 40)),
+                                    ("Enemies", (208, 48, 248, 56)))],
+    },
+    # Link item / Dyna trade (blocks 024AF04 13 tiles wide, 024B834 21 wide; OBJ tile 32 * row + col; need a link
+    # partner, not seen in game). Title = one line from the last frame of the ball-opening PAT: アイテム + こうかん =
+    # r0-1 c4-11 + r2-3 c4-11 (PAT 024B3A4), ダイナこうかん = r0-1 c4-17 + r2-3 c4-11 (PAT 024BCC4); lettering like
+    # めいしこうかん (024D4B4). Panels (PAT 024B6E4 / 024C074): じぶんの / あいての + アイテム / ダイナ, separate 32x8
+    # runs, flat ink 10 on transparent: 024AF04 r4 c0-3 / c4-7 / c8-11, 024B834 r2 c12-15 / c16-19, r3 c12-15.
+    0x24AF04: {
+        "redraw": [("Item Trade", [(32, 0, 96, 16), (32, 16, 96, 32)], "row", TT_GRAD, 2, "vwf2", 1, TT_KILL)]
+                  + [(t, (x, 32, x + 32, 40), "row", 10, None, "vwf", 0, {10}, "left")
+                     for t, x in (("Your", 0), ("Their", 32), ("Items", 64))],
+    },
+    0x24B834: {
+        "redraw": [("Dyna Trade", [(32, 0, 144, 16), (32, 16, 96, 32)], "row", TT_GRAD, 2, "vwf2", 1, TT_KILL)]
+                  + [(t, box, "row", 10, None, "vwf", 0, {10}, "left")
+                     for t, box in (("Your", (96, 16, 128, 24)), ("Their", (128, 16, 160, 24)),
+                                    ("Dyna", (96, 24, 128, 32)))],
+    },
+    # Link battle board (block 03B7F64, 25 tiles wide; archive index 7629, loaded only with a link partner, so not
+    # seen in game: docs/re/graphics.md "Tactics battle board"). だい N ターン: だい x48-87 -> "Turn", ターン x112-159
+    # blanked, so the number follows "Turn" (lettering f..b gradient, shadow 2, on navy 1). Role words, 32x8 each,
+    # outlined on navy 1: ジョーカー / クイーン ink 7 ring 2, キング / ジャック ink 14 ring 9, ゴースト ink 7 ring 4.
+    0x3B7F64: {
+        "redraw": [("Turn", (48, 0, 88, 16), "row", TT_GRAD, 2, "tallb", 1, TT_KILL),
+                   ("", (112, 0, 160, 16), "row", TT_GRAD, 2, "tallb", 1, TT_KILL)]
+                  + [(t, box, "row", ink, ("ring", ring), "vwf", 0, {ink, ring, 10})
+                     for t, box, ink, ring in (("Joker", (97, 32, 127, 40), 7, 2), ("King", (97, 40, 127, 48), 14, 9),
+                                               ("Queen", (97, 48, 127, 56), 7, 2), ("Jack", (97, 56, 127, 64), 14, 9),
+                                               ("Ghost", (129, 56, 159, 64), 7, 4))],
+    },
+    # Battle commands (block 025D924, 8 tiles wide, loaded at OBJ tile 224 as rows 7-16 c0-7 of the 2D layout; scene
+    # tact_cmd): white ink 7, each word a 32x8 sprite: ていさつ r6 c0-3, ちりょう r6 c4-7, いどう r7 c0-3, とくしゅ r7
+    # c4-7, こうげき r9 c0-3 (glossary b003: Scout, Cure, Move, Special, Attack).
+    0x25D924: {
+        "redraw": [(t, box, "row", 7, None, "vwf", 1, {7}, "left")
+                   for t, box in (("Scout", (0, 48, 32, 56)), ("Cure", (32, 48, 64, 56)), ("Move", (0, 56, 32, 64)),
+                                  ("Special", (32, 56, 64, 64)), ("Attack", (0, 72, 32, 80)))],
     },
     # Dyna get / naming (mode 45 = scene dyna_new / dyna_name; OBJ 2D, block 0203D14 31 tiles wide, OBJ tile 480 +
     # 32 * row + col). Info panel = PAT 0x204234 frame 2 (frame 1 = labels only): labels タイプ / スタイル / ぞくせい
