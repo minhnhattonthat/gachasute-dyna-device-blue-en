@@ -31,7 +31,9 @@ Updated at the end of every session. Keep it to what the next session needs; his
      1, MASHA=1, stops after 300 idle frames: ~15 s a run, logs `work/qa/cover/m1/sSSS/`); `report`; `waive`
      (auto rows in `docs/text_unshown.tsv`: data, blank, kept format/debug strings, 133 rows). The first sweep was
      **stopped by Claude Code for low system memory** after 322 scripts (other projects' Mesen runs share the
-     machine): **1735/5536 shown or waived** (1555 messages, 2246 strings left). Resume: `cover.py scripts --jobs
+     machine): **1735/5536 shown or waived** (1555 messages, 2246 strings left). The second sweep (2026-11-15)
+     was stopped the same way after reaching s391: **1792/5536** (1498 messages, 2246 strings left); run it with
+     `--jobs 1` when memory is short. Resume: `cover.py scripts --jobs
      2` (it reruns only scripts with unshown messages); then `--masha 2` (Down+A: second choice) for branches.
      Strings: `tools/debug/cover_tables.py --unshown` groups them by pointer table. Keyword list entries show
      when their story flag is set (table 0x080D0008 +4, flags 2 7 18 20 22 33 34 35 68): menu scenes now take
