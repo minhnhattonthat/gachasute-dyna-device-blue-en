@@ -2,10 +2,15 @@
 
 Updated at the end of every session. Keep it to what the next session needs; history is in git.
 
-- **Phase:** 8. QA in the emulator: in progress (text coverage 1735/5536, script sweep to resume). Phase 7
-  done 2026-11-15; its review's Important items fixed (lint blank rule + r06 pads, guess-budget count). Last build:
-  `build/dynadevice_blue_en.gba` 2026-11-15 (after r06), sha1 58b74fab..., 48 tests ok, lint 0/0 (138 strings wider
-  than JP under guessed budgets: `lint.py --guess`, `docs/review/guess_wide.txt`).
+- **Phase:** 8. QA in the emulator: in progress (text coverage 1790/5536, script sweep to resume; field menu
+  graphics done). Phase 7 done 2026-11-15. Last build: `build/dynadevice_blue_en.gba` 2026-11-15 (menu graphics),
+  sha1 dbc3dbdd..., smoke ok, 53 tests ok, lint 0/0 (138 strings wider than JP under guessed budgets:
+  `lint.py --guess`, `docs/review/guess_wide.txt`).
+- **This session (2026-11-15, worker):** field menu bar + every submenu (System/Items/Party/Residents/Database)
+  English in game (`work/qa/gfx_en/*/hold.png`): `tools/gfx_text.py` draws labels into `gfx/01E30D4.png`,
+  `gfx.MAP_PATCHES` re-lays 3 SCR rows (docs/re/graphics.md "Field menu bar"). `cover.py scripts` now skips
+  scripts with a finished run at that masha (`--redo` forces): the s001-s391 runs are kept, the next resume starts
+  past them. VRAM dumps beside a scene: `regen.py SCENE --probe tools/lua/ppu_every.lua`.
 - **Text fixes go through fix batches:** `work/tl/rNN.tsv` (ids) + `rNN.out.tsv` (id TAB paragraph, `{KP}` between
   pages, no `\n` unless a choice line), `python -X utf8 tools/batches.py merge rNN --overwrite`. Last: r05.
   Messages are paragraphs; `batches.wrap` fills 188/176 px, 2 lines a page, and balances the lines (no widows).
@@ -33,8 +38,9 @@ Updated at the end of every session. Keep it to what the next session needs; his
      **stopped by Claude Code for low system memory** after 322 scripts (other projects' Mesen runs share the
      machine): **1735/5536 shown or waived** (1555 messages, 2246 strings left). The second sweep (2026-11-15)
      was stopped the same way after reaching s391: **1792/5536** (1498 messages, 2246 strings left); run it with
-     `--jobs 1` when memory is short. Resume: `cover.py scripts --jobs
-     2` (it reruns only scripts with unshown messages); then `--masha 2` (Down+A: second choice) for branches.
+     `--jobs 1` when memory is short (2026-11-15: 1.8 GB free, 3 Mesen of another project running). Resume:
+     `cover.py scripts --jobs 1` (scripts with unshown messages and no finished run; the build is newer than
+     `cov_pre.mss`, so it first remakes that state, a few minutes); then `--masha 2` (Down+A: second choice) for branches.
      Strings: `tools/debug/cover_tables.py --unshown` groups them by pointer table. Keyword list entries show
      when their story flag is set (table 0x080D0008 +4, flags 2 7 18 20 22 33 34 35 68): menu scenes now take
      `flags N=V .. | route` (warp.lua) for an all-keywords Database scene (A on each entry, help pages). Then
@@ -44,7 +50,10 @@ Updated at the end of every session. Keep it to what the next session needs; his
   2. Tours through changed scenes with contact sheets, `qa_gate.py init/check`, verdicts by a fresh read-only pass
      (no subagents in Orca: do it yourself or `codex exec`). Text coverage (`textcover.py`), `inkbox.py` on every
      choice and centred menu box.
-  3. Graphics text (`docs/re/graphics.md`). **Pipeline ready (2026-11-15):** every ECD block is reached through
+  3. Graphics text (`docs/re/graphics.md`). **Field menu (01E30D4) done**; next rows: PDA home labels, fortune
+     box, title logo, name-entry keyboard/profile form, then the sheet rows. Same method: regen the scene on the
+     original ROM with ppu_every.lua, find the BG map (search ROM for the u16 tile sequence: menu maps were raw
+     `SCR\0` blocks after the palette), add an ATLASES entry to gfx_text.py. Older notes: **Pipeline (2026-11-15):** every ECD block is reached through
      archive 0 at 0x0E7FA4 (docs/re/compression.md "Pointers"); `tools/gfx.py` exports a block to PNG and
      `gfx.apply` (called by build.py, a no-op until `gfx/<OFFSET>.png` exist) writes edited art in place or
      relocates it (tests/test_gfx.py). Pilot = field menu bar 01E30D4: its BG0 tile lists per button are in

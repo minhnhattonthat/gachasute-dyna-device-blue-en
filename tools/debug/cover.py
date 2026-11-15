@@ -1,7 +1,7 @@
 """Text coverage runs: one hijacked-script run per message script, plus a report of what no run has shown yet.
 
     python -X utf8 tools/debug/cover.py report [--logs DIR ..]           # unshown ids, by script / string block
-    python -X utf8 tools/debug/cover.py scripts [S ..] [--all] [--masha 1|2] [--jobs 4] [--hold 6000] [--idle 300]
+    python -X utf8 tools/debug/cover.py scripts [S ..] [--all] [--redo] [--masha 1|2] [--jobs 4] [--hold 6000] [--idle 300]
     python -X utf8 tools/debug/cover.py waive    # rewrite the auto rows of docs/text_unshown.tsv (data/blank/kept)
 
 `scripts` runs tools/debug/warp.lua kind "script" for each message script that still has an unshown message (or
@@ -102,6 +102,13 @@ def cmd_scripts(a):
         todo = allscripts
     else:
         todo = sorted({int(i[1:4]) for i in unshown(LOGS) if i.startswith("s")})
+        if not a.redo:   # a finished run at this masha shows the same text again: resume past it
+            def done(s):
+                p = OUT / f"m{a.masha}" / f"s{s:03d}" / "log.txt"
+                return p.exists() and f"ARRIVED cov_s{s:03d}" in p.read_text(encoding="utf-8", errors="replace")
+            skipped = [s for s in todo if done(s)]
+            todo = [s for s in todo if s not in set(skipped)]
+            print(f"{len(skipped)} scripts already run at masha {a.masha} (--redo to rerun them)")
     scenes = OUT / "scenes.tsv"
     rows = ["name\tkind\targ\thold\tnote"] + [f"cov_s{s:03d}\tscript\t{s}\t{a.hold}\tcover" for s in allscripts + [1]]
     scenes.write_text("\n".join(dict.fromkeys(rows)) + "\n", encoding="utf-8")
@@ -204,6 +211,7 @@ def main():
     s = sp.add_parser("scripts")
     s.add_argument("names", nargs="*")
     s.add_argument("--all", action="store_true")
+    s.add_argument("--redo", action="store_true", help="rerun scripts that already have a finished run")
     s.add_argument("--masha", type=int, default=1)
     s.add_argument("--jobs", type=int, default=4)
     s.add_argument("--hold", type=int, default=6000)
