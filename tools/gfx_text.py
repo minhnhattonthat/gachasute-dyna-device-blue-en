@@ -91,6 +91,19 @@ ATLASES = {
             ("Blood Type", tiles(7, 25, 30)),
         ],
     },
+    # Profile form popup (OBJ, 2D mapping, block 02124B4, ink 7 on 5): each line is 4-tile sprites with 8 px gaps
+    # the OAM leaves between them (scene form, ppu dump f1080): line 1 = 6,19-27 x56 | gap | 6,28-31 + 7,30-31 x136;
+    # line 2 = 7,19-22 x32 | gap | 7,23-26 x72 | gap | 8,19-30 x112. Words break at the gaps.
+    0x2124B4: {
+        "ink": 7, "bg": 5,
+        "rows": [
+            ("Let's register", tiles(6, 19, 27), "right"),
+            ("as a user.", tiles(6, 28, 31) + tiles(7, 30, 31), "left"),
+            ("Please", tiles(7, 19, 22), "right"),
+            ("enter", tiles(7, 23, 26)),
+            ("your details.", tiles(8, 19, 30), "left"),
+        ],
+    },
 }
 
 
@@ -173,7 +186,7 @@ def render(rom, off):
         for y in range(8):
             for x in range(8):
                 a.set(t, x, y, 0)
-    ink = spec.get("ink", INK)
+    ink, bg = spec.get("ink", INK), spec.get("bg", 0)
     for _, columns in spec.get("labels", []):
         clear_strip(a, columns)
     for _, columns, *_ in spec.get("rows", []):
@@ -181,7 +194,7 @@ def render(rom, off):
             for y in range(8):
                 for x in range(8):
                     if a.get(t, x, y) == ink:
-                        a.set(t, x, y, 0)
+                        a.set(t, x, y, bg)
     for text, columns in spec.get("labels", []):
         draw_text(a, text, len(columns) * 8, TEXT_Y, lambda x, y, c=columns: strip_cell(c, x, y))
     for text, columns, *align in spec.get("rows", []):   # caps rows 0-6, descenders row 7

@@ -54,7 +54,10 @@ its font at run time (dialogue, the boot date prompt, the profile popup) is stri
   words, map rows 36-37 beside the blood-type label: find the screen that scrolls them in), the おわる button.
 - The form's popup (ユーザーとうろくを おこないます / あなたの データを にゅうりょくしてください) is **OBJ**
   art from block 02124B4 (pre-drawn sentences, not a charset: also このデータを けしても いいですか？, けす＝Aボタン
-  けさない＝Bボタン, アドレスのついか, リセット データをけす). Needs the OAM layout (ppu dump at f1080, scene `form`).
+  けさない＝Bボタン, アドレスのついか, リセット データをけす). OAM uses 2D mapping (block tile n = OBJ tile 480+n),
+  4-tile sprites with 8 px gaps between them, so English words break at the gaps. **Done 2026-11-15:** the
+  registration popup ("Let's register as a user. / Please enter your details."). Open: the other sentences of
+  02124B4 (PDA address book: delete prompt, add-address tab, reset/erase data button): find their scenes first.
 
 ## Rows (ROM offset of the ECD block)
 | Offset | Sheet | Japanese | Gloss | Kind |
