@@ -463,6 +463,18 @@ ATLASES = {
                                   ("D-Pad", [(1, 18), (2, 16), (2, 17)]),
                                   ("Start", [(2, 18), (5, 5), (5, 6)]))],
     },
+    # Fortune box (boot with a save, scene `fortune`; BG1, block 0231524 32 tiles wide): きょうの うんせい r13 c12-21,
+    # labels r14 after their icon tiles (c0 / c5 / c9 / c13), ink 1, 7 rows at tile y0, no shadow. gfx.FORTUNE_ROWS
+    # gives Study c6-8 + c21 and Money c10-12 + c22; Health c1-4 and Lucky Dyna c14-20 stay where they were.
+    0x231524: {
+        "screens": [{"cells": [[32 * r + c for r, c in tl]],
+                     "redraw": [(t, (0, 0, 8 * len(tl), 8), "row", 1, None, "vwf", 0, {1}, align)]}
+                    for t, tl, align in (("Today's Fortune", tiles(13, 12, 21), "centre"),
+                                         ("Health", tiles(14, 1, 4), "left"),
+                                         ("Study", tiles(14, 6, 8) + [(14, 21)], "left"),
+                                         ("Money", tiles(14, 10, 12) + [(14, 22)], "left"),
+                                         ("Lucky Dyna", tiles(14, 14, 20), "left"))],
+    },
     # Title screen (OBJ 2D, block 0449734, block tile n = OBJ tile n; scene mode_title). The logo stays JP (D5).
     # Copyright (rows 12-13 c0-12, screen x68 y140) and the blinking スタートボタンを おしてください (r12-13 c13-28,
     # four 32x16 at x57 y123) are 7-row strokes in ink 5, side neighbours 3, corners 4, on transparent 0. The

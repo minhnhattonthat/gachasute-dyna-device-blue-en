@@ -57,7 +57,8 @@ def run(rom, out, states, row, probes=(), slots=None):
     name, kind = row[0], row[1]
     hold = int(row[3]) if len(row) > 3 and row[3].strip() else 300
     cont = kind in CONT_KINDS
-    if cont and not TUTORIAL_SAV.exists():
+    saved = cont or (kind == "boot" and row[2].startswith("fortune"))   # the fortune box shows only with a save
+    if saved and not TUTORIAL_SAV.exists():
         sys.exit(f"{TUTORIAL_SAV} missing: run tools/debug/mksave.py first")
     d = out / name
     state = states / f"{name}.mss"
@@ -68,7 +69,7 @@ def run(rom, out, states, row, probes=(), slots=None):
         cmd = [sys.executable, "-X", "utf8", str(Path(SKILL) / "scripts" / "emu.py"), str(rom_run), "--out", str(d),
                "--script", str(ROOT / "tools" / "debug" / "warp.lua"), "--var", f"SCENE='{name}'",
                "--var", "FINISH=1", "--var", f"WARP_STATE='{state.as_posix()}'",
-               "--sav", str(TUTORIAL_SAV if cont else blank_sav()),
+               "--sav", str(TUTORIAL_SAV if saved else blank_sav()),
                "--frames", str((CONT_BUDGET if cont else BUDGET.get(kind, 12000)) + hold), "--timeout", "1200"]
         if cont:
             cmd += ["--var", "CONT=1"]

@@ -63,6 +63,17 @@ class Gfx(unittest.TestCase):
             self.assertEqual(list(struct.unpack_from(f"<{len(old)}H", self.rom, off)), old, why)
             self.assertEqual(len(old), len(new), why)
 
+    def test_fortune_labels_have_their_own_tiles(self):
+        """The fortune box's re-laid rows match the original SCR, and no two labels share a tile."""
+        import gfx_text
+        gfx.mini_patches(self.rom, gfx.FORTUNE_ROWS, "fortune")   # raises if a JP row or the SCR header differs
+        seen = {}
+        for scr in gfx_text.ATLASES[0x231524]["screens"]:
+            text = scr["redraw"][0][0]
+            for n in scr["cells"][0]:
+                self.assertNotIn(n, seen, f"{text!r} and {seen.get(n)!r} share tile {n}")
+                seen[n] = text
+
     def test_minigame_words_have_their_own_tiles(self):
         """Every small English word's tiles are shown by the re-laid minigame maps, no word shares a tile with
         another, and no kana tile the code writes beside numbers (てん, ふん, びょう) is reused for a word."""

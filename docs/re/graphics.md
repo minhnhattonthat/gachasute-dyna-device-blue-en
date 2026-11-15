@@ -197,6 +197,24 @@ its font at run time (dialogue, the boot date prompt, the profile popup) is stri
   the mode 2 chain (0x08021370..) and from 0x080283B0 / 0x0802DDB0 / 0x08032834 / 0x0803B6A0. Not on the PDA
   home, address book, calendar add-plan / add-errand screens. Next: a Lua exec hook on 0x08023F20 in those modes.
 
+## Scene scan (worker 12)
+`tools/blockscan.py DIR..` lists, per Rows block, the scenes whose ppu dumps hold its own tiles (tiles no other block
+has). Original ROM, `regen.py <scenes> --out work/qa/survey --probe tools/lua/ppu_every.lua` over 32 scenes:
+- 0231524 fortune box: every save boot (scene `fortune`, new: boot kind, regen.py gives it tutorial_jp.sav).
+- 01EA8C4 + 01EAA04: `d_dyna_shop`, `d_kit`. 01EB9E4: `d_item_sell`. 01ECD84: `d_auction`, `d_shop_list`.
+  01EE624: `d_dev_status`. 01EFFF4: `dbg_colo_free`. 01F4284: `dbg_world_map`, `menu_resident_map`.
+  024C1C4 + 024D4B4: `mode_card`, `mode_card2` (card trade).
+- Not in any of those scenes: 01EA6B4, 024AF04 / 024B834 (link item / Dyna trade: need a partner), 0250924, 03B7F64.
+  020B0F4 only shows its window-frame tiles (form screen), not the tabs.
+
+## Fortune box (block 0231524, done worker 12)
+Boot with a save: date prompt, A, then きょうの うんせい (scene `fortune`, `work/qa/gfx_en/fortune/hold_x3.png`).
+BG3 = the swirl background (block rows 0-10), BG1 = the box text from SCR 0x234034 (30x20, words 32 * row + col,
+palette 2): title r13 c12-21, labels r14 (icon tiles c0 / c5 / c9 / c13 kept), ink 1 at tile y0-6. Health
+けんこう and Study べんきょう shared ん/う tiles, so `gfx.FORTUNE_ROWS` re-lays Study (c6-8 + c21) and Money
+(c10-12 + c22); r14 c21-31 were flat. English: Today's Fortune / Health / Study / Money / Lucky Dyna (the Dyna
+itself is a sprite). Rows 11-13 c0-11 / c24-31 hold glyph-like tiles no map of this screen uses: left alone.
+
 ## Rows (ROM offset of the ECD block)
 | Offset | Sheet | Japanese | Gloss | Kind |
 |---|---|---|---|---|

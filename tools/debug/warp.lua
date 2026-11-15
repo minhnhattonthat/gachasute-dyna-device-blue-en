@@ -211,6 +211,13 @@ L.on_exec(DATE_PROMPT, DATE_PROMPT, function()
     set_stage("done")
     arrive()
   end
+  -- arg "fortune" (boot with a save, regen.py gives tutorial_jp.sav): A on the date prompt, then the fortune box
+  if not dateSeen and scene.kind == "boot" and scene.arg == "fortune" then
+    dateSeen = true
+    set_stage("done")
+    play(parse_route("60 -;6 a;180 -"))
+    arriveAfterRoute = true
+  end
 end)
 
 L.on_exec(SCRIPT_START, SCRIPT_START, function()

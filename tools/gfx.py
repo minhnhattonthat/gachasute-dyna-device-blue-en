@@ -176,10 +176,21 @@ MINI_ROWS = [
 ]
 
 
-def mini_patches(rom):
-    """MAP_PATCHES-style rows for MINI_ROWS (checks each SCR header and its JP tiles)."""
+# Fortune box (boot, scene `fortune`; block 0231524, BG1 SCR 0x234034 30x20, words 32 * row + col, palette 2).
+# Health け ん こ う (14,1-4) and Study べ ん き ょ う share 14,2 / 14,4, so Study gets its own run; Money gets a 5th
+# tile. 14,21-31 are flat, unused tiles (docs/re/graphics.md "Fortune box").
+FORTUNE_ROWS = [
+    (0x234034, (9, 9), [(14, 5), (14, 6), (14, 2), (14, 7), (14, 8), (14, 4)],
+     [(14, 5), (14, 6), (14, 7), (14, 8), (14, 21), _], "fortune べんきょう -> Study"),
+    (0x234034, (11, 9), [(14, 9), (14, 10), (14, 11), (14, 12), _],
+     [(14, 9), (14, 10), (14, 11), (14, 12), (14, 22)], "fortune おかね -> Money"),
+]
+
+
+def mini_patches(rom, rows=None, tag="minigame"):
+    """MAP_PATCHES-style rows for MINI_ROWS (or `rows` of the same form; checks each SCR header and its JP tiles)."""
     out = []
-    for off, at, old, new, why in MINI_ROWS:
+    for off, at, old, new, why in MINI_ROWS if rows is None else rows:
         if rom[off:off + 4] != b"SCR\0":
             raise ValueError(f"{off:#x}: no SCR header ({why})")
         w, h = rom[off + 5], rom[off + 6]
@@ -202,7 +213,7 @@ def mini_patches(rom):
             j = next(j for j in list(range(i, -1, -1)) + list(range(i, len(words))) if got[j])
             return words[j] & 0xF000
         out.append((e, words, [0 if t is None else pal(i, t) | (32 * t[0] + t[1]) for i, t in enumerate(new)],
-                    f"minigame {why}"))
+                    f"{tag} {why}"))
     return out
 
 
@@ -324,6 +335,7 @@ def apply(rom, out, free, log=None, limit=None):
     title = title_patches(rom) if (GFX / "0449734.png").exists() else []
     title += tt_patches(rom) if (GFX / "022CF64.png").exists() else []
     title += mini_patches(rom) if (GFX / "03D5DB4.png").exists() else []
+    title += mini_patches(rom, FORTUNE_ROWS, "fortune") if (GFX / "0231524.png").exists() else []
     for off, old, new, why in MAP_PATCHES + title:
         if list(struct.unpack_from(f"<{len(old)}H", rom, off)) != old:
             raise ValueError(f"gfx map patch {off:#x}: original words differ ({why})")

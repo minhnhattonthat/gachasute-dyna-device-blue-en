@@ -3,6 +3,7 @@ date	boot	date	60	boot date prompt (きょうの ひづけを せっていして
 form	boot	form	120	profile form with its help popup, cold boot
 keyboard	boot	keyboard	120	name-entry keyboard (profile name)
 title	boot	title	60	title screen after the form
+fortune	boot	fortune	30	fortune box (きょうの うんせい) after the date prompt, boot with tutorial_jp.sav
 intro	newgame		600	new game: script 1 (ようこそ ダイナシティへ), tutorial start
 battle_place	field	30 -	60	tutorial skipped, out into the city: a visiting challenger starts a battle, Dyna placement screen (script 181)
 battle_place_trap	field	240 -;6 a;60 -;16 down;60 -;6 a;90 -	60	visiting challenger's battle: Dyna 1 placed, its trap set, Dyna 2 prompt
