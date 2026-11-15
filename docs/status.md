@@ -2,11 +2,23 @@
 
 Updated at the end of every session. Keep it to what the next session needs; history is in git.
 
-- **Phase:** 8. QA in the emulator: in progress (script coverage sweep past s492; field menu, profile form,
-  keyboard, PDA calendar header graphics done). Phase 7 done 2026-11-15. Last build: `build/dynadevice_blue_en.gba`
-  2026-11-15 (calendar header), sha1 77ebf0ac..., smoke ok, check.py ok, lint 0/0 (138 strings wider than JP
-  under guessed budgets: `lint.py --guess`, `docs/review/guess_wide.txt`).
-- **Latest session (2026-11-15, worker 4):** sweep 4 had died at s473 (no Mesen running): restarted as sweep 5
+- **Phase:** 8. QA in the emulator: in progress (script coverage sweep past s566; field menu, profile form,
+  keyboard, PDA calendar / money diary / calculator / memo graphics done). Phase 7 done 2026-11-15. Last build:
+  `build/dynadevice_blue_en.gba` 2026-11-15 (memo tabs), sha1 2a524b81..., check.py ok, lint 0/0 (137 strings
+  wider than JP under guessed budgets: `lint.py --guess`, `docs/review/guess_wide.txt`).
+- **Latest session (2026-11-15, worker 5):** sweep 4/5 had died (empty log); restarted as **sweep 6**
+  (`cover.py scripts --jobs 2`, log `work/qa/cover/sweep6.log`), at s566 of s833 when this worker handed off
+  (context limit): same rule (if `work/qa/cover/m1/` stops growing and no Mesen runs `cover`, rerun it, then
+  `cover.py report`). Graphics (docs/re/graphics.md "PDA screens"): money diary 021EAA4 (the table said 021EA44),
+  calculator 02280B4 (`grad` option: per-row inks), memo 0225EC4 + its BG index tabs in 020EB44 (new gfx_text
+  "screens": redraw a BG map strip in screen coords; D14 romaji initials A K S T N H M Y R W). Text fix r07:
+  money-diary panel t0B924C "Month" (4 tiles; "This month" ran into "Left"), budget class 0x0B924C-0x0B9260 = 32
+  measured. New scenes `pda_money_r`, `pda_money_rr`. Next graphics: address book 02124B4 (tabs: copy the 0225EC4
+  tab boxes after checking its ink indices with a dumpidx-style print; アドレスのついか R band x2; セレクト
+  データをけす buttons x2), timetable mode 8 (時間割 logo, 月..土, ひとつ けす band, subject icons), the faint
+  delete prompts (021EAA4 / 0219CB4 / 0225EC4 / 02124B4, ink 7). Tip: OAM listing = decode `ppu_*.oam.bin`
+  (OBJ tile 480 + 32*row + col for these PDA blocks); BG tiles: render the BG from the dump to see which layer.
+- **Session before (2026-11-15, worker 4):** sweep 4 had died at s473 (no Mesen running): restarted as sweep 5
   (`cover.py scripts --jobs 2`, log `work/qa/cover/sweep5.log`), at s492 when this worker handed off; same rule as
   below (if `work/qa/cover/m1/` stops growing and no Mesen runs `cover`, rerun it, then `cover.py report`). Graphics:
   PDA calendar header 0219CB4 "Add Plan" / "Add Errand" in game; 020B0F4 tabs drawn but their screen not found;
