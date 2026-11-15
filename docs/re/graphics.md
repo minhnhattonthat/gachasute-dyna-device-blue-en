@@ -81,6 +81,11 @@ its font at run time (dialogue, the boot date prompt, the profile popup) is stri
 - **Done:** calendar header 0219CB4 "Add Plan" / "Add Errand" (both copies; outlined white ink 3, ring 14, fill
   `rowmode`), in game `work/qa/warp/mode_pda_calendar/hold.png`. Open in the same block: the faint delete prompt
   (このデータを けしても いいですか？ / けす＝Aボタン けさない＝Bボタン, ink 7 on 5): find its screen.
+- **Done (worker 5):** money diary header 021EAA4 (the table's 021EA44 is a typo: the block is 021EAA4, OBJ tile
+  480 + 32*row + col): L "Add Money Out" (both copies), R-band overlay strips y32-39 "This Month" / "This Week" /
+  "Add Money In" (ring outline clipped to the 8 px strip). In game `work/qa/gfx_en/pda_money*/`,
+  `mode_pda_schedule`. Same block, open: the faint ink-7 delete prompt (y104-119) and ・しゅうの▲ (x184-223, y32).
+  The month-view panel label t0B924C has 4 tiles (32 px): "This month" ran into "Left", now "Month" (r07).
 - 020B0F4 tabs (なまえ ばしょ すること イベント カスタム) drawn as "Name / Place / To Do / Event / Custom" (map SCR
   0x20BAB4, menu-bar layout), **not yet seen in game**: archive index 2395 is loaded by 0x08023F20, reached from
   the mode 2 chain (0x08021370..) and from 0x080283B0 / 0x0802DDB0 / 0x08032834 / 0x0803B6A0. Not on the PDA
@@ -110,7 +115,7 @@ its font at run time (dialogue, the boot date prompt, the profile popup) is stri
 | 0215E74 | sheet_003 | charset | Japanese character set | font/charset |
 | 0219CB4 | sheet_003 | よていのついか　よびのついか　よびじかんのせってい　よびじかんクリア　このデータを けしても いいですか？　はい　いいえ | Add schedule; add reminder; set reminder time; clear reminder time; erase this data?; yes; no | menu-label |
 | 021C414 | sheet_003 | charset | Japanese character set | font/charset |
-| 021EA44 | sheet_003 | つかったお金ついか　こんげつぶん　こんしゅうぶん　もっともおおいつき［一部判読困難］ | Add money spent; this month; this week; highest-spending month [partly unclear] | menu-label |
+| 021EAA4 | sheet_003 | つかったお金ついか　こんげつぶん　こんしゅうぶん　もっともおおいつき［一部判読困難］ | Add money spent; this month; this week; highest-spending month [partly unclear] | menu-label |
 | 0224B44 | sheet_003 | charset | Kana character set | font/charset |
 | 0225EC4 | sheet_003 | charset | Kana character set | font/charset |
 | 02280B4 | sheet_004 | スクロール／やりなおし／[一部判読不能] | Scroll / Redo / [partly illegible] | menu-label |

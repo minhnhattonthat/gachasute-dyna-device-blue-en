@@ -152,6 +152,8 @@ choice_s37	script	37 120 -;6 a;60 -;6 a;60 -;6 a;60 -	300	hijack at the tutorial
 keyboard_select	boot	keyboard|6 right;20 -;6 a;30 -;6 a;30 -;6 select;60 -	200	name-entry keyboard: type かか, then SELECT (what へんかん does)
 keyboard_kanji	boot	keyboard|40 -;6 r;80 -	200	name-entry keyboard: L to the kanji tab (page buttons)
 pda_money	mode	5 300 -;6 a;120 -	200	mode 5 money diary (L つかったお金ついか / R もらったお金ついか)
+pda_money_r	mode	5 300 -;6 r;120 -	200	mode 5 money diary month view, R (こんしゅうぶん: This Week)
+pda_money_rr	mode	5 300 -;6 r;120 -;6 r;120 -	200	mode 5 money diary month view, R twice
 pda_errand_add	mode	4 300 -;6 r;150 -	200	mode 4 calendar, R: add errand (icon tabs, Set deadline, おわる)
 pda_sched_add	mode	4 300 -;6 l;150 -	200	mode 4 calendar, L: add schedule (icon tabs, Start / End)
 pda_errand_ra	mode	4 300 -;6 r;150 -;6 right;30 -;6 a;150 -	200	mode 4 calendar, R (add errand), Right, A

@@ -125,6 +125,22 @@ ATLASES = {
                                   ("Add Errand", (37, 20, 97, 29)), ("Add Errand", (141, 21, 201, 30)))],
         "clear": {3: {3, 11, 12, 13, 14}},   # 11-13: the kana's shading
     },
+    # PDA money diary header (OBJ, block 021EAA4, block tile n = OBJ tile 480 + 32*row + col; scene pda_money,
+    # OAM f450 / f900). L band = atlas y0-15 (copy 2 at x+112, same rows: the pressed state), white ink 3 with
+    # outline 14 and shading 5/8/12 on a grey gradient; 8 is also a background grey, so it is cleared but still
+    # counted in the row's colour ("mode_skip"). The R band (y16-31) has no word of its own: an 8 px overlay strip
+    # from y32 sits on it at screen x161-168 (こんげつぶん x0-55, こんしゅうぶん x56-111, もらったお金ついか
+    # x112-183, on transparent 0), right of the band's icon and left of its R. Terms as strings t0B9208/18, t0B924C.
+    0x21EAA4: {
+        "redraw": [(t, box, "rowmode", 3, ("ring", 14), "vwf", 1)
+                   for t, box in (("Add Money Out", (12, 4, 80, 13)), ("Add Money Out", (124, 4, 192, 13)))]
+                  + [(t, box, "row", 3, ("ring", 14), "vwf", 0)
+                     for t, box in (("This Month", (0, 32, 52, 40)), ("This Week", (56, 32, 108, 40)),
+                                    ("Add Money In", (112, 32, 174, 40)),
+                                    ("", (108, 32, 112, 40)), ("", (174, 32, 184, 40)))],   # kana tails
+        "clear": {3: {3, 5, 8, 12, 14}},
+        "mode_skip": {3: {3, 5, 12, 14}},
+    },
     # Name-entry keyboard (OBJ, block 020BDD4, block tile n = OBJ tile n; scene keyboard_select, OAM at f1260).
     # Outlined art, so "redraw" boxes (atlas px): the old lettering is cleared and rebuilt from the background,
     # then the English is drawn. Tabs (ink 1, game palette shows it dark): normal tabs x6-31, 9-row pitch from y1;
@@ -213,7 +229,8 @@ def redraw(a, spec):
                 keep = [i for i, v in enumerate(row) if v not in kill]
                 if not keep:
                     continue
-                kept = [row[k] for k in keep]
+                skip = spec.get("mode_skip", {}).get(ink, kill)
+                kept = [v for v in row if v not in skip]
                 common = max(set(kept), key=kept.count)   # "rowmode": a vertical gradient, one colour a row
                 for i, v in enumerate(row):
                     if v in kill:

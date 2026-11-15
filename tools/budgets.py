@@ -73,6 +73,8 @@ CLASSES = [
      "0x0D0300: col 18 to the screen edge)", "measured"),
     (0x0B562C, 0x0B802C, 96, "keyword / style names (keyword list: col 18 to the screen edge) and help lines "
      "(help box inner x 111)", "measured"),
+    (0x0B924C, 0x0B9260, 32, "money diary month-view panel labels こんげつ / のこり / いままで: 4 tiles, a longer "
+     "word runs into the next label's tiles (work/qa/gfx_en/pda_money_r)", "measured"),
     (0x0B8044, 0x0BB7A8, 88, "UI strings (menus, prompts, formats)", "guess"),
 ]
 

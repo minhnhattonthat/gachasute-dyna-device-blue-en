@@ -154,4 +154,5 @@
 0B4CB0	0B5394	64	1	people and Dyna names, styles (name lists; %sRn = 64)	measured
 0B539C	0B5618	96	1	keyword list names (pointed to only by the keyword table 0x0D0008 and help pages 0x0D0300: col 18 to the screen edge)	measured
 0B562C	0B802C	96	1	keyword / style names (keyword list: col 18 to the screen edge) and help lines (help box inner x 111)	measured
+0B924C	0B9260	32	1	money diary month-view panel labels こんげつ / のこり / いままで: 4 tiles, a longer word runs into the next label's tiles (work/qa/gfx_en/pda_money_r)	measured
 0B8044	0BB7A8	88	1	UI strings (menus, prompts, formats)	guess
