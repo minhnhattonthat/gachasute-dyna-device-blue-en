@@ -19,8 +19,12 @@ Updated at the end of every session. Keep it to what the next session needs; his
   (English ending runs longer). Found with a pixel-shape matcher (screenshot 8x8 blocks vs VRAM tiles): worth
   promoting to tools/ if needed again. Possible leftover: block 0224BA4 is a copy of the JP kana index tabs (ア カ
   サ..) loaded at the same VRAM base as 020EB44 on the form: check whether any screen shows it.
-  **Text coverage sweep** (`cover.py msgs --hold 1500 --jobs 1`) restarted, reached s454+ of s833.
-  **English tour re-run on build eb9071f3** started (`work/qa/fix22/tour.log`, `--jobs 1`): when it's done,
+  **Both background runs were stopped by Claude Code for low system memory** (~1.2 GB free, other projects'
+  Mesen running). **Text coverage sweep** (`cover.py msgs --hold 1500 --jobs 1`) reached **s620** of s833: rerun
+  the same command (finished scripts are skipped). **English tour re-run on build eb9071f3**
+  (`work/qa/tour/tour_build.gba`): 68/197 scenes re-shot; the 129 left are in `docs/tour_left.txt`: resume with
+  `regen.py $(cat docs/tour_left.txt) --rom work/qa/tour/tour_build.gba --out work/qa/tour --states
+  work/qa/tour/_states --jobs 1` (regen redoes every named scene, so pass only those). When it's done,
   `qa_gate.py init work/qa/manifest.tsv work/qa/tour --build work/qa/tour/tour_build.gba`, `todo`, review the
   changed sheets, `check`.
 - **Session before (2026-11-15, worker 21):** **JP tour finished** (197/197 in `work/qa/tour_jp`). **Visual QA run
