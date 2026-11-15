@@ -5,11 +5,24 @@ Updated at the end of every session. Keep it to what the next session needs; his
 - **Phase:** 8. QA in the emulator: in progress (coverage masha-1 sweep done, masha-2 sweep running; field menu,
   profile form, keyboard, PDA home + wheel / address book / calendar / money diary / calculator / memo / timetable
   / save dialog / link menu / link check / title screen / Customize Dyna / Team Setup / Place Dyna / minigames /
-  Dyna get + naming / battle results / fortune box / item shop / Dyna Center headers done). Phase 7 done
-  2026-11-15. Last build: `build/dynadevice_blue_en.gba` 2026-11-15 (worker 12), sha1 dcd8f784..., check.py ok
-  (55 tests), lint 0/0 (137 strings wider than JP under guessed budgets: `lint.py --guess`,
-  `docs/review/guess_wide.txt`).
-- **Latest session (2026-11-15, worker 12, handed off near the context limit):** masha-2 sweep still alive (the
+  Dyna get + naming / battle results / fortune box / item shop / Dyna Center / auction / device list / dev status /
+  free battle / resident map / card trade done). Phase 7 done 2026-11-15. Last build: `build/dynadevice_blue_en.gba`
+  2026-11-15 (worker 13), sha1 dabda170..., check.py ok (55 tests), lint 0/0 (137 strings wider than JP under
+  guessed budgets: `lint.py --guess`, `docs/review/guess_wide.txt`).
+- **Latest session (2026-11-15, worker 13, handed off near the context limit):** masha-2 sweep still alive (pid
+  25948, `work/qa/cover/m2/` 98 runs; same rule: if no python runs `cover.py`, rerun `cover.py scripts --masha 2
+  --jobs 1`, then `cover.py report`). **In English, seen in game** (`work/qa/gfx_en/<scene>/hold.png`): 01ECD84
+  Item Auction header + small words (Start / Price, Funds, Device + Name, Element, Equip / Arms + shared Type),
+  01EE624 Dev. Status + Project, 01EFFF4 Free Battle, 01F4284 Zoom Out / Zoom In / Resident Dyna, 024D4B4 Card
+  Trade header, 024C1C4 Address Data / Dyna panels. gfx_text redraw boxes take "right" as the 9th item.
+  `blockscan.py --all` over the 32 survey scenes: every other block they show is art / digits / an 8bpp map (no
+  JP), so those scenes are clean. **Graphics rows left** (graphics.md Rows without gfx/*.png, charsets aside):
+  0250924 battle commands (ていさつ / いどう / とくしゅ / こうげき: field battle board, scene unknown), 03B7F64
+  turn counter (だい N ターン: during a battle), 01EA6B4 small つれていく / データをみる / にがす (unseen),
+  024AF04 / 024B834 link trade (need a partner), plus unseen small words in 01EE624 r6-7 and 024D4B4 buttons. Then
+  a ppu_every survey of the rest of `scenes.tsv` (153 scenes not surveyed) + `blockscan.py --all`, chapter cards,
+  game over, credits (mode 22), and the phase-8 steps 2, 4, 5 below.
+- **Session before (2026-11-15, worker 12, handed off near the context limit):** masha-2 sweep still alive (the
   worker-11 job, `work/qa/cover/m2/` 88 runs; same rule: if no python runs `cover.py`, rerun `cover.py scripts
   --masha 2 --jobs 1`, then `cover.py report`). New **`tools/blockscan.py DIR..`**: which graphics-text blocks
   each scene's ppu dumps hold (own tiles only); a 32-scene survey on the original ROM (`work/qa/survey/`) maps

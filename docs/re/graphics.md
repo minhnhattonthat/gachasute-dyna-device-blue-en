@@ -216,6 +216,7 @@ has). Original ROM, `regen.py <scenes> --out work/qa/survey --probe tools/lua/pp
   もんだいなし / しきんぶそく ... unseen, still JP), 01EFFF4 Free Battle (tallb: the balls hide the ends), 01F4284
   Zoom Out / Zoom In buttons + Resident / Dyna / Devices. Small words are 8 px, gradient f f e e d c b at y1-7
   (gfx_text SMALL_GRAD), composed by the code from separate tile runs: each run gets its own English word.
+  `blockscan.py --all` on the 32 survey scenes: their other blocks hold no JP (art, digits, 8bpp maps).
   Still to do: 01EA6B4 small つれていく / データをみる / にがす words (unseen so far).
 
 ## Fortune box (block 0231524, done worker 12)
