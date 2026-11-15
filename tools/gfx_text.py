@@ -90,6 +90,19 @@ ATLASES = {
             ("Birthday", tiles(8, 24, 28)),
             ("Blood Type", tiles(7, 25, 30)),
         ],
+        # Memo / address-book index tabs ア..ワ: BG1 map tiles 0xBC-0xF7 = block tile - 0x80 (scene mode_pda_list,
+        # ppu f600), 24 px pitch, ink 15 with drop shadow 14. The tabs share their side tiles (map row 2: bc / c4,
+        # row 3: f1 / f2 repeat), so each tab's letter must stay inside its middle tile: romaji initials.
+        "screens": [{
+            "cells": [[t - 0x80 for t in (0xbc, 0xbd, 0xbe, 0xbf, 0xc0, 0xc1, 0xc2, 0xc3, 0xc4, 0xbc, 0xc6, 0xc7, 0xc8,
+                                          0xc9, 0xca, 0xcb, 0xcc, 0xcd, 0xce, 0xcf, 0xc4, 0xbc, 0xd2, 0xc4, 0xbc, 0xd5,
+                                          0xc4, 0xbc, 0xd8, 0xc4)],
+                      [t - 0x80 for t in range(0xda, 0xf6)][:26] + [0xf1 - 0x80, 0xf2 - 0x80, 0xf6 - 0x80, 0xf7 - 0x80]],
+            "redraw": [("", (24 * k + 2, 1, 24 * k + 23, 10), "row", 15, 14, "vwf", 1) for k in range(10)]
+                      + [(t, (24 * k + 8, 1, 24 * k + 16, 10), "row", 15, 14, "vwf", 1)
+                         for k, t in enumerate("AKSTNHMYRW")],
+            "clear": {15: {14, 15}},
+        }],
     },
     # Profile form popup (OBJ, 2D mapping, block 02124B4, ink 7 on 5): each line is 4-tile sprites with 8 px gaps
     # the OAM leaves between them (scene form, ppu dump f1080): line 1 = 6,19-27 x56 | gap | 6,28-31 + 7,30-31 x136;
@@ -140,6 +153,32 @@ ATLASES = {
                                     ("", (108, 32, 112, 40)), ("", (174, 32, 184, 40)))],   # kana tails
         "clear": {3: {3, 5, 8, 12, 14}},
         "mode_skip": {3: {3, 5, 12, 14}},
+    },
+    # PDA calculator (mode 7) + memo R header (OBJ, block 02280B4, OBJ tile 32*row + col at VRAM 0x10000). Button
+    # words are separate sprites on transparent 0 laid over the 64 px buttons (OAM f600: やりなおし = atlas
+    # x176-223 y32-47 at screen 12,134; 税込み = x176-207 y48-63 at 84,134): blue ink (OBJ pal 2: 1 dark .. 8/7
+    # lighter rows) embossed with white 10 below-right; drawn with a row gradient + a white drop shadow. The R band
+    # スクロール (two copies, the second 17 rows lower) is outlined white like the calendar header.
+    0x2280B4: {
+        "redraw": [("Clear", (176, 34, 224, 47), "row", 1, 10, "vwf", 3),
+                   ("+Tax", (176, 49, 208, 62), "row", 1, 10, "vwf", 3),
+                   ("Scroll", (36, 4, 87, 13), "rowmode", 3, ("ring", 14), "vwf", 1),
+                   ("Scroll", (36, 21, 87, 30), "rowmode", 3, ("ring", 14), "vwf", 1)],
+        "clear": {1: set(range(1, 16)), 3: {3, 5, 8, 12, 14}},
+        "mode_skip": {3: {3, 5, 12, 14}},
+        "grad": {1: [1, 1, 6, 6, 4, 8, 7, 7]},
+    },
+    # PDA memo (mode 6; OBJ, block 0225EC4, 30 tiles wide: block tile 30*row + col = OBJ tile 480 + 32*row + col).
+    # R-band overlay strips (OBJ pal 1: white ink 4, outline 14, shading 5/8/12, on transparent 0), shown at screen
+    # x160 y5: あたらしく かく x152-215 y48-55, ひともじ けす y56-63. Index tabs ア..ワ (y0-15, 24 px pitch, white 13
+    # outlined 14 on tab blue; the selected tab is this OBJ copy, the rest BG) become the kana rows' romaji
+    # initials, the order the game sorts by.
+    0x225EC4: {
+        "redraw": [(t, box, "row", 4, ("ring", 14), "vwf", 0)
+                   for t, box in (("New Memo", (150, 48, 216, 56)), ("Backspace", (150, 56, 216, 64)))]
+                  + [(t, (24 * k + 4, 1, 24 * k + 21, 10), "row", 13, ("ring", 14), "vwf", 1)
+                     for k, t in enumerate("AKSTNHMYRW")],   # as the BG tabs (020EB44 "screens")
+        "clear": {4: {4, 5, 8, 12, 14}, 13: {13, 14}},
     },
     # Name-entry keyboard (OBJ, block 020BDD4, block tile n = OBJ tile n; scene keyboard_select, OAM at f1260).
     # Outlined art, so "redraw" boxes (atlas px): the old lettering is cleared and rebuilt from the background,
@@ -254,9 +293,10 @@ def redraw(a, spec):
                     p = (x + sx, y + sy)
                     if p not in ink_at and x0 <= p[0] < x1 and y0 <= p[1] < y1:
                         a.px[p[1] * a.W + p[0]] = shadow
+        grad = spec.get("grad", {}).get(ink)   # per glyph row inks, for lettering with a vertical gradient
         for x, y in ink_at:
             if y < y1:
-                a.px[y * a.W + x] = ink
+                a.px[y * a.W + x] = grad[min(y - oy, len(grad) - 1)] if grad else ink
 
 
 class Atlas:
@@ -353,7 +393,40 @@ def render(rom, off):
         draw_text(a, text, len(columns) * 8, 0, row_cell(text, columns), *(align or ["centre"]), ink=ink)
     if "redraw" in spec:
         redraw(a, spec)
+    for scr in spec.get("screens", []):
+        screen_redraw(a, scr)
     return a.image()
+
+
+class Strip:
+    """Atlas tiles laid out as the game's BG map shows them: rows of block tile numbers (None = not this block)."""
+    def __init__(self, atlas, cells):
+        self.cells, self.W, self.H = cells, 8 * len(cells[0]), 8 * len(cells)
+        cols = atlas.W // 8
+        self.px = [0] * (self.W * self.H)
+        for r, row in enumerate(cells):
+            for c, n in enumerate(row):
+                if n is not None:
+                    for y in range(8):
+                        for x in range(8):
+                            self.px[(8 * r + y) * self.W + 8 * c + x] = atlas.get(divmod(n, cols), x, y)
+
+
+def screen_redraw(a, scr):
+    """`redraw` boxes in screen coordinates of a map strip; tiles the map repeats must come out the same."""
+    s = Strip(a, scr["cells"])
+    redraw(s, scr)
+    cols = a.W // 8
+    done = {}
+    for r, row in enumerate(s.cells):
+        for c, n in enumerate(row):
+            if n is None:
+                continue
+            tile = [s.px[(8 * r + y) * s.W + 8 * c + x] for y in range(8) for x in range(8)]
+            if done.setdefault(n, tile) != tile:
+                raise ValueError(f"tile {n} repeats on the map but its cells now differ (cell {r},{c})")
+            for i, v in enumerate(tile):
+                a.set(divmod(n, cols), i % 8, i // 8, v)
 
 
 def main(argv):

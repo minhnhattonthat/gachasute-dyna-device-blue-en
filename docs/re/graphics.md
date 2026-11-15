@@ -86,6 +86,15 @@ its font at run time (dialogue, the boot date prompt, the profile popup) is stri
   "Add Money In" (ring outline clipped to the 8 px strip). In game `work/qa/gfx_en/pda_money*/`,
   `mode_pda_schedule`. Same block, open: the faint ink-7 delete prompt (y104-119) and ・しゅうの▲ (x184-223, y32).
   The month-view panel label t0B924C has 4 tiles (32 px): "This month" ran into "Left", now "Month" (r07).
+- **Done (worker 5):** calculator 02280B4 (mode 7): button words "Clear" / "+Tax" (OBJ pal 2 blue, `grad` row
+  inks + white drop shadow), R band "Scroll" (screen not seen yet). Memo 0225EC4 (mode 6, 30 tiles wide: OBJ
+  tile 480 + 32*row + col): R overlay "New Memo" (shown), "Backspace" (ひともじ けす, not seen), selected tab.
+  Index tabs: the unselected ones are **BG1 tiles of 020EB44** (map 0xBC-0xF7 = block tile + 0x80), drawn with
+  `gfx_text.py` "screens" (a map strip redrawn in screen coordinates, written back per tile; repeated tiles must
+  stay identical). Tabs share side tiles, so each letter fits the middle tile: romaji initials A K S T N H M Y R W
+  (also on the OBJ tab copies). In game `work/qa/gfx_en/mode_pda_list`, `mode_pda_calc`.
+  Open: address book 02124B4 (same tabs, アドレスのついか R band x2, セレクト データをけす buttons x2), timetable
+  (mode 8: 時間割 logo, 月..土 header, ひとつ けす R band, subject icons 国.. in 022CF64?), delete prompts.
 - 020B0F4 tabs (なまえ ばしょ すること イベント カスタム) drawn as "Name / Place / To Do / Event / Custom" (map SCR
   0x20BAB4, menu-bar layout), **not yet seen in game**: archive index 2395 is loaded by 0x08023F20, reached from
   the mode 2 chain (0x08021370..) and from 0x080283B0 / 0x0802DDB0 / 0x08032834 / 0x0803B6A0. Not on the PDA
