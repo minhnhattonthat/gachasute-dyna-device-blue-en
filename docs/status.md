@@ -2,9 +2,10 @@
 
 Updated at the end of every session. Keep it to what the next session needs; history is in git.
 
-- **Phase:** 8. QA in the emulator: not started. Phase 7 done 2026-11-15: build green with the romdiff gate,
-  lint 0 errors / 0 warnings, control codes matched (lint), 46 tests ok. Last build: `build/dynadevice_blue_en.gba`
-  2026-11-15 (after r05), sha1 7e6922ea..., smoke ok; write log `build/dynadevice_blue_en.writes.txt` (3177 writes).
+- **Phase:** 8. QA in the emulator: in progress (debug tool fixed, full regen + text coverage next). Phase 7
+  done 2026-11-15; its review's Important items fixed (lint blank rule + r06 pads, guess-budget count). Last build:
+  `build/dynadevice_blue_en.gba` 2026-11-15 (after r06), sha1 58b74fab..., 48 tests ok, lint 0/0 (138 strings wider
+  than JP under guessed budgets: `lint.py --guess`, `docs/review/guess_wide.txt`).
 - **Text fixes go through fix batches:** `work/tl/rNN.tsv` (ids) + `rNN.out.tsv` (id TAB paragraph, `{KP}` between
   pages, no `\n` unless a choice line), `python -X utf8 tools/batches.py merge rNN --overwrite`. Last: r05.
   Messages are paragraphs; `batches.wrap` fills 188/176 px, 2 lines a page, and balances the lines (no widows).
@@ -18,20 +19,24 @@ Updated at the end of every session. Keep it to what the next session needs; his
   (0x44C754-0x702BB4, see "Waiting on the user").
 - **Choice lines verified in game** (scene `choice_s37`, `work/qa/p6_s37/sheet.png`): `<@5>Yes<@11>No` puts the
   cursor just left of "Yes"; `<@N>` columns work as designed.
-- **Debug-tool bug found (fix before phase 8):** every `menu`/`fscript`/`dmode` scene (38) replays the timed
-  `tutorial_route.txt`, which desyncs on the English build (pages differ). The route start is now synced to the
-  script-10 nag (warp.lua), which gets through the Gachasute walk, but it still loops later (script 365 in room 3,
-  `work/qa/p6_choice6`). Fix idea: replace timed waits with event-driven segments (wait for SCRIPT n / room), or
-  finish the tutorial on the original ROM, save in game, and start these scenes from that .sav (text-independent).
+- **Debug tool (fixed 2026-11-15):** `menu`/`fscript`/`dmode` scenes continue from `work/states/tutorial_jp.sav`
+  (warp.lua `CONT=1`; make it with `tools/debug/mksave.py`, original ROM, ~5 min) instead of replaying the timed
+  tutorial: 38/38 reached on the English build, ~1.7k frames each. Boot with a save: date, fortune (きょうの
+  うんせい), PDA home (Planet OS: アドレス/ダイナデバイス/データセーブ, 予定/用事 labels), title (Start), field.
+  regen.py runs each job on its own ROM copy (`work/qa/warp/_roms/`) with a fresh `--sav` (an erased flash for
+  the rest), and the textcover probe; the build writes `build/strings.tsv` (tools/strings_tsv.py).
 - **Next (phase 8, done-when in SKILL.md):**
-  1. Fix the debug-tool bug above first (menu/fscript/dmode scenes), then `tools/debug/regen.py --jobs 4`.
+  1. Full regen on the English build (`regen.py --rom build/dynadevice_blue_en.gba`) and the original
+     (`--out work/qa/warp_jp --states work/states_jp`); `textcover.py work/qa/warp build/strings.tsv` -> add scenes
+     or waive (docs/text_unshown.tsv). Graphics text seen so far still JP: menu bar, PDA home labels, fortune box.
   2. Tours through changed scenes with contact sheets, `qa_gate.py init/check`, verdicts by a fresh read-only pass
      (no subagents in Orca: do it yourself or `codex exec`). Text coverage (`textcover.py`), `inkbox.py` on every
      choice and centred menu box.
   3. Graphics text (`docs/re/graphics.md`): ポーズ, opening movie spec panels, menu bar / item submenu / form labels,
      name-entry keyboard tabs + field labels (かな/カナ/ABC..., なまえ/ニックネーム/せいべつ, START けってい; scene
      `keyboard`, `work/qa/p7_kb/hold.png`), staff roll (mode 22, kana not SJIS).
-  4. In-game checks listed in `docs/polish.md` (calendar weekday row "Sun", Dyna Database "Element: thunder",
+  4. In-game checks listed in `docs/polish.md` (r06 field pads, the 138 guess-budget strings, s468 R5 width,
+     calendar weekday row "Sun", Dyna Database "Element: thunder",
      field build headers, help pages, link panels...). Timed cutscenes: English pages must finish typing.
   5. Name entry (D12): full-width Latin pages kept; check a typed name round trip (form -> messages -> save/load).
      t0B7FE4-t0B8044 (ｇｎｙｃｕｓ..., pointers 0x0D1EA8-0x0D1ED8) are still `keep`: find what shows them.

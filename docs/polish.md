@@ -8,6 +8,17 @@ Minor issues to revisit before release (phase 9 needs every line ticked). `[ ]` 
 - [ ] マシンガン -> "Rapid Gun" (descriptions and item list), アース -> Gran in Gran Launcher / Gran Stun Gun.
 - [ ] Armor list names keep the JP grade letters E/O/S/R; meaning unknown (element?). Check in game.
 
+## Field padding and widths to check in game (phase-7 review)
+- [ ] r06 pads with `[7F]` to the JP's cells: link-trade lines t0B949C-t0B95EC (11 cells), KO/Sick/Hungry
+  t0B9AF4-t0B9B0C (4), t0BA504 `Item=` (8), t0BB414 Armor Device (9). Switch between siblings and look for stale
+  letters (e.g. KO after Hungry, Armor Device after Weapon Device 2).
+- [ ] (^^) indent restored on t0BAF9C, t0BB0C8, t0BB180; button legends t0B8B5C/t0B8B94/t0B8BC8 and t0B99D4 drop
+  the JP indent (lint BLANK_WAIVE): check they line up.
+- [ ] 138 strings are wider than their JP under a guessed budget (`python -X utf8 tools/lint.py --guess`, list in
+  `docs/review/guess_wide.txt`): measure those windows or see each one in game.
+- [ ] s468.00 `busy with {%sR5} or something.` has 8 px spare at the 64 px R5 guess: find R5's source table
+  (activity names) or shorten.
+
 ## Unsure names
 - [ ] Star names サイド -> Said, ジャバル -> Jabal, ウナルベクサ -> Unalbeksa: no confirmed source star.
 - [ ] Byler Dyna puns (Parmoon, Bisaios, Capuchipean): check what the JP pun is once seen in game.
