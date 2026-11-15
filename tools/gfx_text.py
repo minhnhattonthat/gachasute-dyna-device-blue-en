@@ -469,6 +469,14 @@ ATLASES = {
         "redraw": [(t, (32, y, 176, y + 16), "row", TT_GRAD, 2, "vwf2", 1, TT_KILL)
                    for t, y in (("Buy Items", 0), ("Sell Items", 16))],
     },
+    # Dyna Center headers (OBJ 2D, block 01EAA04 30 tiles wide, same style as 01EB9E4): あずかっている けんちくキット
+    # r0-1 c4-29 (dmode 20 = scene d_kit), ダイナのちりょう r2-3 c7-24 between two blue (2) blocks (scene d_dyna_shop).
+    0x1EAA04: {
+        "redraw": [("Stored Building Kits", (32, 0, 240, 16), "row", TT_GRAD, 2, "vwf2", 1, TT_KILL),
+                   # the balls cover the run's ends on screen: keep to the JP glyphs' span
+                   ("", (56, 16, 200, 32), "row", TT_GRAD, 2, "vwf2", 1, TT_KILL),
+                   ("Treat Dyna", (64, 16, 184, 32), "row", TT_GRAD, 2, "vwf2", 1, TT_KILL)],
+    },
     # Fortune box (boot with a save, scene `fortune`; BG1, block 0231524 32 tiles wide): きょうの うんせい r13 c12-21,
     # labels r14 after their icon tiles (c0 / c5 / c9 / c13), ink 1, 7 rows at tile y0, no shadow. gfx.FORTUNE_ROWS
     # gives Study c6-8 + c21 and Money c10-12 + c22; Health c1-4 and Lucky Dyna c14-20 stay where they were.
