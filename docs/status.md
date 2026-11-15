@@ -17,8 +17,7 @@ Updated at the end of every session. Keep it to what the next session needs; his
   copyright, Press Start; the logo itself stays JP per D5). Next graphics: title block, 020B0F4's screen, the Dyna
   Device app menu (0208654 labels), timetable mode 8, then the sheet rows (01E9764.. menus, 0203D14 Dyna naming,
   03D7FD4 minigame help, battle 0250924 / 025E304, team 03B25A4 / 03B29B4). Link trade screens need a partner.
-  OAM tip: `oam.py`-style decode of `ppu_*.oam.bin` (visible entries, tile -> r/c for 2D mapping) took 20 lines;
-  worth adding to tools/ next time.
+  New `tools/oam.py DIR|DUMP_PREFIX`: visible sprites of a ppu dump (tile -> r/c for 2D OBJ mapping).
 - **Session before (2026-11-15, worker 6):** sweep 6 had died with its worker: restarted as **sweep 7**
   (`cover.py scripts --jobs 2`, log `work/qa/cover/sweep7.log`, a background job of this worker's shell, so it
   dies when the worker ends: next worker, check `work/qa/cover/m1/` (597 dirs at hand-off) and rerun the same
