@@ -167,6 +167,13 @@ its font at run time (dialogue, the boot date prompt, the profile popup) is stri
   `mode_minigame_level`, `mini_help`, `mini_help_b`, `mini_play`, `mini_pause`, `mini_long` = Start! at f870):
   `work/qa/mini_en/`. **Drawn, unseen:** Game Clear, Time Up!, New Record!, Clear Time, Bits Earned / Your Bits,
   やめ -> Quit (the results need a real score: a dead player goes back to the title).
+- **0203D14 (Dyna get / naming, worker 10 survey):** この ダイナに なまえを つけてください (blue box r1-3 c17-29),
+  タイプ / スタイル / ぞくせい, このスタイルで…す！, この ぞくせいの ダイナは はじめて ゲットです, NEW! art. Archive
+  index 2336 (PLT 2337 = literal 0x921 at 0x0803F6FC / 0x0803F868 / 0x0804067C): loaded by 0x0803F574 (called from
+  state task 0x0803F3A4 of the task table at 0x080D2B48: 0x0803ED7D, 0x0803EDBD, 0x0803F3A5, 0x0803F871..),
+  0x0803F704 (from 0x080404EC / 0x08040516) and 0x0804046C (mode 45 chain 0x08040A28 -> 0x080409AC -> 0x08040860;
+  runs at f279 of `mode_pda_45` but the block is not in VRAM: the load sits behind a branch). Next: find what
+  starts the 0x080D2B48 table (a Dyna-get flow after a battle or the gacha), or force that branch in mode 45.
 - **Title block 0449734 (worker 7 survey):** logo stays JP (D5: no official English logo). Text in it,
   scene `mode_title` (OBJ 2D, OBJ tile n = block tile n, ppu dump f930): copyright ©2002 スマイルソフト = rows
   12-13 c0-12 (outlined 16 px glyphs in shades 2-5), OAM x68 / x76 / x108 / x140 at y140; エンブレム label = r12
