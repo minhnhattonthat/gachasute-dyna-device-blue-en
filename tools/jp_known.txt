@@ -1,0 +1,2 @@
+0B0024 vacated slot of moved string t0B0024; the only "pointer" is 0x4E1064 inside the address database (bytes 31000b08), a coincidence
+0B0F0C vacated slot of moved string t0B0F0C; the only "pointer" is 0x14F504 inside the graphics archive (0e0f0b08), a coincidence

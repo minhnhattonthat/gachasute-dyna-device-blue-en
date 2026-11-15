@@ -5,6 +5,8 @@
 Default: the English build: the VWF renderer (tools/vwf.py) plus every script/ entry with "en" (tools/insert.py).
 --marker: every todo entry becomes "[id] filler" (phase 5). --identity: unpack and repack only, byte-identical to
 the original (tests/test_script.py). Prints the output's SHA-1 and whether it equals the original.
+Every write goes through tools/romwrite.py: the log lands next to the output (<name>.writes.txt) and the build
+fails (writing nothing) on any romdiff problem or a write outside tools/allowed_ranges.txt + the pointer words.
 """
 import argparse
 import hashlib
@@ -15,6 +17,7 @@ ROOT = Path(__file__).resolve().parent.parent
 sys.path.insert(0, str(ROOT / "tools"))
 import check_rom  # noqa: E402
 import insert  # noqa: E402
+import romwrite  # noqa: E402
 import script  # noqa: E402
 import vwf  # noqa: E402
 
@@ -24,37 +27,37 @@ OUT = ROOT / "build" / "dynadevice_blue_en.gba"
 FREE_START, FREE_END = 0x747DA0, 0x800000
 
 
-def place_script_file(out, blob):
+def place_script_file(out, blob, log=None):
     """Write the packed script file in its original slot if it fits, else at FREE_START, and point the resource
     directory at it. Returns the ROM offset used."""
     if len(blob) <= script.END - script.BASE:
         at = script.BASE
-        out[at:script.END] = blob + bytes(script.END - script.BASE - len(blob))
+        romwrite.put(log, out, at, blob + bytes(script.END - script.BASE - len(blob)), "script file")
     else:
         at = FREE_START
         if at + len(blob) > FREE_END:
             raise ValueError(f"script file of {len(blob)} bytes does not fit in the free space")
-        out[at:at + len(blob)] = blob
-    out[script.DIR_WORD:script.DIR_WORD + 4] = (0x08000000 + at).to_bytes(4, "little")
+        romwrite.put(log, out, at, blob, "script file (moved)")
+    romwrite.put(log, out, script.DIR_WORD, (0x08000000 + at).to_bytes(4, "little"), "script file directory word")
     return at
 
 
-def build(rom, scripts=None, english=False, entries=None, marker=False, report=None):
+def build(rom, scripts=None, english=False, entries=None, marker=False, report=None, log=None):
     """-> the built ROM image (bytearray). scripts: 834 op lists (script.unpack); None = the original ones.
     english: install the VWF renderer (tools/vwf.py) and the string-region entries (tools/insert.py) from
-    `entries` (None = none changed)."""
+    `entries` (None = none changed). log: a romwrite.Log that records every write (romwrite.verify)."""
     out = bytearray(rom)
     if scripts is None:
         scripts = script.unpack(rom)
     blob = script.pack(scripts)
-    at = place_script_file(out, blob)
+    at = place_script_file(out, blob, log)
     if english:
         free = FREE_START if at != FREE_START else (FREE_START + len(blob) + 15) & ~15
         if entries:
-            free, inplace, moved = insert.place_strings(out, entries, marker, free, vwf.VWF_AT)
+            free, inplace, moved = insert.place_strings(out, entries, marker, free, vwf.VWF_AT, log)
             if report is not None:
                 report.update(strings_in_place=inplace, strings_moved=moved, free_used_to=free)
-        vwf.apply(out)
+        vwf.apply(out, log)
     return out
 
 
@@ -133,12 +136,21 @@ def main():
         else:
             qa_override(scripts, spec)
     report = {}
-    out = build(rom, scripts, english=not a.identity, entries=entries, marker=a.marker, report=report)
+    log = romwrite.Log(rom)
+    out = build(rom, scripts, english=not a.identity, entries=entries, marker=a.marker, report=report, log=log)
     if report:
         print(f"strings: {report['strings_in_place']} in place, {report['strings_moved']} moved; free space used to "
               f"{report['free_used_to']:#x} (VWF at {vwf.VWF_AT:#x})")
     path = Path(a.out)
     path.parent.mkdir(parents=True, exist_ok=True)
+    writes = path.with_name(path.stem + ".writes.txt")
+    log.save(writes)
+    errs = romwrite.verify(rom, out, log)
+    for e in errs[:40]:
+        print("romdiff:", e)
+    if errs:
+        raise SystemExit(f"romdiff: {len(errs)} problems (write log {writes}); nothing written to {path}")
+    print(f"romdiff: {len(log.rows)} writes, all inside tools/allowed_ranges.txt + pointer words, no stray bytes")
     path.write_bytes(out)
     sha = hashlib.sha1(out).hexdigest()
     print(f"{path.relative_to(ROOT) if path.is_relative_to(ROOT) else path}: {len(out)} bytes, sha1 {sha}"

@@ -13,6 +13,7 @@ from pathlib import Path
 
 ROOT = Path(__file__).resolve().parent.parent
 sys.path.insert(0, str(ROOT / "tools"))
+import romwrite  # noqa: E402
 import script  # noqa: E402
 import vwf  # noqa: E402
 
@@ -112,9 +113,11 @@ def string_bytes(entry, marker_mode):
     return vwf.encode_en(txt) + b"\0\0"
 
 
-def place_strings(out, entries, marker_mode, free_at, free_end):
+def place_strings(out, entries, marker_mode, free_at, free_end, log=None):
     """Write every changed string: in its slot when it fits, else at free_at (4-aligned) with each pointer word
-    rewritten. Returns (next free offset, number in place, number moved)."""
+    rewritten. Returns (next free offset, number in place, number moved). log: a romwrite.Log or None.
+    Every pointer word must hold the string's own address before it is rewritten (a stale or shifted pointer
+    list fails the build instead of corrupting code)."""
     inplace = moved = 0
     for e in entries.values():
         if not e["id"].startswith("t"):
@@ -124,15 +127,17 @@ def place_strings(out, entries, marker_mode, free_at, free_end):
             continue
         at = int(e["id"][1:], 16)
         if len(raw) <= e["slot"]:
-            out[at:at + e["slot"]] = raw + bytes(e["slot"] - len(raw))
+            romwrite.put(log, out, at, raw + bytes(e["slot"] - len(raw)), f"string {e['id']}")
             inplace += 1
             continue
         if free_at + len(raw) > free_end:
             raise ValueError(f"string {e['id']} does not fit in the free space")
-        out[free_at:free_at + len(raw)] = raw
+        romwrite.put(log, out, free_at, raw, f"string {e['id']} moved")
         for p in e["ptrs"]:
             p = int(p, 16)
-            out[p:p + 4] = (0x08000000 + free_at).to_bytes(4, "little")
+            if int.from_bytes(out[p:p + 4], "little") != 0x08000000 + at:
+                raise ValueError(f"string {e['id']}: pointer word {p:#x} does not hold {0x08000000 + at:#x}")
+            romwrite.put(log, out, p, (0x08000000 + free_at).to_bytes(4, "little"), f"pointer {p:X} -> {e['id']}")
         free_at = (free_at + len(raw) + 3) & ~3
         moved += 1
     return free_at, inplace, moved

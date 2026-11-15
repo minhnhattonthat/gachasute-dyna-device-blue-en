@@ -546,16 +546,23 @@ def assemble(at=VWF_AT):
     return code + widths + glyphs
 
 
-def apply(rom):
-    """Install the hook and font into `rom` (bytearray, original bytes at both places). Returns rom."""
+HOOK_ORIG = bytes.fromhex("f0b5 5746 4e46 4546")   # 080049AC in the original: push {r4-r7,lr}; mov r7,r10; ...
+
+
+def apply(rom, log=None):
+    """Install the hook and font into `rom` (bytearray, original bytes at both places). Returns rom.
+    log: a romwrite.Log (the build) or None."""
+    import romwrite
     blob = assemble()
     if VWF_AT + len(blob) > VWF_END:
         raise ValueError(f"VWF blob of {len(blob)} bytes passes {VWF_END:#x}")
     if any(rom[VWF_AT:VWF_AT + len(blob)]):
         raise ValueError("VWF area is not empty")
-    rom[VWF_AT:VWF_AT + len(blob)] = blob
+    if bytes(rom[HOOK_AT:HOOK_AT + 8]) != HOOK_ORIG:
+        raise ValueError(f"renderer entry at {HOOK_AT:#x} is not the original code (wrong revision or patched twice)")
+    romwrite.put(log, rom, VWF_AT, blob, "vwf: renderer + font")
     # 080049AC: ldr r1, [pc, #0]; bx r1; .word hook (ARM)
-    rom[HOOK_AT:HOOK_AT + 8] = bytes.fromhex("0049" "0847") + (BUS + VWF_AT).to_bytes(4, "little")
+    romwrite.put(log, rom, HOOK_AT, bytes.fromhex("0049" "0847") + (BUS + VWF_AT).to_bytes(4, "little"), "vwf: hook")
     return rom
 
 
