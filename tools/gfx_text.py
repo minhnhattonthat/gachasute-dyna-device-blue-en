@@ -357,6 +357,27 @@ ATLASES = {
                   + [("Please give this Dyna a name.", [(136, 0, 232, 16), (136, 16, 248, 32)], "row", 1, None,
                       "vwf", 3, {1})],
     },
+    # Battle results (mode 36 = scene d_get; OBJ 2D, block 03B9D84 28 tiles wide, OBJ tile 32 * row + col). Header
+    # けっか r0-1 c5-10 (x16, timetable-logo style on navy 1); column heads (ink 10, shadow 1, on transparent):
+    # いきのこり/ダイナ r0-1 c11-16 at x112, ぜんめつ r0 c17-20 x176 over ターン r1 c17-20 x184 (8 px right),
+    # かくとく/ポイント r0-1 c21-24 (unseen); outcome words r4-5: かち c0-5 (fill 1..4, outline 14), まけ c6-11 (8..10,
+    # outline 11), ひきわけ c12-17 (2..7, outline 13), shown at x36 / x36 / x42. The big ターン after a turn count
+    # (r2-3 c23-26) is blanked: the column head says Turn. Icons, digits and P1/P2/COM are kept.
+    0x3B9D84: {
+        "redraw": [("Results", (40, 0, 88, 16), "row", TT_GRAD, 2, "tallb", 1, TT_KILL),
+                   ("Win", (0, 32, 48, 48), "row", [1, 1, 1, 1, 1, 1, 2, 2, 2, 3, 3, 4, 4, 4], ("ring", 14), "vwf2",
+                    1, {1, 2, 3, 4, 14, 15}),
+                   ("Lose", (48, 32, 96, 48), "row", [8, 8, 8, 8, 8, 9, 9, 9, 10, 10, 10, 10, 10, 10], ("ring", 11),
+                    "vwf2", 1, {8, 9, 10, 11, 15}),
+                   ("Draw", (96, 32, 144, 48), "row", [2, 2, 2, 3, 3, 4, 4, 5, 5, 6, 6, 7, 7, 7], ("ring", 13), "vwf2",
+                    1, {2, 3, 4, 5, 6, 7, 13, 15}),
+                   ("", (184, 16, 216, 32), "row", 14, None, "vwf", 0, {1, 11, 12, 13, 14, 15})]
+                  + [("Dyna", (88, 0, 136, 8), "row", 10, 1, "vwf", 0, {1, 10}),
+                     ("Left", (88, 8, 136, 16), "row", 10, 1, "vwf", 0, {1, 10})]
+                  + [(t, box, "row", 9, 1, "vwf", 0, {1, 9})   # these heads are ink 9
+                     for t, box in (("Wipeout", (136, 0, 168, 8)), ("Turn", (136, 8, 160, 16)), ("", (160, 8, 168, 16)),
+                                    ("Points", (168, 0, 200, 8)), ("Won", (168, 8, 192, 16)), ("", (192, 8, 200, 16)))],
+    },
     # Team setup (mode 33 = scene mode_team). Title チームへんせい: OBJ block 03B29B4 (OBJ tile 32 * row + col),
     # three 32x16 pieces r0-1 c5-16 = atlas x40-135, timetable-logo style. Menu words: BG0 tiles of block 03B25A4
     # (11 tiles wide; white ink 1 on transparent, no shadow), laid out by the raw SCR at 0x3B2854 (12x7, words =

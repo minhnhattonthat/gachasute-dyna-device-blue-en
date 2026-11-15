@@ -180,6 +180,10 @@ its font at run time (dialogue, the boot date prompt, the profile popup) is stri
   prompt is 7 sprites placed by code at y0. English: Type / Style / Element, "This is your / first Dyna / of this
   / style & / element!" (r5 c6 ends lines 2 and 4, so it is blank), "Please give this Dyna a name." (the
   string in s-scripts says the same). gfx_text redraw boxes take a 9th item "left".
+- **Done (worker 11): battle results 03B9D84** (not in the sweep table; mode 36 = scene `d_get`,
+  `work/qa/gfx_en/results/d_get_x3.png`): "Results" header, column heads Dyna / Left, Wipeout / Turn (Points /
+  Won drawn, unseen), outcome words Win / Lose / Draw (`vwf2`, gradient + ring outline), the big ターン after a
+  turn count blanked. Found with the new `tools/blockfind.py DUMP_PREFIX` (which IMG blocks a ppu dump shows).
 - **Title block 0449734 (worker 7 survey):** logo stays JP (D5: no official English logo). Text in it,
   scene `mode_title` (OBJ 2D, OBJ tile n = block tile n, ppu dump f930): copyright ©2002 スマイルソフト = rows
   12-13 c0-12 (outlined 16 px glyphs in shades 2-5), OAM x68 / x76 / x108 / x140 at y140; エンブレム label = r12
