@@ -9,6 +9,8 @@ local FROM = tonumber(MW_FROM) or 300
 local n = 0
 L.on_write(LO, HI, function(addr, value)
   if not value or L.frame < FROM or (value & 0x3FF) ~= TILE then return end
+  if MW_VAL and (value & 0xFFFF) ~= tonumber(MW_VAL) then return end   -- exact map word (palette bits too)
+  if MW_TO and L.frame > tonumber(MW_TO) then return end
   n = n + 1
   if n > 40 then return end
   local st = emu.getState()

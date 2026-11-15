@@ -7,10 +7,17 @@ Updated at the end of every session. Keep it to what the next session needs; his
   / save dialog / link menu / link check / title screen / Customize Dyna / Team Setup / Place Dyna / minigames /
   Dyna get + naming / battle results / fortune box / item shop / Dyna Center / auction / device list / dev status /
   free battle / resident map / card trade / tactics battle board / staff roll / money diary dates / dev status
-  words done). Phase 7 done 2026-11-15. Last build: `build/dynadevice_blue_en.gba` 2026-11-15 (worker 18), sha1
-  4753332e..., check.py ok, lint 0/0 (137 strings wider than JP under guessed budgets: `lint.py --guess`,
-  `docs/review/guess_wide.txt`).
-- **Latest session (2026-11-15, worker 18, handed off at the context budget):** **Dev status small words 01EE624
+  words / field HUD status word / pause done). Phase 7 done 2026-11-15. Last build: `build/dynadevice_blue_en.gba`
+  2026-11-15 (worker 19), sha1 bc6b43c7..., smoke ok, check.py ok, lint 0/0 (137 strings wider than JP under
+  guessed budgets: `lint.py --guess`, `docs/review/guess_wide.txt`).
+- **Latest session (2026-11-15, worker 19):** **Field HUD status word in English** (Healthy / Hungry / Sick) and
+  **field pause "Pause"**: both were raw (uncompressed) IMG blocks, now handled by `gfx.load` / `gfx.apply`
+  (in place); drawn by new `tools/hud.py`; `gfx.HUD_PATCHES` re-lays status SCRs 0x710 / 0x711. All 215 raw IMG
+  blocks surveyed (`tools/rawimg_sheet.py`): no other Japanese. Notes: docs/re/graphics.md "Raw IMG blocks".
+  Probes: `vramwrite.lua` now logs regs + stack callers, `mapwrite.lua` takes `MW_VAL` (exact word) / `MW_TO`.
+  Gotcha: `regen.py` defaults to the original ROM; pass `--rom build/dynadevice_blue_en.gba` for English shots.
+  The worker-18 English tour had died at 35/198 scenes (its build is stale now anyway).
+- **Session before (2026-11-15, worker 18, handed off at the context budget):** **Dev status small words 01EE624
   r6-7 in English and seen** (PAT 01EF514 frames 17-21; graphics.md "Scene scan"): No Issues / Low Funds / Low Parts
   / Complete (shared piece moved first by PAT x patches) + detail-page panel Source Dyna / Equip Type / Arms Type /
   Element. New `tools/lua/devproj.lua` fakes projects (`regen.py d_dev_status|d_dev_proj_c --probe
@@ -341,6 +348,6 @@ Updated at the end of every session. Keep it to what the next session needs; his
   BATTLE START (`dbg_battle`) reaches a real battle. Runs without `--sav` share `tools/mesen/Saves/<rom>.sav`.
   Warp `intro` reaches script 1 at ~f3000 (form + title first): use `--frames 6000`.
 - **Memory:** the host's AWPerformance.SCSubAgent (Dell service) held 3-7 GB; run tours one emulator at a time.
-- **Open bugs:** field HUD status word "けんこう" still Japanese (raw IMG block 01E5464, see worker 18 above).
+- **Open bugs:** none known (field HUD けんこう fixed by worker 19).
 - **Waiting on the user:** (non-blocking) the address database (~2.6 MB of real Japanese place names, 0x44C754):
   default plan is Hepburn romanization from Japan Post KEN_ALL readings by postal code; see docs/re/text.md.

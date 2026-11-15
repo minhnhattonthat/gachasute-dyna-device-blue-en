@@ -268,8 +268,31 @@ def archive_words(rom):
     return out
 
 
+# Field HUD status word (raw IMG 01E5464, tools/hud.py): Healthy keeps SCR 0x70F (H + ealthy = tiles 0x81-0x84);
+# Hungry and Sick get the tiles hud.py drew for them (0 = blank tile).
+HUD_PATCHES = [
+    (0x1E5BDC, [0x00, 0x85, 0x84, 0x86, 0x85], [0x00, 0x81, 0x85, 0x86, 0x87], "HUD status SCR 0x710: Hungry"),
+    (0x1E5BFC, [0x00, 0x87, 0x88, 0x84, 0x89], [0x00, 0x88, 0x89, 0x00, 0x00], "HUD status SCR 0x711: Sick"),
+]
+
+
 def blocks(rom):
     return ecd.scan(rom)
+
+
+# Raw (uncompressed) "IMG\0" blocks: same payload as a decompressed ECD IMG (header IMG\0, flag, w, h, 0, then 4bpp
+# tiles), stored as is and reached through the same archive (e.g. 01E5464, the field HUD: archive index 1803).
+# Their palette, when they have one, is a raw "PLT\0" block right after the tiles.
+def is_raw(rom, off):
+    return rom[off:off + 4] == b"IMG\0"
+
+
+def load(rom, off):
+    """-> IMG payload of the block at `off`, ECD-compressed or raw."""
+    if is_raw(rom, off):
+        w, h = rom[off + 5], rom[off + 6]
+        return rom[off:off + 8 + 32 * w * h]
+    return ecd.decompress(rom, off)[0]
 
 
 # IMG blocks with no PLT of their own -> an IMG block whose PLT (16 distinct colours) to borrow: only the indices
@@ -299,16 +322,25 @@ def palette_for(rom, off, bl=None):
     bl = bl or blocks(rom)
     if off in PLT_FOR:
         return palette_for(rom, PLT_FOR[off], bl)
+
+    def cols_of(raw):
+        n = struct.unpack_from("<H", raw, 4)[0] or 16
+        cols = []
+        for k in range(min(n, 16)):
+            v = struct.unpack_from("<H", raw, 8 + 2 * k)[0] if 10 + 2 * k <= len(raw) else 0
+            cols.append(((v & 31) * 8, (v >> 5 & 31) * 8, (v >> 10 & 31) * 8))
+        return distinct(cols)
+
+    if is_raw(rom, off):
+        end = off + len(load(rom, off))
+        p = rom.find(b"PLT\0", end, end + 64)
+        if p < 0:
+            raise ValueError(f"no raw PLT after raw IMG {off:07X}: add it to PLT_FOR")
+        return cols_of(rom[p:p + 8 + 32]), p
     i = [b[0] for b in bl].index(off)
     for j in range(i + 1, min(i + 4, len(bl))):
         if bl[j][3] == "PLT":
-            raw = ecd.decompress(rom, bl[j][0])[0]
-            n = struct.unpack_from("<H", raw, 4)[0] or 16
-            cols = []
-            for k in range(min(n, 16)):
-                v = struct.unpack_from("<H", raw, 8 + 2 * k)[0] if 10 + 2 * k <= len(raw) else 0
-                cols.append(((v & 31) * 8, (v >> 5 & 31) * 8, (v >> 10 & 31) * 8))
-            return distinct(cols), bl[j][0]
+            return cols_of(ecd.decompress(rom, bl[j][0])[0]), bl[j][0]
     raise ValueError(f"no PLT after {off:07X}")
 
 
@@ -384,6 +416,7 @@ def apply(rom, out, free, log=None, limit=None):
     title += mini_patches(rom) if (GFX / "03D5DB4.png").exists() else []
     title += mini_patches(rom, FORTUNE_ROWS, "fortune") if (GFX / "0231524.png").exists() else []
     title += DATE_PATCHES if (GFX / "021C414.png").exists() else []
+    title += HUD_PATCHES if (GFX / "01E5464.png").exists() else []
     for off, old, new, why in MAP_PATCHES + title:
         if list(struct.unpack_from(f"<{len(old)}H", rom, off)) != old:
             raise ValueError(f"gfx map patch {off:#x}: original words differ ({why})")
@@ -393,10 +426,13 @@ def apply(rom, out, free, log=None, limit=None):
     words = archive_words(rom)
     for path in edits():
         off = int(path.stem, 16)
-        raw = ecd.decompress(rom, off)[0]
+        raw = load(rom, off)
         pal, _ = palette_for(rom, off, bl)
         new = from_png(path, raw, pal)
         if new == raw:
+            continue
+        if is_raw(rom, off):   # same size, in place
+            romwrite.put(log, out, off, new, f"gfx {path.stem} (raw IMG)")
             continue
         blob = ecd.compress(new)
         nxt = starts[starts.index(off) + 1]
@@ -438,7 +474,7 @@ def main(argv):
         bl = blocks(rom)
         for a in argv[1:]:
             off = int(a, 16)
-            raw = ecd.decompress(rom, off)[0]
+            raw = load(rom, off)
             pal, po = palette_for(rom, off, bl)
             img = to_png(raw, pal)
             img.save(d / f"{off:07X}.png")
@@ -450,10 +486,10 @@ def main(argv):
         bl = blocks(rom)
         for path in edits():
             off = int(path.stem, 16)
-            raw = ecd.decompress(rom, off)[0]
+            raw = load(rom, off)
             new = from_png(path, raw, palette_for(rom, off, bl)[0])
-            blob = ecd.compress(new)
-            print(f"{path.stem}: {'unchanged' if new == raw else 'edited'}, {len(blob)} bytes compressed")
+            size = f"{len(new)} bytes raw" if is_raw(rom, off) else f"{len(ecd.compress(new))} bytes compressed"
+            print(f"{path.stem}: {'unchanged' if new == raw else 'edited'}, {size}")
         return 0
     print(__doc__)
     return 2

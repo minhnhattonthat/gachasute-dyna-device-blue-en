@@ -31,6 +31,23 @@ class Gfx(unittest.TestCase):
             gfx.to_png(raw, pal).save(p)
             self.assertEqual(gfx.from_png(p, raw, pal), raw)
 
+    def test_raw_img_blocks(self):
+        # field HUD (01E5464) and pause (01F1994): raw IMG blocks, written in place, PNGs match tools/hud.py
+        import hud
+        from PIL import Image
+        for off, draw in ((hud.BLOCK, hud.draw), (hud.PAUSE, hud.draw_pause)):
+            raw = gfx.load(self.rom, off)
+            self.assertTrue(gfx.is_raw(self.rom, off))
+            self.assertEqual(len(raw), 8 + 32 * raw[5] * raw[6])
+            pal, plt = gfx.palette_for(self.rom, off)
+            self.assertEqual(self.rom[plt:plt + 4], b"PLT\0")
+            png = gfx.GFX / f"{off:07X}.png"
+            self.assertEqual(list(Image.open(png).convert("RGB").getdata()), list(draw().getdata()),
+                             f"{png.name} is stale: run tools/hud.py")
+            self.assertEqual(len(gfx.from_png(png, raw, pal)), len(raw))
+        for scr, old, new, _ in gfx.HUD_PATCHES:
+            self.assertEqual(list(struct.unpack_from(f"<{len(old)}H", self.rom, scr)), old)
+
     def test_grown_block_is_relocated(self):
         raw = ecd.decompress(self.rom, MENU)[0]
         pal, _ = gfx.palette_for(self.rom, MENU)

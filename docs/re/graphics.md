@@ -297,6 +297,20 @@ itself is a sprite). Rows 11-13 c0-11 / c24-31 hold glyph-like tiles no map of t
   a 4x2 tile button split in the atlas: top row 3 col 17-20 (136,24), bottom row 11 col 19-22 (152,88) -> Quit
   (gfx_text `{"stack": [...]}` boxes). Seen: `work/qa/cal_en/`.
 
+## Raw IMG blocks: field HUD status word + pause (worker 19)
+- The archive also reaches **215 raw (uncompressed) `IMG\0` blocks** (same payload as a decompressed ECD IMG; a raw
+  `PLT\0` follows when they have a palette). `gfx.load` / `gfx.is_raw` read them, `gfx.apply` writes them in place.
+  Survey: `tools/rawimg_sheet.py` (sheets in `work/gfx/raw/`). Only two hold Japanese; the other "IMG\0" hits in
+  the ROM (845) are literal headers inside ECD blocks. Both drawn by `tools/hud.py` (tests/test_gfx.py checks).
+- **01E5464** (archive 0x70B, 10x5 tiles): field HUD frame, HP bar, digits, coin, and the Dyna status kana (row 4
+  cols 1-9). Copied to BG VRAM 0xEDC0 as a 2D rect (row stride 0x400), so BG0 SCRs address it as 32 * row + col
+  from base tile 0x36E (palette 10). Status word = raw 5x1 SCR **0x70F + status** (code 0x08043FCA: 0 healthy, 1
+  hungry from 0x0800F88C, 2 sick from 0x0800FAEC). The 9 kana tiles now hold "H" (shared) + "ealthy" + "ungry" +
+  "Sick"; `gfx.HUD_PATCHES` re-lays SCRs 0x710 / 0x711 (0x70F unchanged). Seen: `work/qa/hud_en`, Hungry / Sick via
+  test ROMs with SCR 0x70F swapped (`work/qa/hud/hud_ingame.png`).
+- **01F1994** (archive 0x772, OBJ at 0x17800, 32x2 tiles: field item icons + ポーズ at cols 29-31): the START
+  pause, six 8x8 OBJs (r30-31 c29-31, top row 2 px right = italic) -> "Pause". Seen: `work/qa/pause_en2/pause`.
+
 ## Rows (ROM offset of the ECD block)
 | Offset | Sheet | Japanese | Gloss | Kind |
 |---|---|---|---|---|
