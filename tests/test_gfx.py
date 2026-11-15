@@ -58,6 +58,31 @@ class Gfx(unittest.TestCase):
         self.assertEqual(len(new), len(raw))
         self.assertEqual(list(gfx.to_png(new, pal).getdata()), list(img.getdata()))
 
+    def test_map_patches_match_the_original(self):
+        for off, old, new, why in gfx.MAP_PATCHES:
+            self.assertEqual(list(struct.unpack_from(f"<{len(old)}H", self.rom, off)), old, why)
+            self.assertEqual(len(old), len(new), why)
+
+    def test_menu_labels_on_maps_and_committed_png_current(self):
+        import gfx_text
+        img = gfx_text.render(self.rom, MENU)   # raises if a label is too wide or hits a blank column
+        # every row label's tiles are what the patched submenu maps show
+        rom = bytearray(self.rom)
+        for off, _, new, _ in gfx.MAP_PATCHES:
+            struct.pack_into(f"<{len(new)}H", rom, off, *new)
+        shown = set()
+        for scr in (0x1E3724, 0x1E3774, 0x1E37C4, 0x1E3834, 0x1E38A4):
+            w, h = rom[scr + 5], rom[scr + 6]
+            shown |= {v & 0x3FF for v in struct.unpack_from(f"<{w * h}H", rom, scr + 8)}
+        for text, columns in gfx_text.ATLASES[MENU]["rows"]:
+            for t in filter(None, columns):
+                self.assertIn(t[0] * 32 + t[1], shown, text)
+        png = gfx.GFX / f"{MENU:07X}.png"
+        self.assertTrue(png.exists(), "run tools/gfx_text.py")
+        from PIL import Image
+        self.assertEqual(list(Image.open(png).convert("RGB").getdata()), list(img.getdata()),
+                         "gfx/01E30D4.png is stale: run tools/gfx_text.py")
+
 
 if __name__ == "__main__":
     unittest.main()

@@ -34,7 +34,14 @@ its font at run time (dialogue, the boot date prompt, the profile popup) is stri
   かえらせる にがす, マップ ダイナ キーワード デバイス, バトルアニメ...): dump their screens the same way
   (`menu_items`, `menu_party`, `menu_save` scenes) to get their tile lists before redrawing.
 - `tools/gfx.py export OFF` writes `work/gfx/orig/OFF.png` + x4; English art goes in `gfx/OFF.png` (same size,
-  palette colours only); `gfx.apply()` (not yet called by build.py) writes it in place or relocates it.
+  palette colours only); `gfx.apply()` (called by build.py) writes it in place or relocates it.
+- **Done 2026-11-15 (English in game, `work/qa/gfx_en/`):** the maps are raw `SCR\0` blocks right after the
+  palette (u16 = atlas row*32+col, 0x1FF blank): bar buttons 01E35C4-01E3644, submenus 01E3724 (System),
+  01E3774 (Items), 01E37C4 (Party), 01E3834 (Residents), 01E38A4 (Database). `tools/gfx_text.py` clears the kana
+  and draws bar + submenu words into `gfx/01E30D4.png`; `gfx.MAP_PATCHES` re-lays three rows (Save and Sort fit
+  4 tiles, freeing 1,21 for the Database button and 2,13 / 2,18 to make Keywords 6 tiles). No atlas tile is spare:
+  BG1 (the window) uses 4,23 and cols 24-26, and VRAM past col 26 holds other art. Submenu words sit at tile y 0-6
+  (descenders y 7); bar words at y 3-9 of the 16 px band. `tools/lua/ppu_every.lua` + regen `--probe` dumps VRAM.
 
 ## Rows (ROM offset of the ECD block)
 | Offset | Sheet | Japanese | Gloss | Kind |

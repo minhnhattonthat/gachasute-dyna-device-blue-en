@@ -24,6 +24,21 @@ ROM = ROOT / "rom" / "Gachasute! Dyna Device Blue (Japan).gba"
 GFX = ROOT / "gfx"
 ARC = 0x0E7FA4          # archive 0: every ECD block
 
+# u16 map (SCR) entries fixed alongside the art: (ROM offset, original words, English words, why). Written by
+# apply() whenever gfx/ holds a PNG; the original words are checked so a wrong offset fails the build.
+# Field menu atlas 01E30D4 (entries = atlas row*32+col, 0x1FF = blank tile; tools/gfx_text.py draws the labels):
+# "Save" and "Sort" fit 4 tiles, which frees 1,21 for the bar's Database button (the JP map used the frame-only 4,12,
+# also the submenus' bottom frame) and 2,13 / 2,18 to widen Keywords to 6 tiles.
+MAP_PATCHES = [
+    (0x1E365A, [0x08C], [0x035], "menu bar SCR 01E3644: Database bottom col 1 -> 1,21"),
+    (0x1E372C, [0x040, 0x041, 0x042, 0x043, 0x044, 0x035], [0x1FF, 0x040, 0x041, 0x042, 0x043, 0x1FF],
+     "System submenu SCR 01E3724 row 0: Save in 2,0-2,3"),
+    (0x1E3794, [0x04D, 0x04E, 0x04F, 0x050, 0x051, 0x052], [0x1FF, 0x04E, 0x04F, 0x050, 0x051, 0x1FF],
+     "Items submenu SCR 01E3774 row 2: Sort in 2,14-2,17"),
+    (0x1E38DC, [0x1FF, 0x088, 0x089, 0x08A, 0x08B, 0x1FF], [0x04D, 0x088, 0x089, 0x08A, 0x08B, 0x052],
+     "Database submenu SCR 01E38A4 row 4: Keywords in 2,13 4,8-4,11 2,18"),
+]
+
 
 def archive_words(rom):
     """-> {block offset: [ROM offset of each archive word pointing at it]}."""
@@ -122,6 +137,10 @@ def apply(rom, out, free, log=None, limit=None):
     """Write every gfx/*.png into `out`. -> next free offset (16-aligned). `rom` = original image."""
     if not edits():
         return free
+    for off, old, new, why in MAP_PATCHES:
+        if list(struct.unpack_from(f"<{len(old)}H", rom, off)) != old:
+            raise ValueError(f"gfx map patch {off:#x}: original words differ ({why})")
+        romwrite.put(log, out, off, struct.pack(f"<{len(new)}H", *new), f"gfx map {why}")
     bl = blocks(rom)
     starts = sorted(b[0] for b in bl)
     words = archive_words(rom)
