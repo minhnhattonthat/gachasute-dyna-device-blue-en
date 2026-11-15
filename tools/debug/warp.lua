@@ -8,6 +8,9 @@
 --           second choice of a Yes/No box, for branch coverage)
 --   IDLEFIN N = with FINISH, stop early once no script has run for N frames after arrival (text coverage runs,
 --           tools/debug/cover.py)
+--   JUMP    kind "script" only: CPU address of an op inside the hijacked script (a message op = its strings.tsv
+--           address - 6); the interpreter's first op of that script is replaced by a jump there (text coverage of
+--           messages behind branches: tools/debug/cover.py msgs)
 --   GOD     reserved (battles): not wired yet
 --   FINISH  1 = stop the run once the hold shot is taken; WARP_STATE = path: save a state there, then stop
 --   (tools/debug/regen.py sets both)
@@ -20,7 +23,7 @@
 
 local SCRIPT_START = 0x0801A9D4  -- start_script(r0 = file 2, r1 = script index); docs/re/debug.md
 local FORM_INPUT   = 0x0803C6B4  -- profile form: key read, runs only while the form is idle (no popup)
-local SCR          = 0x02001C60  -- running script: +0 pc, +4 start, +0x10 current opcode (0 = none)
+local SCR          = 0x02001C60  -- running script: +4 pc (dispatch loop 0x0801E5DA), +0x10 current opcode (0 = none)
 local TEXT_DRAW    = 0x08013488  -- message text drawer, r0 = SJIS string (called by script op 2)
 
 local EVENT_PICK   = 0x0801E868  -- picks the story event at each room load from the flags (returns -1 = none)
@@ -220,6 +223,17 @@ L.on_exec(DATE_PROMPT, DATE_PROMPT, function()
   end
 end)
 
+jumpPending = false
+L.on_exec(0x0801E5E0, 0x0801E5E0, function()
+  -- dispatch loop top (docs/re/script.md): pc copied from SCR+4 to [sp], op fetched from it next; JUMP replaces
+  -- the first op's pc (the loop stores [sp] back to SCR+4 when a handler yields)
+  if not jumpPending then return end
+  jumpPending = false
+  local sp = emu.getState()["cpu.r13"]
+  local pc = emu.read32(sp, MEM)
+  emu.write32(sp, JUMP, MEM)
+  L.log(string.format("JUMP %08X -> %08X f%d", pc, JUMP, L.frame))
+end)
 L.on_exec(SCRIPT_START, SCRIPT_START, function()
   local s = emu.getState()
   local idx = s["cpu.r1"]
@@ -237,6 +251,7 @@ L.on_exec(SCRIPT_START, SCRIPT_START, function()
     if route then play(parse_route("1 -;" .. route)); arriveAfterRoute = true end
     emu.setState({ ["cpu.r1"] = want })
     L.log(string.format("SCRIPT %d -> %d (hijacked) lr=%08X f%d", idx, want, s["cpu.r14"] or 0, L.frame))
+    if JUMP then jumpPending = true end
     idx = want
   else
     L.log(string.format("SCRIPT %d lr=%08X room=%d f%d", idx, s["cpu.r14"] or 0, r16(ROOM), L.frame))

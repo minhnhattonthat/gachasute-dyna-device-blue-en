@@ -144,6 +144,70 @@ def cmd_scripts(a):
     sys.exit(1 if bad else 0)
 
 
+def cmd_msgs(a):
+    """Jump runs: script S hijacked as in `scripts`, then its first op replaced by a jump to an unshown message op
+    (warp.lua JUMP). The script then runs on from that message with A mashed, so one run usually shows the messages
+    after it too; each script's unshown messages are taken in order, one run each, skipping any an earlier run showed.
+    Reaches messages behind flag checks and branches no hijack run takes. Logs: work/qa/cover/j/sSSS.KK/log.txt."""
+    OUT.mkdir(parents=True, exist_ok=True)
+    if not BLANK.exists():
+        BLANK.write_bytes(b"\xff" * 0x10000)
+    addr = dict(strings())
+    miss = [i for i in unshown(LOGS) if i.startswith("s")]
+    if a.names:
+        want = {int(s.lstrip("s")) for s in a.names}
+        miss = [i for i in miss if int(i[1:4]) in want]
+    by_script = defaultdict(list)
+    for i in sorted(miss):
+        by_script[int(i[1:4])].append(i)
+    allscripts = sorted({int(i[1:4]) for i, _ in strings() if i.startswith("s")})
+    scenes = OUT / "scenes.tsv"
+    rows = ["name\tkind\targ\thold\tnote"] + [f"cov_s{s:03d}\tscript\t{s}\t{a.hold}\tcover" for s in allscripts + [1]]
+    scenes.write_text("\n".join(dict.fromkeys(rows)) + "\n", encoding="utf-8")
+    make_pre(scenes)
+    slots = queue.Queue()
+    rom_dir = OUT / "_roms"
+    rom_dir.mkdir(exist_ok=True)
+    for j in range(a.jobs):
+        p = rom_dir / f"job{j}.gba"
+        shutil.copyfile(BUILD, p)
+        slots.put(p)
+    sub = OUT / "j"
+
+    def run(s):
+        shown, runs, fails = set(), 0, []
+        for i in by_script[s]:
+            if addr[i] in shown:
+                continue
+            d = sub / i
+            log_p = d / "log.txt"
+            if not a.redo and log_p.exists() and f"ARRIVED cov_s{s:03d}" in log_p.read_text("utf-8", "replace"):
+                shown |= shown_addrs([d])
+                continue
+            rom = slots.get()
+            try:
+                shutil.rmtree(d, ignore_errors=True)
+                emu(rom, d, scenes, f"cov_s{s:03d}", ["--state-in", str(PRE), "--var", f"MASHA={a.masha}",
+                    "--var", "FINISH=1", "--var", f"IDLEFIN={a.idle}", "--var", f"JUMP=0x{addr[i] - 6:08X}"],
+                    a.hold + 200)
+            finally:
+                slots.put(rom)
+            runs += 1
+            shown |= shown_addrs([d])
+            if addr[i] not in shown:
+                fails.append(i)
+        got = sum(1 for i in by_script[s] if addr[i] in shown)
+        print(f"s{s:03d}: {got}/{len(by_script[s])} shown in {runs} runs" + (f"; not shown: {fails}" if fails else ""),
+              flush=True)
+        return got
+
+    print(f"{len(miss)} unshown messages in {len(by_script)} scripts, masha {a.masha}, {a.jobs} jobs", flush=True)
+    with ThreadPoolExecutor(a.jobs) as ex:
+        total = sum(ex.map(run, sorted(by_script)))
+    print(f"{total}/{len(miss)} shown")
+    cmd_report(a)
+
+
 def cmd_report(a):
     dirs = [Path(d) for d in a.logs] if getattr(a, "logs", None) else LOGS
     rows = strings()
@@ -216,8 +280,15 @@ def main():
     s.add_argument("--jobs", type=int, default=4)
     s.add_argument("--hold", type=int, default=6000)
     s.add_argument("--idle", type=int, default=300)
+    m = sp.add_parser("msgs")
+    m.add_argument("names", nargs="*", help="scripts (default: every script with an unshown message)")
+    m.add_argument("--redo", action="store_true")
+    m.add_argument("--masha", type=int, default=1)
+    m.add_argument("--jobs", type=int, default=1)
+    m.add_argument("--hold", type=int, default=3000)
+    m.add_argument("--idle", type=int, default=300)
     a = ap.parse_args()
-    {"report": cmd_report, "scripts": cmd_scripts, "waive": cmd_waive}[a.cmd](a)
+    {"report": cmd_report, "scripts": cmd_scripts, "waive": cmd_waive, "msgs": cmd_msgs}[a.cmd](a)
 
 
 if __name__ == "__main__":
