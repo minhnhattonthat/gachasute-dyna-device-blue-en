@@ -320,6 +320,14 @@ ATLASES = {
     0x1E9764: {
         "redraw": [("Customize Dyna", [(16, 0, 120, 16), (72, 16, 112, 32)], "row", TT_GRAD, 2, "vwf2", 1, TT_KILL)],
     },
+    # Battle placement (mode 28 = scene mode_placement; OBJ, block 025E304, OBJ tile 32 * row + col). Title
+    # ダイナはいち = r0-1 c0-9 (x0-79, three pieces at screen x120): blue gradient 7..11, drop shadow 12, on
+    # transparent. Still JP in this block (screens not reached yet): いどう, コマンドせんたく, てきのエリア, もどる,
+    # ステータス?, てきエリア (docs/re/graphics.md).
+    0x25E304: {
+        "redraw": [("Place Dyna", (0, 0, 80, 16), "row", [7, 7, 7, 8, 8, 8, 9, 9, 9, 10, 10, 11, 11, 11], 12,
+                    "tallb", 1, {7, 8, 9, 10, 11, 12})],
+    },
     # Team setup (mode 33 = scene mode_team). Title チームへんせい: OBJ block 03B29B4 (OBJ tile 32 * row + col),
     # three 32x16 pieces r0-1 c5-16 = atlas x40-135, timetable-logo style. Menu words: BG0 tiles of block 03B25A4
     # (11 tiles wide; white ink 1 on transparent, no shadow), laid out by the raw SCR at 0x3B2854 (12x7, words =
@@ -616,7 +624,16 @@ def render(rom, off):
         redraw(a, spec)
     for scr in spec.get("screens", []):
         screen_redraw(a, scr)
-    return a.image()
+    img = a.image()
+    # gfx.from_png maps colours back to indices: a palette that repeats a colour would turn a drawn index into
+    # another one (025E304: pale 7 came back as navy 1). Fail here instead of in game; fix with gfx.PLT_FOR.
+    orig = gfx.indices(a.raw)[2]
+    back = lambda v, o: o if a.pal[o] == a.pal[v] else a.pal.index(a.pal[v])   # what gfx.from_png reads
+    bad = {(v, o) for v, o in zip(a.px, orig) if back(v, o) != v}
+    if bad:
+        raise ValueError(f"{off:07X}: drawn indices {sorted(bad)[:4]} (new, old) share a colour with a lower index "
+                         "in the block's palette: add the block to gfx.PLT_FOR")
+    return img
 
 
 class Strip:

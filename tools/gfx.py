@@ -123,7 +123,18 @@ def blocks(rom):
 
 # IMG blocks with no PLT of their own -> an IMG block whose PLT (16 distinct colours) to borrow: only the indices
 # matter, the PNG is converted back by colour. 01E9764 (Dyna Customize title etc.) uses PDA OBJ palette 0 in game.
+# A PLT that repeats a colour (025E304: red in 1 6 7 8 13-15) would turn a drawn index into another one on the way
+# back from PNG, so palette_for nudges each repeat by 1 in blue (real GBA colours are multiples of 8).
 PLT_FOR = {0x1E9764: 0x22CF64}
+
+
+def distinct(cols):
+    out = []
+    for c in cols:
+        while c in out:
+            c = (c[0], c[1], c[2] + 1 if c[2] < 255 else c[2] - 1)
+        out.append(c)
+    return out
 
 
 def palette_for(rom, off, bl=None):
@@ -140,7 +151,7 @@ def palette_for(rom, off, bl=None):
             for k in range(min(n, 16)):
                 v = struct.unpack_from("<H", raw, 8 + 2 * k)[0] if 10 + 2 * k <= len(raw) else 0
                 cols.append(((v & 31) * 8, (v >> 5 & 31) * 8, (v >> 10 & 31) * 8))
-            return cols, bl[j][0]
+            return distinct(cols), bl[j][0]
     raise ValueError(f"no PLT after {off:07X}")
 
 

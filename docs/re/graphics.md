@@ -139,6 +139,20 @@ its font at run time (dialogue, the boot date prompt, the profile popup) is stri
   abbreviations (D15), status line "Mon, period 1 = [icon]": its PAT (0x22F194: weekday frames 0x22F246..,
   digit frames 0x22F2E2 + 0x22n) re-laid by `gfx.tt_patches`. Gradient boxes take a list as ink (per-box
   gradient). `tools/pxdump.py OFF x0 y0 x1 y1` prints a block's palette indices.
+- **Done (worker 9):** "Customize Dyna" title (01E9764, mode 13; no PLT: `gfx.PLT_FOR`; the title runs over two
+  atlas pieces, so a redraw box may be a list of segments), "Team Setup" title (03B29B4) + menu Add/Swap / Remove /
+  Done (BG tiles of 03B25A4 re-laid by MAP_PATCHES on the raw SCR 0x3B2854), "Place Dyna" title (025E304,
+  mode 28). Still JP in 025E304: いどう, コマンドせんたく, てきのエリア, もどる, ステー.., small てきエリア (placement
+  states not reached: need scenes). Same block 01E9764: てもちの アイテム▶▶ いっぱい なので / デバイスを はずすことが
+  できません (a full-inventory popup, layout unknown).
+- **Palette gotcha (worker 9):** a PLT that repeats a colour turned drawn indices into other ones on the PNG round
+  trip (025E304 pale 7 -> navy 1; latent in 020EB44 / 02124B4 / 0219CB4). `gfx.palette_for` now nudges repeats
+  (`gfx.distinct`) and `gfx_text.render` fails if any drawn index would not come back.
+- **Minigames (next):** block 03D5DB4 is the minigame UI charset: small kana + 12 Latin capitals composed by maps
+  (げんざいの きろく, Ｎてん, Rボタンを おすと ゲームの せつめいを ひょうじします on the title, scene
+  `mode_minigame_a`), big words とくてん, のこりじかん, おわる, クリア, やめ, オーバー, レベル123, タイムアップ,
+  ゲームスタート！ (BG, maps not found yet). 03D7FD4 = help header ミニゲーム１２３ のあそびかた + the R line + button
+  legend.
 - **Title block 0449734 (worker 7 survey):** logo stays JP (D5: no official English logo). Text in it,
   scene `mode_title` (OBJ 2D, OBJ tile n = block tile n, ppu dump f930): copyright ©2002 スマイルソフト = rows
   12-13 c0-12 (outlined 16 px glyphs in shades 2-5), OAM x68 / x76 / x108 / x140 at y140; エンブレム label = r12

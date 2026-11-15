@@ -2,12 +2,27 @@
 
 Updated at the end of every session. Keep it to what the next session needs; history is in git.
 
-- **Phase:** 8. QA in the emulator: in progress (script coverage sweep 8 running; field menu, profile form,
-  keyboard, PDA home / address book / calendar / money diary / calculator / memo / save dialog / link menu /
-  link check / title screen graphics done). Phase 7 done 2026-11-15. Last build: `build/dynadevice_blue_en.gba`
-  2026-11-15 (title), sha1 98687714..., check.py ok, lint 0/0 (137 strings wider than JP under guessed budgets:
-  `lint.py --guess`, `docs/review/guess_wide.txt`).
-- **Latest session (2026-11-15, worker 8):** sweep 8 had died with its worker (631 dirs): restarted as **sweep 9**
+- **Phase:** 8. QA in the emulator: in progress (coverage masha-1 sweep done, masha-2 sweep running; field menu,
+  profile form, keyboard, PDA home + wheel / address book / calendar / money diary / calculator / memo / timetable
+  / save dialog / link menu / link check / title screen / Customize Dyna / Team Setup / Place Dyna graphics done).
+  Phase 7 done 2026-11-15. Last build: `build/dynadevice_blue_en.gba` 2026-11-15 (worker 9), sha1 bc8f038a...,
+  check.py ok, lint 0/0 (137 strings wider than JP under guessed budgets: `lint.py --guess`,
+  `docs/review/guess_wide.txt`).
+- **Latest session (2026-11-15, worker 9, handed off at the context limit):** sweep 9 had died at s728: sweep 10
+  finished the masha-1 pass (**2522/5536 shown or waived; 778 messages, 2236 strings unshown**, `cover.py report`).
+  **Masha-2 sweep started** (`cover.py scripts --masha 2 --jobs 1`, log `work/qa/cover/sweep_m2.log`, a
+  background job of this worker's shell: next worker, if no Mesen of this repo runs `cover`, rerun the same command
+  (finished runs are skipped), then `cover.py report`). Graphics (docs/re/graphics.md "PDA screens", worker 9):
+  PDA wheel labels all seen (scenes `pda_up*`, `pda_down4`); **timetable 022CF64** (logo, Mon..Sat, "Pick a
+  Subject", "Erase One", status line "Mon, period 1 = [icon]" via PAT x patches `gfx.tt_patches`, subject icons
+  as 3-letter abbreviations, **D15**); **Customize Dyna** title 01E9764; **Team Setup** title 03B29B4 + menu
+  Add/Swap / Remove / Done (03B25A4, SCR 0x3B2854 re-laid); **Place Dyna** title 025E304. Fixed a palette bug:
+  repeated PLT colours turned drawn indices into others on the PNG round trip (`gfx.distinct`; `gfx_text.render`
+  now asserts the round trip). New: `tools/pxdump.py` (palette indices of a block region), gfx_text fonts `tall` /
+  `tallb`, list ink = per-box gradient, segment boxes. Next graphics: minigames (03D5DB4 charset + maps, 03D7FD4
+  help header; scene `mode_minigame_a`), the rest of 025E304 (placement states: add scenes), 0203D14 Dyna naming,
+  battle 0250924, 020B0F4's screen, fortune box.
+- **Session before (2026-11-15, worker 8):** sweep 8 had died with its worker (631 dirs): restarted as **sweep 9**
   (`cover.py scripts --jobs 1`, log `work/qa/cover/sweep9.log`, 702+ dirs at hand-off; same rule: if no Mesen of
   this repo runs `cover`, rerun it, then `cover.py report`). Free RAM was 0.8 GB (other projects' Mesens).
   **Title screen 0449734 in English** (docs/re/graphics.md "PDA screens" title entry): Emblem, ©2002 SMILESOFT,
