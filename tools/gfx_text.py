@@ -340,6 +340,23 @@ ATLASES = {
         "redraw": [("Place Dyna", (0, 0, 80, 16), "row", [7, 7, 7, 8, 8, 8, 9, 9, 9, 10, 10, 11, 11, 11], 12,
                     "tallb", 1, {7, 8, 9, 10, 11, 12})],
     },
+    # Dyna get / naming (mode 45 = scene dyna_new / dyna_name; OBJ 2D, block 0203D14 31 tiles wide, OBJ tile 480 +
+    # 32 * row + col). Info panel = PAT 0x204234 frame 2 (frame 1 = labels only): labels タイプ / スタイル / ぞくせい
+    # = 32x8 r4 c0-3 / c4-7 / c8-11 (orange gradient 7..3 on transparent); white ink 1 message lines, all from x8:
+    # r4 c12-19 | r5 c0-7 | r5 c8-11 | r5 c15-18 + r5 c6 | r5 c19-22 + r4 c21-22. r5 c6 (の) ends lines 2 and 4
+    # (x56 / x40), so it and c7 are blanked: line 2 keeps to c0-5, line 4 to c15-18. Naming prompt (7 sprites placed by code, y0): r0 c17-28 then
+    # r2 c17-30, one 208 px strip from screen x16 (blue bar x33-207). NEW! art is English already.
+    0x203D14: {
+        "redraw": [(t, (x, 32, x + 32, 40), "row", [7, 7, 6, 6, 5, 4, 3, 3], None, "vwf", 0, {3, 4, 5, 6, 7}, "left")
+                   for t, x in (("Type", 0), ("Style", 32), ("Element", 64))]
+                  + [(t, box, "row", 1, None, "vwf", 1, {1}, "left")
+                     for t, box in (("This is your", (96, 32, 160, 40)), ("first Dyna", (0, 40, 48, 48)),
+                                    ("", (48, 40, 64, 48)), ("of this", (64, 40, 96, 48)),
+                                    ("style &", (120, 40, 152, 48)),
+                                    ("element!", [(152, 40, 184, 48), (168, 32, 184, 40)]))]
+                  + [("Please give this Dyna a name.", [(136, 0, 232, 16), (136, 16, 248, 32)], "row", 1, None,
+                      "vwf", 3, {1})],
+    },
     # Team setup (mode 33 = scene mode_team). Title チームへんせい: OBJ block 03B29B4 (OBJ tile 32 * row + col),
     # three 32x16 pieces r0-1 c5-16 = atlas x40-135, timetable-logo style. Menu words: BG0 tiles of block 03B25A4
     # (11 tiles wide; white ink 1 on transparent, no shadow), laid out by the raw SCR at 0x3B2854 (12x7, words =
@@ -530,7 +547,9 @@ def redraw(a, spec):
         grad = ink if isinstance(ink, list) else spec.get("grad", {}).get(ink)
         if isinstance(ink, list):
             ink = ink[0]
-        kill = own[0] if own else clear.get(ink, {ink})   # optional 8th item: this box's own clear set
+        # optional 8th item: this box's own clear set (None = the spec's); 9th: "left" = start 1 px into the box
+        kill = own[0] if own and own[0] is not None else clear.get(ink, {ink})
+        left = len(own) > 1 and own[1] == "left"
         if fill.startswith("vote:"):
             bg = vote_bg[fill[5:]]
             for y in range(y0, y1):
@@ -554,7 +573,7 @@ def redraw(a, spec):
         room = x1 - x0 - (2 if ring else 1 if shadow is not None else 0)
         if w > room + (1 if shadow is not None and not ring else 0):   # a drop shadow may be clipped at the right
             raise ValueError(f"{text!r} is {w} px, box {x0}-{x1} holds {room}")
-        ox = x0 + (1 if ring else 0) + (room - w + 1) // 2
+        ox = x0 + (1 if ring else 0) + (1 if left else (room - w + 1) // 2)
         oy = y0 + dy
         ink_at = {(ox + px_, oy + py) for px_, py in pix}
         if ring and shadow[0] == "ring2":   # ("ring2", orth, diag): side neighbours one colour, corners another

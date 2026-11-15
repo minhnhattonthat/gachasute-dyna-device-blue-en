@@ -172,8 +172,14 @@ its font at run time (dialogue, the boot date prompt, the profile popup) is stri
   index 2336 (PLT 2337 = literal 0x921 at 0x0803F6FC / 0x0803F868 / 0x0804067C): loaded by 0x0803F574 (called from
   state task 0x0803F3A4 of the task table at 0x080D2B48: 0x0803ED7D, 0x0803EDBD, 0x0803F3A5, 0x0803F871..),
   0x0803F704 (from 0x080404EC / 0x08040516) and 0x0804046C (mode 45 chain 0x08040A28 -> 0x080409AC -> 0x08040860;
-  runs at f279 of `mode_pda_45` but the block is not in VRAM: the load sits behind a branch). Next: find what
-  starts the 0x080D2B48 table (a Dyna-get flow after a battle or the gacha), or force that branch in mode 45.
+  runs at f279 of `mode_pda_45` but the block is not in VRAM: the load sits behind a branch).
+  **Done (worker 11):** mode 45's frame task (0x08040960) runs the 0x080D2B48 state machine (state u16 0x02011148)
+  whenever 0x0801A9B8 returns 0; A presses walk it: state 4 (f809) = the NEW! panel, then a message and the
+  naming keyboard (scenes `dyna_new`, `dyna_name`; `work/qa/gfx_en/dyna/`). OBJ tile = 480 + 32 * row + col.
+  Panel sprites = PAT 0x204234 frame 2 (frame 1 = the three labels alone; frame 0 = the frame pieces); the naming
+  prompt is 7 sprites placed by code at y0. English: Type / Style / Element, "This is your / first Dyna / of this
+  / style & / element!" (r5 c6 ends lines 2 and 4, so it is blank), "Please give this Dyna a name." (the
+  string in s-scripts says the same). gfx_text redraw boxes take a 9th item "left".
 - **Title block 0449734 (worker 7 survey):** logo stays JP (D5: no official English logo). Text in it,
   scene `mode_title` (OBJ 2D, OBJ tile n = block tile n, ppu dump f930): copyright ©2002 スマイルソフト = rows
   12-13 c0-12 (outlined 16 px glyphs in shades 2-5), OAM x68 / x76 / x108 / x140 at y140; エンブレム label = r12

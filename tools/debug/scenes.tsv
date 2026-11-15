@@ -181,3 +181,5 @@ mini_help_b	mode	42 300 -;6 r;150 -	200	mode 42 minigame title 2, R: how-to-play
 mini_pause	mode	40 300 -;6 a;100 -;6 start;120 -	200	mode 40 minigame, A then START: pause (ギブアップしますか？ はい=Aボタン いいえ=Bボタン)
 mini_giveup	mode	40 300 -;6 a;100 -;6 start;120 -;6 a;300 -	300	mode 40 minigame, START then A: give up (results: Bits Earned / Your Bits)
 mini_long	mode	40 300 -;6 a;3600 -	300	mode 40 minigame, A then wait: Start!, Game Over / results (Bits Earned, Your Bits, New Record!)
+dyna_new	mode	45 300 -;6 a;120 -;6 a;120 -;6 a;400 -	120	mode 45 Dyna get (state machine 0x080D2B48): NEW! panel, labels + "first Dyna" message (block 0203D14)
+dyna_name	mode	45 300 -;6 a;120 -;6 a;120 -;6 a;120 -;6 down;30 -;6 a;120 -;6 start;120 -;6 b;120 -;6 a;150 -;6 a;150 -;6 a;150 -;6 a;150 -;6 a;150 -	200	mode 45 Dyna get, A through: naming keyboard + prompt "Please give this Dyna a name." (block 0203D14)
