@@ -141,6 +141,7 @@ mode_minigame_level	mode	41	600	mode 41: minigame level select (レベル1-3)
 mode_minigame_b	mode	42	600	mode 42: minigame title 2
 mode_card2	mode	43	600	mode 43: めいしこうかん 2
 mode_form	mode	44	60	mode 44: profile form, empty (mode 1 = date prompt goes here at boot; idle it returns to mode 50)
+form_scroll	mode	44 60 -;6 a;60 -;6 down;20 -;6 down;20 -;6 down;20 -;6 down;20 -;6 down;20 -;6 down;20 -;6 down;20 -;6 down;20 -	60	profile form scrolled to the bottom (けいたい, メールアドレス, たんじょうび, けつえきがた labels)
 mode_pda_45	mode	45	600	mode 45: PDA page
 mode_opening	mode	46	1500	mode 46: opening movie (Dyna Pad, device cards, green spec panels), then the title (mode 39) at ~4700 frames
 mode_map_test	mode	47	600	mode 47: map test (house room)

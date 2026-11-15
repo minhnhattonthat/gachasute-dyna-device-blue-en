@@ -73,6 +73,24 @@ ATLASES = {
             ("Keywords", [(2, 13)] + tiles(4, 8, 11) + [(2, 18)]),
         ],
     },
+    # Profile form (BG2, block 020EB44, ink index 4): one-tile-high labels set into the field lines (line at tile
+    # y 2, label tiles between 6,29..6,31 frame tiles; tools/bgmap.py on scenes form / form_scroll). The phone
+    # labels share their last 3 tiles (ばんごう 8,11-13): "Home" / "Mobile" end flush right, "Tel." starts flush left.
+    0x20EB44: {
+        "ink": 4,
+        "rows": [
+            ("Name", tiles(7, 0, 2)),
+            ("Nickname", tiles(7, 3, 7)),
+            ("Gender", tiles(8, 0, 3)),
+            ("Address", tiles(8, 4, 7), "tight"),
+            ("Home", tiles(8, 8, 10), "right"),
+            ("Tel.", tiles(8, 11, 13), "left"),
+            ("Mobile", tiles(8, 14, 17), "right"),
+            ("Email", tiles(8, 18, 23)),
+            ("Birthday", tiles(8, 24, 28)),
+            ("Blood Type", tiles(7, 25, 30)),
+        ],
+    },
 }
 
 
@@ -117,12 +135,14 @@ def clear_strip(atlas, columns):
                 atlas.set(t, tx, ty, 0)
 
 
-def draw_text(atlas, text, w, top, cell):
-    """Draw `text` centred in a span `w` px wide; cell(x, y) -> (tile, tx, ty) or raises for a blank column."""
+def draw_text(atlas, text, w, top, cell, align="centre", ink=INK):
+    """Draw `text` in a span `w` px wide (1 px margin each side; "left"/"right" hug that margin, for a word that
+    continues in the next span); cell(x, y) -> (tile, tx, ty) or raises for a blank column."""
     tw = vwf.width(text) - 1
-    if tw > w - 2:
-        raise ValueError(f"{text!r} is {tw} px, the label holds {w - 2}")
-    x = (w - tw + 1) // 2
+    room = w if align == "tight" else w - 2   # "tight": no margin, for a label set off by a gap in its frame
+    if tw > room:
+        raise ValueError(f"{text!r} is {tw} px, the label holds {room}")
+    x = {"left": 1, "right": w - 1 - tw, "tight": (w - tw) // 2}.get(align, (w - tw + 1) // 2)
     font = vwf.font()
     for ch in text:
         adv, rows = font[ch]
@@ -130,7 +150,7 @@ def draw_text(atlas, text, w, top, cell):
             for gx in range(adv - 1):
                 if bits & (0x80 >> gx):
                     t, tx, ty = cell(x + gx, top + gy)
-                    atlas.set(t, tx, ty, INK)
+                    atlas.set(t, tx, ty, ink)
         x += adv
 
 
@@ -153,18 +173,19 @@ def render(rom, off):
         for y in range(8):
             for x in range(8):
                 a.set(t, x, y, 0)
-    for _, columns in spec["labels"]:
+    ink = spec.get("ink", INK)
+    for _, columns in spec.get("labels", []):
         clear_strip(a, columns)
-    for _, columns in spec.get("rows", []):
+    for _, columns, *_ in spec.get("rows", []):
         for t in filter(None, columns):
             for y in range(8):
                 for x in range(8):
-                    if a.get(t, x, y) == INK:
+                    if a.get(t, x, y) == ink:
                         a.set(t, x, y, 0)
-    for text, columns in spec["labels"]:
+    for text, columns in spec.get("labels", []):
         draw_text(a, text, len(columns) * 8, TEXT_Y, lambda x, y, c=columns: strip_cell(c, x, y))
-    for text, columns in spec.get("rows", []):
-        draw_text(a, text, len(columns) * 8, 0, row_cell(text, columns))   # caps rows 0-6, descenders row 7
+    for text, columns, *align in spec.get("rows", []):   # caps rows 0-6, descenders row 7
+        draw_text(a, text, len(columns) * 8, 0, row_cell(text, columns), *(align or ["centre"]), ink=ink)
     return a.image()
 
 
@@ -175,7 +196,8 @@ def main(argv):
         img = render(rom, off)
         path = gfx.GFX / f"{off:07X}.png"
         img.save(path)
-        print(f"{path.relative_to(ROOT)}: {len(ATLASES[off]['labels'])} labels")
+        spec = ATLASES[off]
+        print(f"{path.relative_to(ROOT)}: {len(spec.get('labels', [])) + len(spec.get('rows', []))} labels")
         if "--zoom" in argv:
             z = ROOT / "work" / "gfx" / "en"
             z.mkdir(parents=True, exist_ok=True)

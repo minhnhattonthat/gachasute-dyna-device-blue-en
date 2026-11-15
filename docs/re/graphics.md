@@ -43,6 +43,19 @@ its font at run time (dialogue, the boot date prompt, the profile popup) is stri
   BG1 (the window) uses 4,23 and cols 24-26, and VRAM past col 26 holds other art. Submenu words sit at tile y 0-6
   (descenders y 7); bar words at y 3-9 of the 16 px band. `tools/lua/ppu_every.lua` + regen `--probe` dumps VRAM.
 
+## Profile form (block 020EB44, not in the sweep table: the sweep listed it under 020E844)
+- BG2 (char 0x4000, screen 0x2000, 64-row map): field lines are tiles 6,29 (start) 6,30 (line at tile y 2) 6,31
+  (end); each label is one tile row of the atlas between them, ink index 4, kana at tile y 0-5.
+  `python -X utf8 tools/bgmap.py work/qa/form_dump/form_scroll/ppu_001830 9000 --count 288 --full` lists them:
+  なまえ 7,0-2; ニックネーム 7,3-7; せいべつ 8,0-3; じゅうしょ 8,4-7; でんわ 8,8-10 + ばんごう 8,11-13;
+  けいたい 8,14-17 + the same ばんごう; メールアドレス 8,18-23; たんじょうび 8,24-28; けつえきがた 7,25-30.
+- **Done 2026-11-15:** Name, Nickname, Gender, Address, Home Tel., Mobile Tel., Email, Birthday, Blood Type
+  (`gfx_text.py` entry 0x20EB44; in game `work/qa/gfx_en/form*/`). Open: tiles 7,17-20 / 7,21-24 (two tiny boxed
+  words, map rows 36-37 beside the blood-type label: find the screen that scrolls them in), the おわる button.
+- The form's popup (ユーザーとうろくを おこないます / あなたの データを にゅうりょくしてください) is **OBJ**
+  art from block 02124B4 (pre-drawn sentences, not a charset: also このデータを けしても いいですか？, けす＝Aボタン
+  けさない＝Bボタン, アドレスのついか, リセット データをけす). Needs the OAM layout (ppu dump at f1080, scene `form`).
+
 ## Rows (ROM offset of the ECD block)
 | Offset | Sheet | Japanese | Gloss | Kind |
 |---|---|---|---|---|
