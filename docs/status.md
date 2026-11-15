@@ -21,7 +21,11 @@ Updated at the end of every session. Keep it to what the next session needs; his
   minigame scenes on the new build, `vqa_run.py` on the 136 changed sheets (chunks renamed `w23_*` so they don't
   overwrite the old `chunk_NNN.tsv` verdicts), second look in `work/qa/verdicts/zz23*_review.tsv` (7 false
   positives: player-typed JP names, page-spanning sentence, keyboard grid fading in, colons present, title colon).
-  Coverage sweep `cover.py msgs --hold 1500 --jobs 1` resumed (log `work/qa/cover/msgs.log`).
+  Coverage sweep `cover.py msgs --hold 1500 --jobs 1` resumed, **stopped by Claude Code for low system memory at
+  s803** (other projects' Mesen): **4425/5536 shown or waived, 28 messages + 1083 strings left**. Next: rerun the
+  same command (finished scripts are skipped; check no `cover.py` python is alive first), then the strings
+  (`cover_tables.py --unshown`: item/food descriptions, Dyna/Device lists, Database help pages; ideas in worker 21's
+  entry), then `textcover.py` exit 0 = phase 8 done.
 - **Session before (2026-11-15, worker 22):** **Open VQA bugs (2)-(6) fixed** (verdicts in
   `work/qa/verdicts/zz_review.tsv`, shots `work/qa/fix22/`): date rows t0B90B4 / t0B8F50 / t0B98C4 spaced so the
   code-drawn 16 px digits sit in the JP cells ("2000 / 00 / 00"; lint now accepts full-width ０-９ and －, which
