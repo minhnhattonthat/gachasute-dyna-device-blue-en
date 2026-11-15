@@ -60,10 +60,11 @@ MINI_SMALL = [15, 14, 14, 13, 13, 12, 12, 12]
 MINI_SMALLK = {12, 13, 14, 15}
 _S5 = gfx._S5
 MINI_WORDS = [("High", _S5[0:3]), ("Score", _S5[3:6]), ("Clear Time", _S5[6:12]), ("New Record!", _S5[12:19]),
-              ("Bits Earned", _S5[19:25]), ("Your Bits", _S5[25:30]), ("Give up?", _S5[30:35]), ("Yes", _S5[35:37]),
+              ("Bits Earned", _S5[19:25]), ("Your Bits", _S5[25:30]), ("Give up", _S5[30:35]), ("Yes", _S5[35:37]),
               ("No", _S5[37:39]), ("Which level?", _S5[39:46]),
               ("", [(3, 0)]), ("", [(3, 1)]), ("s", [(3, 2)]), ("", [(3, 3)]), ("", [(3, 4)]), ("m", [(5, 19)])]
-MINI_BOX = {"No": 10}   # "B=No": keep it next to the "=" tile
+MINI_BOX = {"No": 10,   # "B=No": keep it next to the "=" tile
+            "Give up": 32}   # centred in the pause box (gfx.MINI_ROWS note)
 # PDA calendar / money diary weekday glyphs (glossary weekdays: Sun..Sat, two letters where a glyph is 16 px)
 WEEKDAYS = ["Su", "Mo", "Tu", "We", "Th", "Fr", "Sa"]
 WEEK_GRAD = [14, 14, 14, 13, 13, 13, 13, 12, 12, 12, 12, 11, 11, 11]
